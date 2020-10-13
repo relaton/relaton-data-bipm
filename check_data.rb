@@ -67,14 +67,14 @@ errors = false
 Dir[path].each do |f|
   begin
     yaml = YAML.load_file(f)
-    # hash = RelatonIho::HashConverter.hash_to_bib yaml
-    # item = RelatonIho::IhoBibliographicItem.new hash
-    # if (messages = compare(yaml, item.to_hash))&.any?
-    #   errors = true
-    #   puts "Parsing #{f} failed. Parsed content doesn't match to source."
-    #   print_msg messages
-    #   puts
-    # end
+    hash = RelatonBipm::HashConverter.hash_to_bib yaml
+    item = RelatonBipm::BipmBibliographicItem.new hash
+    if (messages = compare(yaml, item.to_hash))&.any?
+      errors = true
+      puts "Parsing #{f} failed. Parsed content doesn't match to source."
+      print_msg messages
+      puts
+    end
   rescue ArgumentError, NoMethodError, TypeError => e
     errors = true
     puts "Parsing #{f} failed. Error: #{e.message}."

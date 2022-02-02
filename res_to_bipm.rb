@@ -17,6 +17,7 @@
 #
 
 require 'yaml'
+require 'date'
 require 'fileutils'
 require 'relaton_bipm'
 
@@ -29,9 +30,10 @@ def title(content, language)
 end
 
 Dir[source_path].each do |en_file|
-  en = YAML.load_file en_file
+  en = YAML.load_file en_file, permitted_classes: [Date]
   fr_file = en_file.sub 'en', 'fr'
-  fr = YAML.load_file fr_file
+  fr = YAML.load_file fr_file, permitted_classes: [Date]
+  puts "Processing #{en_file}" unless en['metadata']['title']
   pref = en['metadata']['title']&.match(/CGPM|CIPM/)&.to_s
 
   en['resolutions'].each.with_index do |r, i|
@@ -48,7 +50,7 @@ Dir[source_path].each do |en_file|
     pref ||= r['subject'].match(/CGPM|CIPM/).to_s
     num = pref + num
     id = "#{num}-#{part}"
-    hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM')]
+    hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
     hash[:link] = [
       { type: 'src', content: r['url'] },
       { type: 'doi', content: r['reference'] }
@@ -60,7 +62,7 @@ Dir[source_path].each do |en_file|
       role: [{ type: 'publisher' }]
     }]
     hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num, part: part
-    item = RelatonBipm::BipmBibliographicItem.new hash
+    item = RelatonBipm::BipmBibliographicItem.new(**hash)
     out_file = "#{id}.yaml"
     File.write File.join(dir, out_file), item.to_hash.to_yaml, encoding: 'UTF-8'
   end

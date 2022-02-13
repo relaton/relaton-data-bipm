@@ -29,10 +29,10 @@ def title(content, language)
   { content: content, language: language, script: 'Latn' }
 end
 
-Dir[source_path].each do |en_file|
-  en = YAML.load_file(en_file, permitted_classes: [Date])['metadata']
+Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
+  en = YAML.safe_load_file(en_file, permitted_classes: [Date])['metadata']
   fr_file = en_file.sub 'en', 'fr'
-  fr = YAML.load_file(fr_file, permitted_classes: [Date])['metadata']
+  fr = YAML.safe_load_file(fr_file, permitted_classes: [Date])['metadata']
   puts "Processing #{en_file}" unless en['title']
   # pref = en['metadata']['title']&.match(/CGPM|CIPM/)&.to_s
 
@@ -51,7 +51,7 @@ Dir[source_path].each do |en_file|
   hash[:language] = %w[en fr]
   hash[:script] = ['Latn']
   hash[:contributor] = [{
-    entity: { url: 'www.bipm.org', name: 'Bureau Intrnational des Poids et Mesures', abbreviation: 'BIPM' },
+    entity: { url: 'www.bipm.org', name: 'Bureau International des Poids et Mesures', abbreviation: 'BIPM' },
     role: [{ type: 'publisher' }]
   }]
   hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
@@ -81,7 +81,7 @@ Dir[source_path].each do |en_file|
   #   hash[:language] = %w[en fr]
   #   hash[:script] = ['Latn']
   #   hash[:contributor] = [{
-  #     entity: { url: 'www.bipm.org', name: 'Bureau Intrnational des Poids et Mesures', abbreviation: 'BIPM' },
+  #     entity: { url: 'www.bipm.org', name: 'Bureau International des Poids et Mesures', abbreviation: 'BIPM' },
   #     role: [{ type: 'publisher' }]
   #   }]
   #   hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num, part: part

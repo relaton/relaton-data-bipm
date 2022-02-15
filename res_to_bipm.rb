@@ -24,40 +24,73 @@ require 'relaton_bipm'
 dir = 'data'
 FileUtils.mkdir_p dir unless File.exist? dir
 source_path = File.join ARGV[0], '*.{yml,yaml}'
+@files = []
 
 def title(content, language)
   { content: content, language: language, script: 'Latn' }
 end
 
-Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
-  en = YAML.safe_load_file(en_file, permitted_classes: [Date])['metadata']
-  fr_file = en_file.sub 'en', 'fr'
-  fr = YAML.safe_load_file(fr_file, permitted_classes: [Date])['metadata']
-  puts "Processing #{en_file}" unless en['title']
-  # pref = en['metadata']['title']&.match(/CGPM|CIPM/)&.to_s
+def add_part(hash, part)
+  id = hash[:docid][0].instance_variable_get(:@id)
+  id += "-#{part}"
+  id.instance_variable_set(:@id, id)
+  hash[:structuredidentifier].instance_variable_set :@part, part
+end
 
-  pref = case en_file
-         when /cgpm/ then 'CR'
-         when /cipm/ then 'PV'
-         end
-  type, num = File.basename(en_file).split('.')[0].split '-'
-  hash = { title: [], doctype: type }
-  en['title'] && hash[:title] << title(en['title'], 'en')
-  fr['title'] && hash[:title] << title(fr['title'], 'fr')
-  hash[:date] = [{ type: 'published', on: en['date'] }]
-  id = "#{pref} #{num}"
-  hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{id}", type: 'BIPM', primary: true)]
-  hash[:link] = [{ type: 'src', content: en['url'] }]
+def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
+  hash = { title: [], doctype: args[:type] }
+  args[:en]['title'] && hash[:title] << title(args[:en]['title'], 'en')
+  args[:fr]['title'] && hash[:title] << title(args[:fr]['title'], 'fr')
+  hash[:date] = [{ type: 'published', on: args[:en]['date'] }]
+  hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{args[:id]}", type: 'BIPM', primary: true)]
+  hash[:link] = [{ type: 'src', content: args[:en]['url'] }]
   hash[:language] = %w[en fr]
   hash[:script] = ['Latn']
   hash[:contributor] = [{
     entity: { url: 'www.bipm.org', name: 'Bureau International des Poids et Mesures', abbreviation: 'BIPM' },
     role: [{ type: 'publisher' }]
   }]
-  hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
-  item = RelatonBipm::BipmBibliographicItem.new(**hash)
-  out_file = "#{id.gsub(' ', '-')}.yaml"
-  File.write File.join(dir, out_file), item.to_hash.to_yaml, encoding: 'UTF-8'
+  hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: args[:num]
+  hash
+end
+
+Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
+  en = YAML.safe_load_file(en_file, permitted_classes: [Date])['metadata']
+  fr_file = en_file.sub 'en', 'fr'
+  fr = YAML.safe_load_file(fr_file, permitted_classes: [Date])['metadata']
+  # puts "Processing #{en_file}" unless en['title']
+  # pref = en['metadata']['title']&.match(/CGPM|CIPM/)&.to_s
+
+  pref = case en_file
+         when /cgpm/ then 'CR'
+         when /cipm/ then 'PV'
+         end
+  type = File.basename(en_file).split('.')[0].split('-')[0]
+  /^(?<num>\d+)(?:-_(?<part>\d+))?-\d{4}$/ =~ en['url'].split('/').last
+  id = "#{pref} #{num}"
+  file = "#{id.gsub(' ', '-')}.yaml"
+  path = File.join dir, file
+  hash = bibitem type: type, en: en, fr: fr, id: id, num: num
+  if @files.include?(file) && part
+    add_part hash, part
+    bib = RelatonBipm::BipmBibliographicItem.new(**hash)
+    yaml = YAML.safe_load_file(path, permitted_classes: [Date])
+    item = RelatonBipm::BipmBibliographicItem.from_hash(yaml)
+    item.relation << RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: bib)
+  elsif part
+    hash[:title].each { |t| t[:content] = t[:content].sub(/\s\(.+\)$/, '') }
+    link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/#{file}"
+    hash[:link] = [{ type: 'src', content: link }]
+    h = bibitem type: type, en: en, fr: fr, id: id, num: num
+    add_part h, part
+    bib = RelatonBipm::BipmBibliographicItem.new(**h)
+    hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: bib)]
+    item = RelatonBipm::BipmBibliographicItem.new(**hash)
+  else
+    item = RelatonBipm::BipmBibliographicItem.new(**hash)
+  end
+  @files << file
+  File.write path, item.to_hash.to_yaml, encoding: 'UTF-8'
 
   # en['resolutions'].each.with_index do |r, i|
   #   hash = { title: [], doctype: 'resolution' }

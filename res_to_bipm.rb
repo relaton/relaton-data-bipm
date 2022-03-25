@@ -2,13 +2,14 @@
 # frozen_string_literal:true
 
 ##
-# Converts BIPM resolutions from https://github.com/metanorma/cipm-resolutions
-# and https://github.com/metanorma/cgpm-resolutions to Relaton YAML format.
+# Converts BIPM resolutions from https://github.com/metanorma/bipm-data-outcomes,
+# https://github.com/metanorma/cipm-resolutions, and
+# https://github.com/metanorma/cgpm-resolutions to Relaton YAML format.
 #
 # Usage:
 # $ ./res_to_bipm.rb DIR
 #
-# DIR is a path to EN version of source files directory.
+# DIR is a path to bipm-data-outcomes repository.
 #
 # Example:
 # $ ./res_to_bipm.rb ../cgpm-resolutions/meetings-en
@@ -21,15 +22,21 @@ require 'date'
 require 'fileutils'
 require 'relaton_bipm'
 
-dir = 'data'
-FileUtils.mkdir_p dir unless File.exist? dir
-source_path = File.join ARGV[0], '*.{yml,yaml}'
+@output_dir = 'data'
+FileUtils.mkdir_p @output_dir unless File.exist? @output_dir
+source_path = File.join ARGV[0], 'bipm-data-outcomes', '{cctf,cgpm,cipm}' # '*.{yml,yaml}'
 @files = []
 
 def title(content, language)
   { content: content, language: language, script: 'Latn' }
 end
 
+#
+# Add part to ID and structured identifier
+#
+# @param [Hash] hash Hash of BIPM meeting
+# @param [String] session number of meeting
+#
 def add_part(hash, part)
   id = hash[:docid][0].instance_variable_get(:@id)
   id += "-#{part}"
@@ -37,12 +44,25 @@ def add_part(hash, part)
   hash[:structuredidentifier].instance_variable_set :@part, part
 end
 
+#
+# Create hash from BIPM meeting/resolution
+#
+# @param [Hash] **args Hash of arguments
+# @option args [String] :type Type of meeting/resolution
+# @option args [Hash] :en Hash of English metadata
+# @option args [Hash] :fr Hash of French metadata
+# @option args [String] :id ID of meeting/resolution
+# @option args [String] :num Number of meeting/resolution
+#
+# @return [Hash] Hash of BIPM meeting/resolution
+#
 def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   hash = { title: [], doctype: args[:type] }
   args[:en]['title'] && hash[:title] << title(args[:en]['title'], 'en')
   args[:fr]['title'] && hash[:title] << title(args[:fr]['title'], 'fr')
   hash[:date] = [{ type: 'published', on: args[:en]['date'] }]
   hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{args[:id]}", type: 'BIPM', primary: true)]
+  hash[:docnumber] = args[:id]
   hash[:link] = [{ type: 'src', content: args[:en]['url'] }]
   hash[:language] = %w[en fr]
   hash[:script] = ['Latn']
@@ -54,23 +74,78 @@ def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   hash
 end
 
-Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
-  en = YAML.safe_load_file(en_file, permitted_classes: [Date])['metadata']
-  fr_file = en_file.sub 'en', 'fr'
-  fr = YAML.safe_load_file(fr_file, permitted_classes: [Date])['metadata']
-  # puts "Processing #{en_file}" unless en['title']
-  # pref = en['metadata']['title']&.match(/CGPM|CIPM/)&.to_s
+def write_file(path, item, part = nil)
+  if @files.include?(path) && part.nil?
+    warn "File #{path} already exists"
+  else
+    @files << path
+  end
+  File.write path, item.to_hash.to_yaml, encoding: 'UTF-8'
+end
 
-  pref = case en_file
-         when /cgpm/ then 'CR'
-         when /cipm/ then 'PV'
-         end
-  type = File.basename(en_file).split('.')[0].split('-')[0]
-  /^(?<num>\d+)(?:-_(?<part>\d+))?-\d{4}$/ =~ en['url'].split('/').last
-  id = "#{pref} #{num}"
-  file = "#{id.gsub(' ', '-')}.yaml"
-  path = File.join dir, file
-  hash = bibitem type: type, en: en, fr: fr, id: id, num: num
+#
+# Parse year from date
+#
+# @param [Hash] metadata Hash of metadata
+#
+# @return [String] Year
+#
+def year(metadata)
+  metadata['date'].split('-').first
+end
+
+def fetch_resolution(body, type, en, fr, parent_num)
+  en['resolutions'].each.with_index do |r, i|
+    hash = { title: [], doctype: 'resolution' }
+    r['title'] && hash[:title] << title(r['title'], 'en')
+    fr_title = fr['resolutions'][i]['title']
+    fr_title && hash[:title] << title(fr_title, 'fr')
+    date = r['dates'].first.to_s
+    hash[:date] = [{ type: 'published', on: date }]
+    num = r['identifier'].to_s.split('-').last
+    id_parts = [body, type, date.split('-').first]
+    id_parts.insert 2, num if num.to_i.positive? # en['resolutions'].size > 1
+    id = id_parts.join(' ').sub(/\d{4}$/, '(\0)')
+    hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{id}", type: 'BIPM', primary: true)]
+    hash[:docnumber] = id
+    hash[:link] = [
+      { type: 'src', content: r['url'] },
+      { type: 'doi', content: r['reference'] }
+    ]
+    hash[:language] = %w[en fr]
+    hash[:script] = ['Latn']
+    hash[:contributor] = [{
+      entity: { url: 'www.bipm.org', name: 'Bureau International des Poids et Mesures', abbreviation: 'BIPM' },
+      role: [{ type: 'publisher' }]
+    }]
+    hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
+    item = RelatonBipm::BipmBibliographicItem.new(**hash)
+    file = "#{id_parts.join('-').upcase}.yaml"
+    path = File.join @output_dir, file
+    write_file path, item
+  end
+end
+
+#
+# Create and write BIPM meeting/resolution
+#
+# @param [String] en_file Path to English file
+# @param [String] body Body name
+# @param [String] type Type of Recommendation/Decision/Resolution
+#
+def fetch_meeting(en_file, body, type) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+  en = YAML.safe_load_file(en_file, permitted_classes: [Date])
+  en_md = en['metadata']
+  fr_file = en_file.sub 'en', 'fr'
+  fr = YAML.safe_load_file(fr_file, permitted_classes: [Date])
+  fr_md = fr['metadata']
+
+  /^(?<num>\d+)(?:-_(?<part>\d+))?-\d{4}$/ =~ en_md['url'].split('/').last
+  tp = 'Meeting'
+  id = "#{body} #{tp} #{num}"
+  file = "#{body}-#{tp.upcase}-#{num}.yaml"
+  path = File.join @output_dir, file
+  hash = bibitem type: tp, en: en_md, fr: fr_md, id: id, num: num
   if @files.include?(file) && part
     add_part hash, part
     bib = RelatonBipm::BipmBibliographicItem.new(**hash)
@@ -81,7 +156,7 @@ Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
     hash[:title].each { |t| t[:content] = t[:content].sub(/\s\(.+\)$/, '') }
     link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/#{file}"
     hash[:link] = [{ type: 'src', content: link }]
-    h = bibitem type: type, en: en, fr: fr, id: id, num: num
+    h = bibitem type: tp, en: en_md, fr: fr_md, id: id, num: num
     add_part h, part
     bib = RelatonBipm::BipmBibliographicItem.new(**h)
     hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: bib)]
@@ -89,37 +164,22 @@ Dir[source_path].each do |en_file| # rubocop:disable Metrics/BlockLength
   else
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   end
-  @files << file
-  File.write path, item.to_hash.to_yaml, encoding: 'UTF-8'
-
-  # en['resolutions'].each.with_index do |r, i|
-  #   hash = { title: [], doctype: 'resolution' }
-  #   r['title'] && hash[:title] << title(r['title'], 'en')
-  #   fr_title = fr['resolutions'][i]['title']
-  #   fr_title && hash[:title] << title(fr_title, 'fr')
-  #   hash[:date] = [{ type: 'published', on: r['dates'].first.to_s }]
-  #   num, part = r['identifier'].to_s.split '-'
-  #   unless part
-  #     part = num
-  #     num = en_file.match(/\d+/).to_s
-  #   end
-  #   pref ||= r['subject'].match(/CGPM|CIPM/).to_s
-  #   num = pref + num
-  #   id = "#{num}-#{part}"
-  #   hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
-  #   hash[:link] = [
-  #     { type: 'src', content: r['url'] },
-  #     { type: 'doi', content: r['reference'] }
-  #   ]
-  #   hash[:language] = %w[en fr]
-  #   hash[:script] = ['Latn']
-  #   hash[:contributor] = [{
-  #     entity: { url: 'www.bipm.org', name: 'Bureau International des Poids et Mesures', abbreviation: 'BIPM' },
-  #     role: [{ type: 'publisher' }]
-  #   }]
-  #   hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num, part: part
-  #   item = RelatonBipm::BipmBibliographicItem.new(**hash)
-  #   out_file = "#{id}.yaml"
-  #   File.write File.join(dir, out_file), item.to_hash.to_yaml, encoding: 'UTF-8'
-  # end
+  write_file path, item, part
+  fetch_resolution body, type, en, fr, num
 end
+
+def fetch_type(dir, body)
+  type = if body == 'CCTF'
+           'Recommendation'
+         else
+           dir.split('/').last.split('-').first == 'decisions' ? 'Decision' : 'Resolution'
+         end
+  Dir[File.join(dir, '*.{yml,yaml}')].each { |en_file| fetch_meeting en_file, body, type }
+end
+
+def fetch_body(dir)
+  body = dir.split('/').last.upcase
+  Dir[File.join(dir, '*-en')].each { |type_dir| fetch_type type_dir, body }
+end
+
+Dir[source_path].each { |body_dir| fetch_body(body_dir) }

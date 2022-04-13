@@ -40,7 +40,7 @@ end
 def add_part(hash, part)
   id = hash[:docid][0].instance_variable_get(:@id)
   id += "-#{part}"
-  id.instance_variable_set(:@id, id)
+  hash[:docid][0].instance_variable_set(:@id, id)
   hash[:structuredidentifier].instance_variable_set :@part, part
 end
 
@@ -62,6 +62,7 @@ def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   args[:fr]['title'] && hash[:title] << title(args[:fr]['title'], 'fr')
   hash[:date] = [{ type: 'published', on: args[:en]['date'] }]
   hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{args[:id]}", type: 'BIPM', primary: true)]
+  hash[:id] = args[:id].gsub ' ', '-'
   hash[:docnumber] = args[:id]
   hash[:link] = [{ type: 'src', content: args[:en]['url'] }]
   hash[:language] = %w[en fr]
@@ -74,9 +75,9 @@ def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   hash
 end
 
-def write_file(path, item, part = nil)
-  if @files.include?(path) && part.nil?
-    warn "File #{path} already exists"
+def write_file(path, item, warn_duplicate: true)
+  if @files.include?(path)
+    warn "File #{path} already exists" if warn_duplicate
   else
     @files << path
   end
@@ -94,19 +95,21 @@ def year(metadata)
   metadata['date'].split('-').first
 end
 
-def fetch_resolution(body, type, en, fr, parent_num)
-  en['resolutions'].each.with_index do |r, i|
+def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+  eng['resolutions'].each.with_index do |r, i| # rubocop:disable Metrics/BlockLength
     hash = { title: [], doctype: 'resolution' }
     r['title'] && hash[:title] << title(r['title'], 'en')
-    fr_title = fr['resolutions'][i]['title']
+    fr_title = frn['resolutions'][i]['title']
     fr_title && hash[:title] << title(fr_title, 'fr')
     date = r['dates'].first.to_s
     hash[:date] = [{ type: 'published', on: date }]
     num = r['identifier'].to_s.split('-').last
-    id_parts = [body, type, date.split('-').first]
-    id_parts.insert 2, num if num.to_i.positive? # en['resolutions'].size > 1
+    year = date.split('-').first
+    id_parts = [body, type, year]
+    id_parts.insert 2, num if num.to_i.positive?
     id = id_parts.join(' ').sub(/\d{4}$/, '(\0)')
     hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{id}", type: 'BIPM', primary: true)]
+    hash[:id] = id_parts.join('-')
     hash[:docnumber] = id
     hash[:link] = [
       { type: 'src', content: r['url'] },
@@ -120,8 +123,9 @@ def fetch_resolution(body, type, en, fr, parent_num)
     }]
     hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
-    file = "#{id_parts.join('-').upcase}.yaml"
-    path = File.join @output_dir, file
+    file = "#{year}.yaml"
+    file = "#{num}-#{file}" if num.to_i.positive?
+    path = File.join dir, file
     write_file path, item
   end
 end
@@ -132,8 +136,9 @@ end
 # @param [String] en_file Path to English file
 # @param [String] body Body name
 # @param [String] type Type of Recommendation/Decision/Resolution
+# @param [String] dir output directory
 #
-def fetch_meeting(en_file, body, type) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   en = YAML.safe_load_file(en_file, permitted_classes: [Date])
   en_md = en['metadata']
   fr_file = en_file.sub 'en', 'fr'
@@ -141,40 +146,47 @@ def fetch_meeting(en_file, body, type) # rubocop:disable Metrics/AbcSize, Metric
   fr_md = fr['metadata']
 
   /^(?<num>\d+)(?:-_(?<part>\d+))?-\d{4}$/ =~ en_md['url'].split('/').last
-  tp = 'Meeting'
-  id = "#{body} #{tp} #{num}"
-  file = "#{body}-#{tp.upcase}-#{num}.yaml"
-  path = File.join @output_dir, file
-  hash = bibitem type: tp, en: en_md, fr: fr_md, id: id, num: num
-  if @files.include?(file) && part
+  # tp = 'Meeting'
+  id = "#{body} #{type} #{num}"
+  file = "#{num}.yaml"
+  path = File.join dir, file
+  hash = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
+  if @files.include?(path) && part
     add_part hash, part
-    bib = RelatonBipm::BipmBibliographicItem.new(**hash)
+    item = RelatonBipm::BipmBibliographicItem.new(**hash)
     yaml = YAML.safe_load_file(path, permitted_classes: [Date])
-    item = RelatonBipm::BipmBibliographicItem.from_hash(yaml)
-    item.relation << RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: bib)
+    has_part_item = RelatonBipm::BipmBibliographicItem.from_hash(yaml)
+    has_part_item.relation << RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: item)
+    write_file path, has_part_item, warn_duplicate: false
+    path = File.join dir, "#{num}-#{part}.yaml"
   elsif part
     hash[:title].each { |t| t[:content] = t[:content].sub(/\s\(.+\)$/, '') }
-    link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/#{file}"
+    link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/#{path}"
     hash[:link] = [{ type: 'src', content: link }]
-    h = bibitem type: tp, en: en_md, fr: fr_md, id: id, num: num
-    add_part h, part
-    bib = RelatonBipm::BipmBibliographicItem.new(**h)
-    hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: bib)]
+    h = bibitem type: type, en: en_md, fr: fr_md, id: "#{id}-#{part}", num: num
+    part_item = RelatonBipm::BipmBibliographicItem.new(**h)
+    part_item_path = File.join dir, "#{num}-#{part}.yaml"
+    write_file part_item_path, part_item
+    hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: part_item)]
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   else
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   end
-  write_file path, item, part
-  fetch_resolution body, type, en, fr, num
+  write_file path, item
+  fetch_resolution body, type, en, fr, dir
 end
 
-def fetch_type(dir, body)
+def fetch_type(dir, body) # rubocop:disable Metrics/AbcSize
   type = if body == 'CCTF'
            'Recommendation'
          else
            dir.split('/').last.split('-').first == 'decisions' ? 'Decision' : 'Resolution'
          end
-  Dir[File.join(dir, '*.{yml,yaml}')].each { |en_file| fetch_meeting en_file, body, type }
+  body_dir = File.join @output_dir, body.downcase
+  Dir.mkdir body_dir unless Dir.exist? body_dir
+  outdir = File.join body_dir, type.downcase
+  Dir.mkdir outdir unless Dir.exist? outdir
+  Dir[File.join(dir, '*.{yml,yaml}')].each { |en_file| fetch_meeting en_file, body, type, outdir }
 end
 
 def fetch_body(dir)

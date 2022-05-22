@@ -9,10 +9,10 @@
 # Usage:
 # $ ./res_to_bipm.rb DIR
 #
-# DIR is a path to bipm-data-outcomes repository.
+# DIR is a path to dir with bipm-data-outcomes repository.
 #
 # Example:
-# $ ./res_to_bipm.rb ../cgpm-resolutions/meetings-en
+# $ ./res_to_bipm.rb ../
 #
 # Output directory is `./data`
 #
@@ -61,7 +61,7 @@ def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   args[:en]['title'] && hash[:title] << title(args[:en]['title'], 'en')
   args[:fr]['title'] && hash[:title] << title(args[:fr]['title'], 'fr')
   hash[:date] = [{ type: 'published', on: args[:en]['date'] }]
-  hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{args[:id]}", type: 'BIPM', primary: true)]
+  hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: args[:id], type: 'BIPM', primary: true)]
   hash[:id] = args[:id].gsub ' ', '-'
   hash[:docnumber] = args[:id]
   hash[:link] = [{ type: 'src', content: args[:en]['url'] }]
@@ -95,7 +95,7 @@ def year(metadata)
   metadata['date'].split('-').first
 end
 
-def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
   eng['resolutions'].each.with_index do |r, i| # rubocop:disable Metrics/BlockLength
     hash = { title: [], doctype: 'resolution' }
     r['title'] && hash[:title] << title(r['title'], 'en')
@@ -103,13 +103,16 @@ def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSiz
     fr_title && hash[:title] << title(fr_title, 'fr')
     date = r['dates'].first.to_s
     hash[:date] = [{ type: 'published', on: date }]
-    num = r['identifier'].to_s.split('-').last
+    num = r['identifier'].to_s.split('-').last.rjust(2, '0')
     year = date.split('-').first
-    id_parts = [body, type, year]
-    id_parts.insert 2, num if num.to_i.positive?
-    id = id_parts.join(' ').sub(/\d{4}$/, '(\0)')
-    hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: "BIPM #{id}", type: 'BIPM', primary: true)]
-    hash[:id] = id_parts.join('-')
+    id = "#{body} #{type}"
+    hash[:id] = "#{body}-#{type}-#{year}"
+    if body == 'CGPM' || num.to_i.positive? && num.size < 4
+      id += " #{num}"
+      hash[:id] += "-#{num}"
+    end
+    id += " (#{year})"
+    hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
     hash[:docnumber] = id
     hash[:link] = [
       { type: 'src', content: r['url'] },
@@ -123,8 +126,9 @@ def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSiz
     }]
     hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
-    file = "#{year}.yaml"
-    file = "#{num}-#{file}" if num.to_i.positive?
+    file = year
+    file += "-#{num}" if num.size < 4
+    file += '.yaml'
     path = File.join dir, file
     write_file path, item
   end

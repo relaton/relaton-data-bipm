@@ -105,10 +105,11 @@ def fetch_resolution(body, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Met
     hash[:date] = [{ type: 'published', on: date }]
     num = r['identifier'].to_s.split('-').last
     year = date.split('-').first
+    num = '0' if num == year
     type = r['type'].capitalize
     id = "#{body} #{type}"
     hash[:id] = "#{body}-#{type}-#{year}"
-    if num.to_i.positive? && (body == 'CGPM' || num.size < 4)
+    if num.to_i.positive?
       id += " #{num}"
       hash[:id] += "-#{num}"
     end

@@ -108,7 +108,7 @@ def fetch_resolution(body, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Met
     type = r['type'].capitalize
     id = "#{body} #{type}"
     hash[:id] = "#{body}-#{type}-#{year}"
-    if body == 'CGPM' || num.to_i.positive? && num.size < 4
+    if num.to_i.positive? && (body == 'CGPM' || num.size < 4)
       id += " #{num}"
       hash[:id] += "-#{num}"
     end

@@ -103,7 +103,7 @@ def fetch_resolution(body, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Met
     fr_title && hash[:title] << title(fr_title, 'fr')
     date = r['dates'].first.to_s
     hash[:date] = [{ type: 'published', on: date }]
-    num = r['identifier'].to_s.split('-').last.rjust(2, '0')
+    num = r['identifier'].to_s.split('-').last
     year = date.split('-').first
     type = r['type'].capitalize
     id = "#{body} #{type}"
@@ -128,7 +128,7 @@ def fetch_resolution(body, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Met
     hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
     file = year
-    file += "-#{num}" if num.size < 4
+    file += "-#{num.rjust(2, '0')}" if num.size < 4
     file += '.yaml'
     out_dir = File.join dir, r['type'].downcase
     Dir.mkdir out_dir unless Dir.exist? out_dir

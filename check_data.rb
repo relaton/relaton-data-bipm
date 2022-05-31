@@ -76,7 +76,7 @@ def print_msg(messages, indent = '') # rubocop:disable Metrics/MethodLength, Met
   end
 end
 
-path = ARGV.first || 'data/*.{yaml,yml}'
+path = ARGV.first || 'data/**/*.{yaml,yml}'
 
 errors = false
 Dir[path].each do |f|

@@ -95,9 +95,9 @@ def year(metadata)
   metadata['date'].split('-').first
 end
 
-def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+def fetch_resolution(body, eng, frn, dir) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
   eng['resolutions'].each.with_index do |r, i| # rubocop:disable Metrics/BlockLength
-    hash = { title: [], doctype: 'resolution' }
+    hash = { title: [], doctype: r['type'] }
     r['title'] && hash[:title] << title(r['title'], 'en')
     fr_title = frn['resolutions'][i]['title']
     fr_title && hash[:title] << title(fr_title, 'fr')
@@ -105,6 +105,7 @@ def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSiz
     hash[:date] = [{ type: 'published', on: date }]
     num = r['identifier'].to_s.split('-').last.rjust(2, '0')
     year = date.split('-').first
+    type = r['type'].capitalize
     id = "#{body} #{type}"
     hash[:id] = "#{body}-#{type}-#{year}"
     if body == 'CGPM' || num.to_i.positive? && num.size < 4
@@ -129,7 +130,9 @@ def fetch_resolution(body, type, eng, frn, dir) # rubocop:disable Metrics/AbcSiz
     file = year
     file += "-#{num}" if num.size < 4
     file += '.yaml'
-    path = File.join dir, file
+    out_dir = File.join dir, r['type'].downcase
+    Dir.mkdir out_dir unless Dir.exist? out_dir
+    path = File.join out_dir, file
     write_file path, item
   end
 end
@@ -151,7 +154,7 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
 
   /^(?<num>\d+)(?:-_(?<part>\d+))?-\d{4}$/ =~ en_md['url'].split('/').last
   # tp = 'Meeting'
-  id = "#{body} #{type} #{num}"
+  id = "#{body} #{type.capitalize} #{num}"
   file = "#{num}.yaml"
   path = File.join dir, file
   hash = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
@@ -177,15 +180,11 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   end
   write_file path, item
-  fetch_resolution body, type, en, fr, dir
+  fetch_resolution body, en, fr, dir
 end
 
-def fetch_type(dir, body) # rubocop:disable Metrics/AbcSize
-  type = if body == 'CCTF'
-           'Recommendation'
-         else
-           dir.split('/').last.split('-').first == 'decisions' ? 'Decision' : 'Resolution'
-         end
+def fetch_type(dir, body)
+  type = dir.split('/').last.split('-').first
   body_dir = File.join @output_dir, body.downcase
   Dir.mkdir body_dir unless Dir.exist? body_dir
   outdir = File.join body_dir, type.downcase

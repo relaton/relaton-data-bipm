@@ -184,8 +184,8 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
   fetch_resolution body, en, fr, dir
 end
 
-def fetch_type(dir, body)
-  type = dir.split('/').last.split('-').first
+def fetch_type(dir, body) # rubocop:disable Metrics/AbcSize
+  type = dir.split('/').last.split('-').first.sub(/s$/, '')
   body_dir = File.join @output_dir, body.downcase
   Dir.mkdir body_dir unless Dir.exist? body_dir
   outdir = File.join body_dir, type.downcase

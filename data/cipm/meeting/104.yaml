@@ -16,10 +16,6 @@ title:
 link:
 - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/104.yaml
   type: src
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-104(I).yml
-  type: src
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-104(I).yml
-  type: src
 docid:
 - id: CIPM Meeting 104
   type: BIPM
@@ -60,7 +56,11 @@ relation:
       - Latn
       format: text/plain
     link:
-    - content: https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/104.yaml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-104(I).yml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-104(I).yml
       type: src
     docid:
     - id: CIPM Meeting 104-1
@@ -87,9 +87,10 @@ relation:
     doctype: meeting
     structuredidentifier:
       docnumber: '104'
+      part: '1'
 - type: partOf
   bibitem:
-    id: CIPM-Meeting-104
+    id: CIPM-Meeting-104-2
     title:
     - content: 104th meeting of the CIPM (Session II)
       language:
@@ -104,13 +105,17 @@ relation:
       - Latn
       format: text/plain
     link:
-    - content: https://www.bipm.org/en/committees/ci/cipm/104-_2-2015
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/104.yaml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-104(II).yml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-104(II).yml
       type: src
     docid:
     - id: CIPM Meeting 104-2
       type: BIPM
       primary: true
-    docnumber: CIPM Meeting 104
+    docnumber: CIPM Meeting 104-2
     date:
     - type: published
       value: '2015-10-16'
@@ -132,7 +137,7 @@ relation:
     structuredidentifier:
       docnumber: '104'
       part: '2'
-fetched: '2022-06-03'
+fetched: '2022-06-07'
 doctype: meeting
 structuredidentifier:
   docnumber: '104'

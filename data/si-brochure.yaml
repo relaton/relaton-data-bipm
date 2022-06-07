@@ -1,41 +1,97 @@
+---
+id: BIPMBrochure
 title:
-  - language:
-    - en
-    script:
-    - Latn
-    content: The International System of Units (SI)
-  - language:
-    - fr
-    script:
-    - Latn
-    content: Le Système international d’unités (SI)
-link:
-- content: https://www.bipm.org/en/publications/si-brochure
-  type: src
+- content: The International System of Units
+  language:
+  - en
+  format: text/plain
+- content: The International System of Units (SI)
+  language:
+  - en
+  format: text/plain
+- content: Le Système international d’unités
+  language:
+  - fr
+  format: text/plain
+- content: Le Système international d’unités (SI)
+  language:
+  - fr
+  format: text/plain
 type: standard
 docid:
-- type: BIPM
-  id: si-brochure
+- id: BIPM Brochure
+  type: BIPM
   primary: true
+- id: 978-92-822-2272-0
+  type: ISBN
+docnumber: Brochure
+contributor:
+- organization:
+    name:
+    - Bureau international des poids et mesures
+    abbreviation: BIPM
+  role:
+  - author
+- organization:
+    name:
+    - Bureau international des poids et mesures
+    abbreviation: BIPM
+  role:
+  - publisher
+- organization:
+    name:
+    - Bureau International des Poids et Mesures
+    abbreviation: BIPM
+  role:
+  - author
+- organization:
+    name:
+    - Bureau International des Poids et Mesures
+    abbreviation: BIPM
+  role:
+  - publisher
 edition: '9'
-date:
-  - type: updated
-    value: '2019-05-20'
-abstract:
-  - content: The BIPM and the Metre Convention
-    language:
-    - en
-    script:
-    - Latn
-  - content: Le BIPM et la Convention du Mètre
-    language:
-    - fr
-    script:
-    - Latn
+version:
+  revision_date: '2019-05-20'
+  draft:
+  - v1.07
+revdate: '2019-05-20'
+language:
+- fr
+- en
+script:
+- Latn
+docstatus:
+  stage:
+    value: in-force
 copyright:
 - owner:
   - name:
-    - Bureau International des ponds et mesures
+    - Bureau international des poids et mesures
+    abbreviation: BIPM
+  from: '2019'
+- owner:
+  - name:
+    - Bureau International des Poids et Mesures
     abbreviation: BIPM
   from: '2019'
 doctype: brochure
+editorialgroup:
+  committee:
+  - acronym: BIPM
+    variants:
+    - content: International Bureau of Weights and Measures
+      language:
+      - en
+      script:
+      - Latn
+    - content: Bureau International des Poids et Mesures
+      language:
+      - fr
+      script:
+      - Latn
+  workgroup: []
+structuredidentifier:
+  docnumber: Brochure
+  part: '1'
+si_aspect: full

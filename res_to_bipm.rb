@@ -24,8 +24,9 @@ require 'relaton_bipm'
 
 @output_dir = 'data'
 FileUtils.mkdir_p @output_dir unless File.exist? @output_dir
-source_path = File.join ARGV[0], 'bipm-data-outcomes', '{cctf,cgpm,cipm}' # '*.{yml,yaml}'
+source_path = File.join ARGV[0], 'bipm-data-outcomes', '{cctf,cgpm,cipm}'
 @files = []
+@index = {}
 
 def title(content, language)
   { content: content, language: language, script: 'Latn' }
@@ -38,6 +39,8 @@ end
 # @param [String] session number of meeting
 #
 def add_part(hash, part)
+  hash[:id] += "-#{part}"
+  hash[:docnumber] += "-#{part}"
   id = hash[:docid][0].instance_variable_get(:@id)
   id += "-#{part}"
   hash[:docid][0].instance_variable_set(:@id, id)
@@ -103,12 +106,13 @@ end
 # @param [Hash] frn French metadata
 # @param [String] dir output directory
 # @param [Array<Hash>] src links to bipm-data-outcomes
+# @param [String] num number of meeting
 #
-def fetch_resolution(body, eng, frn, dir, src) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
-  eng['resolutions'].each.with_index do |r, i| # rubocop:disable Metrics/BlockLength
+def fetch_resolution(**args) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+  args[:en]['resolutions'].each.with_index do |r, i| # rubocop:disable Metrics/BlockLength
     hash = { title: [], doctype: r['type'] }
     r['title'] && hash[:title] << title(r['title'], 'en')
-    fr_title = frn['resolutions'][i]['title']
+    fr_title = args[:fr]['resolutions'][i]['title']
     fr_title && hash[:title] << title(fr_title, 'fr')
     date = r['dates'].first.to_s
     hash[:date] = [{ type: 'published', on: date }]
@@ -116,8 +120,8 @@ def fetch_resolution(body, eng, frn, dir, src) # rubocop:disable Metrics/AbcSize
     year = date.split('-').first
     num = '0' if num == year
     type = r['type'].capitalize
-    id = "#{body} #{type}"
-    hash[:id] = "#{body}-#{type}-#{year}"
+    id = "#{args[:body]} #{type}"
+    hash[:id] = "#{args[:body]}-#{type}-#{year}"
     if num.to_i.positive?
       id += " #{num}"
       hash[:id] += "-#{num}"
@@ -125,7 +129,7 @@ def fetch_resolution(body, eng, frn, dir, src) # rubocop:disable Metrics/AbcSize
     id += " (#{year})"
     hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
     hash[:docnumber] = id
-    hash[:link] = [{ type: 'src', content: r['url'] }] + src
+    hash[:link] = [{ type: 'src', content: r['url'] }] + args[:src]
     hash[:link] << { type: 'doi', content: r['reference'] } if r['reference']
     hash[:language] = %w[en fr]
     hash[:script] = ['Latn']
@@ -138,10 +142,11 @@ def fetch_resolution(body, eng, frn, dir, src) # rubocop:disable Metrics/AbcSize
     file = year
     file += "-#{num.rjust(2, '0')}" if num.size < 4
     file += '.yaml'
-    out_dir = File.join dir, r['type'].downcase
+    out_dir = File.join args[:dir], r['type'].downcase
     Dir.mkdir out_dir unless Dir.exist? out_dir
     path = File.join out_dir, file
     write_file path, item
+    @index[["#{args[:body]} #{args[:type]} #{year}-#{num}", "#{args[:body]} #{type} #{args[:num]}-#{num}"]] = path
   end
 end
 
@@ -169,8 +174,10 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
   id = "#{body} #{type.capitalize} #{num}"
   file = "#{num}.yaml"
   path = File.join dir, file
+  link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/#{path}"
   hash = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
   if @files.include?(path) && part
+    hash[:link] = [{ type: 'src', content: link }] + src
     add_part hash, part
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
     yaml = YAML.safe_load_file(path, permitted_classes: [Date])
@@ -180,19 +187,23 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
     path = File.join dir, "#{num}-#{part}.yaml"
   elsif part
     hash[:title].each { |t| t[:content] = t[:content].sub(/\s\(.+\)$/, '') }
-    link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/#{path}"
-    hash[:link] = [{ type: 'src', content: link }] + src
-    h = bibitem type: type, en: en_md, fr: fr_md, id: "#{id}-#{part}", num: num
+    hash[:link] = [{ type: 'src', content: link }]
+    h = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
+    h[:link] = [{ type: 'src', content: link }] + src
+    add_part h, part
     part_item = RelatonBipm::BipmBibliographicItem.new(**h)
     part_item_path = File.join dir, "#{num}-#{part}.yaml"
     write_file part_item_path, part_item
+    @index[[h[:docnumber]]] = part_item_path
     hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: part_item)]
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   else
+    hash[:link] = [{ type: 'src', content: link }] + src
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   end
   write_file path, item
-  fetch_resolution body, en, fr, dir, src
+  @index[[hash[:docnumber]]] = path
+  fetch_resolution body: body, en: en, fr: fr, dir: dir, src: src, num: num
 end
 
 def fetch_type(dir, body) # rubocop:disable Metrics/AbcSize
@@ -210,3 +221,6 @@ def fetch_body(dir)
 end
 
 Dir[source_path].each { |body_dir| fetch_body(body_dir) }
+
+index_path = 'index.yaml'
+File.write index_path, @index.to_yaml

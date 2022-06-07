@@ -16,10 +16,6 @@ title:
 link:
 - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/110.yaml
   type: src
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-110(I).yml
-  type: src
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-110(I).yml
-  type: src
 docid:
 - id: CIPM Meeting 110
   type: BIPM
@@ -60,7 +56,11 @@ relation:
       - Latn
       format: text/plain
     link:
-    - content: https://www.bipm.org/en/committees/ci/cipm/110-_1-2021
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/110.yaml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-110(I).yml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-110(I).yml
       type: src
     docid:
     - id: CIPM Meeting 110-1
@@ -87,9 +87,10 @@ relation:
     doctype: meeting
     structuredidentifier:
       docnumber: '110'
+      part: '1'
 - type: partOf
   bibitem:
-    id: CIPM-Meeting-110
+    id: CIPM-Meeting-110-2
     title:
     - content: 110th meeting of the CIPM (Session II) (online)
       language:
@@ -104,13 +105,17 @@ relation:
       - Latn
       format: text/plain
     link:
-    - content: https://www.bipm.org/en/committees/ci/cipm/110-_2-2021
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/data/cipm/meeting/110.yaml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-110(II).yml
+      type: src
+    - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-110(II).yml
       type: src
     docid:
     - id: CIPM Meeting 110-2
       type: BIPM
       primary: true
-    docnumber: CIPM Meeting 110
+    docnumber: CIPM Meeting 110-2
     date:
     - type: published
       value: '2021-10-20'
@@ -132,7 +137,7 @@ relation:
     structuredidentifier:
       docnumber: '110'
       part: '2'
-fetched: '2022-06-03'
+fetched: '2022-06-07'
 doctype: meeting
 structuredidentifier:
   docnumber: '110'

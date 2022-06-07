@@ -56,6 +56,8 @@ end
 # @option args [Hash] :fr Hash of French metadata
 # @option args [String] :id ID of meeting/resolution
 # @option args [String] :num Number of meeting/resolution
+# @option args [Array<Hash>] :src Array of links to bipm-data-outcomes
+# @option args [String] :pdf link to PDF
 #
 # @return [Hash] Hash of BIPM meeting/resolution
 #
@@ -68,6 +70,8 @@ def bibitem(**args) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   hash[:id] = args[:id].gsub ' ', '-'
   hash[:docnumber] = args[:id]
   hash[:link] = [{ type: 'src', content: args[:en]['url'] }]
+  hash[:link] << { type: 'pdf', content: args[:pdf] } if args[:pdf]
+  hash[:link] += args[:src] if args[:src]&.any?
   hash[:language] = %w[en fr]
   hash[:script] = ['Latn']
   hash[:contributor] = [{
@@ -130,7 +134,7 @@ def fetch_resolution(**args) # rubocop:disable Metrics/AbcSize, Metrics/MethodLe
     hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
     hash[:docnumber] = id
     hash[:link] = [{ type: 'src', content: r['url'] }] + args[:src]
-    hash[:link] << { type: 'doi', content: r['reference'] } if r['reference']
+    hash[:link] << { type: 'pdf', content: r['reference'] } if r['reference']
     hash[:language] = %w[en fr]
     hash[:script] = ['Latn']
     hash[:contributor] = [{
@@ -174,10 +178,9 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
   id = "#{body} #{type.capitalize} #{num}"
   file = "#{num}.yaml"
   path = File.join dir, file
-  link = "https://raw.githubusercontent.com/relaton/relaton-data-w3c/main/#{path}"
-  hash = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
+  link = "https://raw.githubusercontent.com/relaton/relaton-data-bipm/master/#{path}"
+  hash = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num, src: src, pdf: en['pdf']
   if @files.include?(path) && part
-    hash[:link] = [{ type: 'src', content: link }] + src
     add_part hash, part
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
     yaml = YAML.safe_load_file(path, permitted_classes: [Date])
@@ -188,8 +191,7 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
   elsif part
     hash[:title].each { |t| t[:content] = t[:content].sub(/\s\(.+\)$/, '') }
     hash[:link] = [{ type: 'src', content: link }]
-    h = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num
-    h[:link] = [{ type: 'src', content: link }] + src
+    h = bibitem type: type, en: en_md, fr: fr_md, id: id, num: num, src: src, pdf: en['pdf']
     add_part h, part
     part_item = RelatonBipm::BipmBibliographicItem.new(**h)
     part_item_path = File.join dir, "#{num}-#{part}.yaml"
@@ -198,7 +200,6 @@ def fetch_meeting(en_file, body, type, dir) # rubocop:disable Metrics/AbcSize, M
     hash[:relation] = [RelatonBib::DocumentRelation.new(type: 'partOf', bibitem: part_item)]
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   else
-    hash[:link] = [{ type: 'src', content: link }] + src
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
   end
   write_file path, item

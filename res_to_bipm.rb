@@ -150,7 +150,7 @@ def fetch_resolution(**args) # rubocop:disable Metrics/AbcSize, Metrics/MethodLe
     Dir.mkdir out_dir unless Dir.exist? out_dir
     path = File.join out_dir, file
     write_file path, item
-    @index[["#{args[:body]} #{args[:type]} #{year}-#{num}", "#{args[:body]} #{type} #{args[:num]}-#{num}"]] = path
+    @index[["#{args[:body]} #{type} #{year}-#{num}", "#{args[:body]} #{type} #{args[:num]}-#{num}"]] = path
   end
 end
 

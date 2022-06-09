@@ -123,12 +123,13 @@ def fetch_resolution(**args) # rubocop:disable Metrics/AbcSize, Metrics/MethodLe
     num = r['identifier'].to_s.split('-').last
     year = date.split('-').first
     num = '0' if num == year
+    num_justed = num.rjust 2, '0'
     type = r['type'].capitalize
     id = "#{args[:body]} #{type}"
     hash[:id] = "#{args[:body]}-#{type}-#{year}"
     if num.to_i.positive?
       id += " #{num}"
-      hash[:id] += "-#{num}"
+      hash[:id] += "-#{num_justed}"
     end
     id += " (#{year})"
     hash[:docid] = [RelatonBib::DocumentIdentifier.new(id: id, type: 'BIPM', primary: true)]
@@ -144,13 +145,13 @@ def fetch_resolution(**args) # rubocop:disable Metrics/AbcSize, Metrics/MethodLe
     hash[:structuredidentifier] = RelatonBipm::StructuredIdentifier.new docnumber: num
     item = RelatonBipm::BipmBibliographicItem.new(**hash)
     file = year
-    file += "-#{num.rjust(2, '0')}" if num.size < 4
+    file += "-#{num_justed}" if num.size < 4
     file += '.yaml'
     out_dir = File.join args[:dir], r['type'].downcase
     Dir.mkdir out_dir unless Dir.exist? out_dir
     path = File.join out_dir, file
     write_file path, item
-    @index[["#{args[:body]} #{type} #{year}-#{num}", "#{args[:body]} #{type} #{args[:num]}-#{num}"]] = path
+    @index[["#{args[:body]} #{type} #{year}-#{num_justed}", "#{args[:body]} #{type} #{args[:num]}-#{num_justed}"]] = path
   end
 end
 

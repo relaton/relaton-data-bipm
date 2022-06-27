@@ -32,8 +32,7 @@ jobs:
           architecture: 'x64'
       - name: Update gems
         run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
+          gem install relaton-bipm
       - name: Run script
         run: |
           bundle exec ruby check_data.rb

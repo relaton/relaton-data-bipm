@@ -1,0 +1,56 @@
+name: fetch_data
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ '**' ]
+  schedule:
+  - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  test-linux:
+    name: Test on Ruby ${{ matrix.ruby }} Ubuntu
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: [ '3.0' ]
+    steps:
+      - uses: actions/checkout@master
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+      - name: Use Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          architecture: 'x64'
+      - name: Checkout bipm-data-outcomes
+        uses: actions/checkout@v2
+        with:
+          repository: metanorma/bipm-data-outcomes
+          path: bipm-data-outcomes
+      - name: Checkout bipm-si-brochure
+        uses: actions/checkout@v2
+        with:
+          repository: metanorma/bipm-si-brochure
+          path: bipm-si-brochure
+      - name: Install gems
+        run: |
+          gem install relaton-cli
+      - name: Fetch bipm-data-outcomes
+        run: |
+          relaton fetch-data bipm-data-outcomes
+      - name: Fetch bipm-si-brochure
+        run: relaton fetch-data bipm-si-brochure
+      - name: Update repo
+        run: |
+          echo `date` > flag.txt
+          zip index.zip index.yaml
+          git add data flag.txt index.yaml index.zip
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)

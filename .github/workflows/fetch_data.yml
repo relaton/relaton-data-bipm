@@ -42,10 +42,10 @@ jobs:
           path: bipm-si-brochure
       - name: Install gems
         run: |
+          ls -al bipm-data-outcomes/cipm
           gem install relaton-cli
       - name: Fetch bipm-data-outcomes
         run: |
-          ls -al bipm-data-outcomes
           relaton fetch-data bipm-data-outcomes
       - name: Fetch bipm-si-brochure
         run: relaton fetch-data bipm-si-brochure

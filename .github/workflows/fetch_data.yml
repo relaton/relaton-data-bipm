@@ -42,6 +42,7 @@ jobs:
           path: bipm-si-brochure
       - name: Install gems
         run: |
+          ls -al
           gem install relaton-cli
       - name: Fetch bipm-data-outcomes
         run: |

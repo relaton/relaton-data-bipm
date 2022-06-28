@@ -35,6 +35,8 @@ jobs:
         with:
           repository: metanorma/bipm-data-outcomes
           path: bipm-data-outcomes
+      - name: Remove old data
+        run: rm -rf data index.*
       - name: Checkout bipm-si-brochure
         uses: actions/checkout@v2
         with:

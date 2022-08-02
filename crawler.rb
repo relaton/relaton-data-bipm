@@ -11,6 +11,7 @@ system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outc
 system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 
 # Generate si-brochure documents
+system('ls', chdir: 'bipm-si-brochure')
 system('bundle install', chdir: 'bipm-si-brochure')
 system('bundle exec metanorma site generate -c brochure.yml --agree-to-terms', chdir: 'bipm-si-brochure')
 

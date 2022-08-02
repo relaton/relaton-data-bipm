@@ -13,7 +13,7 @@ system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure
 # Generate si-brochure documents
 system('cd bipm-si-brochure')
 system('bundle install')
-system('bundle exec metanorma site generate -c brochure.yml --agree-to-terms')
+system('bundle exec $(which metanorma) site generate -c brochure.yml --agree-to-terms')
 system('cd ..')
 
 # Run converters

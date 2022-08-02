@@ -11,10 +11,10 @@ system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outc
 system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 
 # Generate si-brochure documents
-system('cd bipm-si-brochure')
-system('bundle install')
-system('bundle exec $(which metanorma) site generate -c brochure.yml --agree-to-terms')
-system('cd ..')
+Dir.chdir('bipm-si-brochure') do
+  system('bundle install')
+  system('bundle exec metanorma site generate -c brochure.yml --agree-to-terms')
+end
 
 # Run converters
 RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'

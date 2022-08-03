@@ -14,7 +14,7 @@ system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure
 Bundler.with_clean_env do
   system('ls', chdir: 'bipm-si-brochure')
   system('bundle install', chdir: 'bipm-si-brochure')
-  system('bundle exec metanorma site generate -c brochure.yml --agree-to-terms', chdir: 'bipm-si-brochure')
+  system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
 end
 
 # Run converters

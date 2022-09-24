@@ -19,8 +19,12 @@ link:
   type: src
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-92.yml
   type: src
+  language: en
+  script: Latn
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-92.yml
   type: src
+  language: fr
+  script: Latn
 - content: https://www.bipm.org/documents/20126/17315032/CIPM92.pdf.zip/4b7f2dee-8f88-73e3-897e-a85eed917e37
   type: pdf
 type: proceedings
@@ -51,6 +55,27 @@ contributor:
     url: www.bipm.org
   role:
   - publisher
+- organization:
+    name:
+    - content: International Committee for Weights and Measures
+      language:
+      - en
+      script:
+      - Latn
+    - content: Comité International des Poids et Mesures
+      language:
+      - fr
+      script:
+      - Latn
+    abbreviation:
+      content: CIPM
+      language:
+      - en
+      - fr
+      script:
+      - Latn
+  role:
+  - author
 revdate: '2003-10-10'
 language:
 - en

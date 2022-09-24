@@ -19,8 +19,12 @@ link:
   type: src
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-16.yml
   type: src
+  language: en
+  script: Latn
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-16.yml
   type: src
+  language: fr
+  script: Latn
 - content: https://www.bipm.org/documents/20126/17314988/CGPM16.pdf/a6a7dde0-b395-0552-e6b3-171fd25ff912
   type: pdf
 type: proceedings
@@ -51,6 +55,27 @@ contributor:
     url: www.bipm.org
   role:
   - publisher
+- organization:
+    name:
+    - content: General Conference on Weights and Measures
+      language:
+      - en
+      script:
+      - Latn
+    - content: Conférence Générale des Poids et Mesures
+      language:
+      - fr
+      script:
+      - Latn
+    abbreviation:
+      content: CGPM
+      language:
+      - en
+      - fr
+      script:
+      - Latn
+  role:
+  - author
 revdate: '1979-10-12'
 language:
 - en

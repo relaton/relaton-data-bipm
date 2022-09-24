@@ -18,8 +18,12 @@ link:
   type: src
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-42.yml
   type: src
+  language: en
+  script: Latn
 - content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-42.yml
   type: src
+  language: fr
+  script: Latn
 - content: https://www.bipm.org/documents/20126/17315032/CIPM42.pdf/7f36bfaa-e84b-a7fa-650a-edf6c3de1b46
   type: pdf
 type: proceedings
@@ -50,6 +54,27 @@ contributor:
     url: www.bipm.org
   role:
   - publisher
+- organization:
+    name:
+    - content: International Committee for Weights and Measures
+      language:
+      - en
+      script:
+      - Latn
+    - content: Comité International des Poids et Mesures
+      language:
+      - fr
+      script:
+      - Latn
+    abbreviation:
+      content: CIPM
+      language:
+      - en
+      - fr
+      script:
+      - Latn
+  role:
+  - author
 revdate: '1948-10-22'
 language:
 - en

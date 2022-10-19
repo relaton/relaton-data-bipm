@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'bundler'
 require 'relaton_bipm'
 
 # Remoeve old files
@@ -11,7 +12,7 @@ system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outc
 system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 
 # Generate si-brochure documents
-Bundler.with_clean_env do
+Bundler.with_unbundled_env do
   system('ls', chdir: 'bipm-si-brochure')
   system('bundle install', chdir: 'bipm-si-brochure')
   system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')

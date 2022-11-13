@@ -16,6 +16,7 @@ Bundler.with_unbundled_env do
   system('ls', chdir: 'bipm-si-brochure')
   system('bundle update', chdir: 'bipm-si-brochure')
   system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
+  system('ls', chdir: 'bipm-si-brochure/site/documents')
 end
 
 # Run converters

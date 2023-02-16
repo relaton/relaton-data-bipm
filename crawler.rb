@@ -4,11 +4,11 @@ require 'bundler'
 require 'relaton_bipm'
 
 # Remoeve old files
-FileUtils.rm_rf('data')
-FileUtils.rm Dir.glob('index.*')
+# FileUtils.rm_rf('data')
+# FileUtils.rm Dir.glob('index.*')
 
 # Clone repositories
-system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
+# system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
 # system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 system('git clone https://github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia')
 
@@ -21,7 +21,7 @@ system('git clone https://github.com/relaton/rawdata-bipm-metrologia rawdata-bip
 # end
 
 # Run converters
-RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
+# RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
 # RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
 RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 

@@ -10,6 +10,7 @@ FileUtils.rm Dir.glob('index.*')
 # Clone repositories
 system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
 system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
+system('git clone https://github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia')
 
 # Generate si-brochure documents
 Bundler.with_unbundled_env do
@@ -22,6 +23,7 @@ end
 # Run converters
 RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
 RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
+RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 
 # Zip index
 system('zip index.zip index.yaml')

@@ -1,0 +1,138 @@
+---
+schema-version: v1.2.1
+id: Metrologia434S16
+title:
+- content: Uncertainty evaluation associated with fitting geometric surfaces to coordinate
+    data
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+type: article
+docid:
+- id: Metrologia 43 4 S16
+  type: BIPM
+  primary: true
+- id: 10.1088/0026-1394/43/4/S16
+  type: doi
+date:
+- type: published
+  value: '2006-08-01'
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Alistair
+          language:
+          - en
+          script:
+          - Latn
+          initial: B
+      surname:
+        content: Forbes
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - content: National Physical Laboratory, Hampton Road, Teddington
+        contact:
+        - address:
+            city: TW11 0LW
+            country: UK
+  role:
+  - type: author
+revdate: '2006-08-01'
+abstract:
+- content: "<p>Coordinate metrology often involves fitting a geometric surface to
+    coordinate data. The increasingly rigorous approaches to uncertainty evaluation
+    being developed across metrology have been reflected in the need to evaluate the
+    uncertainties associated with coordinate data and calculate how these uncertainties
+    are propagated through to uncertainties associated with the parameters describing
+    the fitted surface. Standard least squares algorithms such as orthogonal distance
+    regression (ODR) for finding the best-fit surface implicitly assume that the uncertainties
+    associated with the coordinates are uncorrelated and axis-isotropic, i.e. the
+    uncertainties associated with the x-, y- and z-coordinates are equal, but very
+    few coordinate measuring systems have such uncertainty characteristics. Given
+    a model of the measurement system, it is possible to propagate uncertainties associated
+    with systematic and random effects influencing the measurements to determine an
+    uncertainty matrix associated with the measured coordinates. This uncertainty
+    matrix will generally be full, reflecting correlation amongst all the measured
+    coordinates, but will have a factorization structure that gives a compact representation
+    of the sources of uncertainty. In this paper, we derive surface fitting algorithms
+    that take account of the coordinate uncertainties in order to provide maximum
+    likelihood estimates of the surface parameters. We show that ODR algorithms can
+    be adapted to take into account the type of uncertainty matrices that arise in
+    practice, exploiting the factorization structure to enable very efficient implementations
+    of these algorithms. As a result, a significant class of surface fitting problems
+    can be solved efficiently using standard nonlinear least squares algorithms. We
+    also discuss how the algorithms can be modified to account for probe radius effects.
+    The calculation of the uncertainties associated with the fitted surface parameters
+    is also derived in such a way that systematic effects associated with the measuring
+    system, such as scale errors, are automatically accounted for.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+copyright:
+- owner:
+  - name:
+    - content: BIPM and IOP Publishing Ltd
+  from: '2006'
+relation:
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Uncertainty evaluation associated with fitting geometric surfaces to
+        coordinate data
+      language:
+      - en
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: epub
+      value: '2006-08-04'
+    medium:
+      carrier: online
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Uncertainty evaluation associated with fitting geometric surfaces to
+        coordinate data
+      language:
+      - en
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: ppub
+      value: '2006-08-01'
+    medium:
+      carrier: print
+series:
+- title:
+    content: Metrologia
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+extent:
+- locality:
+    type: volume
+    reference_from: '43'
+- locality:
+    type: issue
+    reference_from: '4'
+- locality:
+    type: page
+    reference_from: S16
+doctype: article
+ext:
+  schema-version: v1.0.0

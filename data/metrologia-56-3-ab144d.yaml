@@ -1,0 +1,169 @@
+---
+schema-version: v1.2.1
+id: Metrologia563ab144d
+title:
+- content: Comparison between simulation and hardware realization for different clock
+    steering techniques
+  script:
+  - Latn
+  format: text/plain
+type: article
+docid:
+- id: Metrologia 56 3 ab144d
+  type: BIPM
+  primary: true
+- id: 10.1088/1681-7575/ab144d
+  type: doi
+date:
+- type: published
+  value: '2019-05-07'
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Marion
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gödel
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Tobias
+          language:
+          - en
+          script:
+          - Latn
+          initial: D
+      surname:
+        content: Schmidt
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Johann
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Furthner
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+revdate: '2019-05-07'
+abstract:
+- content: Abstract<p>Clock steering is an important discipline within the time and
+    frequency community as well as in cognate disciplines such as global navigation
+    satellite systems (GNSSs). In the latter, clock steering is a mandatory tool for
+    realizations of time scales, which first are typically created by algorithms forming
+    a paper clock. Often, this software solution of a time scale is already sufficient.
+    However, sometimes a realization in the form of a frequency signal is feasible
+    or even necessary. Future GNSSs concepts plan to use composite clocks consisting
+    of several different clocks to achieve synchronization of satellites within one
+    orbit with the system time. In this approach, a real clock output in the microwave
+    regime is indispensable. Therefore, a real clock has to be steered against the
+    paper clock to realize the composite clock. Consequently, steering techniques
+    are an essential piece for obtaining a realization. Besides the number of algorithms
+    to choose from, there are several parameters that need to be defined by the user
+    to achieve the best performance for distinct scenarios. In this paper we compare
+    the realization performance and applicability of two different steering techniques,
+    namely linear-quadratic Gaussian control and pole placement, in a simplified hardware
+    setup. The studied scenario consists of a steerable clock consisting of a micro
+    phase stepper which changes the frequency of the output of an oven-controlled
+    quartz oscillator (OCXO) and a rubidium atomic clock (RB). The OCXO in turn is
+    steered to follow the free-running RB as closely as possible. Steering the output
+    of the OCXO introduces a new process in the clock. As a result, the Allan deviation
+    of the steered clock shows a bump which location is dependent on the chosen control
+    interval and steering technique. This has to be considered for the designated
+    operation. We compare simulations of the clock steering with both techniques to
+    real-data results from our laboratory.</p>
+  script:
+  - Latn
+  format: text/html
+copyright:
+- owner:
+  - name:
+    - content: BIPM
+  - name:
+    - content: IOP Publishing Ltd
+  from: '2019'
+relation:
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Comparison between simulation and hardware realization for different
+        clock steering techniques
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: ppub
+      value: '2019-06-01'
+    medium:
+      carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Comparison between simulation and hardware realization for different
+        clock steering techniques
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: epub
+      value: '2019-05-07'
+    medium:
+      carrier: online
+series:
+- title:
+    content: Metrologia
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+extent:
+- locality:
+    type: volume
+    reference_from: '56'
+- locality:
+    type: issue
+    reference_from: '3'
+- locality:
+    type: page
+    reference_from: ab144d
+doctype: article
+ext:
+  schema-version: v1.0.0

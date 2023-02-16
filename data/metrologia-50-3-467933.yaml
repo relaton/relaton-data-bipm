@@ -1,0 +1,175 @@
+---
+schema-version: v1.2.1
+id: Metrologia503467933
+title:
+- content: Combining GPS and GLONASS in all-in-view for time transfer
+  script:
+  - Latn
+  format: text/plain
+type: article
+docid:
+- id: Metrologia 50 3 467933
+  type: BIPM
+  primary: true
+- id: 10.1088/0026-1394/50/3/277
+  type: doi
+date:
+- type: published
+  value: '2013-05-31'
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Aur
+          language:
+          - en
+          script:
+          - Latn
+        - content: lie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harmegnies
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Pascale
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Defraigne
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        - content: rard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Petit
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+revdate: '2013-05-31'
+abstract:
+- content: Abstract<p>GPS code measurements have been used for three decades for remote
+    clock comparison, also called Time Transfer. Initially based on a technique using
+    common-view (CV) single-frequency measurements, GPS time transfer now mostly uses
+    dual-frequency measurements from geodetic receivers processed in all-in-view (AV).
+    With the completion of the GLONASS constellation, it has been possible to readily
+    use it in the CV single-frequency mode, providing results similar to GPS for short-distance
+    time links. However GLONASS results are not readily equivalent to GPS in the dual-frequency
+    AV mode, necessary for any moderate- to long-distance link, and this paper shows
+    how to achieve this. We first present the GLONASS upgrade of the R2CGGTTS software,
+    a tool to provide dual-frequency measurements in a format dedicated to time transfer
+    named CGGTTS (Common GPS GLONASS Time Transfer Standard). The GLONASS navigation
+    files are used to determine satellite clocks and positions, and dual-frequency
+    pseudorange measurements are linearly combined to compute the CGGTTS results in
+    a similar way as for GPS. In a second part, we present the combination of GPS
+    and GLONASS into one unique time transfer solution based on AV. The results are
+    first corrected using precise satellite orbit and clock products delivered by
+    the IGS analysis centre ESOC, and characterized by the same reference for the
+    GPS and GLONASS satellite clocks. Then, the need to introduce satellite-dependent
+    hardware delays in GLONASS results is emphasized, and a procedure is proposed
+    for their determination. The time transfer solutions obtained for GPS-only and
+    GPS+GLONASS are then compared. The combination of GPS and GLONASS results in AV
+    provides a time transfer solution having the same quality as GPS only. Furthermore,
+    comparisons show that even when increasing the number of observations in CV thanks
+    to the combination of the two constellations, the AV remains superior to the CV
+    solution in terms of noise and short term stability, especially for long baselines.</p>
+  script:
+  - Latn
+  format: text/html
+copyright:
+- owner:
+  - name:
+    - content: BIPM
+  - name:
+    - content: IOP Publishing Ltd
+  from: '2013'
+relation:
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Combining GPS and GLONASS in all-in-view for time transfer
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: ppub
+      value: '2013-06-01'
+    medium:
+      carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: Combining GPS and GLONASS in all-in-view for time transfer
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: epub
+      value: '2013-05-31'
+    medium:
+      carrier: online
+series:
+- title:
+    content: Metrologia
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+extent:
+- locality:
+    type: volume
+    reference_from: '50'
+- locality:
+    type: issue
+    reference_from: '3'
+- locality:
+    type: page
+    reference_from: '467933'
+doctype: article
+ext:
+  schema-version: v1.0.0

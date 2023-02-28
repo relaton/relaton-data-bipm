@@ -15,4 +15,5 @@ jobs:
   crawl:
     env:
       RELATON_CI_PAT: ${{ secrets.RELATON_CI_PAT }}
-    uses: relaton/support/.github/workflows/crawler.yml@master
+    steps:
+      - uses: relaton/support/.github/workflows/crawler.yml@master

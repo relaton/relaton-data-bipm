@@ -13,6 +13,6 @@ on:
 
 jobs:
   crawl:
-    uses: relaton/support/.github/workflows/crawler.yml@master
     env:
       RELATON_CI_PAT: ${{ secrets.RELATON_CI_PAT }}
+    uses: relaton/support/.github/workflows/crawler.yml@master

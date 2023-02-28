@@ -11,9 +11,13 @@ on:
   - cron: '0 14 * * *'
   workflow_dispatch:
 
-env:
-  RELATON_CI_PAT: ${{ secrets.RELATON_CI_PAT }}
-
 jobs:
   crawl:
-    uses: relaton/support/.github/workflows/crawler.yml@master
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        repository: relaton/rawdata-bipm-metrologia
+        token: ${{ secrets.RELATON_CI_PAT }}
+        path: rawdata-bipm-metrologia
+    - run: ls -l rawdata-bipm-metrologia
+    # uses: relaton/support/.github/workflows/crawler.yml@master

@@ -11,9 +11,9 @@ on:
   - cron: '0 14 * * *'
   workflow_dispatch:
 
+env:
+  RELATON_CI_PAT: ${{ secrets.RELATON_CI_PAT }}
+
 jobs:
   crawl:
-    env:
-      RELATON_CI_PAT: ${{ secrets.RELATON_CI_PAT }}
-    steps:
-      - uses: relaton/support/.github/workflows/crawler.yml@master
+    uses: relaton/support/.github/workflows/crawler.yml@master

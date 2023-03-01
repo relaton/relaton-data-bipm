@@ -49,34 +49,34 @@ abstract:
 - content: "<p>TWSTFT (Two Way Satellite Time and Frequency Transfer, TW hereafter)
     is a major technique used in TAI (International Atomic Time) generation. More
     than two-thirds of TAI clocks and almost all the primary frequency standards are
-    transferred using TW. Up to now, the only geometry in TAI time transfer is single-link.
+    transferred using TW. Up to now, the only geometry in TAI time transfer is  single-link.
     However, the TAI TW time transfer data are highly redundant. In general, for an
-    N-point network, there are N(N − 1)/2 independently measured links. Among them,
-    only N − 1 will be used. We then have (N<sup>2</sup> − 3N + 2)/2 redundant links.
-    As a function of N, the redundant measurements increase quickly (cf figure 1 and
-    table 1). At present, for the European–American network N = 13, but only 12 out
-    of a total of 78 measured links are used in TAI. For the Asia–Pacific regions,
-    N = 8. Full use of the high redundancy is an effective way to improve TAI without
+    \ N -point network, there are  N ( N  − 1)/2 independently measured links. Among
+    them, only  N  − 1 will be used. We then have ( N<sup>2</sup> − 3 N  + 2)/2 redundant
+    links. As a function of  N, the redundant measurements increase quickly (cf figure
+    1 and table 1). At present, for the European–American network  N  = 13, but only
+    12 out of a total of 78 measured links are used in TAI. For the Asia–Pacific regions,
+    \ N  = 8. Full use of the high redundancy is an effective way to improve TAI without
     new cost.</p><p>The sum of three TW links that form a closed triangle is the triangle
     closure. Theoretically a closure is expected to be zero if there are no measurement
     errors, namely the triangle closure condition. A non-zero closure is a true error
     and an index of the time link quality. A redundant link sets a geometric constraint.
-    There are (N<sup>2</sup> − 3N + 2)/2 independent conditions in a network. In 2006,
-    Jiang and Petit (Proc. EFTF 2006 pp 468–75) proposed a mathematical model to adjust
-    the closures to zero by global network processing. In consequence, time transfer
-    between any two points through any link(s) in the network gives exactly the same
-    result with the same uncertainty. This is the so-called network time transfer.</p><p>In
-    this paper, the author introduces his recent works on completing the network model
-    by adding the calibration, the uncertainty estimation and the quality assessment
-    using GPS PPP (time transfer by precise point positioning (PPP hereafter)) (Kouba
-    and Héroux 2001 GPS Solut. 5 12–28, Ray and Senior 2005 Metrologia 42 215–32,
-    Orgiazzi et al 2005 Proc. IEEE FCS 2005 pp 337–45, Defraigne et al 2007 Proc.
-    EFTF 2007 pp 909–13, Petit and Jiang 2008 Int. J. Navig. Obs. 2008 1–8). As an
-    independent technique with higher short-term stability, PPP is then a good reference
-    to evaluate the improvement in the network time transfer. The gain is at least
-    30%. The new method also gives a solution for the high redundancy in the TAI international
-    TW time transfer network. The TAI software Tsoft is operational to perform the
-    network time transfer.</p>"
+    There are ( N<sup>2</sup> − 3 N  + 2)/2 independent conditions in a network. In
+    2006, Jiang and Petit ( Proc. EFTF 2006  pp 468–75) proposed a mathematical model
+    to adjust the closures to zero by global network processing. In consequence, time
+    transfer between any two points through any link(s) in the network gives exactly
+    the same result with the same uncertainty. This is the so-called  network time
+    transfer.</p><p>In this paper, the author introduces his recent works on completing
+    the network model by adding the calibration, the uncertainty estimation and the
+    quality assessment using GPS PPP (time transfer by precise point positioning (PPP
+    hereafter)) (Kouba and Héroux 2001  GPS Solut.   5  12–28, Ray and Senior  2005
+    \ Metrologia   42  215–32, Orgiazzi  et al  2005  Proc. IEEE FCS 2005  pp 337–45,
+    Defraigne  et al  2007  Proc. EFTF 2007  pp 909–13, Petit and Jiang 2008  Int.
+    J. Navig. Obs.   2008  1–8). As an independent technique with higher short-term
+    stability, PPP is then a good reference to evaluate the improvement in the network
+    time transfer. The gain is at least 30%. The new method also gives a solution
+    for the high redundancy in the TAI international TW time transfer network. The
+    TAI software Tsoft is operational to perform the network time transfer.</p>"
   language:
   - en
   script:

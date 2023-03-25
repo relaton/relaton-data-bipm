@@ -28,6 +28,7 @@ RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 # Zip index
 system('zip index.zip index.yaml')
 system('zip index-bipm.zip index-bipm.yaml')
+system('zip index2.zip index2.yaml')
 
 # Stage index
-system('git add index.yaml index.zip index-bipm.yaml index-bipm.zip')
+system('git add index.yaml index.zip index-bipm.yaml index-bipm.zip index2.yaml index2.zip')

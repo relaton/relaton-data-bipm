@@ -2,8 +2,7 @@
 schema-version: v1.2.3
 id: Metrologia456S12
 title:
-- content: 'Composite clock: a new algorithm for servoing a VCO firstly to a hydrogen
-    maser clock and then to a caesium clock'
+- content: Improvements to the NIST network time protocol servers
   language:
   - en
   script:
@@ -14,7 +13,7 @@ docid:
 - id: Metrologia 45 6 S12
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S12
+- id: 10.1088/0026-1394/45/6/S03
   type: doi
 date:
 - type: published
@@ -24,13 +23,13 @@ contributor:
     name:
       given:
         forename:
-        - language:
+        - content: Judah
+          language:
           - en
           script:
           - Latn
-          initial: P
       surname:
-        content: Mbaye
+        content: Levine
         language:
         - en
         script:
@@ -38,98 +37,27 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: UTINAM UMR CNRS-UFC 6213, Observatoire de Besançon, Université
-            de Franche-comté, 41 bis avenue de l'Observatoire, BP 1615
+        - content: Time and Frequency Division, National Institute of Standards and
+            Technology, Boulder
         contact:
         - address:
-            city: 25010 Besançon Cedex
-            country: France
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-      surname:
-        content: Makdissi
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: UTINAM UMR CNRS-UFC 6213, Observatoire de Besançon, Université
-            de Franche-comté, 41 bis avenue de l'Observatoire, BP 1615
-        contact:
-        - address:
-            city: 25010 Besançon Cedex
-            country: France
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: C
-      surname:
-        content: Plantard
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: UTINAM UMR CNRS-UFC 6213, Observatoire de Besançon, Université
-            de Franche-comté, 41 bis avenue de l'Observatoire, BP 1615
-        contact:
-        - address:
-            city: 25010 Besançon Cedex
-            country: France
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: F
-      surname:
-        content: Vernotte
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: UTINAM UMR CNRS-UFC 6213, Observatoire de Besançon, Université
-            de Franche-comté, 41 bis avenue de l'Observatoire, BP 1615
-        contact:
-        - address:
-            city: 25010 Besançon Cedex
-            country: France
+            city: CO 80305
+            country: USA
   role:
   - type: author
 revdate: '2008-12-01'
 abstract:
-- content: "<p>We present the theory and the development of an algorithm used for
-    locking a voltage controlled oscillator (VCO) to a hydrogen maser clock (HM clock)
-    and then to a caesium clock (Cs clock). This algorithm is the heart of a composite
-    clock using these three oscillators.</p>"
+- content: "<p>The National Institute of Standards and Technology (NIST) operates
+    22 network time servers at various locations. These servers respond to requests
+    for time in a number of different formats and provide time stamps that are directly
+    traceable to the NIST atomic clock ensemble in Boulder. The link between the servers
+    at locations outside of the NIST Boulder Laboratories and the atomic clock ensemble
+    is provided by the Automated Computer Time Service (ACTS) system, which has a
+    direct connection to the clock ensemble and which transmits time information over
+    dial-up telephone lines with a two-way protocol to measure the transmission delay.
+    I will discuss improvements to the ACTS servers and to the time servers themselves.
+    These improvements have resulted in an improvement of almost an order of magnitude
+    in the performance of the system.</p>"
   language:
   - en
   script:
@@ -144,8 +72,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Composite clock: a new algorithm for servoing a VCO firstly to a hydrogen
-        maser clock and then to a caesium clock'
+    - content: Improvements to the NIST network time protocol servers
       language:
       - en
       script:
@@ -159,8 +86,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Composite clock: a new algorithm for servoing a VCO firstly to a hydrogen
-        maser clock and then to a caesium clock'
+    - content: Improvements to the NIST network time protocol servers
       language:
       - en
       script:
@@ -188,8 +114,8 @@ extent:
     reference_from: '6'
 - locality:
     type: page
-    reference_from: S74
-    reference_to: S81
+    reference_from: S12
+    reference_to: S22
 doctype: article
 ext:
   schema-version: v1.0.0

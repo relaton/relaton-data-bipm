@@ -1,0 +1,208 @@
+---
+schema-version: v1.2.3
+id: Metrologia526878
+title:
+- content: A tutorial on Bayesian Normal linear regression
+  script:
+  - Latn
+  format: text/plain
+type: article
+docid:
+- id: Metrologia 52 6 878
+  type: BIPM
+  primary: true
+- id: 10.1088/0026-1394/52/6/878
+  type: doi
+date:
+- type: published
+  value: '2015-11-18'
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Katy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klauenberg
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Gerd
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wübbeler
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bodo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mickan
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harris
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Clemens
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Elster
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+revdate: '2015-11-18'
+abstract:
+- content: Abstract<p>Regression is a common task in metrology and often applied to
+    calibrate instruments, evaluate inter-laboratory comparisons or determine fundamental
+    constants, for example. Yet, a regression model cannot be uniquely formulated
+    as a measurement function, and consequently the Guide to the Expression of Uncertainty
+    in Measurement (GUM) and its supplements are not applicable directly. Bayesian
+    inference, however, is well suited to regression tasks, and has the advantage
+    of accounting for additional a priori information, which typically robustifies
+    analyses. Furthermore, it is anticipated that future revisions of the GUM shall
+    also embrace the Bayesian view.</p><p>Guidance on Bayesian inference for regression
+    tasks is largely lacking in metrology. For linear regression models with Gaussian
+    measurement errors this tutorial gives explicit guidance. Divided into three steps,
+    the tutorial first illustrates how a priori knowledge, which is available from
+    previous experiments, can be translated into prior distributions from a specific
+    class. These prior distributions have the advantage of yielding analytical, closed
+    form results, thus avoiding the need to apply numerical methods such as Markov
+    Chain Monte Carlo. Secondly, formulas for the posterior results are given, explained
+    and illustrated, and software implementations are provided. In the third step,
+    Bayesian tools are used to assess the assumptions behind the suggested approach.</p><p>These
+    three steps (prior elicitation, posterior calculation, and robustness to prior
+    uncertainty and model adequacy) are critical to Bayesian inference. The general
+    guidance given here for Normal linear regression tasks is accompanied by a simple,
+    but real-world, metrological example. The calibration of a flow device serves
+    as a running example and illustrates the three steps. It is shown that prior knowledge
+    from previous calibrations of the same sonic nozzle enables robust predictions
+    even for extrapolations.</p>
+  script:
+  - Latn
+  format: text/html
+copyright:
+- owner:
+  - name:
+    - content: BIPM
+  - name:
+    - content: IOP Publishing Ltd
+  from: '2015'
+relation:
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: A tutorial on Bayesian Normal linear regression
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: ppub
+      value: '2015-12-01'
+    medium:
+      carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - content: A tutorial on Bayesian Normal linear regression
+      script:
+      - Latn
+      format: text/plain
+    date:
+    - type: epub
+      value: '2015-11-18'
+    medium:
+      carrier: online
+series:
+- title:
+    content: Metrologia
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+extent:
+- locality:
+    type: volume
+    reference_from: '52'
+- locality:
+    type: issue
+    reference_from: '6'
+- locality:
+    type: page
+    reference_from: '878'
+    reference_to: '892'
+doctype: article
+ext:
+  schema-version: v1.0.0

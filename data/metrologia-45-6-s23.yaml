@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: Metrologia456S23
 title:
-- content: A tutorial on the two-state model of the atomic clock noise
+- content: Realizing UTC(NIST) at a remote location
   language:
   - en
   script:
@@ -13,7 +13,7 @@ docid:
 - id: Metrologia 45 6 S23
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S23
+- id: 10.1088/0026-1394/45/6/S04
   type: doi
 date:
 - type: published
@@ -23,13 +23,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Lorenzo
+        - content: Judah
           language:
           - en
           script:
           - Latn
       surname:
-        content: Galleani
+        content: Levine
         language:
         - en
         script:
@@ -37,20 +37,38 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Politecnico di Torino, Corso Duca degli Abruzzi 24
+        - content: Time and Frequency Division, National Institute of Standards and
+            Technology, Boulder
         contact:
         - address:
-            city: 10129 Torino
-            country: Italy
+            city: CO 80305
+            country: USA
   role:
   - type: author
 revdate: '2008-12-01'
 abstract:
-- content: "<p>The two-state model provides an effective description of the atomic
-    clock noise. We present the construction of the two-state model, which is useful
-    to understand the statistics of clock noise. Furthermore, we derive the discrete-time
-    version of the model, which can be used for numerical simulations. We illustrate
-    our results through numerical examples.</p>"
+- content: "<p>I will describe the backup time scale system that I have constructed
+    at the site of the NIST radio stations near Fort Collins, Colorado, and I will
+    compare its performance with the primary ensemble in Boulder. The Fort Collins
+    system is designed to be a backup for the Boulder system and is intended to support
+    all of the NIST time services should the primary scale become unavailable for
+    any reason. The backup time has a number of unique problems and requirements,
+    and I will discuss the design considerations that I used to address these issues.
+    The backup scale tracks UTC(NIST) in frequency with an uncertainty (measured by
+    the Allan deviation of the difference) of about 1 × 10<sup>−14</sup> by use of
+    administrative steering that is applied not more often than once per week. The
+    corresponding time deviation is less than 1 ns for all averaging times less than
+    1 week, and the peak time difference between UTC(NIST) and its backup realization
+    is less than ±25 ns and is generally much better than this value. This is much
+    better than would be needed for supporting the radio stations, the digital time
+    services (ACTS, a time service that provides time in a digital format using dial-up
+    telephone lines, and the Internet services) and the Frequency Measurement Service.
+    Its frequency stability and time accuracy would not be adequate for the most demanding
+    users of the Global Time Service and for international time and frequency coordination.
+    The primary limitations to the performance of the backup time scale are caused
+    by environmental perturbations, especially temperature and supply voltage, and
+    the existing hardware could probably support all of the NIST services if the environment
+    were improved.</p>"
   language:
   - en
   script:
@@ -65,7 +83,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A tutorial on the two-state model of the atomic clock noise
+    - content: Realizing UTC(NIST) at a remote location
       language:
       - en
       script:
@@ -79,7 +97,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A tutorial on the two-state model of the atomic clock noise
+    - content: Realizing UTC(NIST) at a remote location
       language:
       - en
       script:
@@ -107,8 +125,8 @@ extent:
     reference_from: '6'
 - locality:
     type: page
-    reference_from: S175
-    reference_to: S182
+    reference_from: S23
+    reference_to: S33
 doctype: article
 ext:
   schema-version: v1.0.0

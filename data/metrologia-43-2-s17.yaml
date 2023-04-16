@@ -2,8 +2,7 @@
 schema-version: v1.2.3
 id: Metrologia432S17
 title:
-- content: Saturation effects in solid-state photodiodes and impact on EUVL pulse
-    energy measurements
+- content: Low-uncertainty absolute radiometric calibration of a CCD
   language:
   - en
   script:
@@ -14,23 +13,23 @@ docid:
 - id: Metrologia 43 2 S17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S17
+- id: 10.1088/0026-1394/43/2/S04
   type: doi
 date:
 - type: published
-  value: '2006-03-29'
+  value: '2006-03-23'
 contributor:
 - person:
     name:
       given:
         forename:
-        - language:
+        - content: Alejandro
+          language:
           - en
           script:
           - Latn
-          initial: R
       surname:
-        content: Vest
+        content: Ferrero
         language:
         - en
         script:
@@ -38,24 +37,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology, Gaithersburg
+        - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
+            Cientificas (CSIC), c/Serrano 144
         contact:
         - address:
-            city: MD 20899
-            country: USA
+            city: 28006 Madrid
+            country: Spain
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - language:
+        - content: Joaquin
+          language:
           - en
           script:
           - Latn
-          initial: S
       surname:
-        content: Hill
+        content: Campos
         language:
         - en
         script:
@@ -63,24 +63,25 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology, Gaithersburg
+        - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
+            Cientificas (CSIC), c/Serrano 144
         contact:
         - address:
-            city: MD 20899
-            country: USA
+            city: 28006 Madrid
+            country: Spain
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - language:
+        - content: Alicia
+          language:
           - en
           script:
           - Latn
-          initial: S
       surname:
-        content: Grantham
+        content: Pons
         language:
         - en
         script:
@@ -88,34 +89,22 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: National Institute of Standards and Technology, Gaithersburg
+        - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
+            Cientificas (CSIC), c/Serrano 144
         contact:
         - address:
-            city: MD 20899
-            country: USA
+            city: 28006 Madrid
+            country: Spain
   role:
   - type: author
-revdate: '2006-03-29'
+revdate: '2006-03-23'
 abstract:
-- content: "<p>With the advent of extreme ultraviolet lithography (EUVL) it is becoming
-    increasingly important to understand the response of solid-state photodiodes to
-    pulsed radiation where the peak power incident on the device may be quite high
-    even when the average power is modest. The high peak power causes the photodiode
-    signal to saturate and can create errors in the measurement of pulse energy unless
-    the saturation effect is corrected. We have used 532 nm radiation from a frequency-doubled,
-    Q-switched Nd : YAG laser as a proxy for the 13.5 nm radiation used in EUVL and
-    have studied the saturation behaviour of Si photodiodes at peak power densities
-    from less than 0.1 W mm<sup>−2</sup> to over 2 × 10<sup>6</sup> W mm<sup>−2</sup>.
-    Here we test a previously reported model of saturation at pulse lengths from 8 ns
-    to 1 µs and examine the effect of power density (illumination area) on the saturation
-    behaviour. The saturation parameters measured at 532 nm are used as inputs to
-    the model, and the calibration of a filter radiometer in pulsed 13.5 nm radiation
-    is corrected for saturation effects. The corrected result agrees with the value
-    expected from individual component calibrations, but the uncorrected data differ
-    by more than the combined uncertainty. This result supports the hypothesis that
-    532 nm radiation is a valid proxy for 13.5 nm radiation when studying saturation
-    behaviour. Finally, we derive quantitative limits imposed by the saturation effects
-    on the use of Si photodiodes in EUVL applications.</p>"
+- content: "<p>This work presents an experimental method for the low-uncertainty calibration
+    of the spectral radiant exposure responsivity of a CCD detector. It comprises
+    a description of the experimental set-up as well as an analysis of the various
+    sources of uncertainty. The overall result shows that the calibration procedure-related
+    uncertainty is only 0.18% as long as the temperature is kept constant and the
+    field of view is kept lower than 13°.</p>"
   language:
   - en
   script:
@@ -130,8 +119,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Saturation effects in solid-state photodiodes and impact on EUVL pulse
-        energy measurements
+    - content: Low-uncertainty absolute radiometric calibration of a CCD
       language:
       - en
       script:
@@ -139,14 +127,13 @@ relation:
       format: text/plain
     date:
     - type: epub
-      value: '2006-03-29'
+      value: '2006-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Saturation effects in solid-state photodiodes and impact on EUVL pulse
-        energy measurements
+    - content: Low-uncertainty absolute radiometric calibration of a CCD
       language:
       - en
       script:
@@ -174,8 +161,8 @@ extent:
     reference_from: '2'
 - locality:
     type: page
-    reference_from: S84
-    reference_to: S88
+    reference_from: S17
+    reference_to: S21
 doctype: article
 ext:
   schema-version: v1.0.0

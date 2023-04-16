@@ -2,7 +2,7 @@
 schema-version: v1.2.3
 id: Metrologia3913
 title:
-- content: Adjusting the losses in an ac quantum Hall sample
+- content: AC behaviour and loss phenomena in quantum Hall samples
   language:
   - en
   script:
@@ -13,7 +13,7 @@ docid:
 - id: Metrologia 39 1 3
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/3
+- id: 10.1088/0026-1394/39/1/2
   type: doi
 date:
 - type: published
@@ -64,6 +64,34 @@ contributor:
 - person:
     name:
       surname:
+        content: G Hein
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      surname:
+        content: F-J Ahlers
+        language:
+        - en
+        script:
+        - Latn
+    affiliation:
+    - organization:
+        name:
+        - {}
+  role:
+  - type: author
+- person:
+    name:
+      surname:
         content: K Pierz
         language:
         - en
@@ -77,13 +105,15 @@ contributor:
   - type: author
 revdate: '2002-02-01'
 abstract:
-- content: <p>The ac quantum Hall resistance measured with frequencies in the range
-    of a few kilohertz shows characteristic deviations from the dc quantum Hall resistance.
-    These deviations indicate ac losses which increase linearly with frequency. To
-    investigate these losses, a Hall bar with an inner and an outer "window" has been
-    tested. When external voltages are supplied to the windows, the ac losses can
-    be adjusted to zero. This is explained by a phenomenological model for the current
-    distribution in the Hall bar and leads to a model for the ac losses.</p>
+- content: "<p>The ac quantum Hall resistance of several GaAs-based samples has been
+    investigated. The influence of temperature, current and frequency was measured
+    for the plateau i = 2. Some measurements were performed for the plateau i = 4
+    in order to determine the scaling behaviour with respect to i. The plateau edge
+    is shown to depend on the electronic temperature and the current at the plateau
+    edge is distributed over the whole width of the sample. At the plateau centre,
+    edge-current effects become apparent which depend on how close the filling factor
+    is to an integer value. The losses of these edge currents cause the ac quantum
+    Hall resistance to differ from the dc quantum Hall resistance.</p>"
   language:
   - en
   script:
@@ -98,7 +128,7 @@ relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Adjusting the losses in an ac quantum Hall sample
+    - content: AC behaviour and loss phenomena in quantum Hall samples
       language:
       - en
       script:
@@ -126,8 +156,8 @@ extent:
     reference_from: '1'
 - locality:
     type: page
-    reference_from: '13'
-    reference_to: '19'
+    reference_from: '3'
+    reference_to: '12'
 doctype: article
 ext:
   schema-version: v1.0.0

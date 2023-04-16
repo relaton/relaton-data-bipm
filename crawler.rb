@@ -7,7 +7,7 @@ relaton_ci_pat = ARGV.shift
 
 # Remoeve old files
 FileUtils.rm_rf('data')
-FileUtils.rm Dir.glob('index.*')
+FileUtils.rm Dir.glob('index{-bipm,2,}.*')
 
 # Clone repositories
 system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')

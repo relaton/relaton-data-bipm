@@ -19,7 +19,7 @@ Bundler.with_unbundled_env do
   system('ls', chdir: 'bipm-si-brochure')
   system('bundle update', chdir: 'bipm-si-brochure')
   system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
-  system('ls', chdir: 'bipm-si-brochure/site/documents')
+  system('ls', chdir: 'bipm-si-brochure/_site/documents')
 end
 
 # Run converters
@@ -28,9 +28,9 @@ RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
 RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 
 # Zip index
-system('zip index.zip index.yaml')
-system('zip index-bipm.zip index-bipm.yaml')
+# system('zip index.zip index.yaml')
+# system('zip index-bipm.zip index-bipm.yaml')
 system('zip index2.zip index2.yaml')
 
 # Stage index
-system('git add index.yaml index.zip index-bipm.yaml index-bipm.zip index2.yaml index2.zip')
+system('git add index2.yaml index2.zip')

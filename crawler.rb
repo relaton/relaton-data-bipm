@@ -12,7 +12,7 @@ FileUtils.rm Dir.glob('index{-bipm,2,}.*')
 # Clone repositories
 system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
 system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
-system("git clone https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
+system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
 # Generate si-brochure documents
 Bundler.with_unbundled_env do

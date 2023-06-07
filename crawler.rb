@@ -7,7 +7,7 @@ relaton_ci_pat = ARGV.shift
 
 # Remoeve old files
 FileUtils.rm_rf('data')
-FileUtils.rm Dir.glob('index{-bipm,2,}.*')
+FileUtils.rm Dir.glob('index*')
 
 # Clone repositories
 system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
@@ -26,11 +26,3 @@ end
 RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
 RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
 RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
-
-# Zip index
-# system('zip index.zip index.yaml')
-# system('zip index-bipm.zip index-bipm.yaml')
-system('zip index2.zip index2.yaml')
-
-# Stage index
-system('git add index2.yaml index2.zip')

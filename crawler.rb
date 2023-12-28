@@ -9,8 +9,8 @@ relaton_ci_pat = ARGV.shift
 FileUtils.rm_rf('data')
 FileUtils.rm Dir.glob('index*')
 
-def fast_fail_system(command)
-  unless system(command)
+def fast_fail_system(command, **options)
+  unless system(command, **options)
     puts "Command '#{command}' failed with exit code #{$?.exitstatus}"
     exit $?.exitstatus
   end

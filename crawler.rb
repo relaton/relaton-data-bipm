@@ -9,17 +9,24 @@ relaton_ci_pat = ARGV.shift
 FileUtils.rm_rf('data')
 FileUtils.rm Dir.glob('index*')
 
+def fast_fail_system(command, **options)
+  unless system(command, **options)
+    puts "Command '#{command}' failed with exit code #{$?.exitstatus}"
+    exit $?.exitstatus
+  end
+end
+
 # Clone repositories
-system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
-system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
-system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
+fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
+fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
+fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
 # Generate si-brochure documents
 Bundler.with_unbundled_env do
-  system('ls', chdir: 'bipm-si-brochure')
-  system('bundle update', chdir: 'bipm-si-brochure')
-  system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
-  system('ls', chdir: 'bipm-si-brochure/_site/documents')
+  fast_fail_system('ls', chdir: 'bipm-si-brochure')
+  fast_fail_system('bundle update', chdir: 'bipm-si-brochure')
+  fast_fail_system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
+  fast_fail_system('ls', chdir: 'bipm-si-brochure/_site/documents')
 end
 
 # Run converters

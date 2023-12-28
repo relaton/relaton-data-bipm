@@ -76,11 +76,16 @@ def print_msg(messages, indent = '') # rubocop:disable Metrics/MethodLength, Met
   end
 end
 
+def fix_doctype(hash)
+  hash["doctype"] &&= { "type" => hash["doctype"] }
+end
+
 path = ARGV.first || 'static/**/*.{yaml,yml}'
 
 errors = false
 Dir[path].each do |f|
   yaml = YAML.load_file(f)
+  fix_doctype yaml
   hash = RelatonBipm::HashConverter.hash_to_bib yaml
   item = RelatonBipm::BipmBibliographicItem.new(**hash)
   if (messages = compare(yaml, item.to_hash))&.any?

@@ -31,7 +31,7 @@ Bundler.with_unbundled_env do
 end
 
 # Run converters
-# RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes' # @TODO uncomment when relaton/relaton-bipm/issues/61 is resolved
+RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
 RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
 RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 

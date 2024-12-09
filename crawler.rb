@@ -11,8 +11,9 @@ FileUtils.rm Dir.glob('index*')
 
 def fast_fail_system(command, **options)
   unless system(command, **options)
-    puts "Command '#{command}' failed with exit code #{$?.exitstatus}"
-    exit $?.exitstatus
+    exit_status = $?.exitstatus || 1 # exit fails if $?.exitstatus is nil
+    puts "Command '#{command}' failed with exit code #{exit_status}"
+    exit exits_tatus
   end
 end
 
@@ -30,7 +31,7 @@ Bundler.with_unbundled_env do
 end
 
 # Run converters
-RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
+# RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes' # @TODO uncomment when relaton/relaton-bipm/issues/61 is resolved
 RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
 RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 

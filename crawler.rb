@@ -13,7 +13,7 @@ def fast_fail_system(command, **options)
   unless system(command, **options)
     exit_status = $?.exitstatus || 1 # exit fails if $?.exitstatus is nil
     puts "Command '#{command}' failed with exit code #{exit_status}"
-    exit exits_tatus
+    exit exit_status
   end
 end
 

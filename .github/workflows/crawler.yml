@@ -1,13 +1,12 @@
 name: Crawler
 
 on:
-  # Temporarily disabled due to relaton/relaton-bipm/issues/61
-  # push:
-  #   branches: [ master, main ]
-  #   tags: [ v* ]
-  # pull_request:
-  # schedule:
-  # - cron: '0 14 * * *'
+  push:
+    branches: [ master, main ]
+    tags: [ v* ]
+  pull_request:
+  schedule:
+  - cron: '0 14 * * *'
   workflow_dispatch:
     inputs:
       args:

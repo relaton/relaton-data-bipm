@@ -15,7 +15,50 @@ on:
         default: ''
 
 jobs:
+
+  generate-documents:
+    name: Generate bipm-si-brochure documents
+    runs-on: ubuntu-latest
+    concurrency:
+      group: '${{ github.workflow }}-${{ github.head_ref || github.ref_name }}'
+      cancel-in-progress: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Metanorma toolchain
+        uses: actions-mn/setup@main
+
+      - name: Metanorma generate site
+        uses: actions-mn/build-and-publish@v1
+        with:
+          agree-to-terms: true
+          destination: artifact
+          artifact-name: ${{ github.workflow }}-bipm-si-brochure
+
   crawl:
-    uses: relaton/support/.github/workflows/crawler.yml@main
-    secrets:
-      args: "${{ secrets.RELATON_CI_PAT }}"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout bipm-data-outcomes
+        uses: actions/checkout@v4
+        with:
+          repository: metanorma/bipm-data-outcomes
+
+      - name: Checkout rawdata-bipm-metrologia
+        uses: actions/checkout@v4
+        with:
+          repository: relaton/rawdata-bipm-metrologia
+          ref: '2023-04-23'
+
+      - name: Download generated documents
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ github.workflow }}-bipm-si-brochure
+
+      # TODO: Add a step to put the generated documents in the right directory
+
+      # TODO: Make this work...
+      - name: Run crawler
+        uses: relaton/support/.github/workflows/crawler.yml@main
+        secrets:
+          args: "${{ secrets.RELATON_CI_PAT }}"

@@ -247,36 +247,6 @@
   :file: data/cctf/meeting/21.yaml
 - :id:
     :group: CCTF
-    :type: REC
-    :number: '1'
-    :year: '2017'
-  :file: data/cctf/meeting/recommendation/2017-01.yaml
-- :id:
-    :group: CCTF
-    :type: REC
-    :number: '2'
-    :year: '2017'
-  :file: data/cctf/meeting/recommendation/2017-02.yaml
-- :id:
-    :group: CCTF
-    :type: REC
-    :number: '3'
-    :year: '2017'
-  :file: data/cctf/meeting/recommendation/2017-03.yaml
-- :id:
-    :group: CCTF
-    :type: REC
-    :number: '4'
-    :year: '2017'
-  :file: data/cctf/meeting/recommendation/2017-04.yaml
-- :id:
-    :group: CCTF
-    :type: REC
-    :number: '5'
-    :year: '2017'
-  :file: data/cctf/meeting/recommendation/2017-05.yaml
-- :id:
-    :group: CCTF
     :type: Meeting
     :number: 22-1
     :year: '2020'
@@ -343,9 +313,15 @@
   :file: data/cgpm/meeting/1.yaml
 - :id:
     :group: CGPM
-    :type: RES
+    :type: DECL
     :year: '1889'
-  :file: data/cgpm/meeting/resolution/1889-00.yaml
+  :file: data/cgpm/meeting/statement/1889-00.yaml
+- :id:
+    :group: CGPM
+    :type: Meeting
+    :number: '2'
+    :year: '1895'
+  :file: data/cgpm/meeting/2.yaml
 - :id:
     :group: CGPM
     :type: Meeting
@@ -354,16 +330,34 @@
   :file: data/cgpm/meeting/3.yaml
 - :id:
     :group: CGPM
-    :type: RES
+    :type: DECL
     :number: '1'
     :year: '1901'
-  :file: data/cgpm/meeting/resolution/1901-01.yaml
+  :file: data/cgpm/meeting/statement/1901-01.yaml
 - :id:
     :group: CGPM
-    :type: RES
+    :type: DECL
     :number: '2'
     :year: '1901'
-  :file: data/cgpm/meeting/resolution/1901-02.yaml
+  :file: data/cgpm/meeting/statement/1901-02.yaml
+- :id:
+    :group: CGPM
+    :type: Meeting
+    :number: '4'
+    :year: '1907'
+  :file: data/cgpm/meeting/4.yaml
+- :id:
+    :group: CGPM
+    :type: Meeting
+    :number: '5'
+    :year: '1913'
+  :file: data/cgpm/meeting/5.yaml
+- :id:
+    :group: CGPM
+    :type: Meeting
+    :number: '6'
+    :year: '1921'
+  :file: data/cgpm/meeting/6.yaml
 - :id:
     :group: CGPM
     :type: Meeting
@@ -866,7 +860,7 @@
     :group: CGPM
     :type: DECL
     :year: '1971'
-  :file: data/cgpm/meeting/declaration/1971-00.yaml
+  :file: data/cgpm/meeting/statement/1971-00.yaml
 - :id:
     :group: CGPM
     :type: Meeting
@@ -3191,6 +3185,12 @@
   :file: data/cipm/meeting/106.yaml
 - :id:
     :group: CIPM
+    :type: REC
+    :number: '10'
+    :year: '2017'
+  :file: data/cipm/meeting/recommendation/2017-10.yaml
+- :id:
+    :group: CIPM
     :type: DECN
     :number: 106-1
     :year: '2017'
@@ -4164,12 +4164,6 @@
 - :id:
     :group: CIPM
     :type: DECN
-    :number: 111-3
-    :year: '2022'
-  :file: data/cipm/meeting/decision/2022-111-3.yaml
-- :id:
-    :group: CIPM
-    :type: DECN
     :number: 111-4
     :year: '2022'
   :file: data/cipm/meeting/decision/2022-111-4.yaml
@@ -4367,10 +4361,358 @@
   :file: data/cipm/meeting/112-2.yaml
 - :id:
     :group: CIPM
+    :type: DECN
+    :number: 112-19
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-19.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-20
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-20.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-21
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-21.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-22
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-22.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-23
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-23.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-24
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-24.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-25
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-25.yaml
+- :id:
+    :group: CIPM
     :type: Meeting
     :number: 112-3
     :year: '2023'
   :file: data/cipm/meeting/112-3.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-26
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-26.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-27
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-27.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-28
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-28.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-29
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-29.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-30
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-30.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-31
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-31.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-32
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-32.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-33
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-33.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-34
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-34.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-35
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-35.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-36
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-36.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-37
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-37.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-38
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-38.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-39
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-39.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-40
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-40.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-41
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-41.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 112-42
+    :year: '2023'
+  :file: data/cipm/meeting/decision/2023-112-42.yaml
+- :id:
+    :group: CIPM
+    :type: Meeting
+    :number: 113-1
+    :year: '2024'
+  :file: data/cipm/meeting/113-1.yaml
+- :id:
+    :group: CIPM
+    :type: Meeting
+    :number: '113'
+    :year: '2024'
+  :file: data/cipm/meeting/113.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-1
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-1.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-2
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-2.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-3
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-3.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-4
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-4.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-5
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-5.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-6
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-6.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-7
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-7.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-8
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-8.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-9
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-9.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-10
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-10.yaml
+- :id:
+    :group: CIPM
+    :type: Meeting
+    :number: 113-2
+    :year: '2024'
+  :file: data/cipm/meeting/113-2.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-11
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-11.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-12
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-12.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-13
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-13.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-14
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-14.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-15
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-15.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-16
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-16.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-17
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-17.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-18
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-18.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-19
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-19.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-20
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-20.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-21
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-21.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-22
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-22.yaml
+- :id:
+    :group: CIPM
+    :type: Meeting
+    :number: 113-3
+    :year: '2024'
+  :file: data/cipm/meeting/113-3.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-23
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-23.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-24
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-24.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-25
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-25.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-26
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-26.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-27
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-27.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-28
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-28.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-29
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-29.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 113-30
+    :year: '2024'
+  :file: data/cipm/meeting/decision/2024-113-30.yaml
 - :id:
     :group: CIPM
     :type: Meeting
@@ -4708,7 +5050,7 @@
     :group: CIPM
     :type: DECL
     :year: '1964'
-  :file: data/cipm/meeting/declaration/1964-00.yaml
+  :file: data/cipm/meeting/statement/1964-00.yaml
 - :id:
     :group: CIPM
     :type: Meeting
@@ -5163,7 +5505,13 @@
     :group: CIPM
     :type: DECL
     :year: '2001'
-  :file: data/cipm/meeting/declaration/2001-00.yaml
+  :file: data/cipm/meeting/statement/2001-00.yaml
+- :id:
+    :group: CIPM
+    :type: DECN
+    :number: 90-1
+    :year: '2001'
+  :file: data/cipm/meeting/decision/2001-90-1.yaml
 - :id:
     :group: CIPM
     :type: Meeting
@@ -5227,6 +5575,12 @@
 - :id:
     :group: CIPM
     :type: REC
+    :number: '3'
+    :year: '2005'
+  :file: data/cipm/meeting/recommendation/2005-03.yaml
+- :id:
+    :group: CIPM
+    :type: REC
     :number: '1'
     :year: '2005'
   :file: data/cipm/meeting/recommendation/2005-01.yaml
@@ -5236,12 +5590,6 @@
     :number: '2'
     :year: '2005'
   :file: data/cipm/meeting/recommendation/2005-02.yaml
-- :id:
-    :group: CIPM
-    :type: REC
-    :number: '3'
-    :year: '2005'
-  :file: data/cipm/meeting/recommendation/2005-03.yaml
 - :id:
     :group: CIPM
     :type: Meeting
@@ -5356,6 +5704,12 @@
     :number: '14'
     :year: '2023'
   :file: data/ccauv/meeting/14.yaml
+- :id:
+    :group: CCAUV
+    :type: Meeting
+    :number: '15'
+    :year: '2025'
+  :file: data/ccauv/meeting/15.yaml
 - :id:
     :group: CCAUV
     :type: Meeting
@@ -5494,6 +5848,12 @@
     :number: '33'
     :year: '2023'
   :file: data/ccem/meeting/33.yaml
+- :id:
+    :group: CCEM
+    :type: Meeting
+    :number: '34'
+    :year: '2025'
+  :file: data/ccem/meeting/34.yaml
 - :id:
     :group: CCL
     :type: Meeting
@@ -5743,6 +6103,12 @@
 - :id:
     :group: CCM
     :type: Meeting
+    :number: '20'
+    :year: '2025'
+  :file: data/ccm/meeting/20.yaml
+- :id:
+    :group: CCM
+    :type: Meeting
     :number: '7'
     :year: '1999'
   :file: data/ccm/meeting/7.yaml
@@ -5842,6 +6208,12 @@
     :number: '25'
     :year: '2022'
   :file: data/ccpr/meeting/25.yaml
+- :id:
+    :group: CCPR
+    :type: Meeting
+    :number: '26'
+    :year: '2024'
+  :file: data/ccpr/meeting/26.yaml
 - :id:
     :group: CCQM
     :type: Meeting
@@ -5943,7 +6315,7 @@
     :type: DECL
     :number: '3'
     :year: '2011'
-  :file: data/ccqm/meeting/declaration/2011-03.yaml
+  :file: data/ccqm/meeting/statement/2011-03.yaml
 - :id:
     :group: CCQM
     :type: Meeting
@@ -6019,9 +6391,21 @@
 - :id:
     :group: CCQM
     :type: Meeting
+    :number: '29'
+    :year: '2024'
+  :file: data/ccqm/meeting/29.yaml
+- :id:
+    :group: CCQM
+    :type: Meeting
     :number: '3'
     :year: '1997'
   :file: data/ccqm/meeting/3.yaml
+- :id:
+    :group: CCQM
+    :type: Meeting
+    :number: '30'
+    :year: '2025'
+  :file: data/ccqm/meeting/30.yaml
 - :id:
     :group: CCQM
     :type: Meeting
@@ -6440,8 +6824,14 @@
     :group: JCGM
     :type: Meeting
     :number: '26'
-    :year: '2023'
+    :year: '2024'
   :file: data/jcgm/meeting/26.yaml
+- :id:
+    :group: JCGM
+    :type: Meeting
+    :number: '27'
+    :year: '2025'
+  :file: data/jcgm/meeting/27.yaml
 - :id:
     :group: JCRB
     :type: Meeting
@@ -9055,6 +9445,12 @@
 - :id:
     :group: JCRB
     :type: ACT
+    :number: 40-2
+    :year: '2019'
+  :file: data/jcrb/meeting/action/2019-40-2.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
     :number: 40-3
     :year: '2019'
   :file: data/jcrb/meeting/action/2019-40-3.yaml
@@ -9082,6 +9478,12 @@
     :number: 40-1
     :year: '2019'
   :file: data/jcrb/meeting/resolution/2019-40-1.yaml
+- :id:
+    :group: JCRB
+    :type: RES
+    :number: 40-2
+    :year: '2019'
+  :file: data/jcrb/meeting/resolution/2019-40-2.yaml
 - :id:
     :group: JCRB
     :type: Meeting
@@ -9310,6 +9712,72 @@
     :number: '47'
     :year: '2023'
   :file: data/jcrb/meeting/47.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 47-1
+    :year: '2023'
+  :file: data/jcrb/meeting/action/2023-47-1.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 47-2
+    :year: '2023'
+  :file: data/jcrb/meeting/action/2023-47-2.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 47-3
+    :year: '2023'
+  :file: data/jcrb/meeting/action/2023-47-3.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 47-4
+    :year: '2023'
+  :file: data/jcrb/meeting/action/2023-47-4.yaml
+- :id:
+    :group: JCRB
+    :type: RES
+    :number: 47-1
+    :year: '2023'
+  :file: data/jcrb/meeting/resolution/2023-47-1.yaml
+- :id:
+    :group: JCRB
+    :type: Meeting
+    :number: '48'
+    :year: '2024'
+  :file: data/jcrb/meeting/48.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 48-1
+    :year: '2024'
+  :file: data/jcrb/meeting/action/2024-48-1.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 48-2
+    :year: '2024'
+  :file: data/jcrb/meeting/action/2024-48-2.yaml
+- :id:
+    :group: JCRB
+    :type: ACT
+    :number: 48-3
+    :year: '2024'
+  :file: data/jcrb/meeting/action/2024-48-3.yaml
+- :id:
+    :group: JCRB
+    :type: RES
+    :number: 48-1
+    :year: '2024'
+  :file: data/jcrb/meeting/resolution/2024-48-1.yaml
+- :id:
+    :group: JCRB
+    :type: RES
+    :number: 48-2
+    :year: '2024'
+  :file: data/jcrb/meeting/resolution/2024-48-2.yaml
 - :id:
     :group: JCRB
     :type: Meeting
@@ -9880,16 +10348,6 @@
     :number: 9-24
     :year: '2002'
   :file: data/jcrb/meeting/action/2002-9-24.yaml
-- :id:
-    :group: SI
-    :type: Brochure
-    :part: '1'
-  :file: data/si-brochure.yaml
-- :id:
-    :group: SI
-    :type: Brochure
-    :append: '4'
-  :file: data/sib-a4.yaml
 - :id:
     :group: Metrologia
   :file: data/metrologia.yaml

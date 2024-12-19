@@ -209,11 +209,12 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '104'
-      part: '1'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '104'
+        part: '1'
 - type: partOf
   bibitem:
     id: CIPM-2015-104-2
@@ -318,16 +319,17 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '104'
-      part: '2'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '104'
+        part: '2'
 place:
 - city: Paris
-doctype:
-  type: Meeting
-structuredidentifier:
-  docnumber: '104'
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: Meeting
+  structuredidentifier:
+    docnumber: '104'

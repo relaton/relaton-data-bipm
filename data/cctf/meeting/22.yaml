@@ -237,11 +237,12 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '22'
-      part: '1'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '22'
+        part: '1'
 - type: partOf
   bibitem:
     id: CCTF-2021-22-2
@@ -358,16 +359,17 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '22'
-      part: '2'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '22'
+        part: '2'
 place:
 - city: Paris
-doctype:
-  type: Meeting
-structuredidentifier:
-  docnumber: '22'
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: Meeting
+  structuredidentifier:
+    docnumber: '22'

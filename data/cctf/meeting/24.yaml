@@ -205,11 +205,12 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '24'
-      part: '1'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '24'
+        part: '1'
 - type: partOf
   bibitem:
     id: CCTF-2025-24-2
@@ -316,16 +317,17 @@ relation:
     - Latn
     place:
     - city: Paris
-    doctype:
-      type: Meeting
-    structuredidentifier:
-      docnumber: '24'
-      part: '2'
+    ext:
+      doctype:
+        type: Meeting
+      structuredidentifier:
+        docnumber: '24'
+        part: '2'
 place:
 - city: Paris
-doctype:
-  type: Meeting
-structuredidentifier:
-  docnumber: '24'
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: Meeting
+  structuredidentifier:
+    docnumber: '24'

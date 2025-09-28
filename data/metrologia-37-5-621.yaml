@@ -1,126 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375621
-title:
-- content: Summary of high-accuracy aperture-area measurement capabilities at the
-    NIST
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/63
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/63
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 621
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Summary of high-accuracy aperture-area measurement capabilities at the
+    NIST
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/63
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/63
+docidentifier:
+- content: Metrologia 37 5 621
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/63
+- content: 10.1088/0026-1394/37/5/63
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joel B Fowler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R D Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A C Parr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The determination of the geometrical and effective area for optical-quality
+- language: en
+  script:
+  - Latn
+  content: "<p>The determination of the geometrical and effective area for optical-quality
     apertures is one of the fundamental sources of uncertainty in many radiometric
     and photometric measurements. The National Institute of Standards and Technology
     (NIST) has developed two non-contact instruments for measuring the area of these
     optical apertures. Some details of the instruments and their capabilities are
     presented. Both instruments can be used to measure the area of apertures with
     diameters ranging from 3.5 mm to 25 mm. The measurements using the absolute instrument
-    result in k = 2 relative uncertainties ranging from 3 × 10<sup>−5</sup> for 25
-    mm diameter apertures 5 × 10<sup>−5</sup> for 3.5 mm diameter apertures. The uncertainty
-    depends to some extent on the quality of the edge and the diameter of the aperture.
-    The measurements using the relative instrument result in k = 2 relative uncertainties
-    ranging from 2 × 10<sup>−4</sup> for 25 mm diameter apertures to 3 × 10<sup>−4</sup>
-    for 3.5 mm diameter apertures, assuming adequate optical-edge quality. For apertures
-    with an edge of very poor quality, the difference between geometrical and effective
-    area can be as high as 0.3 %. The increased uncertainty largely arises from scattering
-    from the edge. Both instruments play a major role in the Consultative Committee
-    for Photometry and Radiometry (CCPR) key comparison on aperture area, which began
-    in 1999.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    result in <italic>k</italic> = 2 relative uncertainties ranging from 3 × 10<sup>−5</sup>
+    for 25 mm diameter apertures 5 × 10<sup>−5</sup> for 3.5 mm diameter apertures.
+    The uncertainty depends to some extent on the quality of the edge and the diameter
+    of the aperture. The measurements using the relative instrument result in <italic>k</italic>
+    = 2 relative uncertainties ranging from 2 × 10<sup>−4</sup> for 25 mm diameter
+    apertures to 3 × 10<sup>−4</sup> for 3.5 mm diameter apertures, assuming adequate
+    optical-edge quality. For apertures with an edge of very poor quality, the difference
+    between geometrical and effective area can be as high as 0.3 %. The increased
+    uncertainty largely arises from scattering from the edge. Both instruments play
+    a major role in the Consultative Committee for Photometry and Radiometry (CCPR)
+    key comparison on aperture area, which began in 1999.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Summary of high-accuracy aperture-area measurement capabilities at
+    - language: en
+      script: Latn
+      content: Summary of high-accuracy aperture-area measurement capabilities at
         the NIST
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +115,6 @@ extent:
     reference_from: '621'
     reference_to: '623'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

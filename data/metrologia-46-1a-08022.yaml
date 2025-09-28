@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461A08022
-title:
-- content: 'Final report on key comparison CCQM-K20: pH of tetroxalate buffer'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1A/08022
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1A/08022
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1A 08022
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on key comparison CCQM-K20: pH of tetroxalate buffer'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1A/08022
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1A/08022
+docidentifier:
+- content: Metrologia 46 1A 08022
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1A/08022
+- content: 10.1088/0026-1394/46/1A/08022
   type: doi
 date:
 - type: published
-  value: '2009-01-01'
+  at: '2009-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kenneth W Pratt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Analytical Chemistry
             Division, Gaithersburg, MD 20899-8391, USA
-  role:
-  - type: author
-revdate: '2009-01-01'
 abstract:
-- content: |-
-    <p>The key comparison CCQM-K20 was performed to demonstrate the capability of the participating national metrology institutes (NMIs) to measure the pH value of an unknown potassium tetroxalate buffer by the primary method. The buffer of nominal pH ~ 1.7 was measured at three temperatures: 15 °C, 25 °C, and 37 °C. The comparison was an activity of the Electrochemical Working Group (EAWG) of the CCQM and was coordinated by NIST (USA).
-
-    All participants applied the primary method for pH. The result for the unknown buffer solution is the acidity function at zero chloride molality. Values for the key comparison reference value (KCRV) and its uncertainty, and the degrees of equivalence (D<sub>i</sub>) are reported. Good agreement of the results was observed for the majority of participants.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The key comparison CCQM-K20 was performed to demonstrate the capability of the participating national metrology institutes (NMIs) to measure the pH value of an unknown potassium tetroxalate buffer by the primary method.  The buffer of nominal pH ~ 1.7 was measured at three temperatures: 15 °C, 25 °C, and 37 °C.  The comparison was an activity of the Electrochemical Working Group (EAWG) of the CCQM and was coordinated by NIST (USA).
+
+    All participants applied the primary method for pH.  The result for the unknown buffer solution is the acidity function at zero chloride molality.   Values for the key comparison reference value (KCRV) and its uncertainty, and the degrees of equivalence (<italic>D<sub>i</sub></italic>) are reported.  Good agreement of the results was observed for the majority of participants.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/QM/K20/CCQM-K20.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on key comparison CCQM-K20: pH of tetroxalate buffer'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final report on key comparison CCQM-K20: pH of tetroxalate buffer'
     date:
     - type: ppub
-      value: '2009-01-01'
+      at: '2009-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +79,6 @@ extent:
     reference_from: '08022'
     reference_to: '08022'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,114 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S73
-title:
-- content: The uncertainty of counting at a defined solid angle
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S73
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S73
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S73
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The uncertainty of counting at a defined solid angle
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S73
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S73
+docidentifier:
+- content: Metrologia 52 3 S73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S73
+- content: 10.1088/0026-1394/52/3/S73
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Retieseweg 111, B-2440 Geel, Belgium
         name:
         - content: Joint Research Centre, Institute for Reference Materials and Measurements
         subdivision:
-        - content: European Commission
-        contact:
-        - address:
-            formatted_address: Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission
 abstract:
-- content: Abstract<p>Specific uncertainty components of counting at a defined solid
-    angle are discussed. It is potentially an extremely accurate technique for primary
-    standardisation of activity of alpha emitters and low-energy x-ray emitters. Owing
-    to its reproducibility, it is very well suited for half-life measurements. Considered
-    sources of uncertainty are 1) source–detector geometry, 2) solid-angle calculation,
-    3) energy loss and self-absorption, 4) scattering, 5) detection efficiency. Other
-    sources of uncertainty, such as source weighing, counting, dead time and decay
-    data are common to other standardisation methods. Statistical uncertainty propagation
-    formulas are presented for the solid angle subtended by a circular detector to
-    radioactive sources. Computer simulations were performed to investigate aspects
-    of particle scattering.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Specific uncertainty components of counting at a defined solid angle are discussed. It is potentially an extremely accurate technique for primary standardisation of activity of alpha emitters and low-energy x-ray emitters. Owing to its reproducibility, it is very well suited for half-life measurements. Considered sources of uncertainty are 1) source–detector geometry, 2) solid-angle calculation, 3) energy loss and self-absorption, 4) scattering, 5) detection efficiency. Other sources of uncertainty, such as source weighing, counting, dead time and decay data are common to other standardisation methods. Statistical uncertainty propagation formulas are presented for the solid angle subtended by a circular detector to radioactive sources. Computer simulations were performed to investigate aspects of particle scattering.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of counting at a defined solid angle
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of counting at a defined solid angle
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of counting at a defined solid angle
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of counting at a defined solid angle
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of counting at a defined solid angle
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of counting at a defined solid angle
     date:
     - type: open-access
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: S73
     reference_to: S85
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

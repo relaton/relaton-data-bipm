@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S85
-title:
-- content: Radiometric stability monitoring of the MODIS reflective solar bands using
-    the Moon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/319
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/319
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S85
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiometric stability monitoring of the MODIS reflective solar bands using
+    the Moon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/319
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/319
+docidentifier:
+- content: Metrologia 40 1 S85
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/319
+- content: 10.1088/0026-1394/40/1/319
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Sun
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Science Systems and Applications, Inc., 10210 Greenbelt Road, Suite
             600, Lanham, MD 20706, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: X Xiong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Science Systems and Applications, Inc., 10210 Greenbelt Road, Suite
             600, Lanham, MD 20706, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Guenther
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Lockheed Martin Corporation, 8455 Colesville Road, Suite 960, Silver
             Spring, MD 20910,  USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Barnes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Hydrospheric Processes, NASA/GSFC, Greenbelt, MD
             20771, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Because of its stable surface reflectance and its stable irradiance
+- language: en
+  script:
+  - Latn
+  content: "<p>Because of its stable surface reflectance and its stable irradiance
     in the visible (VIS) and near-infrared (NIR) spectral regions, the Moon can be
     used as a reference source for monitoring the response stability of Earth-orbiting
     sensors. MODerate Resolution Imaging Spectroradiometer (MODIS) Protoflight Model
@@ -100,55 +90,44 @@ abstract:
     to minimize the effects that need to be corrected and its application to the MODIS
     lunar observations. Results, derived from MODIS lunar views, are reported and
     compared with the on-board SD observations.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometric stability monitoring of the MODIS reflective solar bands
+    - language: en
+      script: Latn
+      content: Radiometric stability monitoring of the MODIS reflective solar bands
         using the Moon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometric stability monitoring of the MODIS reflective solar bands
+    - language: en
+      script: Latn
+      content: Radiometric stability monitoring of the MODIS reflective solar bands
         using the Moon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -159,6 +138,6 @@ extent:
     reference_from: S85
     reference_to: S88
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

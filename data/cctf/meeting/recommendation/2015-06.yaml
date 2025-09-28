@@ -1,115 +1,93 @@
 ---
-schema-version: v1.2.9
 id: CCTF-REC-2015-06
+type: proceedings
+schema_version: v1.4.1
 title:
-- content: Development of national and international time and frequency links to  improve
+- language: en
+  script: Latn
+  content: Development of national and international time and frequency links to  improve
     methods for intercontinental clock comparisons and for  dissemination to stakeholder
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Développement des liaisons nationales et internationales afin d’améliorer
+- language: fr
+  script: Latn
+  content: Développement des liaisons nationales et internationales afin d’améliorer
     les méthodes intercontinentales de comparaison d’horloges et de dissémination
     des données de temps et de fréquence aux parties prenantes
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cctf/20-2015/resolution-6
+source:
+- language: en
+  script: Latn
   type: citation
-  language: en
+  content: https://www.bipm.org/en/committees/cc/cctf/20-2015/resolution-6
+- language: fr
   script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cctf/20-2015/resolution-6
   type: citation
-  language: fr
+  content: https://www.bipm.org/fr/committees/cc/cctf/20-2015/resolution-6
+- language: en
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-20.yml
   type: src
-  language: en
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-20.yml
+- language: fr
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-20.yml
   type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071143/CCTF20.pdf/b3f5e382-5e0d-fd49-5622-f0823261662f
-  type: pdf
-type: proceedings
-docid:
-- id: CCTF REC 6 (2015)
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-20.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071143/CCTF20.pdf/b3f5e382-5e0d-fd49-5622-f0823261662f
+docidentifier:
+- content: CCTF REC 6 (2015)
   type: BIPM
   primary: true
-- id: CCTF REC 6 (2015, E)
+- language: en
+  script: Latn
+  content: CCTF REC 6 (2015, E)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CCTF REC 6 (2015, F)
+  content: CCTF REC 6 (2015, F)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCTF Recommendation 6 (2015)
+  content: CCTF Recommendation 6 (2015)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 6 du CCTF (2015)
+  content: Recommandation 6 du CCTF (2015)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCTF Recommendation 6 (2015) / Recommandation 6 du CCTF (2015)
+- content: CCTF Recommendation 6 (2015) / Recommandation 6 du CCTF (2015)
   type: BIPM-long
 docnumber: CCTF REC 6 (2015)
 date:
 - type: published
-  value: '2015-09-18'
+  at: '2015-09-18'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: Consultative Committee for Time and Frequency
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité consultatif du temps et des fréquences
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CCTF
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2015-09-18'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Consultative Committee for Time and Frequency
+    - language: fr
+      script: Latn
+      content: Comité consultatif du temps et des fréquences
+    abbreviation:
+      language: en
+      script: Latn
+      content: CCTF
 language:
 - en
 - fr
@@ -118,8 +96,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '6'

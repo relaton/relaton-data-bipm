@@ -1,101 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5341054
-title:
-- content: Simplified fundamental force and mass measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/1054
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/1054
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 1054
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Simplified fundamental force and mass measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/1054
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/1054
+docidentifier:
+- content: Metrologia 53 4 1054
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/1054
+- content: 10.1088/0026-1394/53/4/1054
   type: doi
 date:
 - type: published
-  value: '2016-06-24'
+  at: '2016-06-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I A Robinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-06-24'
 abstract:
-- content: 'Abstract<p>The watt balance relates force or mass to the Planck constant
-    h, the metre and the second. It enables the forthcoming redefinition of the unit
-    of mass within the SI by measuring the Planck constant in terms of mass, length
-    and time with an uncertainty of better than 2 parts in 10<sup>8</sup>. To achieve
-    this, existing watt balances require complex and time-consuming alignment adjustments
-    limiting their use to a few national metrology laboratories. This paper describes
-    a simplified construction and operating principle for a watt balance which eliminates
-    the need for the majority of these adjustments and is readily scalable using either
-    electromagnetic or electrostatic actuators. It is hoped that this will encourage
-    the more widespread use of the technique for a wide range of measurements of force
-    or mass. For example: thrust measurements for space applications which would require
-    only measurements of electrical quantities and velocity/displacement.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The watt balance relates force or mass to the Planck constant <italic>h</italic>, the metre and the second. It enables the forthcoming redefinition of the unit of mass within the SI by measuring the Planck constant in terms of mass, length and time with an uncertainty of better than 2 parts in 10<sup>8</sup>. To achieve this, existing watt balances require complex and time-consuming alignment adjustments limiting their use to a few national metrology laboratories. This paper describes a simplified construction and operating principle for a watt balance which eliminates the need for the majority of these adjustments and is readily scalable using either electromagnetic or electrostatic actuators. It is hoped that this will encourage the more widespread use of the technique for a wide range of measurements of force or mass. For example: thrust measurements for space applications which would require only measurements of electrical quantities and velocity/displacement.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simplified fundamental force and mass measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Simplified fundamental force and mass measurements
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simplified fundamental force and mass measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Simplified fundamental force and mass measurements
     date:
     - type: epub
-      value: '2016-06-24'
+      at: '2016-06-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +88,6 @@ extent:
     reference_from: '1054'
     reference_to: '1060'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,153 +1,127 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525685
-title:
-- content: An algorithm for the compensation of short-period errors in optical encoders
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/685
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/685
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 685
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An algorithm for the compensation of short-period errors in optical encoders
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/685
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/685
+docidentifier:
+- content: Metrologia 52 5 685
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/685
+- content: 10.1088/0026-1394/52/5/685
   type: doi
 date:
 - type: published
-  value: '2015-09-24'
+  at: '2015-09-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marcus H Mendenhall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
         name:
         - content: NIST
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Donald Windover
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
         name:
         - content: NIST
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Albert Henins
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
         name:
         - content: NIST
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James P Cline
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
         name:
         - content: NIST
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr., Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2015-09-24'
 abstract:
-- content: Abstract<p>We present a simple way to collect data from an optical position-or-angle
-    encoder with a readout that interpolates values between the optical features,
-    and to process these data to determine the short-range errors that arise from
-    an interpolation process. This is commonly known as generating the compensation
-    function for such an encoder. This process allows the user of data from an encoder
-    to make this correction without relying on undocumented internal algorithms which
-    may be provided by the encoder manufacturer. It can also be used to test built-in
-    algorithms by measuring the residual error when internal algorithms are used.
-    We apply the algorithm to a commercial angular encoder, installed in a goniometer,
-    as an example. The determination of this function on an encoder is critical to
-    provable angle or position metrology efforts.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We present a simple way to collect data from an optical position-or-angle encoder with a readout that interpolates values between the optical features, and to process these data to determine the short-range errors that arise from an interpolation process. This is commonly known as generating the compensation function for such an encoder. This process allows the user of data from an encoder to make this correction without relying on undocumented internal algorithms which may be provided by the encoder manufacturer. It can also be used to test built-in algorithms by measuring the residual error when internal algorithms are used. We apply the algorithm to a commercial angular encoder, installed in a goniometer, as an example. The determination of this function on an encoder is critical to provable angle or position metrology efforts.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An algorithm for the compensation of short-period errors in optical
+    - script: Latn
+      content: An algorithm for the compensation of short-period errors in optical
         encoders
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An algorithm for the compensation of short-period errors in optical
+    - script: Latn
+      content: An algorithm for the compensation of short-period errors in optical
         encoders
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-09-24'
+      at: '2015-09-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -158,6 +132,6 @@ extent:
     reference_from: '685'
     reference_to: '693'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

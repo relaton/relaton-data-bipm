@@ -1,97 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A01012
-title:
-- content: Draft B report of EUROMET.EM-K6.a
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/01012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/01012
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 01012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Draft B report of EUROMET.EM-K6.a
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/01012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/01012
+docidentifier:
+- content: Metrologia 44 1A 01012
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/01012
+- content: 10.1088/0026-1394/44/1A/01012
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Torsten Funck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch Technische Bundesanstalt (PTB), Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ivanka Hadzhieva
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bulgarian Institute of Metrology, National Centre of Metrology
             (NCM), Sofia, Bulgaria
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>The key comparison EUROMET.EM-K6.a was a bilateral comparison between PTB, Germany and BIM, Bulgaria and is linked to the corresponding comparison CCEM-K6.a, in which PTB participated. It is aimed at the following objectives:<list list-type="unordered"><list-item><p>Demonstration of international equivalence of BIM AC–DC Voltage Transfer Standard;</p></list-item><list-item><p>Demonstration of equivalence of metrological practice in measurements of AC–DC Voltage Transfer Difference;</p></list-item><list-item><p>Proof of the correctness of calibration results;</p></list-item><list-item><p>Proof of the correct traceability of the standards.</p></list-item></list>
-    The quantitity to be compared was the ac–dc voltage transfer difference of the travelling standard, a Fluke 792A AC/DC Transfer Standard, at 3 V and at frequencies 1 kHz, 20 kHz and 100 kHz. The obtained results show very good agreement with the reference value within the expanded uncertainties.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The key comparison EUROMET.EM-K6.a was a bilateral comparison between PTB, Germany and BIM, Bulgaria and is linked to the corresponding comparison  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/39/1A/2/">CCEM-K6.a</ext-link>, in which PTB participated. It is aimed at the following objectives:
+     <list list-type="unordered">
+     <list-item><p>Demonstration of international equivalence of BIM AC–DC Voltage Transfer Standard;</p></list-item>
+     <list-item><p>Demonstration of equivalence of metrological practice in measurements of AC–DC Voltage Transfer Difference;</p></list-item>
+     <list-item><p>Proof of the correctness of calibration results;</p></list-item>
+     <list-item><p>Proof of the correct traceability of the standards.</p></list-item>
+    </list>
+    The quantitity to be compared was the ac–dc voltage transfer difference of the travelling standard, a Fluke 792A AC/DC Transfer Standard, at 3 V and at frequencies 1 kHz, 20 kHz and 100 kHz. The obtained results show very good agreement with the reference value within the expanded uncertainties.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K6/EUROMET.EM-K6.a.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Draft B report of EUROMET.EM-K6.a
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Draft B report of EUROMET.EM-K6.a
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +96,6 @@ extent:
     reference_from: '01012'
     reference_to: '01012'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

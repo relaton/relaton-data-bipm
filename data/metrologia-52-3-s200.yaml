@@ -1,136 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S200
-title:
-- content: Determination of a reference value and its uncertainty through a power-moderated
-    mean
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S200
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S200
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S200
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Determination of a reference value and its uncertainty through a power-moderated
+    mean
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S200
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S200
+docidentifier:
+- content: Metrologia 52 3 S200
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S200
+- content: 10.1088/0026-1394/52/3/S200
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Retieseweg 111, B-2440 Geel, Belgium
         name:
         - content: Institute for Reference Materials and Measurements
         subdivision:
-        - content: European Commission, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Retieseweg 111, B-2440 Geel, Belgium
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission, Joint Research Centre
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Keightley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2015-05-22'
 abstract:
-- content: Abstract<p>A method is presented for calculating a key comparison reference
-    value (KCRV) and its associated standard uncertainty. The method allows for technical
-    scrutiny of data, correction or exclusion of extreme data, but above all uses
-    a power-moderated mean that can calculate an efficient and robust mean from any
-    data set. For mutually consistent data, the method approaches a weighted mean,
-    the weights being the reciprocals of the variances (squared standard uncertainties)
-    associated with the measured values. For data sets suspected of inconsistency,
-    the weighting is moderated by increasing the laboratory variances by a common
-    amount and/or decreasing the power of the weighting factors. By using computer
-    simulations, it is shown that the PMM is a good compromise between efficiency
-    and robustness, while also providing a realistic uncertainty. The method is of
-    particular interest to data evaluators and organizers of proficiency tests.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A method is presented for calculating a key comparison reference value (KCRV) and its associated standard uncertainty. The method allows for technical scrutiny of data, correction or exclusion of extreme data, but above all uses a <italic>power-moderated mean</italic> that can calculate an efficient and robust mean from any data set. For mutually consistent data, the method approaches a weighted mean, the weights being the reciprocals of the variances (squared standard uncertainties) associated with the measured values. For data sets suspected of inconsistency, the weighting is moderated by increasing the laboratory variances by a common amount and/or decreasing the power of the weighting factors. By using computer simulations, it is shown that the PMM is a good compromise between efficiency and robustness, while also providing a realistic uncertainty. The method is of particular interest to data evaluators and organizers of proficiency tests.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determination of a reference value and its uncertainty through a power-moderated
+    - script: Latn
+      content: Determination of a reference value and its uncertainty through a power-moderated
         mean
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determination of a reference value and its uncertainty through a power-moderated
+    - script: Latn
+      content: Determination of a reference value and its uncertainty through a power-moderated
         mean
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determination of a reference value and its uncertainty through a power-moderated
+    - script: Latn
+      content: Determination of a reference value and its uncertainty through a power-moderated
         mean
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +121,6 @@ extent:
     reference_from: S200
     reference_to: S212
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

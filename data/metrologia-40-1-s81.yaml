@@ -1,134 +1,118 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S81
-title:
-- content: Stray-light correction algorithm for spectrographs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/318
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/318
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S81
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Stray-light correction algorithm for spectrographs
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/318
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/318
+docidentifier:
+- content: Metrologia 40 1 S81
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/318
+- content: 10.1088/0026-1394/40/1/318
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Steven W Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD
             20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Carol Johnson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD
             20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael E Feinholz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Moss Landing Marine Laboratories, Moss Landing, CA 95039, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mark A Yarbrough
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Moss Landing Marine Laboratories, Moss Landing, CA 95039, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephanie J Flora
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Moss Landing Marine Laboratories, Moss Landing, CA 95039, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Keith R Lykke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD
             20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dennis K Clark
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Oceanic and Atmospheric Administration, National Environmental
             Satellite Data and Information Service, Camp Springs, MD 20746, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>In this paper, we describe an algorithm to correct a spectrograph's
+- language: en
+  script:
+  - Latn
+  content: "<p>In this paper, we describe an algorithm to correct a spectrograph's
     response for stray light. Two recursion relations are developed: one to correct
     the system response when measuring broad-band calibration sources, and a second
     to correct the response when measuring sources of unknown radiance. The algorithm
@@ -138,53 +122,42 @@ abstract:
     for stray light. A stray-light correction algorithm was developed, based on the
     results of these measurements. The instrument's response was corrected for stray
     light, and the effects on measured up-welling in-water radiance were evaluated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stray-light correction algorithm for spectrographs
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Stray-light correction algorithm for spectrographs
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stray-light correction algorithm for spectrographs
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Stray-light correction algorithm for spectrographs
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -195,6 +168,6 @@ extent:
     reference_from: S81
     reference_to: S84
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354387
-title:
-- content: Measurement of the reflectance of the INM cryogenic radiometer cavity at
-    several wavelengths
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/28
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/28
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 387
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the reflectance of the INM cryogenic radiometer cavity at
+    several wavelengths
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/28
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/28
+docidentifier:
+- content: Metrologia 35 4 387
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/28
+- content: 10.1088/0026-1394/35/4/28
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Touayar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Rougié
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Coutin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bastie
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>This article gives the results of the measurements of the Institut
+- language: en
+  script:
+  - Latn
+  content: "<p>This article gives the results of the measurements of the Institut
     National de Metrologie (INM) LaseRad cavity reflectance. These measurements were
     performed at several laser wavelengths: 325 nm, 488 nm, 514 nm, 543 nm, 633 nm
     and 1550 nm. The comparison of our measurements at 633 nm with those carried out
@@ -92,40 +82,32 @@ abstract:
     uncertainties in the range of 5 × 10<sup>-5</sup>. The change in the reflectance
     with wavelength is not negligible. The reflectance varies from 2.8 × 10<sup>-4</sup>
     to 1.10 × 10<sup>-4</sup>, according to the wavelength.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the reflectance of the INM cryogenic radiometer cavity
+    - language: en
+      script: Latn
+      content: Measurement of the reflectance of the INM cryogenic radiometer cavity
         at several wavelengths
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +118,6 @@ extent:
     reference_from: '387'
     reference_to: '391'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

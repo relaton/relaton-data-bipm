@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43198
-title:
-- content: Modelling for realization of a moist gas generator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 98
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Modelling for realization of a moist gas generator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/014
+docidentifier:
+- content: Metrologia 43 1 98
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/014
+- content: 10.1088/0026-1394/43/1/014
   type: doi
 date:
 - type: published
-  value: '2005-12-07'
+  at: '2005-12-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vincent Carpentier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,92 +37,77 @@ contributor:
         name:
         - content: Université Blaise Pascal de Clermont-Ferrand, 34 avenue Carnot,
             BP 185, 63006 Clermont-Ferrand Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mohammed Megharfi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire national de métrologie et d'essais, 1 rue Gaston Boissier,
             75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacques Quint
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Université Blaise Pascal de Clermont-Ferrand, 34 avenue Carnot,
             BP 185, 63006 Clermont-Ferrand Cedex, France
-  role:
-  - type: author
-revdate: '2005-12-07'
 abstract:
-- content: "<p>Within the framework of the realization of a moist gas generator, a
+- language: en
+  script:
+  - Latn
+  content: "<p>Within the framework of the realization of a moist gas generator, a
     two-dimensional mass and heat transfer model has been established and then resolved.
     The impact of parameters such as flow rate of the gas and dew point temperature
     of the incoming gas was assessed. The realized moist gas generator was tested
     in a comparison made by means of a reference hygrometer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Modelling for realization of a moist gas generator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Modelling for realization of a moist gas generator
     date:
     - type: epub
-      value: '2005-12-07'
+      at: '2005-12-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Modelling for realization of a moist gas generator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Modelling for realization of a moist gas generator
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +118,6 @@ extent:
     reference_from: '98'
     reference_to: '105'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

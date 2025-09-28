@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
-id: Metrologia424L23
-title:
-- content: Differing angles on angle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/42/4/L02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/4/L02
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 4 L23
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Differing angles on <italic>angle</italic>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/4/L02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/4/L02
+docidentifier:
+- content: Metrologia 42 4 L23
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/4/L02
+- content: 10.1088/0026-1394/42/4/L02
   type: doi
 date:
 - type: published
-  value: '2005-05-10'
+  at: '2005-05-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W H Emerson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Le Trel, 47140 Auradou, France
-  role:
-  - type: author
-revdate: '2005-05-10'
 abstract:
-- content: "<p>Values of plane angles are expressed with a choice of several units.
-    Historically the quantity needed a unit because it was, and still is, used as
-    a base quantity. ISO/TC 12 defines it as a derived, dimensionless quantity, and
-    the International System of Units (SI) gives it the ‘dimensionless unit’ radian,
-    which now means no more than ‘one’. This paper discusses the confusion that arises
-    from the dual uses of these terms.</p><p>The author argues that solid angle is
-    logically a two-dimensional angle derived from plane angle, and has units naturally
-    derived from units of plane angle. ISO/TC 12, however, defines the quantity independently
-    of plane angle as a dimensionless quantity to which, nevertheless, the SI assigns
-    a ‘unit’.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Values of plane angles are expressed with a choice of several units. Historically the quantity needed a unit because it was, and still is, used as a base quantity. ISO/TC 12 defines it as a derived, dimensionless quantity, and the International System of Units (SI) gives it the ‘dimensionless unit’ radian, which now means no more than ‘one’. This paper discusses the confusion that arises from the dual uses of these terms.</p>
+    <p>The author argues that solid angle is logically a two-dimensional angle derived from plane angle, and has units naturally derived from units of plane angle. ISO/TC 12, however, defines the quantity independently of plane angle as a dimensionless quantity to which, nevertheless, the SI assigns a ‘unit’.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Differing angles on angle
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Differing angles on <italic>angle</italic>
     date:
     - type: epub
-      value: '2005-05-10'
+      at: '2005-05-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Differing angles on angle
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Differing angles on <italic>angle</italic>
     date:
     - type: ppub
-      value: '2005-08-01'
+      at: '2005-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +85,6 @@ extent:
     reference_from: L23
     reference_to: L26
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

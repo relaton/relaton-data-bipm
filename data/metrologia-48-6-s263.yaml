@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S263
-title:
-- content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S04
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S04
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S263
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S04
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S04
+docidentifier:
+- content: Metrologia 48 6 S263
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S04
+- content: 10.1088/0026-1394/48/6/S04
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ralf Nolte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David J Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>Monoenergetic neutron reference fields are required for the investigation
+- language: en
+  script:
+  - Latn
+  content: "<p>Monoenergetic neutron reference fields are required for the investigation
     of the energy-dependent response and the calibration of neutron detectors and
     dosemeters for various applications ranging from nuclear physics and nuclear data
     measurements to radiation protection. In a series of two separate publications
@@ -65,55 +59,47 @@ abstract:
     on the most important techniques for field characterization. This includes the
     determination of the neutron fluence as well as the spectral neutron distribution
     and the determination of the fluence of contaminating photons.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Monoenergetic fast neutron reference fields: I. Neutron production'
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +110,6 @@ extent:
     reference_from: S263
     reference_to: S273
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

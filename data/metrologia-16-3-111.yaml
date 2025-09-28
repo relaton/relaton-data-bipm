@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia163111
-title:
-- content: International Comparison of Pressure Balance Standards over the 1 MPa to
-    10 MPa Range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 3 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Pressure Balance Standards over the 1 MPa to
+    10 MPa Range
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/3/002
+docidentifier:
+- content: Metrologia 16 3 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/3/002
+- content: 10.1088/0026-1394/16/3/002
   type: doi
 date:
 - type: published
-  value: '1980-07-01'
+  at: '1980-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, FRG
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Jäger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, FRG
-  role:
-  - type: author
-revdate: '1980-07-01'
 abstract:
-- content: '<p>A synopsis is given of the results of comparative pressure measurements
+- language: en
+  script:
+  - Latn
+  content: '<p>A synopsis is given of the results of comparative pressure measurements
     performed by the Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, in
     cooperation with the following institutions: Bureau National de Métrologie (BNM),
     Paris, Istituto di Metrologia "G Colonnetti" (IMGC), Turin, National Bureau of
     Standards (NBS), Washington, National Physical Laboratory (NPL), Teddington. Reference
     is made to the results of intercomparison experiments of the BNM together with
     the institute of the Gosstandart (VNIIM), Moscow.</p>'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Pressure Balance Standards over the 1 MPa
+    - language: en
+      script: Latn
+      content: International Comparison of Pressure Balance Standards over the 1 MPa
         to 10 MPa Range
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-07-01'
+      at: '1980-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '111'
     reference_to: '115'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

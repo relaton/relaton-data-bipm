@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306607
-title:
-- content: Novel Nonrotational Piston Gauge with Weight Balance Mechanism for the
-    Measurement of Small Differential Pressures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 607
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Novel Nonrotational Piston Gauge with Weight Balance Mechanism for the
+    Measurement of Small Differential Pressures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/012
+docidentifier:
+- content: Metrologia 30 6 607
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/012
+- content: 10.1088/0026-1394/30/6/012
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Ooiwa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-4, Umezono 1-Chome,
             Tsukuba, Ibaraki 305, Japan
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>Piston gauges are well-known standard instruments in the field of pressure
+- language: en
+  script:
+  - Latn
+  content: "<p>Piston gauges are well-known standard instruments in the field of pressure
     metrology. But it is difficult to use them for small differential pressure measurements,
     because the pressure must be balanced against at least the weight of the piston,
     which generally corresponds to a pressure of several kilopascals. It is also difficult
@@ -54,40 +50,32 @@ abstract:
     and the other centralizes the piston in the cylinder without rotation. These mechanisms
     enable an electronic balance to measure the force produced on the piston by a
     small differential pressure.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Novel Nonrotational Piston Gauge with Weight Balance Mechanism for
+    - language: en
+      script: Latn
+      content: Novel Nonrotational Piston Gauge with Weight Balance Mechanism for
         the Measurement of Small Differential Pressures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '607'
     reference_to: '610'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

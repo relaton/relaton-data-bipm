@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia284327
-title:
-- content: The Reference Function for Platinum Resistance Thermometer Interpolation
-    between 13,8033 K and 273,16 K in the International Temperature Scale of 1990
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 4 327
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Reference Function for Platinum Resistance Thermometer Interpolation
+    between 13,8033 K and 273,16 K in the International Temperature Scale of 1990
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/4/004
+docidentifier:
+- content: Metrologia 28 4 327
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/4/004
+- content: 10.1088/0026-1394/28/4/004
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Measurement Laboratory,
             P.O. Box 218, Lindfield, NSW 2070, Australia
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The historical path followed in the development of the reference function
+- language: en
+  script:
+  - Latn
+  content: "<p>The historical path followed in the development of the reference function
     for interpolating temperatures from platinum resistance thermometers between 13,8033
     K and 273,16 K in the International Temperature Scale of 1990 is described. The
     construction of the reference function is discussed, as are the considerations
     which lead to the form adopted for the ITS-90.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Reference Function for Platinum Resistance Thermometer Interpolation
+    - language: en
+      script: Latn
+      content: The Reference Function for Platinum Resistance Thermometer Interpolation
         between 13,8033 K and 273,16 K in the International Temperature Scale of 1990
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '327'
     reference_to: '332'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

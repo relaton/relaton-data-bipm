@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16121
-title:
-- content: The Mercury Melting Line Up to 1200 MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 1 21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Mercury Melting Line Up to 1200 MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/1/005
+docidentifier:
+- content: Metrologia 16 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/1/005
+- content: 10.1088/0026-1394/16/1/005
   type: doi
 date:
 - type: published
-  value: '1980-01-01'
+  at: '1980-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G F Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,56 +37,50 @@ contributor:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Strada delle cacce 73, 10135
             Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Bean
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Thermophysics Division, Washington,
             DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Houck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Thermophysics Division, Washington,
             DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Welch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Thermophysics Division, Washington,
             DC 20234, USA
-  role:
-  - type: author
-revdate: '1980-01-01'
 abstract:
-- content: "<p>The mercury melting line has been determined for pressures up to 1200
+- language: en
+  script:
+  - Latn
+  content: "<p>The mercury melting line has been determined for pressures up to 1200
     MPa. The change of electrical resistance in the mercury sample was used for detecting
     the equilibrium between the solid and liquid phases. Pressure measurements were
     made with highly stable manganin gages calibrated against two controlled clearance
@@ -107,39 +97,31 @@ abstract:
     data much more closely than the Simon type heretofore recommended and can be used
     up to 1200 MPa to increase the accuracy of a practical pressure scale based on
     the melting line of mercury.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Mercury Melting Line Up to 1200 MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Mercury Melting Line Up to 1200 MPa
     date:
     - type: ppub
-      value: '1980-01-01'
+      at: '1980-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +132,6 @@ extent:
     reference_from: '21'
     reference_to: '29'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

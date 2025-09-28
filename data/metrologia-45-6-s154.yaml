@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S154
-title:
-- content: Algorithms for frequency jump detection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S21
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S21
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S154
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Algorithms for frequency jump detection
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S21
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S21
+docidentifier:
+- content: Metrologia 45 6 S154
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S21
+- content: 10.1088/0026-1394/45/6/S21
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W J Riley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hamilton Technical Services, 650 Distant Island Drive, Beaufort,
             SC 29907, USA
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>The detection of jumps in a frequency record is a challenging problem
+- language: en
+  script:
+  - Latn
+  content: "<p>The detection of jumps in a frequency record is a challenging problem
     by either visual or mathematical means. The former takes considerable experience
     and judgment, and is therefore quite subjective, but has the advantage of providing
     insight into device behaviour. The latter is more impartial and consistent, and
@@ -50,53 +46,42 @@ abstract:
     then be inspected visually before deciding on the action required. This paper
     describes frequency jump detection algorithms that are included in a program for
     frequency stability analysis.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Algorithms for frequency jump detection
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Algorithms for frequency jump detection
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Algorithms for frequency jump detection
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Algorithms for frequency jump detection
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: S154
     reference_to: S161
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

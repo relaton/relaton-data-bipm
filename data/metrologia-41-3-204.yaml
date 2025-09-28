@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia413204
-title:
-- content: Absolute calibration of silicon photodiodes by purely relative measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/3/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/3/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 3 204
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute calibration of silicon photodiodes by purely relative measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/3/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/3/014
+docidentifier:
+- content: Metrologia 41 3 204
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/3/014
+- content: 10.1088/0026-1394/41/3/014
   type: doi
 date:
 - type: published
-  value: '2004-04-27'
+  at: '2004-04-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jarle Gran
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,26 +37,24 @@ contributor:
         name:
         - content: University of Oslo, University Graduate Center (UniK), PO Box 70,
             N-2007 Kjeller, Norway
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aasmund S Sudbø
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Oslo, University Graduate Center (UniK), PO Box 70,
             N-2007 Kjeller, Norway
-  role:
-  - type: author
-revdate: '2004-04-27'
 abstract:
-- content: "<p>Previously verified models of windowless silicon photodiodes can be
+- language: en
+  script:
+  - Latn
+  content: "<p>Previously verified models of windowless silicon photodiodes can be
     used to estimate their spectral response by purely relative measurements. The
     spectral reflectance is found from a single measurement at one wavelength to estimate
     the oxide thickness, from which the full spectral reflectance is calculated. The
@@ -75,53 +69,42 @@ abstract:
     response measurement. The uncertainty was limited by the signal to noise ratio
     (SNR) in the measurements of the relative spectral response of the silicon trap
     detectors.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute calibration of silicon photodiodes by purely relative measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute calibration of silicon photodiodes by purely relative measurements
     date:
     - type: epub
-      value: '2004-04-27'
+      at: '2004-04-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute calibration of silicon photodiodes by purely relative measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute calibration of silicon photodiodes by purely relative measurements
     date:
     - type: ppub
-      value: '2004-06-01'
+      at: '2004-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +115,6 @@ extent:
     reference_from: '204'
     reference_to: '212'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

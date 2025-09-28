@@ -1,218 +1,193 @@
 ---
-schema-version: v1.2.9
-id: Metrologia565055001
-title:
-- content: Flat-field calibration method for hyperspectral frame cameras
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab3261
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab3261
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 5 055001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Flat-field calibration method for hyperspectral frame cameras
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab3261
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab3261
+docidentifier:
+- content: Metrologia 56 5 055001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab3261
+- content: 10.1088/1681-7575/ab3261
   type: doi
 date:
 - type: published
-  value: '2019-08-06'
+  at: '2019-08-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alexander Kokka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tomi Pulli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eija Honkavaara
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kirkkonummi, Finland
         name:
         - content: Finnish Geospatial Research Institute
-        contact:
-        - address:
-            formatted_address: Kirkkonummi, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lauri Markelin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kirkkonummi, Finland
         name:
         - content: Finnish Geospatial Research Institute
-        contact:
-        - address:
-            formatted_address: Kirkkonummi, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petri Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erkki Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: VTT Technical Research Centre of Finland Ltd
         subdivision:
-        - content: MIKES Metrology
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
-  role:
-  - type: author
-revdate: '2019-08-06'
+        - name:
+          - language: en
+            script: Latn
+            content: MIKES Metrology
 abstract:
-- content: Abstract<p>This paper presents a method for characterising spatial responsivity
-    of hyperspectral cameras. Knowing the responsivity of the camera as a function
-    of pixel coordinates allows applying a flat-field correction on image data. The
-    method is based on scanning the field of view of the camera with a broadband radiance
-    source, based on an integrating sphere, and combining the captured frames to synthesise
-    a uniform radiance source filling the whole field of view of the camera at the
-    focus distance. The method was compared with a traditional approach where the
-    aperture of an integrating sphere is imaged from a close distance, filling the
-    entire field of view of the camera. The measurement setup was tested with a hyperspectral
-    camera, based on a tunable Fabry–Pérot interferometer. Without the flat-field
-    correction, the average standard deviation of the pixel responsivities across
-    all the spectral channels of the camera was 3.78%. After the correction, the average
-    standard deviation was reduced to 0.40% and 3.25% for the aperture-scanning method
-    and the close-distance method, respectively. The expanded uncertainty (k  =  2)
-    for the flat-field correction obtained using the scanning method was 0.68%–0.78%,
-    depending on the spectral channel of the camera.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper presents a method for characterising spatial responsivity of hyperspectral cameras. Knowing the responsivity of the camera as a function of pixel coordinates allows applying a flat-field correction on image data. The method is based on scanning the field of view of the camera with a broadband radiance source, based on an integrating sphere, and combining the captured frames to synthesise a uniform radiance source filling the whole field of view of the camera at the focus distance. The method was compared with a traditional approach where the aperture of an integrating sphere is imaged from a close distance, filling the entire field of view of the camera. The measurement setup was tested with a hyperspectral camera, based on a tunable Fabry–Pérot interferometer. Without the flat-field correction, the average standard deviation of the pixel responsivities across all the spectral channels of the camera was 3.78%. After the correction, the average standard deviation was reduced to 0.40% and 3.25% for the aperture-scanning method and the close-distance method, respectively. The expanded uncertainty (<italic>k</italic>  =  2) for the flat-field correction obtained using the scanning method was 0.68%–0.78%, depending on the spectral channel of the camera.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Flat-field calibration method for hyperspectral frame cameras
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Flat-field calibration method for hyperspectral frame cameras
     date:
     - type: ppub
-      value: '2019-10-01'
+      at: '2019-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Flat-field calibration method for hyperspectral frame cameras
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Flat-field calibration method for hyperspectral frame cameras
     date:
     - type: epub
-      value: '2019-08-06'
+      at: '2019-08-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Flat-field calibration method for hyperspectral frame cameras
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Flat-field calibration method for hyperspectral frame cameras
     date:
     - type: open-access
-      value: '2019-08-06'
+      at: '2019-08-06'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -220,6 +195,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

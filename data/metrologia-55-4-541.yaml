@@ -1,136 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia554541
+type: article
+schema_version: v1.4.1
 title:
-- content: A portable picometer reference actuator with 100 µm range, picometer resolution,
+- script: Latn
+  content: A portable picometer reference actuator with 100 µm range, picometer resolution,
     subnanometer accuracy and submicroradian tip-tilt error for the characterization
     of measuring instruments at the nanoscale
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaca6f
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaca6f
-  type: doi
-type: article
-docid:
-- id: Metrologia 55 4 541
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaca6f
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaca6f
+docidentifier:
+- content: Metrologia 55 4 541
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaca6f
+- content: 10.1088/1681-7575/aaca6f
   type: doi
 date:
 - type: published
-  value: '2018-06-29'
+  at: '2018-06-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marco Pisani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Giugni
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2018-06-29'
 abstract:
-- content: Abstract<p>We present the realization and the characterization of a picometer
-    reference actuator (PRA), a metrological instrument based on a precision linear
-    actuator capable of 100 µm range with subnanometer accuracy, picometer resolution,
-    and submicroradian tip-tilt pointing control. The PRA relies on an integrated
-    multiple reflections homodyne interferometer as a high resolution and accurate
-    internal reference, on a multiple reflection based angle sensor for the control
-    of the movement straightness, and on a versatile mirrors configuration to transfer
-    the metrological traceability to an external device. As an example case we report
-    the use of the PRA for the characterization of the non-linearities of the INRIM
-    heterodyne interferometer dedicated to the calibration of capacitive sensors.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We present the realization and the characterization of a picometer reference actuator (PRA), a metrological instrument based on a precision linear actuator capable of 100 µm range with subnanometer accuracy, picometer resolution, and submicroradian tip-tilt pointing control. The PRA relies on an integrated multiple reflections homodyne interferometer as a high resolution and accurate internal reference, on a multiple reflection based angle sensor for the control of the movement straightness, and on a versatile mirrors configuration to transfer the metrological traceability to an external device. As an example case we report the use of the PRA for the characterization of the non-linearities of the INRIM heterodyne interferometer dedicated to the calibration of capacitive sensors.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A portable picometer reference actuator with 100 µm range, picometer
+    - script: Latn
+      content: A portable picometer reference actuator with 100 µm range, picometer
         resolution, subnanometer accuracy and submicroradian tip-tilt error for the
         characterization of measuring instruments at the nanoscale
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-08-01'
+      at: '2018-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A portable picometer reference actuator with 100 µm range, picometer
+    - script: Latn
+      content: A portable picometer reference actuator with 100 µm range, picometer
         resolution, subnanometer accuracy and submicroradian tip-tilt error for the
         characterization of measuring instruments at the nanoscale
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-06-29'
+      at: '2018-06-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A portable picometer reference actuator with 100 µm range, picometer
+    - script: Latn
+      content: A portable picometer reference actuator with 100 µm range, picometer
         resolution, subnanometer accuracy and submicroradian tip-tilt error for the
         characterization of measuring instruments at the nanoscale
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2018-06-29'
+      at: '2018-06-29'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +120,6 @@ extent:
     reference_from: '541'
     reference_to: '557'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

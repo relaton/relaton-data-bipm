@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia492S73
-title:
-- content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
-    wavelength region using a Fourier transform spectrometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/2/S73
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/2/S73
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 2 S73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
+    wavelength region using a Fourier transform spectrometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/2/S73
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/2/S73
+docidentifier:
+- content: Metrologia 49 2 S73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/2/S73
+- content: 10.1088/0026-1394/49/2/S73
   type: doi
 date:
 - type: published
-  value: '2012-03-02'
+  at: '2012-03-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C J Chunnilall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Theocharous
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2012-03-02'
 abstract:
-- content: "<p>The directional–hemispherical reflectance measurement facility at the
+- language: en
+  script:
+  - Latn
+  content: "<p>The directional–hemispherical reflectance measurement facility at the
     National Physical Laboratory (NPL) has recently been upgraded. Improvements to
     the facility include replacement of the grating spectrophotometer with a Fourier
     transform spectrometer (FTS), minimization and correcting for the effects of heating
@@ -63,57 +57,49 @@ abstract:
     intermediate field stop, and correcting for instrumental and relay optics drift
     by using a blackbody. Measurements obtained with the new facility are presented
     and discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
+    - language: en
+      script: Latn
+      content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
         wavelength region using a Fourier transform spectrometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-03-02'
+      at: '2012-03-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
+    - language: en
+      script: Latn
+      content: Infrared hemispherical reflectance measurements in the 2.5 µm to 50 µm
         wavelength region using a Fourier transform spectrometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-04-01'
+      at: '2012-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +110,6 @@ extent:
     reference_from: S73
     reference_to: S80
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

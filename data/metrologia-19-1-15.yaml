@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19115
-title:
-- content: Température du Point Triple du Gallium
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 1 15
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Température du Point Triple du Gallium
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/1/004
+docidentifier:
+- content: Metrologia 19 1 15
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/1/004
+- content: 10.1088/0026-1394/19/1/004
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bonhoure
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Pello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>We have determined the triple-point temperature of gallium on the IPTS-68,
+- language: en
+  script:
+  - Latn
+  content: "<p>We have determined the triple-point temperature of gallium on the IPTS-68,
     with four standard platinum resistance thermometers, using three high-purity samples
     of gallium (99.999 9%). The agreement between the three samples is excellent;
     the mean is 29.773 59 °C, with a standard deviation of 0.000 13 °C (combined uncertainty).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Température du Point Triple du Gallium
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/plain
+    - language: fr
+      script: Latn
+      content: Température du Point Triple du Gallium
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '15'
     reference_to: '20'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

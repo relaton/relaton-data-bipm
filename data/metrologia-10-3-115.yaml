@@ -1,82 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia103115
-title:
-- content: Corrections in Optical Pyrometry for the Refractive Index of Air
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 3 115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Corrections in Optical Pyrometry for the Refractive Index of Air
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/3/006
+docidentifier:
+- content: Metrologia 10 3 115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/3/006
+- content: 10.1088/0026-1394/10/3/006
   type: doi
 date:
 - type: published
-  value: '1974-07-01'
+  at: '1974-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1974-07-01'
 abstract:
-- content: "<p>This note presents revised results of optical pyrometry, carried out
-    at NPL and elsewhere, following recalculation taking into account the refractive
-    index of air.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>This note presents revised results of optical pyrometry, carried out
+    at NPL and elsewhere, following recalculation taking into account the refractive
+    index of air.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Corrections in Optical Pyrometry for the Refractive Index of Air
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Corrections in Optical Pyrometry for the Refractive Index of Air
     date:
     - type: ppub
-      value: '1974-07-01'
+      at: '1974-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +75,6 @@ extent:
     reference_from: '115'
     reference_to: '115'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,118 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia572025009
-title:
-- content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
-    above 1200 °C
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab71b3
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab71b3
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 2 025009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
+    above 1200 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab71b3
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab71b3
+docidentifier:
+- content: Metrologia 57 2 025009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab71b3
+- content: 10.1088/1681-7575/ab71b3
   type: doi
 date:
 - type: published
-  value: '2020-03-25'
+  at: '2020-03-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jonathan V Pearce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2020-03-25'
 abstract:
-- content: Abstract<p>Pt and Rh oxide vapour transport is thought to dominate the
-    thermoelectric drift of Pt-Rh thermocouples above about 1200 °C. A simple model
-    is presented which relates the electromotive force (emf) drift rate of Pt-Rh thermoelements
-    to the vapour pressure of Pt and Rh oxides. The model assumes that the evaporation
-    of these oxides gives rise to a continuously changing concentration of Pt and
-    Rh, at different rates along the length of the wires, which causes a change in
-    the Seebeck coefficient. The model has been tested by comparison with high precision
-    measurements of the thermoelectric drift of a Pt-Rh thermocouple assembly consisting
-    of five thermoelements, repeatedly exposed to the melting of a Co-C high temperature
-    fixed point (1324 °C) for a total duration of 500 h. By considering various thermocouples
-    of different compositions, it is demonstrated that the calculated drift rate is
-    proportional to the measured drift rate, which represents a validation of the
-    model.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Pt and Rh oxide vapour transport is thought to dominate the thermoelectric drift of Pt-Rh thermocouples above about 1200 °C. A simple model is presented which relates the electromotive force (emf) drift rate of Pt-Rh thermoelements to the vapour pressure of Pt and Rh oxides. The model assumes that the evaporation of these oxides gives rise to a continuously changing concentration of Pt and Rh, at different rates along the length of the wires, which causes a change in the Seebeck coefficient. The model has been tested by comparison with high precision measurements of the thermoelectric drift of a Pt-Rh thermocouple assembly consisting of five thermoelements, repeatedly exposed to the melting of a Co-C high temperature fixed point (1324 °C) for a total duration of 500 h. By considering various thermocouples of different compositions, it is demonstrated that the calculated drift rate is proportional to the measured drift rate, which represents a validation of the model.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
+    - script: Latn
+      content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
         above 1200 °C
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-04-01'
+      at: '2020-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
+    - script: Latn
+      content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
         above 1200 °C
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-03-25'
+      at: '2020-03-25'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
+    - script: Latn
+      content: A validated physical model of the thermoelectric drift of Pt-Rh thermocouples
         above 1200 °C
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2020-03-25'
+      at: '2020-03-25'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +99,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

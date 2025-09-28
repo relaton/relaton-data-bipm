@@ -1,132 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5245
-title:
-- content: Derivation of the CCT-68 Reference Function of the International Practical
-    Temperature Scale of 1968
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 2 45
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Derivation of the CCT-68 Reference Function of the International Practical
+    Temperature Scale of 1968
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/2/002
+docidentifier:
+- content: Metrologia 5 2 45
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/2/002
+- content: 10.1088/0026-1394/5/2/002
   type: doi
 date:
 - type: published
-  value: '1969-04-01'
+  at: '1969-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Bedford
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Preston-Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratory, Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Muijlwijk
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratory, Leiden, The Netherlands
-  role:
-  - type: author
-revdate: '1969-04-01'
 abstract:
-- content: "<p>Between 13.81 K and 273.15 K, standard platinum resistance thermometer
-    calibrations on the IPTS-68 are referred to the CCT-68 W versus T reference function,
-    which is designed to simulate as closely as possible the behaviour of a typical
-    high-quality resistance thermometer. In choosing the function the authors took
-    account of: a number of thermodynamic temperature measurements in various laboratories;
-    an intercomparison of several of these scales; and certain requirements for internal
-    consistency in the function. These considerations were to some extent conflicting,
-    and an element of judgment was required in effecting a compromise between them.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Between 13.81 K and 273.15 K, standard platinum resistance thermometer
+    calibrations on the IPTS-68 are referred to the CCT-68 <italic>W</italic> versus
+    <italic>T</italic> reference function, which is designed to simulate as closely
+    as possible the behaviour of a typical high-quality resistance thermometer. In
+    choosing the function the authors took account of: a number of thermodynamic temperature
+    measurements in various laboratories; an intercomparison of several of these scales;
+    and certain requirements for internal consistency in the function. These considerations
+    were to some extent conflicting, and an element of judgment was required in effecting
+    a compromise between them.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Derivation of the CCT-68 Reference Function of the International Practical
+    - language: en
+      script: Latn
+      content: Derivation of the CCT-68 Reference Function of the International Practical
         Temperature Scale of 1968
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1969-04-01'
+      at: '1969-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +120,6 @@ extent:
     reference_from: '45'
     reference_to: '47'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

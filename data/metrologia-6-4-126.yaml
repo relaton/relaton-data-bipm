@@ -1,122 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia64126
-title:
-- content: The US Naval Observatory Clock Time Reference and the Performance of a
-    Sample of Atomic Clocks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 4 126
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The US Naval Observatory Clock Time Reference and the Performance of a
+    Sample of Atomic Clocks
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/4/004
+docidentifier:
+- content: Metrologia 6 4 126
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/4/004
+- content: 10.1088/0026-1394/6/4/004
   type: doi
 date:
 - type: published
-  value: '1970-10-01'
+  at: '1970-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G M R Winkler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time Service Division, Navy Department, US Naval Observatory, Washington,
             DC 20390, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time Service Division, Navy Department, US Naval Observatory, Washington,
             DC 20390, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D B Percival
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time Service Division, Navy Department, US Naval Observatory, Washington,
             DC 20390, USA
-  role:
-  - type: author
-revdate: '1970-10-01'
 abstract:
-- content: "<p>The US Naval Observatory (USNO) uses clock averaging of about 16 selected
-    cesium beam clocks for the derivation of an extremely uniform clock time scale.
-    Frequency stabilities of better than 2 × 10<sup>-14</sup> for very long intervals
-    are being achieved together with utmost reliability of the time scale. Individual
-    clocks differ widely in their performance and are carefully selected for service
-    in the USNO clock time scale.</p><p>In this set which is selected according to
-    frequency stability, the standard deviation of a clock's average frequency difference
-    from the mean is 1.7 × 10<sup>-12</sup>, the standard deviation of the uncorrected
-    ensemble mean frequency is 4.4 × 10<sup>-13</sup>. The day to day frequency variation
-    of individual clocks is 2.2 × 10<sup>-13</sup> (rms) and the best clock observed
-    had a frequency stability of 3 × 10<sup>-14</sup> for 40 day averaging.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The US Naval Observatory (USNO) uses clock averaging of about 16 selected cesium beam clocks for the derivation of an extremely uniform clock time scale. Frequency stabilities of better than 2 × 10<sup>-14</sup> for very long intervals are being achieved together with utmost reliability of the time scale. Individual clocks differ widely in their performance and are carefully selected for service in the USNO clock time scale.</p>
+    <p>In this set which is selected according to frequency stability, the standard deviation of a clock's average frequency difference from the mean is 1.7 × 10<sup>-12</sup>, the standard deviation of the uncorrected ensemble mean frequency is 4.4 × 10<sup>-13</sup>. The day to day frequency variation of individual clocks is 2.2 × 10<sup>-13</sup> (rms) and the best clock observed had a frequency stability of 3 × 10<sup>-14</sup> for 40 day averaging.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The US Naval Observatory Clock Time Reference and the Performance of
+    - language: en
+      script: Latn
+      content: The US Naval Observatory Clock Time Reference and the Performance of
         a Sample of Atomic Clocks
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1970-10-01'
+      at: '1970-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +103,6 @@ extent:
     reference_from: '126'
     reference_to: '134'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

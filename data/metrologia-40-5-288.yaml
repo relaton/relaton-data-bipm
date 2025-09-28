@@ -1,145 +1,124 @@
 ---
-schema-version: v1.2.9
-id: Metrologia405288
-title:
-- content: Calibration of high-resolution electronic autocollimators against an angle
-    comparator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/5/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/5/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 5 288
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of high-resolution electronic autocollimators against an angle
+    comparator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/5/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/5/011
+docidentifier:
+- content: Metrologia 40 5 288
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/5/011
+- content: 10.1088/0026-1394/40/5/011
   type: doi
 date:
 - type: published
-  value: '2003-09-11'
+  at: '2003-09-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Just
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Krause
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Probst
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Wittekopf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2003-09-11'
 abstract:
-- content: "<p>At the Physikalisch-Technische Bundesanstalt, autocollimators are calibrated
+- language: en
+  script:
+  - Latn
+  content: "<p>At the Physikalisch-Technische Bundesanstalt, autocollimators are calibrated
     with the aid of the WMT 220 angle comparator to ensure their direct traceability
     to the SI unit of plane angle, the radian (rad). It is shown that high-resolution
     electronic autocollimators can thus be calibrated with an uncertainty of 0.007 arcsec
-    (k = 2) in reproducible measurement steps down to 0.005 arcsec. Calibrations in
-    very small measurement steps close to the autocollimators' resolution can inform
-    about possible short-period deviations and resulting aliasing effects in measurements
-    with autocollimators.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    (<italic>k</italic> = 2) in reproducible measurement steps down to 0.005 arcsec.
+    Calibrations in very small measurement steps close to the autocollimators' resolution
+    can inform about possible short-period deviations and resulting aliasing effects
+    in measurements with autocollimators.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of high-resolution electronic autocollimators against an
+    - language: en
+      script: Latn
+      content: Calibration of high-resolution electronic autocollimators against an
         angle comparator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-09-11'
+      at: '2003-09-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of high-resolution electronic autocollimators against an
+    - language: en
+      script: Latn
+      content: Calibration of high-resolution electronic autocollimators against an
         angle comparator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-10-01'
+      at: '2003-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +129,6 @@ extent:
     reference_from: '288'
     reference_to: '294'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

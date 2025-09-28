@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia364275
-title:
-- content: Controlled environment for reciprocity calibration of laboratory standard
-    microphones and measurement of sensitivity pressure correction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/4/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/4/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 4 275
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Controlled environment for reciprocity calibration of laboratory standard
+    microphones and measurement of sensitivity pressure correction
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/4/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/4/5
+docidentifier:
+- content: Metrologia 36 4 275
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/4/5
+- content: 10.1088/0026-1394/36/4/5
   type: doi
 date:
 - type: published
-  value: '1999-08-01'
+  at: '1999-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G S K Wong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Wu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC
-  role:
-  - type: author
-revdate: '1999-08-01'
 abstract:
-- content: "<p>The operation of an environmental chamber for high-precision calibration
+- language: en
+  script:
+  - Latn
+  content: "<p>The operation of an environmental chamber for high-precision calibration
     of laboratory standard microphones and acoustical measurements is described. The
     nominal ranges for the environmental control system are: temperature from -10
     °C to 50 °C; pressure from 80 kPa to 110 kPa; and relative humidity (RH) from
@@ -67,40 +61,32 @@ abstract:
     microphones changes by approximately 0.2 dB at 1 kHz and 0.35 dB at 10 kHz. An
     empirical equation for this microphone sensitivity pressure correction for the
     B&amp;K 4160 microphone has been developed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Controlled environment for reciprocity calibration of laboratory standard
+    - language: en
+      script: Latn
+      content: Controlled environment for reciprocity calibration of laboratory standard
         microphones and measurement of sensitivity pressure correction
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-08-01'
+      at: '1999-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: '275'
     reference_to: '280'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

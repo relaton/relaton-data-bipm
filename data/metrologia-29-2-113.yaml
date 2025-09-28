@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia292113
-title:
-- content: 'Caesium Beam Frequency Standards: Classical and Optically Pumped'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 2 113
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Caesium Beam Frequency Standards: Classical and Optically Pumped'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/2/003
+docidentifier:
+- content: Metrologia 29 2 113
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/2/003
+- content: 10.1088/0026-1394/29/2/003
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Audoin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique, Unité de Recherche Propre du
             CNRS associée à l'Université Paris-Sud, Bât. 221 - Université Paris-Sud,
             F-91405 Orsay Cedex, France
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>The second is the only unit of the SI system which is defined in terms
+- language: en
+  script:
+  - Latn
+  content: "<p>The second is the only unit of the SI system which is defined in terms
     of an internal property of an atom. The definition is realized using a thermal
     beam of caesium atoms. In classical caesium beam frequency standards, the necessary
     state selection is accomplished by deflecting atoms in magnet state selectors.
@@ -54,39 +50,31 @@ abstract:
     are described. The potentialities of classical and of optically pumped caesium
     beam frequency standards are compared. Manufactured devices designed for field
     use are considered as well as laboratory primary frequency and time standards.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Caesium Beam Frequency Standards: Classical and Optically Pumped'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Caesium Beam Frequency Standards: Classical and Optically Pumped'
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '113'
     reference_to: '134'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

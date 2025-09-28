@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28127
-title:
-- content: Intercomparison of Interferometric Dilatometers at NRLM and NPL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 1 27
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intercomparison of Interferometric Dilatometers at NRLM and NPL
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/1/005
+docidentifier:
+- content: Metrologia 28 1 27
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/1/005
+- content: 10.1088/0026-1394/28/1/005
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Okaji
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, Tsukuba, Ibaraki 305,
             Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K P Birch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>Interferometric dilatometers at the National Research Laboratory of
+- language: en
+  script:
+  - Latn
+  content: "<p>Interferometric dilatometers at the National Research Laboratory of
     Metrology (NRLM) in Japan and the National Physical Laboratory (NPL) in UK been
     intercompared by measuring the thermal expansion coefficients of pure polycrystalline
     silicon, a low expansion ceramic (Miraclon) and fused silica (SRM 739). The dilatometers,
@@ -64,39 +58,31 @@ abstract:
     ranges of 250 to 375 K and 290 to 800 K. The results presented in this paper show
     that the agreement for each material is within the combined uncertainties in the
     measurement of each thermal coefficient of expansion.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Intercomparison of Interferometric Dilatometers at NRLM and NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Intercomparison of Interferometric Dilatometers at NRLM and NPL
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '27'
     reference_to: '32'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6256
-title:
-- content: The Hydrogen Storage Beam Tube, a Proposal for a New Frequency Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/2/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 2 56
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Hydrogen Storage Beam Tube, a Proposal for a New Frequency Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/2/006
+docidentifier:
+- content: Metrologia 6 2 56
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/2/006
+- content: 10.1088/0026-1394/6/2/006
   type: doi
 date:
 - type: published
-  value: '1970-04-01'
+  at: '1970-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hellwig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atomic Frequency and Time Standards Section, National Bureau of
             Standards, Boulder, Colorado 80302, USA
-  role:
-  - type: author
-revdate: '1970-04-01'
 abstract:
-- content: "<p>The basic design features and the frequency stability and accuracy
+- language: en
+  script:
+  - Latn
+  content: "<p>The basic design features and the frequency stability and accuracy
     capabilities of a proposed new frequency standard are projected. The hydrogen
     storage beam tube combines the virtues of the hydrogen maser with those of beam
     tubes and eliminates some of the problems associated with these devices. The projected
     frequency stability for 1 s averaging is better than 10<sup>-14</sup>. The long-term
     stability should be equally good. Ways for investigating the wall shift are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Hydrogen Storage Beam Tube, a Proposal for a New Frequency Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Hydrogen Storage Beam Tube, a Proposal for a New Frequency Standard
     date:
     - type: ppub
-      value: '1970-04-01'
+      at: '1970-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '56'
     reference_to: '60'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

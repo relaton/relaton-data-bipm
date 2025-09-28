@@ -1,145 +1,118 @@
 ---
-schema-version: v1.2.9
-id: Metrologia50160
-title:
-- content: Accuracy of two-way time transfer via a single coaxial cable
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1/60
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1/60
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 1 60
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Accuracy of two-way time transfer via a single coaxial cable
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1/60
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1/60
+docidentifier:
+- content: Metrologia 50 1 60
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1/60
+- content: 10.1088/0026-1394/50/1/60
   type: doi
 date:
 - type: published
-  value: '2013-01-09'
+  at: '2013-01-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petr Pánek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Academy of Sciences of the Czech Republic, Chaberska
+            57, 182 51 Prague, Czech Republic
         name:
         - content: Institute of Photonics and Electronics
-        contact:
-        - address:
-            formatted_address: Academy of Sciences of the Czech Republic, Chaberska
-              57, 182 51 Prague, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Kodet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Forschungseinrichtung Satellitengeodäsie Fundamentalstation
+            Wettzell, 93444 Bad Kötzting, Germany
         name:
         - content: Technical University of Munich
-        contact:
-        - address:
-            formatted_address: Forschungseinrichtung Satellitengeodäsie Fundamentalstation
-              Wettzell, 93444 Bad Kötzting, Germany
     - organization:
+        address:
+        - formatted_address: Brehova 7, 115 19 Prague, Czech Republic
         name:
         - content: Czech Technical University in Prague
-        contact:
-        - address:
-            formatted_address: Brehova 7, 115 19 Prague, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ivan Procházka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brehova 7, 115 19 Prague, Czech Republic
         name:
         - content: Czech Technical University in Prague
-        contact:
-        - address:
-            formatted_address: Brehova 7, 115 19 Prague, Czech Republic
-  role:
-  - type: author
-revdate: '2013-01-09'
 abstract:
-- content: Abstract<p>In order to find limits of the accuracy of the two-way time
-    transfer (TWTT) via a single coaxial cable, we have carried out a detailed analysis
-    which is presented in this paper. We applied the TWTT concept when a transmission
-    line is driven by pulse current drivers and the times of arrival of the pulses
-    are measured at the ends of the line. In addition to the estimation of the accuracy,
-    the analysis provides several rules for proper design of a TWTT system with optimal
-    performance. Based on this concept, a TWTT system for highly accurate time distribution
-    or comparison has been designed and realized. For distances up to 1 km the accuracy
-    was better than 100 ps without any additional correction or adjustment. After
-    the influence of the non-symmetry of input–output circuits was corrected, the
-    errors were lower than 20 ps for distances up to 2 km. The TWTT system is designated
-    for keeping unified time in a net of event timers distributed in one building
-    or in a relatively small area. The timing units forming the system guarantee the
-    time transfer parallel to the time tagging of external pulses.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In order to find limits of the accuracy of the two-way time transfer (TWTT) via a single coaxial cable, we have carried out a detailed analysis which is presented in this paper. We applied the TWTT concept when a transmission line is driven by pulse current drivers and the times of arrival of the pulses are measured at the ends of the line. In addition to the estimation of the accuracy, the analysis provides several rules for proper design of a TWTT system with optimal performance. Based on this concept, a TWTT system for highly accurate time distribution or comparison has been designed and realized. For distances up to 1 km the accuracy was better than 100 ps without any additional correction or adjustment. After the influence of the non-symmetry of input–output circuits was corrected, the errors were lower than 20 ps for distances up to 2 km. The TWTT system is designated for keeping unified time in a net of event timers distributed in one building or in a relatively small area. The timing units forming the system guarantee the time transfer parallel to the time tagging of external pulses.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy of two-way time transfer via a single coaxial cable
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Accuracy of two-way time transfer via a single coaxial cable
     date:
     - type: ppub
-      value: '2013-02-01'
+      at: '2013-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy of two-way time transfer via a single coaxial cable
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Accuracy of two-way time transfer via a single coaxial cable
     date:
     - type: epub
-      value: '2013-01-09'
+      at: '2013-01-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +123,6 @@ extent:
     reference_from: '60'
     reference_to: '65'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

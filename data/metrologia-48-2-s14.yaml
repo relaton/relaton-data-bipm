@@ -1,107 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia482S14
-title:
-- content: Infrared spectrometric measurement of impurities in highly enriched ‘Si28’
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/2/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/2/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 2 S14
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Infrared spectrometric measurement of impurities in highly enriched ‘Si28’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/2/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/2/S02
+docidentifier:
+- content: Metrologia 48 2 S14
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/2/S02
+- content: 10.1088/0026-1394/48/2/S02
   type: doi
 date:
 - type: published
-  value: '2011-03-22'
+  at: '2011-03-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Zakel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Wundrack
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Niemann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Rienitz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Schiel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2011-03-22'
 abstract:
-- content: "<p>Within the scope of re-determining the Avogadro constant, the content
+- language: en
+  script:
+  - Latn
+  content: "<p>Within the scope of re-determining the Avogadro constant, the content
     of impurities in ultra-pure, mono-isotopically enriched silicon ‘Si28’ was measured
     by infrared spectrometry. The calibration factors required for the calculation
     of the concentrations from the maximum absorption coefficients had to be determined
@@ -115,57 +103,49 @@ abstract:
     of the boron was carried out differently to the conventional standard. The concentrations
     determined for the three types of crystal impurities are high enough to make a
     correction of the lattice parameter for the ‘Si28’ material necessary.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Infrared spectrometric measurement of impurities in highly enriched
+    - language: en
+      script: Latn
+      content: Infrared spectrometric measurement of impurities in highly enriched
         ‘Si28’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-03-22'
+      at: '2011-03-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Infrared spectrometric measurement of impurities in highly enriched
+    - language: en
+      script: Latn
+      content: Infrared spectrometric measurement of impurities in highly enriched
         ‘Si28’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-04-01'
+      at: '2011-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -176,6 +156,6 @@ extent:
     reference_from: S14
     reference_to: S19
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

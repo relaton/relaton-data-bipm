@@ -1,101 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465534
-title:
-- content: Analytical representations of the size-of-source effect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 534
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analytical representations of the size-of-source effect
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/018
+docidentifier:
+- content: Metrologia 46 5 534
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/018
+- content: 10.1088/0026-1394/46/5/018
   type: doi
 date:
 - type: published
-  value: '2009-08-04'
+  at: '2009-08-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Bloembergen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, AIST, Tsukuba, Japan
-  role:
-  - type: author
-revdate: '2009-08-04'
 abstract:
-- content: "<p>In this paper it is shown that the size-of-source effect (SSE) of a
-    radiation thermometer measured for a range of source diameters D<sub>i</sub>,
-    can be fitted by means of empirical analytical approximations F(D), selected on
-    the basis of quite general arguments. This is necessary to analytically process
-    SSE data and to rigorously quantify the uncertainties associated with the correction
-    for the SSE. To test the proposed fitting scheme 35 size-of-source curves, measured
-    by five institutes for different radiation thermometers, have been analysed. In
-    a companion paper the uncertainty in the correction for the SSE will be elaborated
-    in detail for two examples.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>In this paper it is shown that the size-of-source effect (SSE) of a
+    radiation thermometer measured for a range of source diameters <italic>D</italic><sub><italic>i</italic></sub>,
+    can be fitted by means of empirical analytical approximations <italic>F</italic>(<italic>D</italic>),
+    selected on the basis of quite general arguments. This is necessary to analytically
+    process SSE data and to rigorously quantify the uncertainties associated with
+    the correction for the SSE. To test the proposed fitting scheme 35 size-of-source
+    curves, measured by five institutes for different radiation thermometers, have
+    been analysed. In a companion paper the uncertainty in the correction for the
+    SSE will be elaborated in detail for two examples.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analytical representations of the size-of-source effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analytical representations of the size-of-source effect
     date:
     - type: epub
-      value: '2009-08-04'
+      at: '2009-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analytical representations of the size-of-source effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analytical representations of the size-of-source effect
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: '534'
     reference_to: '543'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

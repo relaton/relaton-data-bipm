@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia332161
-title:
-- content: Comparison of Josephson voltage standards held by the SISIR and the DFM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/2/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/2/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 2 161
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of Josephson voltage standards held by the SISIR and the DFM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/2/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/2/5
+docidentifier:
+- content: Metrologia 33 2 161
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/2/5
+- content: 10.1088/0026-1394/33/2/5
   type: doi
 date:
 - type: published
-  value: '1996-04-01'
+  at: '1996-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H D Jensen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DFM, SISIR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S C Wey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DFM, SISIR
-  role:
-  - type: author
-revdate: '1996-04-01'
 abstract:
-- content: "<p>We have compared the Josephson array voltage standard (JAVS) held by
+- language: en
+  script:
+  - Latn
+  content: "<p>We have compared the Josephson array voltage standard (JAVS) held by
     the Singapore Institute of Standards and Industrial Research (SISIR) with that
     of the Danish Institute of Fundamental Metrology (DFM). The comparison took place
     in Singapore from 20-25 March 1995. A commercial Zener reference voltage standard
     was used as transfer instrument between the two laboratories. The result of the
     comparison was an observed difference of 13 nV with a combined uncertainty of
     9 nV. The difference was independent of several measurement configurations used.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of Josephson voltage standards held by the SISIR and the
+    - language: en
+      script: Latn
+      content: Comparison of Josephson voltage standards held by the SISIR and the
         DFM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1996-04-01'
+      at: '1996-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '161'
     reference_to: '163'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

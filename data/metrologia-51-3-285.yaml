@@ -1,129 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513285
-title:
-- content: A new weighting procedure for UTC
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/285
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/285
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 285
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A new weighting procedure for UTC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/285
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/285
+docidentifier:
+- content: Metrologia 51 3 285
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/285
+- content: 10.1088/0026-1394/51/3/285
   type: doi
 date:
 - type: published
-  value: '2014-05-28'
+  at: '2014-05-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Panfilo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
         name:
         - content: International Bureau of Weights and Measures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Harmegnies
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
         name:
         - content: International Bureau of Weights and Measures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Tisserand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
         name:
         - content: International Bureau of Weights and Measures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres, France
-  role:
-  - type: author
-revdate: '2014-05-28'
 abstract:
-- content: Abstract<p>In this paper we present a new weighting algorithm for the generation
-    of Coordinated Universal Time (UTC). The new weighting procedure is based on the
-    idea that the best clocks are the most predictable. The effect of the new algorithm
-    on the weight distribution and on the stability of UTC is presented and discussed.
-    An improvement in the frequency stability of UTC at both short and long terms
-    is observed, as well as a better clock weight distribution in the ensemble.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In this paper we present a new weighting algorithm for the generation of Coordinated Universal Time (UTC). The new weighting procedure is based on the idea that the best clocks are the most predictable. The effect of the new algorithm on the weight distribution and on the stability of UTC is presented and discussed. An improvement in the frequency stability of UTC at both short and long terms is observed, as well as a better clock weight distribution in the ensemble.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new weighting procedure for UTC
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A new weighting procedure for UTC
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new weighting procedure for UTC
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A new weighting procedure for UTC
     date:
     - type: epub
-      value: '2014-05-28'
+      at: '2014-05-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +116,6 @@ extent:
     reference_from: '285'
     reference_to: '292'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

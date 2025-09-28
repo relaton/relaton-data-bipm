@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia346459
-title:
-- content: Bayesian approach to recalibration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/6/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/6/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 6 459
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bayesian approach to recalibration
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/6/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/6/2
+docidentifier:
+- content: Metrologia 34 6 459
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/6/2
+- content: 10.1088/0026-1394/34/6/2
   type: doi
 date:
 - type: published
-  value: '1997-12-01'
+  at: '1997-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Tuninsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIM, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIM, PTB
-  role:
-  - type: author
-revdate: '1997-12-01'
 abstract:
-- content: "<p>The Bayesian method of estimating the mean of a Gaussian frequency
+- language: en
+  script:
+  - Latn
+  content: "<p>The Bayesian method of estimating the mean of a Gaussian frequency
     distribution is applied to the problem of recalibrating a measuring device which
     incorporates a calibrated reference quantity. It is supposed that the recalibration
     is performed by measuring a quantity which has been estimated from other sources
-    prior to the measurement. An expression for the joint a posteriori probability
-    distribution for the measurand and reference quantity is derived. This yields
-    a posteriori estimates, associated uncertainties and the covariance for the two
-    quantities. The estimate of the reference quantity so obtained is interpreted
-    as the recalibrated value.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    prior to the measurement. An expression for the joint <italic>a posteriori</italic>
+    probability distribution for the measurand and reference quantity is derived.
+    This yields <italic>a posteriori</italic> estimates, associated uncertainties
+    and the covariance for the two quantities. The estimate of the reference quantity
+    so obtained is interpreted as the recalibrated value.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian approach to recalibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Bayesian approach to recalibration
     date:
     - type: ppub
-      value: '1997-12-01'
+      at: '1997-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '459'
     reference_to: '465'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2211
-title:
-- content: On Angles and Angular Quantities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On Angles and Angular Quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/1/002
+docidentifier:
+- content: Metrologia 22 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/1/002
+- content: 10.1088/0026-1394/22/1/002
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A B Torrens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,53 +37,38 @@ contributor:
         name:
         - content: Department of Electrical Engineering, Queen's University, Kingston,
             Ontario, Canada, K7L 3N6
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>It is argued that angles are geometric quantities and have a dimension.
-    The equation giving the length s of the arc cut out by an angle φ on a circle
-    of radius R is written as s = η R φ, where η is a universal constant relating
-    translational and rotational mechanics.</p><p>Examples chosen in trigonometry
-    and rotational mechanics show how a few equations can be rewritten so that all
-    equations involve only quantities (including angles), and constants (such as η),
-    and do not require the use of special units, such as the radian. Once angular
-    dimensions have been properly incorporated in quantities and equations, it becomes
-    clear, for example, that an angular frequency or velocity can be expressed in
-    rad/s, or °/s, or rev/min. but not in Hz or s<sup>-1</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>It is argued that angles are geometric quantities and have a dimension. The equation giving the length <italic>s</italic> of the arc cut out by an angle φ on a circle of radius <italic>R</italic> is written as <italic>s</italic> = η <italic>R</italic> φ, where η is a universal constant relating translational and rotational mechanics.</p>
+    <p>Examples chosen in trigonometry and rotational mechanics show how a few equations can be rewritten so that <italic>all</italic> equations involve only quantities (including angles), and constants (such as η), and do not require the use of special units, such as the radian. Once angular dimensions have been properly incorporated in quantities and equations, it becomes clear, for example, that an angular frequency or velocity can be expressed in rad/s, or °/s, or rev/min. but not in Hz or s<sup>-1</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On Angles and Angular Quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On Angles and Angular Quantities
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +79,6 @@ extent:
     reference_from: '1'
     reference_to: '7'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

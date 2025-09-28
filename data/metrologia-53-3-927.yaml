@@ -1,107 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia533927
-title:
-- content: Validation of the probability density function for the calculated radiant
-    power of synchrotron radiation according to the Schwinger formalism
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/927
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/927
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 927
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Validation of the probability density function for the calculated radiant
+    power of synchrotron radiation according to the Schwinger formalism
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/927
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/927
+docidentifier:
+- content: Metrologia 53 3 927
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/927
+- content: 10.1088/0026-1394/53/3/927
   type: doi
 date:
 - type: published
-  value: '2016-04-11'
+  at: '2016-04-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Roman Klein
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2 -12, Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestr. 2 -12, Berlin, Germany
-  role:
-  - type: author
-revdate: '2016-04-11'
 abstract:
-- content: Abstract<p>Electron storage rings with appropriate design are primary source
-    standards, the spectral radiant intensity of which can be calculated from measured
-    parameters using the Schwinger equation. PTB uses the electron storage rings BESSY
-    II and MLS for source-based radiometry in the spectral range from the near-infrared
-    to the x-ray region. The uncertainty of the calculated radiant intensity depends
-    on the uncertainty of the measured parameters used for the calculation. Up to
-    now the procedure described in the guide to the expression of uncertainty in measurement
-    (GUM), i.e. the law of propagation of uncertainty, assuming a linear measurement
-    model, was used to determine the combined uncertainty of the calculated spectral
-    intensity, and for the determination of the coverage interval as well. Now it
-    has been tested with a Monte Carlo simulation, according to Supplement 1 to the
-    GUM, whether this procedure is valid for the rather complicated calculation by
-    means of the Schwinger formalism and for different probability distributions of
-    the input parameters. It was found that for typical uncertainties of the input
-    parameters both methods yield similar results.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Electron storage rings with appropriate design are primary source standards, the spectral radiant intensity of which can be calculated from measured parameters using the Schwinger equation. PTB uses the electron storage rings BESSY II and MLS for source-based radiometry in the spectral range from the near-infrared to the x-ray region. The uncertainty of the calculated radiant intensity depends on the uncertainty of the measured parameters used for the calculation. Up to now the procedure described in the guide to the expression of uncertainty in measurement (GUM), i.e. the law of propagation of uncertainty, assuming a linear measurement model, was used to determine the combined uncertainty of the calculated spectral intensity, and for the determination of the coverage interval as well. Now it has been tested with a Monte Carlo simulation, according to Supplement 1 to the GUM, whether this procedure is valid for the rather complicated calculation by means of the Schwinger formalism and for different probability distributions of the input parameters. It was found that for typical uncertainties of the input parameters both methods yield similar results.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of the probability density function for the calculated radiant
+    - script: Latn
+      content: Validation of the probability density function for the calculated radiant
         power of synchrotron radiation according to the Schwinger formalism
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of the probability density function for the calculated radiant
+    - script: Latn
+      content: Validation of the probability density function for the calculated radiant
         power of synchrotron radiation according to the Schwinger formalism
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-04-11'
+      at: '2016-04-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +91,6 @@ extent:
     reference_from: '927'
     reference_to: '932'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

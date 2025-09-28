@@ -1,136 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia506596
-title:
-- content: Non-contact aperture area measurement by occlusion of a laser beam
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/6/596
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/6/596
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 6 596
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Non-contact aperture area measurement by occlusion of a laser beam
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/6/596
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/6/596
+docidentifier:
+- content: Metrologia 50 6 596
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/6/596
+- content: 10.1088/0026-1394/50/6/596
   type: doi
 date:
 - type: published
-  value: '2013-10-23'
+  at: '2013-10-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I C M Littler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bradfield Road, West Lindfield, Australia
         name:
         - content: National Measurement Institute (NMI)
-        contact:
-        - address:
-            formatted_address: Bradfield Road, West Lindfield, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E G Atkinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bradfield Road, West Lindfield, Australia
         name:
         - content: National Measurement Institute (NMI)
-        contact:
-        - address:
-            formatted_address: Bradfield Road, West Lindfield, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P J Manson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bradfield Road, West Lindfield, Australia
         name:
         - content: National Measurement Institute (NMI)
-        contact:
-        - address:
-            formatted_address: Bradfield Road, West Lindfield, Australia
-  role:
-  - type: author
-revdate: '2013-10-23'
 abstract:
-- content: Abstract<p>NMI has established a non-contact aperture area measurement
-    facility based on occlusion of a focused laser beam transmitted through the aperture
-    being measured. The method is fast, accurate and insensitive to edge-defect-scatter.
-    The aperture edge position is determined by local radial scans over 30 µm at 256
-    points around the circumference, a sufficient number of positions to make aliasing
-    errors negligible. An uncertainty analysis identifies 14 possible sources of uncertainty
-    in the measured area including aliasing (circumference under-sampling), laser
-    beam diffraction, edge-signal fitting, edge-scattered light and area integration
-    choice. Excluding translation stage uncertainty, for an aperture radius of R = 3 mm
-    the standard area uncertainty is 0.009%. When translation stage error is corrected
-    using a calibrated line grid with standard uncertainty ±0.5 µm, and the uncertainty
-    included, this yields a total standard uncertainty of 0.034% for an aperture with
-    R = 3 mm.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>NMI has established a non-contact aperture area measurement facility based on occlusion of a focused laser beam transmitted through the aperture being measured. The method is fast, accurate and insensitive to edge-defect-scatter. The aperture edge position is determined by local radial scans over 30 µm at 256 points around the circumference, a sufficient number of positions to make aliasing errors negligible. An uncertainty analysis identifies 14 possible sources of uncertainty in the measured area including aliasing (circumference under-sampling), laser beam diffraction, edge-signal fitting, edge-scattered light and area integration choice. Excluding translation stage uncertainty, for an aperture radius of <italic>R</italic> = 3 mm the standard area uncertainty is 0.009%. When translation stage error is corrected using a calibrated line grid with standard uncertainty ±0.5 µm, and the uncertainty included, this yields a total standard uncertainty of 0.034% for an aperture with <italic>R</italic> = 3 mm.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-contact aperture area measurement by occlusion of a laser beam
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Non-contact aperture area measurement by occlusion of a laser beam
     date:
     - type: ppub
-      value: '2013-12-01'
+      at: '2013-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-contact aperture area measurement by occlusion of a laser beam
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Non-contact aperture area measurement by occlusion of a laser beam
     date:
     - type: epub
-      value: '2013-10-23'
+      at: '2013-10-23'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +116,6 @@ extent:
     reference_from: '596'
     reference_to: '611'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

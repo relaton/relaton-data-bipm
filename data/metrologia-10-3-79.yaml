@@ -1,103 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10379
-title:
-- content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft der
-    Internationalen Weston-Elemente im Bereich von 0 °C bis 40 °C
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 3 79
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft der
+    Internationalen Weston-Elemente im Bereich von 0 °C bis 40 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/3/001
+docidentifier:
+- content: Metrologia 10 3 79
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/3/001
+- content: 10.1088/0026-1394/10/3/001
   type: doi
 date:
 - type: published
-  value: '1974-07-01'
+  at: '1974-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Froehlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Melchert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig
-  role:
-  - type: author
-revdate: '1974-07-01'
 abstract:
-- content: "<p>Based on very exact measurements of emf and temperature in the range
-    from 0 °C to 40 °C the effect of temperature on the electromotive force of saturated
-    standard cells has been redetermined. The most satisfactory mathematical relation
-    was found to be the following fourth-order equation: E<sub>t</sub> = E<sub>20</sub>
-    - [39.83 (t - 20) + 0.930 (t - 20)<sup>2</sup> - 0.0090 (t - 20)<sup>3</sup> +
-    0.00006 (t - 20)<sup>4</sup>] · 10<sup>-6</sup>.</p><p>In the temperature range
-    from 10 °C to 30 °C the third-order equation published in 1971 may continue to
-    be used as in this range the results of the two equations agree to within ± 0.4
-    μV.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Based on very exact measurements of emf and temperature in the range from 0 °C to 40 °C the effect of temperature on the electromotive force of saturated standard cells has been redetermined. The most satisfactory mathematical relation was found to be the following fourth-order equation: <italic>E<sub>t</sub> = E</italic><sub>20</sub> - [39.83 (<italic>t</italic> - 20) + 0.930 (<italic>t</italic> - 20)<sup>2</sup> - 0.0090 (<italic>t</italic> - 20)<sup>3</sup> + 0.00006 (<italic>t</italic> - 20)<sup>4</sup>] · 10<sup>-6</sup>.</p>
+    <p>In the temperature range from 10 °C to 30 °C the third-order equation published in 1971 may continue to be used as in this range the results of the two equations agree to within ± 0.4 μV.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft
+    - language: de
+      script: Latn
+      content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft
         der Internationalen Weston-Elemente im Bereich von 0 °C bis 40 °C
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1974-07-01'
+      at: '1974-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +88,6 @@ extent:
     reference_from: '79'
     reference_to: '86'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366579
-title:
-- content: Finite element analysis of pressure distortion coefficient and piston fall
-    rate in a simple pressure balance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 579
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Finite element analysis of pressure distortion coefficient and piston fall
+    rate in a simple pressure balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/19
+docidentifier:
+- content: Metrologia 36 6 579
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/19
+- content: 10.1088/0026-1394/36/6/19
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Buonanno
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Dell'Isola
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Maghenzani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: <p>A finite element method (FEM) developed by the University of Cassino
+- language: en
+  script:
+  - Latn
+  content: <p>A finite element method (FEM) developed by the University of Cassino
     and the Istituto di Metrologia "G. Colonnetti" (IMGC, Turin) to optimize the design
     and use of simple pressure balances was applied while the most important operating
     and design parameters of the piston-cylinder units were varied. In particular,
@@ -79,40 +71,32 @@ abstract:
     unit based on dimensional measurements made at the IMGC. The comparison between
     the experimental values obtained at the IMGC and the numerical values, of both
     the pressure distortion coefficient and the piston fall rate, show excellent agreement.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Finite element analysis of pressure distortion coefficient and piston
+    - language: en
+      script: Latn
+      content: Finite element analysis of pressure distortion coefficient and piston
         fall rate in a simple pressure balance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '579'
     reference_to: '584'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

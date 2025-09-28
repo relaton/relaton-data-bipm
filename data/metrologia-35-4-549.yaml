@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354549
-title:
-- content: Absolute measurements of black-body emitted radiance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/58
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/58
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 549
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute measurements of black-body emitted radiance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/58
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/58
+docidentifier:
+- content: Metrologia 35 4 549
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/58
+- content: 10.1088/0026-1394/35/4/58
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Theocharous
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Sapritsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S N Mekhontsev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S P Morozova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, VNIIOFI
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>Near-ambient-temperature black-body sources are routinely used for
+- language: en
+  script:
+  - Latn
+  content: "<p>Near-ambient-temperature black-body sources are routinely used for
     calibration in terms of radiance of a variety of infrared instruments such as
     those used in remote sensing and thermal imaging. The black-body radiance is usually
     determined by reference to a measured temperature and a calculated effective emissivity.
@@ -111,39 +99,31 @@ abstract:
     at 4 mum) and a resolution of 0.001% (0.3 mK). The facility obtains its traceability
     to the SI directly through radiometric standards in the form of a cryogenic radiometer
     rather than through the ITS-90.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute measurements of black-body emitted radiance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute measurements of black-body emitted radiance
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +134,6 @@ extent:
     reference_from: '549'
     reference_to: '554'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

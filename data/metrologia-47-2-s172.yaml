@@ -1,125 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia472S172
-title:
-- content: The determination of the uncertainties of spectral emissivity measurements
-    in air at the PTB
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/2/S14
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/2/S14
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 2 S172
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The determination of the uncertainties of spectral emissivity measurements
+    in air at the PTB
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/2/S14
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/2/S14
+docidentifier:
+- content: Metrologia 47 2 S172
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/2/S14
+- content: 10.1088/0026-1394/47/2/S14
   type: doi
 date:
 - type: published
-  value: '2010-03-08'
+  at: '2010-03-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christian Monte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestraße 2-12, D-10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jörg Hollandt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestraße 2-12, D-10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '2010-03-08'
 abstract:
-- content: "<p>The instrumentation of the Physikalisch-Technische Bundesanstalt (PTB)
+- language: en
+  script:
+  - Latn
+  content: "<p>The instrumentation of the Physikalisch-Technische Bundesanstalt (PTB)
     for the measurement of the directional spectral emissivity in air in the temperature
     range from 80 °C to 400 °C and wavelength range from 4 µm to 40 µm and the subsequent
     procedures for data evaluation are described. Special emphasis is placed on the
     calculation of the uncertainty of the directional spectral emissivity and of the
     uncertainty of the sample surface temperature. For samples with typical emissivities
-    of about 0.6, absolute expanded uncertainties (k = 2) of 0.01 can be reached at
-    a surface temperature of 200 °C in the spectral range from 5 µm to 40 µm. However,
-    it is also shown that—due to the complex dependence of the uncertainty on the
-    sample and the conditions of measurement—general statements about the uncertainty
-    cannot be given. The uncertainty of the emissivity has to be calculated for each
-    individual case of sample and temperature.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of about 0.6, absolute expanded uncertainties (<italic>k</italic> = 2) of 0.01
+    can be reached at a surface temperature of 200 °C in the spectral range from 5 µm
+    to 40 µm. However, it is also shown that—due to the complex dependence of the
+    uncertainty on the sample and the conditions of measurement—general statements
+    about the uncertainty cannot be given. The uncertainty of the emissivity has to
+    be calculated for each individual case of sample and temperature.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The determination of the uncertainties of spectral emissivity measurements
+    - language: en
+      script: Latn
+      content: The determination of the uncertainties of spectral emissivity measurements
         in air at the PTB
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-03-08'
+      at: '2010-03-08'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The determination of the uncertainties of spectral emissivity measurements
+    - language: en
+      script: Latn
+      content: The determination of the uncertainties of spectral emissivity measurements
         in air at the PTB
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-04-01'
+      at: '2010-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +116,6 @@ extent:
     reference_from: S172
     reference_to: S181
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

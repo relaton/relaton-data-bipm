@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia48387
-title:
-- content: Accurate rubidium atomic fountain frequency standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accurate rubidium atomic fountain frequency standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/003
+docidentifier:
+- content: Metrologia 48 3 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/003
+- content: 10.1088/0026-1394/48/3/003
   type: doi
 date:
 - type: published
-  value: '2011-03-01'
+  at: '2011-03-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuri Ovchinnikov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giuseppe Marra
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-03-01'
 abstract:
-- content: "<p>The design, operating parameters and the accuracy evaluation of the
+- language: en
+  script:
+  - Latn
+  content: "<p>The design, operating parameters and the accuracy evaluation of the
     NPL Rb atomic fountain are described. The atomic fountain employs a double magneto-optical
-    arrangement that allows a large number of<sup>87</sup>Rb atoms to be trapped,
+    arrangement that allows a large number of <sup>87</sup>Rb atoms to be trapped,
     a water-cooled temperature-stabilized interrogation region and a high quality
     factor interrogation cavity. From the uncertainties of measured and calculated
     systematic frequency shifts, the fractional frequency accuracy is estimated to
@@ -67,55 +61,47 @@ abstract:
     one day of averaging. Based on the proposed quasi-continuous regime of operation
     of the fountain, the accuracy of the Rb standard of 5 × 10<sup>−17</sup> reachable
     in two days of averaging is predicted.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate rubidium atomic fountain frequency standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Accurate rubidium atomic fountain frequency standard
     date:
     - type: epub
-      value: '2011-03-01'
+      at: '2011-03-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate rubidium atomic fountain frequency standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Accurate rubidium atomic fountain frequency standard
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +112,6 @@ extent:
     reference_from: '87'
     reference_to: '100'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

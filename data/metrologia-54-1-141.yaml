@@ -1,138 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia541141
-title:
-- content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant gas
-    thermometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa5389
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa5389
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 1 141
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant gas
+    thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa5389
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa5389
+docidentifier:
+- content: Metrologia 54 1 141
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa5389
+- content: 10.1088/1681-7575/aa5389
   type: doi
 date:
 - type: published
-  value: '2017-01-25'
+  at: '2017-01-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christof Gaiser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernd Fellmuth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Norbert Haft
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2017-01-25'
 abstract:
-- content: Abstract<p>Recent thermodynamic temperature measurements at PTB with dielectric-constant
-    gas thermometry were performed up to 140 K. Particular care was taken to check
-    for possible systematic sources of errors by repeating experiments applying two
-    new measuring capacitors and both helium and neon as working gases. The development
-    of a new method for determining the effective compressibility of the new capacitors
-    as a function of temperature has decreased the uncertainty significantly. The
-    combination of the recently obtained results with former values of thermodynamic
-    temperature, corrected using new thermodynamic input data, has yielded a consistent
-    dataset in the range from 2.5 K to 38 K as well as at 84 K, 120 K, 130 K, and
-    140 K. This dataset is in good agreement with the newest results of acoustic gas
-    thermometry, which has quite different sources of uncertainty compared with dielectric-constant
-    gas thermometry.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Recent thermodynamic temperature measurements at PTB with dielectric-constant gas thermometry were performed up to 140 K. Particular care was taken to check for possible systematic sources of errors by repeating experiments applying two new measuring capacitors and both helium and neon as working gases. The development of a new method for determining the effective compressibility of the new capacitors as a function of temperature has decreased the uncertainty significantly. The combination of the recently obtained results with former values of thermodynamic temperature, corrected using new thermodynamic input data, has yielded a consistent dataset in the range from 2.5 K to 38 K as well as at 84 K, 120 K, 130 K, and 140 K. This dataset is in good agreement with the newest results of acoustic gas thermometry, which has quite different sources of uncertainty compared with dielectric-constant gas thermometry.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant
+    - script: Latn
+      content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant
         gas thermometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-02-01'
+      at: '2017-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant
+    - script: Latn
+      content: Primary thermometry from 2.5 K to 140 K applying dielectric-constant
         gas thermometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-01-25'
+      at: '2017-01-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -143,6 +119,6 @@ extent:
     reference_from: '141'
     reference_to: '147'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

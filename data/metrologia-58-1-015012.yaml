@@ -1,129 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015012
-title:
-- content: The least informative distribution and correlation coefficient of measurement
-    results
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abcbe9
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abcbe9
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015012
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The least informative distribution and correlation coefficient of measurement
+    results
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abcbe9
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abcbe9
+docidentifier:
+- content: Metrologia 58 1 015012
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abcbe9
+- content: 10.1088/1681-7575/abcbe9
   type: doi
 date:
 - type: published
-  value: '2021-01-11'
+  at: '2021-01-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Pizzocaro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2021-01-11'
 abstract:
-- content: Abstract<p>Correlations play a significant role in data analysis and the
-    evaluation and expression of the uncertainty, yet estimating them is often difficult.
-    This paper provides examples of how to infer the measurand value, given only the
-    uncertainties and correlation ranges of the measurement results. The least informative
-    data-distribution is not Gaussian, but the marginal distributions are. Explicit
-    results are given in the case of a data pair, where the inferred correlation coefficient
-    is the midpoint of the given range.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Correlations play a significant role in data analysis and the evaluation and expression of the uncertainty, yet estimating them is often difficult. This paper provides examples of how to infer the measurand value, given only the uncertainties and correlation ranges of the measurement results. The least informative data-distribution is not Gaussian, but the marginal distributions are. Explicit results are given in the case of a data pair, where the inferred correlation coefficient is the midpoint of the given range.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The least informative distribution and correlation coefficient of measurement
+    - script: Latn
+      content: The least informative distribution and correlation coefficient of measurement
         results
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The least informative distribution and correlation coefficient of measurement
+    - script: Latn
+      content: The least informative distribution and correlation coefficient of measurement
         results
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-01-11'
+      at: '2021-01-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The least informative distribution and correlation coefficient of measurement
+    - script: Latn
+      content: The least informative distribution and correlation coefficient of measurement
         results
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2021-01-11'
+      at: '2021-01-11'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +113,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,135 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia411L1
-title:
-- content: Change of air kerma standards of the BEV for<sup>137</sup>Cs and<sup>60</sup>Co
-    γ-rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Change of air kerma standards of the BEV for <sup>137</sup>Cs and <sup>60</sup>Co
+    γ-rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/L01
+docidentifier:
+- content: Metrologia 41 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/L01
+- content: 10.1088/0026-1394/41/1/L01
   type: doi
 date:
 - type: published
-  value: '2003-12-10'
+  at: '2003-12-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Witzani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen, Arltgasse 35, A-1160
             Vienna, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Gabris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen, Arltgasse 35, A-1160
             Vienna, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Leitner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen, Arltgasse 35, A-1160
             Vienna, Austria
-  role:
-  - type: author
-revdate: '2003-12-10'
 abstract:
-- content: "<p>From 1 January 2004 the Bundesamt für Eich- und Vermessungswesen (BEV),
-    the national metrology institute of Austria, will change its air kerma standards
-    for<sup>137</sup>Cs and<sup>60</sup>Co γ-rays. All calibration coefficients in
-    calibration certificates of the BEV, issued after this date and which are traceable
-    to these standards, will be increased by 1.02% and 0.80% for<sup>137</sup>Cs and<sup>60</sup>Co
-    γ-rays, respectively. The quantities ambient dose equivalent H<sup>*</sup>(10),
-    directional dose equivalent H′(0.07) and personal dose equivalent H<sub>p</sub>(10)
-    and H<sub>p</sub>(0.07), which are derived from these standards, are changed by
-    the same amounts.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>From 1 January 2004 the Bundesamt für Eich- und Vermessungswesen (BEV),
+    the national metrology institute of Austria, will change its air kerma standards
+    for <sup>137</sup>Cs and <sup>60</sup>Co γ-rays. All calibration coefficients
+    in calibration certificates of the BEV, issued after this date and which are traceable
+    to these standards, will be increased by 1.02% and 0.80% for <sup>137</sup>Cs
+    and <sup>60</sup>Co γ-rays, respectively. The quantities ambient dose equivalent
+    <italic>H</italic><sup>*</sup>(10), directional dose equivalent <italic>H</italic>′(0.07)
+    and personal dose equivalent <italic>H</italic><sub>p</sub>(10) and <italic>H</italic><sub>p</sub>(0.07),
+    which are derived from these standards, are changed by the same amounts.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Change of air kerma standards of the BEV for<sup>137</sup>Cs and<sup>60</sup>Co
+    - language: en
+      script: Latn
+      content: Change of air kerma standards of the BEV for <sup>137</sup>Cs and <sup>60</sup>Co
         γ-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2003-12-10'
+      at: '2003-12-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Change of air kerma standards of the BEV for<sup>137</sup>Cs and<sup>60</sup>Co
+    - language: en
+      script: Latn
+      content: Change of air kerma standards of the BEV for <sup>137</sup>Cs and <sup>60</sup>Co
         γ-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +121,6 @@ extent:
     reference_from: L1
     reference_to: L2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

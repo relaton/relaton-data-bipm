@@ -1,121 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593035005
-title:
-- content: Fibre-coupled tunable source based on a supercontinuum laser for the spectral
-    characterisation of fibre optics components and systems
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac5e08
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac5e08
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 035005
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Fibre-coupled tunable source based on a supercontinuum laser for the spectral
+    characterisation of fibre optics components and systems
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac5e08
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac5e08
+docidentifier:
+- content: Metrologia 59 3 035005
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac5e08
+- content: 10.1088/1681-7575/ac5e08
   type: doi
 date:
 - type: published
-  value: '2022-04-19'
+  at: '2022-04-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Natascia Castagna
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacques Morel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: 3003 Bern-Wabern, Switzerland
-  role:
-  - type: author
-revdate: '2022-04-19'
 abstract:
-- content: Abstract<p>We present a measurement system, traceable to the International
-    System of Units, for the calibration of the spectral responsivity (SR) of fibre-coupled
-    photodetectors and power meters, as well as for the measurement of the spectral
-    properties of fibre optics components. The system, based on a supercontinuum laser
-    combined with a two-stage tunable filter, is continuously tunable in a spectral
-    range spanning from 700 nm to 1800 nm. The typical full width half maximum (FWHM)
-    spectral width is of about 1.3 nm, with an in-fibre power level of up to 1 mW.
-    In a single mode geometry, the expanded uncertainty is as low as 0.7% for the
-    SR calibration and 0.6% for the spectral properties calibration. Uncertainties
-    of about 1% were estimated for both types of measurements in a multi mode geometry.
-    Application fields of this versatile system range from telecommunication to sensors
-    and to rapidly growing domains like quantum communication and cryptography.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We present a measurement system, traceable to the International System of Units, for the calibration of the spectral responsivity (SR) of fibre-coupled photodetectors and power meters, as well as for the measurement of the spectral properties of fibre optics components. The system, based on a supercontinuum laser combined with a two-stage tunable filter, is continuously tunable in a spectral range spanning from 700 nm to 1800 nm. The typical full width half maximum (FWHM) spectral width is of about 1.3 nm, with an in-fibre power level of up to 1 mW. In a single mode geometry, the expanded uncertainty is as low as 0.7% for the SR calibration and 0.6% for the spectral properties calibration. Uncertainties of about 1% were estimated for both types of measurements in a multi mode geometry. Application fields of this versatile system range from telecommunication to sensors and to rapidly growing domains like quantum communication and cryptography.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fibre-coupled tunable source based on a supercontinuum laser for the
+    - script: Latn
+      content: Fibre-coupled tunable source based on a supercontinuum laser for the
         spectral characterisation of fibre optics components and systems
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fibre-coupled tunable source based on a supercontinuum laser for the
+    - script: Latn
+      content: Fibre-coupled tunable source based on a supercontinuum laser for the
         spectral characterisation of fibre optics components and systems
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-04-19'
+      at: '2022-04-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +102,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

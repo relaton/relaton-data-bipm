@@ -1,121 +1,106 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496756
-title:
-- content: Quantity and quantity value**<p>A preliminary version of this paper was
-    presented and discussed at the Joint International IMEKO TC1, TC7 &amp; TC13 Symposium,
-    31 August to 2 September 2011, Jena, Germany.</p>
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/756
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/756
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 756
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Quantity and quantity value<xref ref-type="fn" rid="metro438849fn1">*</xref><fn
+    id="metro438849fn1"><label>*</label><p>A preliminary version of this paper was
+    presented and discussed at the Joint International IMEKO TC1, TC7 &amp; TC13 Symposium,
+    31 August to 2 September 2011, Jena, Germany.</p></fn>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/756
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/756
+docidentifier:
+- content: Metrologia 49 6 756
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/756
+- content: 10.1088/0026-1394/49/6/756
   type: doi
 date:
 - type: published
-  value: '2012-10-30'
+  at: '2012-10-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Mari
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 21053 Castellanza (VA, Italy
         name:
         - content: Università Cattaneo-LIUC
-        contact:
-        - address:
-            formatted_address: 21053 Castellanza (VA, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alessandro Giordani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 20100 Milano, Italy
         name:
         - content: Università Cattolica del Sacro Cuore
-        contact:
-        - address:
-            formatted_address: 20100 Milano, Italy
-  role:
-  - type: author
-revdate: '2012-10-30'
 abstract:
-- content: 'Abstract<p>The concept system around ‘quantity’ and ‘quantity value’ is
-    fundamental for measurement science, but some very basic issues are still open
-    on such concepts and their relation. This paper argues that quantity values are
-    in fact individual quantities, and that a complementarity exists between measurands
-    and quantity values. This proposal is grounded on the analysis of three basic
-    ‘equality’ relations: (i) between quantities, (ii) between quantity values and
-    (iii) between quantities and quantity values. A consistent characterization of
-    such concepts is obtained, which is then generalized to ‘property’ and ‘property
-    value’. This analysis also throws some light on the elusive concept of magnitude.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The concept system around ‘quantity’ and ‘quantity value’ is fundamental for measurement science, but some very basic issues are still open on such concepts and their relation. This paper argues that quantity values are in fact individual quantities, and that a complementarity exists between measurands and quantity values. This proposal is grounded on the analysis of three basic ‘equality’ relations: (i) between quantities, (ii) between quantity values and (iii) between quantities and quantity values. A consistent characterization of such concepts is obtained, which is then generalized to ‘property’ and ‘property value’. This analysis also throws some light on the elusive concept of magnitude.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantity and quantity value**<p>A preliminary version of this paper
+    - script: Latn
+      content: Quantity and quantity value<xref ref-type="fn" rid="metro438849fn1">*</xref><fn
+        id="metro438849fn1"><label>*</label><p>A preliminary version of this paper
         was presented and discussed at the Joint International IMEKO TC1, TC7 &amp;
-        TC13 Symposium, 31 August to 2 September 2011, Jena, Germany.</p>
-      script:
-      - Latn
-      format: text/html
+        TC13 Symposium, 31 August to 2 September 2011, Jena, Germany.</p></fn>
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantity and quantity value**<p>A preliminary version of this paper
+    - script: Latn
+      content: Quantity and quantity value<xref ref-type="fn" rid="metro438849fn1">*</xref><fn
+        id="metro438849fn1"><label>*</label><p>A preliminary version of this paper
         was presented and discussed at the Joint International IMEKO TC1, TC7 &amp;
-        TC13 Symposium, 31 August to 2 September 2011, Jena, Germany.</p>
-      script:
-      - Latn
-      format: text/html
+        TC13 Symposium, 31 August to 2 September 2011, Jena, Germany.</p></fn>
     date:
     - type: epub
-      value: '2012-10-30'
+      at: '2012-10-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +111,6 @@ extent:
     reference_from: '756'
     reference_to: '764'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

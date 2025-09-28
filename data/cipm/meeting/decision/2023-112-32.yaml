@@ -1,110 +1,88 @@
 ---
-schema-version: v1.2.9
 id: CIPM-DECN-2023-112-32
-title:
-- content: Decision CIPM/112-32 (2023)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Décision CIPM/112-32 (2023)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/112-_3-2023
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/112-_3-2023
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-112-3.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-112-3.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM DECN 112-32 (2023)
-  type: BIPM
-  primary: true
-- id: CIPM DECN 112-32 (2023, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM DECN 112-32 (2023, F)
+  content: Decision CIPM/112-32 (2023)
+- language: fr
+  script: Latn
+  content: Décision CIPM/112-32 (2023)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/112-_3-2023
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/112-_3-2023
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-112-3.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-112-3.yml
+docidentifier:
+- content: CIPM DECN 112-32 (2023)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Decision 112-32 (2023)
+  content: CIPM DECN 112-32 (2023, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM DECN 112-32 (2023, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Decision 112-32 (2023)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Décision CIPM/112-32 (2023)
+  content: Décision CIPM/112-32 (2023)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Decision 112-32 (2023) / Décision CIPM/112-32 (2023)
+- content: CIPM Decision 112-32 (2023) / Décision CIPM/112-32 (2023)
   type: BIPM-long
 docnumber: CIPM DECN 112-32 (2023)
 date:
 - type: published
-  value: '2023-10-18'
+  at: '2023-10-18'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2023-10-18'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -113,8 +91,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: decision
+    content: decision
   structuredidentifier:
     docnumber: 112-32

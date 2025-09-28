@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S31
-title:
-- content: 'The classical caesium beam frequency standard: fifty years later'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The classical caesium beam frequency standard: fifty years later'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S05
+docidentifier:
+- content: Metrologia 42 3 S31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S05
+- content: 10.1088/0026-1394/42/3/S05
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacques Vanier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Département de physique, Université de Montréal, Montréal, Québec,
             H3C 3J7, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Claude Audoin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-SYRTE, Observatoire de Paris, 61 Avenue de l'Observatoire,
             75014 Paris, France
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>The caesium beam frequency standard using the separated oscillatory
+- language: en
+  script:
+  - Latn
+  content: "<p>The caesium beam frequency standard using the separated oscillatory
     field technique proposed by Ramsey in 1950 has seen intensive development over
     the last fifty years. Its practical implementation as a primary time standard
     made possible the realization of the second with a precision better than that
@@ -65,53 +59,42 @@ abstract:
     principles underlying the operation of such atomic standards, reviews the progress
     made during the last fifty years since its invention, and provides an update on
     the state-of-the-art accuracy and frequency stability achieved today in this field.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The classical caesium beam frequency standard: fifty years later'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The classical caesium beam frequency standard: fifty years later'
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The classical caesium beam frequency standard: fifty years later'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The classical caesium beam frequency standard: fifty years later'
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +105,6 @@ extent:
     reference_from: S31
     reference_to: S42
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

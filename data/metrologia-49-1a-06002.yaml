@@ -1,113 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia491A06002
-title:
-- content: Key comparison BIPM.RI(I)-K2 of the air-kerma standards of the GUM, Poland
-    and the BIPM in low-energy x-rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1A/06002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1A/06002
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1A 06002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Key comparison BIPM.RI(I)-K2 of the air-kerma standards of the GUM, Poland
+    and the BIPM in low-energy x-rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1A/06002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1A/06002
+docidentifier:
+- content: Metrologia 49 1A 06002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1A/06002
+- content: 10.1088/0026-1394/49/1A/06002
   type: doi
 date:
 - type: published
-  value: '2012-01-01'
+  at: '2012-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92312 Sèvres cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Roger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92312 Sèvres cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A B Knyziak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Główny Urząd Miar, ul. Elektoralna 2, 00-139 Warsaw, Poland
-  role:
-  - type: author
-revdate: '2012-01-01'
 abstract:
-- content: |-
-    <p>A key comparison has been made between the air-kerma standards of the GUM and the BIPM in the low-energy x-ray range. The results show the standards to be in agreement to better than the expanded uncertainty (k = 2) for the comparison of 6.0 parts in 10<sup>3</sup>. The results are analysed and presented in terms of degrees of equivalence, suitable for entry in the BIPM key comparison database.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCRI Section I, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A key comparison has been made between the air-kerma standards of the GUM and the BIPM in the low-energy x-ray range. The results show the standards to be in agreement to better than the expanded uncertainty (<italic>k</italic> = 2) for the comparison of 6.0 parts in 10<sup>3</sup>. The results are analysed and presented in terms of degrees of equivalence, suitable for entry in the BIPM key comparison database.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/RI/BIPM.RI(I)/BIPM.RI(I)-K2_GUM_2010.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCRI Section I, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Key comparison BIPM.RI(I)-K2 of the air-kerma standards of the GUM,
+    - language: en
+      script: Latn
+      content: Key comparison BIPM.RI(I)-K2 of the air-kerma standards of the GUM,
         Poland and the BIPM in low-energy x-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-01-01'
+      at: '2012-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +104,6 @@ extent:
     reference_from: '06002'
     reference_to: '06002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

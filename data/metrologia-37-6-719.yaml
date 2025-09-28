@@ -1,109 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia376719
-title:
-- content: Fabrication of a nickel freezing-point cell and preliminary study of its
-    behaviour
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/6/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/6/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 6 719
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fabrication of a nickel freezing-point cell and preliminary study of its
+    behaviour
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/6/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/6/11
+docidentifier:
+- content: Metrologia 37 6 719
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/6/11
+- content: 10.1088/0026-1394/37/6/11
   type: doi
 date:
 - type: published
-  value: '2000-12-01'
+  at: '2000-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y-G Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K S Gam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K H Kang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
-  - type: author
-revdate: '2000-12-01'
 abstract:
-- content: "<p>Erratum to Metrologia, 2000, 37, 243-245.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Erratum to <italic>Metrologia</italic>, 2000, <bold>37</bold>, 243-245.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fabrication of a nickel freezing-point cell and preliminary study of
+    - language: en
+      script: Latn
+      content: Fabrication of a nickel freezing-point cell and preliminary study of
         its behaviour
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-12-01'
+      at: '2000-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +98,6 @@ extent:
     reference_from: '719'
     reference_to: '719'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

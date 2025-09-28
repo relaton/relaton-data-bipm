@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia213115
-title:
-- content: Thermal Noise in Precision Rotors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 3 115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermal Noise in Precision Rotors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/3/003
+docidentifier:
+- content: Metrologia 21 3 115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/3/003
+- content: 10.1088/0026-1394/21/3/003
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B E Bernard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -40,41 +36,37 @@ contributor:
     - organization:
         name:
         - content: Dept. of Physics, Lake Forest College, Lake Forest, IL 60045, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L I Winkler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, University of Virginia, Charlottesville,
             VA 22901, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Ritter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, University of Virginia, Charlottesville,
             VA 22901, USA
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: <p>A first, simple theory of thermal fluctuations of ideal rigid rotors
+- language: en
+  script:
+  - Latn
+  content: <p>A first, simple theory of thermal fluctuations of ideal rigid rotors
     is presented, along with some representative measurements and analysis of a real
     rotor. The ideal rotor has a power spectrum of fractional frequency fluctuations
     with two regions. At low frequency it is flat, and at high frequency it varies
@@ -83,39 +75,31 @@ abstract:
     suspended rotors are shown to have an excess noise amplitude of about 10<sup>4</sup>
     times the ideal level. "Electronic cooling" by feedback can provide great improvement
     in both the noise amplitude and spectral behavior of the ideal rotor.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermal Noise in Precision Rotors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermal Noise in Precision Rotors
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '115'
     reference_to: '126'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

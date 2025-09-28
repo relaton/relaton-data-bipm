@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37171
-title:
-- content: Thermocouple observations of melting and freezing plateaus for metal-carbon
-    eutectics between the copper and palladium points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/10
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 71
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermocouple observations of melting and freezing plateaus for metal-carbon
+    eutectics between the copper and palladium points
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/10
+docidentifier:
+- content: Metrologia 37 1 71
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/10
+- content: 10.1088/0026-1394/37/1/10
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Yamada
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Sakuma
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Ono
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>Melting and freezing plateaus were observed with type-R thermocouples
+- language: en
+  script:
+  - Latn
+  content: "<p>Melting and freezing plateaus were observed with type-R thermocouples
     for the metal-carbon eutectics Pd-C, Ni-C, and Fe-C. For Pd-C, no apparent difference
     between the melting and freezing temperatures was observed at a heating/cooling
     rate of 3 °C/min. For Ni-C, the difference was 0.4 °C, and for Fe-C, 1.6 °C. The
@@ -83,40 +75,32 @@ abstract:
     three metal-carbon eutectics, with melting temperatures between the copper point
     and the palladium point, are potentially useful practical reference points for
     calibration and evaluation of high-temperature thermocouples.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermocouple observations of melting and freezing plateaus for metal-carbon
+    - language: en
+      script: Latn
+      content: Thermocouple observations of melting and freezing plateaus for metal-carbon
         eutectics between the copper and palladium points
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +111,6 @@ extent:
     reference_from: '71'
     reference_to: '73'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,123 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia594045003
-title:
-- content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
-    primary standard
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac73c8
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac73c8
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 4 045003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
+    primary standard
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac73c8
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac73c8
+docidentifier:
+- content: Metrologia 59 4 045003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac73c8
+- content: 10.1088/1681-7575/ac73c8
   type: doi
 date:
 - type: published
-  value: '2022-07-06'
+  at: '2022-07-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Mainegra-Hing
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa KA1 R0A, Canada
         name:
         - content: National Research Council Canada
         subdivision:
-        - content: Metrology
-        contact:
-        - address:
-            formatted_address: Ottawa KA1 R0A, Canada
-  role:
-  - type: author
-revdate: '2022-07-06'
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology
 abstract:
-- content: "Abstract<p>The Canadian air-kerma primary standard for<sup>60</sup>Co
-    beams is updated according to ICRU report 90 (ICRU-90) recommendations. The effect
-    of these recommendations and a more detailed chamber model on the primary standard
-    is investigated. Dosimetric quantities and corrections required for the realization
-    of air kerma are calculated using the EGSnrc Monte Carlo (MC) simulation system.
-    The validity of Spencer–Attix (SA) cavity theory as function of Δ, the secondary
-    particle production threshold energy, is investigated to assess the accuracy of
-    its current selection criterion. Although individual changes in some correction
-    factors are statistically non-negligible, the overall effect amounts to only a
-    0.04% increase of the standard. The mean restricted mass electronic stopping power
-    ratio graphite to air, \n \n S¯Δ,g,a\n \n decreases from the previous value of
-    1.0010 to a value of 0.9949. If this value is used with the recommended W<sub>air</sub>
-    value of 33.97 eV, the effect on the standard is a reduction of 0.613%. When the
-    recommended \n \n WairS¯g,a\n \n value of 33.72 eV is used instead, the change
-    results in a 0.835% reduction in K<sub>air</sub>. Using SA cavity theory to obtain
-    K<sub>air</sub> with a Δ value of 20 keV, corresponding to the cavity’s mean chord
-    length, reproduces a direct MC calculation at the 0.03% level. Type B uncertainties
-    due to uncertainty in the photon and electron cross sections for the largest corrections
-    K<sub>wall</sub> and K<sub>comp</sub> are estimated to be 0.01% and 0.10%, respectively.
-    No statistically significant effect on the standard is observed due to changes
-    in the correction factors. Fano tests and comparison to single scattering calculations
-    demonstrate EGSnrc’s electron transport algorithm accuracy to be within 0.03%
-    relative to its own cross sections. The latter also validates the criterion for
-    selecting Δ based on the average chord length of the chamber’s cavity. A 0.2%
-    difference in the restricted stopping power ratio obtained in this work and the
-    value resulting from ICRU-90 recommendations has the potential for affecting standards
-    relying on the absolute value of W<sub>air</sub>, thus further investigation is
-    granted. The current update results in a 0.8% decrease of the Canadian<sup>60</sup>Co
-    air-kerma primary standard with a reduced uncertainty of 0.2%. This change is
-    in excellent agreement with the reported change to the BIPM<sup>60</sup>Co air-kerma
-    standard.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The Canadian air-kerma primary standard for <sup>60</sup>Co beams is updated according to ICRU report 90 (ICRU-90) recommendations. The effect of these recommendations and a more detailed chamber model on the primary standard is investigated. Dosimetric quantities and corrections required for the realization of air kerma are calculated using the EGSnrc Monte Carlo (MC) simulation system. The validity of Spencer–Attix (SA) cavity theory as function of Δ, the secondary particle production threshold energy, is investigated to assess the accuracy of its current selection criterion. Although individual changes in some correction factors are statistically non-negligible, the overall effect amounts to only a 0.04% increase of the standard. The mean <italic toggle="yes">restricted</italic> mass electronic stopping power ratio graphite to air, <inline-formula>
+                      <tex-math><?CDATA ${\bar{S}}_{{\Delta},\mathrm{g},\mathrm{a}}$></tex-math>
+                      <mml:math display="inline" overflow="scroll"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">g</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metac73c8ieqn1.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> decreases from the previous value of 1.0010 to a value of 0.9949. If this value is used with the recommended <italic toggle="yes">W</italic>
+                   <sub>air</sub> value of 33.97 eV, the effect on the standard is a reduction of 0.613%. When the recommended <inline-formula>
+                      <tex-math><?CDATA ${W}_{\text{air}}{\bar{S}}_{\text{g,}\;\text{a}}$></tex-math>
+                      <mml:math display="inline" overflow="scroll"><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mtext>air</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mtext>g,</mml:mtext><mml:mspace width="thinmathspace"></mml:mspace><mml:mtext>a</mml:mtext></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metac73c8ieqn2.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> value of 33.72 eV is used instead, the change results in a 0.835% reduction in <italic toggle="yes">K</italic>
+                   <sub>air</sub>. Using SA cavity theory to obtain <italic toggle="yes">K</italic>
+                   <sub>air</sub> with a Δ value of 20 keV, corresponding to the cavity’s mean chord length, reproduces a direct MC calculation at the 0.03% level. Type B uncertainties due to uncertainty in the photon and electron cross sections for the largest corrections <italic toggle="yes">K</italic>
+                   <sub>wall</sub> and <italic toggle="yes">K</italic>
+                   <sub>comp</sub> are estimated to be 0.01% and 0.10%, respectively. No statistically significant effect on the standard is observed due to changes in the correction factors. Fano tests and comparison to single scattering calculations demonstrate EGSnrc’s electron transport algorithm accuracy to be within 0.03% relative to its own cross sections. The latter also validates the criterion for selecting Δ based on the average chord length of the chamber’s cavity. A 0.2% difference in the <italic toggle="yes">restricted</italic> stopping power ratio obtained in this work and the value resulting from ICRU-90 recommendations has the potential for affecting standards relying on the absolute value of <italic toggle="yes">W</italic>
+                   <sub>air</sub>, thus further investigation is granted. The current update results in a 0.8% decrease of the Canadian <sup>60</sup>Co air-kerma primary standard with a reduced uncertainty of 0.2%. This change is in excellent agreement with the reported change to the BIPM <sup>60</sup>Co air-kerma standard.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
+    - script: Latn
+      content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
         primary standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-08-01'
+      at: '2022-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
+    - script: Latn
+      content: Adoption of ICRU report 90 recommendations in the Canadian Co-60 air-kerma
         primary standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-07-06'
+      at: '2022-07-06'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +102,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

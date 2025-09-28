@@ -1,110 +1,88 @@
 ---
-schema-version: v1.2.9
 id: CIPM-DECN-2017-106-16
-title:
-- content: Decision CIPM/106-16 (2017)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Décision CIPM/106-16 (2017)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/106-2017
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/106-2017
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-106.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-106.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM DECN 106-16 (2017)
-  type: BIPM
-  primary: true
-- id: CIPM DECN 106-16 (2017, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM DECN 106-16 (2017, F)
+  content: Decision CIPM/106-16 (2017)
+- language: fr
+  script: Latn
+  content: Décision CIPM/106-16 (2017)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/106-2017
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/106-2017
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-106.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-106.yml
+docidentifier:
+- content: CIPM DECN 106-16 (2017)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Decision 106-16 (2017)
+  content: CIPM DECN 106-16 (2017, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM DECN 106-16 (2017, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Decision 106-16 (2017)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Décision CIPM/106-16 (2017)
+  content: Décision CIPM/106-16 (2017)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Decision 106-16 (2017) / Décision CIPM/106-16 (2017)
+- content: CIPM Decision 106-16 (2017) / Décision CIPM/106-16 (2017)
   type: BIPM-long
 docnumber: CIPM DECN 106-16 (2017)
 date:
 - type: published
-  value: '2017-10-20'
+  at: '2017-10-20'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2017-10-20'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -113,8 +91,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: decision
+    content: decision
   structuredidentifier:
     docnumber: 106-16

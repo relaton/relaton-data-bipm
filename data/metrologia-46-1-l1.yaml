@@ -1,155 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461L1
-title:
-- content: Contribution to a conversation about the Supplement 1 to the GUM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1/N01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1/N01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Contribution to a conversation about the Supplement 1 to the GUM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1/N01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1/N01
+docidentifier:
+- content: Metrologia 46 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1/N01
+- content: 10.1088/0026-1394/46/1/N01
   type: doi
 date:
 - type: published
-  value: '2009-01-06'
+  at: '2009-01-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, Information Technology Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, Information Technology Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tyler Estler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Precision Engineering Division, Manufacturing Engineering Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
-  - type: author
-revdate: '2009-01-06'
 abstract:
-- content: "<p>A recent contribution to this journal describes a particular situation
-    of uncertainty assessment where probabilistically symmetric coverage intervals,
-    produced in accordance with the Supplement 1 to the GUM, cover the measurand with
-    frequency much smaller than their nominal coverage probability, in a long sequence
-    of simulated repetitions of the measurement process and corresponding uncertainty
-    assessment, in each of which the value of the measurand is assumed known.</p><p>These
-    findings motivate our contribution to the ongoing, accelerating discussion of
-    that Supplement, which began years before its publication, and has only gained
-    momentum with the recent release of its final form.</p><p>We begin by suggesting
-    that the coverage intervals whose frequentist performance has been found to be
-    poor, indeed are coverage intervals for a quantity different from the measurand
-    that is the focus of attention, and we offer a fresh viewpoint wherefrom to appreciate
-    the situation.</p><p>Next, we point out that the Monte Carlo method for uncertainty
-    propagation that is the core contribution of Supplement 1 is valid under very
-    general conditions, indeed much more general than the conditions Supplement 1
-    lists as sufficient for its valid application.</p><p>To produce a coverage interval
-    according to the Supplement 1 involves two steps: generating a sample of values
-    of the measurand via a Monte Carlo procedure and then summarizing this sample
-    into a coverage interval. Although the Supplement favours probabilistically symmetric
-    intervals, it also states explicitly that other prescriptions are tenable. With
-    this in mind, finally we explain that the choice of summarization can be interpreted
-    as reflecting a priori beliefs about the measurand.</p><p>In the particular case
-    under consideration in the motivating contribution, where the measurand is known
-    to be non-negative, the choice of either a probabilistically symmetric interval
-    or an interval whose left endpoint is 0 would correspond to two quite different
-    prior beliefs. Considering this lesson, we suggest that, in all cases, the best
-    course of action is to adopt a Bayesian approach that naturally reveals all participating
-    assumptions and beliefs openly, and makes all of them accessible to examination
-    and criticism, as befits every scientific procedure.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A recent contribution to this journal describes a particular situation of uncertainty assessment where probabilistically symmetric coverage intervals, produced in accordance with the Supplement 1 to the GUM, cover the measurand with frequency much smaller than their nominal coverage probability, in a long sequence of simulated repetitions of the measurement process and corresponding uncertainty assessment, in each of which the value of the measurand is assumed known.</p>
+    <p>These findings motivate our contribution to the ongoing, accelerating discussion of that Supplement, which began years before its publication, and has only gained momentum with the recent release of its final form.</p>
+    <p>We begin by suggesting that the coverage intervals whose frequentist performance has been found to be poor, indeed are coverage intervals for a quantity different from the measurand that is the focus of attention, and we offer a fresh viewpoint wherefrom to appreciate the situation.</p>
+    <p>Next, we point out that the Monte Carlo method for uncertainty propagation that is the core contribution of Supplement 1 is valid under very general conditions, indeed much more general than the conditions Supplement 1 lists as sufficient for its valid application.</p>
+    <p>To produce a coverage interval according to the Supplement 1 involves two steps: generating a sample of values of the measurand via a Monte Carlo procedure and then summarizing this sample into a coverage interval. Although the Supplement favours probabilistically symmetric intervals, it also states explicitly that other prescriptions are tenable. With this in mind, finally we explain that the choice of summarization can be interpreted as reflecting <italic>a priori</italic> beliefs about the measurand.</p>
+    <p>In the particular case under consideration in the motivating contribution, where the measurand is known to be non-negative, the choice of either a probabilistically symmetric interval or an interval whose left endpoint is 0 would correspond to two quite different prior beliefs. Considering this lesson, we suggest that, in all cases, the best course of action is to adopt a Bayesian approach that naturally reveals all participating assumptions and beliefs openly, and makes all of them accessible to examination and criticism, as befits every scientific procedure.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Contribution to a conversation about the Supplement 1 to the GUM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Contribution to a conversation about the Supplement 1 to the GUM
     date:
     - type: epub
-      value: '2009-01-06'
+      at: '2009-01-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Contribution to a conversation about the Supplement 1 to the GUM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Contribution to a conversation about the Supplement 1 to the GUM
     date:
     - type: ppub
-      value: '2009-02-01'
+      at: '2009-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +119,6 @@ extent:
     reference_from: L1
     reference_to: L7
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

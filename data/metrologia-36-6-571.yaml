@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366571
-title:
-- content: Design of a pressure balance with a small and calculable change of area
-    with pressure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/17
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 571
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Design of a pressure balance with a small and calculable change of area
+    with pressure
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/17
+docidentifier:
+- content: Metrologia 36 6 571
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/17
+- content: 10.1088/0026-1394/36/6/17
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P Fitzgerald
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Sutton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D G Jack
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>The design and analysis of a pressure balance using a finite element
+- language: en
+  script:
+  - Latn
+  content: "<p>The design and analysis of a pressure balance using a finite element
     method is described. The design precisely defines the pressure gradient in the
     gap and provides isolation from end-mounting effects. It also simplifies the finite
     element analysis. The change of area with pressure is calculated for four different
@@ -78,40 +70,32 @@ abstract:
     and fluid is analysed. The results indicate that the simple mode of operation
     (no external jacket pressure) is preferred as it produces a small uncertainty
     in the change of area with pressure and is easy to implement.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Design of a pressure balance with a small and calculable change of
+    - language: en
+      script: Latn
+      content: Design of a pressure balance with a small and calculable change of
         area with pressure
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '571'
     reference_to: '573'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

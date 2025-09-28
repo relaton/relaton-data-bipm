@@ -1,77 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia396597
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Summary report: Regional comparison on the measurement of cadmium
     and lead content in sediment (EUROMET Project 548)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/6/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/6/11
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 6 597
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/6/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/6/11
+docidentifier:
+- content: Metrologia 39 6 597
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/6/11
+- content: 10.1088/0026-1394/39/6/11
   type: doi
 date:
 - type: published
-  value: '2002-12-01'
+  at: '2002-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Papadakis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Joint
             Research Centre, European Commission, Retieseweg, B-2400 Geel, Belgium
-  role:
-  - type: author
-revdate: '2002-12-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Summary report: Regional comparison on the measurement of cadmium
         and lead content in sediment (EUROMET Project 548)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-12-01'
+      at: '2002-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -82,6 +72,6 @@ extent:
     reference_from: '597'
     reference_to: '598'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

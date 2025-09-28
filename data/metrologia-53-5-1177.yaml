@@ -1,145 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5351177
-title:
-- content: Primary pressure standard based on piston-cylinder assemblies. Calculation
-    of effective cross sectional area based on rarefied gas dynamics
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/5/1177
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/5/1177
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 5 1177
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Primary pressure standard based on piston-cylinder assemblies. Calculation
+    of effective cross sectional area based on rarefied gas dynamics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/5/1177
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/5/1177
+docidentifier:
+- content: Metrologia 53 5 1177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/5/1177
+- content: 10.1088/0026-1394/53/5/1177
   type: doi
 date:
 - type: published
-  value: '2016-08-17'
+  at: '2016-08-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Felix Sharipov
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuanchao Yang
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacob E Ricker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jay H Hendricks
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2016-08-17'
 abstract:
-- content: Abstract<p>Currently, the piston-cylinder assembly known as PG39 is used
-    as a primary pressure standard at the National Institute of Standards and Technology
-    (NIST) in the range of 20 kPa to 1 MPa with a standard uncertainty of 3×10−6 as
-    evaluated in 2006. An approximate model of gas flow through the crevice between
-    the piston and sleeve contributed significantly to this uncertainty. The aim of
-    this work is to revise the previous effective cross sectional area of PG39 and
-    its uncertainty by carrying out more exact calculations that consider the effects
-    of rarefied gas flow. The effective cross sectional area is completely determined
-    by the pressure distribution in the crevice. Once the pressure distribution is
-    known, the elastic deformations of both piston and sleeve are calculated by finite
-    element analysis. Then, the pressure distribution is recalculated iteratively
-    for the new crevice dimension. As a result, a new value of the effective area
-    is obtained with a relative difference of 3×10−6 from the previous one. Moreover,
-    this approach allows us to reduce significantly the standard uncertainty related
-    to the gas flow model so that the total uncertainty is decreased by a factor of
-    three.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Currently, the piston-cylinder assembly known as PG39 is used as a primary pressure standard at the National Institute of Standards and Technology (NIST) in the range of 20 kPa to 1 MPa with a standard uncertainty of <inline-formula><tex-math><?CDATA $3\times {{10}^{-6}}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:mn>3</mml:mn><mml:mo>×</mml:mo><mml:mstyle displaystyle="false"><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:mstyle></mml:math><inline-graphic xlink:href="metaa3647ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> as evaluated in 2006. An approximate model of gas flow through the crevice between the piston and sleeve contributed significantly to this uncertainty. The aim of this work is to revise the previous effective cross sectional area of PG39 and its uncertainty by carrying out more exact calculations that consider the effects of rarefied gas flow. The effective cross sectional area is completely determined by the pressure distribution in the crevice. Once the pressure distribution is known, the elastic deformations of both piston and sleeve are calculated by finite element analysis. Then, the pressure distribution is recalculated iteratively for the new crevice dimension. As a result, a new value of the effective area is obtained with a relative difference of <inline-formula><tex-math><?CDATA $3\times {{10}^{-6}}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:mn>3</mml:mn><mml:mo>×</mml:mo><mml:mstyle displaystyle="false"><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:mstyle></mml:math><inline-graphic xlink:href="metaa3647ieqn002.gif" xlink:type="simple"></inline-graphic></inline-formula> from the previous one. Moreover, this approach allows us to reduce significantly the standard uncertainty related to the gas flow model so that the total uncertainty is decreased by a factor of three.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary pressure standard based on piston-cylinder assemblies. Calculation
+    - script: Latn
+      content: Primary pressure standard based on piston-cylinder assemblies. Calculation
         of effective cross sectional area based on rarefied gas dynamics
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-10-01'
+      at: '2016-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary pressure standard based on piston-cylinder assemblies. Calculation
+    - script: Latn
+      content: Primary pressure standard based on piston-cylinder assemblies. Calculation
         of effective cross sectional area based on rarefied gas dynamics
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-08-17'
+      at: '2016-08-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +121,6 @@ extent:
     reference_from: '1177'
     reference_to: '1184'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

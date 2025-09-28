@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia39151
-title:
-- content: An investigation of palladium oxidation in the platinum/palladium thermocouple
-    system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1 51
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An investigation of palladium oxidation in the platinum/palladium thermocouple
+    system
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1/7
+docidentifier:
+- content: Metrologia 39 1 51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/7
+- content: 10.1088/0026-1394/39/1/7
   type: doi
 date:
 - type: published
-  value: '2002-02-01'
+  at: '2002-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC
-  role:
-  - type: author
-revdate: '2002-02-01'
 abstract:
-- content: "<p>The work reported explores the effect of Pd oxidation on the behaviour
+- language: en
+  script:
+  - Latn
+  content: "<p>The work reported explores the effect of Pd oxidation on the behaviour
     of Pt/Pd thermocouples within the temperature range 250 °C to 1000 °C. The results
     confirm that oxidation of Pd takes place primarily in the temperature range 600
     °C to 800 °C. Uniform (isothermal) heat treatment in the critical temperature
@@ -59,40 +55,32 @@ abstract:
     of the gold/platinum thermocouple due to oxidation of the Pd component and is
     not recommended in its stead unless the maximum temperature of use exceeds 1000
     °C.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An investigation of palladium oxidation in the platinum/palladium thermocouple
+    - language: en
+      script: Latn
+      content: An investigation of palladium oxidation in the platinum/palladium thermocouple
         system
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-02-01'
+      at: '2002-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +91,6 @@ extent:
     reference_from: '51'
     reference_to: '58'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

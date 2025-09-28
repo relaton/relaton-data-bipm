@@ -1,132 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324301
+type: article
+schema_version: v1.4.1
 title:
-- content: Progress in stabilization of the He-Ne/<sup>127</sup>I<sub>2</sub> wavelength
+- language: en
+  script: Latn
+  content: Progress in stabilization of the He-Ne/<sup>127</sup>I<sub>2</sub> wavelength
     standard at 633 nm and results of an international comparison between the PTB
     and the UME
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/7
-  type: doi
-type: article
-docid:
-- id: Metrologia 32 4 301
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/7
+docidentifier:
+- content: Metrologia 32 4 301
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/7
+- content: 10.1088/0026-1394/32/4/7
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Erin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Karaböce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Malinovsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Titov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Ugur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Darnedde
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Riehle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: "<p>A detailed description of the He-Ne/<sup>127</sup>I<sub>2</sub> laser
+- language: en
+  script:
+  - Latn
+  content: "<p>A detailed description of the He-Ne/<sup>127</sup>I<sub>2</sub> laser
     wavelength standards developed at the National Metrology Institute of Turkey (UME),
     using high-frequency modulation and featuring a long-term relative instability
     of a few parts in 10<sup>14</sup>, is presented. The frequency dependence of the
@@ -140,41 +124,33 @@ abstract:
     in a laser with an accurate servo-system, reveal a correlation between the spacing
     of the molecular resonances, the gas contamination in the iodine cell, and the
     output frequencies of the laser when locked to different iodine components.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Progress in stabilization of the He-Ne/<sup>127</sup>I<sub>2</sub>
+    - language: en
+      script: Latn
+      content: Progress in stabilization of the He-Ne/<sup>127</sup>I<sub>2</sub>
         wavelength standard at 633 nm and results of an international comparison between
         the PTB and the UME
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -185,6 +161,6 @@ extent:
     reference_from: '301'
     reference_to: '310'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia163105
-title:
-- content: The Triple Point of Phenoxybenzene
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 3 105
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Triple Point of Phenoxybenzene
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/3/001
+docidentifier:
+- content: Metrologia 16 3 105
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/3/001
+- content: 10.1088/0026-1394/16/3/001
   type: doi
 date:
 - type: published
-  value: '1980-07-01'
+  at: '1980-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J D Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Chemical Standards, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M F Vaughan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Chemical Standards, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1980-07-01'
 abstract:
-- content: "<p>A method for preparing phenoxybenzene in a state of high purity, suitable
+- language: en
+  script:
+  - Latn
+  content: "<p>A method for preparing phenoxybenzene in a state of high purity, suitable
     for filling triple-point cells, has been devised. Techniques for realizing the
     triple point of phenoxybenzene have been investigated, with a view to achieving
     a week's service from a single realization and good temperature repeatability
@@ -74,39 +68,31 @@ abstract:
     pure phenoxybenzene. Experiments of lesser accuracy lead us to propose the value
     300.029 K for the freezing point of chemically pure phenoxybenzene when saturated
     with dry air at a pressure of 101.325 kPa.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Triple Point of Phenoxybenzene
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Triple Point of Phenoxybenzene
     date:
     - type: ppub
-      value: '1980-07-01'
+      at: '1980-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '105'
     reference_to: '109'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

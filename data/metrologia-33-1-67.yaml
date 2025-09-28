@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia33167
-title:
-- content: International comparison of roundness profiles with nanometric accuracy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/1/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/1/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 1 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International comparison of roundness profiles with nanometric accuracy
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/1/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/1/9
+docidentifier:
+- content: Metrologia 33 1 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/1/9
+- content: 10.1088/0026-1394/33/1/9
   type: doi
 date:
 - type: published
-  value: '1996-02-01'
+  at: '1996-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Haitjema
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, PTB, SP, IMGC, OFMET
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bosse
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, PTB, SP, IMGC, OFMET
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Frennberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, PTB, SP, IMGC, OFMET
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Sacconi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, PTB, SP, IMGC, OFMET
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Thalmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, PTB, SP, IMGC, OFMET
-  role:
-  - type: author
-revdate: '1996-02-01'
 abstract:
-- content: "<p>Roundness profiles are compared which were obtained from measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>Roundness profiles are compared which were obtained from measurements
     carried out at five national metrology laboratories. The object used for this
     comparison was a zirconium-oxide sphere with a profile containing higher harmonics
     and a total roundness deviation of about 42 nm. The measurement results were obtained
@@ -111,39 +99,31 @@ abstract:
     significance limit. The comparison shows that each participating laboratory is
     able to measure a roundness profile with a standard deviation in each data point
     of less than 2 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International comparison of roundness profiles with nanometric accuracy
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International comparison of roundness profiles with nanometric accuracy
     date:
     - type: ppub
-      value: '1996-02-01'
+      at: '1996-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +134,6 @@ extent:
     reference_from: '67'
     reference_to: '73'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

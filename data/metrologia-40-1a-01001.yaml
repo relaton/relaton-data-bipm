@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A01001
-title:
-- content: Final report on key comparison CCEM-K8 (dc voltage ratio)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/01001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/01001
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1A 01001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison CCEM-K8 (dc voltage ratio)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/01001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/01001
+docidentifier:
+- content: Metrologia 40 1A 01001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/01001
+- content: 10.1088/0026-1394/40/1A/01001
   type: doi
 date:
 - type: published
-  value: '2003-01-01'
+  at: '2003-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Marullo Reedtz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrical Metrology Section, Istituto Elettrotecnico Nazionale
             G Ferraris (IEN), Strada delle Cacce 91, I-10135 Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Cerri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrical Metrology Section, Istituto Elettrotecnico Nazionale
             G Ferraris (IEN), Strada delle Cacce 91, I-10135 Turin, Italy
-  role:
-  - type: author
-revdate: '2003-01-01'
 abstract:
-- content: "<p>The purpose of CIPM comparison CCEM-K8 was to compare the scaling capabilities
+- language: en
+  script:
+  - Latn
+  content: "<p>The purpose of CIPM comparison CCEM-K8 was to compare the scaling capabilities
     up to 1000 V dc of national metrology institutes. Fifteen institutes participated,
     with the Istituto Elettrotecnico Nazionale Galileo Ferraris (Turin, Italy) acting
     as pilot laboratory. Circulation of the travelling standard, a resistive voltage
@@ -70,39 +64,31 @@ abstract:
     was about 0.23×10<sup>-6</sup> at 95% level of confidence. Results for the supplementary
     ratios are reported in an appendix. With certain exceptions, agreement between
     the results is satisfactory; in some cases the measurement uncertainty was underestimated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison CCEM-K8 (dc voltage ratio)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison CCEM-K8 (dc voltage ratio)
     date:
     - type: ppub
-      value: '2003-01-01'
+      at: '2003-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +99,6 @@ extent:
     reference_from: '01001'
     reference_to: '01001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

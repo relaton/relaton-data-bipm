@@ -1,106 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2311
-title:
-- content: Constant-Volume Gas Thermometry Between 4 K and 100 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/23/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/23/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 23 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Constant-Volume Gas Thermometry Between 4 K and 100 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/23/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/23/1/002
+docidentifier:
+- content: Metrologia 23 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/23/1/002
+- content: 10.1088/0026-1394/23/1/002
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P P M Steur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratorium der Rijksuniversiteit Leiden, Nieuwsteeg
             18, NL-2311 SB Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratorium der Rijksuniversiteit Leiden, Nieuwsteeg
             18, NL-2311 SB Leiden, The Netherlands
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>Gas-thermometer measurements between 4 K and 100 K have been performed
-    at the Kamerlingh Onnes Laboratory as part of the preparatory work in several
-    institutes for a future, revised, International Practical Temperature Scale. Gas-thermometer
-    temperatures are compared, between 13.8 K and 100 K, with platinum resistance
-    thermometers calibrated on IPTS-68 and, between 4.2 K and 27.1 K, with rhodium-iron
-    resistance thermometers calibrated on the National Physical Laboratory (Teddington)
-    Scale of 1975 (NPL-75).</p><p>Results of the measurements, with NPL-75 at 20.3
-    K as a reference temperature for the gas thermometer, show agreement with NPL-75
-    within 0.3 mK over most of the range. Differences from NPL-75 of 0.6 mK were found
-    in the range 10 K to 14 K and around 27 K.</p><p>Below 50 K, IPTS-68 is shown
-    to be 4 mK to 10 mK higher than thermodynamic temperatures. Between 70 K and 100
-    K, IPTS-68 is 9 mK lower than thermodynamic temperatures.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Gas-thermometer measurements between 4 K and 100 K have been performed at the Kamerlingh Onnes Laboratory as part of the preparatory work in several institutes for a future, revised, International Practical Temperature Scale. Gas-thermometer temperatures are compared, between 13.8 K and 100 K, with platinum resistance thermometers calibrated on IPTS-68 and, between 4.2 K and 27.1 K, with rhodium-iron resistance thermometers calibrated on the National Physical Laboratory (Teddington) Scale of 1975 (NPL-75).</p>
+    <p>Results of the measurements, with NPL-75 at 20.3 K as a reference temperature for the gas thermometer, show agreement with NPL-75 within 0.3 mK over most of the range. Differences from NPL-75 of 0.6 mK were found in the range 10 K to 14 K and around 27 K.</p>
+    <p>Below 50 K, IPTS-68 is shown to be 4 mK to 10 mK higher than thermodynamic temperatures. Between 70 K and 100 K, IPTS-68 is 9 mK lower than thermodynamic temperatures.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Constant-Volume Gas Thermometry Between 4 K and 100 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Constant-Volume Gas Thermometry Between 4 K and 100 K
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +89,6 @@ extent:
     reference_from: '1'
     reference_to: '18'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

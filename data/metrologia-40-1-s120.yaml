@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S120
-title:
-- content: Ageing of DXW-lamps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/327
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/327
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S120
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ageing of DXW-lamps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/327
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/327
+docidentifier:
+- content: Metrologia 40 1 S120
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/327
+- content: 10.1088/0026-1394/40/1/327
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Ylianttila
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: STUK, Radiation and Nuclear Safety Authority, PO Box 14, FIN-00881
             Helsinki, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Jokela
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: STUK, Radiation and Nuclear Safety Authority, PO Box 14, FIN-00881
             Helsinki, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Helsinki University of Technology (HUT), Metrology Research Institute,
             PO Box 3000, FIN-02015 HUT, Finland
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>DXW-lamps are used to calibrate spectroradiometers measuring solar
+- language: en
+  script:
+  - Latn
+  content: "<p>DXW-lamps are used to calibrate spectroradiometers measuring solar
     UV radiation. To study the ageing properties of DXW-lamps two pre-aged 1 kW lamps
     were burned for over 80 h, simulating the normal use of the lamps. The lamps were
     burned about 1.5 h at a time with a 30 min period between the consecutive burns
@@ -84,53 +76,42 @@ abstract:
     time. The spectral changes can be fully explained by the changes of the filament
     temperatures, which decreased by about 8 K during the 80 h burns. No absorption
     or emission lines were found in the spectra during the test burns.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ageing of DXW-lamps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Ageing of DXW-lamps
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ageing of DXW-lamps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Ageing of DXW-lamps
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: S120
     reference_to: S123
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

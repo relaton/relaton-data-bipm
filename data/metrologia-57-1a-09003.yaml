@@ -1,99 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia571A09003
-title:
-- content: Final report on key comparison EURAMET.AUV.V-K2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/57/1A/09003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/57/1A/09003
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 1A 09003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison EURAMET.AUV.V-K2
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/57/1A/09003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/57/1A/09003
+docidentifier:
+- content: Metrologia 57 1A 09003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/57/1A/09003
+- content: 10.1088/0026-1394/57/1A/09003
   type: doi
 date:
 - type: published
-  value: '2020-01-01'
+  at: '2020-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joanna Kolasa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Central Office of Measures (GUM); Elektoralna 2; 00-139 Warsaw;
             Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Daniela Virovska
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bulgarian Institute for Metrology (BIM); 52-B, G.M.Dimitrov Blvd.
             1040 Sofia, Bulgaria
-  role:
-  - type: author
-revdate: '2020-01-01'
 abstract:
-- content: |-
-    <p></p><p>This final report describes the results obtained in a key comparison of primary vibration calibration facilities. Two piezoelectric standard accelerometers (one single-ended as well one back-to-back type) were calibrated first at Central Office of Measures (GUM), acting as pilot and linking laboratory, and Bulgarian Institute for Metrology (BIM). The results of the BIM obtained in this comparison were linked to the CCAUV.V-K2 key comparison through the joint participation of the GUM. The degrees of equivalence were computed for BIM with respect to the CCAUV.V-K2 key comparison reference value.</p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>This final report describes the results obtained in a key comparison of primary vibration calibration facilities. Two piezoelectric standard accelerometers (one single-ended as well one back-to-back type) were calibrated first at Central Office of Measures (GUM), acting as pilot and linking laboratory, and Bulgarian Institute for Metrology (BIM). The results of the BIM obtained in this comparison were linked to the CCAUV.V-K2 key comparison through the joint participation of the GUM. The degrees of equivalence were computed for BIM with respect to the CCAUV.V-K2 key comparison reference value.</p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="https://www.bipm.org/utils/common/pdf/final_reports/AUV/V-K2/EURAMET.AUV.V-K2.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison EURAMET.AUV.V-K2
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison EURAMET.AUV.V-K2
     date:
     - type: ppub
-      value: '2020-01-01'
+      at: '2020-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +94,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

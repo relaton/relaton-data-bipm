@@ -1,117 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375567
-title:
-- content: Monochromator-based cryogenic radiometry between 1 µm and 20 µm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/51
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/51
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 567
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monochromator-based cryogenic radiometry between 1 µm and 20 µm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/51
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/51
+docidentifier:
+- content: Metrologia 37 5 567
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/51
+- content: 10.1088/0026-1394/37/5/51
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Schrama
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Bloembergen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E W M van der Ham
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The spectral responsivity of Ge photodiodes and thin-film thermopiles
+- language: en
+  script:
+  - Latn
+  content: "<p>The spectral responsivity of Ge photodiodes and thin-film thermopiles
     has been measured between 1 µm and 20 µm. These detectors are used as transfer
     standards for the spectral responsivity measurements made at the Nederlands Meetinstituut-Van
     Swinden Laboratorium (NMi-VSL) monochromator-based cryogenic radiometer facility.
     For measurements beyond 2.5 µm we used an Ar maxi-arc as infrared source in combination
     with a single-grating monochromator. Below 2.5 µm a quartz-tungsten-halogen lamp
     is used as light source in conjunction with a double-grating monochromator. An
-    optical system based on three mirrors is used to match the f-numbers of the monochromator
-    and cryogenic radiometer with negligible residual astigmatism. In this paper we
-    discuss the design of the facility, the characteristics of the transfer standards
-    used and the estimated uncertainty budget of the infrared measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    optical system based on three mirrors is used to match the <italic>f</italic>-numbers
+    of the monochromator and cryogenic radiometer with negligible residual astigmatism.
+    In this paper we discuss the design of the facility, the characteristics of the
+    transfer standards used and the estimated uncertainty budget of the infrared measurements.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monochromator-based cryogenic radiometry between 1 µm and 20 µm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Monochromator-based cryogenic radiometry between 1 µm and 20 µm
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '567'
     reference_to: '570'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

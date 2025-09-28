@@ -1,99 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia406376
-title:
-- content: Tracing the atomic mass unit to the kilogram by ion accumulation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/6/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/6/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 6 376
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Tracing the atomic mass unit to the kilogram by ion accumulation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/6/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/6/009
+docidentifier:
+- content: Metrologia 40 6 376
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/6/009
+- content: 10.1088/0026-1394/40/6/009
   type: doi
 date:
 - type: published
-  value: '2003-11-27'
+  at: '2003-11-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2003-11-27'
 abstract:
-- content: "<p>An experimental approach for linking the atomic mass unit to the kilogram
+- language: en
+  script:
+  - Latn
+  content: "<p>An experimental approach for linking the atomic mass unit to the kilogram
     with an uncertainty sufficiently small for a future re-definition of the kilogram
     is described. The concept consists of accumulation of ions from an ion beam up
     to a weighable mass and measurable total charge. The main problems and influencing
     factors connected with ion beam technology, weighing and current measurement together
     with the corresponding experimental solutions are discussed in detail. The first
     experiments with consistent results, but still large uncertainty, are described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Tracing the atomic mass unit to the kilogram by ion accumulation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Tracing the atomic mass unit to the kilogram by ion accumulation
     date:
     - type: epub
-      value: '2003-11-27'
+      at: '2003-11-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Tracing the atomic mass unit to the kilogram by ion accumulation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Tracing the atomic mass unit to the kilogram by ion accumulation
     date:
     - type: ppub
-      value: '2003-12-01'
+      at: '2003-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +89,6 @@ extent:
     reference_from: '376'
     reference_to: '386'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

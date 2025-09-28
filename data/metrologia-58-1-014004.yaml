@@ -1,97 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581014004
-title:
-- content: Choosing wavelengths and assessing blunder risk for the method of exact
-    fractions
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abd0cf
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abd0cf
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 014004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Choosing wavelengths and assessing blunder risk for the method of exact
+    fractions
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abd0cf
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abd0cf
+docidentifier:
+- content: Metrologia 58 1 014004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abd0cf
+- content: 10.1088/1681-7575/abd0cf
   type: doi
 date:
 - type: published
-  value: '2021-01-21'
+  at: '2021-01-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian D Leroux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: K1A 0R6 Ottawa, Ontario, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: K1A 0R6 Ottawa, Ontario, Canada
-  role:
-  - type: author
-revdate: '2021-01-21'
 abstract:
-- content: Abstract<p>We revisit the problem of choosing combinations of sources for
-    multi-wavelength interferometry, using the risk of assigning the wrong integer
-    interference order to a measured phase as a quantitative criterion. We model this
-    risk, explicitly accounting for the experimenter’s ability to reject implausible
-    measurement results. We present a general reliability limit for the method of
-    exact fractions, which can be used as a benchmark when evaluating wavelength combinations,
-    as well as performance estimates for several promising combinations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We revisit the problem of choosing combinations of sources for multi-wavelength interferometry, using the risk of assigning the wrong integer interference order to a measured phase as a quantitative criterion. We model this risk, explicitly accounting for the experimenter’s ability to reject implausible measurement results. We present a general reliability limit for the method of exact fractions, which can be used as a benchmark when evaluating wavelength combinations, as well as performance estimates for several promising combinations.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian Crown
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian Crown
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Choosing wavelengths and assessing blunder risk for the method of exact
+    - script: Latn
+      content: Choosing wavelengths and assessing blunder risk for the method of exact
         fractions
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Choosing wavelengths and assessing blunder risk for the method of exact
+    - script: Latn
+      content: Choosing wavelengths and assessing blunder risk for the method of exact
         fractions
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-01-21'
+      at: '2021-01-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -99,6 +83,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

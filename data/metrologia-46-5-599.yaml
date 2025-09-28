@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465599
+type: article
+schema_version: v1.4.1
 title:
-- content: 'Narrow band noise rejection technique for laser frequency and length standards:
+- language: en
+  script: Latn
+  content: 'Narrow band noise rejection technique for laser frequency and length standards:
     application to frequency stabilization to I<sub>2</sub> lines near dissociation
     limit at 501.7 nm'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/026
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/026
-  type: doi
-type: article
-docid:
-- id: Metrologia 46 5 599
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/026
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/026
+docidentifier:
+- content: Metrologia 46 5 599
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/026
+- content: 10.1088/0026-1394/46/5/026
   type: doi
 date:
 - type: published
-  value: '2009-10-01'
+  at: '2009-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F du Burck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de Physique des Lasers, UMR 7538 CNRS, Université Paris
             13, 99 av. J-B Clément, 93430 Villetaneuse, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Tetchewo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de Physique des Lasers, UMR 7538 CNRS, Université Paris
             13, 99 av. J-B Clément, 93430 Villetaneuse, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A N Goncharov
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Lopez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de Physique des Lasers, UMR 7538 CNRS, Université Paris
             13, 99 av. J-B Clément, 93430 Villetaneuse, France
-  role:
-  - type: author
-revdate: '2009-10-01'
 abstract:
-- content: "<p>An opto-electronic device for the stabilization of laser beam intensity
+- language: en
+  script:
+  - Latn
+  content: "<p>An opto-electronic device for the stabilization of laser beam intensity
     in a narrow frequency band based on a numeric corrector driving the radio-frequency
     signal of an acousto-optic modulator is applied to improve the signal-to-noise
     ratio of the detected signal in saturation spectroscopy of iodine in a cell at
@@ -97,57 +87,46 @@ abstract:
     a deviation of 10<sup>−14</sup> is reached for 500 s. Linewidths smaller than
     40 kHz (FWHM) are also demonstrated at low saturating power for hyperfine components
     of the transition R(26)62-0 at 501.7 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Narrow band noise rejection technique for laser frequency and length
+    - language: en
+      script: Latn
+      content: 'Narrow band noise rejection technique for laser frequency and length
         standards: application to frequency stabilization to I<sub>2</sub> lines near
         dissociation limit at 501.7 nm'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Narrow band noise rejection technique for laser frequency and length
+    - language: en
+      script: Latn
+      content: 'Narrow band noise rejection technique for laser frequency and length
         standards: application to frequency stabilization to I<sub>2</sub> lines near
         dissociation limit at 501.7 nm'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -158,6 +137,6 @@ extent:
     reference_from: '599'
     reference_to: '606'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

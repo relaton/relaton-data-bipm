@@ -1,128 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S51
-title:
-- content: On calibration of network time services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S51
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On calibration of network time services
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S09
+docidentifier:
+- content: Metrologia 45 6 S51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S09
+- content: 10.1088/0026-1394/45/6/S09
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vladimir Smotlacha
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CESNET z.s.p.o., Zikova 4, 160 00 Prague 6, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Čermák
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Photonics and Electronics, Academy of Sciences of
             the Czech Republic, Chaberská 57, 182 51 Prague 8, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Juan Palacio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Real Instituto y Observatorio de la Armada, Cecilio Pujazón, s/n,
             11100 San Fernando, Cadiz, Spain
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>This paper proposes methods for calibration of two network time services—NTP
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper proposes methods for calibration of two network time services—NTP
     servers and time-stamp authorities. The calibration is described in conformity
     with metrological principles like other time distribution systems. The authors
     have built up the calibration sets and tested them in cooperation with five European
     time and frequency laboratories. The paper also presents and discusses experimental
     results collected by measurement of time servers between involved laboratories.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On calibration of network time services
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On calibration of network time services
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On calibration of network time services
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On calibration of network time services
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +114,6 @@ extent:
     reference_from: S51
     reference_to: S58
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

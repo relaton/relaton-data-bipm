@@ -1,88 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2113
-title:
-- content: Installation et utilisation du comparateur photoélectrique et interférentiel
-    du Bureau International des Poids et Mesures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 1 13
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Installation et utilisation du comparateur photoélectrique et interférentiel
+    du Bureau International des Poids et Mesures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/1/005
+docidentifier:
+- content: Metrologia 2 1 13
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/1/005
+- content: 10.1088/0026-1394/2/1/005
   type: doi
 date:
 - type: published
-  value: '1966-01-01'
+  at: '1966-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Carré
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             Sèvres, France
-  role:
-  - type: author
-revdate: '1966-01-01'
 abstract:
-- content: "<p>The paper describes the photoelectric and interference comparator of
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper describes the photoelectric and interference comparator of
     the BIPM, for divided scales and end standards, together with its photoelectric
     microscopes, its installation (in particular, its anti-vibration mounting) and
     its auxiliary apparatus. The latter includes the interferometer, the refractometer
     and apparatus for temperature measurement. The results of the tests to which the
     complete assembly has been subjected are given, together with the results of the
     first measurements made with this new comparator.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Installation et utilisation du comparateur photoélectrique et interférentiel
+    - language: en
+      script: Latn
+      content: Installation et utilisation du comparateur photoélectrique et interférentiel
         du Bureau International des Poids et Mesures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1966-01-01'
+      at: '1966-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '13'
     reference_to: '23'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

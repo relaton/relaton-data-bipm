@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354323
-title:
-- content: The new cryogenic vacuum chamber and black-body source for infrared calibrations
-    at the NIST's FARCAL facility
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/18
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/18
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 323
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The new cryogenic vacuum chamber and black-body source for infrared calibrations
+    at the NIST's FARCAL facility
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/18
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/18
+docidentifier:
+- content: Metrologia 35 4 323
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/18
+- content: 10.1088/0026-1394/35/4/18
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Fowler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B C Johnson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Rice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S R Lorentz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The Facility for Advanced Radiometric Calibrations (FARCAL) at the
+- language: en
+  script:
+  - Latn
+  content: "<p>The Facility for Advanced Radiometric Calibrations (FARCAL) at the
     National Institute of Standards and Technology (NIST) in Gaithersburg, MD, comprises
     the Medium Background Infrared (MBIR) facility and the Training for Calibration
     Expertise in Radiometry (TraCER), the latter being a classroom setting. The MBIR
@@ -95,40 +85,32 @@ abstract:
     room-temperature non-vacuum radiometric facilities. Initially the MBIR facility
     will be used for 80 K medium background measurements and 300 K ambient background
     measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The new cryogenic vacuum chamber and black-body source for infrared
+    - language: en
+      script: Latn
+      content: The new cryogenic vacuum chamber and black-body source for infrared
         calibrations at the NIST's FARCAL facility
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +121,6 @@ extent:
     reference_from: '323'
     reference_to: '327'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

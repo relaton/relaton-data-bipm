@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S112
-title:
-- content: Overview of physical interaction models for photon and electron transport
-    used in Monte Carlo codes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S08
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S08
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S112
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Overview of physical interaction models for photon and electron transport
+    used in Monte Carlo codes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S08
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S08
+docidentifier:
+- content: Metrologia 46 2 S112
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S08
+- content: 10.1088/0026-1394/46/2/S08
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesc Salvat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Facultat de Física (ECM and ICC), Universitat de Barcelona, Diagonal
             647, ES-08028 Barcelona, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: José M Fernández-Varea
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Facultat de Física (ECM and ICC), Universitat de Barcelona, Diagonal
             647, ES-08028 Barcelona, Spain
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>The physical principles and approximations employed in Monte Carlo
+- language: en
+  script:
+  - Latn
+  content: "<p>The physical principles and approximations employed in Monte Carlo
     simulations of coupled electron–photon transport are reviewed. After a brief analysis
     of the assumptions underlying the trajectory picture used to generate random particle
     histories, we concentrate on the physics of the various interaction processes
@@ -65,55 +59,44 @@ abstract:
     models and approximations that lead to the differential cross sections employed
     in general-purpose Monte Carlo codes. References to relevant publications and
     data resources are also provided.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Overview of physical interaction models for photon and electron transport
+    - language: en
+      script: Latn
+      content: Overview of physical interaction models for photon and electron transport
         used in Monte Carlo codes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Overview of physical interaction models for photon and electron transport
+    - language: en
+      script: Latn
+      content: Overview of physical interaction models for photon and electron transport
         used in Monte Carlo codes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +107,6 @@ extent:
     reference_from: S112
     reference_to: S138
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

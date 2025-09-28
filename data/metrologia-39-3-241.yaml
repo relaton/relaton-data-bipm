@@ -1,90 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia393241
-title:
-- content: Generalized normal distribution law of errors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/3/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/3/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 3 241
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Generalized normal distribution law of errors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/3/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/3/1
+docidentifier:
+- content: Metrologia 39 3 241
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/3/1
+- content: 10.1088/0026-1394/39/3/1
   type: doi
 date:
 - type: published
-  value: '2002-06-01'
+  at: '2002-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A E Fridman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIM
-  role:
-  - type: author
-revdate: '2002-06-01'
 abstract:
-- content: "<p>This paper describes a more precise method for statistical treatment
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes a more precise method for statistical treatment
     of results of repeated measurements, based on the generalized normal distribution
     law of random errors. The paper also presents physical grounds for the adequacy
     of this distribution in the application to random errors of measurements. Statistical
     estimates of parameters and a distribution density form are theoretically substantiated.
     A procedure for treating results of repeated measurements by statistical means
     is outlined and compared with that stated in the International Organization for
-    Standardization's Guide to the Expression of Uncertainty in Measurement. The results
-    obtained when evaluating this method on a number of the standards from the D.
-    I. Mendeleyev Institute for Metrology (VNIIM) are given. Application of the suggested
-    method may yield a significant effect where a measurement result has to be obtained
-    with the maximum possible accuracy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    Standardization's <italic>Guide to the Expression of Uncertainty in Measurement</italic>.
+    The results obtained when evaluating this method on a number of the standards
+    from the D. I. Mendeleyev Institute for Metrology (VNIIM) are given. Application
+    of the suggested method may yield a significant effect where a measurement result
+    has to be obtained with the maximum possible accuracy.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Generalized normal distribution law of errors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Generalized normal distribution law of errors
     date:
     - type: ppub
-      value: '2002-06-01'
+      at: '2002-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '241'
     reference_to: '247'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia15287
-title:
-- content: The α-β Transition in Nitrogen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 2 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The α-β Transition in Nitrogen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/2/005
+docidentifier:
+- content: Metrologia 15 2 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/2/005
+- content: 10.1088/0026-1394/15/2/005
   type: doi
 date:
 - type: published
-  value: '1979-04-01'
+  at: '1979-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R G Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1979-04-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The α-β Transition in Nitrogen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The α-β Transition in Nitrogen
     date:
     - type: ppub
-      value: '1979-04-01'
+      at: '1979-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '87'
     reference_to: '88'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

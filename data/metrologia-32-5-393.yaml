@@ -1,112 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia325393
-title:
-- content: Correction of the gas-thermometry scale of the VNIIFTRI in the range 2,5
-    K to 308 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/5/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/5/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 5 393
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Correction of the gas-thermometry scale of the VNIIFTRI in the range 2,5
+    K to 308 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/5/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/5/8
+docidentifier:
+- content: Metrologia 32 5 393
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/5/8
+- content: 10.1088/0026-1394/32/5/8
   type: doi
 date:
 - type: published
-  value: '1995-10-01'
+  at: '1995-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D N Astrov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIFTRI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L B Belyansky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIFTRI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y A Dedikov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIFTRI
-  role:
-  - type: author
-revdate: '1995-10-01'
 abstract:
-- content: "<p>New measurements of the thermal expansion of the copper used to manufacture
-    the VNIIFTRI gas thermometer were performed and the temperature scale was corrected.
-    The deviations of recalculated T(gas) scale from the IPTS-68 scale and from the
-    ITS-90 scale in the range 13 K to 308 K were found.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>New measurements of the thermal expansion of the copper used to manufacture
+    the VNIIFTRI gas thermometer were performed and the temperature scale was corrected.
+    The deviations of recalculated <italic>T</italic>(gas) scale from the IPTS-68
+    scale and from the ITS-90 scale in the range 13 K to 308 K were found.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correction of the gas-thermometry scale of the VNIIFTRI in the range
+    - language: en
+      script: Latn
+      content: Correction of the gas-thermometry scale of the VNIIFTRI in the range
         2,5 K to 308 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-10-01'
+      at: '1995-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +101,6 @@ extent:
     reference_from: '393'
     reference_to: '395'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

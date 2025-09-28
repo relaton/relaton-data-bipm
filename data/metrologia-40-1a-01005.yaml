@@ -1,93 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A01005
-title:
-- content: Link between the comparison EUROMET.EM.BIPM-K11.b and the ongoing comparison
-    BIPM.EM-K11.b
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/01005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/01005
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1A 01005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Link between the comparison EUROMET.EM.BIPM-K11.b and the ongoing comparison
+    BIPM.EM-K11.b
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/01005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/01005
+docidentifier:
+- content: Metrologia 40 1A 01005
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/01005
+- content: 10.1088/0026-1394/40/1A/01005
   type: doi
 date:
 - type: published
-  value: '2003-01-01'
+  at: '2003-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dominique Reymann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             92312 Sèvres cedex, France
-  role:
-  - type: author
-revdate: '2003-01-01'
 abstract:
-- content: "<p>In the period 1998-2001, EUROMET organized a comparison of measurements
-    of 10 V DC electronic reference standards. This comparison involved 22 national
-    laboratories and the BIPM. The participating laboratories maintain their voltage
-    reference by Josephson effect measurements or via Zener comparisons.</p><p>This
-    paper describes the way the EUROMET.EM.BIPM-K11.b reference value x<sub>R-EUR</sub>
-    is computed in terms of the BIPM.EM-K11.b key comparison reference value x<sub>R</sub>,
-    i.e. how the quantity (x<sub>R-EUR</sub> - x<sub>R</sub>) and its uncertainty
-    are estimated.</p><p>Main text.\nTo reach the main text of this paper, click on
-    \n Final Report.\nNote that this text is that which appears in Appendix B of the
-    BIPM\nkey comparison database\n kcdb.bipm.org/.</p><p>The final report has been
-    peer-reviewed and approved for publication\nby the CCEM according to the provisions
-    of the Mutual Recognition Arrangement (MRA).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>In the period 1998-2001, EUROMET organized a comparison of measurements
+    of 10 V DC electronic reference standards. This comparison involved 22 national
+    laboratories and the BIPM. The participating laboratories maintain their voltage
+    reference by Josephson effect measurements or via Zener comparisons.</p>\n<p>This
+    paper describes the way the EUROMET.EM.BIPM-K11.b reference value  <italic>x</italic><sub>R-EUR</sub>
+    is computed in terms of the BIPM.EM-K11.b key comparison reference value  <italic>x</italic><sub>R</sub>,
+    i.e. how the quantity (<italic>x</italic><sub>R-EUR</sub> -  <italic>x</italic><sub>R</sub>)
+    and its uncertainty are estimated.</p>\n<p><bold>Main text.</bold>\nTo reach the
+    main text of this paper, click on \n <ext-link ext-link-type=\"uri\" xlink:href=\"http://www.bipm.org/pdf/final_reports/EM/K11/BIPM.EM-K11.b_EUROMET.EM.BIPM-K11.pdf
+    \ \">Final Report</ext-link>.\nNote that this text is that which appears in Appendix
+    B of the BIPM\nkey comparison database\n <ext-link ext-link-type=\"uri\" xlink:href=\"http://kcdb.bipm.org/\">kcdb.bipm.org/</ext-link>.</p>\n<p>The
+    final report has been peer-reviewed and approved for publication\nby the CCEM
+    according to the provisions of the Mutual Recognition Arrangement (MRA).</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Link between the comparison EUROMET.EM.BIPM-K11.b and the ongoing comparison
+    - language: en
+      script: Latn
+      content: Link between the comparison EUROMET.EM.BIPM-K11.b and the ongoing comparison
         BIPM.EM-K11.b
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-01-01'
+      at: '2003-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +87,6 @@ extent:
     reference_from: '01005'
     reference_to: '01005'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

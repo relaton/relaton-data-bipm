@@ -1,113 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S135
-title:
-- content: Reproducible metal–carbon eutectic fixed-points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S27
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S27
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S135
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reproducible metal–carbon eutectic fixed-points
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S27
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S27
+docidentifier:
+- content: Metrologia 43 2 S135
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S27
+- content: 10.1088/0026-1394/43/2/S27
   type: doi
 date:
 - type: published
-  value: '2006-03-29'
+  at: '2006-03-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Lowe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Yamada
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, AIST, Tsukuba, Japan
-  role:
-  - type: author
-revdate: '2006-03-29'
 abstract:
-- content: "<p>The reproducibility of high-temperature metal–carbon fixed-points has
+- language: en
+  script:
+  - Latn
+  content: "<p>The reproducibility of high-temperature metal–carbon fixed-points has
     been investigated. Crucibles and metals from the National Physical Laboratory
     were used to construct fixed-points using the facilities of the National Metrology
     Institute of Japan. The reproducibility at 2747 K was 25 mK, with a comparison
-    uncertainty of 112 mK (k = 2). Appropriate construction methodology should permit
-    this level of reproducibility between cells made at different national measurement
-    institutes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    uncertainty of 112 mK (<italic>k</italic> = 2). Appropriate construction methodology
+    should permit this level of reproducibility between cells made at different national
+    measurement institutes.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reproducible metal–carbon eutectic fixed-points
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reproducible metal–carbon eutectic fixed-points
     date:
     - type: epub
-      value: '2006-03-29'
+      at: '2006-03-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reproducible metal–carbon eutectic fixed-points
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reproducible metal–carbon eutectic fixed-points
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +101,6 @@ extent:
     reference_from: S135
     reference_to: S139
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

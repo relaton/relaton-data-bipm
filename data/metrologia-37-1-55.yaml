@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37155
-title:
-- content: Test of GLONASS precise-code time transfer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 55
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Test of GLONASS precise-code time transfer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/7
+docidentifier:
+- content: Metrologia 37 1 55
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/7
+- content: 10.1088/0026-1394/37/1/7
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Azoubib
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lewandowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>In a first attempt to evaluate performance of the Global Navigation
+- language: en
+  script:
+  - Latn
+  content: "<p>In a first attempt to evaluate performance of the Global Navigation
     Satellite System (GLONASS) precise-code time transfer, one-site measurements are
     used to show that single-channel GLONASS P-code, combined with temperature-stabilized
     antennas, reduces the noise experienced by time-receiving equipment to a few hundred
     picoseconds over an averaging time of one day, thus allowing frequency comparison
     at a level of a few parts in 10<sup>15</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Test of GLONASS precise-code time transfer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Test of GLONASS precise-code time transfer
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '55'
     reference_to: '59'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

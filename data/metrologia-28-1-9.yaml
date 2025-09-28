@@ -1,52 +1,46 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2819
-title:
-- content: Thermodynamic Basis of the ITS-90
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 1 9
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermodynamic Basis of the ITS-90
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/1/003
+docidentifier:
+- content: Metrologia 28 1 9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/1/003
+- content: 10.1088/0026-1394/28/1/003
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R L Rusby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Hudson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -55,111 +49,96 @@ contributor:
     - organization:
         name:
         - content: Now at the National Science Foundation, Washington, DC 20550, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Leiden, Kamerlingh Onnes Laboratorium, Nieuwsteeg
             18, 2311 SB Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Schooley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Temperature Division, National Institute of Standards and Technology,
             Gaithersburg, Maryland 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P P M Steur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Sezione Termometrica, Istituto di Metrologia G Colonnetti', Strada
             delle Cacce 73, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Swenson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, Iowa State University, Ames, Iowa 50011,
             USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: <p>The International Temperature Scale of 1990, ITS-90, came into effect
+- language: en
+  script:
+  - Latn
+  content: <p>The International Temperature Scale of 1990, ITS-90, came into effect
     on 1 January 1990, replacing the International Practical Temperature Scale of
     1968, IPTS-68, and the "Echelle Provisoire de Température de 1976 entre 0,5 K
     et 30 K", EPT-76. The present paper reviews the various experimental measurements
-    of thermodynamic temperature T (often expressed as differences (T - T<sub>68</sub>))
-    in the range 0,65 K to 1 357,77 K, which were available prior to September 1989,
-    and on the basis of which values of temperature were adopted in the ITS-90. Estimates
-    are given for the uncertainties in the derivation of these values.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of thermodynamic temperature <italic>T</italic> (often expressed as differences
+    (<italic>T - T</italic><sub>68</sub>)) in the range 0,65 K to 1 357,77 K, which
+    were available prior to September 1989, and on the basis of which values of temperature
+    were adopted in the ITS-90. Estimates are given for the uncertainties in the derivation
+    of these values.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermodynamic Basis of the ITS-90
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermodynamic Basis of the ITS-90
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +149,6 @@ extent:
     reference_from: '9'
     reference_to: '18'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

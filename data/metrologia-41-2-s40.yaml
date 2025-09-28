@@ -1,100 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S40
-title:
-- content: Refractometry and gas density
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S04
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S04
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S40
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Refractometry and gas density
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S04
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S04
+docidentifier:
+- content: Metrologia 41 2 S40
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S04
+- content: 10.1088/0026-1394/41/2/S04
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L R Pendrill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute, SP Swedish National Testing & Research
             Institute, PO Box 857, SE-50115 Borås, Sweden
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>A review is given of how measurements of intensive thermodynamic properties
+- language: en
+  script:
+  - Latn
+  content: "<p>A review is given of how measurements of intensive thermodynamic properties
     of a gas, such as of refractivity and permittivity, can enable single-parameter
     monitoring of gas density. The last decade has seen the introduction of a number
     of new and improved optical and dielectric measurement techniques as well as significant
     advances in atomic structure calculations. Such advances may find application,
     for example, in the determination of primary gas mixtures and fundamental constants,
     buoyancy compensation in precision mass metrology and in dynamic pressure metrology.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Refractometry and gas density
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Refractometry and gas density
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Refractometry and gas density
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Refractometry and gas density
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +90,6 @@ extent:
     reference_from: S40
     reference_to: S51
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,112 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia335499
-title:
-- content: Are anomalous values of the quantized Hall resistance really anomalous?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/5/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/5/10
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 5 499
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Are anomalous values of the quantized Hall resistance really anomalous?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/5/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/5/10
+docidentifier:
+- content: Metrologia 33 5 499
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/5/10
+- content: 10.1088/0026-1394/33/5/10
   type: doi
 date:
 - type: published
-  value: '1996-10-01'
+  at: '1996-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Jeckelmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: OFMET, NRC, Swiss Fed. Inst. Metrol.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A D Inglis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: OFMET, NRC, Swiss Fed. Inst. Metrol.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Jeanneret
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: OFMET, NRC, Swiss Fed. Inst. Metrol.
-  role:
-  - type: author
-revdate: '1996-10-01'
 abstract:
-- content: "<p>A series of detailed high-precision measurements has been carried out
-    on Sony metal-oxide-semiconductor field-effect transistors (MOSFETs), of a type
-    which have previously been reported to produce anomalous results. We observed
-    anomalous values for the i = 4 quantized Hall step, but only when our measurement
-    procedures did not comply fully with the published guidelines of the Comité Consultatif
-    d'Électricité.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A series of detailed high-precision measurements has been carried out
+    on Sony metal-oxide-semiconductor field-effect transistors (MOSFETs), of a type
+    which have previously been reported to produce anomalous results. We observed
+    anomalous values for the <italic>i</italic> = 4 quantized Hall step, but only
+    when our measurement procedures did not comply fully with the published guidelines
+    of the Comité Consultatif d'Électricité.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Are anomalous values of the quantized Hall resistance really anomalous?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Are anomalous values of the quantized Hall resistance really anomalous?
     date:
     - type: ppub
-      value: '1996-10-01'
+      at: '1996-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +101,6 @@ extent:
     reference_from: '499'
     reference_to: '502'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445379
-title:
-- content: Probabilistic and least-squares inference of the parameters of a straight-line
-    model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 379
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Probabilistic and least-squares inference of the parameters of a straight-line
+    model
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/014
+docidentifier:
+- content: Metrologia 44 5 379
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/014
+- content: 10.1088/0026-1394/44/5/014
   type: doi
 date:
 - type: published
-  value: '2007-09-21'
+  at: '2007-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wolfgang Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Drosselweg 1, 50735 Cologne, Germany
-  role:
-  - type: author
-revdate: '2007-09-21'
 abstract:
-- content: "<p>Two methods are presented by which a straight line is to be fitted
+- language: en
+  script:
+  - Latn
+  content: "<p>Two methods are presented by which a straight line is to be fitted
     to a cloud of points in Cartesian coordinates. It is assumed that data are available
     in the form of a series of measurements in each coordinate, together with an assessment
     of their covariance matrices. In the first (probabilistic) method, the joint probability
@@ -83,55 +75,44 @@ abstract:
     as an approximation to their covariance matrix. In contrast to least-squares,
     the probabilistic method allows for the exact calculation of the probability that
     the true values of the parameters lie within specified intervals.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Probabilistic and least-squares inference of the parameters of a straight-line
+    - language: en
+      script: Latn
+      content: Probabilistic and least-squares inference of the parameters of a straight-line
         model
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-09-21'
+      at: '2007-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Probabilistic and least-squares inference of the parameters of a straight-line
+    - language: en
+      script: Latn
+      content: Probabilistic and least-squares inference of the parameters of a straight-line
         model
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +123,6 @@ extent:
     reference_from: '379'
     reference_to: '384'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

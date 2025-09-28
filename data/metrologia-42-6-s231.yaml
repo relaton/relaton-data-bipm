@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S231
-title:
-- content: Accurate determination of equilibrium state between two pressure balances
-    using a pressure transducer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S19
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S231
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accurate determination of equilibrium state between two pressure balances
+    using a pressure transducer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S19
+docidentifier:
+- content: Metrologia 42 6 S231
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S19
+- content: 10.1088/0026-1394/42/6/S19
   type: doi
 date:
 - type: published
-  value: '2005-11-28'
+  at: '2005-11-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tokihiko Kobata
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology (NMIJ/AIST), AIST Tsukuba Central 3,
             1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Douglas A Olson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology (NIST), Gaithersburg,
             MD 20899, USA
-  role:
-  - type: author
-revdate: '2005-11-28'
 abstract:
-- content: "<p>To determine an equilibrium state between two pressure balances accurately,
+- language: en
+  script:
+  - Latn
+  content: "<p>To determine an equilibrium state between two pressure balances accurately,
     the measurement method using a precise pressure transducer and two air-operated
     constant volume valves (CVV) is proposed in this paper. The advantages of the
     proposed method are as follows: (1) by the usage of two air-operated CVV, the
@@ -71,55 +65,44 @@ abstract:
     at each pressure. From the measurement results, it was revealed that the equilibrium
     state could be determined accurately using the method proposed, and the differences
     between this method and the conventional fall-rate method were sufficiently small.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate determination of equilibrium state between two pressure balances
+    - language: en
+      script: Latn
+      content: Accurate determination of equilibrium state between two pressure balances
         using a pressure transducer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-28'
+      at: '2005-11-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate determination of equilibrium state between two pressure balances
+    - language: en
+      script: Latn
+      content: Accurate determination of equilibrium state between two pressure balances
         using a pressure transducer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +113,6 @@ extent:
     reference_from: S231
     reference_to: S234
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

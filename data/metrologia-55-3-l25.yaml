@@ -1,110 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553L25
-title:
-- content: 'The evolution of chemical metrology: distinguishing between amount of
-    substance and counting quantities, now and in the future'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaace8
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaace8
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 L25
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The evolution of chemical metrology: distinguishing between amount of
+    substance and counting quantities, now and in the future'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaace8
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaace8
+docidentifier:
+- content: Metrologia 55 3 L25
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaace8
+- content: 10.1088/1681-7575/aaace8
   type: doi
 date:
 - type: published
-  value: '2018-05-30'
+  at: '2018-05-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard J C Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Chemical, Medical and Environmental Science Department
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2018-05-30'
+        - name:
+          - language: en
+            script: Latn
+            content: Chemical, Medical and Environmental Science Department
 abstract:
-- content: Abstract<p>This discussion article begins by highlighting the benefits
-    of the mole’s incorporation within the international system of units (SI), in
-    particular by bringing chemical measurement within formal metrology structures.
-    The origins of the confusion that has consistently existed between amount of substance
-    (the base quantity of which the mole is the SI base unit) and counting quantities
-    are examined in detail and their differentiating characteristics fully elaborated
-    on. The importance and benefits of distinguishing between these different quantities
-    and the role that the Avogadro constant plays in doing this are highlighted. It
-    is proposed that these issues are becoming increasingly important for two reasons.
-    First, as chemistry and biology consider increasingly small size domains, measurements
-    are being made of significantly reduced collections of entities. Second, the proposed
-    re-definition of the mole makes the link between amount of substance and the number
-    of elementary entities more transparent. Finally, proposals for new ways of expressing
-    very low amounts of substance in terms of new prefixes based on the numerical
-    value of the Avogadro constant are presented as a way to encourage the use of
-    the mole, when appropriate, even for ultra-low level chemical measurement.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This discussion article begins by highlighting the benefits of the mole’s incorporation within the international system of units (SI), in particular by bringing chemical measurement within formal metrology structures. The origins of the confusion that has consistently existed between amount of substance (the base quantity of which the mole is the SI base unit) and counting quantities are examined in detail and their differentiating characteristics fully elaborated on. The importance and benefits of distinguishing between these different quantities and the role that the Avogadro constant plays in doing this are highlighted. It is proposed that these issues are becoming increasingly important for two reasons. First, as chemistry and biology consider increasingly small size domains, measurements are being made of significantly reduced collections of entities. Second, the proposed re-definition of the mole makes the link between amount of substance and the number of elementary entities more transparent. Finally, proposals for new ways of expressing very low amounts of substance in terms of new prefixes based on the numerical value of the Avogadro constant are presented as a way to encourage the use of the mole, when appropriate, even for ultra-low level chemical measurement.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The evolution of chemical metrology: distinguishing between amount
+    - script: Latn
+      content: 'The evolution of chemical metrology: distinguishing between amount
         of substance and counting quantities, now and in the future'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The evolution of chemical metrology: distinguishing between amount
+    - script: Latn
+      content: 'The evolution of chemical metrology: distinguishing between amount
         of substance and counting quantities, now and in the future'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-05-30'
+      at: '2018-05-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +96,6 @@ extent:
     reference_from: L25
     reference_to: L33
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

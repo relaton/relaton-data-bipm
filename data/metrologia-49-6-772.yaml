@@ -1,200 +1,161 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496772
-title:
-- content: Time transfer through optical fibres over a distance of 73 km with an uncertainty
-    below 100 ps
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/772
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/772
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 772
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Time transfer through optical fibres over a distance of 73 km with an uncertainty
+    below 100 ps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/772
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/772
+docidentifier:
+- content: Metrologia 49 6 772
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/772
+- content: 10.1088/0026-1394/49/6/772
   type: doi
 date:
 - type: published
-  value: '2012-10-30'
+  at: '2012-10-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Rost
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Piester
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Yang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Changsha, People's Republic of China
         name:
         - content: National University of Defense Technology (NUDT)
-        contact:
-        - address:
-            formatted_address: Changsha, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Feldmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Wübbena
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Germany
         name:
         - content: Leibniz Universität Hannover
         subdivision:
-        - content: Institut für Quantenoptik (IQ
-        contact:
-        - address:
-            formatted_address: Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institut für Quantenoptik (IQ
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bauch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2012-10-30'
 abstract:
-- content: Abstract<p>We demonstrate the capability of accurate time transfer using
-    optical fibres over long distances utilizing a dark fibre and hardware which is
-    usually employed in two-way satellite time and frequency transfer (TWSTFT). Our
-    time transfer through optical fibre (TTTOF) system is a variant of the standard
-    TWSTFT by employing an optical fibre in the transmission path instead of free-space
-    transmission of signals between two ground stations through geostationary satellites.
-    As we use a dark fibre there are practically no limitations to the bandwidth of
-    the transmitted signals so that we can use the highest chip rate of the binary
-    phase-shift modulation available from the commercial equipment. This leads to
-    an enhanced precision compared with satellite time transfer where the occupied
-    bandwidth is limited for cost reasons. The TTTOF system has been characterized
-    and calibrated in a common-clock experiment at PTB, and the combined calibration
-    uncertainty is estimated as 74 ps. In a second step the remote part of the system
-    was operated at Leibniz Universität Hannover, Institut für Quantenoptik (IQ) separated
-    by 73 km from PTB in Braunschweig. In parallel, a GPS time transfer link between
-    Braunschweig and Hannover was established, and both links connected a passive
-    hydrogen maser at IQ with the reference time scale UTC(PTB) maintained in PTB.
-    The results obtained with both links agree within the 1-σ uncertainty of the GPS
-    link results, which is estimated as 0.72 ns. The fibre link exhibits a nearly
-    ten-fold improved stability compared with the GPS link, and assessment of its
-    performance has been limited by the properties of the passive maser.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We demonstrate the capability of accurate time transfer using optical fibres over long distances utilizing a dark fibre and hardware which is usually employed in two-way satellite time and frequency transfer (TWSTFT). Our time transfer through optical fibre (TTTOF) system is a variant of the standard TWSTFT by employing an optical fibre in the transmission path instead of free-space transmission of signals between two ground stations through geostationary satellites. As we use a dark fibre there are practically no limitations to the bandwidth of the transmitted signals so that we can use the highest chip rate of the binary phase-shift modulation available from the commercial equipment. This leads to an enhanced precision compared with satellite time transfer where the occupied bandwidth is limited for cost reasons. The TTTOF system has been characterized and calibrated in a common-clock experiment at PTB, and the combined calibration uncertainty is estimated as 74 ps. In a second step the remote part of the system was operated at Leibniz Universität Hannover, Institut für Quantenoptik (IQ) separated by 73 km from PTB in Braunschweig. In parallel, a GPS time transfer link between Braunschweig and Hannover was established, and both links connected a passive hydrogen maser at IQ with the reference time scale UTC(PTB) maintained in PTB. The results obtained with both links agree within the 1-<italic>σ</italic> uncertainty of the GPS link results, which is estimated as 0.72 ns. The fibre link exhibits a nearly ten-fold improved stability compared with the GPS link, and assessment of its performance has been limited by the properties of the passive maser.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time transfer through optical fibres over a distance of 73 km with
+    - script: Latn
+      content: Time transfer through optical fibres over a distance of 73 km with
         an uncertainty below 100 ps
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time transfer through optical fibres over a distance of 73 km with
+    - script: Latn
+      content: Time transfer through optical fibres over a distance of 73 km with
         an uncertainty below 100 ps
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-10-30'
+      at: '2012-10-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -205,6 +166,6 @@ extent:
     reference_from: '772'
     reference_to: '778'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

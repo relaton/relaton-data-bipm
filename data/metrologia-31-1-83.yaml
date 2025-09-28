@@ -1,57 +1,49 @@
 ---
-schema-version: v1.2.9
-id: Metrologia31183
-title:
-- content: Publications of the Bureau International des Poids et Mesures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/1/016
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/1/016
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 1 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Publications of the Bureau International des Poids et Mesures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/1/016
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/1/016
+docidentifier:
+- content: Metrologia 31 1 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/1/016
+- content: 10.1088/0026-1394/31/1/016
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
-revdate: '1994-01-01'
+  at: '1994-01-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Publications of the Bureau International des Poids et Mesures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Publications of the Bureau International des Poids et Mesures
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -62,6 +54,6 @@ extent:
     reference_from: '83'
     reference_to: '84'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

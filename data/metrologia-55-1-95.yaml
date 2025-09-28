@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia55195
-title:
-- content: Constructing an uncertainty budget for voltage RMS measurement with a sampling
-    voltmeter
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaa178
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaa178
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 95
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Constructing an uncertainty budget for voltage RMS measurement with a sampling
+    voltmeter
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaa178
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaa178
+docidentifier:
+- content: Metrologia 55 1 95
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaa178
+- content: 10.1088/1681-7575/aaa178
   type: doi
 date:
 - type: published
-  value: '2018-01-24'
+  at: '2018-01-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mariusz Krajewski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: ul. prof. Z. Szafrana 2, 65-246 Zielona Góra, Poland
         name:
         - content: University of Zielona Góra
         subdivision:
-        - content: Institute of Metrology, Electronics and Computer Science
-        contact:
-        - address:
-            formatted_address: ul. prof. Z. Szafrana 2, 65-246 Zielona Góra, Poland
-  role:
-  - type: author
-revdate: '2018-01-24'
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Metrology, Electronics and Computer Science
 abstract:
-- content: Abstract<p>This paper presents a way of constructing an uncertainty budget
-    for root mean square (RMS) voltage measurement with an integrating sampling voltmeter
-    and a discreet Fourier transform (DFT) algorithm. The construction of an uncertainty
-    budget based on the Monte Carlo method is proposed. Such a budget makes it possible
-    to analyse metrological properties of RMS measurement, especially in cases difficult
-    to realize by the classical method of uncertainty determination. An application
-    of the proposed research method is illustrated by voltage RMS measurement with
-    a high-accuracy HP3458A sampling voltmeter. Selected simulation results have been
-    experimentally verified.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper presents a way of constructing an uncertainty budget for root mean square (RMS) voltage measurement with an integrating sampling voltmeter and a discreet Fourier transform (DFT) algorithm. The construction of an uncertainty budget based on the Monte Carlo method is proposed. Such a budget makes it possible to analyse metrological properties of RMS measurement, especially in cases difficult to realize by the classical method of uncertainty determination. An application of the proposed research method is illustrated by voltage RMS measurement with a high-accuracy HP3458A sampling voltmeter. Selected simulation results have been experimentally verified.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Constructing an uncertainty budget for voltage RMS measurement with
+    - script: Latn
+      content: Constructing an uncertainty budget for voltage RMS measurement with
         a sampling voltmeter
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Constructing an uncertainty budget for voltage RMS measurement with
+    - script: Latn
+      content: Constructing an uncertainty budget for voltage RMS measurement with
         a sampling voltmeter
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-01-24'
+      at: '2018-01-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +96,6 @@ extent:
     reference_from: '95'
     reference_to: '105'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,128 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446L71
-title:
-- content: Changes to the VNIIM air kerma primary standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/N06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/N06
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 L71
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Changes to the VNIIM air kerma primary standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/N06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/N06
+docidentifier:
+- content: Metrologia 44 6 L71
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/N06
+- content: 10.1088/0026-1394/44/6/N06
   type: doi
 date:
 - type: published
-  value: '2007-11-21'
+  at: '2007-11-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I A Kharitonov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), Saint Petersburg,
             Russian Federation
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A V Oborin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), Saint Petersburg,
             Russian Federation
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Y Villevalde
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), Saint Petersburg,
             Russian Federation
-  role:
-  - type: author
-revdate: '2007-11-21'
 abstract:
-- content: "<p>The result of extensive Monte Carlo calculations and a re-evaluation
+- language: en
+  script:
+  - Latn
+  content: "<p>The result of extensive Monte Carlo calculations and a re-evaluation
     of the volume of the primary standard has led to an increase in the determination
     of air kerma at the VNIIM by 9.6 × 10<sup>−3</sup>. The contributions to this
     change are summarized in this short note to announce that the VNIIM primary standard
     changed with effect from 1 November 2007.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Changes to the VNIIM air kerma primary standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Changes to the VNIIM air kerma primary standard
     date:
     - type: epub
-      value: '2007-11-21'
+      at: '2007-11-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Changes to the VNIIM air kerma primary standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Changes to the VNIIM air kerma primary standard
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +114,6 @@ extent:
     reference_from: L71
     reference_to: L72
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

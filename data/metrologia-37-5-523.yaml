@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375523
-title:
-- content: Precise scale of spectral responsivity for InGaAs detectors based on a
-    cryogenic radiometer and several laser sources
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/39
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/39
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 523
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Precise scale of spectral responsivity for InGaAs detectors based on a
+    cryogenic radiometer and several laser sources
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/39
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/39
+docidentifier:
+- content: Metrologia 37 5 523
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/39
+- content: 10.1088/0026-1394/37/5/39
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Werner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Friedrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Johannsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Steiger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a spectral
+- language: en
+  script:
+  - Latn
+  content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a spectral
     responsivity scale in the spectral range 0.95 µm to 1.6 µm. The responsivity scale
     was established by calibrating InGaAs photodiodes against the PTB radiation thermometry
     cryogenic radiometer (RTCR) using several laser sources: a Ti:sapphire laser (0.850
@@ -93,40 +83,32 @@ abstract:
     of the scale at the laser wavelengths can be maintained over almost the entire
     spectral region. A detailed discussion is given of the uncertainties achieved
     in the calibration with the RTCR and the interpolation with the thermal detector.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise scale of spectral responsivity for InGaAs detectors based on
+    - language: en
+      script: Latn
+      content: Precise scale of spectral responsivity for InGaAs detectors based on
         a cryogenic radiometer and several laser sources
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '523'
     reference_to: '526'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

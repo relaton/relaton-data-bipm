@@ -1,87 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S157
-title:
-- content: The relation between the E<sub>n</sub> values including covariance and
-    the 'exclusive' E<sub>n</sub> statistic
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/C01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/C01
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S157
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The relation between the <italic>E<sub>n</sub></italic> values including
+    covariance and the 'exclusive' <italic>E<sub>n</sub></italic> statistic
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/C01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/C01
+docidentifier:
+- content: Metrologia 43 2 S157
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/C01
+- content: 10.1088/0026-1394/43/2/C01
   type: doi
 date:
 - type: published
-  value: '2006-04-01'
+  at: '2006-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adriana Hornikova
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2006-04-01'
 abstract:
-- content: "<p>There is a sign error in equation (2). This equation should read</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>There is a sign error in equation (2). This equation should read \n<inline-graphic
+    xlink:href=\"Eq2.gif\"></inline-graphic></p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The relation between the E<sub>n</sub> values including covariance
-        and the 'exclusive' E<sub>n</sub> statistic
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: The relation between the <italic>E<sub>n</sub></italic> values including
+        covariance and the 'exclusive' <italic>E<sub>n</sub></italic> statistic
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +79,6 @@ extent:
     reference_from: S157
     reference_to: S157
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,104 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433220
-title:
-- content: Monte Carlo uncertainty calculations with small-sample estimates of complex
-    quantities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 220
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monte Carlo uncertainty calculations with small-sample estimates of complex
+    quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/005
+docidentifier:
+- content: Metrologia 43 3 220
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/005
+- content: 10.1088/0026-1394/43/3/005
   type: doi
 date:
 - type: published
-  value: '2006-03-13'
+  at: '2006-03-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2006-03-13'
 abstract:
-- content: "<p>Three statistical distributions have been tested as candidates to represent
-    the uncertainty of complex-valued quantities in Monte Carlo measurement uncertainty
-    calculations. Two candidates are Bayesian multivariate t-distributions with ‘non-informative’
-    priors. The other is the distribution of a ‘generalized pivotal quantity’ (GPQ)
-    for a multivariate mean. The best performance observed was from the GPQ: the two
-    multivariate t-distributions were unsatisfactory in terms of coverage. The testing
-    methodology is general and can be used to check the validity of other uncertainty
-    calculation procedures.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Three statistical distributions have been tested as candidates to represent
+    the uncertainty of complex-valued quantities in Monte Carlo measurement uncertainty
+    calculations. Two candidates are Bayesian multivariate <italic>t</italic>-distributions
+    with ‘non-informative’ priors. The other is the distribution of a ‘generalized
+    pivotal quantity’ (GPQ) for a multivariate mean. The best performance observed
+    was from the GPQ: the two multivariate <italic>t</italic>-distributions were unsatisfactory
+    in terms of coverage. The testing methodology is general and can be used to check
+    the validity of other uncertainty calculation procedures.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo uncertainty calculations with small-sample estimates of
+    - language: en
+      script: Latn
+      content: Monte Carlo uncertainty calculations with small-sample estimates of
         complex quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-03-13'
+      at: '2006-03-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo uncertainty calculations with small-sample estimates of
+    - language: en
+      script: Latn
+      content: Monte Carlo uncertainty calculations with small-sample estimates of
         complex quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: '220'
     reference_to: '226'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

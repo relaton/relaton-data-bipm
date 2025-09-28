@@ -1,113 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia591A07018
-title:
-- content: Final report comparison of the calibrations of hydrometers for liquid density
-    determination among SIM laboratories, SIM.M.D-S6
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/59/1A/07018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/59/1A/07018
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 1A 07018
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Final report comparison of the calibrations of hydrometers for liquid density
+    determination among SIM laboratories, SIM.M.D-S6
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/59/1A/07018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/59/1A/07018
+docidentifier:
+- content: Metrologia 59 1A 07018
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/59/1A/07018
+- content: 10.1088/0026-1394/59/1A/07018
   type: doi
 date:
 - type: published
-  value: '2022-01-01'
+  at: '2022-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L O Becerra
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, km. 4, 5 Carretera a los Cués, Mpio. El Marqués, Querétaro,
             México, C.P. 76246
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L M Peña
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, km. 4, 5 Carretera a los Cués, Mpio. El Marqués, Querétaro,
             México, C.P. 76246
-  role:
-  - type: author
-revdate: '2022-01-01'
 abstract:
-- content: Main text<p>The high accuracy hydrometer comparison is intended to be a
-    regional supplementary comparison according to the Mutual Recognition Arrangements
-    and be a support to entries for the CMC tables in this sub-field for participant
-    laboratories.</p><p>To reach the main text of this paper, click on Final Report.
-    Note that this text is that which appears in Appendix B of the BIPM key comparison
-    database https://www.bipm.org/kcdb/.</p><p>The final report has been peer-reviewed
-    and approved for publication by the CCM, according to the provisions of the CIPM
-    Mutual Recognition Arrangement (CIPM MRA).</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Main text</title>
+    <p>The high accuracy hydrometer comparison is intended to be a regional supplementary comparison according to the Mutual Recognition Arrangements and be a support to entries for the CMC tables in this sub-field for participant laboratories.</p>
+    <p>To reach the main text of this paper, click on <ext-link xlink:href="https://www.bipm.org/documents/20126/75647146/SIM.M.D-S6.pdf/57d5642a-95dd-0fba-dabf-518a022fc7bc" xlink:type="simple">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link xlink:href="https://www.bipm.org/kcdb/" xlink:type="simple">https://www.bipm.org/kcdb/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report comparison of the calibrations of hydrometers for liquid
+    - script: Latn
+      content: Final report comparison of the calibrations of hydrometers for liquid
         density determination among SIM laboratories, SIM.M.D-S6
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-01-01'
+      at: '2022-01-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report comparison of the calibrations of hydrometers for liquid
+    - script: Latn
+      content: Final report comparison of the calibrations of hydrometers for liquid
         density determination among SIM laboratories, SIM.M.D-S6
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-10-06'
+      at: '2022-10-06'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +102,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

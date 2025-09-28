@@ -1,107 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia263151
-title:
-- content: Precision Gas Thermometry between 2.5 K and 308 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 3 151
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Precision Gas Thermometry between 2.5 K and 308 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/3/001
+docidentifier:
+- content: Metrologia 26 3 151
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/3/001
+- content: 10.1088/0026-1394/26/3/001
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D N Astrov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physical and Radiotechnical Measurements Institute (VNIIFTRI),
             Mendeleevo, Moscow region, 141570 USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L B Beliansky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physical and Radiotechnical Measurements Institute (VNIIFTRI),
             Mendeleevo, Moscow region, 141570 USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y A Dedikov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physical and Radiotechnical Measurements Institute (VNIIFTRI),
             Mendeleevo, Moscow region, 141570 USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S P Polunin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physical and Radiotechnical Measurements Institute (VNIIFTRI),
             Mendeleevo, Moscow region, 141570 USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A A Zakharov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physical and Radiotechnical Measurements Institute (VNIIFTRI),
             Mendeleevo, Moscow region, 141570 USSR
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: <p>As a part of preparatory work for the establishment of the new ITS-90
+- language: en
+  script:
+  - Latn
+  content: <p>As a part of preparatory work for the establishment of the new ITS-90
     temperature scale, measurements of thermodynamic temperature by means of a gas
     thermometer without "dead space" were performed. The deviation of the NPL-75 scale
     from thermodynamic temperature was found to lie between zero and 0.7 mK. The value
@@ -113,44 +101,36 @@ abstract:
     of the IPTS-68 from thermodynamic temperature were found to be - 8 mK near 20.3
     K and +11 mK near 83 K. The maximal deviation of the IPTS-68 from thermodynamic
     temperature, viz 15 mK, was found near 150 K. This result is 4 mK higher than
-    that of Kemp et al and lower by the same amount than was measured by the total
-    radiation thermometer of Martin et al. The new values found for the thermodynamic
-    temperatures of the fixed points are in good agreement with the results of other
-    workers. The reference function W(T) for a standard platinum resistance thermometer
-    is calculated.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    that of Kemp <italic>et al</italic> and lower by the same amount than was measured
+    by the total radiation thermometer of Martin <italic>et al</italic>. The new values
+    found for the thermodynamic temperatures of the fixed points are in good agreement
+    with the results of other workers. The reference function <italic>W</italic>(<italic>T</italic>)
+    for a standard platinum resistance thermometer is calculated.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precision Gas Thermometry between 2.5 K and 308 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Precision Gas Thermometry between 2.5 K and 308 K
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -161,6 +141,6 @@ extent:
     reference_from: '151'
     reference_to: '166'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

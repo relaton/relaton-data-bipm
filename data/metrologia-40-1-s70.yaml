@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S70
+type: article
+schema_version: v1.4.1
 title:
-- content: The use of transfer radiometers in validating the visible to shortwave
+- language: en
+  script: Latn
+  content: The use of transfer radiometers in validating the visible to shortwave
     infrared calibrations of radiance sources used by instruments in NASA's Earth
     Observing System
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/316
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/316
-  type: doi
-type: article
-docid:
-- id: Metrologia 40 1 S70
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/316
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/316
+docidentifier:
+- content: Metrologia 40 1 S70
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/316
+- content: 10.1088/0026-1394/40/1/316
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James J Butler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA's Goddard Space Flight Center, Code 920.1, Greenbelt, MD 20771,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert A Barnes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Science Applications International Corporation, Beltsville, MD
             20705, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>The quantitative study of climate change over decades requires successive
+- language: en
+  script:
+  - Latn
+  content: "<p>The quantitative study of climate change over decades requires successive
     generations of satellite, airborne and ground-based instrumentation carefully
     calibrated against a common radiance scale. In NASA's Earth Observing System (EOS)
     program, the most common sources used in the laboratory radiance calibration of
@@ -78,57 +72,46 @@ abstract:
     the agreement between the radiance measurements of these transfer radiometers
     is ±1.80% at 411 nm, ±1.31% at 552.5 nm, ±1.32% at 868.0 nm, ±2.54% at 1622 nm,
     and ±2.81% at 2200 nm (σ = 1).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The use of transfer radiometers in validating the visible to shortwave
+    - language: en
+      script: Latn
+      content: The use of transfer radiometers in validating the visible to shortwave
         infrared calibrations of radiance sources used by instruments in NASA's Earth
         Observing System
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The use of transfer radiometers in validating the visible to shortwave
+    - language: en
+      script: Latn
+      content: The use of transfer radiometers in validating the visible to shortwave
         infrared calibrations of radiance sources used by instruments in NASA's Earth
         Observing System
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +122,6 @@ extent:
     reference_from: S70
     reference_to: S77
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

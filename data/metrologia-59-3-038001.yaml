@@ -1,106 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593038001
-title:
-- content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the problem’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac5433
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac5433
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 038001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the problem’'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac5433
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac5433
+docidentifier:
+- content: Metrologia 59 3 038001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac5433
+- content: 10.1088/1681-7575/ac5433
   type: doi
 date:
 - type: published
-  value: '2022-05-13'
+  at: '2022-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B P Leonard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Madison, Wisconsin
-  role:
-  - type: author
-revdate: '2022-05-13'
 abstract:
-- content: 'Abstract<p>Paul Quincey makes a compelling argument for recognizing angle
-    as a base quantity with the radian as the base unit. Solid angle is then a derived
-    quantity with the steradian a coherent derived unit equal to one square radian.
-    The author demonstrates how familiar equations of rotational motion appear to
-    result from dimensionally consistent explicit-radian equations by ‘setting the
-    radian equal to one’—which he calls the radian convention. Quincey also claims,
-    based (solely) on assumed analogies with translational motion, that for rotation,
-    the so-called ‘improved’ units for torque, angular momentum and moment of inertia
-    must be J/rad, J/(rad/s) and J/(rad/s)<sup>2</sup>, respectively, and that the
-    conventional units (N m, kg m<sup>2</sup> s<sup>−1</sup> and kg m<sup>2</sup>)
-    result from application of the radian convention to these quantities. However,
-    based on fundamental physical principles, I show here that, although the radian
-    convention may help in understanding a confusing notational change applied to
-    angular displacement and its time derivatives when comparing explicit-radian equations
-    to their equivalent familiar forms, it cannot be applied to torque, angular momentum
-    or moment of inertia. The dimensionally correct SI units for these quantities
-    are, respectively, the well-established angle-independent units: newton metre,
-    kilogram metre-squared per second and kilogram metre-squared.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Paul Quincey makes a compelling argument for recognizing angle as a base quantity with the radian as the base unit. Solid angle is then a derived quantity with the steradian a coherent derived unit equal to one square radian. The author demonstrates how familiar equations of rotational motion appear to result from dimensionally consistent explicit-radian equations by ‘setting the radian equal to one’—which he calls the radian convention. Quincey also claims, based (solely) on <italic toggle="yes">assumed analogies</italic> with translational motion, that for rotation, the so-called ‘improved’ units for torque, angular momentum and moment of inertia must be J/rad, J/(rad/s) and J/(rad/s)<sup>2</sup>, respectively, and that the conventional units (N m, kg m<sup>2</sup> s<sup>−1</sup> and kg m<sup>2</sup>) result from application of the radian convention to these quantities. However, based on fundamental physical principles, I show here that, although the radian convention may help in understanding a confusing notational change applied to angular displacement and its time derivatives when comparing explicit-radian equations to their equivalent familiar forms, <italic toggle="yes">it cannot be applied</italic> to torque, angular momentum or moment of inertia. The dimensionally correct SI units for these quantities are, respectively, the well-established <italic toggle="yes">angle-independent</italic> units: newton metre, kilogram metre-squared per second and kilogram metre-squared.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the
+    - script: Latn
+      content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the
         problem’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the
+    - script: Latn
+      content: 'Comment on ‘Angles in the SI: a detailed proposal for solving the
         problem’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-05-13'
+      at: '2022-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +85,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

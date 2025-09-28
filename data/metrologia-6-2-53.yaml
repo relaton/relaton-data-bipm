@@ -1,85 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6253
-title:
-- content: The Triple Point of Oxygen and its Change by Noble Gas Impurities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 2 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Triple Point of Oxygen and its Change by Noble Gas Impurities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/2/005
+docidentifier:
+- content: Metrologia 6 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/2/005
+- content: 10.1088/0026-1394/6/2/005
   type: doi
 date:
 - type: published
-  value: '1970-04-01'
+  at: '1970-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council, Division of Applied Physics, Ottawa
             7, Canada
-  role:
-  - type: author
-revdate: '1970-04-01'
 abstract:
-- content: "<p>The triple points of high purity oxygen samples obtained from three
-    suppliers has been measured and a discrepancy in excess of 2 mK has been found
-    between them. The reproducibility between samples taken from a given source, however,
-    was within a few tenths of 1 mK.</p><p>Doping oxygen with small concentrations
-    of noble gas impurities has in some cases raised and in others lowered the liquidus
-    point.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The triple points of high purity oxygen samples obtained from three suppliers has been measured and a discrepancy in excess of 2 mK has been found between them. The reproducibility between samples taken from a given source, however, was within a few tenths of 1 mK.</p>
+    <p>Doping oxygen with small concentrations of noble gas impurities has in some cases raised and in others lowered the liquidus point.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Triple Point of Oxygen and its Change by Noble Gas Impurities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Triple Point of Oxygen and its Change by Noble Gas Impurities
     date:
     - type: ppub
-      value: '1970-04-01'
+      at: '1970-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +75,6 @@ extent:
     reference_from: '53'
     reference_to: '56'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

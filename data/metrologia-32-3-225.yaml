@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia323225
-title:
-- content: Apparatus for moving mass calibration of LaCoste-Romberg feedback gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/3/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/3/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 3 225
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Apparatus for moving mass calibration of LaCoste-Romberg feedback gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/3/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/3/011
+docidentifier:
+- content: Metrologia 32 3 225
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/3/011
+- content: 10.1088/0026-1394/32/3/011
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Csapó
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eötvös Loránd Geophysical Institute of Hungary, Columbus utca 17/23,
             H-1145 Budapest, Hungary
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Szatmári
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eötvös Loránd Geophysical Institute of Hungary, Columbus utca 17/23,
             H-1145 Budapest, Hungary
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>A new moving mass calibration apparatus and process for LaCoste-Romberg
+- language: en
+  script:
+  - Latn
+  content: "<p>A new moving mass calibration apparatus and process for LaCoste-Romberg
     feedback gravimeters are presented. The apparatus is based on the well-defined
     and relatively simple gravity field of a cylindrical mass. The main target of
     the new calibration apparatus was to reach a relative accuracy of 0,1% to 0,2%
@@ -64,39 +58,31 @@ abstract:
     out a number of calibrations with the apparatus and report their results. They
     also investigated the effect of several external factors influencing the calibration
     process. Results so far confirm that the apparatus fulfils the original target.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Apparatus for moving mass calibration of LaCoste-Romberg feedback gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Apparatus for moving mass calibration of LaCoste-Romberg feedback gravimeters
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '225'
     reference_to: '230'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

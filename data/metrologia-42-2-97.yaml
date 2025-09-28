@@ -1,137 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia42297
-title:
-- content: Panel or jury testing methods in a metrological perspective
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 2 97
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Panel or jury testing methods in a metrological perspective
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/2/004
+docidentifier:
+- content: Metrologia 42 2 97
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/2/004
+- content: 10.1088/0026-1394/42/2/004
   type: doi
 date:
 - type: published
-  value: '2005-02-28'
+  at: '2005-02-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giovanni B Rossi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Genova – DIMEC, Laboratory of Design and Measurement
             for Automation and Robotics, Genova, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesco Crenna
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Genova – DIMEC, Laboratory of Design and Measurement
             for Automation and Robotics, Genova, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Matteo Panero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Genova – DIMEC, Laboratory of Design and Measurement
             for Automation and Robotics, Genova, Italy
-  role:
-  - type: author
-revdate: '2005-02-28'
 abstract:
-- content: "<p>Panel or jury testing is a widely used technique in the measurement
-    of quantities related to human perception. However, despite both scientific and
-    applied interests, the confidence of potential users of this technique is less
-    than in more familiar physical and engineering measurements. This lack of confidence
-    arises mainly due to the lack of standardization and of internationally recognized
-    metrological references for panel testing.</p><p>Here we discuss some methodological
-    aspects of panel testing, including the construction of the reference scale, the
-    definition and realization of a measuring system based on a previously established
-    scale, its calibration and related uncertainty evaluation. We provide illustrative
-    examples concerning the measurement of the quality of sound (acceptability) of
-    machinery used for the automatic sorting of post, presenting experimental results
-    from tests performed in our laboratory, which seem encouraging.</p><p>Finally,
-    we propose some possible actions for standardization and for the promotion of
-    a metrological approach.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Panel or jury testing is a widely used technique in the measurement of quantities related to human perception. However, despite both scientific and applied interests, the confidence of potential users of this technique is less than in more familiar physical and engineering measurements. This lack of confidence arises mainly due to the lack of standardization and of internationally recognized metrological references for panel testing.</p>
+    <p>Here we discuss some methodological aspects of panel testing, including the construction of the reference scale, the definition and realization of a measuring system based on a previously established scale, its calibration and related uncertainty evaluation. We provide illustrative examples concerning the measurement of the quality of sound (acceptability) of machinery used for the automatic sorting of post, presenting experimental results from tests performed in our laboratory, which seem encouraging.</p>
+    <p>Finally, we propose some possible actions for standardization and for the promotion of a metrological approach.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Panel or jury testing methods in a metrological perspective
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Panel or jury testing methods in a metrological perspective
     date:
     - type: epub
-      value: '2005-02-28'
+      at: '2005-02-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Panel or jury testing methods in a metrological perspective
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Panel or jury testing methods in a metrological perspective
     date:
     - type: ppub
-      value: '2005-04-01'
+      at: '2005-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +113,6 @@ extent:
     reference_from: '97'
     reference_to: '109'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354701
-title:
-- content: Calibration of a visible and near-infrared portable transfer radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/81
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/81
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 701
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of a visible and near-infrared portable transfer radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/81
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/81
+docidentifier:
+- content: Metrologia 35 4 701
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/81
+- content: 10.1088/0026-1394/35/4/81
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S F Biggar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Arizona
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A portable transfer radiometer covering the spectral range 400 nm to
+- language: en
+  script:
+  - Latn
+  content: "<p>A portable transfer radiometer covering the spectral range 400 nm to
     900 nm has been built and calibrated. This radiometer was designed to measure
     the output of spherical integrating sources with large apertures such as those
     used to calibrate spacecraft sensors for the Earth Observing System (EOS) of the
@@ -57,39 +53,31 @@ abstract:
     solar spectrum are quite small: less than 2.1% for the seven bands between 412
     nm and 868 nm, and well within the estimated uncertainties for the two calibration
     methods.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of a visible and near-infrared portable transfer radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of a visible and near-infrared portable transfer radiometer
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: '701'
     reference_to: '706'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

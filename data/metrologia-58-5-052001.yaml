@@ -1,112 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585052001
-title:
-- content: Proposal for the dimensionally consistent treatment of angle and solid
-    angle by the International System of Units (SI)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abe0fc
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abe0fc
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 052001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Proposal for the dimensionally consistent treatment of angle and solid
+    angle by the International System of Units (SI)
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abe0fc
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abe0fc
+docidentifier:
+- content: Metrologia 58 5 052001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abe0fc
+- content: 10.1088/1681-7575/abe0fc
   type: doi
 date:
 - type: published
-  value: '2021-07-16'
+  at: '2021-07-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B P Leonard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Akron, Ohio, United States of America
         name:
         - content: The University of Akron
         subdivision:
-        - content: Department of Mechanical Engineering
-        contact:
-        - address:
-            formatted_address: Akron, Ohio, United States of America
-  role:
-  - type: author
-revdate: '2021-07-16'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mechanical Engineering
 abstract:
-- content: 'Abstract<p>Because of continued confusion caused by the SI’s interpretation
-    of angle and solid angle as dimensionless quantities (and the radian and steradian
-    as dimensionless derived units), it is time for the SI to treat these dimensional
-    physical quantities correctly. Building on previous authors’ foundations, starting
-    from Euclid’s Elements, I argue that angle should be recognized as a base quantity
-    with an independent dimension: angle, A. A dimensionally consistent analysis of
-    rotational geometry and mechanics results in the appearance of a constant of Nature
-    equal to the central angle of a plane circular sector whose arc length is equal
-    to that of its radius. This is the common (but not current SI) concept of the
-    radian, rad, appropriately chosen as the base unit for angle. What the SI calls
-    ‘angle’ is actually a nondimensionalized angle: the physical angle (dimension
-    A) divided by one radian. Using a coordinate-system-independent definition of
-    solid angle, I show that this is a derived quantity with dimension A<sup>2</sup>
-    and appropriate unit radian-squared. The steradian is retained as a coherent derived
-    unit: sr = rad<sup>2</sup>. Clarification of terminology is needed in distinguishing
-    between ‘geometrical’ and ‘mathematical’ trigonometric functions and in related
-    topics, including the distinction between frequency and angular velocity, and
-    between phase and phase angle, among other things.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: "<title>Abstract</title>\n<p>Because of continued confusion caused by the
+    SI’s interpretation of angle and solid angle as dimensionless quantities (and
+    the radian and steradian as dimensionless derived units), it is time for the SI
+    to treat these dimensional physical quantities correctly. Building on previous
+    authors’ foundations, starting from Euclid’s <italic toggle=\"yes\">Elements</italic>,
+    I argue that angle should be recognized as a base quantity with an independent
+    dimension: angle, <sans-serif>A</sans-serif>. A dimensionally consistent analysis
+    of rotational geometry and mechanics results in the appearance of a constant of
+    Nature equal to the central angle of a plane circular sector whose arc length
+    is equal to that of its radius. This is the common (but not current SI) concept
+    of the radian, rad, appropriately chosen as the base unit for angle. What the
+    SI calls ‘angle’ is actually a nondimensionalized angle: the physical angle (dimension
+    <sans-serif>A</sans-serif>) divided by one radian. Using a coordinate-system-independent
+    definition of solid angle, I show that this is a derived quantity with dimension
+    <sans-serif>A</sans-serif>\n\t\t\t\t\t          <sup>2</sup> and appropriate unit
+    radian-squared. The steradian is retained as a coherent derived unit: sr = rad<sup>2</sup>.
+    Clarification of terminology is needed in distinguishing between ‘geometrical’
+    and ‘mathematical’ trigonometric functions and in related topics, including the
+    distinction between frequency and angular velocity, and between phase and phase
+    angle, among other things.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposal for the dimensionally consistent treatment of angle and solid
+    - script: Latn
+      content: Proposal for the dimensionally consistent treatment of angle and solid
         angle by the International System of Units (SI)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposal for the dimensionally consistent treatment of angle and solid
+    - script: Latn
+      content: Proposal for the dimensionally consistent treatment of angle and solid
         angle by the International System of Units (SI)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-07-16'
+      at: '2021-07-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +110,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

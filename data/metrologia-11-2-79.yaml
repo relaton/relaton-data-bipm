@@ -1,87 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11279
-title:
-- content: The Viscosity Scale of the NPL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 79
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Viscosity Scale of the NPL
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/005
+docidentifier:
+- content: Metrologia 11 2 79
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/005
+- content: 10.1088/0026-1394/11/2/005
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Daborn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Viscometry Section, Division of Mechanical and Optical Metrology,
             National Physical Laboratory, Teddington TW 11 OLW, UK
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>The establishment of the NPL viscosity scale using glass capillary
-    viscometers is described and the values obtained for NPL viscometers on subsequent
-    recalibrations over a period of some years are given. The results of comparisons
-    with independent viscosity scales in other countries are also tabulated.</p><p>From
-    the results obtained on recalibration of the NPL viscometers and the comparisons
-    made with other independent laboratories, it is concluded that the present scale
-    is realized with an uncertainty of about 0.2% at low viscosities (5 cSt) rising
-    to about 0.5% at high viscosities (5000 cSt).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The establishment of the NPL viscosity scale using glass capillary viscometers is described and the values obtained for NPL viscometers on subsequent recalibrations over a period of some years are given. The results of comparisons with independent viscosity scales in other countries are also tabulated.</p>
+    <p>From the results obtained on recalibration of the NPL viscometers and the comparisons made with other independent laboratories, it is concluded that the present scale is realized with an uncertainty of about 0.2% at low viscosities (5 cSt) rising to about 0.5% at high viscosities (5000 cSt).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Viscosity Scale of the NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Viscosity Scale of the NPL
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +75,6 @@ extent:
     reference_from: '79'
     reference_to: '84'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

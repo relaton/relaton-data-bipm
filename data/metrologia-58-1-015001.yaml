@@ -1,121 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015001
-title:
-- content: Development of a primary measurement standard for trace moisture in Ar
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abb87a
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abb87a
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Development of a primary measurement standard for trace moisture in Ar
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abb87a
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abb87a
+docidentifier:
+- content: Metrologia 58 1 015001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abb87a
+- content: 10.1088/1681-7575/abb87a
   type: doi
 date:
 - type: published
-  value: '2020-12-17'
+  at: '2020-12-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Minami Amano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: AIST Tsukuba Central 3, Tsukuba 305-8563, Japan
         name:
         - content: National Metrology Institute of Japan (NMIJ/AIST)
-        contact:
-        - address:
-            formatted_address: AIST Tsukuba Central 3, Tsukuba 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hisashi Abe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: AIST Tsukuba Central 3, Tsukuba 305-8563, Japan
         name:
         - content: National Metrology Institute of Japan (NMIJ/AIST)
-        contact:
-        - address:
-            formatted_address: AIST Tsukuba Central 3, Tsukuba 305-8563, Japan
-  role:
-  - type: author
-revdate: '2020-12-17'
 abstract:
-- content: Abstract<p>We have developed a primary measurement standard for trace moisture
-    in Ar in the range of 10 nmol mol<sup>−1</sup> to 1 μmol mol<sup>−1</sup> in the
-    amount-of-substance fraction (mole fraction) using the previously developed multi-gas
-    trace-moisture generator. The relative expanded uncertainty (k = 2) of the primary
-    standard in Ar was between 2.7 % and 1.5 %. The performance of a moisture analyzer
-    (MA) based on cavity ring-down spectroscopy (CRDS), which is considered to be
-    the best existing device thus far for trace-moisture measurement, was tested through
-    a comparison with the primary standard in Ar. The readings of the CRDS-based MA
-    were approximately 10 % lower than the numerical values of the primary standard.
-    The relative standard deviation of the readings became approximately 15 %, which
-    was 15 times as large as that for N<sub>2</sub>. These were caused by a failure
-    in the default setting of the MA for Ar and could be improved by optimizing the
-    setting.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We have developed a primary measurement standard for trace moisture in Ar in the range of 10 nmol mol<sup>−1</sup> to 1 μmol mol<sup>−1</sup> in the amount-of-substance fraction (mole fraction) using the previously developed multi-gas trace-moisture generator. The relative expanded uncertainty (<italic toggle="yes">k</italic> = 2) of the primary standard in Ar was between 2.7 % and 1.5 %. The performance of a moisture analyzer (MA) based on cavity ring-down spectroscopy (CRDS), which is considered to be the best existing device thus far for trace-moisture measurement, was tested through a comparison with the primary standard in Ar. The readings of the CRDS-based MA were approximately 10 % lower than the numerical values of the primary standard. The relative standard deviation of the readings became approximately 15 %, which was 15 times as large as that for N<sub>2</sub>. These were caused by a failure in the default setting of the MA for Ar and could be improved by optimizing the setting.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Development of a primary measurement standard for trace moisture in
+    - script: Latn
+      content: Development of a primary measurement standard for trace moisture in
         Ar
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Development of a primary measurement standard for trace moisture in
+    - script: Latn
+      content: Development of a primary measurement standard for trace moisture in
         Ar
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-12-17'
+      at: '2020-12-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +101,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

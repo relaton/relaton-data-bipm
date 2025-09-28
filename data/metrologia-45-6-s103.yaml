@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S103
-title:
-- content: Monitoring signal integrity of atomic clocks by means of the GLRT
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S15
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S15
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S103
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monitoring signal integrity of atomic clocks by means of the GLRT
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S15
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S15
+docidentifier:
+- content: Metrologia 45 6 S103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S15
+- content: 10.1088/0026-1394/45/6/S15
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Nunzi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Università degli Studi di Perugia, Dipartimento di Ingegneria Elettronica
             e dell'Informazione, via G Duranti, 93-06125 Perugia, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Carbone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Università degli Studi di Perugia, Dipartimento di Ingegneria Elettronica
             e dell'Informazione, via G Duranti, 93-06125 Perugia, Italy
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>The generalized likelihood ratio test (GLRT) is a statistical fault
+- language: en
+  script:
+  - Latn
+  content: "<p>The generalized likelihood ratio test (GLRT) is a statistical fault
     detection method used for revealing fault occurrences in electronic systems. In
     this paper, the GLRT technique is analysed and customized for a rubidium frequency
     standard in order to reveal mean or standard deviation changes in the clock frequency.
@@ -64,60 +58,49 @@ abstract:
     also when it is applied to data acquired from a rubidium clock. Monte Carlo simulations
     are shown in order to characterize the proposed method and to give a simple interpretation
     of the obtained results. The effectiveness of the GLRT has been already compared
-    with standard tools such as the Allan variance (Nunzi E et al 2007 IEEE Trans.
-    Instrum. Meas. 56 523–8). In particular, the sensitivity of the method with respect
-    to the jump size has been analysed. In this paper, the fault detection technique
-    is characterized with respect to its readiness in terms of the number of samples
-    employed for obtaining a failure occurrence when applied to clock frequency. Results
-    obtained are employed for giving practical indications on the design of this failure
-    test.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    with standard tools such as the Allan variance (Nunzi E <italic>et al</italic>
+    2007 <italic>IEEE Trans. Instrum. Meas.</italic> <bold>56</bold> 523–8). In particular,
+    the sensitivity of the method with respect to the jump size has been analysed.
+    In this paper, the fault detection technique is characterized with respect to
+    its readiness in terms of the number of samples employed for obtaining a failure
+    occurrence when applied to clock frequency. Results obtained are employed for
+    giving practical indications on the design of this failure test.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monitoring signal integrity of atomic clocks by means of the GLRT
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Monitoring signal integrity of atomic clocks by means of the GLRT
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monitoring signal integrity of atomic clocks by means of the GLRT
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Monitoring signal integrity of atomic clocks by means of the GLRT
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +111,6 @@ extent:
     reference_from: S103
     reference_to: S107
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

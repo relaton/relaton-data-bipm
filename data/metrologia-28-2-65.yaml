@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28265
-title:
-- content: 'AT2, A New Time Scale Algorithm: AT1 Plus Frequency Variance'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 2 65
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'AT2, A New Time Scale Algorithm: AT1 Plus Frequency Variance'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/2/002
+docidentifier:
+- content: Metrologia 28 2 65
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/2/002
+- content: 10.1088/0026-1394/28/2/002
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Weiss
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Institute of Standards and
             Technology, 325 Broadway, CO 80303, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Weissert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Institute of Standards and
             Technology, 325 Broadway, CO 80303, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The existing AT1 algorithm produces a time scale with a fractional
+- language: en
+  script:
+  - Latn
+  content: "<p>The existing AT1 algorithm produces a time scale with a fractional
     frequency variation smaller than that of any clock in the ensemble. We are developing
     a modification to AT1 that includes the additional desirable features: automatic
     frequency-step detection, the option to run in an optimal post-processing mode
@@ -64,39 +58,31 @@ abstract:
     are facilitated by the inclusion of a Kalman-filter estimate of the frequency
     variance of each clock in the scale. Results are reported from both simulated
     and real clock data to demonstrate automatic frequency-step detection.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'AT2, A New Time Scale Algorithm: AT1 Plus Frequency Variance'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'AT2, A New Time Scale Algorithm: AT1 Plus Frequency Variance'
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '65'
     reference_to: '74'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia364321
-title:
-- content: 'Ultrasonic continuous wave beam-power measurements: 1978-1980 international
-    comparison'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/4/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/4/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 4 321
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Ultrasonic continuous wave beam-power measurements: 1978-1980 international
+    comparison'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/4/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/4/11
+docidentifier:
+- content: Metrologia 36 4 321
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/4/11
+- content: 10.1088/0026-1394/36/4/11
   type: doi
 date:
 - type: published
-  value: '1999-08-01'
+  at: '1999-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S E Fick
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1999-08-01'
 abstract:
-- content: "<p>Four half-wave resonant, air-backed, x-cut quartz disc transducers
+- language: en
+  script:
+  - Latn
+  content: "<p>Four half-wave resonant, air-backed, x-cut quartz disc transducers
     designed and fabricated at the National Bureau of Standards (NBS) were circulated
     among seven laboratories between February 1978 and June 1980. Participants were
     given detailed instructions, including values and tolerances for the amplitude
@@ -59,40 +55,32 @@ abstract:
     more than 60% of the data considered. For the remaining data, the newly computed
     uncertainties are considerably larger than the original values; sufficiently large
     to make the average effect an increase of more than 15%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Ultrasonic continuous wave beam-power measurements: 1978-1980 international
+    - language: en
+      script: Latn
+      content: 'Ultrasonic continuous wave beam-power measurements: 1978-1980 international
         comparison'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-08-01'
+      at: '1999-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +91,6 @@ extent:
     reference_from: '321'
     reference_to: '325'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

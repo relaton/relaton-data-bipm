@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia18249
-title:
-- content: The Refractive Index of Moist Air in the 3-μm Region
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/18/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 2 49
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Refractive Index of Moist Air in the 3-μm Region
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/2/001
+docidentifier:
+- content: Metrologia 18 2 49
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/2/001
+- content: 10.1088/0026-1394/18/2/001
   type: doi
 date:
 - type: published
-  value: '1982-04-01'
+  at: '1982-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hirokazu Matsumoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4 Umezono, Sakura-mura,
             Niihari-gun, Ibaraki 305, Japan
-  role:
-  - type: author
-revdate: '1982-04-01'
 abstract:
-- content: "<p>Using two types of combined infrared/visible interferometers, the refractive
+- language: en
+  script:
+  - Latn
+  content: "<p>Using two types of combined infrared/visible interferometers, the refractive
     index of moist air in the 3-μm region has been determined to an accuracy of 1.2
     × 10<sup>-8</sup> by utilizing the value for visible light. The refractive index
     of water vapour also has been measured using one of the interferometers. Edlén's
     formula for dry air in the visible region is verified to be valid when extrapolated
     into the 3-μm region. On the other hand, the dispersion formula for visible light
     in water vapour needs some corrections when applied to the 3-μm region.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Refractive Index of Moist Air in the 3-μm Region
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Refractive Index of Moist Air in the 3-μm Region
     date:
     - type: ppub
-      value: '1982-04-01'
+      at: '1982-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '49'
     reference_to: '52'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

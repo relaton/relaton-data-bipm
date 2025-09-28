@@ -1,184 +1,134 @@
 ---
-schema-version: v1.2.9
-id: Metrologia594045002
-title:
-- content: Errors-in-variables calibration with dark uncertainty
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac711c
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac711c
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 4 045002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Errors-in-variables calibration with dark uncertainty
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac711c
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac711c
+docidentifier:
+- content: Metrologia 59 4 045002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac711c
+- content: 10.1088/1681-7575/ac711c
   type: doi
 date:
 - type: published
-  value: '2022-06-16'
+  at: '2022-06-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christina E Cecelski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fong-Ha Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: North Ryde, New South Wales, Australia
         name:
         - content: National Measurement Institute
-        contact:
-        - address:
-            formatted_address: North Ryde, New South Wales, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Juris Meija
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
-  - type: author
-revdate: '2022-06-16'
 abstract:
-- content: Abstract<p>A model for errors-in-variables regression is described that
-    can be used to overcome the challenge posed by mutually inconsistent calibration
-    data. The model and its implementation are illustrated in applications to the
-    measurement of the amount fraction of oxygen in nitrogen from key comparison CCQM-K53,
-    and of carbon isotope delta values in steroids from human urine. These two examples
-    clearly demonstrate that inconsistencies in measurement results can be addressed
-    similarly to how laboratory effects are often invoked to deal with mutually inconsistent
-    results from interlaboratory studies involving scalar measurands. Bayesian versions
-    of errors-in-variables regression, fitted via Markov Chain Monte Carlo sampling,
-    are employed, which yield estimates of the key comparison reference function in
-    one example, and of the analysis function in the other. The fitting procedures
-    also characterize the uncertainty associated with these functions, while quantifying
-    and propagating the ‘excess’ dispersion that was unrecognized in the uncertainty
-    budgets for the individual measurements, and that therefore is missing from the
-    reported uncertainties. We regard this ‘excess’ dispersion as an expression of
-    dark uncertainty, which we take into account in the context of calibrations that
-    involve regression models. In one variant of the model the estimate of dark uncertainty
-    is the same for all the participants in the comparison, while in another variant
-    different amounts of dark uncertainty are assigned to different participants.
-    We compare these models with the conventional errors-in-variables model underlying
-    the procedure that ISO 6143 recommends for building analysis functions. Applications
-    of this procedure are often preceded by the selection of a subset of the measurement
-    results deemed to be mutually consistent, while the more discrepant ones are set
-    aside. This new model is more inclusive than the conventional model, in that it
-    easily accommodates measurement results that are mutually inconsistent. It produces
-    results that take into account contributions from all apparent sources of uncertainty,
-    regardless of whether these sources are already understood and their contributions
-    have been included in the reported uncertainties, or still require investigation
-    after they will have been detected and quantified.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A model for errors-in-variables regression is described that can be used to overcome the challenge posed by mutually inconsistent calibration data. The model and its implementation are illustrated in applications to the measurement of the amount fraction of oxygen in nitrogen from key comparison CCQM-K53, and of carbon isotope delta values in steroids from human urine. These two examples clearly demonstrate that inconsistencies in measurement results can be addressed similarly to how laboratory effects are often invoked to deal with mutually inconsistent results from interlaboratory studies involving scalar measurands. Bayesian versions of errors-in-variables regression, fitted via Markov Chain Monte Carlo sampling, are employed, which yield estimates of the key comparison reference function in one example, and of the analysis function in the other. The fitting procedures also characterize the uncertainty associated with these functions, while quantifying and propagating the ‘excess’ dispersion that was unrecognized in the uncertainty budgets for the individual measurements, and that therefore is missing from the reported uncertainties. We regard this ‘excess’ dispersion as an expression of <italic toggle="yes">dark uncertainty</italic>, which we take into account in the context of calibrations that involve regression models. In one variant of the model the estimate of dark uncertainty is the same for all the participants in the comparison, while in another variant different amounts of dark uncertainty are assigned to different participants. We compare these models with the conventional errors-in-variables model underlying the procedure that ISO 6143 recommends for building analysis functions. Applications of this procedure are often preceded by the selection of a subset of the measurement results deemed to be mutually consistent, while the more discrepant ones are set aside. This new model is more inclusive than the conventional model, in that it easily accommodates measurement results that are mutually inconsistent. It produces results that take into account contributions from all apparent sources of uncertainty, regardless of whether these sources are already understood and their contributions have been included in the reported uncertainties, or still require investigation after they will have been detected and quantified.</p>
 copyright:
-- owner:
-  - name:
-    - content: Commonwealth of Australia
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Commonwealth of Australia
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Errors-in-variables calibration with dark uncertainty
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Errors-in-variables calibration with dark uncertainty
     date:
     - type: ppub
-      value: '2022-08-01'
+      at: '2022-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Errors-in-variables calibration with dark uncertainty
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Errors-in-variables calibration with dark uncertainty
     date:
     - type: epub
-      value: '2022-06-16'
+      at: '2022-06-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -186,6 +136,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

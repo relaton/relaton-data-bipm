@@ -3,13 +3,12 @@ id: CIPM 2005-06 V4
 fetched: "2020-09-10"
 
 title:
-  content: THE CIPM MRA:2005 INTERPRETATION DOCUMENT
+- content: THE CIPM MRA:2005 INTERPRETATION DOCUMENT
 
 type: standard
-doctype: brochure
 
-docid:
-- id: CIPM 2005-06 # V4 # not supported
+docidentifier:
+- content: CIPM 2005-06 # V4 # not supported
   type: BIPM
   primary: true
 
@@ -20,57 +19,61 @@ edition:
 language:
   - en
 
-script: Latn
+script:
+  - Latn
 
 version:
-  revision_date: "2018-08"
+- revision_date: "2018-08-01"
   draft: draft
 
-biblionote:
+note:
   - content: note
   - content: An note
     type: annote
 
-docstatus:
+status:
   stage:
-    value: in-force
+    content: in-force
 
 date:
   - type: issued
-    value: "2005-10"
+    at: "2005-10"
 
 abstract:
   - content: This document is based on a report, originally submitted to and agreed by, the CIPM in October 2004. It clarifies and interprets those original clauses in the CIPM MRA which require updating or interpreting in the light of experience and of developments since the CIPM MRA was originally signed. It does not replace the original CIPM MRA and should be read in conjunction with it. Page references are to the English version.
     language: en
     script: Latn
-    format: text/plain
 
 contributor:
   - organization:
       name:
-        content: International Organization for Standardization
-      url: www.iso.org
+      - content: International Organization for Standardization
+      uri:
+      - content: www.iso.org
       abbreviation:
         content: ISO
       subdivision:
-      - content: division
+      - name:
+          - content: division
     role:
-      type: publisher
+    - type: publisher
       description:
-        content: Publisher role
+      - content: Publisher role
   - person:
       name:
         completename:
           content: A. Bierman
           language: en
       affiliation:
-        organization:
-          name: IETF
-          abbreviation: IETF
+      - organization:
+          name:
+          - content: IETF
+          abbreviation:
+            content: IETF
           identifier:
-            type: uri
-            id: www.ietf.org
-      contact:
+          - type: uri
+            content: www.ietf.org
+      address:
         - street:
           - Street
           city: City
@@ -79,18 +82,23 @@ contributor:
           state: State
         - type: phone
           value: "223322"
-    role: author
+    role:
+    - type: author
   - organization:
-      name: IETF
-      abbreviation: IETF
+      name:
+      - content: IETF
+      abbreviation:
+        content: IETF
       identifier:
-        type: uri
-        id: www.ietf.org
+      - type: uri
+        content: www.ietf.org
     role:
       - type: publisher
-        description: Publisher description
+        description:
+        - content: Publisher description
       - type: editor
-        description: Editor description
+        description:
+        - content: Editor description
   - person:
       name:
         initial:
@@ -109,12 +117,14 @@ contributor:
           content: Prefix
           language: en
       affiliation:
-        organization:
-          name: IETF
-          abbreviation: IETF
-        description:
-          content: Description
+      - description:
+        - content: Description
           language: en
+        organization:
+          name:
+          - content: IETF
+          abbreviation:
+            content: IETF
       contact:
         - street:
           - Street
@@ -126,49 +136,49 @@ contributor:
           value: "223322"
       identifier:
         type: uri
-        id: www.person.com
-    role: author
-  - organization:
-      name: Institution
+        content: www.person.com
     role:
-      type: distributor
-      description: sponsor
+    - type: author
+  - organization:
+      name:
+      - content: Institution
+    role:
+    - type: distributor
+      description:
+      - content: sponsor
 
 copyright:
-  owner:
-    name:
-      content: International Organization for Standardization
-    abbreviation:
-      content: ISO
-    url: www.iso.org
+- owner:
+  - organization:
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
+      uri:
+      - content: www.iso.org
   from: "2014"
   to: "2020"
   scope: Scope
 
-link:
-  type: obp
+source:
+- type: obp
   content: https://www.bipm.org/utils/common/documents/CIPM-MRA/CIPM-MRA-Interpretation-Document.pdf
 
 relation:
   - type: supersedes
     bibitem:
-      formattedref:
-        content: ISO 19115:2003
-        format: text/plain
-    locality:
-      - locality_stack:
-        - locality:
-            type: section
-            reference_from: Reference from
-      - locality_stack:
-        - locality:
-            type: chapter
-            reference_from: "1"
-        - locality:
-            type: page
-            reference_from: "2"
-    source_locality:
-      source_locality_stack:
+      formattedref: ISO 19115:2003
+    locality_stack:
+    - locality:
+      - type: section
+        reference_from: Reference from
+    - locality:
+      - type: chapter
+        reference_from: "1"
+      - type: page
+        reference_from: "2"
+    source_locality_stack:
+    - source_locality:
         - type: volume
           reference_from: "2"
         - type: chapter
@@ -184,12 +194,12 @@ relation:
 series:
   - type: main
     title:
-      type: original
+    - type: original
       content: ISO/IEC FDIS 10118-3
       language: en
       script: Latn
-      format: text/plain
-    place: Serie's place
+    place:
+      formatted_place: Serie's place
     organization: Serie's organization
     abbreviation:
       content: ABVR
@@ -198,23 +208,20 @@ series:
     number: serie1234
     partnumber: part5678
   - type: alt
-    title: ''
-    formattedref:
-      content: serieref
-      language: en
-      script: Latn
+    title:
+    - content: ''
+    formattedref: serieref
   - type: alt
     title:
-      content: Journal
+    - content: Journal
     number: "7"
   - title:
-      content:
-        - content: Series
-          language: en
-          script: Latn
-        - content: Séries
-          language: fr
-          script: Latn
+      - content: Series
+        language: en
+        script: Latn
+      - content: Séries
+        language: fr
+        script: Latn
 
 medium:
   form: medium form
@@ -222,11 +229,11 @@ medium:
   scale: medium scale
 
 place:
-  - bib place
-  - name: Geneva
+  - formatted_place: bib place
+  - city: Geneva
     # uri: geneva.place # not supported yet
     region:
-      - Switzelznd
+      - content: Switzelznd
 
 extent:
   - locality:
@@ -250,48 +257,24 @@ accesslocation:
 
 classification:
   - type: type
-    value: value
+    content: value
   - type: keyword
-    value: Keywords
+    content: Keywords
   - type: mendeley
-    value: Mendeley Tags
+    content: Mendeley Tags
 
 keyword:
-  - content: Keyword
-  - content: Key Word
+  - taxon:
+    - content: Keyword
+  - taxon:
+    - content: Key Word
 
 license: License
 
 validity:
-  begins: "2010-10-10 12:21"
-  ends: "2011-02-03 18:30"
-  revision: "2011-03-04 09:00"
-
-# editorialgroup: # not valid, should have a committee and workgroup
-#   content: Editorial group
-#   number: 1
-#   type: Type
-
-ics:
-  code: "01"
-  text: First
-
-structuredidentifier: # some fields are not supported
-  # - type: type 1
-    # agency:
-    #   - agency 1
-    #   - agency 2
-    # class: class 1
-    docnumber: "123"
-    part: "4"
-    # edition: "1"
-    # version: "2"
-    # supplementtype: type 2
-    # supplementnumber: "5"
-    # language: en
-    # year: "2020"
-  # - agency: agency 3
-  #   docnumber: "456"
+  begins: "2010-10-10"
+  ends: "2011-02-03"
+  revision: "2011-03-04"
 
 # project_group: # don't have a project_group anymore
 #   - committee: cgpm
@@ -304,6 +287,38 @@ structuredidentifier: # some fields are not supported
 #     workgroup:
 #       content: International Committee for Weights and Measures
 
-comment_period:
-  from: '2011-01-01'
-  to: '2011-12-31'
+ext:
+  doctype:
+    content: brochure
+
+  flavor: bipm
+
+  # editorialgroup: # not valid, should have a committee and workgroup
+  #   content: Editorial group
+  #   number: 1
+  #   type: Type
+
+  comment_period:
+    from: '2011-01-01'
+    to: '2011-12-31'
+
+  ics:
+    code: "01"
+    text: First
+
+  structuredidentifier: # some fields are not supported
+    # - type: type 1
+      # agency:
+      #   - agency 1
+      #   - agency 2
+      # class: class 1
+      docnumber: "123"
+      part: "4"
+      # edition: "1"
+      # version: "2"
+      # supplementtype: type 2
+      # supplementnumber: "5"
+      # language: en
+      # year: "2020"
+    # - agency: agency 3
+    #   docnumber: "456"

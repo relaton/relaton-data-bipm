@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366607
-title:
-- content: Spinning-rotor vacuum gauge with electrostatic suspension
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/24
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/24
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 607
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spinning-rotor vacuum gauge with electrostatic suspension
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/24
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/24
+docidentifier:
+- content: Metrologia 36 6 607
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/24
+- content: 10.1088/0026-1394/36/6/24
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D C Witt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Oxford Univ.
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>Progress on the development of an electrostatically suspended spinning-rotor
+- language: en
+  script:
+  - Latn
+  content: "<p>Progress on the development of an electrostatically suspended spinning-rotor
     vacuum gauge is described. The objective is to create a transfer standard capable
     of making consistent measurements down to 10 µPa (10<sup>-7</sup> mbar), and lower
     if possible. The slowing down of the rotor due to gas pressures of this magnitude
@@ -49,39 +45,31 @@ abstract:
     for reasons other than impact with gas molecules. It is necessary to ensure that
     these effects are as small as possible and stable with time. One approach is to
     arrange for some of the effects to cancel one other out.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spinning-rotor vacuum gauge with electrostatic suspension
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spinning-rotor vacuum gauge with electrostatic suspension
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '607'
     reference_to: '612'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

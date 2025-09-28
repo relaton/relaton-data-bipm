@@ -1,170 +1,143 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S40
-title:
-- content: Estimation and uncertainty analysis of dose response in an inter-laboratory
-    experiment
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S40
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S40
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S40
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Estimation and uncertainty analysis of dose response in an inter-laboratory
+    experiment
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S40
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S40
+docidentifier:
+- content: Metrologia 53 1 S40
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S40
+- content: 10.1088/0026-1394/53/1/S40
   type: doi
 date:
 - type: published
-  value: '2016-01-25'
+  at: '2016-01-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: US Department of Commerce
         subdivision:
-        - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: National Institute of Standards and Technology
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Matthias Rösslein
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: St. Gallen, Switzerland
         name:
         - content: Swiss Federal Laboratories for Material Science and Technology
-        contact:
-        - address:
-            formatted_address: St. Gallen, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John T Elliott
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: US Department of Commerce
         subdivision:
-        - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: National Institute of Standards and Technology
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Elijah J Petersen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: US Department of Commerce
         subdivision:
-        - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2016-01-25'
+        - name:
+          - language: en
+            script: Latn
+            content: National Institute of Standards and Technology
 abstract:
-- content: Abstract<p>An inter-laboratory experiment for the evaluation of toxic effects
-    of NH<sub>2</sub>-polystyrene nanoparticles on living human cancer cells was performed
-    with five participating laboratories. Previously published results from nanocytoxicity
-    assays are often contradictory, mostly due to challenges related to producing
-    a reliable cytotoxicity assay protocol for use with nanomaterials. Specific challenges
-    include reproducibility preparing nanoparticle dispersions, biological variability
-    from testing living cell lines, and the potential for nano-related interference
-    effects. In this experiment, such challenges were addressed by developing a detailed
-    experimental protocol and using a specially designed 96-well plate layout which
-    incorporated a range of control measurements to assess multiple factors such as
-    nanomaterial interference, pipetting accuracy, cell seeding density, and instrument
-    performance. Detailed data analysis of these control measurements showed that
-    good control of the experiments was attained by all participants in most cases.
-    The main measurement objective of the study was the estimation of a dose response
-    relationship between concentration of the nanoparticles and metabolic activity
-    of the living cells, under several experimental conditions. The dose curve estimation
-    was achieved by imbedding a three parameter logistic curve in a three level Bayesian
-    hierarchical model, accounting for uncertainty due to all known experimental conditions
-    as well as between laboratory variability in a top-down manner. Computation was
-    performed using Markov Chain Monte Carlo methods. The fit of the model was evaluated
-    using Bayesian posterior predictive probabilities and found to be satisfactory.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>An inter-laboratory experiment for the evaluation of toxic effects of NH<sub>2</sub>-polystyrene nanoparticles on living human cancer cells was performed with five participating laboratories. Previously published results from nanocytoxicity assays are often contradictory, mostly due to challenges related to producing a reliable cytotoxicity assay protocol for use with nanomaterials. Specific challenges include reproducibility preparing nanoparticle dispersions, biological variability from testing living cell lines, and the potential for nano-related interference effects. In this experiment, such challenges were addressed by developing a detailed experimental protocol and using a specially designed 96-well plate layout which incorporated a range of control measurements to assess multiple factors such as nanomaterial interference, pipetting accuracy, cell seeding density, and instrument performance. Detailed data analysis of these control measurements showed that good control of the experiments was attained by all participants in most cases. The main measurement objective of the study was the estimation of a dose response relationship between concentration of the nanoparticles and metabolic activity of the living cells, under several experimental conditions. The dose curve estimation was achieved by imbedding a three parameter logistic curve in a three level Bayesian hierarchical model, accounting for uncertainty due to all known experimental conditions as well as between laboratory variability in a top-down manner. Computation was performed using Markov Chain Monte Carlo methods. The fit of the model was evaluated using Bayesian posterior predictive probabilities and found to be satisfactory.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimation and uncertainty analysis of dose response in an inter-laboratory
+    - script: Latn
+      content: Estimation and uncertainty analysis of dose response in an inter-laboratory
         experiment
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimation and uncertainty analysis of dose response in an inter-laboratory
+    - script: Latn
+      content: Estimation and uncertainty analysis of dose response in an inter-laboratory
         experiment
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-01-25'
+      at: '2016-01-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -175,6 +148,6 @@ extent:
     reference_from: S40
     reference_to: S45
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6369
-title:
-- content: 'The Realisation of the Normal Boiling Point of Neon. I: The Cryostat'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 3 69
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Realisation of the Normal Boiling Point of Neon. I: The Cryostat'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/3/001
+docidentifier:
+- content: Metrologia 6 3 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/3/001
+- content: 10.1088/0026-1394/6/3/001
   type: doi
 date:
 - type: published
-  value: '1970-08-01'
+  at: '1970-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Compton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1970-08-01'
 abstract:
-- content: "<p>The realisation of the normal boiling point of neon is an essential
+- language: en
+  script:
+  - Latn
+  content: "<p>The realisation of the normal boiling point of neon is an essential
     step in implementing the International Practical Temperature Scale of 1968. A
     cryostat designed for this purpose is described, and the results given of detailed
     investigations into the stability and uniformity of temperature achieved. Preliminary
@@ -49,39 +45,31 @@ abstract:
     in the cryostat should permit a repeatability of ± 10<sup>-4</sup> K, while the
     resistance measurement will not introduce an absolute error greater than 2 × 10<sup>-4</sup>
     K.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Realisation of the Normal Boiling Point of Neon. I: The Cryostat'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The Realisation of the Normal Boiling Point of Neon. I: The Cryostat'
     date:
     - type: ppub
-      value: '1970-08-01'
+      at: '1970-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '69'
     reference_to: '74'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

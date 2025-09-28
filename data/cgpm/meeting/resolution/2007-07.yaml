@@ -1,117 +1,95 @@
 ---
-schema-version: v1.2.9
 id: CGPM-RES-2007-07
+type: proceedings
+schema_version: v1.4.1
 title:
-- content: On the importance of promoting the work carried out under the Metre Convention
+- language: en
+  script: Latn
+  content: On the importance of promoting the work carried out under the Metre Convention
     to encourage more States to accede to the Metre Convention or become Associates
     of the General Conference
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Sur l'importance de promouvoir les activit&eacute;s men&eacute;es sous
+- language: fr
+  script: Latn
+  content: Sur l'importance de promouvoir les activit&eacute;s men&eacute;es sous
     les auspices de la Convention du M&egrave;tre afin d'encourager davantage d'États
     &agrave; adh&eacute;rer &agrave; la Convention du M&egrave;tre ou &agrave; devenir
     Associ&eacute;s &agrave; la Conf&eacute;rence g&eacute;n&eacute;rale
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cg/cgpm/23-2007/resolution-7
+source:
+- language: en
+  script: Latn
   type: citation
-  language: en
+  content: https://www.bipm.org/en/committees/cg/cgpm/23-2007/resolution-7
+- language: fr
   script: Latn
-- content: https://www.bipm.org/fr/committees/cg/cgpm/23-2007/resolution-7
   type: citation
-  language: fr
+  content: https://www.bipm.org/fr/committees/cg/cgpm/23-2007/resolution-7
+- language: en
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-23.yml
   type: src
-  language: en
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-23.yml
+- language: fr
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-23.yml
   type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17314988/CGPM23.pdf/d26fa125-1cfe-51d5-5492-1d6c5cfcbefc
-  type: pdf
-type: proceedings
-docid:
-- id: CGPM RES 7 (2007)
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-23.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17314988/CGPM23.pdf/d26fa125-1cfe-51d5-5492-1d6c5cfcbefc
+docidentifier:
+- content: CGPM RES 7 (2007)
   type: BIPM
   primary: true
-- id: CGPM RES 7 (2007, E)
+- language: en
+  script: Latn
+  content: CGPM RES 7 (2007, E)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CGPM RES 7 (2007, F)
+  content: CGPM RES 7 (2007, F)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CGPM Resolution 7 (2007)
+  content: CGPM Resolution 7 (2007)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Résolution 7 de la CGPM (2007)
+  content: Résolution 7 de la CGPM (2007)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CGPM Resolution 7 (2007) / Résolution 7 de la CGPM (2007)
+- content: CGPM Resolution 7 (2007) / Résolution 7 de la CGPM (2007)
   type: BIPM-long
 docnumber: CGPM RES 7 (2007)
 date:
 - type: published
-  value: '2007-11-16'
+  at: '2007-11-16'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2007-11-16'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -120,8 +98,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: resolution
+    content: resolution
   structuredidentifier:
     docnumber: '7'

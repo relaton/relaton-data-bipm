@@ -1,180 +1,142 @@
 ---
-schema-version: v1.2.9
-id: Metrologia595055005
-title:
-- content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
-    up to 20 kHz
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac8485
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac8485
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 5 055005
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
+    up to 20 kHz
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac8485
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac8485
+docidentifier:
+- content: Metrologia 59 5 055005
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac8485
+- content: 10.1088/1681-7575/ac8485
   type: doi
 date:
 - type: published
-  value: '2022-09-14'
+  at: '2022-09-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mohamed Ouameur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Paris, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Renata Vasconcellos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Paris, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mohamed Agazar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Paris, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olivier Thévenot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Paris, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Emmanuel Patois
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Paris, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: Paris, France
-  role:
-  - type: author
-revdate: '2022-09-14'
 abstract:
-- content: Abstract<p>This paper presents the evolution of LNE’s impedance bridge
-    (Wheatstone bridge) used to calibrate AC resistors defined in the two terminal-pair
-    configuration. A new automated Wheatstone bridge, based on four resistances, was
-    developed to operate in the full complex plane for resistances ranging from 400 Ω
-    to 2 MΩ and for frequencies up to 20 kHz. A commercial dual precision arbitrary
-    waveform generator supplies the bridge and PXI modules achieve the balance. Phase
-    and frequency synchronization solutions between the arbitrary waveform generator
-    source and the PXI modules were used. The choice of these instruments allows the
-    bridge to be easily automated and to benefit from recent progress in the development
-    of digital-analog converters, in particular those with high frequency sampling
-    rates and resolution. The bridge is mainly dedicated to realize the periodic calibration
-    of LNE’s standard resistors, used for routine customer calibrations. The traceability
-    of LNE’s standard resistors is ensured, firstly, by the calibration of a 1 kΩ
-    resistor by comparison to a calculable resistor up to 20 kHz. Then, this resistor
-    is used as a reference element to ensure the traceability of all LNE’s standard
-    resistors using the new bridge. The validation was done by comparing the results
-    obtained, for some resistors with very low drift, with those obtained during calibrations
-    performed in 1983, 1995 and 2009. For resistors of 1 kΩ in a 1:1 ratio, the expanded
-    uncertainty of series resistance variation and argument are, respectively, less
-    than 1.3 µΩ Ω<sup>−1</sup> (k = 1) and 1.2 µrad (k = 1), up to 20 kHz.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper presents the evolution of LNE’s impedance bridge (Wheatstone bridge) used to calibrate AC resistors defined in the two terminal-pair configuration. A new automated Wheatstone bridge, based on four resistances, was developed to operate in the full complex plane for resistances ranging from 400 Ω to 2 MΩ and for frequencies up to 20 kHz. A commercial dual precision arbitrary waveform generator supplies the bridge and PXI modules achieve the balance. Phase and frequency synchronization solutions between the arbitrary waveform generator source and the PXI modules were used. The choice of these instruments allows the bridge to be easily automated and to benefit from recent progress in the development of digital-analog converters, in particular those with high frequency sampling rates and resolution. The bridge is mainly dedicated to realize the periodic calibration of LNE’s standard resistors, used for routine customer calibrations. The traceability of LNE’s standard resistors is ensured, firstly, by the calibration of a 1 kΩ resistor by comparison to a calculable resistor up to 20 kHz. Then, this resistor is used as a reference element to ensure the traceability of all LNE’s standard resistors using the new bridge. The validation was done by comparing the results obtained, for some resistors with very low drift, with those obtained during calibrations performed in 1983, 1995 and 2009. For resistors of 1 kΩ in a 1:1 ratio, the expanded uncertainty of series resistance variation and argument are, respectively, less than 1.3 µΩ Ω<sup>−1</sup> (<italic toggle="yes">k</italic> = 1) and 1.2 µrad (<italic toggle="yes">k</italic> = 1), up to 20 kHz.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
+    - script: Latn
+      content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
         up to 20 kHz
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-10-01'
+      at: '2022-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
+    - script: Latn
+      content: New impedance bridge at LNE for the two terminal-pair AC resistor calibration
         up to 20 kHz
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-09-14'
+      at: '2022-09-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -182,6 +144,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

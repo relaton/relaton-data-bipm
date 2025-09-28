@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia35267
-title:
-- content: New method for interferometric measurement of gauge blocks without wringing
-    onto a platen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/2/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/2/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 2 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New method for interferometric measurement of gauge blocks without wringing
+    onto a platen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/2/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/2/1
+docidentifier:
+- content: Metrologia 35 2 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/2/1
+- content: 10.1088/0026-1394/35/2/1
   type: doi
 date:
 - type: published
-  value: '1998-04-01'
+  at: '1998-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Ishii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Japan Quality Assurance org.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Seino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Japan Quality Assurance org.
-  role:
-  - type: author
-revdate: '1998-04-01'
 abstract:
-- content: "<p>A new method, using a novel double-ended interferometer, is described
+- language: en
+  script:
+  - Latn
+  content: "<p>A new method, using a novel double-ended interferometer, is described
     for the highly efficient calibration of gauge blocks. Unlike the conventional
     Kösters interferometric method, the new method does not require wringing of the
     gauge block onto an auxiliary platen. Although the gauge block length defined
@@ -70,40 +64,32 @@ abstract:
     from experimental work and theoretical analysis, show that the combined standard
     uncertainty of a gauge block length up to 100 mm is less than 16 nm, and this
     value is nearly the same as that obtained by the conventional Kösters method.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New method for interferometric measurement of gauge blocks without
+    - language: en
+      script: Latn
+      content: New method for interferometric measurement of gauge blocks without
         wringing onto a platen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-04-01'
+      at: '1998-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '67'
     reference_to: '73'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

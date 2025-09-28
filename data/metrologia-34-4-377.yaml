@@ -1,59 +1,51 @@
 ---
-schema-version: v1.2.9
-id: Metrologia344377
-title:
-- content: ICRM'99 Conference on Radionuclide Metrology and its Application, 7-11
-    June 1999
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/34/4/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/4/13
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 4 377
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ICRM'99 Conference on Radionuclide Metrology and its Application, 7-11
+    June 1999
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/4/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/4/13
+docidentifier:
+- content: Metrologia 34 4 377
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/4/13
+- content: 10.1088/0026-1394/34/4/13
   type: doi
 date:
 - type: published
-  value: '1997-08-01'
-revdate: '1997-08-01'
+  at: '1997-08-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: ICRM'99 Conference on Radionuclide Metrology and its Application, 7-11
+    - language: en
+      script: Latn
+      content: ICRM'99 Conference on Radionuclide Metrology and its Application, 7-11
         June 1999
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1997-08-01'
+      at: '1997-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -64,6 +56,6 @@ extent:
     reference_from: '377'
     reference_to: '377'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

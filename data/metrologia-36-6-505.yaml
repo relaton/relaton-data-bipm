@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366505
-title:
-- content: The MM1 laser interferometer low-range mercury manometer of the IMGC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 505
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The MM1 laser interferometer low-range mercury manometer of the IMGC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/4
+docidentifier:
+- content: Metrologia 36 6 505
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/4
+- content: 10.1088/0026-1394/36/6/4
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Alasia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Capelli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Cignolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Goria
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Sardi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: <p>A compact version, designated MM1, of the HG5 primary standard manometer
+- language: en
+  script:
+  - Latn
+  content: <p>A compact version, designated MM1, of the HG5 primary standard manometer
     of the Istituto di Metrologia "G. Colonnetti" (IMGC) is described. The instrument
     was constructed in order to exploit thoroughly, in the range of pressures up to
     5 kPa, the potential accuracy of the measurement principle and instrumentation
@@ -113,39 +101,31 @@ abstract:
     ensures an improved mechanical stability. The paper includes the uncertainty budget,
     with evaluated standard uncertainties ranging between 12 mPa at 1 Pa and 53 mPa
     at 5 kPa, in the relative or gauge measurement mode.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The MM1 laser interferometer low-range mercury manometer of the IMGC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The MM1 laser interferometer low-range mercury manometer of the IMGC
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +136,6 @@ extent:
     reference_from: '505'
     reference_to: '509'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

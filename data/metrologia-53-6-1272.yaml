@@ -1,102 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361272
-title:
-- content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
-    examining closed loops in a graph theory framework'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1272
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1272
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1272
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
+    examining closed loops in a graph theory framework'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1272
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1272
+docidentifier:
+- content: Metrologia 53 6 1272
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1272
+- content: 10.1088/0026-1394/53/6/1272
   type: doi
 date:
 - type: published
-  value: '2016-10-19'
+  at: '2016-10-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Robertsson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: SEVRES, France
         name:
         - content: BIPM
-        contact:
-        - address:
-            formatted_address: SEVRES, France
-  role:
-  - type: author
-revdate: '2016-10-19'
 abstract:
-- content: Abstract<p>A simple method is proposed for the evaluation of comparative
-    measurements when closed measurement loops are present in the data. Using a graph
-    theory representation of the data a basis for the residual subspace is readily
-    identified that together with loop closure values provide the input to a matrix
-    equation of the same rank as the number of independent loops in the graph. As
-    an example, ultra-high-precision frequency ratio measurements including optical
-    standards are considered and small corrections to the experimental data are derived,
-    yielding a list of consistent frequency ratios for work on precision frequency
-    standards and discussions relating to a possible future redefinition of the SI
-    second.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A simple method is proposed for the evaluation of comparative measurements when closed measurement loops are present in the data. Using a graph theory representation of the data a basis for the residual subspace is readily identified that together with loop closure values provide the input to a matrix equation of the same rank as the number of independent loops in the graph. As an example, ultra-high-precision frequency ratio measurements including optical standards are considered and small corrections to the experimental data are derived, yielding a list of consistent frequency ratios for work on precision frequency standards and discussions relating to a possible future redefinition of the SI second.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
+    - script: Latn
+      content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
         examining closed loops in a graph theory framework'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
+    - script: Latn
+      content: 'On the evaluation of ultra-high-precision frequency ratio measurements:
         examining closed loops in a graph theory framework'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-10-19'
+      at: '2016-10-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +91,6 @@ extent:
     reference_from: '1272'
     reference_to: '1280'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

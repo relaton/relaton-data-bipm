@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465569
-title:
-- content: Linear invariant estimation of clock phase and trend from noisy phase data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/022
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/022
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 569
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Linear invariant estimation of clock phase and trend from noisy phase data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/022
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/022
+docidentifier:
+- content: Metrologia 46 5 569
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/022
+- content: 10.1088/0026-1394/46/5/022
   type: doi
 date:
 - type: published
-  value: '2009-09-17'
+  at: '2009-09-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Charles A Greenhall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Jet Propulsion Laboratory, California Institute of Technology,
             4800 Oak Grove Dr., MS 298, Pasadena, CA 91109 USA
-  role:
-  - type: author
-revdate: '2009-09-17'
 abstract:
-- content: "<p>We show how to solve two problems of optimal linear estimation from
-    a set of noisy measurements of clock phase. The phase is modelled as a process
-    with stationary dth increments, e.g. a sum of processes with power-law spectra.
-    The additive measurement noise can be any mean-zero process with a known autocovariance
-    function. The estimation targets are the phase at a given time and the coefficient
-    of the overall trend, e.g. the frequency drift. A feasibility condition called
-    ‘invariance’ is imposed according to the target and the degree of non-stationarity
-    of the phase model. The solution of a set of linear equations gives the regression
-    coefficients and the mean squared error of the best linear invariant estimate.
-    Proofs of these results are available from the online version of this journal.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>We show how to solve two problems of optimal linear estimation from
+    a set of noisy measurements of clock phase. The phase is modelled as a process
+    with stationary <italic>d</italic>th increments, e.g. a sum of processes with
+    power-law spectra. The additive measurement noise can be any mean-zero process
+    with a known autocovariance function. The estimation targets are the phase at
+    a given time and the coefficient of the overall trend, e.g. the frequency drift.
+    A feasibility condition called ‘invariance’ is imposed according to the target
+    and the degree of non-stationarity of the phase model. The solution of a set of
+    linear equations gives the regression coefficients and the mean squared error
+    of the best linear invariant estimate. Proofs of these results are available from
+    the online version of this journal.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linear invariant estimation of clock phase and trend from noisy phase
+    - language: en
+      script: Latn
+      content: Linear invariant estimation of clock phase and trend from noisy phase
         data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-09-17'
+      at: '2009-09-17'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linear invariant estimation of clock phase and trend from noisy phase
+    - language: en
+      script: Latn
+      content: Linear invariant estimation of clock phase and trend from noisy phase
         data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '569'
     reference_to: '577'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

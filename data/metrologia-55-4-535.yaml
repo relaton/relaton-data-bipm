@@ -1,141 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia554535
-title:
-- content: Wavefront errors in a two-beam interferometer
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aacae6
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aacae6
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 4 535
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Wavefront errors in a two-beam interferometer
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aacae6
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aacae6
+docidentifier:
+- content: Metrologia 55 4 535
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aacae6
+- content: 10.1088/1681-7575/aacae6
   type: doi
 date:
 - type: published
-  value: '2018-06-28'
+  at: '2018-06-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Massa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C P Sasso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2018-06-28'
 abstract:
-- content: Abstract<p>This paper deals with the impact of wavefront errors, due to
-    the optical aberrations of a two-beam interferometer, on the period of the travelling
-    fringe observed by integrating the interference pattern. A Monte Carlo simulation
-    of the interferometer operation showed that the fringe-period estimate is unbiased
-    if evaluated on the basis of the angular spectrum of the beam entering the interferometer,
-    but the wavefront errors increase the uncertainty.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper deals with the impact of wavefront errors, due to the optical aberrations of a two-beam interferometer, on the period of the travelling fringe observed by integrating the interference pattern. A Monte Carlo simulation of the interferometer operation showed that the fringe-period estimate is unbiased if evaluated on the basis of the angular spectrum of the beam entering the interferometer, but the wavefront errors increase the uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wavefront errors in a two-beam interferometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wavefront errors in a two-beam interferometer
     date:
     - type: ppub
-      value: '2018-08-01'
+      at: '2018-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wavefront errors in a two-beam interferometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wavefront errors in a two-beam interferometer
     date:
     - type: epub
-      value: '2018-06-28'
+      at: '2018-06-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wavefront errors in a two-beam interferometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wavefront errors in a two-beam interferometer
     date:
     - type: open-access
-      value: '2018-06-28'
+      at: '2018-06-28'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -146,6 +126,6 @@ extent:
     reference_from: '535'
     reference_to: '540'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

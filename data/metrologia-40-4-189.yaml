@@ -1,136 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404189
-title:
-- content: Proposal for linking the results of CIPM and RMO key comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/308
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/308
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 189
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Proposal for linking the results of CIPM and RMO key comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/308
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/308
+docidentifier:
+- content: Metrologia 40 4 189
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/308
+- content: 10.1088/0026-1394/40/4/308
   type: doi
 date:
 - type: published
-  value: '2003-06-25'
+  at: '2003-06-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt Berlin, Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alfred Link
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt Berlin, Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wolfgang Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt Braunschweig, Bundesallee
             100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2003-06-25'
 abstract:
-- content: "<p>A procedure for linking the results of a Regional Metrology Organisation
-    (RMO) key comparison to those of a related Comité International des Poids et Mesures
-    (CIPM) key comparison is proposed. The RMO results are linked to the CIPM results
-    by a factor which is determined as the ratio of the CIPM key comparison reference
-    value and the weighted mean of the RMO results of the linking laboratories. Correlations
-    of the results of the linking laboratories in the two comparisons are taken into
-    account. The uncertainties associated with the linked RMO results and the degrees
-    of equivalence (DOEs) are explicitly given.</p><p>The influence of correlations
-    of the results of the linking laboratories in both comparisons is examined. It
-    is shown that these correlations can decrease the linking uncertainty, whereas
-    DOEs are expected to be influenced less.</p><p>The proposed linking procedure
-    is illustrated by its application to linking the results of a recent CIPM key
-    comparison on accelerometer calibrations to that of a corresponding RMO key comparison.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A procedure for linking the results of a Regional Metrology Organisation (RMO) key comparison to those of a related Comité International des Poids et Mesures (CIPM) key comparison is proposed. The RMO results are linked to the CIPM results by a factor which is determined as the ratio of the CIPM key comparison reference value and the weighted mean of the RMO results of the linking laboratories. Correlations of the results of the linking laboratories in the two comparisons are taken into account. The uncertainties associated with the linked RMO results and the degrees of equivalence (DOEs) are explicitly given.</p>
+    <p>The influence of correlations of the results of the linking laboratories in both comparisons is examined. It is shown that these correlations can decrease the linking uncertainty, whereas DOEs are expected to be influenced less.</p>
+    <p>The proposed linking procedure is illustrated by its application to linking the results of a recent CIPM key comparison on accelerometer calibrations to that of a corresponding RMO key comparison.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposal for linking the results of CIPM and RMO key comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Proposal for linking the results of CIPM and RMO key comparisons
     date:
     - type: epub
-      value: '2003-06-25'
+      at: '2003-06-25'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposal for linking the results of CIPM and RMO key comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Proposal for linking the results of CIPM and RMO key comparisons
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +113,6 @@ extent:
     reference_from: '189'
     reference_to: '194'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

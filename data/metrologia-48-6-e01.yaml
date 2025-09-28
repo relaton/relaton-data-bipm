@@ -1,183 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486E01
-title:
-- content: Neutron metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/E01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/E01
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 E01
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Neutron metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/E01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/E01
+docidentifier:
+- content: Metrologia 48 6 E01
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/E01
+- content: 10.1088/0026-1394/48/6/E01
   type: doi
 date:
 - type: published
-  value: '2011-12-01'
+  at: '2011-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David J Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ralf Nolte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vincent Gressier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut de Radioprotection et de Sûreté Nucléaire, Cadarache,
             13115 St-Paul-Lez-Durance, France
-  role:
-  - type: author
-revdate: '2011-12-01'
 abstract:
-- content: "<p>The International Committee for Weights and Measures (CIPM) has consultative
-    committees covering various areas of metrology. The Consultative Committee for
-    Ionizing Radiation (CCRI) differs from the others in having three sections: Section
-    (I) deals with radiation dosimetry, Section (II) with radionuclide metrology and
-    Section (III) with neutron metrology. In 2003 a proposal was made to publish special
-    issues of Metrologia covering the work of the three Sections. Section (II) was
-    the first to complete their task, and their special issue was published in 2007,
-    volume 44(4). This was followed in 2009 by the special issue on radiation dosimetry,
-    volume 46(2). The present issue, volume 48(6), completes the trilogy and attempts
-    to explain neutron metrology, the youngest of the three disciplines, the neutron
-    only having been discovered in 1932, to a wider audience and to highlight the
-    relevance and importance of this field.</p><p>When originally approached with
-    the idea of this special issue, Section (III) immediately saw the value of a publication
-    specifically on neutron metrology. It is a topic area where papers tend to be
-    scattered throughout the literature in journals covering, for example, nuclear
-    instrumentation, radiation protection or radiation measurements in general. Review
-    articles tend to be few. People new to the field often ask for an introduction
-    to the various topics. There are some excellent older textbooks, but these are
-    now becoming obsolete. More experienced workers in specific areas of neutron metrology
-    can find it difficult to know the latest position in related areas. The papers
-    in this issue attempt, without presenting a purely historical outline, to describe
-    the field in a sufficiently logical way to provide the novice with a clear introduction,
-    while being sufficiently up-to-date to provide the more experienced reader with
-    the latest scientific developments in the different topic areas.</p><p>Neutron
-    radiation fields obviously occur throughout the nuclear industry, from the initial
-    fuel enrichment and fabrication processes right through to storage or reprocessing,
-    and neutron metrology is clearly important in this area. Neutron fields do, however,
-    occur in other areas, for example where neutron sources are used in oil well logging
-    and moisture measurements. They also occur around high energy accelerators, including
-    photon linear accelerators used for cancer therapy, and are expected to be a more
-    serious problem around the new hadron radiation therapy facilities. Roughly 50%
-    of the cosmic ray doses experienced by fliers at the flight altitudes of commercial
-    aircraft are due to neutrons. Current research on fusion presents neutron metrology
-    with a whole new range of challenges because of the very high fluences expected.</p><p>One
-    of the most significant features of neutron fields is the very wide range of possible
-    neutron energies. In the nuclear industry, for example, neutrons occur with energies
-    from those of thermal neutrons at a few meV to the upper end of the fission spectrum
-    at perhaps 10 MeV. For cosmic ray dosimetry the energy range extends into the
-    GeV region. This enormous range sets a challenge for designing measuring devices
-    and a parallel challenge of developing measurement standards for characterizing
-    these devices.</p><p>One of the major considerations when deciding on topics for
-    this special issue was agreeing on what not to include. Modelling, i.e. the use
-    of radiation transport codes, is now a very important aspect of neutron measurements.
-    These calculations are vital for shielding and for instrument design; nevertheless,
-    the topic has only been included here where it has a direct bearing on metrology
-    and the development of standards. Neutron spectrometry is an increasingly important
-    technique for unravelling some of the problems of dose equivalent measurements
-    and for plasma diagnostics in fusion research. However, this topic is at least
-    one step removed from primary metrology and so it was felt that it should not
-    be covered, particularly as a compendium of papers on spectrometry for radiation
-    protection has been published relatively recently [1]. The CIPM Mutual Recognition
-    Arrangement (CIPM MRA), whereby national measurement standards and certificates
-    issued by different national metrology institutes (NMIs) can be recognized internationally,
-    is covered only briefly, although the key comparisons which underpin the CIPM
-    MRA are highlighted.</p><p>The papers included in this issue concentrate on the
-    primary physical quantities—neutron source emission rate and neutron fluence,
-    papers on the latter quantity covering the wide range of neutron energies for
-    which standards are required. Neutron cross sections are fundamental to neutron
-    physics and their importance in neutron metrology is also covered.</p><p>A large
-    amount of work by acknowledged experts in neutron metrology has gone into the
-    preparation of this special issue and we are indebted to them for their time and
-    effort. The list of contributors begins with the authors of the papers but also
-    includes the referees who provided invisible but invaluable input. We are grateful
-    for the support and encouragement of Professor Georgio Moscati, president of the
-    CCRI when the work was proposed, Dr Kim Carneiro the current president, and Dr
-    Penny Allisy-Roberts the executive secretary of the CCRI.</p><p>When this work
-    was first proposed a list of potential topics was drawn up by the then chairman
-    of Section (III) Dr Horst Klein. It is a measure of his insight and knowledge
-    of the field that the resulting document matches almost exactly the original plan
-    he drew up. This special issue is thus a tribute to his very extensive contribution
-    to the field. We sincerely hope its contents provide an accurate picture of the
-    present state of neutron metrology in view of Dr Klein's conviction of the importance
-    in metrology of getting things right.</p><p>Reference</p><p>[1] Thomas D J and
-    Klein H (ed) 2003 Neutron and photon spectrometry techniques for radiation protection
-    Radiat. Prot. Dosim. 107 1–204</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The International Committee for Weights and Measures (CIPM) has consultative committees covering various areas of metrology. The Consultative Committee for Ionizing Radiation (CCRI) differs from the others in having three sections: Section (I) deals with radiation dosimetry, Section (II) with radionuclide metrology and Section (III) with neutron metrology. In 2003 a proposal was made to publish special issues of  <italic>Metrologia</italic> covering the work of the three Sections. Section (II) was the first to complete their task, and their special issue was published in 2007, volume  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/44/4"><bold>44</bold>(4)</ext-link>. This was followed in 2009 by the special issue on radiation dosimetry, volume  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/46/2"><bold>46</bold>(2)</ext-link>. The present issue, volume  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/48/6"><bold>48</bold>(6)</ext-link>, completes the trilogy and attempts to explain neutron metrology, the youngest of the three disciplines, the neutron only having been discovered in 1932, to a wider audience and to highlight the relevance and importance of this field.</p>
+    <p>When originally approached with the idea of this special issue, Section (III) immediately saw the value of a publication specifically on neutron metrology. It is a topic area where papers tend to be scattered throughout the literature in journals covering, for example, nuclear instrumentation, radiation protection or radiation measurements in general. Review articles tend to be few. People new to the field often ask for an introduction to the various topics. There are some excellent older textbooks, but these are now becoming obsolete. More experienced workers in specific areas of neutron metrology can find it difficult to know the latest position in related areas. The papers in this issue attempt, without presenting a purely historical outline, to describe the field in a sufficiently logical way to provide the novice with a clear introduction, while being sufficiently up-to-date to provide the more experienced reader with the latest scientific developments in the different topic areas.</p>
+    <p>Neutron radiation fields obviously occur throughout the nuclear industry, from the initial fuel enrichment and fabrication processes right through to storage or reprocessing, and neutron metrology is clearly important in this area. Neutron fields do, however, occur in other areas, for example where neutron sources are used in oil well logging and moisture measurements. They also occur around high energy accelerators, including photon linear accelerators used for cancer therapy, and are expected to be a more serious problem around the new hadron radiation therapy facilities. Roughly 50% of the cosmic ray doses experienced by fliers at the flight altitudes of commercial aircraft are due to neutrons. Current research on fusion presents neutron metrology with a whole new range of challenges because of the very high fluences expected.</p>
+    <p>One of the most significant features of neutron fields is the very wide range of possible neutron energies. In the nuclear industry, for example, neutrons occur with energies from those of thermal neutrons at a few meV to the upper end of the fission spectrum at perhaps 10 MeV. For cosmic ray dosimetry the energy range extends into the GeV region. This enormous range sets a challenge for designing measuring devices and a parallel challenge of developing measurement standards for characterizing these devices.</p>
+    <p>One of the major considerations when deciding on topics for this special issue was agreeing on what not to include. Modelling, i.e. the use of radiation transport codes, is now a very important aspect of neutron measurements. These calculations are vital for shielding and for instrument design; nevertheless, the topic has only been included here where it has a direct bearing on metrology and the development of standards. Neutron spectrometry is an increasingly important technique for unravelling some of the problems of dose equivalent measurements and for plasma diagnostics in fusion research. However, this topic is at least one step removed from primary metrology and so it was felt that it should not be covered, particularly as a compendium of papers on spectrometry for radiation protection has been published relatively recently [1]. The CIPM Mutual Recognition Arrangement (CIPM MRA), whereby national measurement standards and certificates issued by different national metrology institutes (NMIs) can be recognized internationally, is covered only briefly, although the key comparisons which underpin the CIPM MRA are highlighted.</p>
+    <p>The papers included in this issue concentrate on the primary physical quantities—neutron source emission rate and neutron fluence, papers on the latter quantity covering the wide range of neutron energies for which standards are required. Neutron cross sections are fundamental to neutron physics and their importance in neutron metrology is also covered.</p>
+    <p>A large amount of work by acknowledged experts in neutron metrology has gone into the preparation of this special issue and we are indebted to them for their time and effort. The list of contributors begins with the authors of the papers but also includes the referees who provided invisible but invaluable input. We are grateful for the support and encouragement of Professor Georgio Moscati, president of the CCRI when the work was proposed, Dr Kim Carneiro the current president, and Dr Penny Allisy-Roberts the executive secretary of the CCRI.</p>
+    <p>When this work was first proposed a list of potential topics was drawn up by the then chairman of Section (III) Dr Horst Klein. It is a measure of his insight and knowledge of the field that the resulting document matches almost exactly the original plan he drew up. This special issue is thus a tribute to his very extensive contribution to the field. We sincerely hope its contents provide an accurate picture of the present state of neutron metrology in view of Dr Klein's conviction of the importance in metrology of getting things right.</p>
+    <p><bold>Reference</bold></p>
+    <p>[1] Thomas D J and Klein H (ed) 2003 Neutron and photon spectrometry techniques for radiation protection  <italic>Radiat. Prot. Dosim.</italic>  <bold>107</bold> 1–204</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Neutron metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Neutron metrology
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -185,6 +105,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

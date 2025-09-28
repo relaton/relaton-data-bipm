@@ -1,104 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia505490
-title:
-- content: Expanded uncertainty regions for complex quantities
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/5/490
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/5/490
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 5 490
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Expanded uncertainty regions for complex quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/5/490
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/5/490
+docidentifier:
+- content: Metrologia 50 5 490
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/5/490
+- content: 10.1088/0026-1394/50/5/490
   type: doi
 date:
 - type: published
-  value: '2013-09-20'
+  at: '2013-09-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt 5040, New Zealand
         name:
         - content: Callaghan Innovation
         subdivision:
-        - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2013-09-20'
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Standards Laboratory of New Zealand
 abstract:
-- content: Abstract<p>The expanded measurement uncertainty of a complex quantity is
-    a region in the complex plane surrounding the measured value. This paper considers
-    different shaped uncertainty regions in the form of ellipses, circles, rectangles
-    and parallelograms. The different types of region are compared, under a variety
-    of measurement error conditions, with regard to coverage probability and relative
-    area. Elliptical confidence regions are commonly used in multivariate statistics.
-    However, this shape has not been adopted widely in metrology, perhaps because
-    there is no simple way to report the extent of an elliptical region. The other
-    shapes considered are easier to use. Unfortunately, the coverage probability of
-    circular uncertainty regions is found to be sensitive to both the form of the
-    distribution of measurement errors and to the number of degrees of freedom, making
-    this shape a poor choice. Parallelograms and rectangles both performed well, with
-    parallelograms giving the best results overall.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The expanded measurement uncertainty of a complex quantity is a region in the complex plane surrounding the measured value. This paper considers different shaped uncertainty regions in the form of ellipses, circles, rectangles and parallelograms. The different types of region are compared, under a variety of measurement error conditions, with regard to coverage probability and relative area. Elliptical confidence regions are commonly used in multivariate statistics. However, this shape has not been adopted widely in metrology, perhaps because there is no simple way to report the extent of an elliptical region. The other shapes considered are easier to use. Unfortunately, the coverage probability of circular uncertainty regions is found to be sensitive to both the form of the distribution of measurement errors and to the number of degrees of freedom, making this shape a poor choice. Parallelograms and rectangles both performed well, with parallelograms giving the best results overall.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Expanded uncertainty regions for complex quantities
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Expanded uncertainty regions for complex quantities
     date:
     - type: ppub
-      value: '2013-10-01'
+      at: '2013-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Expanded uncertainty regions for complex quantities
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Expanded uncertainty regions for complex quantities
     date:
     - type: epub
-      value: '2013-09-20'
+      at: '2013-09-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +93,6 @@ extent:
     reference_from: '490'
     reference_to: '498'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

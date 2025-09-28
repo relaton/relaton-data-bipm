@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S146
-title:
-- content: Traceability of radiation protection instruments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S19
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S146
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Traceability of radiation protection instruments
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S19
+docidentifier:
+- content: Metrologia 44 4 S146
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S19
+- content: 10.1088/0026-1394/44/4/S19
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Hino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute Advanced
             Industrial Science and Technology, 1-1-1 Umezono, Tshukuba, Ibaraki 305-8563,
             Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Kurosawa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute Advanced
             Industrial Science and Technology, 1-1-1 Umezono, Tshukuba, Ibaraki 305-8563,
             Japan
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>Radiation protection instruments are used in daily measurement of dose
+- language: en
+  script:
+  - Latn
+  content: "<p>Radiation protection instruments are used in daily measurement of dose
     and activities in workplaces and environments for safety management. The requirements
     for calibration certificates with traceability are increasing for these instruments
     to ensure the consistency and reliabilities of the measurement results. The present
@@ -66,53 +60,42 @@ abstract:
     measurements is described with related IEC/ISO requirements. Some examples of
     desirable future calibration systems with recent new technologies are also discussed
     to establish the traceability with reasonable costs and reliabilities.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceability of radiation protection instruments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Traceability of radiation protection instruments
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceability of radiation protection instruments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Traceability of radiation protection instruments
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: S146
     reference_to: S152
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

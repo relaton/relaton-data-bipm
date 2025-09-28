@@ -1,123 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia472S41
-title:
-- content: Elastic modulus measurement—obtaining reliable data from the tensile test
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/2/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/2/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 2 S41
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Elastic modulus measurement—obtaining reliable data from the tensile test
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/2/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/2/S05
+docidentifier:
+- content: Metrologia 47 2 S41
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/2/S05
+- content: 10.1088/0026-1394/47/2/S05
   type: doi
 date:
 - type: published
-  value: '2010-03-08'
+  at: '2010-03-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J D Lord
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R M Morrell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
-  - type: author
-revdate: '2010-03-08'
 abstract:
-- content: "<p>Elastic modulus is an intrinsic material property and a key parameter
-    in engineering design and materials development. A wide range of test methods
-    is available for measuring modulus, but there is currently some uncertainty within
-    parts of the user community about the reliability of modulus data, particularly
-    from the tensile test, to the extent that many use standard handbook values in
-    their calculations and designs. This is not recommended and can be addressed through
-    good experimental practice and careful measurement.</p><p>The paper discusses
-    some of the key practical issues associated with the tensile test that need to
-    be considered to obtain reliable values for Young's modulus such as strain measurement,
-    alignment, data analysis methods, software validation, uncertainty budgets and
-    the use of reference materials.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Elastic modulus is an intrinsic material property and a key parameter in engineering design and materials development. A wide range of test methods is available for measuring modulus, but there is currently some uncertainty within parts of the user community about the reliability of modulus data, particularly from the tensile test, to the extent that many use standard handbook values in their calculations and designs. This is not recommended and can be addressed through good experimental practice and careful measurement.</p>
+    <p>The paper discusses some of the key practical issues associated with the tensile test that need to be considered to obtain reliable values for Young's modulus such as strain measurement, alignment, data analysis methods, software validation, uncertainty budgets and the use of reference materials.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Elastic modulus measurement—obtaining reliable data from the tensile
+    - language: en
+      script: Latn
+      content: Elastic modulus measurement—obtaining reliable data from the tensile
         test
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-03-08'
+      at: '2010-03-08'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Elastic modulus measurement—obtaining reliable data from the tensile
+    - language: en
+      script: Latn
+      content: Elastic modulus measurement—obtaining reliable data from the tensile
         test
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-04-01'
+      at: '2010-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +106,6 @@ extent:
     reference_from: S41
     reference_to: S49
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,112 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A09005
-title:
-- content: Report on the bilateral comparison between DPLA-DFM and NPLI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/09005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/09005
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 09005
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report on the bilateral comparison between DPLA-DFM and NPLI
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/09005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/09005
+docidentifier:
+- content: Metrologia 44 1A 09005
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/09005
+- content: 10.1088/0026-1394/44/1A/09005
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Salvador Barrera-Figueroa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Fundamental Metrology Ltd, Matematiktorvet 307, DK-2800
             Kgs. Lyngby, Denmark
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lars Nielsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Fundamental Metrology Ltd, Matematiktorvet 307, DK-2800
             Kgs. Lyngby, Denmark
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Knud Rasmussen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Fundamental Metrology Ltd, Matematiktorvet 307, DK-2800
             Kgs. Lyngby, Denmark
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>The DPLA-DFM (Denmark) and the NPLI (India) have carried out a bilateral comparison as an extension of the CCAUV.A-K3 key comparison organized by the CCAUV. The DPLA-DFM undertook the role of the Pilot laboratory. The measurements took place immediately after the measurements of the CCAUV.A-K3 comparison. Two of the LS2aP microphones used in that comparison were used in the bilateral comparison before the results were announced. This report includes the measurement results from the participants, information about their calibration methods, and the analysis leading to the assignation of degrees of equivalence and the link to the CCAUV.A-K3.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The DPLA-DFM (Denmark) and the NPLI (India) have carried out a bilateral comparison as an extension of the  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/43/1A/09001/">CCAUV.A-K3</ext-link> key comparison organized by the CCAUV. The DPLA-DFM undertook the role of the Pilot laboratory. The measurements took place immediately after the measurements of the CCAUV.A-K3 comparison. Two of the LS2aP microphones used in that comparison were used in the bilateral comparison before the results were announced. This report includes the measurement results from the participants, information about their calibration methods, and the analysis leading to the assignation of degrees of equivalence and the link to the CCAUV.A-K3.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K3/CCAUV.A-K3_ext.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report on the bilateral comparison between DPLA-DFM and NPLI
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Report on the bilateral comparison between DPLA-DFM and NPLI
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '09005'
     reference_to: '09005'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

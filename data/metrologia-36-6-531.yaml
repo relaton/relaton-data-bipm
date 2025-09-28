@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366531
-title:
-- content: APX50, the first fully automatic absolute pressure balance in the range
-    10 kPa to 1 MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 531
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: APX50, the first fully automatic absolute pressure balance in the range
+    10 kPa to 1 MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/9
+docidentifier:
+- content: Metrologia 36 6 531
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/9
+- content: 10.1088/0026-1394/36/6/9
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Poirier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Desgranges et Huot
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>Desgranges et Huot, a French company specializing in pressure metrology,
+- language: en
+  script:
+  - Latn
+  content: "<p>Desgranges et Huot, a French company specializing in pressure metrology,
     has been cooperating with the Bureau National de Metrologie-Laboratoire National
     d'Essais (BNM-LNE) for the past five years in the development of the first fully
     automatic absolute pressure balance in the range 10 kPa to 1 MPa, designated APX50.
@@ -57,40 +53,32 @@ abstract:
     high-accuracy pressure balances together with unique features simplifying its
     operation, could potentially replace the mercury columns used as reference standards
     in national metrology institutes worldwide.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: APX50, the first fully automatic absolute pressure balance in the range
+    - language: en
+      script: Latn
+      content: APX50, the first fully automatic absolute pressure balance in the range
         10 kPa to 1 MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +89,6 @@ extent:
     reference_from: '531'
     reference_to: '533'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

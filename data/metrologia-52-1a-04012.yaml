@@ -1,99 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521A04012
-title:
-- content: Comparisons of the reference measuring instruments of surface parameters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1A/04012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1A/04012
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1A 04012
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparisons of the reference measuring instruments of surface parameters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1A/04012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1A/04012
+docidentifier:
+- content: Metrologia 52 1A 04012
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1A/04012
+- content: 10.1088/0026-1394/52/1A/04012
   type: doi
 date:
 - type: published
-  value: '2015-01-01'
+  at: '2015-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vladimir Kupko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Scientific Center "Institute of Metrology" (NSC IM), Mironositskaya
             Str., 42, Kharkov 61002, Ukraine
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Valeriy Lysenko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Russian Scientific Research Institute of Metrological Service
             (VNIIMS) Ozernaya Str., 46 Moscow, 119361, The Russian Federation
-  role:
-  - type: author
-revdate: '2015-01-01'
 abstract:
-- content: |-
-    <p></p><p>A bilateral comparison of measurements on a Type A1 roughness standard has been undertaken between metrology institutes in Ukraine and Russia. The measurand was the parameter R<sub>max</sub>, located on two different sections of the artefact with nominal values of 0.250 μm and 49 μm. The results of the two participants are in agreement within the combined uncertainties, thus equivalence of the measurements is demonstrated.</p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>A bilateral comparison of measurements on a Type A1 roughness standard has been undertaken between metrology institutes in Ukraine and Russia. The measurand was the parameter <italic toggle="yes">R</italic>
+                   <sub>max</sub>, located on two different sections of the artefact with nominal values of 0.250 μm and 49 μm. The results of the two participants are in agreement within the combined uncertainties, thus equivalence of the measurements is demonstrated.</p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/L/S13/COOMET.L-S13.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparisons of the reference measuring instruments of surface parameters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparisons of the reference measuring instruments of surface parameters
     date:
     - type: ppub
-      value: '2015-01-01'
+      at: '2015-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +95,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,124 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia503227
-title:
-- content: Effect of solid–liquid interface velocity on the measured upper and lower
-    limits of the liquidus temperature of cobalt–carbon eutectic fixed points
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/3/227
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/3/227
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 3 227
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Effect of solid–liquid interface velocity on the measured upper and lower
+    limits of the liquidus temperature of cobalt–carbon eutectic fixed points
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/3/227
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/3/227
+docidentifier:
+- content: Metrologia 50 3 227
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/3/227
+- content: 10.1088/0026-1394/50/3/227
   type: doi
 date:
 - type: published
-  value: '2013-05-13'
+  at: '2013-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Lowe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Heufelder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampshire PO1 2UP, UK
         name:
         - content: University of Portsmouth
         subdivision:
-        - content: School of Earth and Environmental Sciences
-        contact:
-        - address:
-            formatted_address: Hampshire PO1 2UP, UK
-  role:
-  - type: author
-revdate: '2013-05-13'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Earth and Environmental Sciences
 abstract:
-- content: Abstract<p>The melting temperatures of the eutectic phase transitions of
-    cobalt–carbon, platinum–carbon and rhenium–carbon alloys are proposed as reference
-    standards for high temperature radiation thermometry. The behaviour of these is
-    such that rather than a unique readily identified feature of the melting curve
-    being assigned a temperature, upper and lower limits will be given. The lower
-    limit will be the point of inflection in the melting curve, a point previously
-    identified as unchanging with the rate at which melting takes place. The upper
-    limit will be based on an extrapolation of the tangent at the point of inflection.
-    The melting curves of cobalt–carbon fixed points are measured and it is found
-    that the upper and lower limits converge as the melting rate is reduced. The point
-    of inflection appears to have a melting rate dependence while the upper limit
-    appears to be much more stable. This may have implications for planned research
-    into assignment of thermodynamic temperature to these fixed points.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The melting temperatures of the eutectic phase transitions of cobalt–carbon, platinum–carbon and rhenium–carbon alloys are proposed as reference standards for high temperature radiation thermometry. The behaviour of these is such that rather than a unique readily identified feature of the melting curve being assigned a temperature, upper and lower limits will be given. The lower limit will be the point of inflection in the melting curve, a point previously identified as unchanging with the rate at which melting takes place. The upper limit will be based on an extrapolation of the tangent at the point of inflection. The melting curves of cobalt–carbon fixed points are measured and it is found that the upper and lower limits converge as the melting rate is reduced. The point of inflection appears to have a melting rate dependence while the upper limit appears to be much more stable. This may have implications for planned research into assignment of thermodynamic temperature to these fixed points.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of solid–liquid interface velocity on the measured upper and
+    - script: Latn
+      content: Effect of solid–liquid interface velocity on the measured upper and
         lower limits of the liquidus temperature of cobalt–carbon eutectic fixed points
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-06-01'
+      at: '2013-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of solid–liquid interface velocity on the measured upper and
+    - script: Latn
+      content: Effect of solid–liquid interface velocity on the measured upper and
         lower limits of the liquidus temperature of cobalt–carbon eutectic fixed points
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-05-13'
+      at: '2013-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +110,6 @@ extent:
     reference_from: '227'
     reference_to: '234'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

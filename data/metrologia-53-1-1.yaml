@@ -1,116 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5311
-title:
-- content: Absolute interferometric characterization of an x-ray mirror surface profile
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Absolute interferometric characterization of an x-ray mirror surface profile
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/1
+docidentifier:
+- content: Metrologia 53 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/1
+- content: 10.1088/0026-1394/53/1/1
   type: doi
 date:
 - type: published
-  value: '2015-12-15'
+  at: '2015-12-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurizio Vannoni
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Albert-Einstein-Ring 19, 22761 Hamburg, Germany
         name:
         - content: European XFEL GmbH
-        contact:
-        - address:
-            formatted_address: Albert-Einstein-Ring 19, 22761 Hamburg, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Idoia Freijo Martìn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Albert-Einstein-Ring 19, 22761 Hamburg, Germany
         name:
         - content: European XFEL GmbH
-        contact:
-        - address:
-            formatted_address: Albert-Einstein-Ring 19, 22761 Hamburg, Germany
-  role:
-  - type: author
-revdate: '2015-12-15'
 abstract:
-- content: Abstract<p>An approach to achieve absolute planarity characterization of
-    an x-ray mirror through an interferometric method is presented. With three measurements
-    and two nominally flat auxiliary mirrors, the radius of curvature and the slope
-    profile of a nominally flat x-ray mirror are retrieved. The height profile is
-    then calculated through integration of the slope profile and merging this information
-    with the radius of curvature knowledge. The method is explained in detail and
-    a measurement example is provided. A comparison with a state-of-the-art deflectometric
-    method is shown, with an agreement level of about 0.14 nm rms.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>An approach to achieve absolute planarity characterization of an x-ray mirror through an interferometric method is presented. With three measurements and two nominally flat auxiliary mirrors, the radius of curvature and the slope profile of a nominally flat x-ray mirror are retrieved. The height profile is then calculated through integration of the slope profile and merging this information with the radius of curvature knowledge. The method is explained in detail and a measurement example is provided. A comparison with a state-of-the-art deflectometric method is shown, with an agreement level of about 0.14 nm rms.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute interferometric characterization of an x-ray mirror surface
+    - script: Latn
+      content: Absolute interferometric characterization of an x-ray mirror surface
         profile
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute interferometric characterization of an x-ray mirror surface
+    - script: Latn
+      content: Absolute interferometric characterization of an x-ray mirror surface
         profile
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-12-15'
+      at: '2015-12-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +104,6 @@ extent:
     reference_from: '1'
     reference_to: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

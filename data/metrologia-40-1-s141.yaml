@@ -1,76 +1,68 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S141
-title:
-- content: Quantum efficiency of solar-blind semiconductor photodiodes in the far
-    ultraviolet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/332
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/332
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S141
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quantum efficiency of solar-blind semiconductor photodiodes in the far
+    ultraviolet
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/332
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/332
+docidentifier:
+- content: Metrologia 40 1 S141
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/332
+- content: 10.1088/0026-1394/40/1/332
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Vest
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Stop 8411, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Hertog
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SVT Associates, 7620 Executive Drive, Eden Prairie, MN 55344, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Chow
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SVT Associates, 7620 Executive Drive, Eden Prairie, MN 55344, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>A difficulty in diverse metrological applications is the measurement
+- language: en
+  script:
+  - Latn
+  content: "<p>A difficulty in diverse metrological applications is the measurement
     of relatively low intensity ultraviolet radiation signals in the presence of an
     intense visible radiation background. The development of a detector technology
     that combines the high efficiency and ease of use found in Si photodiodes with
@@ -83,55 +75,44 @@ abstract:
     several orders of magnitude reduction in efficiency for photon energies below
     the bandgap. The bandgap for GaN corresponds to 365 nm wavelength, and AlGaN devices
     exhibit cut-off wavelengths as short as 260 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantum efficiency of solar-blind semiconductor photodiodes in the
+    - language: en
+      script: Latn
+      content: Quantum efficiency of solar-blind semiconductor photodiodes in the
         far ultraviolet
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantum efficiency of solar-blind semiconductor photodiodes in the
+    - language: en
+      script: Latn
+      content: Quantum efficiency of solar-blind semiconductor photodiodes in the
         far ultraviolet
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +123,6 @@ extent:
     reference_from: S141
     reference_to: S144
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

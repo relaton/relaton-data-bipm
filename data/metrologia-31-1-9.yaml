@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3119
-title:
-- content: Sifting through Nine Years of NIST Clock Data with TA2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 1 9
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Sifting through Nine Years of NIST Clock Data with TA2
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/1/003
+docidentifier:
+- content: Metrologia 31 1 9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/1/003
+- content: 10.1088/0026-1394/31/1/003
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M A Weiss
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 325 Broadway, Boulder,
             Colorado 80303-3328, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T P Weissert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics Department, St Joseph University, 5600 City Ave., Philadelphia,
             Pennsylvania 19131, USA
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>We have extended the new TA2 post-processed time scale at the NIST
+- language: en
+  script:
+  - Latn
+  content: "<p>We have extended the new TA2 post-processed time scale at the NIST
     beyond our previous reports to include all of the period from January 1984 to
     December 1992. Derived from the ensemble of clocks at the NIST, this time scale
     includes the benefits of several recent refinements to the algorithm. By iteratively
@@ -68,39 +62,31 @@ abstract:
     eight-year run, our method of characterizing anomalous behaviour in individual
     clocks, the way unanticipated anomalous behaviour is dealt with by the algorithm,
     and our resulting nine-year time scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sifting through Nine Years of NIST Clock Data with TA2
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Sifting through Nine Years of NIST Clock Data with TA2
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: '9'
     reference_to: '19'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

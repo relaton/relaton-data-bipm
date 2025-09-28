@@ -1,82 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia144171
-title:
-- content: Etalons représentatifs de l'ohm et du volt
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/14/4/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/4/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 4 171
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Etalons représentatifs de l'ohm et du volt
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/4/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/4/006
+docidentifier:
+- content: Metrologia 14 4 171
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/4/006
+- content: 10.1088/0026-1394/14/4/006
   type: doi
 date:
 - type: published
-  value: '1978-10-01'
+  at: '1978-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Leclerc
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1978-10-01'
 abstract:
-- content: "<p>Résultats d'une enquête auprès des grands laboratoires nationaux de
-    métrologie électrique sur les méthodes de réalisation et de conservation de l'ohm
-    et du volt; exactitudes et précisions obtenues.</p>"
-  language:
-  - fr
+- language: fr
   script:
   - Latn
-  format: text/html
+  content: "<p>Résultats d'une enquête auprès des grands laboratoires nationaux de
+    métrologie électrique sur les méthodes de réalisation et de conservation de l'ohm
+    et du volt; exactitudes et précisions obtenues.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Etalons représentatifs de l'ohm et du volt
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
+    - language: fr
+      script: Latn
+      content: Etalons représentatifs de l'ohm et du volt
     date:
     - type: ppub
-      value: '1978-10-01'
+      at: '1978-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +75,6 @@ extent:
     reference_from: '171'
     reference_to: '174'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

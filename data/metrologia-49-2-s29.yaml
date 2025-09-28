@@ -1,176 +1,154 @@
 ---
-schema-version: v1.2.9
-id: Metrologia492S29
-title:
-- content: Total solar irradiance data record accuracy and consistency improvements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/2/S29
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/2/S29
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 2 S29
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Total solar irradiance data record accuracy and consistency improvements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/2/S29
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/2/S29
+docidentifier:
+- content: Metrologia 49 2 S29
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/2/S29
+- content: 10.1088/0026-1394/49/2/S29
   type: doi
 date:
 - type: published
-  value: '2012-03-02'
+  at: '2012-03-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Greg Kopp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80303, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: André Fehlmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos/World Radiation
             Center, Davos, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wolfgang Finsterle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos/World Radiation
             Center, Davos, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David Harber
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80303, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Karl Heuerman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80303, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Willson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ACRIM, 12 Bahama Bend, Coronado, CA 92118, USA
-  role:
-  - type: author
-revdate: '2012-03-02'
 abstract:
-- content: "<p>Continuity of the 33-year long total solar irradiance record has been
+- language: en
+  script:
+  - Latn
+  content: "<p>Continuity of the 33-year long total solar irradiance record has been
     facilitated by corrections for offsets due to calibration differences between
     instruments, providing a solar data record with precision approaching that needed
     for Earth climate studies. Recent laboratory tests have (1) improved measurement
     absolute accuracy to mitigate potential future data gaps, (2) helped explain the
     causes of instrument offsets and (3) improved consistency between the international
     references upon which various instrument calibrations are based.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Total solar irradiance data record accuracy and consistency improvements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Total solar irradiance data record accuracy and consistency improvements
     date:
     - type: epub
-      value: '2012-03-02'
+      at: '2012-03-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Total solar irradiance data record accuracy and consistency improvements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Total solar irradiance data record accuracy and consistency improvements
     date:
     - type: ppub
-      value: '2012-04-01'
+      at: '2012-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -181,6 +159,6 @@ extent:
     reference_from: S29
     reference_to: S33
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

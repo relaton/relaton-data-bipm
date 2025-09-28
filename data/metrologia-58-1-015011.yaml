@@ -1,182 +1,144 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015011
-title:
-- content: 'Metrological approach of γ-emitting radionuclides identification at low
-    statistics: application of sparse spectral unmixing to scintillation detectors'
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/abcc06
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abcc06
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015011
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Metrological approach of <bold>γ</bold>-emitting radionuclides identification
+    at low statistics: application of sparse spectral unmixing to scintillation detectors'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abcc06
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abcc06
+docidentifier:
+- content: Metrologia 58 1 015011
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abcc06
+- content: 10.1088/1681-7575/abcc06
   type: doi
 date:
 - type: published
-  value: '2021-01-11'
+  at: '2021-01-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rémi André
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CEA, LIST, 91191 Gif-sur-Yvette Cedex, France
         name:
         - content: Laboratoire National Henri Becquerel (LNE-LNHB)
-        contact:
-        - address:
-            formatted_address: CEA, LIST, 91191 Gif-sur-Yvette Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christophe Bobin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CEA, LIST, 91191 Gif-sur-Yvette Cedex, France
         name:
         - content: Laboratoire National Henri Becquerel (LNE-LNHB)
-        contact:
-        - address:
-            formatted_address: CEA, LIST, 91191 Gif-sur-Yvette Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jérôme Bobin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CEA, IRFU, 91191 Gif-sur-Yvette Cedex, France
         name:
         - content: Laboratoire de Cosmologie et Statistiques
-        contact:
-        - address:
-            formatted_address: CEA, IRFU, 91191 Gif-sur-Yvette Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jiaxin Xu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: IRSN, 91400 Orsay, France
         name:
         - content: Laboratoire de Métrologie de la Radioactivité dans l’environnement
-        contact:
-        - address:
-            formatted_address: IRSN, 91400 Orsay, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Anne de Vismes Ott
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: IRSN, 91400 Orsay, France
         name:
         - content: Laboratoire de Métrologie de la Radioactivité dans l’environnement
-        contact:
-        - address:
-            formatted_address: IRSN, 91400 Orsay, France
-  role:
-  - type: author
-revdate: '2021-01-11'
 abstract:
-- content: Abstract<p>This paper presents a metrological approach of spectral unmixing
-    for automatic identification and quantitative analysis of γ-emitting radionuclides
-    in natural background radiation at low statistics. Based on full-spectrum analysis,
-    the proposed method relies on the maximum likelihood estimation based on Poisson
-    statistics that accounts for the spectral signatures of the γ-emitters to be identified
-    and natural background. In order to obtain robust decision-making at low statistics,
-    a sparsity constraint is implemented along with counting estimation given by spectral
-    unmixing. In contrast with the standard approach, this technique relies on a single
-    decision threshold applied for a likelihood ratio test. Standard deviations on
-    estimated counting are determined using the Fisher information matrix. The robustness
-    of decision-making and counting estimation was investigated by means of Monte
-    Carlo calculations based on experimental spectral signatures of two types of scintillation
-    detectors [NaI(Tl), plastic]. This study demonstrates that sparse spectral unmixing
-    is a reliable method for γ-spectra analysis based on low-level measurements. The
-    sparsity constraint acts as an efficient technique for decision-making in the
-    case of complex mixtures of γ-emitters with significant contribution of natural
-    background. This method also yields unbiased counting estimation related to the
-    identified radionuclides. Reliable assessment of standard deviations are obtained
-    and the Gaussian approximation of the coverage intervals is validated. The proposed
-    method can be applied either by non-expert users for automatic analysis of γ-spectra
-    or to help experts in decision-making in the case of complex mixtures of γ-emitters
-    at low statistics.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper presents a metrological approach of spectral unmixing for automatic identification and quantitative analysis of γ-emitting radionuclides in natural background radiation at low statistics. Based on full-spectrum analysis, the proposed method relies on the maximum likelihood estimation based on Poisson statistics that accounts for the spectral signatures of the γ-emitters to be identified and natural background. In order to obtain robust decision-making at low statistics, a sparsity constraint is implemented along with counting estimation given by spectral unmixing. In contrast with the standard approach, this technique relies on a single decision threshold applied for a likelihood ratio test. Standard deviations on estimated counting are determined using the Fisher information matrix. The robustness of decision-making and counting estimation was investigated by means of Monte Carlo calculations based on experimental spectral signatures of two types of scintillation detectors [NaI(Tl), plastic]. This study demonstrates that sparse spectral unmixing is a reliable method for γ-spectra analysis based on low-level measurements. The sparsity constraint acts as an efficient technique for decision-making in the case of complex mixtures of γ-emitters with significant contribution of natural background. This method also yields unbiased counting estimation related to the identified radionuclides. Reliable assessment of standard deviations are obtained and the Gaussian approximation of the coverage intervals is validated. The proposed method can be applied either by non-expert users for automatic analysis of γ-spectra or to help experts in decision-making in the case of complex mixtures of γ-emitters at low statistics.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Metrological approach of γ-emitting radionuclides identification at
-        low statistics: application of sparse spectral unmixing to scintillation detectors'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Metrological approach of <bold>γ</bold>-emitting radionuclides identification
+        at low statistics: application of sparse spectral unmixing to scintillation
+        detectors'
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Metrological approach of γ-emitting radionuclides identification at
-        low statistics: application of sparse spectral unmixing to scintillation detectors'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Metrological approach of <bold>γ</bold>-emitting radionuclides identification
+        at low statistics: application of sparse spectral unmixing to scintillation
+        detectors'
     date:
     - type: epub
-      value: '2021-01-11'
+      at: '2021-01-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -184,6 +146,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia21111
-title:
-- content: Application of the Quantum Hall Effect in Metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Application of the Quantum Hall Effect in Metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/1/004
+docidentifier:
+- content: Metrologia 21 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/1/004
+- content: 10.1088/0026-1394/21/1/004
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K v Klitzing
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,16 +37,14 @@ contributor:
         name:
         - content: Department of Physics, Technical University of Munich, D-8046 Garching,
             Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ebert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -59,52 +53,44 @@ contributor:
         name:
         - content: Department of Physics, Technical University of Munich, D-8046 Garching,
             Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>The quantum Hall effect (QHE) is a phenomenon visible in Hall effect
-    measurements on a two-dimensional electron gas in strong magnetic fields and at
-    low temperatures. The experimental results on such systems in the limit of zero
-    temperature demonstrate that the Hall resistance R<sub>H</sub> as a function of
-    the magnetic field B shows plateaux with plateau values which are, within the
-    experimental uncertainty, independent of the material, the geometry of the device,
-    and other parameters. For an ideal system R<sub>H</sub> depends exclusively on
-    fundamental constants, but for real experiments corrections may be necessary which
-    are important, if the QHE is applied in metrology.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The quantum Hall effect (QHE) is a phenomenon visible in Hall effect
+    measurements on a two-dimensional electron gas in strong magnetic fields and at
+    low temperatures. The experimental results on such systems in the limit of zero
+    temperature demonstrate that the Hall resistance <italic>R</italic><sub>H</sub>
+    as a function of the magnetic field <italic>B</italic> shows plateaux with plateau
+    values which are, within the experimental uncertainty, independent of the material,
+    the geometry of the device, and other parameters. For an ideal system <italic>R</italic><sub>H</sub>
+    depends exclusively on fundamental constants, but for real experiments corrections
+    may be necessary which are important, if the QHE is applied in metrology.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Application of the Quantum Hall Effect in Metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Application of the Quantum Hall Effect in Metrology
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +101,6 @@ extent:
     reference_from: '11'
     reference_to: '18'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

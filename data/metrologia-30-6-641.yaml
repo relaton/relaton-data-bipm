@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306641
-title:
-- content: Computer-aided Modelling of Pressure Balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 641
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Computer-aided Modelling of Pressure Balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/018
+docidentifier:
+- content: Metrologia 30 6 641
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/018
+- content: 10.1088/0026-1394/30/6/018
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N D Samaan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Electronic Engineering, University of South Australia,
             The Levels, PO Box 1, Ingle Farm, South Australia SA 5098
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Abdullah
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement and Instrumentation Centre, City University, Northampton
             Square, London, EC1V 0HB, UK
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>Pressure metrologists and other research workers have always aimed
+- language: en
+  script:
+  - Latn
+  content: "<p>Pressure metrologists and other research workers have always aimed
     at the accurate determination of the distortion coefficient λ characterizing the
     effective area of a pressure balance. This paper presents a novel and unique treatment
     which incorporates both the elastic distortions of the piston and the cylinder,
@@ -66,39 +60,31 @@ abstract:
     out and one new finding is reported. It is concluded that for balances with complex
     geometries the distortion coefficient depends on the geometrical and material
     properties of a balance as well as on its operating pressure.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Computer-aided Modelling of Pressure Balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Computer-aided Modelling of Pressure Balances
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '641'
     reference_to: '644'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

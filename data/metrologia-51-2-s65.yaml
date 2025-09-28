@@ -1,132 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia512S65
-title:
-- content: 'The watt-balance operation: a continuous model of the coil interaction
-    with the magnetic field'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/2/S65
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/2/S65
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 2 S65
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The watt-balance operation: a continuous model of the coil interaction
+    with the magnetic field'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/2/S65
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/2/S65
+docidentifier:
+- content: Metrologia 51 2 S65
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/2/S65
+- content: 10.1088/0026-1394/51/2/S65
   type: doi
 date:
 - type: published
-  value: '2014-03-31'
+  at: '2014-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C P Sasso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Massa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2014-03-31'
 abstract:
-- content: Abstract<p>In the watt-balance experiments, separate measurements of the
-    magnetic and electromotive forces in a coil in a magnetic field enable a virtual
-    comparison between mechanical and electric powers to be carried out, which leads
-    to an accurate measurement of the Planck constant. This paper investigates the
-    three-dimensional nature of the coil–field interaction and describes the balance
-    operation by a continuous three-dimensional model.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In the watt-balance experiments, separate measurements of the magnetic and electromotive forces in a coil in a magnetic field enable a virtual comparison between mechanical and electric powers to be carried out, which leads to an accurate measurement of the Planck constant. This paper investigates the three-dimensional nature of the coil–field interaction and describes the balance operation by a continuous three-dimensional model.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt-balance operation: a continuous model of the coil interaction
+    - script: Latn
+      content: 'The watt-balance operation: a continuous model of the coil interaction
         with the magnetic field'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-04-01'
+      at: '2014-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt-balance operation: a continuous model of the coil interaction
+    - script: Latn
+      content: 'The watt-balance operation: a continuous model of the coil interaction
         with the magnetic field'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-03-31'
+      at: '2014-03-31'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: S65
     reference_to: S71
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

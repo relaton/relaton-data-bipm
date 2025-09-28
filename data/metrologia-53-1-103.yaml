@@ -1,153 +1,133 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531103
-title:
-- content: News from the BIPM laboratories—2015
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/103
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/103
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 103
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: News from the BIPM laboratories—2015
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/103
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/103
+docidentifier:
+- content: Metrologia 53 1 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/103
+- content: 10.1088/0026-1394/53/1/103
   type: doi
 date:
 - type: published
-  value: '2016-01-27'
+  at: '2016-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert Wielgosz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Felicitas Arias
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: José-Maria Los Arcos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martin Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
-  - type: author
-revdate: '2016-01-27'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: News from the BIPM laboratories—2015
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: News from the BIPM laboratories—2015
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: News from the BIPM laboratories—2015
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: News from the BIPM laboratories—2015
     date:
     - type: epub
-      value: '2016-01-27'
+      at: '2016-01-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -158,6 +138,6 @@ extent:
     reference_from: '103'
     reference_to: '107'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

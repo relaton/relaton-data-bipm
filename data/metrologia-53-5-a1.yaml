@@ -1,118 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia535A1
-title:
-- content: Realization, maintenance and dissemination of the kilogram in the revised
-    SI
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/5/A1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/5/A1
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 5 A1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Realization, maintenance and dissemination of the kilogram in the revised
+    SI
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/5/A1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/5/A1
+docidentifier:
+- content: Metrologia 53 5 A1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/5/A1
+- content: 10.1088/0026-1394/53/5/A1
   type: doi
 date:
 - type: published
-  value: '2016-09-28'
+  at: '2016-09-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bettin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Schlamminger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899–8171, USA
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899–8171, USA
-  role:
-  - type: author
-revdate: '2016-09-28'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization, maintenance and dissemination of the kilogram in the revised
+    - script: Latn
+      content: Realization, maintenance and dissemination of the kilogram in the revised
         SI
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-10-01'
+      at: '2016-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization, maintenance and dissemination of the kilogram in the revised
+    - script: Latn
+      content: Realization, maintenance and dissemination of the kilogram in the revised
         SI
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization, maintenance and dissemination of the kilogram in the revised
+    - script: Latn
+      content: Realization, maintenance and dissemination of the kilogram in the revised
         SI
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +110,6 @@ extent:
     reference_from: A1
     reference_to: A5
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

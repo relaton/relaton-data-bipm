@@ -1,59 +1,51 @@
 ---
-schema-version: v1.2.9
-id: Metrologia365487
-title:
-- content: EuroConference on Advanced Mathematical and Computational Tools in Metrology
-    AMCTM 2000, 10-13 May 2000, IPQ Lisbon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/5/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/5/13
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 5 487
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: EuroConference on Advanced Mathematical and Computational Tools in Metrology
+    AMCTM 2000, 10-13 May 2000, IPQ Lisbon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/5/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/5/13
+docidentifier:
+- content: Metrologia 36 5 487
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/5/13
+- content: 10.1088/0026-1394/36/5/13
   type: doi
 date:
 - type: published
-  value: '1999-10-01'
-revdate: '1999-10-01'
+  at: '1999-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: EuroConference on Advanced Mathematical and Computational Tools in
+    - language: en
+      script: Latn
+      content: EuroConference on Advanced Mathematical and Computational Tools in
         Metrology AMCTM 2000, 10-13 May 2000, IPQ Lisbon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-10-01'
+      at: '1999-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -64,6 +56,6 @@ extent:
     reference_from: '487'
     reference_to: '488'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

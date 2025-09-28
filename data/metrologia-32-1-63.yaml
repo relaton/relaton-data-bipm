@@ -1,88 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia32163
-title:
-- content: Current activities of EUROMET
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/1/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/1/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 1 63
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Current activities of EUROMET
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/1/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/1/009
+docidentifier:
+- content: Metrologia 32 1 63
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/1/009
+- content: 10.1088/0026-1394/32/1/009
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Carneiro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Chairman and Secretary of EUROMET, Danish Institute of Fundamental
             Metrology, Building 307, Anker Engelunds Vej 1, DK-2800 Lyngby, Denmark
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Petersen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Chairman and Secretary of EUROMET, Danish Institute of Fundamental
             Metrology, Building 307, Anker Engelunds Vej 1, DK-2800 Lyngby, Denmark
-  role:
-  - type: author
-revdate: '1995-01-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Current activities of EUROMET
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Current activities of EUROMET
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '63'
     reference_to: '65'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

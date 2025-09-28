@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354625
-title:
-- content: Multispectral calibration of remote-sensing instruments over Antarctica
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/69
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/69
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 625
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Multispectral calibration of remote-sensing instruments over Antarctica
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/69
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/69
+docidentifier:
+- content: Metrologia 35 4 625
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/69
+- content: 10.1088/0026-1394/35/4/69
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Jaross
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Corp., NASA-GSFC, Univ. Arizona
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Krueger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Corp., NASA-GSFC, Univ. Arizona
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Flittner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Corp., NASA-GSFC, Univ. Arizona
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>We discuss a technique for validation of instrument radiometric calibration
+- language: en
+  script:
+  - Latn
+  content: "<p>We discuss a technique for validation of instrument radiometric calibration
     using the surface of Antarctica. The proposed method involves comparing remotely-sensed
     radiances with predictions from a radiative transfer model, and is applicable
     to polar-orbiting instruments measuring in the wavelength range 335 nm to 650
@@ -77,39 +69,31 @@ abstract:
     (TOMS) data. Significant sources of uncertainty include ground-measurement accuracy
     (1 %), seasonal and spatial surface variation (0.5 %), and radiative-transfer
     modelling (2 %).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Multispectral calibration of remote-sensing instruments over Antarctica
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Multispectral calibration of remote-sensing instruments over Antarctica
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +104,6 @@ extent:
     reference_from: '625'
     reference_to: '629'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

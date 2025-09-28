@@ -1,130 +1,104 @@
 ---
-schema-version: v1.2.9
-id: Metrologia51180
-title:
-- content: Atomic weights in gas analysis
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/80
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/80
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 80
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Atomic weights in gas analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/80
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/80
+docidentifier:
+- content: Metrologia 51 1 80
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/80
+- content: 10.1088/0026-1394/51/1/80
   type: doi
 date:
 - type: published
-  value: '2014-01-29'
+  at: '2014-01-29'
 contributor:
-- person:
-    name:
-      completename:
-        content: Adriaan M H van der Veen
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: VSL
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
-        content: Katarina Hafner
-        language:
-        - en
-        script:
-        - Latn
+        language: en
+        script: Latn
+        content: Adriaan M H van der Veen
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
+        content: Katarina Hafner
+    affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
+        name:
+        - content: VSL
+    - organization:
+        address:
+        - formatted_address: Augusta Brauna 2, BA-71000 Sarajevo, Bosnia and Herzegovina
         name:
         - content: Institute of Metrology of Bosnia and Herzegovina (IMBIH)
-        contact:
-        - address:
-            formatted_address: Augusta Brauna 2, BA-71000 Sarajevo, Bosnia and Herzegovina
-  role:
-  - type: author
-revdate: '2014-01-29'
 abstract:
-- content: Abstract<p>The publication of the standard atomic weights of 2009 by IUPAC
-    raised the question of to what extent these changes affect the calculated composition
-    of reference and calibration gas mixtures and the associated measurement uncertainty.
-    The smallest uncertainties are attainable in the gravimetric gas mixture preparation,
-    so the assessment was made for this technique. For the first time, the uncertainty
-    contributions to the overall budget due to weighing, molecular weights, and composition
-    of the parent gases are reported separately.</p><p>The calculations show that
-    even with the standard atomic weights of 2007, the uncertainty contribution due
-    to the molecular weights can be of the same order as that due to weighing. The
-    standard atomic weights of 2009 and 2011, when used under the same assumptions,
-    increase the uncertainties of the amount-of-substance fractions of the abundant
-    components from high-purity parent gases sometimes appreciably.</p><p>Based on
-    these calculations and the fact that the atomic weight intervals include sources
-    that are unlikely to be generally relevant for measurements supporting trade,
-    commerce, health and safety, there is a need to make a more in-depth analysis
-    of the atomic weights used in calculations, and to reflect the knowledge about
-    the isotopic composition of relevant materials in the value assignment and uncertainty
-    calculation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The publication of the standard atomic weights of 2009 by IUPAC raised the question of to what extent these changes affect the calculated composition of reference and calibration gas mixtures and the associated measurement uncertainty. The smallest uncertainties are attainable in the gravimetric gas mixture preparation, so the assessment was made for this technique. For the first time, the uncertainty contributions to the overall budget due to weighing, molecular weights, and composition of the parent gases are reported separately.</p>
+    <p>The calculations show that even with the standard atomic weights of 2007, the uncertainty contribution due to the molecular weights can be of the same order as that due to weighing. The standard atomic weights of 2009 and 2011, when used under the same assumptions, increase the uncertainties of the amount-of-substance fractions of the abundant components from high-purity parent gases sometimes appreciably.</p>
+    <p>Based on these calculations and the fact that the atomic weight intervals include sources that are unlikely to be generally relevant for measurements supporting trade, commerce, health and safety, there is a need to make a more in-depth analysis of the atomic weights used in calculations, and to reflect the knowledge about the isotopic composition of relevant materials in the value assignment and uncertainty calculation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic weights in gas analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Atomic weights in gas analysis
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic weights in gas analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Atomic weights in gas analysis
     date:
     - type: epub
-      value: '2014-01-29'
+      at: '2014-01-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +109,6 @@ extent:
     reference_from: '80'
     reference_to: '86'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,115 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446L73
-title:
-- content: Argon pressure is maintained in an aluminium thermometric fixed-point cell
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 L73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Argon pressure is maintained in an aluminium thermometric fixed-point cell
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/L01
+docidentifier:
+- content: Metrologia 44 6 L73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/L01
+- content: 10.1088/0026-1394/44/6/L01
   type: doi
 date:
 - type: published
-  value: '2007-11-21'
+  at: '2007-11-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Patchariya Petchpong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Advanced Manufacturing and Enterprise Engineering Group, Brunel
             University, Uxbridge, Middlesex UB8 3PH, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David I Head
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2007-11-21'
 abstract:
-- content: "<p>The argon and helium pressure in two types of temperature fixed-point
-    cell enclosure has been measured for over two weeks. It was found that there was
-    no significant change in the argon pressure over this time, in contrast to the
-    report of Ancsin (2003 Metrologia 40 232–4). Helium was found to diffuse out of
-    the cell as expected. We conclude that argon is a suitable ‘back-fill’ gas for
-    fixed-point cells.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>The argon and helium pressure in two types of temperature fixed-point
+    cell enclosure has been measured for over two weeks. It was found that there was
+    no significant change in the argon pressure over this time, in contrast to the
+    report of Ancsin (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/40/5/304">2003
+    <italic>Metrologia</italic> <bold>40</bold> 232–4</ext-link>). Helium was found
+    to diffuse out of the cell as expected. We conclude that argon is a suitable ‘back-fill’
+    gas for fixed-point cells.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Argon pressure is maintained in an aluminium thermometric fixed-point
+    - language: en
+      script: Latn
+      content: Argon pressure is maintained in an aluminium thermometric fixed-point
         cell
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-11-21'
+      at: '2007-11-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Argon pressure is maintained in an aluminium thermometric fixed-point
+    - language: en
+      script: Latn
+      content: Argon pressure is maintained in an aluminium thermometric fixed-point
         cell
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +104,6 @@ extent:
     reference_from: L73
     reference_to: L75
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

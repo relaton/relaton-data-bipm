@@ -1,122 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465525
-title:
-- content: Helium virial coefficients—a comparison between new highly accurate theoretical
-    and experimental data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/017
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/017
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 525
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Helium virial coefficients—a comparison between new highly accurate theoretical
+    and experimental data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/017
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/017
+docidentifier:
+- content: Metrologia 46 5 525
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/017
+- content: 10.1088/0026-1394/46/5/017
   type: doi
 date:
 - type: published
-  value: '2009-07-31'
+  at: '2009-07-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christof Gaiser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernd Fellmuth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2009-07-31'
 abstract:
-- content: "<p>Critical tests of the accuracy of ab initio theoretical values of the
-    helium virial coefficients have been made based on experiments with a new dielectric-constant
-    gas thermometry (DCGT) setup established at PTB. As the main starting point, most
-    accurate experimental results for the thermodynamic temperature and the dielectric
-    polarizability of<sup>3</sup>He and<sup>4</sup>He have been deduced recently.
-    This paper now concentrates on the results for the two- and three-particle interaction
-    described by the second and third density virial coefficients of helium. A comparison
-    between experimental DCGT results and new highly accurate theoretical ab initio
-    results shows an impressive agreement. The experimental uncertainties have been
-    estimated via Monte-Carlo simulations and are comparable to the uncertainty of
-    the latest theory.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Critical tests of the accuracy of <italic>ab initio</italic> theoretical
+    values of the helium virial coefficients have been made based on experiments with
+    a new dielectric-constant gas thermometry (DCGT) setup established at PTB. As
+    the main starting point, most accurate experimental results for the thermodynamic
+    temperature and the dielectric polarizability of <sup>3</sup>He and <sup>4</sup>He
+    have been deduced recently. This paper now concentrates on the results for the
+    two- and three-particle interaction described by the second and third density
+    virial coefficients of helium. A comparison between experimental DCGT results
+    and new highly accurate theoretical <italic>ab initio</italic> results shows an
+    impressive agreement. The experimental uncertainties have been estimated via Monte-Carlo
+    simulations and are comparable to the uncertainty of the latest theory.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Helium virial coefficients—a comparison between new highly accurate
+    - language: en
+      script: Latn
+      content: Helium virial coefficients—a comparison between new highly accurate
         theoretical and experimental data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-07-31'
+      at: '2009-07-31'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Helium virial coefficients—a comparison between new highly accurate
+    - language: en
+      script: Latn
+      content: Helium virial coefficients—a comparison between new highly accurate
         theoretical and experimental data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: '525'
     reference_to: '533'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

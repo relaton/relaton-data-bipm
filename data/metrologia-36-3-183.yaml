@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia363183
-title:
-- content: Change of the apparent mass of weights arising from temperature differences
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/3/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/3/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 3 183
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Change of the apparent mass of weights arising from temperature differences
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/3/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/3/4
+docidentifier:
+- content: Metrologia 36 3 183
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/3/4
+- content: 10.1088/0026-1394/36/3/4
   type: doi
 date:
 - type: published
-  value: '1999-06-01'
+  at: '1999-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1999-06-01'
 abstract:
-- content: "<p>Thermal accommodation of 1 kg and 50 kg weights to ambient air under
+- language: en
+  script:
+  - Latn
+  content: "<p>Thermal accommodation of 1 kg and 50 kg weights to ambient air under
     different storing conditions and change of apparent mass due to temperature differences
     between weight and air have been measured. Physical models taking account of different
     heat transfer processes and of convective forces of flowing air acting on the
@@ -48,39 +44,31 @@ abstract:
     models are used to extrapolate the results and predict the change of apparent
     mass and waiting times for given residual deviations of apparent mass and residual
     temperature differences for weights of similar shape but other nominal values.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Change of the apparent mass of weights arising from temperature differences
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Change of the apparent mass of weights arising from temperature differences
     date:
     - type: ppub
-      value: '1999-06-01'
+      at: '1999-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '183'
     reference_to: '197'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,115 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia526G1
-title:
-- content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/6/G1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/6/G1
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 6 G1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/6/G1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/6/G1
+docidentifier:
+- content: Metrologia 52 6 G1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/6/G1
+- content: 10.1088/0026-1394/52/6/G1
   type: doi
 date:
 - type: published
-  value: '2015-10-01'
+  at: '2015-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Defraigne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: B-1180 Brussels, Belgium
         name:
         - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: B-1180 Brussels, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312, Sèvres, France
         name:
         - content: BIPM
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312, Sèvres, France
-  role:
-  - type: author
-revdate: '2015-10-01'
 abstract:
-- content: 'Abstract<p>The standard for GNSS time transfer was first defined in 1984,
-    associated to the use of GPS signals, which were at that time degraded by the
-    Selective Availability. It was updated at a few instances to follow the evolution
-    of GPS, of the receivers, and the inclusion of GLONASS. With the emergence of
-    additional navigation systems like Galileo, BeiDou, QZSS, the standard has to
-    be further adapted. This paper prepared by the CCTF Working Group on GNSS Time
-    Transfer details the associated extended standard, named CGGTTS for Common GNSS
-    Generic Time Transfer Standard, and the corresponding Version 2E of the format.</p><p>Full
-    paper</p><p>The full paper is available online at: https://metrologia.bipm.org/guides-stds-conventions/2015/G1.pdf</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The standard for GNSS time transfer was first defined in 1984, associated to the use of GPS signals, which were at that time degraded by the Selective Availability. It was updated at a few instances to follow the evolution of GPS, of the receivers, and the inclusion of GLONASS. With the emergence of additional navigation systems like Galileo, BeiDou, QZSS, the standard has to be further adapted. This paper prepared by the CCTF Working Group on GNSS Time Transfer details the associated extended standard, named CGGTTS for Common GNSS Generic Time Transfer Standard, and the corresponding Version 2E of the format.</p>
+    <p>Full paper</p>
+    <p>The full paper is available online at: <ext-link ext-link-type="uri" xlink:href="https://metrologia.bipm.org/guides-stds-conventions/2015/G1.pdf" xlink:type="simple">https://metrologia.bipm.org/guides-stds-conventions/2015/G1.pdf</ext-link>
+                </p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'CGGTTS-Version 2E : an extended standard for GNSS Time Transfer'
     date:
     - type: epub
-      value: '2015-10-19'
+      at: '2015-10-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +105,6 @@ extent:
     reference_from: G1
     reference_to: G1
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

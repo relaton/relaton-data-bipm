@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia114169
-title:
-- content: Über die Informationsfähigkeit eines Meβgerätes
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 4 169
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Über die Informationsfähigkeit eines Meβgerätes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/4/005
+docidentifier:
+- content: Metrologia 11 4 169
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/4/005
+- content: 10.1088/0026-1394/11/4/005
   type: doi
 date:
 - type: published
-  value: '1975-10-01'
+  at: '1975-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Masin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leningrad Polytechnic High School, Faculty for Information Measurement,
             Leningrad, USSR
-  role:
-  - type: author
-revdate: '1975-10-01'
 abstract:
-- content: "<p>For all measurements the problem of error estimation is very important.
+- language: en
+  script:
+  - Latn
+  content: "<p>For all measurements the problem of error estimation is very important.
     At time there exists an arbitrariness selecting a sultable error criterion for
     measured values and measuring devices. This arbitrariness is removed by means
     of the modern information theory. Thereby the law of the a priori distribution
     is of high importance. As the result of stipulated considerations two distribution
     laws are derived for constrained and unconstrained test data from which the mean
     information-error of a measuring device can be computed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Über die Informationsfähigkeit eines Meβgerätes
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
+    - language: de
+      script: Latn
+      content: Über die Informationsfähigkeit eines Meβgerätes
     date:
     - type: ppub
-      value: '1975-10-01'
+      at: '1975-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '169'
     reference_to: '177'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

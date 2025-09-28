@@ -1,109 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585055004
-title:
-- content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
-    equations between 13.8033 K and 273.16 K
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abfd8e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abfd8e
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 055004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
+    equations between 13.8033 K and 273.16 K
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abfd8e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abfd8e
+docidentifier:
+- content: Metrologia 58 5 055004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abfd8e
+- content: 10.1088/1681-7575/abfd8e
   type: doi
 date:
 - type: published
-  value: '2021-08-05'
+  at: '2021-08-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M C Rourke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2021-08-05'
 abstract:
-- content: Abstract<p>The International Temperature Scale of 1990 (ITS-90) underpins
-    much of modern thermometry, yet efforts to comprehensively characterize and improve
-    its reproducibility have been limited. Here, a low-uncertainty data set drawn
-    from 13 standard platinum resistance thermometers is used to quantify all three
-    main manifestations of scale irreproducibility over the range 13.8033 K to 273.16 K.
-    Four overlapping ITS-90 subranges are investigated, along with three prospective
-    approaches to temperature scale improvement. The current version of the Guide
-    to the Realization of the ITS-90 is found to overestimate scale realization uncertainties,
-    and recommendations are made to revise the guidance provided therein. Replacing
-    the ITS-90 deviation function of subrange 3 with a new version further improves
-    the interpolation quality of this subrange by a factor of two, and calibrating
-    thermometers at the triple point of xenon rather than the triple point of mercury
-    cuts the realization uncertainty of subrange 4 in half. New linear subranges spanning
-    from the triple point of water to the triple points of mercury or xenon could
-    be added to the scale without compromising the performance of the existing subranges.
-    Combining new interpolation equations with calibration at the triple point of
-    xenon provides the basis for a much more reproducible temperature scale than the
-    ITS-90, with magnification of fixed point uncertainties nearly eliminated for
-    all of subranges 1–4 above the triple point of oxygen.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The International Temperature Scale of 1990 (ITS-90) underpins much of modern thermometry, yet efforts to comprehensively characterize and improve its reproducibility have been limited. Here, a low-uncertainty data set drawn from 13 standard platinum resistance thermometers is used to quantify all three main manifestations of scale irreproducibility over the range 13.8033 K to 273.16 K. Four overlapping ITS-90 subranges are investigated, along with three prospective approaches to temperature scale improvement. The current version of the <italic toggle="yes">Guide to the Realization of the ITS-90</italic> is found to overestimate scale realization uncertainties, and recommendations are made to revise the guidance provided therein. Replacing the ITS-90 deviation function of subrange 3 with a new version further improves the interpolation quality of this subrange by a factor of two, and calibrating thermometers at the triple point of xenon rather than the triple point of mercury cuts the realization uncertainty of subrange 4 in half. New linear subranges spanning from the triple point of water to the triple points of mercury or xenon could be added to the scale without compromising the performance of the existing subranges. Combining new interpolation equations with calibration at the triple point of xenon provides the basis for a much more reproducible temperature scale than the ITS-90, with magnification of fixed point uncertainties nearly eliminated for all of subranges 1–4 above the triple point of oxygen.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian Crown Copyright IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian Crown Copyright IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
+    - script: Latn
+      content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
         equations between 13.8033 K and 273.16 K
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
+    - script: Latn
+      content: ITS-90 reproducibility, xenon fixed point substitution and new interpolating
         equations between 13.8033 K and 273.16 K
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-08-05'
+      at: '2021-08-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +83,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

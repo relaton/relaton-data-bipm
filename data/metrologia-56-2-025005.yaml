@@ -1,234 +1,178 @@
 ---
-schema-version: v1.2.9
-id: Metrologia562025005
-title:
-- content: Improving two-way satellite time and frequency transfer with redundant
-    links for UTC generation
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aafced
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aafced
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 2 025005
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Improving two-way satellite time and frequency transfer with redundant
+    links for UTC generation
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aafced
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aafced
+docidentifier:
+- content: Metrologia 56 2 025005
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aafced
+- content: 10.1088/1681-7575/aafced
   type: doi
 date:
 - type: published
-  value: '2019-02-22'
+  at: '2019-02-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhiheng Jiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sévres, France
         name:
         - content: BIPM, Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Sévres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Victor Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 325 Broadway, Boulder, CO 80305, United States of America
         name:
         - content: NIST, National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 325 Broadway, Boulder, CO 80305, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas E Parker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 325 Broadway, Boulder, CO 80305, United States of America
         name:
         - content: NIST, National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 325 Broadway, Boulder, CO 80305, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gérard Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sévres, France
         name:
         - content: BIPM, Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Sévres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yi-Jiun Huang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chunghwa Telecom, Chinese Taipei
         name:
         - content: TL, National Standard Time and Frequency Laboratory, Telecommunication
             Laboratories
-        contact:
-        - address:
-            formatted_address: Chunghwa Telecom, Chinese Taipei
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dirk Piester
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: PTB, Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joseph Achkar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CNRS, Sorbonne Université, 61 avenue de l’Observatoire,
+            75014 Paris, France
         name:
         - content: Université PSL
         subdivision:
-        - content: OP, LNE-SYRTE, Observatoire de Paris
-        contact:
-        - address:
-            formatted_address: CNRS, Sorbonne Université, 61 avenue de l’Observatoire,
-              75014 Paris, France
-  role:
-  - type: author
-revdate: '2019-02-22'
+        - name:
+          - language: en
+            script: Latn
+            content: OP, LNE-SYRTE, Observatoire de Paris
 abstract:
-- content: Abstract<p>Two-way satellite time and frequency transfer (TWSTFT) is a
-    primary technique for the generation of coordinated universal time (UTC). At present,
-    more than 12 timing laboratories around the world use SAtellite Time and Ranging
-    Equipment (SATRE) modems in TWSTFT operations and contribute data for the realization
-    of UTC. The advantages of TWSTFT are its small calibration uncertainty (⩽1.0 ns
-    if the link is calibrated with a TWSTFT mobile station) and its long-term link
-    stability. However, the precision of SATRE TWSTFT in the operational networks
-    is degraded by a daily variation pattern (diurnal) in the TWSTFT results. The
-    diurnal with varying amplitude appears virtually in all SATRE TWSTFT links. The
-    observed peak-to-peak variation of the diurnals can reach 2.0 ns in some cases.
-    So far, studies on the sources of the diurnal have not provided conclusive understanding
-    of the diurnal’s dominant origin.</p><p>Therefore, efforts have been made to reduce
-    the impact of the diurnal variation in TWSTFT for UTC computation. The BIPM has
-    been using the combination of SATRE TWSTFT results and GPS carrier-phase precise
-    point positioning solutions (GPSPPP) for UTC computation since 2010. The combination
-    adjusts the GPSPPP results to long-term averages of TWSTFT and is effectively
-    free from the diurnal variations because the GPSPPP results contain almost no
-    diurnal. Lately, the use of software-defined radio receivers (SDR) in TWSTFT has
-    shown one way of how to reduce the diurnal variations by a factor of two to three
-    in most of the inner-continental SATRE TWSTFT links, and furthermore, how the
-    short-term stability for all UTC SDR TWSTFT links can be improved. In addition,
-    there has been research on the full use of the redundancy in the TWSTFT network
-    to improve the TWSTFT link stability. Recent studies on evaluating indirect links
-    revealed that it is possible to apply a simplified procedure to use the redundancy,
-    in a most effective way, to reduce the diurnal variations in the Europe-to-Europe
-    SATRE TWSTFT links by a factor of two to three. Based on these findings, we gained
-    new insights about the diurnals and its dominant origin(s) which are discussed
-    in this paper. The methods of the combination of SATRE TWSTFT and GPSPPP as well
-    as the indirect SATRE TWSTFT links utilize the redundancy in the UTC time transfer
-    network. SDR TWSTFT can largely reduce the diurnal in SATRE TWSTFT, but noticeable
-    residual diurnal remains. In this paper, we provide the analyses of using the
-    combination of SDR TWSTFT and GPSPPP results, as well as using the indirect SDR
-    TWSTFT links. This paper concludes that the use of SDR TWSTFT redundant links
-    can further improve the stabilities of UTC TWSTFT links. In addition, the use
-    of SDR TWSTFT indirect links is a pure TWSTFT solution. The independence of the
-    TWSTFT results to GPS results can improve the robustness of UTC computation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Two-way satellite time and frequency transfer (TWSTFT) is a primary technique for the generation of coordinated universal time (UTC). At present, more than 12 timing laboratories around the world use SAtellite Time and Ranging Equipment (SATRE) modems in TWSTFT operations and contribute data for the realization of UTC. The advantages of TWSTFT are its small calibration uncertainty (⩽1.0 ns if the link is calibrated with a TWSTFT mobile station) and its long-term link stability. However, the precision of SATRE TWSTFT in the operational networks is degraded by a daily variation pattern (diurnal) in the TWSTFT results. The diurnal with varying amplitude appears virtually in all SATRE TWSTFT links. The observed peak-to-peak variation of the diurnals can reach 2.0 ns in some cases. So far, studies on the sources of the diurnal have not provided conclusive understanding of the diurnal’s dominant origin.</p>
+    <p>Therefore, efforts have been made to reduce the impact of the diurnal variation in TWSTFT for UTC computation. The BIPM has been using the combination of SATRE TWSTFT results and GPS carrier-phase precise point positioning solutions (GPSPPP) for UTC computation since 2010. The combination adjusts the GPSPPP results to long-term averages of TWSTFT and is effectively free from the diurnal variations because the GPSPPP results contain almost no diurnal. Lately, the use of software-defined radio receivers (SDR) in TWSTFT has shown one way of how to reduce the diurnal variations by a factor of two to three in most of the inner-continental SATRE TWSTFT links, and furthermore, how the short-term stability for all UTC SDR TWSTFT links can be improved. In addition, there has been research on the full use of the redundancy in the TWSTFT network to improve the TWSTFT link stability. Recent studies on evaluating indirect links revealed that it is possible to apply a simplified procedure to use the redundancy, in a most effective way, to reduce the diurnal variations in the Europe-to-Europe SATRE TWSTFT links by a factor of two to three. Based on these findings, we gained new insights about the diurnals and its dominant origin(s) which are discussed in this paper. The methods of the combination of SATRE TWSTFT and GPSPPP as well as the indirect SATRE TWSTFT links utilize the redundancy in the UTC time transfer network. SDR TWSTFT can largely reduce the diurnal in SATRE TWSTFT, but noticeable residual diurnal remains. In this paper, we provide the analyses of using the combination of SDR TWSTFT and GPSPPP results, as well as using the indirect SDR TWSTFT links. This paper concludes that the use of SDR TWSTFT redundant links can further improve the stabilities of UTC TWSTFT links. In addition, the use of SDR TWSTFT indirect links is a pure TWSTFT solution. The independence of the TWSTFT results to GPS results can improve the robustness of UTC computation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improving two-way satellite time and frequency transfer with redundant
+    - script: Latn
+      content: Improving two-way satellite time and frequency transfer with redundant
         links for UTC generation
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-04-01'
+      at: '2019-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improving two-way satellite time and frequency transfer with redundant
+    - script: Latn
+      content: Improving two-way satellite time and frequency transfer with redundant
         links for UTC generation
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-02-22'
+      at: '2019-02-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -236,6 +180,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

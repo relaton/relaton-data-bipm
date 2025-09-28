@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia272101
-title:
-- content: An International Intercomparison of Argon Triple Point Calibration Facilities,
-    Accommodating Long-stem Thermometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/2/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/2/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 2 101
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An International Intercomparison of Argon Triple Point Calibration Facilities,
+    Accommodating Long-stem Thermometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/2/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/2/009
+docidentifier:
+- content: Metrologia 27 2 101
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/2/009
+- content: 10.1088/0026-1394/27/2/009
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Bloembergen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Van Swinden Laboratory (VSL), 2600 AR-Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bonnier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut National de Métrologie (INM), F-75141 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Ronsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut National de Métrologie (INM), F-75141 Paris, France
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Argon triple point calibration facilities have been compared among
+- language: en
+  script:
+  - Latn
+  content: "<p>Argon triple point calibration facilities have been compared among
     eight laboratories with one transfer system, employing local long-stem standard
     platinum resistance thermometers. The apparatus intercompared, included a sealed
     cell and its associated cryostat. As is evidenced by the results of long-term
@@ -82,40 +74,32 @@ abstract:
     associated repeatabilities are typically of the order of 0,1 mK. The reproducibility
     attained by measuring the mean difference in different laboratories, using cells
     of the same type and origin (INM), amounts to 0,4 mK.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An International Intercomparison of Argon Triple Point Calibration
+    - language: en
+      script: Latn
+      content: An International Intercomparison of Argon Triple Point Calibration
         Facilities, Accommodating Long-stem Thermometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '101'
     reference_to: '106'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

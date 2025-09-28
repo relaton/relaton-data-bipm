@@ -1,131 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia443L31
-title:
-- content: Draft GUM Supplement 1 and Bayesian analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/3/N03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/3/N03
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 3 L31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Draft GUM Supplement 1 and Bayesian analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/3/N03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/3/N03
+docidentifier:
+- content: Metrologia 44 3 L31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/3/N03
+- content: 10.1088/0026-1394/44/3/N03
   type: doi
 date:
 - type: published
-  value: '2007-05-24'
+  at: '2007-05-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, 10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wolfgang Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Drosselweg 1, 50735 Köln, GermanyFormerly Physikalisch-Technische
             Bundesanstalt, Bundesallee 100, 38116 Braunschweig, Germany.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2007-05-24'
 abstract:
-- content: "<p>The relation between uncertainty evaluation according to the recent
+- language: en
+  script:
+  - Latn
+  content: "<p>The relation between uncertainty evaluation according to the recent
     draft of GUM Supplement 1 and the application of Bayesian statistics including
     Bayes' theorem is considered. In the case of a Type A evaluation of uncertainty,
     repeated measurement indications are regarded as independently drawn from normal
     frequency distributions and, according to its suggestion, the numerical evaluation
-    method of Supplement 1 is applied after having assigned scaled and shifted t-distributions
-    to the corresponding input quantities. It will be shown that this approach is
-    equivalent to a Bayesian analysis using Bayes' theorem with commonly used prior
-    distributions.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    method of Supplement 1 is applied <italic>after</italic> having assigned scaled
+    and shifted <italic>t</italic>-distributions to the corresponding input quantities.
+    It will be shown that this approach is equivalent to a Bayesian analysis using
+    Bayes' theorem with commonly used prior distributions.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Draft GUM Supplement 1 and Bayesian analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Draft GUM Supplement 1 and Bayesian analysis
     date:
     - type: epub
-      value: '2007-05-24'
+      at: '2007-05-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Draft GUM Supplement 1 and Bayesian analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Draft GUM Supplement 1 and Bayesian analysis
     date:
     - type: ppub
-      value: '2007-06-01'
+      at: '2007-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +117,6 @@ extent:
     reference_from: L31
     reference_to: L32
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

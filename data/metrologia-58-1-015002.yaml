@@ -1,196 +1,154 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015002
-title:
-- content: A fully digital bridge towards the realization of the farad from the quantum
-    Hall effect
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abba86
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abba86
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A fully digital bridge towards the realization of the farad from the quantum
+    Hall effect
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abba86
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abba86
+docidentifier:
+- content: Metrologia 58 1 015002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abba86
+- content: 10.1088/1681-7575/abba86
   type: doi
 date:
 - type: published
-  value: '2020-12-21'
+  at: '2020-12-21'
 contributor:
-- person:
-    name:
-      completename:
-        content: Martina Marzano
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
-        content: Massimo Ortolano
-        language:
-        - en
-        script:
-        - Latn
+        language: en
+        script: Latn
+        content: Martina Marzano
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
+        content: Massimo Ortolano
+    affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
+        name:
+        - content: Istituto Nazionale di Ricerca Metrologica
+    - organization:
+        address:
+        - formatted_address: Duca degli Abruzzi 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino Corso
-        contact:
-        - address:
-            formatted_address: Duca degli Abruzzi 24, 10129 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vincenzo D’Elia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: André Müller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesanstalt Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische
-        contact:
-        - address:
-            formatted_address: Bundesanstalt Bundesallee 100, 38116 Braunschweig,
-              Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Callegaro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2020-12-21'
 abstract:
-- content: Abstract<p>This paper presents the implementation of an electronic fully-digital
-    impedance bridge optimized for RC comparisons with equal impedance magnitudes,
-    together with an evaluation of the uncertainty. This bridge has been designed
-    with the goal of realizing the farad directly from the quantum Hall effect with
-    a bridge uncertainty component at the 10<sup>−7</sup> level. Thanks to its simple
-    design, ease of operation and affordability, this bridge is suitable to be industrially
-    manufactured. Together with the increasing availability of graphene quantum Hall
-    resistance standards, this can provide an affordable quantum realization of the
-    unit farad for metrology institutes and calibration centres.</p><p>In this paper
-    we present the uncertainty budget of an example measurement and the results of
-    the validation of the bridge against a suitably modified version of the traceability
-    chain of the Italian national standard of capacitance. The combined uncertainty
-    of the bridge resulted from repeated measurements (overall measurement time of
-    about 200 min) is 9.2 × 10<sup>−8</sup>, suitable for the primary realization
-    of the unit of capacitance from a quantized Hall resistance standard. The crosstalk
-    among the channels of the electrical generator is the most significant uncertainty
-    component, possibly reducible with internal shielding and filtering of the electronic
-    generator.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper presents the implementation of an electronic fully-digital impedance bridge optimized for <italic toggle="yes">RC</italic> comparisons with equal impedance magnitudes, together with an evaluation of the uncertainty. This bridge has been designed with the goal of realizing the farad directly from the quantum Hall effect with a bridge uncertainty component at the 10<sup>−7</sup> level. Thanks to its simple design, ease of operation and affordability, this bridge is suitable to be industrially manufactured. Together with the increasing availability of graphene quantum Hall resistance standards, this can provide an affordable quantum realization of the unit farad for metrology institutes and calibration centres.</p>
+    <p>In this paper we present the uncertainty budget of an example measurement and the results of the validation of the bridge against a suitably modified version of the traceability chain of the Italian national standard of capacitance. The combined uncertainty of the bridge resulted from repeated measurements (overall measurement time of about 200 min) is 9.2 × 10<sup>−8</sup>, suitable for the primary realization of the unit of capacitance from a quantized Hall resistance standard. The crosstalk among the channels of the electrical generator is the most significant uncertainty component, possibly reducible with internal shielding and filtering of the electronic generator.</p>
 copyright:
-- owner:
-  - name:
-    - content: The Author
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: The Author
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A fully digital bridge towards the realization of the farad from the
+    - script: Latn
+      content: A fully digital bridge towards the realization of the farad from the
         quantum Hall effect
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A fully digital bridge towards the realization of the farad from the
+    - script: Latn
+      content: A fully digital bridge towards the realization of the farad from the
         quantum Hall effect
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-12-21'
+      at: '2020-12-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A fully digital bridge towards the realization of the farad from the
+    - script: Latn
+      content: A fully digital bridge towards the realization of the farad from the
         quantum Hall effect
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2020-12-21'
+      at: '2020-12-21'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -198,6 +156,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

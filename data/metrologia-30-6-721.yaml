@@ -1,122 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306721
-title:
-- content: EUROMET Intercomparison in the Pressure Range 100 MPa to 700 (1000) MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/035
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/035
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 721
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: EUROMET Intercomparison in the Pressure Range 100 MPa to 700 (1000) MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/035
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/035
+docidentifier:
+- content: Metrologia 30 6 721
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/035
+- content: 10.1088/0026-1394/30/6/035
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Legras
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National d'Essais (LNE), 1 rue Gaston Boissier, F-75015
             Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Jäger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physicalisch-Technische Bundesanstalt, Bundesallee 100, Postfach
             33 45, D-38023 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G F Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Strada delle Cacce 73,
             I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Palomino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro Espanol de Metrologia, C/Del Alfar, 2-Apartado de Correos
             Num. 37, E-28760 Tres Cantos (Madrid), Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Quintas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Portugues da Qualidade, Rua José Estévao 83A, P-1199
             Lisboa Codex, Portugal
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Div. of Mechanical and Optical Metrology,
             Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>As part of the intercomparison decided upon by the CCM High Pressure
+- language: en
+  script:
+  - Latn
+  content: "<p>As part of the intercomparison decided upon by the CCM High Pressure
     Working Group in the pressure range 100 MPa to 700 MPa, an intercomparison has
     been carried out in the Western European countries. This paper gives the general
     results of the work. The standards intercompared were piston pressure balances
@@ -126,40 +112,32 @@ abstract:
     MPa. Demonstrating a very good agreement, the observed relative differences of
     the measured pressures were inside ± 50 × 10<sup>-6</sup> at 100 MPa and ± 170
     × 10<sup>-6</sup> at 700 MPa.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: EUROMET Intercomparison in the Pressure Range 100 MPa to 700 (1000)
+    - language: en
+      script: Latn
+      content: EUROMET Intercomparison in the Pressure Range 100 MPa to 700 (1000)
         MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +148,6 @@ extent:
     reference_from: '721'
     reference_to: '725'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

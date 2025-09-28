@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia124151
-title:
-- content: The Millman Effect in Cesium Beam Atomic Frequency Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 4 151
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Millman Effect in Cesium Beam Atomic Frequency Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/4/003
+docidentifier:
+- content: Metrologia 12 4 151
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/4/003
+- content: 10.1088/0026-1394/12/4/003
   type: doi
 date:
 - type: published
-  value: '1976-10-01'
+  at: '1976-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Mungall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council, Ottawa, Canada
-  role:
-  - type: author
-revdate: '1976-10-01'
 abstract:
-- content: "<p>A systematic frequency shift which reverses sign with either C field
+- language: en
+  script:
+  - Latn
+  content: "<p>A systematic frequency shift which reverses sign with either C field
     or beam reversal and which can be interpreted as the consequence of the Millman
     effect has been found in the new NRC cesium beam clock, CsV. A method of calculating
     the resonance asymmetry resulting from this effect and the dependence on the velocity
@@ -50,39 +46,31 @@ abstract:
     standards are discussed, and it is concluded that the most likely source is a
     very small variation in the direction of the C field over normal beam trajectories
     within the microwave interaction regions.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Millman Effect in Cesium Beam Atomic Frequency Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Millman Effect in Cesium Beam Atomic Frequency Standards
     date:
     - type: ppub
-      value: '1976-10-01'
+      at: '1976-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '151'
     reference_to: '158'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

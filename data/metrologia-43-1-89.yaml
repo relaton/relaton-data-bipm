@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43189
-title:
-- content: Pair-difference chi-squared statistics for Key Comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 89
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pair-difference chi-squared statistics for Key Comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/013
+docidentifier:
+- content: Metrologia 43 1 89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/013
+- content: 10.1088/0026-1394/43/1/013
   type: doi
 date:
 - type: published
-  value: '2005-12-07'
+  at: '2005-12-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Douglas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, Canada K1A 0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Steele
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '2005-12-07'
 abstract:
-- content: "<p>Pair-difference chi-squared statistics are useful for analysing metrological
+- language: en
+  script:
+  - Latn
+  content: "<p>Pair-difference chi-squared statistics are useful for analysing metrological
     consistency within a Key Comparison. We show how they relate to classical chi-squareds
     and how they can be used with full rigour, for any comparison of a scalar measurand,
     to compare the observed dispersion of results with the dispersion that would be
@@ -73,53 +67,42 @@ abstract:
     for a Key Comparison reported in the conventional way using a KCRV. The deficiencies
     of using solely the classical chi-squared test are discussed. A good remedy is
     available with pair-difference chi-squared statistics.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pair-difference chi-squared statistics for Key Comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Pair-difference chi-squared statistics for Key Comparisons
     date:
     - type: epub
-      value: '2005-12-07'
+      at: '2005-12-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pair-difference chi-squared statistics for Key Comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Pair-difference chi-squared statistics for Key Comparisons
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +113,6 @@ extent:
     reference_from: '89'
     reference_to: '97'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

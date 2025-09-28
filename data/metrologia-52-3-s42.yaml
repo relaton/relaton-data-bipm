@@ -1,139 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S42
-title:
-- content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
-    metrology
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S42
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S42
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S42
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
+    metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S42
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S42
+docidentifier:
+- content: Metrologia 52 3 S42
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S42
+- content: 10.1088/0026-1394/52/3/S42
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Philippe Cassette
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: F-91191 Gif sur Yvette cedex, France
         name:
         - content: CEA, LIST, Laboratoire National Henri Becquerel LNE-LNHB
-        contact:
-        - address:
-            formatted_address: F-91191 Gif sur Yvette cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: François Bochud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1–1007 Lausanne, Switzerland
         name:
         - content: Institute of Radiation Physics–Lausanne University Hospital–Rue
             du Grand-Pré
-        contact:
-        - address:
-            formatted_address: 1–1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Keightley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2015-05-22'
 abstract:
-- content: Abstract<p>This chapter presents possible uses and examples of Monte Carlo
-    methods for the evaluation of uncertainties in the field of radionuclide metrology.
-    The method is already well documented in GUM supplement 1, but here we present
-    a more restrictive approach, where the quantities of interest calculated by the
-    Monte Carlo method are estimators of the expectation and standard deviation of
-    the measurand, and the Monte Carlo method is used to propagate the uncertainties
-    of the input parameters through the measurement model. This approach is illustrated
-    by an example of the activity calibration of a<sup>103</sup>Pd source by liquid
-    scintillation counting and the calculation of a linear regression on experimental
-    data points. An electronic supplement presents some algorithms which may be used
-    to generate random numbers with various statistical distributions, for the implementation
-    of this Monte Carlo calculation method.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This chapter presents possible uses and examples of Monte Carlo methods for the evaluation of uncertainties in the field of radionuclide metrology. The method is already well documented in GUM supplement 1, but here we present a more restrictive approach, where the quantities of interest calculated by the Monte Carlo method are estimators of the expectation and standard deviation of the measurand, and the Monte Carlo method is used to propagate the uncertainties of the input parameters through the measurement model. This approach is illustrated by an example of the activity calibration of a <sup>103</sup>Pd source by liquid scintillation counting and the calculation of a linear regression on experimental data points. An electronic supplement presents some algorithms which may be used to generate random numbers with various statistical distributions, for the implementation of this Monte Carlo calculation method.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
+    - script: Latn
+      content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
         metrology
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
+    - script: Latn
+      content: Example of Monte Carlo uncertainty assessment in the field of radionuclide
         metrology
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +120,6 @@ extent:
     reference_from: S42
     reference_to: S50
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

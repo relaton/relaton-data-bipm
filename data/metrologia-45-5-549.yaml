@@ -1,108 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia455549
-title:
-- content: Allan variance of time series models for measurement data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/5/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/5/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 5 549
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Allan variance of time series models for measurement data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/5/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/5/009
+docidentifier:
+- content: Metrologia 45 5 549
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/5/009
+- content: 10.1088/0026-1394/45/5/009
   type: doi
 date:
 - type: published
-  value: '2008-09-23'
+  at: '2008-09-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2008-09-23'
 abstract:
-- content: "<p>The uncertainty of the mean of autocorrelated measurements from a stationary
+- language: en
+  script:
+  - Latn
+  content: "<p>The uncertainty of the mean of autocorrelated measurements from a stationary
     process has been discussed in the literature. However, when the measurements are
     from a non-stationary process, how to assess their uncertainty remains unresolved.
     Allan variance or two-sample variance has been used in time and frequency metrology
     for more than three decades as a substitute for the classical variance to characterize
     the stability of clocks or frequency standards when the underlying process is
-    a 1/f noise process. However, its applications are related only to the noise models
-    characterized by the power law of the spectral density. In this paper, from the
-    viewpoint of the time domain, we provide a statistical underpinning of the Allan
-    variance for discrete stationary processes, random walk and long-memory processes
-    such as the fractional difference processes including the noise models usually
-    considered in time and frequency metrology. Results show that the Allan variance
-    is a better measure of the process variation than the classical variance of the
-    random walk and the non-stationary fractional difference processes including the
-    1/f noise.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    a 1/<italic>f</italic> noise process. However, its applications are related only
+    to the noise models characterized by the power law of the spectral density. In
+    this paper, from the viewpoint of the time domain, we provide a statistical underpinning
+    of the Allan variance for discrete stationary processes, random walk and long-memory
+    processes such as the fractional difference processes including the noise models
+    usually considered in time and frequency metrology. Results show that the Allan
+    variance is a better measure of the process variation than the classical variance
+    of the random walk and the non-stationary fractional difference processes including
+    the 1/<italic>f</italic> noise.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Allan variance of time series models for measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Allan variance of time series models for measurement data
     date:
     - type: epub
-      value: '2008-09-23'
+      at: '2008-09-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Allan variance of time series models for measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Allan variance of time series models for measurement data
     date:
     - type: ppub
-      value: '2008-10-01'
+      at: '2008-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: '549'
     reference_to: '561'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

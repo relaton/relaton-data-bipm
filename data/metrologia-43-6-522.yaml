@@ -1,104 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia436522
-title:
-- content: Uncertainty analysis by moments for asymmetric variables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/6/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/6/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 6 522
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty analysis by moments for asymmetric variables
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/6/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/6/007
+docidentifier:
+- content: Metrologia 43 6 522
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/6/007
+- content: 10.1088/0026-1394/43/6/007
   type: doi
 date:
 - type: published
-  value: '2006-11-13'
+  at: '2006-11-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Industrial Research Ltd, PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2006-11-13'
 abstract:
-- content: "<p>This paper gives equations that enable a method of uncertainty analysis
-    recently described (Willink R 2005 Metrologia 42 329–43) to accommodate influence
-    variables with asymmetric probability distributions. The equations permit the
-    calculation of 90%, 95%, 98% and 99% coverage intervals [a, b] for the measurand
-    Y = F(X<sub>1</sub>,…, X<sub>m</sub>) from the first four moments of an approximating
-    distribution. The equations for 90% and 98% are presented so that the one-sided
-    probability statements Pr(Y ⩾ a) = P and Pr(Y ⩽ b) = P can be supplied for the
-    familiar probability levels of P = 95% and P = 99%. Additional equations are provided
-    so that the exact moments can be calculated in certain non-linear problems. An
-    improved method is given for dealing with inputs that have shifted and scaled
-    t-distributions with 4 or fewer degrees of freedom, for which the first four moments
-    do not all exist.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>This paper gives equations that enable a method of uncertainty analysis
+    recently described (Willink R 2005 <italic>Metrologia</italic> <bold>42</bold>
+    329–43) to accommodate influence variables with asymmetric probability distributions.
+    The equations permit the calculation of 90%, 95%, 98% and 99% coverage intervals
+    [<italic>a</italic>, <italic>b</italic>] for the measurand <italic>Y</italic>
+    = <italic>F</italic>(<italic>X</italic><sub>1</sub>,…, <italic>X</italic><sub><italic>m</italic></sub>)
+    from the first four moments of an approximating distribution. The equations for
+    90% and 98% are presented so that the one-sided probability statements Pr(<italic>Y</italic>
+    ⩾ <italic>a</italic>) = <italic>P</italic> and Pr(<italic>Y</italic> ⩽ <italic>b</italic>)
+    = <italic>P</italic> can be supplied for the familiar probability levels of <italic>P</italic>
+    = 95% and <italic>P</italic> = 99%. Additional equations are provided so that
+    the exact moments can be calculated in certain non-linear problems. An improved
+    method is given for dealing with inputs that have shifted and scaled <italic>t</italic>-distributions
+    with 4 or fewer degrees of freedom, for which the first four moments do not all
+    exist.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis by moments for asymmetric variables
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty analysis by moments for asymmetric variables
     date:
     - type: epub
-      value: '2006-11-13'
+      at: '2006-11-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis by moments for asymmetric variables
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty analysis by moments for asymmetric variables
     date:
     - type: ppub
-      value: '2006-12-01'
+      at: '2006-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +97,6 @@ extent:
     reference_from: '522'
     reference_to: '530'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

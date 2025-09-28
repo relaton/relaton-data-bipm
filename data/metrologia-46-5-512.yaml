@@ -1,93 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465512
-title:
-- content: Reduced non-linearities and improved temperature measurements for the NIST
-    Johnson noise thermometer**<p>US government work, not protected by US copyright.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/016
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/016
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 512
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reduced non-linearities and improved temperature measurements for the NIST
+    Johnson noise thermometer<xref ref-type="fn" rid="fn-article-title-en-1">*</xref><fn
+    id="fn-article-title-en-1"><label>*</label><p>US government work, not protected
+    by US copyright.</p></fn>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/016
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/016
+docidentifier:
+- content: Metrologia 46 5 512
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/016
+- content: 10.1088/0026-1394/46/5/016
   type: doi
 date:
 - type: published
-  value: '2009-07-31'
+  at: '2009-07-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jifeng Qu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 325 Broadway, Boulder,
             CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S P Benz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 325 Broadway, Boulder,
             CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Rogalla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Applied Physics, University of Twente, PO Box 217,
             7500 AE Enschede, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory, PO Box 31310, Lower Hutt, New
             Zealand
-  role:
-  - type: author
-revdate: '2009-07-31'
 abstract:
-- content: "<p>The variance of temperature measurements made with the NIST Johnson
+- language: en
+  script:
+  - Latn
+  content: "<p>The variance of temperature measurements made with the NIST Johnson
     noise thermometer has been reduced by the use of improved cross-correlation electronics
     and a unique method for measuring and reducing non-linearities. The spectral response
     of the voltage noise and the reproducibility of the measured temperature were
@@ -102,57 +94,48 @@ abstract:
     waveforms that have higher tone density are shown to reduce the distortion generated
     by the remaining non-linearities so that the variance of the measurement is no
     longer limited and continues to decrease with measurement time as expected.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reduced non-linearities and improved temperature measurements for the
-        NIST Johnson noise thermometer**<p>US government work, not protected by US
-        copyright.</p>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Reduced non-linearities and improved temperature measurements for the
+        NIST Johnson noise thermometer<xref ref-type="fn" rid="fn-article-title-en-1">*</xref><fn
+        id="fn-article-title-en-1"><label>*</label><p>US government work, not protected
+        by US copyright.</p></fn>
     date:
     - type: epub
-      value: '2009-07-31'
+      at: '2009-07-31'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reduced non-linearities and improved temperature measurements for the
-        NIST Johnson noise thermometer**<p>US government work, not protected by US
-        copyright.</p>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Reduced non-linearities and improved temperature measurements for the
+        NIST Johnson noise thermometer<xref ref-type="fn" rid="fn-article-title-en-1">*</xref><fn
+        id="fn-article-title-en-1"><label>*</label><p>US government work, not protected
+        by US copyright.</p></fn>
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -163,6 +146,6 @@ extent:
     reference_from: '512'
     reference_to: '524'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

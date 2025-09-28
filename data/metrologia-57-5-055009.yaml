@@ -1,131 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia575055009
-title:
-- content: Characterization of a newly developed diaphragmless shock tube for the
-    primary dynamic calibration of pressure meters
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab8f79
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab8f79
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 5 055009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Characterization of a newly developed diaphragmless shock tube for the
+    primary dynamic calibration of pressure meters
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab8f79
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab8f79
+docidentifier:
+- content: Metrologia 57 5 055009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab8f79
+- content: 10.1088/1681-7575/ab8f79
   type: doi
 date:
 - type: published
-  value: '2020-09-07'
+  at: '2020-09-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Svete
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ljubljana SI-1000, Slovenia
         name:
         - content: University of Ljubljana
         subdivision:
-        - content: Laboratory of Measurements in Process Engineering, Faculty of Mechanical
-            Engineering
-        contact:
-        - address:
-            formatted_address: Ljubljana SI-1000, Slovenia
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Laboratory of Measurements in Process Engineering, Faculty of
+              Mechanical Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Kutin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ljubljana SI-1000, Slovenia
         name:
         - content: University of Ljubljana
         subdivision:
-        - content: Laboratory of Measurements in Process Engineering, Faculty of Mechanical
-            Engineering
-        contact:
-        - address:
-            formatted_address: Ljubljana SI-1000, Slovenia
-  role:
-  - type: author
-revdate: '2020-09-07'
+        - name:
+          - language: en
+            script: Latn
+            content: Laboratory of Measurements in Process Engineering, Faculty of
+              Mechanical Engineering
 abstract:
-- content: Abstract<p>In conventional shock tubes with a diaphragm, many effects related
-    to the burst of the diaphragm can influence shock formation, thus preventing an
-    ideal pressure step change, as predicted by the shock tube measurement model being
-    generated. This paper presents a newly developed diaphragmless shock tube with
-    a quick-acting pneumatic valve, which demonstrates several advantages over conventional
-    shock tubes with a diaphragm. The tests of the developed diaphragmless shock tube
-    were performed using nitrogen at the atmospheric initial driven pressure, and
-    at initial driver gauge pressures from 1 MPa to 7 MPa. The results show that the
-    construction of the developed shock tube effectively reduces the generation of
-    secondary shock waves and mechanical vibrations, which are often generated during
-    the operation of shock tubes, thereby increasing the uncertainty of the shock
-    tube calibration method. The uncertainty analysis shows that the developed diphragmless
-    shock tube can act as a primary time-varying pressure calibration standard, generating
-    pressure steps with a magnitude calculable from its measurement model to characterize
-    the dynamic performance of pressure transducers with a relative expanded uncertainty
-    of less than 0.025.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In conventional shock tubes with a diaphragm, many effects related to the burst of the diaphragm can influence shock formation, thus preventing an ideal pressure step change, as predicted by the shock tube measurement model being generated. This paper presents a newly developed diaphragmless shock tube with a quick-acting pneumatic valve, which demonstrates several advantages over conventional shock tubes with a diaphragm. The tests of the developed diaphragmless shock tube were performed using nitrogen at the atmospheric initial driven pressure, and at initial driver gauge pressures from 1 MPa to 7 MPa. The results show that the construction of the developed shock tube effectively reduces the generation of secondary shock waves and mechanical vibrations, which are often generated during the operation of shock tubes, thereby increasing the uncertainty of the shock tube calibration method. The uncertainty analysis shows that the developed diphragmless shock tube can act as a primary time-varying pressure calibration standard, generating pressure steps with a magnitude calculable from its measurement model to characterize the dynamic performance of pressure transducers with a relative expanded uncertainty of less than 0.025.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of a newly developed diaphragmless shock tube for
+    - script: Latn
+      content: Characterization of a newly developed diaphragmless shock tube for
         the primary dynamic calibration of pressure meters
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-10-01'
+      at: '2020-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of a newly developed diaphragmless shock tube for
+    - script: Latn
+      content: Characterization of a newly developed diaphragmless shock tube for
         the primary dynamic calibration of pressure meters
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-09-07'
+      at: '2020-09-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +114,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

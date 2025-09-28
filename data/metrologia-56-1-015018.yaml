@@ -1,193 +1,159 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015018
-title:
-- content: Surrogate accelerated Bayesian inversion for the determination of the thermal
-    diffusivity of a material
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf984
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf984
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015018
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Surrogate accelerated Bayesian inversion for the determination of the thermal
+    diffusivity of a material
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf984
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf984
+docidentifier:
+- content: Metrologia 56 1 015018
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf984
+- content: 10.1088/1681-7575/aaf984
   type: doi
 date:
 - type: published
-  value: '2019-01-18'
+  at: '2019-01-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James A J Rynn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
         name:
         - content: University of Manchester
         subdivision:
-        - content: Alan Turing Building
-        contact:
-        - address:
-            formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
+        - name:
+          - language: en
+            script: Latn
+            content: Alan Turing Building
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Simon L Cotter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
         name:
         - content: University of Manchester
         subdivision:
-        - content: Alan Turing Building
-        contact:
-        - address:
-            formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Alan Turing Building
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Catherine E Powell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
         name:
         - content: University of Manchester
         subdivision:
-        - content: Alan Turing Building
-        contact:
-        - address:
-            formatted_address: Oxford Road, Manchester, M13 9PL, United Kingdom
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Alan Turing Building
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Louise Wright
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2019-01-18'
 abstract:
-- content: Abstract<p>Determination of the thermal properties of a material is an
-    important task in many scientific and engineering applications. How a material
-    behaves when subjected to high or fluctuating temperatures can be critical to
-    the safety and longevity of a system’s essential components. The laser flash experiment
-    is a well-established technique for indirectly measuring the thermal diffusivity,
-    and hence the thermal conductivity, of a material. In previous works, optimization
-    schemes have been used to find estimates of the thermal conductivity and other
-    quantities of interest which best fit a given model to experimental data. Adopting
-    a Bayesian approach allows for prior beliefs about uncertain model inputs to be
-    conditioned on experimental data to determine a posterior distribution, but probing
-    this distribution using sampling techniques such as Markov chain Monte Carlo methods
-    can be incredibly computationally intensive. This difficulty is especially true
-    for forward models consisting of time-dependent partial differential equations.
-    We pose the problem of determining the thermal conductivity of a material via
-    the laser flash experiment as a Bayesian inverse problem in which the laser intensity
-    is also treated as uncertain. We introduce a parametric surrogate model that takes
-    the form of a stochastic Galerkin finite element approximation, also known as
-    a generalized polynomial chaos expansion, and show how it can be used to sample
-    efficiently from the approximate posterior distribution. This approach gives access
-    not only to the sought-after estimate of the thermal conductivity but also important
-    information about its relationship to the laser intensity, and information for
-    uncertainty quantification. Moreover, this approach leads to significant speed
-    up over traditional methods by orders of magnitude. We also investigate the effects
-    of the spatial profile of the laser on the estimated posterior distribution for
-    the thermal conductivity.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Determination of the thermal properties of a material is an important task in many scientific and engineering applications. How a material behaves when subjected to high or fluctuating temperatures can be critical to the safety and longevity of a system’s essential components. The laser flash experiment is a well-established technique for indirectly measuring the thermal diffusivity, and hence the thermal conductivity, of a material. In previous works, optimization schemes have been used to find estimates of the thermal conductivity and other quantities of interest which best fit a given model to experimental data. Adopting a Bayesian approach allows for prior beliefs about uncertain model inputs to be conditioned on experimental data to determine a posterior distribution, but probing this distribution using sampling techniques such as Markov chain Monte Carlo methods can be incredibly computationally intensive. This difficulty is especially true for forward models consisting of time-dependent partial differential equations. We pose the problem of determining the thermal conductivity of a material via the laser flash experiment as a Bayesian inverse problem in which the laser intensity is also treated as uncertain. We introduce a parametric surrogate model that takes the form of a stochastic Galerkin finite element approximation, also known as a generalized polynomial chaos expansion, and show how it can be used to sample efficiently from the approximate posterior distribution. This approach gives access not only to the sought-after estimate of the thermal conductivity but also important information about its relationship to the laser intensity, and information for uncertainty quantification. Moreover, this approach leads to significant speed up over traditional methods by orders of magnitude. We also investigate the effects of the spatial profile of the laser on the estimated posterior distribution for the thermal conductivity.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Surrogate accelerated Bayesian inversion for the determination of the
+    - script: Latn
+      content: Surrogate accelerated Bayesian inversion for the determination of the
         thermal diffusivity of a material
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Surrogate accelerated Bayesian inversion for the determination of the
+    - script: Latn
+      content: Surrogate accelerated Bayesian inversion for the determination of the
         thermal diffusivity of a material
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-01-18'
+      at: '2019-01-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Surrogate accelerated Bayesian inversion for the determination of the
+    - script: Latn
+      content: Surrogate accelerated Bayesian inversion for the determination of the
         thermal diffusivity of a material
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2019-01-18'
+      at: '2019-01-18'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -195,6 +161,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

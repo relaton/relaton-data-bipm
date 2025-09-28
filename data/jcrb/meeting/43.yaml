@@ -1,81 +1,66 @@
 ---
-schema-version: v1.2.9
 id: JCRB-2021-43
-title:
-- content: 43rd meeting of the JCRB (online)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 43<sup>e</sup> réunion du JCRB (en ligne)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/43-2021
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/43-2021
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/52682569/43_09_KCDB_Report_to_JCRB43_Mar21.pdf/ec9bca13-0d8e-2812-f157-fdd417247f2e
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-43.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-43.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB 43rd Meeting (2021)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 43rd meeting of the JCRB (online)
+- language: fr
+  script: Latn
+  content: 43<sup>e</sup> réunion du JCRB (en ligne)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/43-2021
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/43-2021
+- type: pdf
+  content: https://www.bipm.org/documents/20126/52682569/43_09_KCDB_Report_to_JCRB43_Mar21.pdf/ec9bca13-0d8e-2812-f157-fdd417247f2e
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-43.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-43.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: JCRB 43rd Meeting (2021)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: JCRB 43<sup>e</sup> réunion (2021)
+  content: JCRB 43<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: JCRB 43rd Meeting (2021) / JCRB 43<sup>e</sup> réunion (2021)
+- content: JCRB 43rd Meeting (2021) / JCRB 43<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
 docnumber: JCRB 43rd Meeting (2021)
 date:
 - type: published
-  value: '2021-03-17'
+  at: '2021-03-17'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2021-03-17'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -84,8 +69,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '43'

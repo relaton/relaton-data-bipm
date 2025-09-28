@@ -1,122 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia25121
-title:
-- content: International Comparison in the Pressure Range 20 - 100 MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 1 21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison in the Pressure Range 20 - 100 MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/1/005
+docidentifier:
+- content: Metrologia 25 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/1/005
+- content: 10.1088/0026-1394/25/1/005
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Legras
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National d'Essais, 1, Rue Gaston Bossier, F-75015 Paris,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S L Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW 11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G F Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Strada delle Cacce 73, 1-10135
             Turin, Italy
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>An international comparison in the pressure range 20 - 100 MPa has
-    been carried out under the auspices of the high-pressure working group of the
-    Comité Consultatif pour la Masse et les grandeurs apparentées (CCM) of the Comité
-    International des Poids et Mesures (CIPM). The Standards Laboratories of 13 countries
-    have participated in this comparison, which took place during the period 1981
-    - 1985. This paper presents a résumé of the comparison.</p><p>The transfer standard
-    used was an oil-operated pressure balance. Each laboratory determined the effective
-    area of the piston-cylinder assembly of this balance in the pressure range 20
-    - 100 MPa. The results of the measurement of the effective area extrapolated to
-    zero applied pressure agreed within 204 parts per million (ppm) for all 13 laboratories
-    (9 laboratories agreed within 53 ppm). The results of the measurement of the effective
-    area at 100 MPa agreed within 414 ppm for all 13 laboratories (8 laboratories
-    agreed within 78 ppm).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>An international comparison in the pressure range 20 - 100 MPa has been carried out under the auspices of the high-pressure working group of the Comité Consultatif pour la Masse et les grandeurs apparentées (CCM) of the Comité International des Poids et Mesures (CIPM). The Standards Laboratories of 13 countries have participated in this comparison, which took place during the period 1981 - 1985. This paper presents a résumé of the comparison.</p>
+    <p>The transfer standard used was an oil-operated pressure balance. Each laboratory determined the effective area of the piston-cylinder assembly of this balance in the pressure range 20 - 100 MPa. The results of the measurement of the effective area extrapolated to zero applied pressure agreed within 204 parts per million (ppm) for all 13 laboratories (9 laboratories agreed within 53 ppm). The results of the measurement of the effective area at 100 MPa agreed within 414 ppm for all 13 laboratories (8 laboratories agreed within 78 ppm).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison in the Pressure Range 20 - 100 MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International Comparison in the Pressure Range 20 - 100 MPa
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +101,6 @@ extent:
     reference_from: '21'
     reference_to: '28'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

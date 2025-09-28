@@ -1,95 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2811
-title:
-- content: Metrologia
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/28/1/E01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/1/E01
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: "<italic>Metrologia</italic>"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/1/E01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/1/E01
+docidentifier:
+- content: Metrologia 28 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/1/E01
+- content: 10.1088/0026-1394/28/1/E01
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D A Blackburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: '<p>Visually, this issue of Metrologia differs markedly from those of recent
-    years. The cover is changed and the layout of articles is not quite what it was
-    before. Older readers, however, may notice that the colour of our new cover is
-    that used for the original eleven volumes published in the period 1965-1975. The
-    choice is deliberate: this combination of innovation with a respect for older
-    forms characterizes the way Metrologia will operate under its new publisher the
-    Bureau International des Poids et Mesures.</p><p>In discussion of the new Metrologia,
-    one decision was firm: our underlying editorial policy remains fixed. Metrologia
-    will remain a primary vehicle through which the metrological community communicates
-    progress in fundamental scientific measurements, reports original experiments
-    and techniques, reviews work in specialist fields and disseminates the decisions
-    of the Comité International des Poids et Mesures.</p><p>This year, we plan six
-    issues. Four will be regular research issues, one, appearing mid-Summer, will
-    record the proceedings of the meeting held in Davos, Switzerland 20-22 September
-    1990 on "New Developments and Advances in Optical Radiometry III" and another,
-    towards the end of the year, will review progress in Nanometrology. If successful,
-    the pattern will be repeated, the intention being that the research issues continue
-    Metrologia''s historical line of interest, the conference issues expose the journal
-    to new authors and the review issues realize a long-standing, but largely inactive,
-    objective of editorial policy, the provision of retrospective evaluations of important
-    topics and the assessment of likely developments in selected aspects of metrology.</p>'
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Visually, this issue of  <italic>Metrologia</italic> differs markedly from those of recent years. The cover is changed and the layout of articles is not quite what it was before. Older readers, however, may notice that the colour of our new cover is that used for the original eleven volumes published in the period 1965-1975. The choice is deliberate: this combination of innovation with a respect for older forms characterizes the way  <italic>Metrologia</italic> will operate under its new publisher the Bureau International des Poids et Mesures.</p>
+    <p>In discussion of the new  <italic>Metrologia</italic>, one decision was firm: our underlying editorial policy remains fixed.  <italic>Metrologia</italic> will remain a primary vehicle through which the metrological community communicates progress in fundamental scientific measurements, reports original experiments and techniques, reviews work in specialist fields and disseminates the decisions of the Comité International des Poids et Mesures.</p>
+    <p>This year, we plan six issues. Four will be regular research issues, one, appearing mid-Summer, will record the proceedings of the meeting held in Davos, Switzerland 20-22 September 1990 on "New Developments and Advances in Optical Radiometry III" and another, towards the end of the year, will review progress in  <italic>Nanometrology</italic>. If successful, the pattern will be repeated, the intention being that the research issues continue  <italic>Metrologia</italic>'s historical line of interest, the conference issues expose the journal to new authors and the review issues realize a long-standing, but largely inactive, objective of editorial policy, the provision of retrospective evaluations of important topics and the assessment of likely developments in selected aspects of metrology.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrologia
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: "<italic>Metrologia</italic>"
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +71,6 @@ extent:
     reference_from: '1'
     reference_to: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

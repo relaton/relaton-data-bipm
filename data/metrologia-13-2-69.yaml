@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia13269
-title:
-- content: An Improved Theory of the Instrumental Corrections for Absolute Radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 13 2 69
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Improved Theory of the Instrumental Corrections for Absolute Radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/2/005
+docidentifier:
+- content: Metrologia 13 2 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/2/005
+- content: 10.1088/0026-1394/13/2/005
   type: doi
 date:
 - type: published
-  value: '1977-04-01'
+  at: '1977-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Hengstberger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Research Laboratory, South African Council for
             Scientific and Industrial Research, PO Box 395, Pretoria, Republic of
             South Africa
-  role:
-  - type: author
-revdate: '1977-04-01'
 abstract:
-- content: "<p>An improved theory of the instrumental corrections applied to absolute
+- language: en
+  script:
+  - Latn
+  content: "<p>An improved theory of the instrumental corrections applied to absolute
     radiometers, with the exception of the effect of sensitivity variations across
     the receiver surface, is derived. After a brief review of the historical emergence
     of correction factors and finally of a formal correction theory, as formulated
@@ -59,39 +55,31 @@ abstract:
     loss through the heater wires is provided. All correction terms in the new theory
     are treated as functions of the applied power and can also be determined as such.
     In conclusion both the scope and the limitations of the theory are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Improved Theory of the Instrumental Corrections for Absolute Radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Improved Theory of the Instrumental Corrections for Absolute Radiometers
     date:
     - type: ppub
-      value: '1977-04-01'
+      at: '1977-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +90,6 @@ extent:
     reference_from: '69'
     reference_to: '78'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

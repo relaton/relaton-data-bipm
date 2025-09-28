@@ -1,170 +1,139 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522392
-title:
-- content: Bayesian analysis of a flow meter calibration problem
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/392
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/392
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 392
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian analysis of a flow meter calibration problem
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/392
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/392
+docidentifier:
+- content: Metrologia 52 2 392
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/392
+- content: 10.1088/0026-1394/52/2/392
   type: doi
 date:
 - type: published
-  value: '2015-04-01'
+  at: '2015-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G J P Kok
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A M H van der Veen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2015-04-01'
 abstract:
-- content: Abstract<p>A turbine flow meter indicates the volume of fluid flowing through
-    the device per unit of time. Such a flow meter is commonly calibrated at a few
-    known flow rates over its measurement range. A calibration curve relating the
-    pulse factor of the meter to the flow rate is then fitted to calibration data
-    using an ordinary least squares approach. This approach does not consider prior
-    knowledge that may exist about the flow meter or the calibration procedure. A
-    Bayesian analysis enables prior knowledge to be taken into account. A Bayesian
-    inference results in a posterior distribution for the unknown parameters of the
-    calibration curve that may be seen as the most comprehensive uncertainty information
-    about these unknowns. This paper investigates for a flow meter calibration problem
-    the effects of appreciating prior knowledge on values of the calibration curve
-    and their associated uncertainties. It presents the results of a Bayesian analysis
-    and compares them to those obtained by an ordinary least squares approach.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A turbine flow meter indicates the volume of fluid flowing through the device per unit of time. Such a flow meter is commonly calibrated at a few known flow rates over its measurement range. A calibration curve relating the pulse factor of the meter to the flow rate is then fitted to calibration data using an ordinary least squares approach. This approach does not consider prior knowledge that may exist about the flow meter or the calibration procedure. A Bayesian analysis enables prior knowledge to be taken into account. A Bayesian inference results in a posterior distribution for the unknown parameters of the calibration curve that may be seen as the most comprehensive uncertainty information about these unknowns. This paper investigates for a flow meter calibration problem the effects of appreciating prior knowledge on values of the calibration curve and their associated uncertainties. It presents the results of a Bayesian analysis and compares them to those obtained by an ordinary least squares approach.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian analysis of a flow meter calibration problem
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian analysis of a flow meter calibration problem
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian analysis of a flow meter calibration problem
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian analysis of a flow meter calibration problem
     date:
     - type: epub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -175,6 +144,6 @@ extent:
     reference_from: '392'
     reference_to: '399'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

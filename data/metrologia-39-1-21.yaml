@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia39121
-title:
-- content: Comparison of artefact standards by more than two laboratories
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1 21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of artefact standards by more than two laboratories
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1/4
+docidentifier:
+- content: Metrologia 39 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/4
+- content: 10.1088/0026-1394/39/1/4
   type: doi
 date:
 - type: published
-  value: '2002-02-01'
+  at: '2002-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Frenkel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO
-  role:
-  - type: author
-revdate: '2002-02-01'
 abstract:
-- content: '<p>Laboratory comparisons of artefact standards may follow a "star-shaped"
+- language: en
+  script:
+  - Latn
+  content: '<p>Laboratory comparisons of artefact standards may follow a "star-shaped"
     sequence ABACA... or a "round-robin" sequence ABC...A, where A is the pilot laboratory.
     For each of these sequences, two analysis procedures are described: "overall constant
     drift" (OCD) and "separately fitted lines" (SFL). SFL is well suited to cases
@@ -50,39 +46,31 @@ abstract:
     positions in the sequence, and also induce significant interlaboratory correlations.
     These disadvantages are less pronounced with the star sequence, where SFL in particular
     assigns equal uncertainties regardless of position in the sequence.</p>'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of artefact standards by more than two laboratories
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of artefact standards by more than two laboratories
     date:
     - type: ppub
-      value: '2002-02-01'
+      at: '2002-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '21'
     reference_to: '29'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

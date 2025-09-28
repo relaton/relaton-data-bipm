@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465591
-title:
-- content: Improved methods for comparing gas and hydraulic pressure balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/025
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/025
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 591
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improved methods for comparing gas and hydraulic pressure balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/025
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/025
+docidentifier:
+- content: Metrologia 46 5 591
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/025
+- content: 10.1088/0026-1394/46/5/025
   type: doi
 date:
 - type: published
-  value: '2009-10-01'
+  at: '2009-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tokihiko Kobata
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan (NMIJ), AIST, Tsukuba, Ibaraki
             305-8563, Japan
-  role:
-  - type: author
-revdate: '2009-10-01'
 abstract:
-- content: "<p>Two methods for comparing the pressures of different media generated
+- language: en
+  script:
+  - Latn
+  content: "<p>Two methods for comparing the pressures of different media generated
     by gas and hydraulic pressure balances are examined in order to improve the consistency
     between gas and hydraulic pressure standards. One method uses a gas–liquid separator
     and the other uses a liquid-lubricated pressure balance. The pressure range examined
@@ -52,53 +48,42 @@ abstract:
     both methods agree within the combined standard uncertainty over the entire pressure
     range. Thus, both methods examined in this study are found to be useful for comparing
     gas and hydraulic pressure balances accurately.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved methods for comparing gas and hydraulic pressure balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improved methods for comparing gas and hydraulic pressure balances
     date:
     - type: epub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved methods for comparing gas and hydraulic pressure balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improved methods for comparing gas and hydraulic pressure balances
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: '591'
     reference_to: '598'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

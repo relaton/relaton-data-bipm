@@ -1,129 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S17
-title:
-- content: Low-uncertainty absolute radiometric calibration of a CCD
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S04
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S04
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Low-uncertainty absolute radiometric calibration of a CCD
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S04
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S04
+docidentifier:
+- content: Metrologia 43 2 S17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S04
+- content: 10.1088/0026-1394/43/2/S04
   type: doi
 date:
 - type: published
-  value: '2006-03-23'
+  at: '2006-03-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alejandro Ferrero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
             Cientificas (CSIC), c/Serrano 144, 28006 Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joaquin Campos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
             Cientificas (CSIC), c/Serrano 144, 28006 Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alicia Pons
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto de Fisica Aplicada, Consejo Superior de Investigaciones
             Cientificas (CSIC), c/Serrano 144, 28006 Madrid, Spain
-  role:
-  - type: author
-revdate: '2006-03-23'
 abstract:
-- content: "<p>This work presents an experimental method for the low-uncertainty calibration
+- language: en
+  script:
+  - Latn
+  content: "<p>This work presents an experimental method for the low-uncertainty calibration
     of the spectral radiant exposure responsivity of a CCD detector. It comprises
     a description of the experimental set-up as well as an analysis of the various
     sources of uncertainty. The overall result shows that the calibration procedure-related
     uncertainty is only 0.18% as long as the temperature is kept constant and the
     field of view is kept lower than 13°.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-uncertainty absolute radiometric calibration of a CCD
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-uncertainty absolute radiometric calibration of a CCD
     date:
     - type: epub
-      value: '2006-03-23'
+      at: '2006-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-uncertainty absolute radiometric calibration of a CCD
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-uncertainty absolute radiometric calibration of a CCD
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +115,6 @@ extent:
     reference_from: S17
     reference_to: S21
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

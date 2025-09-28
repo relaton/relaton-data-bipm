@@ -1,108 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia492S124
-title:
-- content: A new method for spectral irradiance and radiance responsivity calibrations
-    using kilohertz pulsed tunable optical parametric oscillators
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/2/S124
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/2/S124
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 2 S124
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A new method for spectral irradiance and radiance responsivity calibrations
+    using kilohertz pulsed tunable optical parametric oscillators
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/2/S124
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/2/S124
+docidentifier:
+- content: Metrologia 49 2 S124
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/2/S124
+- content: 10.1088/0026-1394/49/2/S124
   type: doi
 date:
 - type: published
-  value: '2012-03-02'
+  at: '2012-03-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuqin Zong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Steven W Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: George P Eppeldauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Keith R Lykke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yoshi Ohno
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
-  - type: author
-revdate: '2012-03-02'
 abstract:
-- content: "<p>Continuous-wave (CW) tunable lasers have been used for detector calibrations,
+- language: en
+  script:
+  - Latn
+  content: "<p>Continuous-wave (CW) tunable lasers have been used for detector calibrations,
     especially for spectral irradiance and radiance responsivity, for many years at
     the National Institute of Standards and Technology (NIST) and other national metrology
     institutes. These CW tunable lasers, however, are expensive and difficult to automate.
@@ -113,59 +101,52 @@ abstract:
     current integrators (also called charge amplifiers) to measure the total integrated
     electric charges from a test detector and a standard detector, respectively. The
     absolute expanded uncertainty of this method is estimated to be 0.05% (with a
-    coverage factor of k = 2) for spectral irradiance responsivity calibrations, and
-    the dominant uncertainty contribution is from the reference trap detector.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    coverage factor of <italic>k</italic> = 2) for spectral irradiance responsivity
+    calibrations, and the dominant uncertainty contribution is from the reference
+    trap detector.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new method for spectral irradiance and radiance responsivity calibrations
+    - language: en
+      script: Latn
+      content: A new method for spectral irradiance and radiance responsivity calibrations
         using kilohertz pulsed tunable optical parametric oscillators
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-03-02'
+      at: '2012-03-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new method for spectral irradiance and radiance responsivity calibrations
+    - language: en
+      script: Latn
+      content: A new method for spectral irradiance and radiance responsivity calibrations
         using kilohertz pulsed tunable optical parametric oscillators
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-04-01'
+      at: '2012-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -176,6 +157,6 @@ extent:
     reference_from: S124
     reference_to: S129
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

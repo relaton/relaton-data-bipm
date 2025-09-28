@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425360
-title:
-- content: Calibration of photovoltaic reference cells by the global sunlight method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 360
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of photovoltaic reference cells by the global sunlight method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/004
+docidentifier:
+- content: Metrologia 42 5 360
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/004
+- content: 10.1088/0026-1394/42/5/004
   type: doi
 date:
 - type: published
-  value: '2005-08-01'
+  at: '2005-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Harald Müllejans
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -39,16 +35,14 @@ contributor:
             Institute for Environment and Sustainability, Renewable Energies Unit,
             European Solar Test Installation, TP 450, Via Fermi 1, I-21020 Ispra (VA),
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Willem Zaaiman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -56,16 +50,14 @@ contributor:
             Institute for Environment and Sustainability, Renewable Energies Unit,
             European Solar Test Installation, TP 450, Via Fermi 1, I-21020 Ispra (VA),
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ewan D Dunlop
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -73,16 +65,14 @@ contributor:
             Institute for Environment and Sustainability, Renewable Energies Unit,
             European Solar Test Installation, TP 450, Via Fermi 1, I-21020 Ispra (VA),
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Heinz A Ossenbrink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -90,11 +80,11 @@ contributor:
             Institute for Environment and Sustainability, Renewable Energies Unit,
             European Solar Test Installation, TP 450, Via Fermi 1, I-21020 Ispra (VA),
             Italy
-  role:
-  - type: author
-revdate: '2005-08-01'
 abstract:
-- content: "<p>The global sunlight method for the calibration of reference photovoltaic
+- language: en
+  script:
+  - Latn
+  content: "<p>The global sunlight method for the calibration of reference photovoltaic
     cells is described and illustrated with results from recent measurements. In this
     method, the short circuit current of the solar cell is recorded as it tracks the
     sun's position. This current, corrected for temperature and total irradiance deviation,
@@ -105,55 +95,44 @@ abstract:
     (in particular conditions) the need for spectral irradiance measurements and corresponding
     relative spectral response determination. It has an estimated expanded uncertainty
     of 1% and agrees to better than 0.5% with the CVs of the World Photovoltaic Scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of photovoltaic reference cells by the global sunlight
+    - language: en
+      script: Latn
+      content: Calibration of photovoltaic reference cells by the global sunlight
         method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-08-01'
+      at: '2005-08-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of photovoltaic reference cells by the global sunlight
+    - language: en
+      script: Latn
+      content: Calibration of photovoltaic reference cells by the global sunlight
         method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -164,6 +143,6 @@ extent:
     reference_from: '360'
     reference_to: '367'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

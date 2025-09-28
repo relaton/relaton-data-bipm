@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S254
-title:
-- content: Thermal neutron standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S254
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermal neutron standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S03
+docidentifier:
+- content: Metrologia 48 6 S254
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S03
+- content: 10.1088/0026-1394/48/6/S03
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J G Williams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Professor of Nuclear Engineering, Aero/Mechanical Engineering,
             University of Arizona, Tucson, AZ 85721, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D M Gilliam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ionizing Radiation Division, Physics Laboratory, National Institute
             of Standards and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>Over the 50-year history of Section III (Neutron Measurements) of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Over the 50-year history of Section III (Neutron Measurements) of the
     Consultative Committee for Ionizing Radiation of the International Committee for
     Weights and Measures, only a single interlaboratory comparison of thermal neutron
     measurements has been completed, although a new comparison of this kind is in
@@ -69,55 +63,47 @@ abstract:
     various conventions for describing thermal neutron fields, corrections for self-absorption
     and scattering in detector materials and the selection of detectors based on established
     thermal neutron cross-section standards.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermal neutron standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermal neutron standards
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermal neutron standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermal neutron standards
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +114,6 @@ extent:
     reference_from: S254
     reference_to: S262
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

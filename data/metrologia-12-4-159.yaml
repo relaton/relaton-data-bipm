@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia124159
-title:
-- content: Interferometrische Ablesevorrichtung für Präzisionswaagen
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 4 159
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Interferometrische Ablesevorrichtung für Präzisionswaagen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/4/004
+docidentifier:
+- content: Metrologia 12 4 159
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/4/004
+- content: 10.1088/0026-1394/12/4/004
   type: doi
 date:
 - type: published
-  value: '1976-10-01'
+  at: '1976-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lotmar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eidgenössisches Amt für Maß und Gewicht, Wabern, Schweiz
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J G Ulrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eidgenössisches Amt für Maß und Gewicht, Wabern, Schweiz
-  role:
-  - type: author
-revdate: '1976-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Interferometrische Ablesevorrichtung für Präzisionswaagen
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
+    - language: de
+      script: Latn
+      content: Interferometrische Ablesevorrichtung für Präzisionswaagen
     date:
     - type: ppub
-      value: '1976-10-01'
+      at: '1976-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '159'
     reference_to: '163'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

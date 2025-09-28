@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia286433
-title:
-- content: Nanometrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/6/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/6/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 6 433
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Nanometrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/6/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/6/001
+docidentifier:
+- content: Metrologia 28 6 433
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/6/001
+- content: 10.1088/0026-1394/28/6/001
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Yoshida
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Project Director, Yoshida Nano-Mechanism Project, JRDC; Senior
             Managing Director, Nikon Corporation, Fuji Building, 3-2-3 Marunouchi,
             Chiyoda-ku, Tokyo 100, Japan
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>In the Yoshida Nano-Mechanism Project, two types of nanometrology have
+- language: en
+  script:
+  - Latn
+  content: "<p>In the Yoshida Nano-Mechanism Project, two types of nanometrology have
     been studied: microtopography measurement with the scanning tunnelling microscope
     (STM) and distance measurement with the laser interferometer. Using the STM, graphite
     surfaces and biological samples were examined and a modification of the STM instrumentation,
@@ -52,39 +48,31 @@ abstract:
     through the need for feedback position sensors. Control technology, in turn, creates
     new possibilities for measurement technology. Position control to one nanometre
     has now been achieved.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nanometrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Nanometrology
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '433'
     reference_to: '441'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,136 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia44191
-title:
-- content: Uncertainty of a frequency comparison with distributed dead time and measurement
-    interval offset
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1 91
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty of a frequency comparison with distributed dead time and measurement
+    interval offset
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1/014
+docidentifier:
+- content: Metrologia 44 1 91
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1/014
+- content: 10.1088/0026-1394/44/1/014
   type: doi
 date:
 - type: published
-  value: '2007-02-01'
+  at: '2007-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dai-Hyuk Yu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science, PO Box 102,
             Yuseong, Daejeon 305-600, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marc Weiss
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 325 Broadway, Boulder,
             CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas E Parker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 325 Broadway, Boulder,
             CO 80305, USA
-  role:
-  - type: author
-revdate: '2007-02-01'
 abstract:
-- content: "<p>A theory is presented for estimating the uncertainty of a frequency
-    comparison in the presence of distributed dead time or measurement interval offset
-    using an extension of the method of Douglas and Boulanger (1997 Proc. 11th European
-    Frequency and Time Forum pp 345–9). The uncertainties due to the distributed dead
-    time and lumped dead time with mixed power law noise type are calculated and compared.
-    It is shown that the use of distributed measurements of frequencies can greatly
-    reduce the uncertainty as compared with that of lumped measurements. When a measurement
-    interval offset is present, two different methods are possible for the frequency
-    estimation and uncertainty evaluation. We compare and discuss the different results
-    for the different methods.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A theory is presented for estimating the uncertainty of a frequency
+    comparison in the presence of distributed dead time or measurement interval offset
+    using an extension of the method of Douglas and Boulanger (1997 <italic>Proc.
+    11th European Frequency and Time Forum</italic> pp 345–9). The uncertainties due
+    to the distributed dead time and lumped dead time with mixed power law noise type
+    are calculated and compared. It is shown that the use of distributed measurements
+    of frequencies can greatly reduce the uncertainty as compared with that of lumped
+    measurements. When a measurement interval offset is present, two different methods
+    are possible for the frequency estimation and uncertainty evaluation. We compare
+    and discuss the different results for the different methods.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of a frequency comparison with distributed dead time and
+    - language: en
+      script: Latn
+      content: Uncertainty of a frequency comparison with distributed dead time and
         measurement interval offset
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-02-02'
+      at: '2007-02-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of a frequency comparison with distributed dead time and
+    - language: en
+      script: Latn
+      content: Uncertainty of a frequency comparison with distributed dead time and
         measurement interval offset
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-02-01'
+      at: '2007-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: '91'
     reference_to: '96'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

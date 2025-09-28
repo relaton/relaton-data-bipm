@@ -1,111 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524600
-title:
-- content: Validation of a geometrical model for the calculation of the integrated
-    effective emissivity of conical cavities with a lid
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/600
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/600
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 600
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Validation of a geometrical model for the calculation of the integrated
+    effective emissivity of conical cavities with a lid
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/600
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/600
+docidentifier:
+- content: Metrologia 52 4 600
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/600
+- content: 10.1088/0026-1394/52/4/600
   type: doi
 date:
 - type: published
-  value: '2015-08-01'
+  at: '2015-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Javier De Lucas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Esteban Terradas’, Centro de Metrología y Calibración
+            Ctra. De Ajalvir, km. 4, 28850, Torrejón de Ardoz, Madrid, Spain
         name:
         - content: Instituto Nacional de Técnica Aeroespacial
-        contact:
-        - address:
-            formatted_address: Esteban Terradas’, Centro de Metrología y Calibración
-              Ctra. De Ajalvir, km. 4, 28850, Torrejón de Ardoz, Madrid, Spain
-  role:
-  - type: author
-revdate: '2015-08-01'
 abstract:
-- content: Abstract<p>In this paper, a geometrical model for the numerical calculation
-    of the integrated effective emissivity of conical isothermal cavities with a lid,
-    is described in detail. We make use of the Montecarlo method and the ‘back ray
-    tracing’ technique, assuming diffuse reflection and a detector situated at an
-    arbitrary distance from the cavity aperture. First, the geometry of the problem
-    is discussed and the local hemispherical emissivity profiles along the cone generatrix
-    are calculated for different configurations. Then we proceed to the validation
-    of the model, by calculating the distribution of the reflected photons in the
-    interior of the cavity, such as it is provided by the numerical algorithm. The
-    calculated distribution is compared with theoretical values, obtained from the
-    expressions of the view factors for the conical geometry.</p><p>The calculated
-    values for the local and integrated effective emissivity are compared with results
-    published by other authors, highlighting the differences between them, and the
-    internal consistency of our model is demonstrated. Special attention to the calculation
-    of the view factors in conical cavities affected by vignetting due to the obstruction
-    produced by the lid, is paid. The view factors of points at the penumbral region
-    are numerically calculated, applying the Montecarlo method, including a complete
-    analysis of the uncertainty.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In this paper, a geometrical model for the numerical calculation of the integrated effective emissivity of conical isothermal cavities with a lid, is described in detail. We make use of the Montecarlo method and the ‘back ray tracing’ technique, assuming diffuse reflection and a detector situated at an arbitrary distance from the cavity aperture. First, the geometry of the problem is discussed and the local hemispherical emissivity profiles along the cone generatrix are calculated for different configurations. Then we proceed to the validation of the model, by calculating the distribution of the reflected photons in the interior of the cavity, such as it is provided by the numerical algorithm. The calculated distribution is compared with theoretical values, obtained from the expressions of the view factors for the conical geometry.</p>
+    <p>The calculated values for the local and integrated effective emissivity are compared with results published by other authors, highlighting the differences between them, and the internal consistency of our model is demonstrated. Special attention to the calculation of the view factors in conical cavities affected by vignetting due to the obstruction produced by the lid, is paid. The view factors of points at the penumbral region are numerically calculated, applying the Montecarlo method, including a complete analysis of the uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of a geometrical model for the calculation of the integrated
+    - script: Latn
+      content: Validation of a geometrical model for the calculation of the integrated
         effective emissivity of conical cavities with a lid
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of a geometrical model for the calculation of the integrated
+    - script: Latn
+      content: Validation of a geometrical model for the calculation of the integrated
         effective emissivity of conical cavities with a lid
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-08-03'
+      at: '2015-08-03'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +93,6 @@ extent:
     reference_from: '600'
     reference_to: '612'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445415
-title:
-- content: Combining inconsistent data from interlaboratory comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/019
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/019
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 415
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Combining inconsistent data from interlaboratory comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/019
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/019
+docidentifier:
+- content: Metrologia 44 5 415
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/019
+- content: 10.1088/0026-1394/44/5/019
   type: doi
 date:
 - type: published
-  value: '2007-09-27'
+  at: '2007-09-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2007-09-27'
 abstract:
-- content: "<p>The most widely used procedure for finding the value of a quantity
+- language: en
+  script:
+  - Latn
+  content: "<p>The most widely used procedure for finding the value of a quantity
     from data obtained from interlaboratory comparisons involves calculating the inverse-variance
     weighted mean of the laboratories' estimates. This method produces adequate results
     if the data are consistent. However, sometimes a consistency test reveals the
@@ -49,53 +45,42 @@ abstract:
     task. In this paper the Bayesian understanding of probability is used to derive
     three methods that may be applied in the case when the data appear to be inconsistent.
     The performances of these methods are compared through a simulated example.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combining inconsistent data from interlaboratory comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Combining inconsistent data from interlaboratory comparisons
     date:
     - type: epub
-      value: '2007-09-27'
+      at: '2007-09-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combining inconsistent data from interlaboratory comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Combining inconsistent data from interlaboratory comparisons
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: '415'
     reference_to: '421'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

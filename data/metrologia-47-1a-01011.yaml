@@ -1,98 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia471A01011
-title:
-- content: 'Final report on supplementary comparison EUROMET.EM-S23 (EURAMET project
-    No 815): Bilateral comparison of inductive voltage divider'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/1A/01011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/1A/01011
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 1A 01011
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on supplementary comparison EUROMET.EM-S23 (EURAMET project
+    No 815): Bilateral comparison of inductive voltage divider'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/1A/01011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/1A/01011
+docidentifier:
+- content: Metrologia 47 1A 01011
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/1A/01011
+- content: 10.1088/0026-1394/47/1A/01011
   type: doi
 date:
 - type: published
-  value: '2010-01-01'
+  at: '2010-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Florin Mirea
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Metrology (INM), 11 Vitan-Birzesti Road,
             sector 4, 042122, Bucharest, Romania
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erik Dierikx
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VSL, Thijsseweg 11, NL-2629 JA, Delft, The Netherlands
-  role:
-  - type: author
-revdate: '2010-01-01'
 abstract:
-- content: |-
-    <p>This report presents the results of a bilateral comparison of the measurements on an inductive voltage divider within the framework of EURAMET. The aim of the project is a comparison of AC voltage ratio measurements between INM, Romania, and VSL, the Netherlands.</p><p>Measurements of the decade ratios 0.1, 0.2,... 0.9 were performed at the following frequencies and voltages: 55 Hz/5 V, 400 Hz/10 V and 1 kHz/10 V.</p><p>The agreement between the results from both laboratories is well within 0.2 × 10<sup>−6</sup> V/V for the in-phase ratio deviations and within 1.0 × 10<sup>−6</sup> V/V for the quadrature deviations.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This report presents the results of a bilateral comparison of the measurements on an inductive voltage divider within the framework of EURAMET. The aim of the project is a comparison of AC voltage ratio measurements between INM, Romania, and VSL, the Netherlands.</p>
+    <p>Measurements of the decade ratios 0.1, 0.2, ... 0.9 were performed at the following frequencies and voltages: 55 Hz/5 V, 400 Hz/10 V and 1 kHz/10 V.</p>
+    <p>The agreement between the results from both laboratories is well within 0.2 × 10<sup>−6</sup> V/V for the in-phase ratio deviations and within 1.0 × 10<sup>−6</sup> V/V for the quadrature deviations.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/S23/EUROMET.EM-S23.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on supplementary comparison EUROMET.EM-S23 (EURAMET project
+    - language: en
+      script: Latn
+      content: 'Final report on supplementary comparison EUROMET.EM-S23 (EURAMET project
         No 815): Bilateral comparison of inductive voltage divider'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-01-01'
+      at: '2010-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +93,6 @@ extent:
     reference_from: '01011'
     reference_to: '01011'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

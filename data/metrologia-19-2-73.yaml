@@ -1,94 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19273
+type: article
+schema_version: v1.4.1
 title:
-- content: Comparison of the<sup>127</sup>I<sub>2</sub>-Stabilized He-Ne Lasers at
+- language: en
+  script: Latn
+  content: Comparison of the <sup>127</sup>I<sub>2</sub>-Stabilized He-Ne Lasers at
     633 nm Wavelength of the Czechoslovak Institute of Metrology and the Bureau International
     des Poids et Mesures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/19/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/2/005
-  type: doi
-type: article
-docid:
-- id: Metrologia 19 2 73
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/2/005
+docidentifier:
+- content: Metrologia 19 2 73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/2/005
+- content: 10.1088/0026-1394/19/2/005
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Blabla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Czechoslovak Institute of Metrology (CSMU), Department of Quantum
             Metrology, CS-150 72 Praha, Czechoslovakia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Smydke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Czechoslovak Institute of Metrology (CSMU), Department of Quantum
             Metrology, CS-150 72 Praha, Czechoslovakia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>The results of a comparison between iodine-stabilized He-Ne lasers
+- language: en
+  script:
+  - Latn
+  content: "<p>The results of a comparison between iodine-stabilized He-Ne lasers
     of the CSMU and of the BIPM are presented. A successive-difference two-probe standard
     deviation ⟨ σ<sup>2</sup> (2, τ) ⟩<sup>1/2</sup> of 1 × 10<sup>-12</sup> at τ
     = 100 s and a mean frequency difference between the CSMU lasers and the BIPM laser
@@ -96,41 +86,33 @@ abstract:
     been obtained. The linear coefficients of the modulation and pressure shifts correspond
     to published values. The frequency differences between fourteen iodine hyperfine
     structure components have been determined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the<sup>127</sup>I<sub>2</sub>-Stabilized He-Ne Lasers
+    - language: en
+      script: Latn
+      content: Comparison of the <sup>127</sup>I<sub>2</sub>-Stabilized He-Ne Lasers
         at 633 nm Wavelength of the Czechoslovak Institute of Metrology and the Bureau
         International des Poids et Mesures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +123,6 @@ extent:
     reference_from: '73'
     reference_to: '75'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

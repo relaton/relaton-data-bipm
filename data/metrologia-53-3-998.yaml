@@ -1,123 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia533998
-title:
-- content: Implications of adopting plane angle as a base quantity in the SI
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/998
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/998
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 998
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Implications of adopting plane angle as a base quantity in the SI
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/998
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/998
+docidentifier:
+- content: Metrologia 53 3 998
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/998
+- content: 10.1088/0026-1394/53/3/998
   type: doi
 date:
 - type: published
-  value: '2016-06-01'
+  at: '2016-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul Quincey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Environment Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, UK
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Environment Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard J C Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Environment Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-06-01'
+        - name:
+          - language: en
+            script: Latn
+            content: Environment Division
 abstract:
-- content: Abstract<p>The treatment of angles within the SI is anomalous compared
-    with other quantities, and there is a case for removing this anomaly by declaring
-    plane angle to be an additional base quantity within the system. It is shown that
-    this could bring several benefits in terms of treating angle on an equal basis
-    with other metrics, removing potentially harmful ambiguities, and bringing SI
-    units more in line with concepts in basic physics, but at the expense of significant
-    upheaval to familiar equations within mathematics and physics. This paper sets
-    out the most important of these changes so that an alternative unit system containing
-    angle as a base quantity can be seen in the round, irrespective of whether it
-    is ever widely adopted. The alternative formulas and units can be treated as the
-    underlying, more general equations of mathematical physics, independent of the
-    units used for angle, which are conventionally simplified by implicitly assuming
-    that the unit used for angle is the radian.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The treatment of angles within the SI is anomalous compared with other quantities, and there is a case for removing this anomaly by declaring plane angle to be an additional base quantity within the system. It is shown that this could bring several benefits in terms of treating angle on an equal basis with other metrics, removing potentially harmful ambiguities, and bringing SI units more in line with concepts in basic physics, but at the expense of significant upheaval to familiar equations within mathematics and physics. This paper sets out the most important of these changes so that an alternative unit system containing angle as a base quantity can be seen in the round, irrespective of whether it is ever widely adopted. The alternative formulas and units can be treated as the underlying, more general equations of mathematical physics, independent of the units used for angle, which are conventionally simplified by implicitly assuming that the unit used for angle is the radian.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Implications of adopting plane angle as a base quantity in the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Implications of adopting plane angle as a base quantity in the SI
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Implications of adopting plane angle as a base quantity in the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Implications of adopting plane angle as a base quantity in the SI
     date:
     - type: epub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +112,6 @@ extent:
     reference_from: '998'
     reference_to: '1002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

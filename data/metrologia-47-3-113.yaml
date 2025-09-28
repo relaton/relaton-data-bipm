@@ -1,124 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia473113
-title:
-- content: 'Analysis of key comparisons: estimating laboratories'' biases by a fixed
-    effects model using Bayesian model averaging'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/47/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 3 113
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Analysis of key comparisons: estimating laboratories'' biases by a fixed
+    effects model using Bayesian model averaging'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/3/001
+docidentifier:
+- content: Metrologia 47 3 113
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/3/001
+- content: 10.1088/0026-1394/47/3/001
   type: doi
 date:
 - type: published
-  value: '2010-03-11'
+  at: '2010-03-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, Information Technology Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
-  - type: author
-revdate: '2010-03-11'
 abstract:
-- content: "<p>We propose a novel procedure for the analysis of key comparison data.
+- language: en
+  script:
+  - Latn
+  content: "<p>We propose a novel procedure for the analysis of key comparison data.
     The goal of the procedure is to detect biases in the reported measurement results
     which are not accounted for by quoted uncertainties. A fixed effects bias model
     is employed which constrains the biases of some of the laboratories to zero. Only
-    the number of these laboratories needs to be specified, not the laboratories themselves.
-    The analysis then runs through all possible different models, each assuming zero
-    biases for a different subset of laboratories. The results from these models are
-    finally merged by employing a Bayesian model averaging technique. Explicit formulae
-    are derived which allow for an easy application of the proposed approach. The
-    procedure is illustrated by its application to data from the CCL-K1 key comparison.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    the <italic>number</italic> of these laboratories needs to be specified, not the
+    laboratories themselves. The analysis then runs through all possible different
+    models, each assuming zero biases for a different <italic>subset</italic> of laboratories.
+    The results from these models are finally merged by employing a Bayesian model
+    averaging technique. Explicit formulae are derived which allow for an easy application
+    of the proposed approach. The procedure is illustrated by its application to data
+    from the CCL-K1 key comparison.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Analysis of key comparisons: estimating laboratories'' biases by a
+    - language: en
+      script: Latn
+      content: 'Analysis of key comparisons: estimating laboratories'' biases by a
         fixed effects model using Bayesian model averaging'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2010-03-11'
+      at: '2010-03-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Analysis of key comparisons: estimating laboratories'' biases by a
+    - language: en
+      script: Latn
+      content: 'Analysis of key comparisons: estimating laboratories'' biases by a
         fixed effects model using Bayesian model averaging'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2010-06-01'
+      at: '2010-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +116,6 @@ extent:
     reference_from: '113'
     reference_to: '119'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

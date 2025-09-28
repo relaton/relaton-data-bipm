@@ -1,98 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1911
-title:
-- content: A Viewpoint on the Quantity "Solid Angle"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/19/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Viewpoint on the Quantity "Solid Angle"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/1/002
+docidentifier:
+- content: Metrologia 19 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/1/002
+- content: 10.1088/0026-1394/19/1/002
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W E Eder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical Engineering, Royal Military College of
             Canada, Kingston, Ontario, Canada K7L 2W3
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: <p>Properties of the quantity "Solid Angle" are explored under the hypothesis
-    that "Plane Angle" is a dimensional quantity, as was proposed in a previous paper.
-    This exploration proceeds by considering rotations (plane angles) compounded in
-    space.</p><p>It is shown that five degrees of freedom would be sufficient to define
-    the location and direction of a line in 3-D space. For the purpose of dimensional
-    analysis, it is shown that the relationship between Plane and Solid Angles can
-    be expressed as {A<sup>2</sup>} = {SA}, but it is also shown that this relationship
-    cannot be applied directly to the existing units of plane and solid angles.</p><p>The
-    relationships of Plane Angles to the generation of areas on spherical surfaces,
-    particularly those of spherical triangles, are presented, and brought into the
-    context of the definitions of units of solid angle, especially that of the SI
-    unit, the Steradian. Two special conditions are presented under which Solid Angle
-    and Plane Angle are by coincidence directly proportional, i.e. by rotating a second
-    plane angle around the axis common to both the plane and the solid angle in question.</p><p>Other
-    existing or proposed units of Solid Angle are explored to test possible proportionality,
-    or physical interpretation in terms of geometric figures on the sphere. No such
-    interpretation is discovered.</p><p>It is concluded that it would not be justified
-    to move the Steradian into the Base Units of SI, and that the status of this unit
-    within SI requires careful re-evaluation.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Properties of the quantity "Solid Angle" are explored under the hypothesis that "Plane Angle" is a dimensional quantity, as was proposed in a previous paper. This exploration proceeds by considering rotations (plane angles) compounded in space.</p>
+    <p>It is shown that five degrees of freedom would be sufficient to define the location and direction of a line in 3-D space. For the purpose of dimensional analysis, it is shown that the relationship between Plane and Solid Angles can be expressed as {A<sup>2</sup>} = {SA}, but it is also shown that this relationship cannot be applied directly to the existing units of plane and solid angles.</p>
+    <p>The relationships of Plane Angles to the generation of areas on spherical surfaces, particularly those of spherical triangles, are presented, and brought into the context of the definitions of units of solid angle, especially that of the SI unit, the Steradian. Two special conditions are presented under which Solid Angle and Plane Angle are by coincidence directly proportional, i.e. by rotating a second plane angle around the axis common to both the plane and the solid angle in question.</p>
+    <p>Other existing or proposed units of Solid Angle are explored to test possible proportionality, or physical interpretation in terms of geometric figures on the sphere. No such interpretation is discovered.</p>
+    <p>It is concluded that it would not be justified to move the Steradian into the Base Units of SI, and that the status of this unit within SI requires careful re-evaluation.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Viewpoint on the Quantity "Solid Angle"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: A Viewpoint on the Quantity "Solid Angle"
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +78,6 @@ extent:
     reference_from: '1'
     reference_to: '8'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

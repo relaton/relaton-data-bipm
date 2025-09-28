@@ -1,108 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223218
-title:
-- content: High-Voltage Standard Based on m<sub>e</sub>/e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/020
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/020
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 218
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High-Voltage Standard Based on <italic>m</italic><sub>e</sub>/<italic>e</italic>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/020
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/020
+docidentifier:
+- content: Metrologia 22 3 218
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/020
+- content: 10.1088/0026-1394/22/3/020
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lucas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Schon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>The investigations carried out in establishing a standard for high
-    voltages are summarized. The method is based on electron-speed filtering using
-    a superconducting rectangular resonator. Due to the calculable interaction of
-    the accelerated electrons and the microwave field inside the resonator, only electrons
-    with well-defined velocities can pass through the resonator via small apertures
-    in the front and rear faces. Thus the realization of discrete calibration voltages
-    is referred to the measurement of resonant frequencies in the GHz range and to
-    the knowledge of e/m<sub>0</sub>.</p><p>In the range between 40 kV and 90 kV,
-    five calibration voltages were obtained. The relative uncertainty was estimated
-    to be 1.2 × 10<sup>-4</sup>. As a result of several improvements to be made in
-    the experimental set-up, a relative uncertainty of a few parts in 10<sup>5</sup>
-    is expected. The standard will then be used for the calibration of high-voltage
-    dividers. In principle, the method for establishing high dc voltages may also
-    be applied to ac voltages, yielding the true peak value.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The investigations carried out in establishing a standard for high voltages are summarized. The method is based on electron-speed filtering using a superconducting rectangular resonator. Due to the calculable interaction of the accelerated electrons and the microwave field inside the resonator, only electrons with well-defined velocities can pass through the resonator via small apertures in the front and rear faces. Thus the realization of discrete calibration voltages is referred to the measurement of resonant frequencies in the GHz range and to the knowledge of <italic>e</italic>/<italic>m</italic><sub>0</sub>.</p>
+    <p>In the range between 40 kV and 90 kV, five calibration voltages were obtained. The relative uncertainty was estimated to be 1.2 × 10<sup>-4</sup>. As a result of several improvements to be made in the experimental set-up, a relative uncertainty of a few parts in 10<sup>5</sup> is expected. The standard will then be used for the calibration of high-voltage dividers. In principle, the method for establishing high dc voltages may also be applied to ac voltages, yielding the true peak value.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High-Voltage Standard Based on m<sub>e</sub>/e
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: High-Voltage Standard Based on <italic>m</italic><sub>e</sub>/<italic>e</italic>
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +88,6 @@ extent:
     reference_from: '218'
     reference_to: '222'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

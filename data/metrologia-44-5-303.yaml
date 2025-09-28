@@ -1,98 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445303
-title:
-- content: Impurity dependence of the Zn point
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 303
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Impurity dependence of the Zn point
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/006
+docidentifier:
+- content: Metrologia 44 5 303
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/006
+- content: 10.1088/0026-1394/44/5/006
   type: doi
 date:
 - type: published
-  value: '2007-09-12'
+  at: '2007-09-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada (NRC), Institute for National
             Measurement Standards, Ottawa, Canada
-  role:
-  - type: author
-revdate: '2007-09-12'
 abstract:
-- content: "<p>The shift of the melting curves of Zn samples was measured as a function
+- language: en
+  script:
+  - Latn
+  content: "<p>The shift of the melting curves of Zn samples was measured as a function
     of impurity concentration by explicit doping with some of the impurities that
     are usually present in high purity Zn samples. The following shifts were obtained
     in mK/ppm wt (mass fraction in parts per million) for Fe, Pb, Cd, In, Cu, Ag and
     Au, respectively: −0.51, −0.27, −0.33, −0.39, +0.23, +0.26 and +0.078.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impurity dependence of the Zn point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impurity dependence of the Zn point
     date:
     - type: epub
-      value: '2007-09-12'
+      at: '2007-09-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impurity dependence of the Zn point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impurity dependence of the Zn point
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +88,6 @@ extent:
     reference_from: '303'
     reference_to: '307'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

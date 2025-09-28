@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354363
-title:
-- content: Measurements using two types of transfer radiometer developed for a monochromator-based
-    cryogenic radiometer facility
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/24
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/24
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 363
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurements using two types of transfer radiometer developed for a monochromator-based
+    cryogenic radiometer facility
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/24
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/24
+docidentifier:
+- content: Metrologia 35 4 363
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/24
+- content: 10.1088/0026-1394/35/4/24
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Boivin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A facility for the monochromator-based calibration of transfer standard
+- language: en
+  script:
+  - Latn
+  content: "<p>A facility for the monochromator-based calibration of transfer standard
     detectors using a cryogenic radiometer has been set up at the National Research
     Council of Canada (NRC). A brief status report is given on this facility, which
     has undergone some modifications since it was first set up in 1994. Measurements
@@ -64,40 +60,32 @@ abstract:
     Committee for Photometry and Radiometry (CCPR). From this comparison, it is estimated
     that the overall accuracy of the cryogenic radiometer calibrations is better than
     0.05% in the range 450 nm to 700 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurements using two types of transfer radiometer developed for a
+    - language: en
+      script: Latn
+      content: Measurements using two types of transfer radiometer developed for a
         monochromator-based cryogenic radiometer facility
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +96,6 @@ extent:
     reference_from: '363'
     reference_to: '368'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

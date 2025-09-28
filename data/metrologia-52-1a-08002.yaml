@@ -1,84 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521A08002
-title:
-- content: EURAMET.QM-S7. Comparison meaurement of electrolytic conductivity at pure
-    water level
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1A/08002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1A/08002
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1A 08002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: EURAMET.QM-S7. Comparison meaurement of electrolytic conductivity at pure
+    water level
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1A/08002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1A/08002
+docidentifier:
+- content: Metrologia 52 1A 08002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1A/08002
+- content: 10.1088/0026-1394/52/1A/08002
   type: doi
 date:
 - type: published
-  value: '2015-01-01'
+  at: '2015-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Steffen Seitz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Working Group 3.41,
             Bundesallee 100, D-38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2015-01-01'
 abstract:
-- content: |-
-    <p>In this comparison the equivalence of conductivity measurement results has been investigated in the conductivity range from ultrapure water level (5.5 μS m<sup>-1</sup>) up to 1500 μS m<sup>-1</sup>). The measurements were performed in a closed pure water loop with primary methods and with commercial devices. To this end the conductivity measurement cells of the participating institutes were integrated in series with the primary cell of PTB, which in this way linked the results. In general the primary methods of PTB and DFM are consistent within an expanded uncertainty of 0.5 %. A slight inconsistency at the ultrapure water level resulted from a small leakage during that measurement. SP, using a commercial device, measured consistent values. CMI, also using a commercial device, underestimated its measurement uncertainty.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In this comparison the equivalence of conductivity measurement results has been investigated in the conductivity range from ultrapure water level (5.5 μS m<sup>-1</sup>) up to 1500 μS m<sup>-1</sup>). The measurements were performed in a closed pure water loop with primary methods and with commercial devices. To this end the conductivity measurement cells of the participating institutes were integrated in series with the primary cell of PTB, which in this way linked the results. In general the primary methods of PTB and DFM are consistent within an expanded uncertainty of 0.5 %. A slight inconsistency at the ultrapure water level resulted from a small leakage during that measurement. SP, using a commercial device, measured consistent values. CMI, also using a commercial device, underestimated its measurement uncertainty.
+    </p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/QM/S7/EURAMET.QM-S7.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: EURAMET.QM-S7. Comparison meaurement of electrolytic conductivity at
+    - language: en
+      script: Latn
+      content: EURAMET.QM-S7. Comparison meaurement of electrolytic conductivity at
         pure water level
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-01-01'
+      at: '2015-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +80,6 @@ extent:
     reference_from: '08002'
     reference_to: '08002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

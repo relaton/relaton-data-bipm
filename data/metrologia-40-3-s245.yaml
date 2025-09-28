@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S245
-title:
-- content: Independent atomic timescale in Poland—organization and results
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/302
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/302
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S245
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Independent atomic timescale in Poland—organization and results
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/302
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/302
+docidentifier:
+- content: Metrologia 40 3 S245
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/302
+- content: 10.1088/0026-1394/40/3/302
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Azoubib
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Nawrocki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Borowiec Astrogeodynamical Observatory, Space Research Centre PAS,
             62-035 Kórnik, and Central Office of Measures, Elektoralna 2, 00-950 Warsaw,
             Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lewandowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres, France
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>The Polish independent atomic timescale TA(PL) was officially started
+- language: en
+  script:
+  - Latn
+  content: "<p>The Polish independent atomic timescale TA(PL) was officially started
     on 4 July 2001. It is currently based on the indications of nine clocks from several
     Polish laboratories and Lithuania. The clocks at the laboratories are compared
     using TTS-2 multi-channel GPS receivers developed in cooperation with the Bureau
@@ -80,53 +72,42 @@ abstract:
     linked to the Central Office of Measures (GUM) in Warsaw. TA(PL) is computed as
     a weighted average of the participating clocks. This paper presents the clock
     ensemble, the data processing outline, and some experimental results.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Independent atomic timescale in Poland—organization and results
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Independent atomic timescale in Poland—organization and results
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Independent atomic timescale in Poland—organization and results
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Independent atomic timescale in Poland—organization and results
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +118,6 @@ extent:
     reference_from: S245
     reference_to: S248
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

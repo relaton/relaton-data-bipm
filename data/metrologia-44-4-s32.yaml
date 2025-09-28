@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S32
-title:
-- content: Digital coincidence counting for radionuclide standardization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S32
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Digital coincidence counting for radionuclide standardization
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S05
+docidentifier:
+- content: Metrologia 44 4 S32
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S05
+- content: 10.1088/0026-1394/44/4/S05
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Keightley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tae Soon Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science, PO Box 102,
             Yuseong, Daejeon 305-600, Korea
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The 4πβ–γ coincidence method for the absolute determination of nuclear
+- language: en
+  script:
+  - Latn
+  content: "<p>The 4πβ–γ coincidence method for the absolute determination of nuclear
     disintegration rates has for decades been successfully applied to a variety of
     radionuclides, via the use of suites of dedicated analogue electronic modules.
     The high cost of procurement and maintenance of such systems, as well as the requirement
@@ -70,53 +64,42 @@ abstract:
     of such ‘digital coincidence counting’ systems used in the field of radionuclide
     metrology and may be viewed as a companion article to other papers (in this issue)
     on primary methods for radionuclide standardization.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Digital coincidence counting for radionuclide standardization
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Digital coincidence counting for radionuclide standardization
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Digital coincidence counting for radionuclide standardization
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Digital coincidence counting for radionuclide standardization
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: S32
     reference_to: S35
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

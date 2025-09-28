@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia254227
-title:
-- content: Some Observations on the Use of the Triple Points of Deuterium and Xenon
-    in Interpolation Schemes for Platinum Resistance Thermometers below 273 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 4 227
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Some Observations on the Use of the Triple Points of Deuterium and Xenon
+    in Interpolation Schemes for Platinum Resistance Thermometers below 273 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/4/005
+docidentifier:
+- content: Metrologia 25 4 227
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/4/005
+- content: 10.1088/0026-1394/25/4/005
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Measurement Laboratory,
             Lindfield, Australia 2070
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>The use of the triple points of deuterium and xenon is investigated
+- language: en
+  script:
+  - Latn
+  content: "<p>The use of the triple points of deuterium and xenon is investigated
     in some interpolation schemes for platinum resistance thermometers between 13.8
     K and 273 K. The use of these triple points together is shown to lead to a large
     sensitivity to errors in the realization of the boiling point of water or the
@@ -53,41 +49,33 @@ abstract:
     use of the triple point of xenon in an interpolation scheme between 25 K and 273
     K is shown to lead to a large sensitivity to calibration errors in the triple
     points of xenon and gallium between 25 K and 54 K.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Some Observations on the Use of the Triple Points of Deuterium and
+    - language: en
+      script: Latn
+      content: Some Observations on the Use of the Triple Points of Deuterium and
         Xenon in Interpolation Schemes for Platinum Resistance Thermometers below
         273 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '227'
     reference_to: '231'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

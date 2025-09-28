@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: JCRB-ACT-2010-25-7
-title:
-- content: Action JCRB/25-7 (2010)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Action JCRB/25-7 (2010)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/25-2010
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/25-2010
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-25.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-25.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB ACT 25-7 (2010)
-  type: BIPM
-  primary: true
-- id: JCRB ACT 25-7 (2010, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: JCRB ACT 25-7 (2010, F)
+  content: Action JCRB/25-7 (2010)
+- language: fr
+  script: Latn
+  content: Action JCRB/25-7 (2010)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/25-2010
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/25-2010
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-25.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-25.yml
+docidentifier:
+- content: JCRB ACT 25-7 (2010)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: JCRB Action 25-7 (2010)
+  content: JCRB ACT 25-7 (2010, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: JCRB ACT 25-7 (2010, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: JCRB Action 25-7 (2010)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Action 25-7 du JCRB (2010)
+  content: Action 25-7 du JCRB (2010)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: JCRB Action 25-7 (2010) / Action 25-7 du JCRB (2010)
+- content: JCRB Action 25-7 (2010) / Action 25-7 du JCRB (2010)
   type: BIPM-long
 docnumber: JCRB ACT 25-7 (2010)
 date:
 - type: published
-  value: '2010-09-22'
+  at: '2010-09-22'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2010-09-22'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -92,8 +77,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: action
+    content: action
   structuredidentifier:
     docnumber: 25-7

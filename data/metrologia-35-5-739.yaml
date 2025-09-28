@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia355739
-title:
-- content: Comparison of methods for calculating distortion in pressure balances up
-    to 400 MPa - EUROMET Project 256
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/5/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/5/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 5 739
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of methods for calculating distortion in pressure balances up
+    to 400 MPa - EUROMET Project 256
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/5/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/5/5
+docidentifier:
+- content: Metrologia 35 5 739
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/5/5
+- content: 10.1088/0026-1394/35/5/5
   type: doi
 date:
 - type: published
-  value: '1998-10-01'
+  at: '1998-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR, PTB, NPL, BNM-LNE
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Sabuga
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR, PTB, NPL, BNM-LNE
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Robinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR, PTB, NPL, BNM-LNE
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Legras
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR, PTB, NPL, BNM-LNE
-  role:
-  - type: author
-revdate: '1998-10-01'
 abstract:
-- content: "<p>EUROMET project #256 was established to compare agreement between laboratory
+- language: en
+  script:
+  - Latn
+  content: "<p>EUROMET project #256 was established to compare agreement between laboratory
     calculations of the elastic distortion that piston-cylinder assemblies of pressure
     balances, the primary standard for pressure measurements, undergo when subjected
     to pressure applied via liquid media. The following piston-cylinder assemblies
@@ -104,40 +94,32 @@ abstract:
     and the influence of simplifications adopted in the geometrical model. This information
     will be of use in the application of such calculations to the design of piston-cylinder
     assemblies or prediction of the effect of experimentally measurable parameters.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of methods for calculating distortion in pressure balances
+    - language: en
+      script: Latn
+      content: Comparison of methods for calculating distortion in pressure balances
         up to 400 MPa - EUROMET Project 256
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-10-01'
+      at: '1998-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +130,6 @@ extent:
     reference_from: '739'
     reference_to: '759'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

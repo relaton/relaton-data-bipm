@@ -1,210 +1,175 @@
 ---
-schema-version: v1.2.9
-id: Metrologia516S289
-title:
-- content: Diode-array UV solar spectroradiometer implementing a digital micromirror
-    device
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/6/S289
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/6/S289
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 6 S289
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Diode-array UV solar spectroradiometer implementing a digital micromirror
+    device
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/6/S289
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/6/S289
+docidentifier:
+- content: Metrologia 51 6 S289
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/6/S289
+- content: 10.1088/0026-1394/51/6/S289
   type: doi
 date:
 - type: published
-  value: '2014-11-20'
+  at: '2014-11-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Feldman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, Co, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Boulder, Co, United States of America
     - organization:
+        address:
+        - formatted_address: Prague, Czech Republic
         name:
         - content: Cesky Metrologicky Institut
-        contact:
-        - address:
-            formatted_address: Prague, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Burnitt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Reading, UK
         name:
         - content: Principal Optics
-        contact:
-        - address:
-            formatted_address: Reading, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Porrovecchio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Prague, Czech Republic
         name:
         - content: Cesky Metrologicky Institut
-        contact:
-        - address:
-            formatted_address: Prague, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Smid
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Prague, Czech Republic
         name:
         - content: Cesky Metrologicky Institut
-        contact:
-        - address:
-            formatted_address: Prague, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Egli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: World Radiation Center, Davos Dorf, Switzerland
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos
-        contact:
-        - address:
-            formatted_address: World Radiation Center, Davos Dorf, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Gröbner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: World Radiation Center, Davos Dorf, Switzerland
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos
-        contact:
-        - address:
-            formatted_address: World Radiation Center, Davos Dorf, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K M Nield
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Callaghan Innovation, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: Callaghan Innovation, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2014-11-20'
 abstract:
-- content: Abstract<p>The solar ultraviolet spectrum captured by commercially available
-    diode-array spectroradiometers is dominated by stray light from longer wavelengths
-    with higher intensity. The implementation of a digital micromirror device in an
-    array spectroradiometer has the potential to enable the precise selection of desired
-    wavelengths as well as the ability to reduce spectral intensity of some wavelengths
-    via selective mirror modulation, both reducing long wavelength stray light. A
-    prototype consisting of off-the-shelf components has been assembled to verify
-    the validity of the base concept, and initial measurements have been performed
-    to confirm the throughput and image qualities such as spectral resolution and
-    astigmatism.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The solar ultraviolet spectrum captured by commercially available diode-array spectroradiometers is dominated by stray light from longer wavelengths with higher intensity. The implementation of a digital micromirror device in an array spectroradiometer has the potential to enable the precise selection of desired wavelengths as well as the ability to reduce spectral intensity of some wavelengths via selective mirror modulation, both reducing long wavelength stray light. A prototype consisting of off-the-shelf components has been assembled to verify the validity of the base concept, and initial measurements have been performed to confirm the throughput and image qualities such as spectral resolution and astigmatism.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Diode-array UV solar spectroradiometer implementing a digital micromirror
+    - script: Latn
+      content: Diode-array UV solar spectroradiometer implementing a digital micromirror
         device
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-12-01'
+      at: '2014-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Diode-array UV solar spectroradiometer implementing a digital micromirror
+    - script: Latn
+      content: Diode-array UV solar spectroradiometer implementing a digital micromirror
         device
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-11-20'
+      at: '2014-11-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -215,6 +180,6 @@ extent:
     reference_from: S289
     reference_to: S292
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

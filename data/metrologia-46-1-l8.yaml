@@ -1,98 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461L8
-title:
-- content: Comment on ‘A probabilistic approach to the analysis of measurement processes’
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1/N02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1/N02
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1 L8
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comment on ‘A probabilistic approach to the analysis of measurement processes’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1/N02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1/N02
+docidentifier:
+- content: Metrologia 46 1 L8
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1/N02
+- content: 10.1088/0026-1394/46/1/N02
   type: doi
 date:
 - type: published
-  value: '2009-01-27'
+  at: '2009-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2009-01-27'
 abstract:
-- content: "<p>The formula for the consumer's risk that appeared in a recent paper
-    (Cox et al 2008 Metrologia 45 493–502) is compared with that in the author's previously
-    published research (Lira 1999 Metrologia 36 397–402), which is herein summarized.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>The formula for the consumer's risk that appeared in a recent paper
+    (Cox <italic>et al</italic> <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/45/5/001">2008
+    <italic>Metrologia</italic> <bold>45</bold> 493–502</ext-link>) is compared with
+    that in the author's previously published research (Lira <ext-link ext-link-type="uri"
+    xlink:href="https://doi.org/10.1088/0026-1394/36/5/1">1999 <italic>Metrologia</italic>
+    <bold>36</bold> 397–402</ext-link>), which is herein summarized.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘A probabilistic approach to the analysis of measurement
+    - language: en
+      script: Latn
+      content: Comment on ‘A probabilistic approach to the analysis of measurement
         processes’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-01-27'
+      at: '2009-01-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘A probabilistic approach to the analysis of measurement
+    - language: en
+      script: Latn
+      content: Comment on ‘A probabilistic approach to the analysis of measurement
         processes’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-02-01'
+      at: '2009-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +91,6 @@ extent:
     reference_from: L8
     reference_to: L8
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,97 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia516S336
-title:
-- content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to 400 nm
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/6/S336
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/6/S336
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 6 S336
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to 400 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/6/S336
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/6/S336
+docidentifier:
+- content: Metrologia 51 6 S336
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/6/S336
+- content: 10.1088/0026-1394/51/6/S336
   type: doi
 date:
 - type: published
-  value: '2014-11-20'
+  at: '2014-11-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lutz Werner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Berlin, Germany
-  role:
-  - type: author
-revdate: '2014-11-20'
 abstract:
-- content: Abstract<p>The CCPR K2.c key comparison of spectral responsivity from 200 nm
-    to 400 nm was carried out in the framework of the CIPM Mutual Recognition Arrangement
-    by 14 participating national metrology institutes. The key comparison was piloted
-    by the Physikalisch-Technische Bundesanstalt (PTB). The comparison principle,
-    measurements, analysis and results including a procedure to deal with the issue
-    of inconsistent data are described.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The CCPR K2.c key comparison of spectral responsivity from 200 nm to 400 nm was carried out in the framework of the CIPM Mutual Recognition Arrangement by 14 participating national metrology institutes. The key comparison was piloted by the Physikalisch-Technische Bundesanstalt (PTB). The comparison principle, measurements, analysis and results including a procedure to deal with the issue of inconsistent data are described.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to
+    - script: Latn
+      content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to
         400 nm
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-12-01'
+      at: '2014-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to
+    - script: Latn
+      content: The CCPR K2.c key comparison of spectral responsivity from 200 nm to
         400 nm
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-11-20'
+      at: '2014-11-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +90,6 @@ extent:
     reference_from: S336
     reference_to: S343
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

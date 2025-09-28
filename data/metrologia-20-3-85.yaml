@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia20385
-title:
-- content: Free-Field Reciprocity Calibration of Capacitor Microphones at Frequencies
-    from 19.95 kHz to 316.2 Hz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 3 85
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Free-Field Reciprocity Calibration of Capacitor Microphones at Frequencies
+    from 19.95 kHz to 316.2 Hz
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/3/003
+docidentifier:
+- content: Metrologia 20 3 85
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/3/003
+- content: 10.1088/0026-1394/20/3/003
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D L H Gibbings
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A V Gibson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>The free-field calibration of a group of three one-inch capacitor microphones
+- language: en
+  script:
+  - Latn
+  content: "<p>The free-field calibration of a group of three one-inch capacitor microphones
     has been carried out over a frequency band extending from 19.95 kHz down to 316.2
     Hz using the reciprocity method recommended by the IEC in Publication 486 (1974).
     The bridge method used for the electrical measurement gives information about
@@ -63,40 +57,32 @@ abstract:
     dB of their mean values. A companion paper considers the correlation of the free-field
     results with those from low-frequency coupler measurements and with results obtained
     using an electrostatic actuator.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Free-Field Reciprocity Calibration of Capacitor Microphones at Frequencies
+    - language: en
+      script: Latn
+      content: Free-Field Reciprocity Calibration of Capacitor Microphones at Frequencies
         from 19.95 kHz to 316.2 Hz
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '85'
     reference_to: '94'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

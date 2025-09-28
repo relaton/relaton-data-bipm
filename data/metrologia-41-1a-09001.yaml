@@ -1,96 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia411A09001
-title:
-- content: Final report on supplementary comparison SADCMET.AUV.V-S1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1A/09001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1A/09001
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1A 09001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on supplementary comparison SADCMET.AUV.V-S1
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1A/09001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1A/09001
+docidentifier:
+- content: Metrologia 41 1A 09001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1A/09001
+- content: 10.1088/0026-1394/41/1A/09001
   type: doi
 date:
 - type: published
-  value: '2004-01-01'
+  at: '2004-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian Veldman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIR–NML, Building 7, PO Box 395, 0001 Pretoria, South Africa
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hans-Jürgen von Martens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '2004-01-01'
 abstract:
-- content: |-
-    <p>A supplementary comparison (SADC.AUV.V-S1) was organized to compare measurements of sinusoidal linear accelerations in the frequency range from 10 Hz to 10 kHz. In this bilateral comparison between the CSIR National Metrology Laboratory (CSIR–NML), South Africa and the Physikalisch-Technische Bundesanstalt (PTB), Germany both NMIs applied laser interferometry in compliance with method 3 of the international standard ISO 16063-11:1999.</p><p>The complex charge sensitivity (magnitude and phase) of two different transfer standards (single-ended accelerometers) was measured at 37 frequencies. The results of the SADCMET.AUV.V-S1 are a set of comparison values and their uncertainties, and degrees of equivalence between these and between the two laboratories. From this complete set of results, six matrices of equivalence per accelerometer were selected and are demonstrated graphically.</p><p>The deviations between the PTB and NML results were smaller than 0.6° and 2° for the phase shift measurements for the Endevco and Brüel &amp; Kjær accelerometers respectively (37 measurement points each).</p><p>Main text.
-    To reach the main text of this paper, click on Final Report.</p><p>The final report has been peer-reviewed and approved for publication by SADCMET, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A supplementary comparison (SADC.AUV.V-S1) was organized to compare measurements of sinusoidal linear accelerations in the frequency range from 10 Hz to 10 kHz. In this bilateral comparison between the CSIR National Metrology Laboratory (CSIR–NML), South Africa and the Physikalisch-Technische Bundesanstalt (PTB), Germany both NMIs applied laser interferometry in compliance with method 3 of the international standard ISO 16063-11:1999.</p>
+    <p>The complex charge sensitivity (magnitude and phase) of two different transfer standards (single-ended accelerometers) was measured at 37 frequencies. The results of the SADCMET.AUV.V-S1 are a set of comparison values and their uncertainties, and degrees of equivalence between these and between the two laboratories. From this complete set of results, six matrices of equivalence per accelerometer were selected and are demonstrated graphically.</p>
+    <p>The deviations between the PTB and NML results were smaller than 0.6° and 2° for the phase shift measurements for the Endevco and Brüel &amp; Kjær accelerometers respectively (37 measurement points each).</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/V-S1/SADCMET.AUV.V-S1.pdf ">Final Report</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by SADCMET, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on supplementary comparison SADCMET.AUV.V-S1
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on supplementary comparison SADCMET.AUV.V-S1
     date:
     - type: ppub
-      value: '2004-01-01'
+      at: '2004-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +91,6 @@ extent:
     reference_from: '09001'
     reference_to: '09001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

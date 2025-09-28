@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1984-73
-title:
-- content: 73rd meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 73<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/73-1984
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/73-1984
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/59880143/CIPM1984.pdf/cd166448-3d35-a0b4-b73a-01c39c3e3fe1
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-73.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-73.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 73rd Meeting (1984)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 73rd meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 73<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/73-1984
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/73-1984
+- type: pdf
+  content: https://www.bipm.org/documents/20126/59880143/CIPM1984.pdf/cd166448-3d35-a0b4-b73a-01c39c3e3fe1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-73.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-73.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 73rd Meeting (1984)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 73<sup>e</sup> réunion (1984)
+  content: CIPM 73<sup>e</sup> réunion (1984)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 73rd Meeting (1984) / CIPM 73<sup>e</sup> réunion (1984)
+- content: CIPM 73rd Meeting (1984) / CIPM 73<sup>e</sup> réunion (1984)
   type: BIPM
   primary: true
 docnumber: CIPM 73rd Meeting (1984)
 date:
 - type: published
-  value: '1984-10-18'
+  at: '1984-10-18'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1984-10-18'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '73'

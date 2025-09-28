@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia296373
-title:
-- content: Decade Designs for Weighings of Non-uniform Variance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/6/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/6/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 6 373
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Decade Designs for Weighings of Non-uniform Variance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/6/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/6/001
+docidentifier:
+- content: Metrologia 29 6 373
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/6/001
+- content: 10.1088/0026-1394/29/6/001
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E C Morris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Measurement Laboratory,
             PO Box 218, Lindfield, NSW 2070, Australia
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The selection of an efficient weighing design is a common problem in
+- language: en
+  script:
+  - Latn
+  content: "<p>The selection of an efficient weighing design is a common problem in
     mass metrology. The calibration of a set of nominally equal masses in terms of
     one or more reference masses of the same value does not normally present any difficulty,
     but designs for extending the calibration of a kilogram mass to multiples and
@@ -52,39 +48,31 @@ abstract:
     and furthermore it is often necessary to use more than one balance. Designs which
     make better use of weighings of non-uniform variance have been studied, and a
     practical approach to the construction of such designs is given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Decade Designs for Weighings of Non-uniform Variance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Decade Designs for Weighings of Non-uniform Variance
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '373'
     reference_to: '377'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

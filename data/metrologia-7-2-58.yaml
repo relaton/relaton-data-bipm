@@ -1,114 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia7258
-title:
-- content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft der
-    Internationalen Weston-Elemente im Bereich von 10 bis 30 °C
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/7/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 2 58
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft der
+    Internationalen Weston-Elemente im Bereich von 10 bis 30 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/2/004
+docidentifier:
+- content: Metrologia 7 2 58
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/2/004
+- content: 10.1088/0026-1394/7/2/004
   type: doi
 date:
 - type: published
-  value: '1971-04-01'
+  at: '1971-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Froehlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Melchert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Steiner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1971-04-01'
 abstract:
-- content: '<p>The "International Temperature Formula" generally in use since 1910
-    does no more correspond to the cells and the demands of precision of today. Therefore
-    a new equation was determined for the relation of the emf to temperature from
-    10 to 30 °C based on very exact measurements of emf and temperature: E<sub>t</sub>
-    E<sub>20</sub> − [39,78 (t − 20) + 0,936 (t − 20)<sup>2</sup> − 0,0086 (t − 20)<sup>3</sup>]
-    · 10<sup>-6</sup>.</p>'
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: '<p>The "International Temperature Formula" generally in use since 1910
+    does no more correspond to the cells and the demands of precision of today. Therefore
+    a new equation was determined for the relation of the emf to temperature from
+    10 to 30 °C based on very exact measurements of emf and temperature: <italic>E</italic><sub><italic>t</italic></sub>
+    <italic>E</italic><sub>20</sub> − [39,78 (<italic>t</italic> − 20) + 0,936 (<italic>t</italic>
+    − 20)<sup>2</sup> − 0,0086 (<italic>t</italic> − 20)<sup>3</sup>] · 10<sup>-6</sup>.</p>'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft
+    - language: de
+      script: Latn
+      content: Neubestimmung der Temperaturabhängigkeit der Elektromotorischen Kraft
         der Internationalen Weston-Elemente im Bereich von 10 bis 30 °C
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1971-04-01'
+      at: '1971-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '58'
     reference_to: '65'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

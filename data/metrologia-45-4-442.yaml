@@ -1,98 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia454442
-title:
-- content: What is robustness in data analysis?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/4/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/4/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 4 442
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: What is robustness in data analysis?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/4/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/4/010
+docidentifier:
+- content: Metrologia 45 4 442
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/4/010
+- content: 10.1088/0026-1394/45/4/010
   type: doi
 date:
 - type: published
-  value: '2008-07-21'
+  at: '2008-07-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Industrial Research Ltd, PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2008-07-21'
 abstract:
-- content: "<p>The idea of using a ‘robust’ method of data analysis seems popular.
+- language: en
+  script:
+  - Latn
+  content: "<p>The idea of using a ‘robust’ method of data analysis seems popular.
     Many scientists will regard such a method as being superior to one for which no
     such property is claimed. But what actually is a ‘robust’ method? This paper discusses
     what is meant by robustness in statistical analysis and, by implication, in general
     data analysis. It is motivated by recent debate surrounding the estimation of
-    the Newtonian constant G from a set of measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    the Newtonian constant <italic>G</italic> from a set of measurements.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: What is robustness in data analysis?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: What is robustness in data analysis?
     date:
     - type: epub
-      value: '2008-07-21'
+      at: '2008-07-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: What is robustness in data analysis?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: What is robustness in data analysis?
     date:
     - type: ppub
-      value: '2008-08-01'
+      at: '2008-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +88,6 @@ extent:
     reference_from: '442'
     reference_to: '447'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

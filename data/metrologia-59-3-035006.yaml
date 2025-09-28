@@ -1,138 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593035006
-title:
-- content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac6190
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac6190
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 035006
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac6190
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac6190
+docidentifier:
+- content: Metrologia 59 3 035006
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac6190
+- content: 10.1088/1681-7575/ac6190
   type: doi
 date:
 - type: published
-  value: '2022-04-21'
+  at: '2022-04-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Van der Beken
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sart-Tilman B15, Liège, Belgium
         name:
         - content: University of Liège
         subdivision:
-        - content: Institut de Physique Nucléaire, Atomique et de Spectroscopie
-        contact:
-        - address:
-            formatted_address: Sart-Tilman B15, Liège, Belgium
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institut de Physique Nucléaire, Atomique et de Spectroscopie
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Léonard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Mont Saint-Martin 58, Liège, Belgium
         name:
         - content: Gillam
-        contact:
-        - address:
-            formatted_address: Mont Saint-Martin 58, Liège, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Bastin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sart-Tilman B15, Liège, Belgium
         name:
         - content: University of Liège
         subdivision:
-        - content: Institut de Physique Nucléaire, Atomique et de Spectroscopie
-        contact:
-        - address:
-            formatted_address: Sart-Tilman B15, Liège, Belgium
-  role:
-  - type: author
-revdate: '2022-04-21'
+        - name:
+          - language: en
+            script: Latn
+            content: Institut de Physique Nucléaire, Atomique et de Spectroscopie
 abstract:
-- content: Abstract<p>In this paper we show how a proper dimensioning of a magnetron
-    cavity and its inner bulb allows one to design a hydrogen maser atomic clock with
-    an arbitrary low frequency-temperature coefficient (FTC) for its cavity. The control
-    of this parameter is of primary importance for the overall stability of the atomic
-    clock. To this aim, a model based on finite element method has been developed
-    to simulate thermal expansion of hydrogen maser cavities and evaluate the FTC.
-    The model has been confronted with direct experimental data and very good agreement
-    is observed. A key geometrical parameter is identified that allows for a strong
-    tuning of the FTC, so as to set it down to values a priori as close as desired
-    to 0, with limitations only dictated by the machining tolerances of the mechanical
-    elements of the hydrogen maser cavity.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In this paper we show how a proper dimensioning of a magnetron cavity and its inner bulb allows one to design a hydrogen maser atomic clock with an arbitrary low frequency-temperature coefficient (FTC) for its cavity. The control of this parameter is of primary importance for the overall stability of the atomic clock. To this aim, a model based on finite element method has been developed to simulate thermal expansion of hydrogen maser cavities and evaluate the FTC. The model has been confronted with direct experimental data and very good agreement is observed. A key geometrical parameter is identified that allows for a strong tuning of the FTC, so as to set it down to values <italic toggle="yes">a priori</italic> as close as desired to 0, with limitations only dictated by the machining tolerances of the mechanical elements of the hydrogen maser cavity.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Hydrogen maser magnetron cavity with low frequency-temperature coefficient
     date:
     - type: epub
-      value: '2022-04-21'
+      at: '2022-04-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +123,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

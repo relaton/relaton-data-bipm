@@ -1,132 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513235
-title:
-- content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/235
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/235
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 235
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/235
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/235
+docidentifier:
+- content: Metrologia 51 3 235
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/235
+- content: 10.1088/0026-1394/51/3/235
   type: doi
 date:
 - type: published
-  value: '2014-05-13'
+  at: '2014-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Schurr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Ahlers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Pierz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2014-05-13'
 abstract:
-- content: Abstract<p>We present a simple and accurate coaxial bridge capable of measuring
-    the magnetocapacitance and the associated loss factor of a quantum Hall effect
-    device, with and without an external Hall current—a situation where commercial
-    instruments are limited. We interpret the results in terms of the model of compressible
-    and incompressible regions in the two-dimensional electron gas and we deduce a
-    novel empirical relation between the loss factor and the voltage dependence of
-    the magnetocapacitance. This highlights the reason for the linear voltage dependence
-    of the loss factor whose elimination is the basis for all metrological applications
-    of the quantum Hall resistance at alternating current.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We present a simple and accurate coaxial bridge capable of measuring the magnetocapacitance and the associated loss factor of a quantum Hall effect device, with and without an external Hall current—a situation where commercial instruments are limited. We interpret the results in terms of the model of compressible and incompressible regions in the two-dimensional electron gas and we deduce a novel empirical relation between the loss factor and the voltage dependence of the magnetocapacitance. This highlights the reason for the linear voltage dependence of the loss factor whose elimination is the basis for all metrological applications of the quantum Hall resistance at alternating current.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Magnetocapacitance and loss factor of GaAs quantum Hall effect devices
     date:
     - type: epub
-      value: '2014-05-13'
+      at: '2014-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +116,6 @@ extent:
     reference_from: '235'
     reference_to: '242'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

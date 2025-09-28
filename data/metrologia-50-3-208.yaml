@@ -1,134 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia503208
-title:
-- content: Noise effect on the interpolation equation for near infrared thermography
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/3/208
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/3/208
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 3 208
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Noise effect on the interpolation equation for near infrared thermography
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/3/208
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/3/208
+docidentifier:
+- content: Metrologia 50 3 208
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/3/208
+- content: 10.1088/0026-1394/50/3/208
   type: doi
 date:
 - type: published
-  value: '2013-05-13'
+  at: '2013-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thierry Sentenac
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: UPS, Mines Albi, ISAE, ICA (Institut Clément Ader); Campus
+            Jarlard, F-81013 Albi cedex 09, France
         name:
         - content: Université de Toulouse; INSA
-        contact:
-        - address:
-            formatted_address: UPS, Mines Albi, ISAE, ICA (Institut Clément Ader);
-              Campus Jarlard, F-81013 Albi cedex 09, France
     - organization:
+        address:
+        - formatted_address: France
         name:
         - content: F-31077 Toulouse
         subdivision:
-        - content: CNRS; LAAS; 7 avenue du Colonel Roche
-        contact:
-        - address:
-            formatted_address: France
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: CNRS; LAAS; 7 avenue du Colonel Roche
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rémi Gilblas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: UPS, Mines Albi, ISAE, ICA (Institut Clément Ader); Campus
+            Jarlard, F-81013 Albi cedex 09, France
         name:
         - content: Université de Toulouse; INSA
-        contact:
-        - address:
-            formatted_address: UPS, Mines Albi, ISAE, ICA (Institut Clément Ader);
-              Campus Jarlard, F-81013 Albi cedex 09, France
-  role:
-  - type: author
-revdate: '2013-05-13'
 abstract:
-- content: Abstract<p>This paper investigates the performance of interpolation equations
-    for a near infrared thermal imager operating over wavelengths from 0.9 µm to 1.7 µm
-    with various filter bandwidths and a broad temperature range from 300 °C to 1000 °C.
-    The equations are based on a general formulation of the effective wavelength as
-    a function of the temperature. The quality of the interpolation is assessed in
-    relation to the order of the effective wavelength. However, the noise induced
-    by the imperfections of the thermal imager significantly disturbs the signal,
-    and this phenomenon is enhanced as the bandwidth of the filter increases (i.e.
-    for low-temperature applications). The main purpose of this paper is to establish
-    the right choice of the filter bandwidth and the expression and order of the interpolation
-    equation in relation to the noise level on the thermal imager and the desired
-    accuracy. This paper first outlines the background on interpolation equations
-    and then tests them on synthetic data from signals delivered first by an ideal
-    thermal imager (i.e. free from noise) and then from noisy signals. This simulation
-    study provides a framework for users to select an interpolation equation with
-    an adequate order for near infrared thermal imagers. The performances of the selected
-    interpolation equations are finally demonstrated on real images performed by a
-    near infrared thermal imager.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This paper investigates the performance of interpolation equations for a near infrared thermal imager operating over wavelengths from 0.9 µm to 1.7 µm with various filter bandwidths and a broad temperature range from 300 °C to 1000 °C. The equations are based on a general formulation of the effective wavelength as a function of the temperature. The quality of the interpolation is assessed in relation to the order of the effective wavelength. However, the noise induced by the imperfections of the thermal imager significantly disturbs the signal, and this phenomenon is enhanced as the bandwidth of the filter increases (i.e. for low-temperature applications). The main purpose of this paper is to establish the right choice of the filter bandwidth and the expression and order of the interpolation equation in relation to the noise level on the thermal imager and the desired accuracy. This paper first outlines the background on interpolation equations and then tests them on synthetic data from signals delivered first by an ideal thermal imager (i.e. free from noise) and then from noisy signals. This simulation study provides a framework for users to select an interpolation equation with an adequate order for near infrared thermal imagers. The performances of the selected interpolation equations are finally demonstrated on real images performed by a near infrared thermal imager.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Noise effect on the interpolation equation for near infrared thermography
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Noise effect on the interpolation equation for near infrared thermography
     date:
     - type: ppub
-      value: '2013-06-01'
+      at: '2013-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Noise effect on the interpolation equation for near infrared thermography
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Noise effect on the interpolation equation for near infrared thermography
     date:
     - type: epub
-      value: '2013-05-13'
+      at: '2013-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +114,6 @@ extent:
     reference_from: '208'
     reference_to: '218'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

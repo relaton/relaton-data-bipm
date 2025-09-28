@@ -1,131 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia506580
-title:
-- content: Linking dynamic to static pressure by laser interferometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/6/580
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/6/580
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 6 580
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Linking dynamic to static pressure by laser interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/6/580
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/6/580
+docidentifier:
+- content: Metrologia 50 6 580
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/6/580
+- content: 10.1088/0026-1394/50/6/580
   type: doi
 date:
 - type: published
-  value: '2013-10-15'
+  at: '2013-10-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Th Bruns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Franke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Kobusch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2013-10-15'
 abstract:
-- content: Abstract<p>The primary calibration of pressure transducers is at present
-    realized by static methods. This paper describes a new route to gaining traceability
-    for dynamic calibration using the acousto-optic effect. The pressure range under
-    consideration is up to 100 MPa. We set out a description of the general principle
-    employed to gain traceability, the experimental set-ups that are used for the
-    realization and the thermophysical background of the measurements, and some numerical
-    estimates on the expected results for two different pressure-transmitting media
-    are shown.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The primary calibration of pressure transducers is at present realized by static methods. This paper describes a new route to gaining traceability for dynamic calibration using the acousto-optic effect. The pressure range under consideration is up to 100 MPa. We set out a description of the general principle employed to gain traceability, the experimental set-ups that are used for the realization and the thermophysical background of the measurements, and some numerical estimates on the expected results for two different pressure-transmitting media are shown.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linking dynamic to static pressure by laser interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Linking dynamic to static pressure by laser interferometry
     date:
     - type: ppub
-      value: '2013-12-01'
+      at: '2013-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linking dynamic to static pressure by laser interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Linking dynamic to static pressure by laser interferometry
     date:
     - type: epub
-      value: '2013-10-15'
+      at: '2013-10-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +116,6 @@ extent:
     reference_from: '580'
     reference_to: '585'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

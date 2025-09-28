@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia501A01002
-title:
-- content: 'EUROMET.EM-S24: Supplementary comparison of small current sources'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1A/01002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1A/01002
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 1A 01002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'EUROMET.EM-S24: Supplementary comparison of small current sources'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1A/01002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1A/01002
+docidentifier:
+- content: Metrologia 50 1A 01002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1A/01002
+- content: 10.1088/0026-1394/50/1A/01002
   type: doi
 date:
 - type: published
-  value: '2013-01-01'
+  at: '2013-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G-D Willenberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2013-01-01'
 abstract:
-- content: |-
-    <p>For the first time, a EURAMET comparison was performed in the field of small DC currents below 1 nA. The capabilities of thirteen European and non-European National Metrology Institutes for traceable calibrations of picoammeters have been compared. For that purpose, two different commercial picoammeters were used as travelling instruments. They were calibrated at current values of ±100 fA, ±1 pA, ±10 pA and ±100 pA. The accuracy achieved was to a large extent limited by the stability of the travelling instruments. The expanded relative uncertainty (k = 2) of the reference values varied between 2.7 × 10<sup>−4</sup> and 1.9 × 10<sup>−5</sup>, depending on the current ranges and the travelling instruments. There was a good agreement between the results of most of the participants.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>For the first time, a EURAMET comparison was performed in the field of small DC currents below 1 nA. The capabilities of thirteen European and non-European National Metrology Institutes for traceable calibrations of picoammeters have been compared. For that purpose, two different commercial picoammeters were used as travelling instruments. They were calibrated at current values of ±100 fA, ±1 pA, ±10 pA and ±100 pA. The accuracy achieved was to a large extent limited by the stability of the travelling instruments. The expanded relative uncertainty (<italic>k</italic> = 2) of the reference values varied between 2.7 × 10<sup>−4</sup> and 1.9 × 10<sup>−5</sup>, depending on the current ranges and the travelling instruments. There was a good agreement between the results of most of the participants.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/S24/EUROMET.EM-S24.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'EUROMET.EM-S24: Supplementary comparison of small current sources'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'EUROMET.EM-S24: Supplementary comparison of small current sources'
     date:
     - type: ppub
-      value: '2013-01-01'
+      at: '2013-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +76,6 @@ extent:
     reference_from: '01002'
     reference_to: '01002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

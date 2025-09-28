@@ -1,193 +1,149 @@
 ---
-schema-version: v1.2.9
-id: Metrologia601015005
-title:
-- content: 'Determination of sensitivity coefficients and their uncertainties in Rockwell
-    hardness measurement: a Monte Carlo method for multiple linear regression'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aca334
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aca334
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 1 015005
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Determination of sensitivity coefficients and their uncertainties in Rockwell
+    hardness measurement: a Monte Carlo method for multiple linear regression'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aca334
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aca334
+docidentifier:
+- content: Metrologia 60 1 015005
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aca334
+- content: 10.1088/1681-7575/aca334
   type: doi
 date:
 - type: published
-  value: '2022-12-09'
+  at: '2022-12-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pierluigi Rizza
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: C.so Duca degli Abruzzi 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: C.so Duca degli Abruzzi 24, 10129 Torino, Italy
     - organization:
+        address:
+        - formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRiM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marcello Murgia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: C.so Duca degli Abruzzi 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: C.so Duca degli Abruzzi 24, 10129 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Prato
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRiM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Claudio Origlia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRiM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alessandro Germak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRiM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. Delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2022-12-09'
 abstract:
-- content: 'Abstract<p>In the last few decades, many researchers have been studying
-    how hardness measurements can be affected by possible influence variables (i.e.
-    velocity of the indenter, dwell times, temperature, etc). This interest is particularly
-    motivated by the newly adopted international definitions for the realization of
-    Rockwell superficial hardness scales (HR45N, HR30N and HR15N) provided by the
-    Consultative Committee for Mass and Related Quantities of Bureau International
-    des Poids et Mesures, which deal with all the above-mentioned parameters. In this
-    paper, the effect of two such parameters, namely the velocity of the final load
-    application and the time interval of the force variation from the preliminary
-    force value to the total force value, on superficial Rockwell hardness scales
-    at different levels is studied and the related sensitivity coefficients are determined.
-    The coefficients obtained are in the order of 10<sup>−3</sup> HR s μm<sup>−1</sup>
-    and 10<sup>−2</sup> HR s<sup>−1</sup>, respectively, in agreement with other National
-    Metrology Institutes (NMIs), i.e. NIST and NPL. However, the uncertainties associated
-    by the other NMIs are usually underestimated since they are simply given as the
-    standard deviation calculated from the ordinary least squares method for the multiple
-    linear regression, or, in other cases, not reported. For this reason, we propose
-    a methodology for calculating the uncertainties of the sensitivity coefficients
-    via a Monte Carlo method applied to multiple linear regression in order to consider
-    the variability of both input and output quantities: with this method, the squared
-    uncertainties are given as the squared sum of the standard deviation calculated
-    from the ordinary least squares method and the uncertainty contribution due to
-    the repeatability obtained via the proposed Monte Carlo method. The proposed method
-    yields uncertainties of about 10<sup>−2</sup> HR, while the uncertainties reported
-    in other related published papers are in the order of 10<sup>−3</sup> HR.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In the last few decades, many researchers have been studying how hardness measurements can be affected by possible influence variables (i.e. velocity of the indenter, dwell times, temperature, etc). This interest is particularly motivated by the newly adopted international definitions for the realization of Rockwell superficial hardness scales (HR45N, HR30N and HR15N) provided by the Consultative Committee for Mass and Related Quantities of Bureau International des Poids et Mesures, which deal with all the above-mentioned parameters. In this paper, the effect of two such parameters, namely the velocity of the final load application and the time interval of the force variation from the preliminary force value to the total force value, on superficial Rockwell hardness scales at different levels is studied and the related sensitivity coefficients are determined. The coefficients obtained are in the order of 10<sup>−3</sup> HR s μm<sup>−1</sup> and 10<sup>−2</sup> HR s<sup>−1</sup>, respectively, in agreement with other National Metrology Institutes (NMIs), i.e. NIST and NPL. However, the uncertainties associated by the other NMIs are usually underestimated since they are simply given as the standard deviation calculated from the ordinary least squares method for the multiple linear regression, or, in other cases, not reported. For this reason, we propose a methodology for calculating the uncertainties of the sensitivity coefficients via a Monte Carlo method applied to multiple linear regression in order to consider the variability of both input and output quantities: with this method, the squared uncertainties are given as the squared sum of the standard deviation calculated from the ordinary least squares method and the uncertainty contribution due to the repeatability obtained via the proposed Monte Carlo method. The proposed method yields uncertainties of about 10<sup>−2</sup> HR, while the uncertainties reported in other related published papers are in the order of 10<sup>−3</sup> HR.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Determination of sensitivity coefficients and their uncertainties
+    - script: Latn
+      content: 'Determination of sensitivity coefficients and their uncertainties
         in Rockwell hardness measurement: a Monte Carlo method for multiple linear
         regression'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2023-02-01'
+      at: '2023-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Determination of sensitivity coefficients and their uncertainties
+    - script: Latn
+      content: 'Determination of sensitivity coefficients and their uncertainties
         in Rockwell hardness measurement: a Monte Carlo method for multiple linear
         regression'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-12-09'
+      at: '2022-12-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -195,6 +151,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

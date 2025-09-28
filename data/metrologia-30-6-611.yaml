@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306611
-title:
-- content: A Large Area Piston Gauge for Differential and Gauge Pressure from Zero
-    to 3,2 kPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 611
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Large Area Piston Gauge for Differential and Gauge Pressure from Zero
+    to 3,2 kPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/013
+docidentifier:
+- content: Metrologia 30 6 611
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/013
+- content: 10.1088/0026-1394/30/6/013
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C G Rendle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Furness Controls Limited, Beeching Road, Bexhill, East Sussex,
             TN34 1TN, UK
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>The FRS4 pressure balance, or piston gauge, extends the range of this
+- language: en
+  script:
+  - Latn
+  content: "<p>The FRS4 pressure balance, or piston gauge, extends the range of this
     type of instrument below the usual minimum of 1,5 kPa. It gives 0,001 Pa resolution
     from 0,000 Pa to 1 kPa and 0,01 Pa to 3,2 kPa. This is achieved using a piston
     with an effective area of 100 cm<sup>2</sup>. A novel mechanism holds the piston
@@ -52,40 +48,32 @@ abstract:
     area and by standard certified weights to characterize the electronic balance.
     The uncertainty is ± 0,002 Pa ± 0,003% of reading from 0,000 Pa to 1 009,999 Pa,
     and ± 0,01 Pa ± 0,003% of reading from 1 010,00 Pa to 3 200,00 Pa.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Large Area Piston Gauge for Differential and Gauge Pressure from
+    - language: en
+      script: Latn
+      content: A Large Area Piston Gauge for Differential and Gauge Pressure from
         Zero to 3,2 kPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '611'
     reference_to: '613'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

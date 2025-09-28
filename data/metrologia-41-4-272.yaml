@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia414272
-title:
-- content: Analysis and linking of international measurement comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/4/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/4/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 4 272
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analysis and linking of international measurement comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/4/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/4/008
+docidentifier:
+- content: Metrologia 41 4 272
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/4/008
+- content: 10.1088/0026-1394/41/4/008
   type: doi
 date:
 - type: published
-  value: '2004-05-26'
+  at: '2004-05-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Sutton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standard Laboratory of New Zealand, Industrial Research
             Ltd, PO Box 31310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2004-05-26'
 abstract:
-- content: "<p>We present a method to analyse international measurement comparisons,
+- language: en
+  script:
+  - Latn
+  content: "<p>We present a method to analyse international measurement comparisons,
     including linking two or more comparisons. This method, which is based on linear
     generalized least-squares estimation, directly gives the degrees of equivalence
     required by the Mutual Recognition Arrangement, both relative to the key comparison
@@ -54,53 +50,42 @@ abstract:
     APMP.M.M-Kl and CCM.M-Kl is presented to illustrate the method. While best suited
     to comparisons with single-valued travelling standards, the method can be applied
     to most other comparison types.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis and linking of international measurement comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analysis and linking of international measurement comparisons
     date:
     - type: epub
-      value: '2004-05-26'
+      at: '2004-05-26'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis and linking of international measurement comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analysis and linking of international measurement comparisons
     date:
     - type: ppub
-      value: '2004-08-01'
+      at: '2004-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: '272'
     reference_to: '277'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

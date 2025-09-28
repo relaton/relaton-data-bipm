@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia163117
-title:
-- content: Effect of Pt Oxidation on Pt Resistance Thermometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 3 117
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Effect of Pt Oxidation on Pt Resistance Thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/3/003
+docidentifier:
+- content: Metrologia 16 3 117
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/3/003
+- content: 10.1088/0026-1394/16/3/003
   type: doi
 date:
 - type: published
-  value: '1980-07-01'
+  at: '1980-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada, K1A 0R6
-  role:
-  - type: author
-revdate: '1980-07-01'
 abstract:
-- content: "<p>The effect of Pt oxidation on the electrical resistance of four different
+- language: en
+  script:
+  - Latn
+  content: "<p>The effect of Pt oxidation on the electrical resistance of four different
     Pt resistance thermometers is investigated. It is shown that this process can
     cause large, undesirable resistance changes in these thermometers in spite of
     the low partial pressures of oxygen contained within them. Two different types
@@ -55,39 +51,31 @@ abstract:
     present on the sensor. For the 0 °C resistance these rates can vary from 0 up
     to as high as 109 microhms per hour. Specific procedures, which greatly reduce
     the possible temperature errors from this source, are recommended.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of Pt Oxidation on Pt Resistance Thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Effect of Pt Oxidation on Pt Resistance Thermometry
     date:
     - type: ppub
-      value: '1980-07-01'
+      at: '1980-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '117'
     reference_to: '126'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

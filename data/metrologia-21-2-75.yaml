@@ -1,109 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia21275
-title:
-- content: The International Practical Temperature Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 2 75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The International Practical Temperature Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/2/004
+docidentifier:
+- content: Metrologia 21 2 75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/2/004
+- content: 10.1088/0026-1394/21/2/004
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Preston-Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Ottawa, Canada K1A OR6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Hudson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>A discussion is presented of what is meant by an International Practical
-    Temperature Scale and how the definition of the unit of temperature should be
-    viewed in relation to the definitions of the other base units.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A discussion is presented of what is meant by an International Practical
+    Temperature Scale and how the definition of the unit of temperature should be
+    viewed in relation to the definitions of the other base units.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The International Practical Temperature Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The International Practical Temperature Scale
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +98,6 @@ extent:
     reference_from: '75'
     reference_to: '79'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

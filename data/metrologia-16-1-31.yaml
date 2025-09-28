@@ -1,92 +1,80 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16131
-title:
-- content: International Comparison of Flux Density Measurements for Monoenergetic
-    Fast Neutrons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 1 31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Flux Density Measurements for Monoenergetic
+    Fast Neutrons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/1/006
+docidentifier:
+- content: Metrologia 16 1 31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/1/006
+- content: 10.1088/0026-1394/16/1/006
   type: doi
 date:
 - type: published
-  value: '1980-01-01'
+  at: '1980-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V D Huynh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1980-01-01'
 abstract:
-- content: "<p>An international flux density comparison of monoenergetic fast neutrons
+- language: en
+  script:
+  - Latn
+  content: "<p>An international flux density comparison of monoenergetic fast neutrons
     has been organized by the Bureau International des Poids et Mesures. Nine laboratories
     carried out measurements which extended from December 1973 to February 1978. The
     five neutron energies 250 keV, 565 keV, 2.2 MeV, 2.5 MeV and 14.8 MeV were selected.
     A polyethylene sphere with a small BF<sub>3</sub> counter at the center served
-    as a transfer instrument at all energies except for 14.8 MeV. A<sup>3</sup>He
+    as a transfer instrument at all energies except for 14.8 MeV. A <sup>3</sup>He
     proportional counter was used at the two lower energies as the second transfer
     instrument. At 14.8 MeV a fission chamber (<sup>238</sup>U) and the iron foil
-    activation method based on the<sup>56</sup>Fe (n,p)<sup>56</sup>Mn reaction were
-    used. The experimental conditions, the neutron flux density determinations and
-    the transfer instrument measurements are described. The results of the intercomparison
+    activation method based on the <sup>56</sup>Fe (n,p) <sup>56</sup>Mn reaction
+    were used. The experimental conditions, the neutron flux density determinations
+    and the transfer instrument measurements are described. The results of the intercomparison
     are summarized in tables and graphs.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Flux Density Measurements for Monoenergetic
+    - language: en
+      script: Latn
+      content: International Comparison of Flux Density Measurements for Monoenergetic
         Fast Neutrons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-01-01'
+      at: '1980-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '31'
     reference_to: '49'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

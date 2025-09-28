@@ -1,125 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia49115
-title:
-- content: Uncertainty in measurements by counting
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 15
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty in measurements by counting
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/003
+docidentifier:
+- content: Metrologia 49 1 15
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/003
+- content: 10.1088/0026-1394/49/1/003
   type: doi
 date:
 - type: published
-  value: '2011-11-07'
+  at: '2011-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesca Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2011-11-07'
 abstract:
-- content: "<p>Counting is at the base of many high-level measurements, such as, for
+- language: en
+  script:
+  - Latn
+  content: "<p>Counting is at the base of many high-level measurements, such as, for
     example, frequency measurements. In some instances the measurand itself is a number
     of events, such as spontaneous decays in activity measurements, or objects, such
     as colonies of bacteria in microbiology. Countings also play a fundamental role
     in everyday life. In any case, a counting is a measurement. A measurement result,
-    according to its present definition, as given in the ‘International Vocabulary
-    of Metrology—Basic and general concepts and associated terms (VIM)’, must include
-    a specification concerning the estimated uncertainty. As concerns measurements
-    by counting, this specification is not easy to encompass in the well-known framework
-    of the ‘Guide to the Expression of Uncertainty in Measurement’, known as GUM,
-    in which there is no guidance on the topic. Furthermore, the issue of uncertainty
-    in countings has received little or no attention in the literature, so that it
-    is commonly accepted that this category of measurements constitutes an exception
-    in which the concept of uncertainty is not applicable, or, alternatively, that
-    results of measurements by counting have essentially no uncertainty. In this paper
-    we propose a general model for measurements by counting which allows an uncertainty
-    evaluation compliant with the general framework of the GUM.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    according to its present definition, as given in the ‘<italic>International Vocabulary
+    of Metrology—Basic and general concepts and associated terms</italic> (VIM)’,
+    must include a specification concerning the estimated uncertainty. As concerns
+    measurements by counting, this specification is not easy to encompass in the well-known
+    framework of the ‘<italic>Guide to the Expression of Uncertainty in Measurement</italic>’,
+    known as GUM, in which there is no guidance on the topic. Furthermore, the issue
+    of uncertainty in countings has received little or no attention in the literature,
+    so that it is commonly accepted that this category of measurements constitutes
+    an exception in which the concept of uncertainty is not applicable, or, alternatively,
+    that results of measurements by counting have essentially no uncertainty. In this
+    paper we propose a general model for measurements by counting which allows an
+    uncertainty evaluation compliant with the general framework of the GUM.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty in measurements by counting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty in measurements by counting
     date:
     - type: epub
-      value: '2011-11-07'
+      at: '2011-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty in measurements by counting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty in measurements by counting
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +116,6 @@ extent:
     reference_from: '15'
     reference_to: '19'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

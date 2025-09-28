@@ -1,136 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia443L23
-title:
-- content: Evaluating the uncertainties of data rendered by computational models
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/3/N02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/3/N02
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 3 L23
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evaluating the uncertainties of data rendered by computational models
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/3/N02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/3/N02
+docidentifier:
+- content: Metrologia 44 3 L23
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/3/N02
+- content: 10.1088/0026-1394/44/3/N02
   type: doi
 date:
 - type: published
-  value: '2007-05-21'
+  at: '2007-05-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raul R Cordero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Str. 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gunther Seckmeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Str. 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fernando Labbe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Universidad Técnica Federico Santa Maria, Ave. España 1680, Valparaíso,
             Chile
-  role:
-  - type: author
-revdate: '2007-05-21'
 abstract:
-- content: "<p>Computational models allow calculation of the value of an output quantity
-    from a set of linked input quantities. The value of the output quantity yielded
-    by a model is evidently influenced by errors in the determination of the input
-    quantities. Therefore, the uncertainties of the output data can be expressed in
-    terms of the uncertainties of the input quantities by using a Monte Carlo-based
-    uncertainty propagation technique. As an example, we evaluated the uncertainty
-    of the spectral UV irradiance rendered by a radiative transfer model under cloudless
-    sky conditions. This model allows calculation of the spectrally resolved solar
-    UV irradiance from some set of measured input quantities linked with the concentration
-    of atmospheric constituents, the surface reflectivity as well as the spectral
-    characteristics of the aerosol modulation. Although only a single model was used
-    in this work, the methodology applied to evaluate the uncertainty is general and
-    can be applied to any other computational model.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Computational models allow calculation of the value of an <italic>output
+    quantity</italic> from a set of linked <italic>input quantities</italic>. The
+    value of the output quantity yielded by a model is evidently influenced by errors
+    in the determination of the input quantities. Therefore, the uncertainties of
+    the output data can be expressed in terms of the uncertainties of the input quantities
+    by using a Monte Carlo-based uncertainty propagation technique. As an example,
+    we evaluated the uncertainty of the spectral UV irradiance rendered by a radiative
+    transfer model under cloudless sky conditions. This model allows calculation of
+    the spectrally resolved solar UV irradiance from some set of measured input quantities
+    linked with the concentration of atmospheric constituents, the surface reflectivity
+    as well as the spectral characteristics of the aerosol modulation. Although only
+    a single model was used in this work, the methodology applied to evaluate the
+    uncertainty is general and can be applied to any other computational model.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating the uncertainties of data rendered by computational models
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evaluating the uncertainties of data rendered by computational models
     date:
     - type: epub
-      value: '2007-05-21'
+      at: '2007-05-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating the uncertainties of data rendered by computational models
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evaluating the uncertainties of data rendered by computational models
     date:
     - type: ppub
-      value: '2007-06-01'
+      at: '2007-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: L23
     reference_to: L30
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

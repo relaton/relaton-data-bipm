@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia25287
-title:
-- content: Density of Moist Air Monitored by Laser Refractometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 2 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Density of Moist Air Monitored by Laser Refractometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/2/005
+docidentifier:
+- content: Metrologia 25 2 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/2/005
+- content: 10.1088/0026-1394/25/2/005
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L R Pendrill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Testing Institute, Weights and Measures, Box 857, S-501
             15 Borås, Sweden
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Air-buoyancy corrections are often a dominant source of error in the
+- language: en
+  script:
+  - Latn
+  content: "<p>Air-buoyancy corrections are often a dominant source of error in the
     transfer of the unit of mass through weighing of nominally equal weights of different
     densities. The possibilities of monitoring air density through measurement of
     the refractive index of air are considered. A critical discussion is given of
@@ -50,39 +46,31 @@ abstract:
     × 10<sup>-3</sup> kg m<sup>-3</sup>, corresponding to a change in air buoyancy
     of 9 μg, is demonstrated in weighings of the Swedish prototype kilogram with stainless-steel
     standards.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Density of Moist Air Monitored by Laser Refractometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Density of Moist Air Monitored by Laser Refractometry
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '87'
     reference_to: '93'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

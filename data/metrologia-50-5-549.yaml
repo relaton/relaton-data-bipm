@@ -1,130 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia505549
-title:
-- content: 'Analysis of key comparison data: critical assessment of elements of current
-    practice with suggested improvements'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/5/549
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/5/549
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 5 549
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Analysis of key comparison data: critical assessment of elements of current
+    practice with suggested improvements'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/5/549
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/5/549
+docidentifier:
+- content: Metrologia 50 5 549
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/5/549
+- content: 10.1088/0026-1394/50/5/549
   type: doi
 date:
 - type: published
-  value: '2013-10-01'
+  at: '2013-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: US Department of Commerce, Gaithersburg, MD, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-        contact:
-        - address:
-            formatted_address: US Department of Commerce, Gaithersburg, MD, USA
-  role:
-  - type: author
-revdate: '2013-10-01'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division, Information Technology Laboratory
 abstract:
-- content: Abstract<p>The degrees of equivalence can be viewed as possibly the main
-    result in the analysis of key comparison data. Their specification as given in
-    the CIPM MRA is discussed and critically assessed in this paper. We argue that
-    there is an ambiguity in the definition and meaning of the (unilateral) degrees
-    of equivalence. As a consequence of this ambiguity uncertainties quoted for (unilateral)
-    degrees of equivalence may be questioned. The ambiguity can be avoided by identifying
-    the quantities that are being estimated by the degrees of equivalence, and we
-    propose a standard statistical model to do this.</p><p>We then show that the degrees
-    of equivalence are not a unique measure of consistency between the results and
-    the underlying measurand when determined solely from the data. Prior knowledge
-    or additional assumptions are needed for this purpose, and Bayesian methods are
-    particularly suitable to handle that. However, such measures of consistency depend
-    on the chosen additional assumptions and generally are not in accordance with
-    the current CIPM MRA.</p><p>Fortunately, quantifying consistency between the results
-    and the underlying measurand is not necessary in order to assess equivalence between
-    the laboratories. We show that on the basis of the (unambiguous) pairwise degrees
-    of equivalence the laboratories can be grouped into equivalent subsets, the largest
-    of which may be chosen to select those laboratories whose CMCs are then viewed
-    as validated.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The degrees of equivalence can be viewed as possibly the main result in the analysis of key comparison data. Their specification as given in the CIPM MRA is discussed and critically assessed in this paper. We argue that there is an ambiguity in the definition and meaning of the (unilateral) degrees of equivalence. As a consequence of this ambiguity uncertainties quoted for (unilateral) degrees of equivalence may be questioned. The ambiguity can be avoided by identifying the quantities that are being estimated by the degrees of equivalence, and we propose a standard statistical model to do this.</p>
+    <p>We then show that the degrees of equivalence are not a unique measure of consistency between the results and the underlying measurand when determined solely from the data. Prior knowledge or additional assumptions are needed for this purpose, and Bayesian methods are particularly suitable to handle that. However, such measures of consistency depend on the chosen additional assumptions and generally are not in accordance with the current CIPM MRA.</p>
+    <p>Fortunately, quantifying consistency between the results and the underlying measurand is not necessary in order to assess equivalence between the laboratories. We show that on the basis of the (unambiguous) pairwise degrees of equivalence the laboratories can be grouped into equivalent subsets, the largest of which may be chosen to select those laboratories whose CMCs are then viewed as validated.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Analysis of key comparison data: critical assessment of elements of
+    - script: Latn
+      content: 'Analysis of key comparison data: critical assessment of elements of
         current practice with suggested improvements'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-10-01'
+      at: '2013-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Analysis of key comparison data: critical assessment of elements of
+    - script: Latn
+      content: 'Analysis of key comparison data: critical assessment of elements of
         current practice with suggested improvements'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-10-03'
+      at: '2013-10-03'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +112,6 @@ extent:
     reference_from: '549'
     reference_to: '555'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

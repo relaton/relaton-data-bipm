@@ -1,130 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463249
-title:
-- content: Comparison of the INRIM and PTB lattice-spacing standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 249
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of the INRIM and PTB lattice-spacing standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/011
+docidentifier:
+- content: Metrologia 46 3 249
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/011
+- content: 10.1088/0026-1394/46/3/011
   type: doi
 date:
 - type: published
-  value: '2009-03-24'
+  at: '2009-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Massa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Kuetgens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB—Physikalish-Technische Bundesanstalt, Bundesalle 100, 38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2009-03-24'
 abstract:
-- content: "<p>To base the kilogram definition on the atomic mass of the<sup>28</sup>Si
-    atom, the present relative uncertainty of the<sup>28</sup>Si lattice parameter
+- language: en
+  script:
+  - Latn
+  content: "<p>To base the kilogram definition on the atomic mass of the <sup>28</sup>Si
+    atom, the present relative uncertainty of the <sup>28</sup>Si lattice parameter
     must be lowered to 3 × 10<sup>−9</sup>. A new experimental apparatus capable of
     a centimetre measurement-baseline has been used to remeasure the lattice parameter
     of crystals MO<sup>*</sup>4 of INRIM and WASO 4.2a of PTB. The comparison between
     these determinations is intended to verify the measurement capabilities and to
     assess the limits of this experiment.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the INRIM and PTB lattice-spacing standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of the INRIM and PTB lattice-spacing standards
     date:
     - type: epub
-      value: '2009-03-24'
+      at: '2009-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the INRIM and PTB lattice-spacing standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of the INRIM and PTB lattice-spacing standards
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +116,6 @@ extent:
     reference_from: '249'
     reference_to: '253'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

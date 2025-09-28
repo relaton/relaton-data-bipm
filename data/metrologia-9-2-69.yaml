@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9269
-title:
-- content: Messung der Neigungsstreuung mikroskopischer Rauheiten in inkohärenten
-    Lichtfeldern
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 2 69
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Messung der Neigungsstreuung mikroskopischer Rauheiten in inkohärenten
+    Lichtfeldern
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/2/003
+docidentifier:
+- content: Metrologia 9 2 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/2/003
+- content: 10.1088/0026-1394/9/2/003
   type: doi
 date:
 - type: published
-  value: '1973-04-01'
+  at: '1973-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Cordes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Lehrstuhl A und Institut für Physikalische Chemie der Technischen
             Universität Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Grabe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Lehrstuhl A und Institut für Physikalische Chemie der Technischen
             Universität Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1973-04-01'
 abstract:
-- content: "<p>The shape of the scattering indicatrix of microscopic rough surfaces
+- language: en
+  script:
+  - Latn
+  content: "<p>The shape of the scattering indicatrix of microscopic rough surfaces
     depends on material and geometrical properties of the surface as well as on optical
     conditions as wavelength and scattering geometry. We shall call the definite photometric
     observation of any part of the scattering indicatrix a gloss measurement. Roughness
     parameters calculated from incoherent gloss curves are compared with analogous
     data obtained with help of conventional tracing instruments.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Messung der Neigungsstreuung mikroskopischer Rauheiten in inkohärenten
+    - language: de
+      script: Latn
+      content: Messung der Neigungsstreuung mikroskopischer Rauheiten in inkohärenten
         Lichtfeldern
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-04-01'
+      at: '1973-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '69'
     reference_to: '74'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

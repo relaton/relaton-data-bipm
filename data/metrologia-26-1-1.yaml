@@ -1,120 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2611
-title:
-- content: High-accuracy Capabilities of an OsO<sub>4</sub> Molecular-beam Frequency
-    Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High-accuracy Capabilities of an OsO<sub>4</sub> Molecular-beam Frequency
+    Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/1/002
+docidentifier:
+- content: Metrologia 26 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/1/002
+- content: 10.1088/0026-1394/26/1/002
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Godone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale G. Ferraris, I-10125 Torino,
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P Sassi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia G. Colonnetti, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Bava
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale G. Ferraris, I-10125 Torino,
             Italy
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>The absorptions of OsO<sub>4</sub> in coincidence with CO<sub>2</sub>
-    laser emissions have very attractive metrological characteristics, as has been
-    demonstrated by several high-resolution frequency measurements. We evaluate in
-    this work the possibilities of realizing a frequency standard at 30 THz based
-    on an OsO<sub>4</sub> molecular beam with a Ramsey-type interaction technique
-    which could allow an accuracy level of 10<sup>-14</sup> or better with a high
-    short-term stability.</p><p>The possible interaction and detection techniques
-    are discussed in order to evaluate the observed line-width and the signal-to-noise
-    ratio, taking into account the molecular flux achievable with a multichannel source.
-    The main uncertainty sources are also discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The absorptions of OsO<sub>4</sub> in coincidence with CO<sub>2</sub> laser emissions have very attractive metrological characteristics, as has been demonstrated by several high-resolution frequency measurements. We evaluate in this work the possibilities of realizing a frequency standard at 30 THz based on an OsO<sub>4</sub> molecular beam with a Ramsey-type interaction technique which could allow an accuracy level of 10<sup>-14</sup> or better with a high short-term stability.</p>
+    <p>The possible interaction and detection techniques are discussed in order to evaluate the observed line-width and the signal-to-noise ratio, taking into account the molecular flux achievable with a multichannel source. The main uncertainty sources are also discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High-accuracy Capabilities of an OsO<sub>4</sub> Molecular-beam Frequency
+    - language: en
+      script: Latn
+      content: High-accuracy Capabilities of an OsO<sub>4</sub> Molecular-beam Frequency
         Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +102,6 @@ extent:
     reference_from: '1'
     reference_to: '8'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

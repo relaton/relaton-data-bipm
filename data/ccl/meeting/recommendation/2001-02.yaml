@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: CCL-REC-2001-02
-title:
-- content: Development of optical comb technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Nouvelles techniques utilisant des peignes de fréquence
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccl/10-2001/resolution-2
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccl/10-2001/resolution-2
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-10.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-10.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2070984/CCL10.pdf.zip/07169bfa-16cc-bc54-72c4-c917011fe964
-  type: pdf
 type: proceedings
-docid:
-- id: CCL REC 2 (2001)
-  type: BIPM
-  primary: true
-- id: CCL REC 2 (2001, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCL REC 2 (2001, F)
+  content: Development of optical comb technology
+- language: fr
+  script: Latn
+  content: Nouvelles techniques utilisant des peignes de fréquence
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccl/10-2001/resolution-2
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccl/10-2001/resolution-2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-10.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-10.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2070984/CCL10.pdf.zip/07169bfa-16cc-bc54-72c4-c917011fe964
+docidentifier:
+- content: CCL REC 2 (2001)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCL Recommendation 2 (2001)
+  content: CCL REC 2 (2001, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCL REC 2 (2001, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCL Recommendation 2 (2001)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CCL (2001)
+  content: Recommandation 2 du CCL (2001)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCL Recommendation 2 (2001) / Recommandation 2 du CCL (2001)
+- content: CCL Recommendation 2 (2001) / Recommandation 2 du CCL (2001)
   type: BIPM-long
 docnumber: CCL REC 2 (2001)
 date:
 - type: published
-  value: '2001-09-20'
+  at: '2001-09-20'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2001-09-20'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -94,8 +79,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

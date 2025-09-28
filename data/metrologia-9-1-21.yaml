@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9121
-title:
-- content: Determining the Avogadro Constant to High Accuracy via Improved Measurements
-    of the Absolute Ampere
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 1 21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Determining the Avogadro Constant to High Accuracy via Improved Measurements
+    of the Absolute Ampere
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/1/005
+docidentifier:
+- content: Metrologia 9 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/1/005
+- content: 10.1088/0026-1394/9/1/005
   type: doi
 date:
 - type: published
-  value: '1973-01-01'
+  at: '1973-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B N Taylor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Basic Standards, National Bureau of Standards Washington,
             DC, USA
-  role:
-  - type: author
-revdate: '1973-01-01'
 abstract:
-- content: "<p>It is shown how an improved measurement of the absolute ampere, that
-    is, the ratio of a particular as-maintained unit of current to the absolute or
-    Système International d'Unités (SI) unit of current, can now lead to an improved
-    value of the Avogadro constant.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>It is shown how an improved measurement of the absolute ampere, that
+    is, the ratio of a particular as-maintained unit of current to the absolute or
+    <italic>Système International d'Unités</italic> (SI) unit of current, can now
+    lead to an improved value of the Avogadro constant.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determining the Avogadro Constant to High Accuracy via Improved Measurements
+    - language: en
+      script: Latn
+      content: Determining the Avogadro Constant to High Accuracy via Improved Measurements
         of the Absolute Ampere
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-01-01'
+      at: '1973-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '21'
     reference_to: '23'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

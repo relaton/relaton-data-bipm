@@ -1,115 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581A02003
-title:
-- content: COOMET Supplementary comparison on polarization mode dispersion in optical
-    fiber
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/58/1A/02003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/58/1A/02003
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1A 02003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: COOMET Supplementary comparison on polarization mode dispersion in optical
+    fiber
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/58/1A/02003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/58/1A/02003
+docidentifier:
+- content: Metrologia 58 1A 02003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/58/1A/02003
+- content: 10.1088/0026-1394/58/1A/02003
   type: doi
 date:
 - type: published
-  value: '2021-01-01'
+  at: '2021-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vladimir Kravtsov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Low Intensity Lasers Radiation and Fiber Optical Systems Metrology
             Laboratory, All Russian Research Institute for Optical and Physical Measurements
             (VNIIOFI) Ozernaya st.46, Moscow, 119361, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aleksei Mitiurev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Low Intensity Lasers Radiation and Fiber Optical Systems Metrology
             Laboratory, All Russian Research Institute for Optical and Physical Measurements
             (VNIIOFI) Ozernaya st.46, Moscow, 119361, Russia
-  role:
-  - type: author
-revdate: '2021-01-01'
 abstract:
-- content: Main text<p>INMETRO, KRISS, METAS and VNIIOFI carried out the supplementary
-    comparison on Polarization mode dispersion in optical fiber (PMD). The aim of
-    this comparison is to examine the equivalence of the PMD values for fiber optics
-    among participating laboratories.</p><p>To reach the main text of this paper,
-    click on Final Report. Note that this text is that which appears in Appendix B
-    of the BIPM key comparison database https://www.bipm.org/kcdb/.</p><p>The final
-    report has been peer-reviewed and approved for publication by the CCPR, according
-    to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Main text</title>
+    <p>INMETRO, KRISS, METAS and VNIIOFI carried out the supplementary comparison on Polarization mode dispersion in optical fiber (PMD). The aim of this comparison is to examine the equivalence of the PMD values for fiber optics among participating laboratories.</p>
+    <p>To reach the main text of this paper, click on <ext-link xlink:href="https://www.bipm.org/documents/20126/60034879/COOMET.PR-S9.pdf/c96f29d7-cf73-7d12-f5b6-1bc21d8bee99" xlink:type="simple">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link xlink:href="https://www.bipm.org/kcdb/" xlink:type="simple">https://www.bipm.org/kcdb/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCPR, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: COOMET Supplementary comparison on polarization mode dispersion in
+    - script: Latn
+      content: COOMET Supplementary comparison on polarization mode dispersion in
         optical fiber
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-01-01'
+      at: '2021-01-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: COOMET Supplementary comparison on polarization mode dispersion in
+    - script: Latn
+      content: COOMET Supplementary comparison on polarization mode dispersion in
         optical fiber
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-09-10'
+      at: '2021-09-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +104,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

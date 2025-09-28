@@ -1,121 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483187
-title:
-- content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 187
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/013
+docidentifier:
+- content: Metrologia 48 3 187
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/013
+- content: 10.1088/0026-1394/48/3/013
   type: doi
 date:
 - type: published
-  value: '2011-04-13'
+  at: '2011-04-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Rothleitner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Luxembourg, Faculty of Science, Technology and Communication,
             L-1359 Luxembourg
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Francis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Luxembourg, Faculty of Science, Technology and Communication,
             L-1359 Luxembourg
-  role:
-  - type: author
-revdate: '2011-04-13'
 abstract:
-- content: "<p>In a free-fall absolute gravimeter usually a Michelson type interferometer
-    is employed to track the trajectory of a freely falling retroreflector. The accelerated
-    motion of the retroreflector produces a Doppler-shift in the laser wavelength.
-    From the interference signal (beat signal) of the Doppler-shifted and the reference
-    electromagnetic waves the relative motion of the freely falling retroreflector
-    with respect to an inertial reference retroreflector is reconstructed. Considerations
-    of second-order Doppler-shift terms lead to a correction in the acceleration due
-    to gravity of several microgals (1 µGal = 10 nm s<sup>−2</sup>). This correction
-    is commonly called speed of light correction. To date different correction formulae
-    have been proposed, which differ by several microgals.</p><p>In this paper we
-    review several previous publications and show the reasons for the different results.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In a free-fall absolute gravimeter usually a Michelson type interferometer is employed to track the trajectory of a freely falling retroreflector. The accelerated motion of the retroreflector produces a Doppler-shift in the laser wavelength. From the interference signal (beat signal) of the Doppler-shifted and the reference electromagnetic waves the relative motion of the freely falling retroreflector with respect to an inertial reference retroreflector is reconstructed. Considerations of second-order Doppler-shift terms lead to a correction in the acceleration due to gravity of several microgals (1 µGal = 10 nm s<sup>−2</sup>). This correction is commonly called <italic>speed of light correction</italic>. To date different correction formulae have been proposed, which differ by several microgals.</p>
+    <p>In this paper we review several previous publications and show the reasons for the different results.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
     date:
     - type: epub
-      value: '2011-04-13'
+      at: '2011-04-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Second-order Doppler-shift corrections in free-fall absolute gravimeters
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +104,6 @@ extent:
     reference_from: '187'
     reference_to: '195'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

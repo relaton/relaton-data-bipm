@@ -1,146 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593035010
-title:
-- content: Precise sinusoidal signal extraction from noisy waveform in vibration calibration
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac6cba
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac6cba
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 035010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Precise sinusoidal signal extraction from noisy waveform in vibration calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac6cba
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac6cba
+docidentifier:
+- content: Metrologia 59 3 035010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac6cba
+- content: 10.1088/1681-7575/ac6cba
   type: doi
 date:
 - type: published
-  value: '2022-05-26'
+  at: '2022-05-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tomofumi Shimoda
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
         name:
         - content: National Institute of Advanced Industrial Science and Technology
         subdivision:
-        - content: National Metrology Institute of Japan
-        contact:
-        - address:
-            formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: National Metrology Institute of Japan
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wataru Kokuyama
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
         name:
         - content: National Institute of Advanced Industrial Science and Technology
         subdivision:
-        - content: National Metrology Institute of Japan
-        contact:
-        - address:
-            formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: National Metrology Institute of Japan
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hideaki Nozato
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
         name:
         - content: National Institute of Advanced Industrial Science and Technology
         subdivision:
-        - content: National Metrology Institute of Japan
-        contact:
-        - address:
-            formatted_address: 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
-  role:
-  - type: author
-revdate: '2022-05-26'
+        - name:
+          - language: en
+            script: Latn
+            content: National Metrology Institute of Japan
 abstract:
-- content: Abstract<p>Precise extraction of sinusoidal vibration parameters is essential
-    for the dynamic calibration of vibration sensors, such as accelerometers. However,
-    several standard methods have not yet been optimized for large background noise.
-    In this work, signal processing methods to extract small vibration signals from
-    noisy data in the case of accelerometer calibration are discussed. The results
-    show that spectral leakage degrades calibration accuracy. Three methods based
-    on the use of a filter, window function, and numerical differentiation are investigated
-    to reduce the contribution of the calibration system noise. We demonstrate the
-    effectiveness of these methods with theoretical calculations, simulations, and
-    experiments. The uncertainty of microvibration calibration in the National Metrology
-    Institute of Japan is reduced by two orders of magnitudes using the proposed methods.
-    We recommend to use a combination of numerical differentiation and either a time-domain
-    window function or a bandpass filter for most accelerometer microvibration sensitivity
-    calibrations. For suppressing the effects of line noise, adjusting the data set
-    length is also effective.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Precise extraction of sinusoidal vibration parameters is essential for the dynamic calibration of vibration sensors, such as accelerometers. However, several standard methods have not yet been optimized for large background noise. In this work, signal processing methods to extract small vibration signals from noisy data in the case of accelerometer calibration are discussed. The results show that spectral leakage degrades calibration accuracy. Three methods based on the use of a filter, window function, and numerical differentiation are investigated to reduce the contribution of the calibration system noise. We demonstrate the effectiveness of these methods with theoretical calculations, simulations, and experiments. The uncertainty of microvibration calibration in the National Metrology Institute of Japan is reduced by two orders of magnitudes using the proposed methods. We recommend to use a combination of numerical differentiation and either a time-domain window function or a bandpass filter for most accelerometer microvibration sensitivity calibrations. For suppressing the effects of line noise, adjusting the data set length is also effective.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise sinusoidal signal extraction from noisy waveform in vibration
+    - script: Latn
+      content: Precise sinusoidal signal extraction from noisy waveform in vibration
         calibration
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise sinusoidal signal extraction from noisy waveform in vibration
+    - script: Latn
+      content: Precise sinusoidal signal extraction from noisy waveform in vibration
         calibration
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-05-26'
+      at: '2022-05-26'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +130,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

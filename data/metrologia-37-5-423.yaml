@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375423
-title:
-- content: Radiometric calibration history of visible and near-infrared portable radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/17
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 423
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiometric calibration history of visible and near-infrared portable radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/17
+docidentifier:
+- content: Metrologia 37 5 423
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/17
+- content: 10.1088/0026-1394/37/5/17
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Carol Johnson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S W Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The National Institute of Standards and Technology (NIST), with the
+- language: en
+  script:
+  - Latn
+  content: "<p>The National Institute of Standards and Technology (NIST), with the
     support of the National Aeronautics and Space Administration (NASA), has built
     several transfer radiometers that are used in radiometric measurement comparisons
     to validate spectral-radiance levels assigned to integrating-sphere sources by
@@ -77,40 +69,32 @@ abstract:
     This paper presents a historical analysis of a calibration method that utilizes
     a broadband source. Previously observed discrepancies between two radiometers
     are reconciled as a result.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometric calibration history of visible and near-infrared portable
+    - language: en
+      script: Latn
+      content: Radiometric calibration history of visible and near-infrared portable
         radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +105,6 @@ extent:
     reference_from: '423'
     reference_to: '426'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

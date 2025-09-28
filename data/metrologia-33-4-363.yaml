@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia334363
-title:
-- content: Realization of the silver point using a calorimetric method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/4/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/4/10
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 4 363
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the silver point using a calorimetric method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/4/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/4/10
+docidentifier:
+- content: Metrologia 33 4 363
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/4/10
+- content: 10.1088/0026-1394/33/4/10
   type: doi
 date:
 - type: published
-  value: '1996-08-01'
+  at: '1996-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bonnier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Renaot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
-  - type: author
-revdate: '1996-08-01'
 abstract:
-- content: "<p>Most of the ITS-90 temperature fixed points are established by the
+- language: en
+  script:
+  - Latn
+  content: "<p>Most of the ITS-90 temperature fixed points are established by the
     melting or freezing of a specified substance. The question which may be asked
     is how closely this definition leads to a temperature value corresponding to the
     ideal thermodynamic state of the phase change temperature of a substance containing
@@ -63,39 +57,31 @@ abstract:
     temperature fixed points closer to the thermodynamic definition than by using
     the actual ITS-90 definition. This technique could lead to a more reliable (or
     more reproducible) temperature and could be a worthwhile improvement of the ITS-90.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the silver point using a calorimetric method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the silver point using a calorimetric method
     date:
     - type: ppub
-      value: '1996-08-01'
+      at: '1996-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '363'
     reference_to: '367'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

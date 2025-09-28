@@ -1,114 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia42111
-title:
-- content: Simple flow meter and viscometer of high accuracy for gases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Simple flow meter and viscometer of high accuracy for gases
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1/002
+docidentifier:
+- content: Metrologia 42 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1/002
+- content: 10.1088/0026-1394/42/1/002
   type: doi
 date:
 - type: published
-  value: '2005-01-06'
+  at: '2005-01-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert F Berg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Process Measurements Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899-8364, USA
-  role:
-  - type: author
-revdate: '2005-01-06'
 abstract:
-- content: "<p>A model and supporting measurements are presented for the laminar flow
-    of gases through a long capillary with a circular cross section. Using the model
-    with a coil of quartz capillary of known dimensions yields the flow rates of a
-    gas of known viscosity with an uncertainty of 0.04%. Alternatively, combining
-    the model and capillary with an independent measurement of flow rate yields the
-    gas viscosity with similar uncertainty. The model corrects the Hagen–Poiseuille
-    equation for (1) departures from ideal gas behaviour, (2) slip at the capillary
-    walls, (3) kinetic energy changes at the capillary entrance, (4) gas expansion
-    along the length of the capillary, (5) viscous heating and (6) centrifugal effects
-    that occur when a long capillary is coiled to fit into a small volume. The corrections
-    are expressed in terms of familiar dimensionless parameters.</p><p>Measurements
-    near room temperature using helium, nitrogen, argon, propane and sulfur hexafluoride
-    demonstrated that the model describes the flow rates of gases with widely varying
-    properties at Reynolds numbers as large as 1000. Combining the flow rates with
-    independent measurements of the capillary length and radius yielded new absolute
-    viscosity values for the five gases at 25 °C with an uncertainty of 0.04%. This
-    small uncertainty was verified independently by comparing the result for the viscosity
-    of helium to recent calculations using quantum mechanics and statistical mechanics.
-    The present results allow one to construct a flow meter or viscometer of similar
-    accuracy with no measurement of the capillary radius and only a nominal measurement
-    of the capillary length.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A model and supporting measurements are presented for the laminar flow of gases through a long capillary with a circular cross section. Using the model with a coil of quartz capillary of known dimensions yields the flow rates of a gas of known viscosity with an uncertainty of 0.04%. Alternatively, combining the model and capillary with an independent measurement of flow rate yields the gas viscosity with similar uncertainty. The model corrects the Hagen–Poiseuille equation for (1) departures from ideal gas behaviour, (2) slip at the capillary walls, (3) kinetic energy changes at the capillary entrance, (4) gas expansion along the length of the capillary, (5) viscous heating and (6) centrifugal effects that occur when a long capillary is coiled to fit into a small volume. The corrections are expressed in terms of familiar dimensionless parameters.</p>
+    <p>Measurements near room temperature using helium, nitrogen, argon, propane and sulfur hexafluoride demonstrated that the model describes the flow rates of gases with widely varying properties at Reynolds numbers as large as 1000. Combining the flow rates with independent measurements of the capillary length and radius yielded new absolute viscosity values for the five gases at 25 °C with an uncertainty of 0.04%. This small uncertainty was verified independently by comparing the result for the viscosity of helium to recent calculations using quantum mechanics and statistical mechanics. The present results allow one to construct a flow meter or viscometer of similar accuracy with no measurement of the capillary radius and only a nominal measurement of the capillary length.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simple flow meter and viscometer of high accuracy for gases
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Simple flow meter and viscometer of high accuracy for gases
     date:
     - type: epub
-      value: '2005-01-06'
+      at: '2005-01-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simple flow meter and viscometer of high accuracy for gases
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Simple flow meter and viscometer of high accuracy for gases
     date:
     - type: ppub
-      value: '2005-02-01'
+      at: '2005-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +86,6 @@ extent:
     reference_from: '11'
     reference_to: '23'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

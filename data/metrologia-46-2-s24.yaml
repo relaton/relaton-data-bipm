@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S24
-title:
-- content: Air-kerma cavity standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S24
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Air-kerma cavity standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S03
+docidentifier:
+- content: Metrologia 46 2 S24
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S03
+- content: 10.1088/0026-1394/46/2/S03
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Büermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>This paper reviews the current status of air-kerma cavity standards
-    for gamma rays from<sup>60</sup>Co,<sup>137</sup>Cs and<sup>192</sup>Ir sources.
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper reviews the current status of air-kerma cavity standards
+    for gamma rays from <sup>60</sup>Co, <sup>137</sup>Cs and <sup>192</sup>Ir sources.
     It describes the basic principles and the theories to determine the air-kerma
     rate from the ionization current of graphite-walled cavity ionization chambers.
     A typical design of a cavity chamber is shown and described. The various correction
@@ -65,53 +59,42 @@ abstract:
     standard is presented and the results of comparisons between primary standards
     are summarized and discussed. Finally, conclusions are drawn and proposals made
     for topics to be addressed in future studies.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Air-kerma cavity standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Air-kerma cavity standards
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Air-kerma cavity standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Air-kerma cavity standards
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +105,6 @@ extent:
     reference_from: S24
     reference_to: S38
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

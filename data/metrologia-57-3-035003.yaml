@@ -1,123 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia573035003
-title:
-- content: Standard platinum resistance thermometer interpolations in a revised temperature
-    scale
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab6b3c
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab6b3c
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 3 035003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Standard platinum resistance thermometer interpolations in a revised temperature
+    scale
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab6b3c
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab6b3c
+docidentifier:
+- content: Metrologia 57 3 035003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab6b3c
+- content: 10.1088/1681-7575/ab6b3c
   type: doi
 date:
 - type: published
-  value: '2020-05-26'
+  at: '2020-05-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory, Lower Hutt PO Box 31310
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M C Rourke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Rd., Ottawa, Ontario, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Rd., Ottawa, Ontario, Canada
-  role:
-  - type: author
-revdate: '2020-05-26'
 abstract:
-- content: Abstract<p>The thermal metrology community is considering revising the
-    International Temperature Scale of 1990 (ITS-90), motivated by the opportunity
-    to improve the thermodynamic accuracy, reproducibility, and ease of use of the
-    scale, as well as health and safety concerns with the use of mercury in the current
-    scale. This paper considers the mathematical structure of the standard platinum
-    resistance thermometer (SPRT) interpolations of the ITS-90 and identifies (i)
-    mathematical features that are advantageous and should be retained, (ii) opportunities
-    for improvements, and (iii) the research required to maximise the benefits from
-    such improvements. The improvements considered include minor adjustments that
-    leave ITS-90 intact, numerical adjustments to reference resistance ratios that
-    preserve the structure of ITS-90, fixed-point replacements, new subranges, and
-    large-scale changes in the mathematical structure of the interpolations. A significant
-    research effort will be required to implement some of the changes. Overall, an
-    improvement in the thermodynamic accuracy by a factor of about ten is relatively
-    easily realised, but improvements in reproducibility of the scale of even a couple
-    of tens of percent will be hard won. For most users, the costs and inconvenience
-    of a substantial scale revision may outweigh the benefits.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The thermal metrology community is considering revising the International Temperature Scale of 1990 (ITS-90), motivated by the opportunity to improve the thermodynamic accuracy, reproducibility, and ease of use of the scale, as well as health and safety concerns with the use of mercury in the current scale. This paper considers the mathematical structure of the standard platinum resistance thermometer (SPRT) interpolations of the ITS-90 and identifies (i) mathematical features that are advantageous and should be retained, (ii) opportunities for improvements, and (iii) the research required to maximise the benefits from such improvements. The improvements considered include minor adjustments that leave ITS-90 intact, numerical adjustments to reference resistance ratios that preserve the structure of ITS-90, fixed-point replacements, new subranges, and large-scale changes in the mathematical structure of the interpolations. A significant research effort will be required to implement some of the changes. Overall, an improvement in the thermodynamic accuracy by a factor of about ten is relatively easily realised, but improvements in reproducibility of the scale of even a couple of tens of percent will be hard won. For most users, the costs and inconvenience of a substantial scale revision may outweigh the benefits.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Standard platinum resistance thermometer interpolations in a revised
+    - script: Latn
+      content: Standard platinum resistance thermometer interpolations in a revised
         temperature scale
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-06-01'
+      at: '2020-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Standard platinum resistance thermometer interpolations in a revised
+    - script: Latn
+      content: Standard platinum resistance thermometer interpolations in a revised
         temperature scale
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-05-26'
+      at: '2020-05-26'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +100,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

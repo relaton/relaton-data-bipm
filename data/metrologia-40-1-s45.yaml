@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S45
-title:
-- content: A bilateral comparison of spectral responsivity measurements in the spectral
-    range 250 nm to 1800 nm between the NIST (USA) and the NRC (Canada)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/311
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/311
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S45
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A bilateral comparison of spectral responsivity measurements in the spectral
+    range 250 nm to 1800 nm between the NIST (USA) and the NRC (Canada)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/311
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/311
+docidentifier:
+- content: Metrologia 40 1 S45
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/311
+- content: 10.1088/0026-1394/40/1/311
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Boivin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Ottawa, Ontario, Canada K1A
             0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S S Bruce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             MS 8441, Gaithersburg, MD 20899-8441, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>This intercomparison of spectral responsivity between the National
+- language: en
+  script:
+  - Latn
+  content: "<p>This intercomparison of spectral responsivity between the National
     Institute of Standards and Technology (NIST) in the United States and the National
     Research Council (NRC) of Canada was carried out to test the level of agreement
     between the two laboratories for routine detector calibrations and also to support
@@ -75,55 +69,44 @@ abstract:
     agreement is typically ±0.5%. Consequently, the results of this intercomparison
     are shown to support the uncertainties claimed by NIST and NRC in their routine
     calibrations, and in their appendix C entries of the MRA.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A bilateral comparison of spectral responsivity measurements in the
+    - language: en
+      script: Latn
+      content: A bilateral comparison of spectral responsivity measurements in the
         spectral range 250 nm to 1800 nm between the NIST (USA) and the NRC (Canada)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A bilateral comparison of spectral responsivity measurements in the
+    - language: en
+      script: Latn
+      content: A bilateral comparison of spectral responsivity measurements in the
         spectral range 250 nm to 1800 nm between the NIST (USA) and the NRC (Canada)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +117,6 @@ extent:
     reference_from: S45
     reference_to: S49
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

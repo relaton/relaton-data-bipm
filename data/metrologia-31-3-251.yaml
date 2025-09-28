@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia313251
-title:
-- content: The Influence of Temperature, Isotope Composition and Impurities on the
-    Lattice Parameter of Si
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/3/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/3/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 3 251
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Influence of Temperature, Isotope Composition and Impurities on the
+    Lattice Parameter of Si
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/3/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/3/011
+docidentifier:
+- content: Metrologia 31 3 251
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/3/011
+- content: 10.1088/0026-1394/31/3/011
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S W Biernacki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Fritz-Haber-Institut der Max-Planck-Gesellschaft, Faradayweg 4-6,
             D-14195 Berlin-Dahlem, Germany
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: <p>We report first-principles density-functional theory calculations of
+- language: en
+  script:
+  - Latn
+  content: <p>We report first-principles density-functional theory calculations of
     the dependence of the Si lattice parameter on temperature and isotopic composition.
     The origin of the "unusual" lattice contraction on heating to about 120 K is traced
     to the entropy contribution to the Helmholtz free energy. The lattice parameter
@@ -50,40 +46,32 @@ abstract:
     monotonically with increasing temperature. Far away from the defect, the defect-induced
     displacement amplitudes due to substitutional heterovalent impurities decrease
     nonmonotonically and are anisotropic.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Influence of Temperature, Isotope Composition and Impurities on
+    - language: en
+      script: Latn
+      content: The Influence of Temperature, Isotope Composition and Impurities on
         the Lattice Parameter of Si
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '251'
     reference_to: '254'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

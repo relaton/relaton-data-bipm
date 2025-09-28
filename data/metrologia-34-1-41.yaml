@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia34141
-title:
-- content: 'Metrology and analytical chemistry: bridging the cultural gap'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 41
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Metrology and analytical chemistry: bridging the cultural gap'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/7
+docidentifier:
+- content: Metrologia 34 1 41
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/7
+- content: 10.1088/0026-1394/34/1/7
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B King
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LGC
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>Metrology in general, and issues such as traceability and measurement
+- language: en
+  script:
+  - Latn
+  content: "<p>Metrology in general, and issues such as traceability and measurement
     uncertainty in particular, are new to most analytical chemists, many of whom are
     unconvinced of their value. There is a danger of a widening of the cultural gap
     between metrologists and analytical chemists and it is important to encourage
@@ -48,39 +44,31 @@ abstract:
     similarities and differences in the approaches adopted by metrologists and analytical
     chemists and indicates how these approaches could be combined to establish a unique
     metrology of chemical measurement acceptable to both cultures.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Metrology and analytical chemistry: bridging the cultural gap'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Metrology and analytical chemistry: bridging the cultural gap'
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '41'
     reference_to: '47'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

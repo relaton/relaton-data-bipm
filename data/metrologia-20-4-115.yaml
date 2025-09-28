@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia204115
-title:
-- content: International Comparison of Voltage (1 V) in Coaxial Line at Frequencies
-    up to 1 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 4 115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Voltage (1 V) in Coaxial Line at Frequencies
+    up to 1 GHz
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/4/001
+docidentifier:
+- content: Metrologia 20 4 115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/4/001
+- content: 10.1088/0026-1394/20/4/001
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bayer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Janik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: '<p>This report deals with a comparison of national standards of rf voltage
+- language: en
+  script:
+  - Latn
+  content: '<p>This report deals with a comparison of national standards of rf voltage
     organized by the radiofrequency working group of the "Comité Consultatif d''Electricité"
     of the Bureau International des Poids et Mesures (BIPM). It was done by sending
     round transfer standards, for each of which the participating laboratories had
@@ -76,40 +70,32 @@ abstract:
     were ⩽ 3 × 10<sup>-3</sup> at 100 MHz and ⩽ 1.2 × 10<sup>-2</sup> at 1 GHz (excluding
     one measurement point). All the transfer standards remained sufficiently stable
     over a measuring period of more than 5 years.</p>'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Voltage (1 V) in Coaxial Line at Frequencies
+    - language: en
+      script: Latn
+      content: International Comparison of Voltage (1 V) in Coaxial Line at Frequencies
         up to 1 GHz
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +106,6 @@ extent:
     reference_from: '115'
     reference_to: '126'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

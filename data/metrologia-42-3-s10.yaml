@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S10
-title:
-- content: The definition of the ‘atomic’ second
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S10
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The definition of the ‘atomic’ second
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S03
+docidentifier:
+- content: Metrologia 42 3 S10
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S03
+- content: 10.1088/0026-1394/42/3/S03
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sigfrido Leschiutta
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale, Politecnico di Torino, Italy
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>When the reference of a unit is changed, the task remains of expressing
+- language: en
+  script:
+  - Latn
+  content: "<p>When the reference of a unit is changed, the task remains of expressing
     the new definition in the terms of the previous one. In two centuries, for instance,
     the definition of the metre was changed six times. Around 1955, the definitions
     of the second as the SI unit of time were changed from astronomical ones, based
@@ -49,53 +45,42 @@ abstract:
     definitions required a number of actions and measurements. The aim of this paper
     is to review these actions, some of which, fifty years later, are being forgotten
     for a lack of adequate documentation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The definition of the ‘atomic’ second
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The definition of the ‘atomic’ second
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The definition of the ‘atomic’ second
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The definition of the ‘atomic’ second
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: S10
     reference_to: S19
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

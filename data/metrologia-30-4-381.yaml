@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304381
-title:
-- content: Hollow Cathode Transfer Standards for the Radiometric Calibration of VUV
-    Telescopes of the Solar and Heliospheric Observatory (SOHO)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/033
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/033
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 381
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Hollow Cathode Transfer Standards for the Radiometric Calibration of VUV
+    Telescopes of the Solar and Heliospheric Observatory (SOHO)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/033
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/033
+docidentifier:
+- content: Metrologia 30 4 381
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/033
+- content: 10.1088/0026-1394/30/4/033
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hollandt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, D-10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M C E Huber
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: European Space Agency, Space Science Department, 2201 AZ Noordwijk,
             the Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Kühne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, D-10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>On board the ESA/NASA space mission SOHO (Solar and Heliospheric Observatory)
+- language: en
+  script:
+  - Latn
+  content: "<p>On board the ESA/NASA space mission SOHO (Solar and Heliospheric Observatory)
     there will be several VUV telescope/spectrometer systems to observe the solar
     disk and its corona in the wavelength range 15 nm to 160 nm. To determine the
     absolute spectral sensitivity of these instruments prior to launching, transfer
@@ -82,40 +74,32 @@ abstract:
     standard uses Wolter type II grazing incidence optics for the range 16 nm to 80
     nm. These transfer source standards are calibrated against the electron storage
     ring BESSY as a primary radiometric source standard.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Hollow Cathode Transfer Standards for the Radiometric Calibration of
+    - language: en
+      script: Latn
+      content: Hollow Cathode Transfer Standards for the Radiometric Calibration of
         VUV Telescopes of the Solar and Heliospheric Observatory (SOHO)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '381'
     reference_to: '388'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

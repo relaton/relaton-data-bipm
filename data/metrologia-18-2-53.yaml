@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia18253
-title:
-- content: Frequency Shifts at Low Iodine Pressure of<sup>127</sup>I<sub>2</sub>-Stabilized
-    He-Ne Lasers at 633 nm Wavelength
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/18/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 2 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Frequency Shifts at Low Iodine Pressure of <sup>127</sup>I<sub>2</sub>-Stabilized
+    He-Ne Lasers at 633 nm Wavelength
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/2/002
+docidentifier:
+- content: Metrologia 18 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/2/002
+- content: 10.1088/0026-1394/18/2/002
   type: doi
 date:
 - type: published
-  value: '1982-04-01'
+  at: '1982-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1982-04-01'
 abstract:
-- content: "<p>The frequency shifts of a<sup>127</sup>I<sub>2</sub>-stabilized He-Ne
+- language: en
+  script:
+  - Latn
+  content: "<p>The frequency shifts of a <sup>127</sup>I<sub>2</sub>-stabilized He-Ne
     laser at 633 nm wavelength induced by changing the iodine pressure between 0.8
     and 17 Pa inside an absorption cell are investigated at different amplitudes of
     modulation. The results show the well-known linear pressure shifts between 5 and
@@ -52,40 +48,32 @@ abstract:
     dependence are discussed. The results obtained with the contaminated iodine cell
     can be explained by supposing that the condensation point is reached of a second
     gas present inside the cell.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency Shifts at Low Iodine Pressure of<sup>127</sup>I<sub>2</sub>-Stabilized
+    - language: en
+      script: Latn
+      content: Frequency Shifts at Low Iodine Pressure of <sup>127</sup>I<sub>2</sub>-Stabilized
         He-Ne Lasers at 633 nm Wavelength
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1982-04-01'
+      at: '1982-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '53'
     reference_to: '58'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

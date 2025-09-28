@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354619
-title:
-- content: In-flight degradation results for the UARS SOLSTICE instrument
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/68
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/68
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 619
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: In-flight degradation results for the UARS SOLSTICE instrument
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/68
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/68
+docidentifier:
+- content: Metrologia 35 4 619
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/68
+- content: 10.1088/0026-1394/35/4/68
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rottman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Russell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Knapp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The SOLar STellar Irradiance Comparison Experiment (SOLSTICE) is a
+- language: en
+  script:
+  - Latn
+  content: "<p>The SOLar STellar Irradiance Comparison Experiment (SOLSTICE) is a
     three-channel spectrometer designed for measuring the solar ultraviolet (UV) irradiance
     from 119 nm to 420 nm with a spectral resolution of 0.1 nm to 0.3 nm. The SOLSTICE
     is aboard the NASA Upper Atmosphere Research Satellite (UARS), which was launched
@@ -100,39 +90,31 @@ abstract:
     with optical contamination, mainly because of the strict use of low-outgassing
     materials in the SOLSTICE instrument and maintenance of class 10000 clean rooms
     and oil-free vacuum systems for all pre-flight testing of the instrument.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: In-flight degradation results for the UARS SOLSTICE instrument
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: In-flight degradation results for the UARS SOLSTICE instrument
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -143,6 +125,6 @@ extent:
     reference_from: '619'
     reference_to: '623'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

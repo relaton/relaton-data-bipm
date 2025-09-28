@@ -1,124 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia506586
-title:
-- content: An adaptive oscillator noise analysis using factor analysis
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/6/586
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/6/586
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 6 586
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An adaptive oscillator noise analysis using factor analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/6/586
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/6/586
+docidentifier:
+- content: Metrologia 50 6 586
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/6/586
+- content: 10.1088/0026-1394/50/6/586
   type: doi
 date:
 - type: published
-  value: '2013-10-23'
+  at: '2013-10-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Weiwei Cheng
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hubei, People's Republic of China
         name:
         - content: Wuhan University
         subdivision:
-        - content: GNSS Research Center
-        contact:
-        - address:
-            formatted_address: Hubei, People's Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: GNSS Research Center
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Guigen Nie
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hubei, People's Republic of China
         name:
         - content: Wuhan University
         subdivision:
-        - content: GNSS Research Center
-        contact:
-        - address:
-            formatted_address: Hubei, People's Republic of China
-  role:
-  - type: author
-revdate: '2013-10-23'
+        - name:
+          - language: en
+            script: Latn
+            content: GNSS Research Center
 abstract:
-- content: Abstract<p>Multivariance oscillator noise analysis methods provide precise
-    measurements of some noise sources of a high-performance oscillator, while others
-    are inaccurate due to poor observability and an ill-conditioned problem. The ill-conditioned
-    problem can be solved by separating the averaging time manually. The disadvantage
-    of this strategy is that difficulties in execution arise when measuring noise
-    sources from dynamic variances. This paper introduce an adaptive noise intensive
-    coefficients estimator which separates the averaging time automatically and thus
-    is executable on dynamic variances. Two cost functions, one of deterministic linear
-    frequency drift and the other of noise intensity coefficients, are introduced
-    to form the estimator. The estimator is tested with simulated data. In addition,
-    a dynamic total variance is computed from more than 8.2 years of GPS clock data,
-    and 31 765 groups of noise intensity coefficients are estimated using the adaptive
-    estimator. The results show that the adaptive noise intensity coefficient estimator
-    is as precise as the multivariance oscillator noise analysis methods and is robust.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Multivariance oscillator noise analysis methods provide precise measurements of some noise sources of a high-performance oscillator, while others are inaccurate due to poor observability and an ill-conditioned problem. The ill-conditioned problem can be solved by separating the averaging time manually. The disadvantage of this strategy is that difficulties in execution arise when measuring noise sources from dynamic variances. This paper introduce an adaptive noise intensive coefficients estimator which separates the averaging time automatically and thus is executable on dynamic variances. Two cost functions, one of deterministic linear frequency drift and the other of noise intensity coefficients, are introduced to form the estimator. The estimator is tested with simulated data. In addition, a dynamic total variance is computed from more than 8.2 years of GPS clock data, and 31 765 groups of noise intensity coefficients are estimated using the adaptive estimator. The results show that the adaptive noise intensity coefficient estimator is as precise as the multivariance oscillator noise analysis methods and is robust.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An adaptive oscillator noise analysis using factor analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An adaptive oscillator noise analysis using factor analysis
     date:
     - type: ppub
-      value: '2013-12-01'
+      at: '2013-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An adaptive oscillator noise analysis using factor analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An adaptive oscillator noise analysis using factor analysis
     date:
     - type: epub
-      value: '2013-10-23'
+      at: '2013-10-23'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +112,6 @@ extent:
     reference_from: '586'
     reference_to: '595'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

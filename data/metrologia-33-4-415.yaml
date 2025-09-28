@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia334415
-title:
-- content: Comparison of realizations of the thermometric fixed points of the ITS-90
-    in the range −38 °C to 420 °C between Canada and Mexico
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/4/18
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/4/18
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 4 415
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of realizations of the thermometric fixed points of the ITS-90
+    in the range −38 °C to 420 °C between Canada and Mexico
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/4/18
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/4/18
+docidentifier:
+- content: Metrologia 33 4 415
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/4/18
+- content: 10.1088/0026-1394/33/4/18
   type: doi
 date:
 - type: published
-  value: '1996-08-01'
+  at: '1996-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Mendez-Lango
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, CENAM
-  role:
-  - type: author
-revdate: '1996-08-01'
 abstract:
-- content: "<p>The realizations of the fixed points of the International Temperature
+- language: en
+  script:
+  - Latn
+  content: "<p>The realizations of the fixed points of the International Temperature
     Scale of 1990 (ITS-90) maintained in Canada and Mexico were compared between -38
     °C and 420 °C, using a portable fixed-point realization apparatus. In this range,
     the routinely realized defining fixed points of the ITS-90 in these countries
     were found to coincide to within 0,5 mK.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of realizations of the thermometric fixed points of the
+    - language: en
+      script: Latn
+      content: Comparison of realizations of the thermometric fixed points of the
         ITS-90 in the range −38 °C to 420 °C between Canada and Mexico
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1996-08-01'
+      at: '1996-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '415'
     reference_to: '420'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

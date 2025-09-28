@@ -1,107 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S105
-title:
-- content: Absolute synchrotron radiation calibration for the Space Solar Patrol instrumentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S21
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S21
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S105
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute synchrotron radiation calibration for the Space Solar Patrol instrumentation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S21
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S21
+docidentifier:
+- content: Metrologia 43 2 S105
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S21
+- content: 10.1088/0026-1394/43/2/S21
   type: doi
 date:
 - type: published
-  value: '2006-03-29'
+  at: '2006-03-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Avakyan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Budker Institute of Nuclear Physics, Lavrentiev Str. 11, 630090
             Novosibirsk, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Afanas'ev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Budker Institute of Nuclear Physics, Lavrentiev Str. 11, 630090
             Novosibirsk, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Voronin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Budker Institute of Nuclear Physics, Lavrentiev Str. 11, 630090
             Novosibirsk, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Nikolenko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Budker Institute of Nuclear Physics, Lavrentiev Str. 11, 630090
             Novosibirsk, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Pindyurin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Budker Institute of Nuclear Physics, Lavrentiev Str. 11, 630090
             Novosibirsk, Russia
-  role:
-  - type: author
-revdate: '2006-03-29'
 abstract:
-- content: "<p>The paper describes both basic and additional procedures for absolute
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper describes both basic and additional procedures for absolute
     calibration of optical-electronic instrumentation made with the help of synchrotron
     radiation (SR) sources in the spectral range from 0.25 nm to 122 nm (from 5000 eV
     to 10 eV). The procedures perform absolute calibration of the Space Solar Patrol
@@ -111,55 +99,44 @@ abstract:
     and VEPP-4 storage rings (Budker Institute of Nuclear Physics (BINP), Novosibirsk,
     Russia). The paper also considers the basic requirements for the absolute spectral
     measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute synchrotron radiation calibration for the Space Solar Patrol
+    - language: en
+      script: Latn
+      content: Absolute synchrotron radiation calibration for the Space Solar Patrol
         instrumentation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-03-29'
+      at: '2006-03-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute synchrotron radiation calibration for the Space Solar Patrol
+    - language: en
+      script: Latn
+      content: Absolute synchrotron radiation calibration for the Space Solar Patrol
         instrumentation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +147,6 @@ extent:
     reference_from: S105
     reference_to: S108
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

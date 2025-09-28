@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19121
-title:
-- content: 'Cellule à Point Triple de l''Argon: Instrument de Transfert de Pression'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/19/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 1 21
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: 'Cellule à Point Triple de l''Argon: Instrument de Transfert de Pression'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/1/005
+docidentifier:
+- content: Metrologia 19 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/1/005
+- content: 10.1088/0026-1394/19/1/005
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bonhoure
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Pello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>We show that the argon triple-point (68 890.0 Pa) is suitable as a
+- language: en
+  script:
+  - Latn
+  content: "<p>We show that the argon triple-point (68 890.0 Pa) is suitable as a
     fixed point of pressure. The equipment required for its realization is easily
     transportable. Thus, we have a convenient device for comparing fixed mercury-manobarometers
     in different laboratories.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Cellule à Point Triple de l''Argon: Instrument de Transfert de Pression'
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
+    - language: fr
+      script: Latn
+      content: 'Cellule à Point Triple de l''Argon: Instrument de Transfert de Pression'
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '21'
     reference_to: '23'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia26295
-title:
-- content: Differences between Thermodynamic Temperature and t (IPTS-68) in the Range
-    230°C to 660°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 95
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Differences between Thermodynamic Temperature and <italic>t</italic> (IPTS-68)
+    in the Range 230°C to 660°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/003
+docidentifier:
+- content: Metrologia 26 2 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/003
+- content: 10.1088/0026-1394/26/2/003
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Edsinger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Basic Standards, National Bureau of Standards (NBS),
             Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Schooley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Basic Standards, National Bureau of Standards (NBS),
             Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>Determination of the differences between the Kelvin Thermodynamic Temperature
+- language: en
+  script:
+  - Latn
+  content: "<p>Determination of the differences between the Kelvin Thermodynamic Temperature
     Scale (KTTS) and the International Practical Temperature Scale of 1968 (IPTS-68)
     in the range from 230°C to 660°C has been accomplished by gas thermometry. The
     estimated random uncertainty of the results ranges from ±0.005°C to ±0.008°C;
@@ -66,40 +60,32 @@ abstract:
     differ noticeably from earlier gas-thermometric determinations in the range of
     temperature overlap. The value found for the thermodynamic temperature of the
     freezing point of Al is (660.342 ± 0.015)°C.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Differences between Thermodynamic Temperature and t (IPTS-68) in the
-        Range 230°C to 660°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Differences between Thermodynamic Temperature and <italic>t</italic>
+        (IPTS-68) in the Range 230°C to 660°C
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '95'
     reference_to: '106'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

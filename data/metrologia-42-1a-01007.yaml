@@ -1,97 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia421A01007
-title:
-- content: The EUROMET 446 results related to the CCEM.M-K1 comparison
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1A/01007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1A/01007
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1A 01007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The EUROMET 446 results related to the CCEM.M-K1 comparison
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1A/01007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1A/01007
+docidentifier:
+- content: Metrologia 42 1A 01007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1A/01007
+- content: 10.1088/0026-1394/42/1A/01007
   type: doi
 date:
 - type: published
-  value: '2005-01-01'
+  at: '2005-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kurt Weyand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electricity Division, Physikalisch-Technische Bundesanstalt, Bundesallee
             100, D-38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2005-01-01'
 abstract:
-- content: "<p>With respect to the measurements of the dc coil constant, three institutes
-    applying nuclear magnetic resonance methods, and thus providing the lowest uncertainty
-    budgets, participated in both the EUROMET 466 comparison and the the CCEM.M-K1
-    comparison. Based on their results obtained in the particular comparison, it is
-    possible to relate to each other the values of the dc coil constants of the different
-    standards circulated within the particular comparison.</p><p>All results reported
-    by the participants in the EUROMET comparison cover within their uncertainties
-    the mean value of the dc coil constant k<sub>wm</sub> obtained within the CCEM
-    comparison.</p><p>With respect to the measurements of the coil constant's dependence
-    on frequency, four institutes took part in both comparisons. Again, based on their
-    results obtained in the particular comparison, a transfer function is established
-    to relate the different frequency responses of the two standard coils to each
-    other. After multiplying the EUROMET result with this transfer function it agrees
-    very well with the CCEM result.</p><p>Main text. To reach the main text of this
-    paper, click on Final Report. Note that this text is that which appears in Appendix
-    B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has
-    been peer-reviewed and approved for publication by the CCEM, according to the
-    provisions of the Mutual Recognition Arrangement (MRA).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>With respect to the measurements of the dc coil constant, three institutes applying nuclear magnetic resonance methods, and thus providing the lowest uncertainty budgets, participated in both the  <ext-link ext-link-type="uri" xlink:href="http://stacks.iop.org/0026-1394/38/187">EUROMET 466 comparison</ext-link> and the the  <ext-link ext-link-type="uri" xlink:href="http://stacks.iop.org/0026-1394/42/01006">CCEM.M-K1 comparison</ext-link>. Based on their results obtained in the particular comparison, it is possible to relate to each other the values of the dc coil constants of the different standards circulated within the particular comparison.</p>
+    <p>All results reported by the participants in the EUROMET comparison cover within their uncertainties the mean value of the dc coil constant  <italic>k</italic><sub>wm</sub> obtained within the CCEM comparison.</p>
+    <p>With respect to the measurements of the coil constant's dependence on frequency, four institutes took part in both comparisons. Again, based on their results obtained in the particular comparison, a transfer function is established to relate the different frequency responses of the two standard coils to each other. After multiplying the EUROMET result with this transfer function it agrees very well with the CCEM result.</p>
+    <p><bold>Main text.</bold> To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/M-K1/CCEM.M-K1_EUROMET.EM.M-K1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The EUROMET 446 results related to the CCEM.M-K1 comparison
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The EUROMET 446 results related to the CCEM.M-K1 comparison
     date:
     - type: ppub
-      value: '2005-01-01'
+      at: '2005-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +78,6 @@ extent:
     reference_from: '01007'
     reference_to: '01007'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

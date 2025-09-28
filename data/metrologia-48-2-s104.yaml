@@ -1,110 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia482S104
-title:
-- content: Phase corrections in the optical interferometer for Si sphere volume measurements
-    at NMIJ
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/2/S13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/2/S13
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 2 S104
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Phase corrections in the optical interferometer for Si sphere volume measurements
+    at NMIJ
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/2/S13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/2/S13
+docidentifier:
+- content: Metrologia 48 2 S104
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/2/S13
+- content: 10.1088/0026-1394/48/2/S13
   type: doi
 date:
 - type: published
-  value: '2011-03-22'
+  at: '2011-03-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Andreas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB—Physikalisch-Technische-Bundesanstalt, Bundedsallee 100, D-38116
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Ferroglio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMIJ—National Metrology Institute of Japan, National Institute
             of Advanced Science and Technology, AIST Central 3, 1-1-1 Umezono, Tsukuba,
             Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Kuramoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMIJ—National Metrology Institute of Japan, National Institute
             of Advanced Science and Technology, AIST Central 3, 1-1-1 Umezono, Tsukuba,
             Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2011-03-22'
 abstract:
-- content: "<p>To determine the volume of solid density standards, manufactured as
+- language: en
+  script:
+  - Latn
+  content: "<p>To determine the volume of solid density standards, manufactured as
     Si-crystal spheres, an optical interferometer is used to measure their diameter
     at the NMIJ. To support and complement these measurements, the effect of the Gouy
     phase has been studied analytically and numerically. In measurement, the sphere
@@ -112,57 +100,49 @@ abstract:
     the cavity mirrors and the sphere are measured, as well as the cavity length.
     The present analysis outlines a model of the interferometer operation and quantifies
     the Gouy-phase correction in the diameter measurement.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase corrections in the optical interferometer for Si sphere volume
+    - language: en
+      script: Latn
+      content: Phase corrections in the optical interferometer for Si sphere volume
         measurements at NMIJ
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-03-22'
+      at: '2011-03-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase corrections in the optical interferometer for Si sphere volume
+    - language: en
+      script: Latn
+      content: Phase corrections in the optical interferometer for Si sphere volume
         measurements at NMIJ
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-04-01'
+      at: '2011-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -173,6 +153,6 @@ extent:
     reference_from: S104
     reference_to: S111
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

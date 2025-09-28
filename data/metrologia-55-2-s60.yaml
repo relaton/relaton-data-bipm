@@ -1,106 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia552S60
-title:
-- content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaa6dd
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaa6dd
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 2 S60
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaa6dd
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaa6dd
+docidentifier:
+- content: Metrologia 55 2 S60
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaa6dd
+- content: 10.1088/1681-7575/aaa6dd
   type: doi
 date:
 - type: published
-  value: '2018-02-14'
+  at: '2018-02-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adriaan M H van der Veen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, Netherlands
         name:
         - content: VSL, Dutch Metrology Institute
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, Netherlands
-  role:
-  - type: author
-revdate: '2018-02-14'
 abstract:
-- content: 'Abstract<p>The evaluation of measurement uncertainty in accordance with
-    the ‘Guide to the expression of uncertainty in measurement’ (GUM) has not yet
-    become widespread in physical chemistry. With only the law of the propagation
-    of uncertainty from the GUM, many of these uncertainty evaluations would be cumbersome,
-    as models are often non-linear and require iterative calculations. The methods
-    from GUM supplements 1 and 2 enable the propagation of uncertainties under most
-    circumstances. Experimental data in physical chemistry are used, for example,
-    to derive reference property data and support trade—all applications where measurement
-    uncertainty plays an important role. This paper aims to outline how the methods
-    for evaluating and propagating uncertainty can be applied to some specific cases
-    with a wide impact: deriving reference data from vapour pressure data, a flash
-    calculation, and the use of an equation-of-state to predict the properties of
-    both phases in a vapour–liquid equilibrium. The three uncertainty evaluations
-    demonstrate that the methods of GUM and its supplements are a versatile toolbox
-    that enable us to evaluate the measurement uncertainty of physical chemical measurements,
-    including the derivation of reference data, such as the equilibrium thermodynamical
-    properties of fluids.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The evaluation of measurement uncertainty in accordance with the ‘Guide to the expression of uncertainty in measurement’ (GUM) has not yet become widespread in physical chemistry. With only the law of the propagation of uncertainty from the GUM, many of these uncertainty evaluations would be cumbersome, as models are often non-linear and require iterative calculations. The methods from GUM supplements 1 and 2 enable the propagation of uncertainties under most circumstances. Experimental data in physical chemistry are used, for example, to derive reference property data and support trade—all applications where measurement uncertainty plays an important role. This paper aims to outline how the methods for evaluating and propagating uncertainty can be applied to some specific cases with a wide impact: deriving reference data from vapour pressure data, a flash calculation, and the use of an equation-of-state to predict the properties of both phases in a vapour–liquid equilibrium. The three uncertainty evaluations demonstrate that the methods of GUM and its supplements are a versatile toolbox that enable us to evaluate the measurement uncertainty of physical chemical measurements, including the derivation of reference data, such as the equilibrium thermodynamical properties of fluids.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
     date:
     - type: ppub
-      value: '2018-04-01'
+      at: '2018-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluating measurement uncertainty in fluid phase equilibrium calculations
     date:
     - type: epub
-      value: '2018-02-14'
+      at: '2018-02-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +88,6 @@ extent:
     reference_from: S60
     reference_to: S69
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

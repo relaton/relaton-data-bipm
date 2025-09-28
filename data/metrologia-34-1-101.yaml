@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia341101
-title:
-- content: The language of science
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/15
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/15
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 101
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The language of science
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/15
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/15
+docidentifier:
+- content: Metrologia 34 1 101
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/15
+- content: 10.1088/0026-1394/34/1/15
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Mills
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Reading
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>Some aspects of the use and misuse of scientific language are discussed,
+- language: en
+  script:
+  - Latn
+  content: "<p>Some aspects of the use and misuse of scientific language are discussed,
     particularly in relation to quantity calculus, the names and symbols for quantities
     and units, and the choice of units - including the possible use of non-SI units.
     The discussion is intended to be constructive, and to suggest ways in which common
     usage can be improved.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The language of science
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The language of science
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '101'
     reference_to: '109'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

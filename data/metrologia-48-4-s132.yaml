@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S132
-title:
-- content: Evolution of timescales from astronomy to physical metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S132
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evolution of timescales from astronomy to physical metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S03
+docidentifier:
+- content: Metrologia 48 4 S132
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S03
+- content: 10.1088/0026-1394/48/4/S03
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dennis D McCarthy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: US Naval Observatory, 3450 Massachusetts Avenue, NW, Washington,
             DC 20392, USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>Astronomy has provided a means to mark the passage of time throughout
+- language: en
+  script:
+  - Latn
+  content: "<p>Astronomy has provided a means to mark the passage of time throughout
     history. One of the repeating phenomena that makes this possible is the Earth's
     rotation. The basic variability in its rotational speed, however, makes astronomical
     techniques unsuitable for timekeeping with the precision required for modern applications.
@@ -49,55 +45,47 @@ abstract:
     atomic standards of today has assumed a growing role in timekeeping. Along with
     this progress in technology, more sophisticated concepts of timescales have appeared
     to take advantage of those improvements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evolution of timescales from astronomy to physical metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evolution of timescales from astronomy to physical metrology
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evolution of timescales from astronomy to physical metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evolution of timescales from astronomy to physical metrology
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +96,6 @@ extent:
     reference_from: S132
     reference_to: S144
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,132 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493340
-title:
-- content: On the equivalence of generalized least-squares approaches to the evaluation
-    of measurement comparisons
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/340
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/340
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 340
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the equivalence of generalized least-squares approaches to the evaluation
+    of measurement comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/340
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/340
+docidentifier:
+- content: Metrologia 49 3 340
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/340
+- content: 10.1088/0026-1394/49/3/340
   type: doi
 date:
 - type: published
-  value: '2012-04-04'
+  at: '2012-04-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Koo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt, New Zealand
         name:
         - content: Industrial Research Ltd
         subdivision:
-        - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt, New Zealand
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Standards Laboratory of New Zealand
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Clare
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt, New Zealand
         name:
         - content: Industrial Research Ltd
         subdivision:
-        - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2012-04-04'
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Standards Laboratory of New Zealand
 abstract:
-- content: Abstract<p>Analysis of CIPM international comparisons is increasingly being
-    carried out using a model-based approach that leads naturally to a generalized
-    least-squares (GLS) solution. While this method offers the advantages of being
-    easier to audit and having general applicability to any form of comparison protocol,
-    there is a lack of consensus over aspects of its implementation. Two significant
-    results are presented that show the equivalence of three differing approaches
-    discussed by or applied in comparisons run by Consultative Committees of the CIPM.
-    Both results depend on a mathematical condition equivalent to the requirement
-    that any two artefacts in the comparison are linked through a sequence of measurements
-    of overlapping pairs of artefacts. The first result is that a GLS estimator excluding
-    all sources of error common to all measurements of a participant is equal to the
-    GLS estimator incorporating all sources of error, including those associated with
-    any bias in the standards or procedures of the measuring laboratory. The second
-    result identifies the component of uncertainty in the estimate of bias that arises
-    from possible systematic effects in the participants' measurement standards and
-    procedures. The expression so obtained is a generalization of an expression previously
-    published for a one-artefact comparison with no inter-participant correlations,
-    to one for a comparison comprising any number of repeat measurements of multiple
-    artefacts and allowing for inter-laboratory correlations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Analysis of CIPM international comparisons is increasingly being carried out using a model-based approach that leads naturally to a generalized least-squares (GLS) solution. While this method offers the advantages of being easier to audit and having general applicability to any form of comparison protocol, there is a lack of consensus over aspects of its implementation. Two significant results are presented that show the equivalence of three differing approaches discussed by or applied in comparisons run by Consultative Committees of the CIPM. Both results depend on a mathematical condition equivalent to the requirement that any two artefacts in the comparison are linked through a sequence of measurements of overlapping pairs of artefacts. The first result is that a GLS estimator excluding all sources of error common to all measurements of a participant is equal to the GLS estimator incorporating all sources of error, including those associated with any bias in the standards or procedures of the measuring laboratory. The second result identifies the component of uncertainty in the estimate of bias that arises from possible systematic effects in the participants' measurement standards and procedures. The expression so obtained is a generalization of an expression previously published for a one-artefact comparison with no inter-participant correlations, to one for a comparison comprising any number of repeat measurements of multiple artefacts and allowing for inter-laboratory correlations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the equivalence of generalized least-squares approaches to the evaluation
+    - script: Latn
+      content: On the equivalence of generalized least-squares approaches to the evaluation
         of measurement comparisons
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the equivalence of generalized least-squares approaches to the evaluation
+    - script: Latn
+      content: On the equivalence of generalized least-squares approaches to the evaluation
         of measurement comparisons
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-04-04'
+      at: '2012-04-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +115,6 @@ extent:
     reference_from: '340'
     reference_to: '348'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

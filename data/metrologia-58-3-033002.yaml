@@ -1,126 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia583033002
-title:
-- content: Beginning of a new phase of the dissemination of the kilogram
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abef9f
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abef9f
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 3 033002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Beginning of a new phase of the dissemination of the kilogram
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abef9f
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abef9f
+docidentifier:
+- content: Metrologia 58 3 033002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abef9f
+- content: 10.1088/1681-7575/abef9f
   type: doi
 date:
 - type: published
-  value: '2021-04-12'
+  at: '2021-04-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Davidson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory NPL
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
-              Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
         name:
         - content: Bureau International des Poids et Mesures BIPM
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, 92312 Sèvres CEDEX, France
-  role:
-  - type: author
-revdate: '2021-04-12'
 abstract:
-- content: Abstract<p>Following the completion of the first key comparison of realizations
-    of the kilogram, CCM.M-K8.2019, the internationally coordinated dissemination
-    of the kilogram has entered into a new phase on 1 February 2021. The traceability
-    of the mass unit to the Planck constant will now be taken from the ‘consensus
-    value’ of the kilogram. This letter provides the background on the phases of the
-    dissemination of the kilogram and describes the determination of the consensus
-    value and its consequences for mass traceability.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Following the completion of the first key comparison of realizations of the kilogram, CCM.M-K8.2019, the internationally coordinated dissemination of the kilogram has entered into a new phase on 1 February 2021. The traceability of the mass unit to the Planck constant will now be taken from the ‘consensus value’ of the kilogram. This letter provides the background on the phases of the dissemination of the kilogram and describes the determination of the consensus value and its consequences for mass traceability.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Beginning of a new phase of the dissemination of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Beginning of a new phase of the dissemination of the kilogram
     date:
     - type: ppub
-      value: '2021-06-01'
+      at: '2021-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Beginning of a new phase of the dissemination of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Beginning of a new phase of the dissemination of the kilogram
     date:
     - type: epub
-      value: '2021-04-12'
+      at: '2021-04-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Beginning of a new phase of the dissemination of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Beginning of a new phase of the dissemination of the kilogram
     date:
     - type: open-access
-      value: '2021-04-12'
+      at: '2021-04-12'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +110,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

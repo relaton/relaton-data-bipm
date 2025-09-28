@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283247
-title:
-- content: Principle and Application of Differential Spectroradiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/028
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/028
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 247
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Principle and Application of Differential Spectroradiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/028
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/028
+docidentifier:
+- content: Metrologia 28 3 247
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/028
+- content: 10.1088/0026-1394/28/3/028
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Metzdorf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, W-3300
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Möller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, W-3300
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Wittchen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, W-3300
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Hünerhoff
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, W-3300
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>Differential spectroradiometry is based on the determination and analysis
+- language: en
+  script:
+  - Latn
+  content: "<p>Differential spectroradiometry is based on the determination and analysis
     of the differential spectral response of photoelectric devices in the presence
     of bias irradiance that can be varied with wavelength and over many orders of
     magnitude. The principle is described. Differential spectroradiometry is particularly
@@ -95,39 +85,31 @@ abstract:
     of the spectral responsivity scale to high levels of irradiance; determination
     of nonlinearities in the photocurrent-irradiance characteristic; non-destructive
     characterization of photoinduced effects.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Principle and Application of Differential Spectroradiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Principle and Application of Differential Spectroradiometry
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +120,6 @@ extent:
     reference_from: '247'
     reference_to: '250'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

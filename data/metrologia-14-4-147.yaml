@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia144147
-title:
-- content: The Measurement of β-Spectra with an Iron-Free, Double Focusing π√2 Spectrometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 4 147
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Measurement of β-Spectra with an Iron-Free, Double Focusing π√2 Spectrometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/4/003
+docidentifier:
+- content: Metrologia 14 4 147
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/4/003
+- content: 10.1088/0026-1394/14/4/003
   type: doi
 date:
 - type: published
-  value: '1978-10-01'
+  at: '1978-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Christmas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Cross
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1978-10-01'
 abstract:
-- content: "<p>An account is given of an experimental study of the instrumental distortions
-    of continuous spectra measured on an iron-free double-focusing π√2 beta-ray spectrometer,
-    and of the steps taken to reduce such distortions.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>An account is given of an experimental study of the instrumental distortions
+    of continuous spectra measured on an iron-free double-focusing π√2 beta-ray spectrometer,
+    and of the steps taken to reduce such distortions.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Measurement of β-Spectra with an Iron-Free, Double Focusing π√2
+    - language: en
+      script: Latn
+      content: The Measurement of β-Spectra with an Iron-Free, Double Focusing π√2
         Spectrometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1978-10-01'
+      at: '1978-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '147'
     reference_to: '156'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

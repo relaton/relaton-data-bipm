@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia424262
-title:
-- content: Detection of influential observations in the determination of the weighted-mean
-    KCRV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/4/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/4/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 4 262
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Detection of influential observations in the determination of the weighted-mean
+    KCRV
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/4/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/4/010
+docidentifier:
+- content: Metrologia 42 4 262
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/4/010
+- content: 10.1088/0026-1394/42/4/010
   type: doi
 date:
 - type: published
-  value: '2005-05-10'
+  at: '2005-05-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hari K Iyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
-  - type: author
-revdate: '2005-05-10'
 abstract:
-- content: "<p>Since the signing of the Mutual Recognition Arrangement, national metrology
+- language: en
+  script:
+  - Latn
+  content: "<p>Since the signing of the Mutual Recognition Arrangement, national metrology
     institutes (NMIs) have carried out many key comparisons in a wide range of metrological
     areas to establish the equivalence of their measurement standards. The determination
     of a key comparison reference value (KCRV) and its associated uncertainty is the
@@ -70,55 +64,44 @@ abstract:
     the influential NMIs based on some simple and well-defined criteria. In this paper,
     we present several easy-to-use criteria for detecting influential data in the
     calculation of the weighted-mean KCRV.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detection of influential observations in the determination of the weighted-mean
+    - language: en
+      script: Latn
+      content: Detection of influential observations in the determination of the weighted-mean
         KCRV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-05-10'
+      at: '2005-05-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detection of influential observations in the determination of the weighted-mean
+    - language: en
+      script: Latn
+      content: Detection of influential observations in the determination of the weighted-mean
         KCRV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-08-01'
+      at: '2005-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +112,6 @@ extent:
     reference_from: '262'
     reference_to: '265'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

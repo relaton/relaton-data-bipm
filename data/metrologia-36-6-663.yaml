@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366663
-title:
-- content: 'CCM key comparison in the pressure range 50 kPa to 1000 kPa (gas medium,
-    gauge mode). Phase A2: Pressure measurements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/35
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/35
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 663
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'CCM key comparison in the pressure range 50 kPa to 1000 kPa (gas medium,
+    gauge mode). Phase A2: Pressure measurements'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/35
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/35
+docidentifier:
+- content: Metrologia 36 6 663
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/35
+- content: 10.1088/0026-1394/36/6/35
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Legras
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, PTB, IMGC-CNR, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Sabuga
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, PTB, IMGC-CNR, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G F Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, PTB, IMGC-CNR, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, PTB, IMGC-CNR, NIST
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>As part of a wide-ranging key comparison organized by the Consultative
+- language: en
+  script:
+  - Latn
+  content: "<p>As part of a wide-ranging key comparison organized by the Consultative
     Committee for Mass and Related Quantities (CCM) of the Comité International des
     Poids et Mesures, this report gives the results of a comparison of pressure measurements
     in the range 0.05 MPa to 1 MPa. The two transfer standards used were pressure
@@ -91,44 +81,36 @@ abstract:
     assemblies. The scope of the comparison covered the observation of the behaviour
     of both piston and cylinder assemblies from two manufacturers and made from different
     materials. The results show agreement of all the laboratory standards within the
-    estimated expanded uncertainties, expressed with a coverage factor k = 2. Most
-    of the difference values (47 out of 54) are inside the standard uncertainties.
+    estimated expanded uncertainties, expressed with a coverage factor <italic>k</italic>
+    = 2. Most of the difference values (47 out of 54) are inside the standard uncertainties.
     These results demonstrate the coherency of the standards of the participating
     laboratories in the range 100 kPa to 1000 kPa for gas pressure, gauge mode.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'CCM key comparison in the pressure range 50 kPa to 1000 kPa (gas medium,
+    - language: en
+      script: Latn
+      content: 'CCM key comparison in the pressure range 50 kPa to 1000 kPa (gas medium,
         gauge mode). Phase A2: Pressure measurements'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +121,6 @@ extent:
     reference_from: '663'
     reference_to: '668'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

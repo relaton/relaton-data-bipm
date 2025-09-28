@@ -1,124 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283229
-title:
-- content: Accuracy and Precision Actually Achieved for Large-aperture Integrator
-    Sources for Aircraft and Space Investigations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/024
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/024
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 229
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accuracy and Precision Actually Achieved for Large-aperture Integrator
+    Sources for Aircraft and Space Investigations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/024
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/024
+docidentifier:
+- content: Metrologia 28 3 229
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/024
+- content: 10.1088/0026-1394/28/3/024
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Guenther
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Standards and Calibration Office, NASA/Goddard Space Flight Center,
             Mail Code 920.1, Greenbelt, Maryland 20771, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J McLean
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Standards and Calibration Office, NASA/Goddard Space Flight Center,
             Mail Code 920.1, Greenbelt, Maryland 20771, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Cooper
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ST Systems Corporation, NASA/Goddard Space Flight Center, Greenbelt,
             Maryland 20771, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>Large-aperture integrator sources are required to calibrate a number
-    of the satellite instruments which will be used for documenting and understanding
-    global change in the US Earth Observing System (EOS) satellite program. In this
-    paper the salient characteristics of large-aperture sources as used at the NASA/Goddard
-    Space Flight Center are identified. These characteristics are source spatial uniformity,
-    calibration accuracy and output stability. One use of these sources in maintaining
-    the satellite sensor performance in orbit through vicarious calibrations is reviewed.</p><p>A
-    transportable hemispherical source is shown to have spatial uniformity of better
-    than 0,3%, have stability of near 1%, and to be capable of being calibrated with
-    an uncertainty near 1,6%. Vicarious calibrations of the AVHRR with a transfer
-    spectrometer on board a NASA ER-2 platform flown at 21 km are shown to be capable
-    of individual calibrations with an uncertainty of 3,5%. Annual trends in the satellite
-    responsivity can be corrected to an uncertainty of 1,5% with this approach.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Large-aperture integrator sources are required to calibrate a number of the satellite instruments which will be used for documenting and understanding global change in the US Earth Observing System (EOS) satellite program. In this paper the salient characteristics of large-aperture sources as used at the NASA/Goddard Space Flight Center are identified. These characteristics are source spatial uniformity, calibration accuracy and output stability. One use of these sources in maintaining the satellite sensor performance in orbit through vicarious calibrations is reviewed.</p>
+    <p>A transportable hemispherical source is shown to have spatial uniformity of better than 0,3%, have stability of near 1%, and to be capable of being calibrated with an uncertainty near 1,6%. Vicarious calibrations of the AVHRR with a transfer spectrometer on board a NASA ER-2 platform flown at 21 km are shown to be capable of individual calibrations with an uncertainty of 3,5%. Annual trends in the satellite responsivity can be corrected to an uncertainty of 1,5% with this approach.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy and Precision Actually Achieved for Large-aperture Integrator
+    - language: en
+      script: Latn
+      content: Accuracy and Precision Actually Achieved for Large-aperture Integrator
         Sources for Aircraft and Space Investigations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +103,6 @@ extent:
     reference_from: '229'
     reference_to: '232'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

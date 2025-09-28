@@ -1,103 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia565052101
-title:
-- content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab33de
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab33de
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 5 052101
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab33de
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab33de
+docidentifier:
+- content: Metrologia 56 5 052101
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab33de
+- content: 10.1088/1681-7575/ab33de
   type: doi
 date:
 - type: published
-  value: '2019-08-19'
+  at: '2019-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G D’Agostino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: c/o University of Pavia, via Taramelli 12, 27100 Pavia,
+            Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: c/o University of Pavia, via Taramelli 12, 27100 Pavia,
-              Italy
-  role:
-  - type: author
-revdate: '2019-08-19'
 abstract:
-- content: Abstract<p>The signal recorded in absolute ballistic gravimeters and used
-    to track the trajectory of the free-falling corner-cube was recently studied for
-    the first time in full agreement with relativistic effects. The outcome was an
-    original phase-time equation describing the optical interference as a function
-    of initial position, initial speed, dimensions and refractive index of the corner-cube.
-    This offers the unique possibility to check possible systematic errors affecting
-    data collected using the conventional position-time equation coupled to the debated
-    ‘speed of light’ correction. To this aim, I simulated and processed threshold-crossing
-    times anticipated by the phase-time equation in typical experimental conditions
-    of working gravimeters. In addition, the fictitious condition when a mirror replaces
-    the corner-cube is investigated to probe the significant correction suggested
-    by the developer of the phase-time equation. The results are given in terms of
-    position and gravity acceleration errors.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The signal recorded in absolute ballistic gravimeters and used to track the trajectory of the free-falling corner-cube was recently studied for the first time in full agreement with relativistic effects. The outcome was an original phase-time equation describing the optical interference as a function of initial position, initial speed, dimensions and refractive index of the corner-cube. This offers the unique possibility to check possible systematic errors affecting data collected using the conventional position-time equation coupled to the debated ‘speed of light’ correction. To this aim, I simulated and processed threshold-crossing times anticipated by the phase-time equation in typical experimental conditions of working gravimeters. In addition, the fictitious condition when a mirror replaces the corner-cube is investigated to probe the significant correction suggested by the developer of the phase-time equation. The results are given in terms of position and gravity acceleration errors.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
     date:
     - type: ppub
-      value: '2019-10-01'
+      at: '2019-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Use of the relativistic phase-time equation in absolute ballistic gravimetry
     date:
     - type: epub
-      value: '2019-08-19'
+      at: '2019-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +86,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354497
-title:
-- content: High-accuracy aperture-area measurement facilities at the National Institute
-    of Standards and Technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/49
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/49
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 497
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High-accuracy aperture-area measurement facilities at the National Institute
+    of Standards and Technology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/49
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/49
+docidentifier:
+- content: Metrologia 35 4 497
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/49
+- content: 10.1088/0026-1394/35/4/49
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Fowler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Tufts Univ.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R S Durvasula
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Tufts Univ.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A C Parr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Tufts Univ.
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The uncertainty in the measurement of aperture area can limit high-accuracy
+- language: en
+  script:
+  - Latn
+  content: "<p>The uncertainty in the measurement of aperture area can limit high-accuracy
     radiometric and photometric measurements. Relative total uncertainties in some
     measurements have now been determined at or below the 0.1% level, making substantially
     smaller aperture-area measurement uncertainties necessary. The National Institute
@@ -83,40 +75,32 @@ abstract:
     also has an expected relative combined standard uncertainty of less than 10<sup>-4</sup>.
     The absolute instrument will be used to measure the area of standard apertures
     for use with the relative instrument.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High-accuracy aperture-area measurement facilities at the National
+    - language: en
+      script: Latn
+      content: High-accuracy aperture-area measurement facilities at the National
         Institute of Standards and Technology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +111,6 @@ extent:
     reference_from: '497'
     reference_to: '500'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

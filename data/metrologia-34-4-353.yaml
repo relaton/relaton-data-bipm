@@ -1,114 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia344353
-title:
-- content: 'Calibration of a 10: 1 ratio transformer using Thompson''s method'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/34/4/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/4/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 4 353
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Calibration of a 10 : 1 ratio transformer using Thompson''s method'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/4/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/4/8
+docidentifier:
+- content: Metrologia 34 4 353
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/4/8
+- content: 10.1088/0026-1394/34/4/8
   type: doi
 date:
 - type: published
-  value: '1997-08-01'
+  at: '1997-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Nakamura
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ETL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Fukushima
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ETL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Sakamoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ETL
-  role:
-  - type: author
-revdate: '1997-08-01'
 abstract:
-- content: "<p>The results are reported from the calibration, using Thompson's method,
-    of a 10: 1 ratio transformer which will be used for setting up scales of capacitance
+- language: en
+  script:
+  - Latn
+  content: "<p>The results are reported from the calibration, using Thompson's method,
+    of a 10 : 1 ratio transformer which will be used for setting up scales of capacitance
     at the Electrotechnical Laboratory, Tsukuba. The deviation of the ratio from the
-    nominal value of 10: 1 was measured as -1.37 × 10<sup>-7</sup> for the in-phase
+    nominal value of 10 : 1 was measured as -1.37 × 10<sup>-7</sup> for the in-phase
     component and -7,22 × 10<sup>-7</sup> for the quadrature component, with the transformer
     operated at a frequency of 1592 Hz with an rms applied voltage of 100 V. The uncertainties
     of the measurement were estimated to be 5 × 10<sup>-9</sup> for the in-phase component
     and 1,2 × 10<sup>-8</sup> for the quadrature component.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Calibration of a 10: 1 ratio transformer using Thompson''s method'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: 'Calibration of a 10 : 1 ratio transformer using Thompson''s method'
     date:
     - type: ppub
-      value: '1997-08-01'
+      at: '1997-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '353'
     reference_to: '355'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

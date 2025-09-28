@@ -1,149 +1,132 @@
 ---
-schema-version: v1.2.9
-id: Metrologia495S215
-title:
-- content: The influence of linac spot size on scatter factors
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/5/S215
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/5/S215
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 5 S215
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The influence of linac spot size on scatter factors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/5/S215
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/5/S215
+docidentifier:
+- content: Metrologia 49 5 S215
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/5/S215
+- content: 10.1088/0026-1394/49/5/S215
   type: doi
 date:
 - type: published
-  value: '2012-08-10'
+  at: '2012-08-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Czarnecki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
         name:
         - content: University of Applied Sciences
         subdivision:
-        - content: Institut für Medizinische Physik und Strahlenschutz
-        contact:
-        - address:
-            formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institut für Medizinische Physik und Strahlenschutz
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Wulff
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
         name:
         - content: University of Applied Sciences
         subdivision:
-        - content: Institut für Medizinische Physik und Strahlenschutz
-        contact:
-        - address:
-            formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institut für Medizinische Physik und Strahlenschutz
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Zink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
         name:
         - content: University of Applied Sciences
         subdivision:
-        - content: Institut für Medizinische Physik und Strahlenschutz
-        contact:
-        - address:
-            formatted_address: Wiesenstraße 14, 35390 Gießen, Germany
+        - name:
+          - language: en
+            script: Latn
+            content: Institut für Medizinische Physik und Strahlenschutz
     - organization:
+        address:
+        - formatted_address: Klinik für Strahlentherapie und Radioonkologie, Marburg,
+            Germany
         name:
         - content: Universitätsklinikum Gießen und Marburg
-        contact:
-        - address:
-            formatted_address: Klinik für Strahlentherapie und Radioonkologie, Marburg,
-              Germany
-  role:
-  - type: author
-revdate: '2012-08-10'
 abstract:
-- content: Abstract<p>The use of small photon fields in modern radiotherapy requires
-    the determination of total scatter factors S<sub>cp</sub> or field factors Ω with
-    high precision. Therefore, chamber-dependent correction factors for dose measurements
-    in small fields are necessary. In this study Monte Carlo simulations were used
-    to calculate the field factor Ω and chamber response-related correction factors
-    for four different types of detectors in a clinical 6 MV photon beam for a square
-    field size of 1 cm × 1 cm. As a beam source a Monte Carlo-based model of a Siemens
-    KD linear accelerator was applied. The calculations aimed at the investigation
-    of the influence of electron beam spot size on correction factors for small field
-    dosimetry. The results confirm that accurate Monte Carlo calculations of the field
-    factor Ω can only be carried out when the exact electron spot size is known. On
-    the other hand no dependence of the electron beam spot size on the correction
-    factors for the field size of 1 cm × 1 cm was observed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The use of small photon fields in modern radiotherapy requires the determination of total scatter factors <italic>S</italic><sub><italic>cp</italic></sub> or field factors Ω with high precision. Therefore, chamber-dependent correction factors for dose measurements in small fields are necessary. In this study Monte Carlo simulations were used to calculate the field factor Ω and chamber response-related correction factors for four different types of detectors in a clinical 6 MV photon beam for a square field size of 1 cm × 1 cm. As a beam source a Monte Carlo-based model of a Siemens KD linear accelerator was applied. The calculations aimed at the investigation of the influence of electron beam spot size on correction factors for small field dosimetry. The results confirm that accurate Monte Carlo calculations of the field factor Ω can only be carried out when the exact electron spot size is known. On the other hand no dependence of the electron beam spot size on the correction factors for the field size of 1 cm × 1 cm was observed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The influence of linac spot size on scatter factors
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The influence of linac spot size on scatter factors
     date:
     - type: ppub
-      value: '2012-10-01'
+      at: '2012-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The influence of linac spot size on scatter factors
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The influence of linac spot size on scatter factors
     date:
     - type: epub
-      value: '2012-08-10'
+      at: '2012-08-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +137,6 @@ extent:
     reference_from: S215
     reference_to: S218
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354485
-title:
-- content: InSb working standard radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/47
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/47
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 485
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: InSb working standard radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/47
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/47
+docidentifier:
+- content: Metrologia 35 4 485
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/47
+- content: 10.1088/0026-1394/35/4/47
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G P Eppeldauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A L Migdall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L M Hanssen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>InSb radiometers have been developed and characterized for use as transfer
+- language: en
+  script:
+  - Latn
+  content: "<p>InSb radiometers have been developed and characterized for use as transfer
     standards at the National Institute of Standards and Technology (NIST). The InSb
     radiometers will hold a portion of the recently realized infrared spectral response
     scale of the NIST and will serve as working standards for the calibration of test
@@ -80,39 +72,31 @@ abstract:
     0.6 pW in an electrical bandwidth of 0.3 Hz. The ratio of the dc ambient-background
     current to the ac noise-equivalent current is 10<sup>7</sup>. Spatial and angular
     responsivities, linearity, stability, and flashing were also characterized.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: InSb working standard radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: InSb working standard radiometers
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '485'
     reference_to: '490'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

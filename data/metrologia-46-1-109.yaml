@@ -1,140 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461109
-title:
-- content: Metrological features of the linear low-speed anemometer calibration facility
-    at INRIM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1 109
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Metrological features of the linear low-speed anemometer calibration facility
+    at INRIM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1/014
+docidentifier:
+- content: Metrologia 46 1 109
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1/014
+- content: 10.1088/0026-1394/46/1/014
   type: doi
 date:
 - type: published
-  value: '2009-01-06'
+  at: '2009-01-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pier Giorgio Spazzini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Fluid Dynamics Unit C/o DIASP, Politecnico di Torino, C.so
             Duca degli Abruzzi, 24, I-10129 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aline Piccato
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Graduate Student, Politecnico di Torino, C.so Duca degli Abruzzi,
             24, I-10129 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Riccardo Malvano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Fluid Dynamics Unit C/o DIASP, Politecnico di Torino, C.so
             Duca degli Abruzzi, 24, I-10129 Torino, Italy
-  role:
-  - type: author
-revdate: '2009-01-06'
 abstract:
-- content: "<p>The Italian National Institute for Metrological Research (INRIM) primary
-    standard facility for low airspeed called the towing tank is presented here. This
-    is a dragging facility, i.e. it is based on the reciprocity principle. This means
-    that the relative movement between air and measurement instrument is achieved
-    by the translation of the latter through nominally still air. The instrument is
-    mounted on a carriage which is translated over a 30 m long tank; the velocity
-    measurement is obtained through the measure of the distance covered and the time
-    required to cover it. The velocity measurement is therefore traceable to measurement
-    of length and time primary standards. In the paper, the working principle, the
-    design and the measurement chain of the towing tank are described in detail, including
-    a critical discussion about the admissibility of the Galilean invariance hypothesis
-    and its limits. Specific details and operating procedures aimed at reducing the
-    uncertainty contributions are described. Finally, an evaluation of the uncertainty
-    budget is discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The Italian National Institute for Metrological Research (INRIM) primary
+    standard facility for low airspeed called the <italic>towing tank</italic> is
+    presented here. This is a dragging facility, i.e. it is based on the reciprocity
+    principle. This means that the relative movement between air and measurement instrument
+    is achieved by the translation of the latter through nominally still air. The
+    instrument is mounted on a carriage which is translated over a 30 m long tank;
+    the velocity measurement is obtained through the measure of the distance covered
+    and the time required to cover it. The velocity measurement is therefore traceable
+    to measurement of length and time primary standards. In the paper, the working
+    principle, the design and the measurement chain of the <italic>towing tank</italic>
+    are described in detail, including a critical discussion about the admissibility
+    of the Galilean invariance hypothesis and its limits. Specific details and operating
+    procedures aimed at reducing the uncertainty contributions are described. Finally,
+    an evaluation of the uncertainty budget is discussed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological features of the linear low-speed anemometer calibration
+    - language: en
+      script: Latn
+      content: Metrological features of the linear low-speed anemometer calibration
         facility at INRIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-01-06'
+      at: '2009-01-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological features of the linear low-speed anemometer calibration
+    - language: en
+      script: Latn
+      content: Metrological features of the linear low-speed anemometer calibration
         facility at INRIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-02-01'
+      at: '2009-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +126,6 @@ extent:
     reference_from: '109'
     reference_to: '118'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

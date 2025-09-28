@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5247
+type: article
+schema_version: v1.4.1
 title:
-- content: Relationships Between the International Practical Temperature Scale of
+- language: en
+  script: Latn
+  content: Relationships Between the International Practical Temperature Scale of
     1968 and the NBS-55, NPL-61, PRMI-54, and PSU-54 Temperature Scales in the Range
     from 13.81 to 90.188 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/2/003
-  type: doi
-type: article
-docid:
-- id: Metrologia 5 2 47
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/2/003
+docidentifier:
+- content: Metrologia 5 2 47
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/2/003
+- content: 10.1088/0026-1394/5/2/003
   type: doi
 date:
 - type: published
-  value: '1969-04-01'
+  at: '1969-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Bedford
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratory, Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Muijlwijk
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratory, Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C R Barber
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, UK
-  role:
-  - type: author
-revdate: '1969-04-01'
 abstract:
-- content: "<p>In the region 13.81 K to 90.188 K the IPTS-68 will replace a number
+- language: en
+  script:
+  - Latn
+  content: "<p>In the region 13.81 K to 90.188 K the IPTS-68 will replace a number
     of previously used low temperature scales, four of which are NBS-55, NPL-61, PRMI-54,
     and PSU-54. It is desirable to know the relationships between these scales and
     the IPTS-68. At the present time these relationships can be determined, though
@@ -93,41 +83,33 @@ abstract:
     the scales, their relationships to the CCT-64 table, and estimates of the values
     of the defining fixed point temperatures of the IPTS-68 on this table. Values
     of these relationships are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relationships Between the International Practical Temperature Scale
+    - language: en
+      script: Latn
+      content: Relationships Between the International Practical Temperature Scale
         of 1968 and the NBS-55, NPL-61, PRMI-54, and PSU-54 Temperature Scales in
         the Range from 13.81 to 90.188 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1969-04-01'
+      at: '1969-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +120,6 @@ extent:
     reference_from: '47'
     reference_to: '49'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

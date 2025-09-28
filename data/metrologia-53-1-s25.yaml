@@ -1,99 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S25
-title:
-- content: 'Evaluating the measurement uncertainty of complex quantities: a selective
-    review'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S25
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S25
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S25
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Evaluating the measurement uncertainty of complex quantities: a selective
+    review'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S25
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S25
+docidentifier:
+- content: Metrologia 53 1 S25
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S25
+- content: 10.1088/0026-1394/53/1/S25
   type: doi
 date:
 - type: published
-  value: '2015-12-16'
+  at: '2015-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt 5040, New Zealand
         name:
         - content: Callaghan Innovation
         subdivision:
-        - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2015-12-16'
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Standards Laboratory of New Zealand
 abstract:
-- content: Abstract<p>This paper reviews a selection of topics related to the evaluation
-    and expression of measurement uncertainty in complex quantities, which are prevalent
-    in electromagnetic measurements at radio and microwave frequencies. Methods appropriate
-    for complex quantities are presented that extend those described, for real-valued
-    quantities, in the Guide to the Expression of Uncertainty in Measurement.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper reviews a selection of topics related to the evaluation and expression of measurement uncertainty in complex quantities, which are prevalent in electromagnetic measurements at radio and microwave frequencies. Methods appropriate for complex quantities are presented that extend those described, for real-valued quantities, in the <italic>Guide to the Expression of Uncertainty in Measurement</italic>.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Evaluating the measurement uncertainty of complex quantities: a selective
+    - script: Latn
+      content: 'Evaluating the measurement uncertainty of complex quantities: a selective
         review'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Evaluating the measurement uncertainty of complex quantities: a selective
+    - script: Latn
+      content: 'Evaluating the measurement uncertainty of complex quantities: a selective
         review'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-12-16'
+      at: '2015-12-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +96,6 @@ extent:
     reference_from: S25
     reference_to: S31
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

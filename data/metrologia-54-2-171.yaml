@@ -1,211 +1,187 @@
 ---
-schema-version: v1.2.9
-id: Metrologia542171
-title:
-- content: Measurement uncertainty evaluation of a hexapod-structured calibration
-    device for multi-component force and moment sensors
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa5b66
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa5b66
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 2 171
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Measurement uncertainty evaluation of a hexapod-structured calibration
+    device for multi-component force and moment sensors
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa5b66
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa5b66
+docidentifier:
+- content: Metrologia 54 2 171
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa5b66
+- content: 10.1088/1681-7575/aa5b66
   type: doi
 date:
 - type: published
-  value: '2017-02-15'
+  at: '2017-02-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Nitsche
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Institut für Produktionsmesstechnik
         subdivision:
-        - content: TU Braunschweig
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
+        - name:
+          - language: en
+            script: Latn
+            content: TU Braunschweig
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Baumgarten
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Petz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Institut für Produktionsmesstechnik
         subdivision:
-        - content: TU Braunschweig
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: TU Braunschweig
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Röske
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kumme
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Tutsch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Institut für Produktionsmesstechnik
         subdivision:
-        - content: TU Braunschweig
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2017-02-15'
+        - name:
+          - language: en
+            script: Latn
+            content: TU Braunschweig
 abstract:
-- content: Abstract<p>As a reference measurement machine for multi-component force
-    and moment sensors of up to six components, a hexapod-structured calibration device
-    was developed at the Physikalisch-Technische Bundesanstalt in 2001. The machine
-    can generate and measure forces of up to 10 kN and moments of up to 1 kN · m.
-    In this paper, the measurement uncertainty budget of the machine is analyzed,
-    beginning with an improved physical model and calculation of sensitivity coefficients
-    using the implicit function theorem and the Monte Carlo method. The main influencing
-    factors for the measurement uncertainty are discussed and suggestions for further
-    reduction of the uncertainty are given.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>As a reference measurement machine for multi-component force and moment sensors of up to six components, a hexapod-structured calibration device was developed at the Physikalisch-Technische Bundesanstalt in 2001. The machine can generate and measure forces of up to 10 kN and moments of up to 1 kN · m. In this paper, the measurement uncertainty budget of the machine is analyzed, beginning with an improved physical model and calculation of sensitivity coefficients using the implicit function theorem and the Monte Carlo method. The main influencing factors for the measurement uncertainty are discussed and suggestions for further reduction of the uncertainty are given.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement uncertainty evaluation of a hexapod-structured calibration
+    - script: Latn
+      content: Measurement uncertainty evaluation of a hexapod-structured calibration
         device for multi-component force and moment sensors
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-04-01'
+      at: '2017-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement uncertainty evaluation of a hexapod-structured calibration
+    - script: Latn
+      content: Measurement uncertainty evaluation of a hexapod-structured calibration
         device for multi-component force and moment sensors
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-02-15'
+      at: '2017-02-15'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement uncertainty evaluation of a hexapod-structured calibration
+    - script: Latn
+      content: Measurement uncertainty evaluation of a hexapod-structured calibration
         device for multi-component force and moment sensors
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2017-02-15'
+      at: '2017-02-15'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -216,6 +192,6 @@ extent:
     reference_from: '171'
     reference_to: '183'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

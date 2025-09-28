@@ -1,102 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia436539
-title:
-- content: Instrument resolution and measurement accuracy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/6/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/6/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 6 539
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Instrument resolution and measurement accuracy
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/6/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/6/009
+docidentifier:
+- content: Metrologia 43 6 539
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/6/009
+- content: 10.1088/0026-1394/43/6/009
   type: doi
 date:
 - type: published
-  value: '2006-11-13'
+  at: '2006-11-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gunnar Taraldsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustics Research Centre, NTNU and SINTEF, Norway
-  role:
-  - type: author
-revdate: '2006-11-13'
 abstract:
-- content: "<p>A procedure is presented to evaluate the expanded uncertainty of a
+- language: en
+  script:
+  - Latn
+  content: "<p>A procedure is presented to evaluate the expanded uncertainty of a
     quantity about which discretized measurement data are available. The method is
     based on conventional statistics and depends on the value of the experimental
     variance and the resolution. The suggested procedure is compared with a recently
-    suggested procedure based on Bayesian statistics. The ISO Guide to the Expression
-    of Uncertainity in Measurement (GUM) is discussed briefly. It is argued that both
-    conventional and Bayesian statistics give a consistent interpretation of the GUM
-    procedure, and the two approaches supplement each other: conventional statistics
-    estimates the uncertainty of the measurement procedure, while Bayesian statistics
-    gives the uncertainty of the measurand.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    suggested procedure based on Bayesian statistics. The ISO <italic>Guide to the
+    Expression of Uncertainity in Measurement</italic> (GUM) is discussed briefly.
+    It is argued that both conventional and Bayesian statistics give a consistent
+    interpretation of the GUM procedure, and the two approaches supplement each other:
+    conventional statistics estimates the uncertainty of the measurement procedure,
+    while Bayesian statistics gives the uncertainty of the measurand.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Instrument resolution and measurement accuracy
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Instrument resolution and measurement accuracy
     date:
     - type: epub
-      value: '2006-11-13'
+      at: '2006-11-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Instrument resolution and measurement accuracy
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Instrument resolution and measurement accuracy
     date:
     - type: ppub
-      value: '2006-12-01'
+      at: '2006-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: '539'
     reference_to: '544'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

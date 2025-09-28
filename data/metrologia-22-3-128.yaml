@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223128
-title:
-- content: Theory of Quantum Mechanical Measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 128
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Theory of Quantum Mechanical Measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/002
+docidentifier:
+- content: Metrologia 22 3 128
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/002
+- content: 10.1088/0026-1394/22/3/002
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ludwig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Philipps-Universität Marburg, Renthof 7, D-3550 Marburg, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>No measurement is possible without any theory. With respect to a theory
+- language: en
+  script:
+  - Latn
+  content: "<p>No measurement is possible without any theory. With respect to a theory
     under consideration one has to distinguish between direct and indirect measurements.
     Direct measurements are defined by pre-theories, i.e. without the theory under
     consideration. The direct measurements for quantum theory are given by measurable
@@ -49,39 +45,31 @@ abstract:
     in quantum mechanics can be reduced to direct measurements. A theory of the measuring
     device is in this context not possible by quantum mechanics alone, but by a more
     comprehensive theory of macrosystems.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Theory of Quantum Mechanical Measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Theory of Quantum Mechanical Measurements
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '128'
     reference_to: '133'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,102 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015012
-title:
-- content: Uncertainty analysis for ac–dc difference measurements with the AC Josephson
-    voltage standard
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf5e5
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf5e5
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015012
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty analysis for ac–dc difference measurements with the AC Josephson
+    voltage standard
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf5e5
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf5e5
+docidentifier:
+- content: Metrologia 56 1 015012
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf5e5
+- content: 10.1088/1681-7575/aaf5e5
   type: doi
 date:
 - type: published
-  value: '2018-12-21'
+  at: '2018-12-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jason M Underwood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, MS 8172, Gaithersburg, MD 20899-8172,
+            United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, MS 8172, Gaithersburg, MD 20899-8172,
-              United States of America
-  role:
-  - type: author
-revdate: '2018-12-21'
 abstract:
-- content: Abstract<p>A detailed analysis of the uncertainties obtained in ac–dc difference
-    measurements with an AC Josephson voltage standard (ACJVS) is presented. For audio
-    frequencies and for voltages less than 200 mV, ac–dc transfers with the ACJVS
-    may reduce the combined uncertainty by factors of 2–10, compared with conventional
-    methods based on thermal converters. Type A uncertainties are predominantly limited
-    by the thermal transfer standard (TTS), or the digital voltmeter used to acquire
-    the output voltage from the TTS. In agreement with earlier work, the transmission
-    line is the primary contributor to Type B errors for frequencies above 10 kHz.
-    A Monte Carlo sensitivity analysis is used to demonstrate how the uncertainties
-    of transmission line impedance and on-chip inductance impact the accuracy of the
-    rms amplitude conveyed to the TTS.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A detailed analysis of the uncertainties obtained in ac–dc difference measurements with an AC Josephson voltage standard (ACJVS) is presented. For audio frequencies and for voltages less than 200 mV, ac–dc transfers with the ACJVS may reduce the combined uncertainty by factors of 2–10, compared with conventional methods based on thermal converters. Type A uncertainties are predominantly limited by the thermal transfer standard (TTS), or the digital voltmeter used to acquire the output voltage from the TTS. In agreement with earlier work, the transmission line is the primary contributor to Type B errors for frequencies above 10 kHz. A Monte Carlo sensitivity analysis is used to demonstrate how the uncertainties of transmission line impedance and on-chip inductance impact the accuracy of the rms amplitude conveyed to the TTS.</p>
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis for ac–dc difference measurements with the AC
+    - script: Latn
+      content: Uncertainty analysis for ac–dc difference measurements with the AC
         Josephson voltage standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis for ac–dc difference measurements with the AC
+    - script: Latn
+      content: Uncertainty analysis for ac–dc difference measurements with the AC
         Josephson voltage standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-12-21'
+      at: '2018-12-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +84,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

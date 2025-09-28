@@ -1,119 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia544566
-title:
-- content: 'Defining relative humidity in terms of water activity. Part 1: definition'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa7083
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa7083
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 4 566
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Defining relative humidity in terms of water activity. Part 1: definition'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa7083
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa7083
+docidentifier:
+- content: Metrologia 54 4 566
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa7083
+- content: 10.1088/1681-7575/aa7083
   type: doi
 date:
 - type: published
-  value: '2017-07-18'
+  at: '2017-07-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Feistel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: D-18119 Warnemünde, Germany
         name:
         - content: Leibniz Institute for Baltic Sea Research (IOW)
-        contact:
-        - address:
-            formatted_address: D-18119 Warnemünde, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jeremy W Lovell-Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory (MSL)
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2017-07-18'
 abstract:
-- content: Abstract<p>Relative humidity (RH) is a quantity widely used in various
-    fields such as metrology, meteorology, climatology or engineering. However, RH
-    is neither uniformly defined, nor do some definitions properly account for deviations
-    from ideal-gas properties, nor is the application range of interest fully covered.
-    In this paper, a new full-range definition of RH is proposed that is based on
-    the thermodynamics of activities in order to include deviations from ideal-gas
-    behaviour. Below the critical point of pure water, at pressures p  &lt;  22.064 MPa
-    and temperatures T  &lt;  647.096 K, RH is rigorously defined as the relative
-    activity (or relative fugacity) of water in humid air. For this purpose, reference
-    states of the relative activity are specified appropriately. Asymptotically, the
-    ideal-gas limit of the new definition is consistent with de-facto standard RH
-    definitions published previously and recommended internationally. Virial approximations
-    are reported for estimating small corrections to the ideal-gas equations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Relative humidity (RH) is a quantity widely used in various fields such as metrology, meteorology, climatology or engineering. However, RH is neither uniformly defined, nor do some definitions properly account for deviations from ideal-gas properties, nor is the application range of interest fully covered. In this paper, a new full-range definition of RH is proposed that is based on the thermodynamics of activities in order to include deviations from ideal-gas behaviour. Below the critical point of pure water, at pressures <italic>p</italic>  &lt;  22.064 MPa and temperatures <italic>T</italic>  &lt;  647.096 K, RH is rigorously defined as the relative activity (or relative fugacity) of water in humid air. For this purpose, reference states of the relative activity are specified appropriately. Asymptotically, the ideal-gas limit of the new definition is consistent with <italic>de-facto</italic> standard RH definitions published previously and recommended internationally. Virial approximations are reported for estimating small corrections to the ideal-gas equations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity. Part 1: definition'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity. Part 1: definition'
     date:
     - type: ppub
-      value: '2017-08-01'
+      at: '2017-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity. Part 1: definition'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity. Part 1: definition'
     date:
     - type: epub
-      value: '2017-07-18'
+      at: '2017-07-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +102,6 @@ extent:
     reference_from: '566'
     reference_to: '576'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

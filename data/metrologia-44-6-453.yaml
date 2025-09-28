@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446453
-title:
-- content: The selection of water property formulae for volume and flow calibration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 453
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The selection of water property formulae for volume and flow calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/004
+docidentifier:
+- content: Metrologia 44 6 453
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/004
+- content: 10.1088/0026-1394/44/6/004
   type: doi
 date:
 - type: published
-  value: '2007-10-11'
+  at: '2007-10-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Elsa Batista
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Português da Qualidade, Rua António Gião, 2—Caparica,
             Portugal
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Paton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: TUV NEL Ltd, Napier Building, Scottish Enterprise Technology Park,
             East Kilbride, Glasgow G75 0QF, UK
-  role:
-  - type: author
-revdate: '2007-10-11'
 abstract:
-- content: "<p>When employing either gravimetric or volumetric methods for the calibration
+- language: en
+  script:
+  - Latn
+  content: "<p>When employing either gravimetric or volumetric methods for the calibration
     of flowmeters, volumetric measures and proving tanks, knowledge of the density
     of water is required. In addition, when measuring flow of water and calibrating
     flow meters, the compressibility, viscosity and speed of sound may also be needed.
@@ -80,53 +74,42 @@ abstract:
     formulae provided here will apply equally to measurement at the highest levels
     of volume determinations, through to industrial and scientific volume and flow
     measurement applications using water.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The selection of water property formulae for volume and flow calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The selection of water property formulae for volume and flow calibration
     date:
     - type: epub
-      value: '2007-10-11'
+      at: '2007-10-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The selection of water property formulae for volume and flow calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The selection of water property formulae for volume and flow calibration
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +120,6 @@ extent:
     reference_from: '453'
     reference_to: '463'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia203107
-title:
-- content: A Fringe Signal Processing Method for an Absolute Gravimeter
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 3 107
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Fringe Signal Processing Method for an Absolute Gravimeter
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/3/006
+docidentifier:
+- content: Metrologia 20 3 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/3/006
+- content: 10.1088/0026-1394/20/3/006
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Tsubokawa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Joint Institute for Laboratory Astrophysics, University of Colorado
             and National Bureau of Standards, Boulder, CO 80309, USA
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>The following is a description of a precise fringe signal processing
+- language: en
+  script:
+  - Latn
+  content: "<p>The following is a description of a precise fringe signal processing
     method for measuring the acceleration due to the Earth's gravity which we have
     developed at the International Latitude Observatory of Mizusawa. The frequency
     of the interference fringe signal is proportional to the falling object's velocity.
@@ -49,39 +45,31 @@ abstract:
     than the fringe number itself, at constant time intervals. Since the fringes need
     not be counted, and the fringe detection system is simple, the method offers substantial
     advantages for vibration compensation and data reduction.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Fringe Signal Processing Method for an Absolute Gravimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Fringe Signal Processing Method for an Absolute Gravimeter
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '107'
     reference_to: '113'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

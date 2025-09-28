@@ -1,110 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia471A07013
-title:
-- content: CCM.M-K3.1 comparison / 50 kg mass
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/1A/07013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/1A/07013
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 1A 07013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CCM.M-K3.1 comparison / 50 kg mass
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/1A/07013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/1A/07013
+docidentifier:
+- content: Metrologia 47 1A 07013
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/1A/07013
+- content: 10.1088/0026-1394/47/1A/07013
   type: doi
 date:
 - type: published
-  value: '2010-01-01'
+  at: '2010-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Commun de Métrologie, LNE–CNAM, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Madec
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Commun de Métrologie, LNE–CNAM, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P A Meury
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Commun de Métrologie, LNE–CNAM, France
-  role:
-  - type: author
-revdate: '2010-01-01'
 abstract:
-- content: |-
-    <p>This comparison is a subsequent key comparison to the comparison CCM.M-K3 performed in 2001–2002 and published in 2005. This comparison is between the CEM (Spain) as participating laboratory and the LNE (France) as pilot laboratory. The aim of this comparison was to compare the results obtained by each laboratory when calibrating the same two 50 kg stainless steel mass standards, one provided by CEM and one by LNE.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report.
-    Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This comparison is a subsequent key comparison to the comparison  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/42/1A/07003/">CCM.M-K3</ext-link> performed in 2001–2002 and published in 2005. This comparison is between the CEM (Spain) as participating laboratory and the LNE (France) as pilot laboratory. The aim of this comparison was to compare the results obtained by each laboratory when calibrating the same two 50 kg stainless steel mass standards, one provided by CEM and one by LNE.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/M-K3/CCM.M-K3.1.pdf">Final Report</ext-link>.
+    Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: CCM.M-K3.1 comparison / 50 kg mass
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: CCM.M-K3.1 comparison / 50 kg mass
     date:
     - type: ppub
-      value: '2010-01-01'
+      at: '2010-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +101,6 @@ extent:
     reference_from: '07013'
     reference_to: '07013'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

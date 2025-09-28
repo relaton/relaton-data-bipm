@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia436556
-title:
-- content: On correlation in the water vapour pressure formulations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/6/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/6/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 6 556
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On correlation in the water vapour pressure formulations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/6/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/6/011
+docidentifier:
+- content: Metrologia 43 6 556
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/6/011
+- content: 10.1088/0026-1394/43/6/011
   type: doi
 date:
 - type: published
-  value: '2006-11-30'
+  at: '2006-11-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Lovell-Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand (MSL), PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2006-11-30'
 abstract:
-- content: "<p>A wide variety of empirical equations are used in measurement science
+- language: en
+  script:
+  - Latn
+  content: "<p>A wide variety of empirical equations are used in measurement science
     in which the equation parameters are determined through some form of interpolation
     or least squares fit. When the equation is a good model of the system and the
     fitting process is accompanied by a full uncertainty analysis, the equation parameters
@@ -59,53 +55,42 @@ abstract:
     the full equation parameter covariance is known, the ‘parameter covariance’ method
     (PCM) presented here does give the reduction in uncertainty expected for autocorrelation
     within the formulation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On correlation in the water vapour pressure formulations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On correlation in the water vapour pressure formulations
     date:
     - type: epub
-      value: '2006-11-30'
+      at: '2006-11-30'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On correlation in the water vapour pressure formulations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On correlation in the water vapour pressure formulations
     date:
     - type: ppub
-      value: '2006-12-01'
+      at: '2006-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +101,6 @@ extent:
     reference_from: '556'
     reference_to: '560'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

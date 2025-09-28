@@ -1,106 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia415S115
-title:
-- content: Analogies between electricity and gravity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/5/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/5/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 5 S115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analogies between electricity and gravity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/5/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/5/S02
+docidentifier:
+- content: Metrologia 41 5 S115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/5/S02
+- content: 10.1088/0026-1394/41/5/S02
   type: doi
 date:
 - type: published
-  value: '2004-09-16'
+  at: '2004-09-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D F Bartlett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, University of Colorado, Boulder, CO 80309,
             USA
-  role:
-  - type: author
-revdate: '2004-09-16'
 abstract:
-- content: "<p>This is a brief history of physical analogies that begins at the time
+- language: en
+  script:
+  - Latn
+  content: "<p>This is a brief history of physical analogies that begins at the time
     of Coulomb. Then it was universally believed that gravity, electricity and magnetism
     all obeyed Newton's inverse square law. The current era—dominated by quantum mechanics,
     general relativity, strings and inflationary cosmology—is clearly more complex.
     A new analogy may be helpful. Evidence is given that, in the non-relativistic
-    limit, electricity is described by a Proca potential ϕ<sub>e</sub> satisfying
-    the equation ∇<sup>2</sup>ϕ<sub>e</sub> − k<sub>0</sub><sup>2</sup>ϕ<sub>e</sub>
-    = −ρ<sub>e</sub>/ϵ<sub>0</sub> and gravity by a Helmholtz potential ϕ<sub>m</sub>
-    satisfying ∇<sup>2</sup>ϕ<sub>m</sub> + k<sub>0</sub><sup>2</sup>ϕ<sub>m</sub>
-    = 4πGρ<sub>m</sub>. In both equations k<sub>0</sub> is a proposed universal constant,
-    whose value is about 2 π(20/R<sub>0</sub>), where R<sub>0</sub> is the distance
-    from the solar system to the centre of the Milky Way. Relativistic treatments
-    are also given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    limit, electricity is described by a Proca potential ϕ<sub><italic>e</italic></sub>
+    satisfying the equation ∇<sup>2</sup>ϕ<sub><italic>e</italic></sub> − <italic>k</italic><sub>0</sub><sup>2</sup>ϕ<sub><italic>e</italic></sub>
+    = −ρ<sub><italic>e</italic></sub>/ϵ<sub>0</sub> and gravity by a Helmholtz potential
+    ϕ<sub><italic>m</italic></sub> satisfying ∇<sup>2</sup>ϕ<sub><italic>m</italic></sub>
+    + <italic>k</italic><sub>0</sub><sup>2</sup>ϕ<sub><italic>m</italic></sub> = 4π<italic>G</italic>ρ<sub><italic>m</italic></sub>.
+    In both equations <italic>k</italic><sub>0</sub> is a proposed universal constant,
+    whose value is about 2 π(20/<italic>R</italic><sub>0</sub>), where <italic>R</italic><sub>0</sub>
+    is the distance from the solar system to the centre of the Milky Way. Relativistic
+    treatments are also given.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analogies between electricity and gravity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analogies between electricity and gravity
     date:
     - type: epub
-      value: '2004-09-16'
+      at: '2004-09-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analogies between electricity and gravity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analogies between electricity and gravity
     date:
     - type: ppub
-      value: '2004-10-01'
+      at: '2004-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: S115
     reference_to: S124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

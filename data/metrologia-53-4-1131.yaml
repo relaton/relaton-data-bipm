@@ -1,134 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5341131
-title:
-- content: Bayesian hypothesis testing for key comparisons
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/1131
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/1131
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 1131
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian hypothesis testing for key comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/1131
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/1131
+docidentifier:
+- content: Metrologia 53 4 1131
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/1131
+- content: 10.1088/0026-1394/53/4/1131
   type: doi
 date:
 - type: published
-  value: '2016-07-18'
+  at: '2016-07-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gerd Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olha Bodnar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2016-07-18'
 abstract:
-- content: Abstract<p>Unilateral degrees of equivalence are the key result in the
-    analysis of key comparison data and they are used to approve, or disapprove, calibration
-    and measurement capabilities of the participating laboratories. To this end, it
-    is checked whether a degree of equivalence differs significantly from zero. Proceeding
-    in such a way can be viewed as carrying out a classical hypothesis test. We develop
-    a Bayesian counterpart to this approach which has the advantage that it can include
-    prior assessment of the corresponding Consultative Committee about the calibration
-    and measurement capabilities of the participating laboratories. Simple expressions
-    are derived and their implementation is provided in terms of MATLAB<sup>®</sup>
-    and R programs. The novel procedure is illustrated by its application to two recent
-    key comparisons CCL-K1 and CCM.FF-K4.1.2011.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Unilateral degrees of equivalence are the key result in the analysis of key comparison data and they are used to approve, or disapprove, calibration and measurement capabilities of the participating laboratories. To this end, it is checked whether a degree of equivalence differs significantly from zero. Proceeding in such a way can be viewed as carrying out a classical hypothesis test. We develop a Bayesian counterpart to this approach which has the advantage that it can include prior assessment of the corresponding Consultative Committee about the calibration and measurement capabilities of the participating laboratories. Simple expressions are derived and their implementation is provided in terms of MATLAB<sup>®</sup> and R programs. The novel procedure is illustrated by its application to two recent key comparisons CCL-K1 and CCM.FF-K4.1.2011.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian hypothesis testing for key comparisons
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian hypothesis testing for key comparisons
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian hypothesis testing for key comparisons
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian hypothesis testing for key comparisons
     date:
     - type: epub
-      value: '2016-07-18'
+      at: '2016-07-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +116,6 @@ extent:
     reference_from: '1131'
     reference_to: '1138'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia286455
-title:
-- content: Phase Modulation in High-resolution Optical Interferometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/6/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/6/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 6 455
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Phase Modulation in High-resolution Optical Interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/6/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/6/003
+docidentifier:
+- content: Metrologia 28 6 455
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/6/003
+- content: 10.1088/0026-1394/28/6/003
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Basile
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Strada delle Cacce, 73,
             10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bergamin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Strada delle Cacce, 73,
             10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Cavagnero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Strada delle Cacce, 73,
             10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Strada delle Cacce, 73,
             10135 Torino, Italy
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The measurement of nanometre displacements with picometre resolution
+- language: en
+  script:
+  - Latn
+  content: "<p>The measurement of nanometre displacements with picometre resolution
     has been made possible by a phase-modulation recovery scheme applied to an optical
     Michelson interferometer using polarization encoding. In contrast to conventional
     schemes, phase modulation is carried out before the interferometer optics. In
@@ -96,39 +86,31 @@ abstract:
     by a beam thus modulated, was constructed and coupled to an X-ray interferometer
     to compare the optical and X-ray interferometric measurement values of sub-nanometre
     displacements. A resolution better than 1 pm over a 100 Hz bandwidth was obtained.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase Modulation in High-resolution Optical Interferometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Phase Modulation in High-resolution Optical Interferometry
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +121,6 @@ extent:
     reference_from: '455'
     reference_to: '461'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,110 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581A07004
-title:
-- content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/58/1A/07004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/58/1A/07004
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1A 07004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/58/1A/07004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/58/1A/07004
+docidentifier:
+- content: Metrologia 58 1A 07004
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/58/1A/07004
+- content: 10.1088/0026-1394/58/1A/07004
   type: doi
 date:
 - type: published
-  value: '2021-01-01'
+  at: '2021-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Knott
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Hampton Road, Teddington, United
             Kingdom, TW11 0LW
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ž Alar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Faculty of Mechanical Engineering and Naval Architecture (FSB),
             University of Zagreb, Ivana Lučića 5, 10002 Zagreb, Croatia
-  role:
-  - type: author
-revdate: '2021-01-01'
 abstract:
-- content: Main text<p>This bilateral comparison compared the magnitude of the compressive
-    forces generated within the 500 kN machine at FSB-LIMS with the same nominal forces
-    generated within NPL's 1.2 MN deadweight machine, in the range from 10 kN to 500
-    kN. The results supported FSB-LIMS's CMC of 0.05 %.</p><p>To reach the main text
-    of this paper, click on Final Report. Note that this text is that which appears
-    in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final
-    report has been peer-reviewed and approved for publication by the CCM, according
-    to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Main text</title>
+    <p>This bilateral comparison compared the magnitude of the compressive forces generated within the 500 kN machine at FSB-LIMS with the same nominal forces generated within NPL's 1.2 MN deadweight machine, in the range from 10 kN to 500 kN. The results supported FSB-LIMS's CMC of 0.05 %.</p>
+    <p>To reach the main text of this paper, click on <ext-link xlink:href="https://www.bipm.org/documents/20126/48150861/EURAMET.M.F-S5.pdf/307f2586-619b-3000-995d-2fbbcca6f387" xlink:type="simple">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link xlink:href="http://kcdb.bipm.org/" xlink:type="simple">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
     date:
     - type: ppub
-      value: '2021-01-01'
+      at: '2021-01-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Force supplementary comparison EURAMET.M.F-S5 (10 kN to 500 kN)
     date:
     - type: epub
-      value: '2021-04-30'
+      at: '2021-04-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +99,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

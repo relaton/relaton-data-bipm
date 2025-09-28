@@ -1,135 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia502164
-title:
-- content: 'The watt-balance operation: magnetic force and induced electric potential
-    on a conductor in a magnetic field'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/2/164
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/2/164
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 2 164
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The watt-balance operation: magnetic force and induced electric potential
+    on a conductor in a magnetic field'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/2/164
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/2/164
+docidentifier:
+- content: Metrologia 50 2 164
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/2/164
+- content: 10.1088/0026-1394/50/2/164
   type: doi
 date:
 - type: published
-  value: '2013-04-01'
+  at: '2013-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C P Sasso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Massa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: str. delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2013-04-01'
 abstract:
-- content: Abstract<p>In a watt-balance experiment, separate measurements of magnetic
-    force and induced electric potential in a conductor in a magnetic field allow
-    for a virtual comparison between mechanical and electrical powers, which leads
-    to an accurate measurement of the Planck constant. In this paper, the macroscopic
-    equations for the magnetic force and the induced electric potential are re-examined
-    from a microscopic point of view and the corrective terms due to a non-uniform
-    density of the conduction electrons induced by their interaction with the magnetic
-    field are investigated. The results indicate that these corrections are irrelevant
-    to the watt-balance operation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In a watt-balance experiment, separate measurements of magnetic force and induced electric potential in a conductor in a magnetic field allow for a virtual comparison between mechanical and electrical powers, which leads to an accurate measurement of the Planck constant. In this paper, the macroscopic equations for the magnetic force and the induced electric potential are re-examined from a microscopic point of view and the corrective terms due to a non-uniform density of the conduction electrons induced by their interaction with the magnetic field are investigated. The results indicate that these corrections are irrelevant to the watt-balance operation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt-balance operation: magnetic force and induced electric potential
+    - script: Latn
+      content: 'The watt-balance operation: magnetic force and induced electric potential
         on a conductor in a magnetic field'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-04-01'
+      at: '2013-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt-balance operation: magnetic force and induced electric potential
+    - script: Latn
+      content: 'The watt-balance operation: magnetic force and induced electric potential
         on a conductor in a magnetic field'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-04-02'
+      at: '2013-04-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +119,6 @@ extent:
     reference_from: '164'
     reference_to: '169'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

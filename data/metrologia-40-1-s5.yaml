@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S5
-title:
-- content: Accurate efficient evaluation of Lommel functions for arbitrarily large
-    arguments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/302
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/302
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S5
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accurate efficient evaluation of Lommel functions for arbitrarily large
+    arguments
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/302
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/302
+docidentifier:
+- content: Metrologia 40 1 S5
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/302
+- content: 10.1088/0026-1394/40/1/302
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eric L Shirley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Technology Division, National Institute of Standards and
             Technology, 100 Bureau Dr., Mail Stop 8441, Gaithersburg, MD 20899-8441,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eric K Chang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Technology Division, National Institute of Standards and
             Technology, 100 Bureau Dr., Mail Stop 8441, Gaithersburg, MD 20899-8441,
             USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>It can be difficult to evaluate Lommel functions U<sub>n</sub>(u,v)
-    and V<sub>n</sub>(u,v) when u and v are both large. Here, we present an accurate
-    means to evaluate such functions using contour integration. The approach suggests
-    the potential for developing analogous techniques in diffraction calculations
-    for many optical systems.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>It can be difficult to evaluate Lommel functions <italic>U</italic><sub><italic>n</italic></sub>(<italic>u</italic>,<italic>v</italic>)
+    and <italic>V</italic><sub><italic>n</italic></sub>(<italic>u</italic>,<italic>v</italic>)
+    when <italic>u</italic> and <italic>v</italic> are both large. Here, we present
+    an accurate means to evaluate such functions using contour integration. The approach
+    suggests the potential for developing analogous techniques in diffraction calculations
+    for many optical systems.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate efficient evaluation of Lommel functions for arbitrarily large
+    - language: en
+      script: Latn
+      content: Accurate efficient evaluation of Lommel functions for arbitrarily large
         arguments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate efficient evaluation of Lommel functions for arbitrarily large
+    - language: en
+      script: Latn
+      content: Accurate efficient evaluation of Lommel functions for arbitrarily large
         arguments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: S5
     reference_to: S8
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366689
-title:
-- content: Estimation algorithms in the calculation of effective area of pressure
-    balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/39
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/39
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 689
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Estimation algorithms in the calculation of effective area of pressure
+    balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/39
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/39
+docidentifier:
+- content: Metrologia 36 6 689
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/39
+- content: 10.1088/0026-1394/36/6/39
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A B Forbes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>We discuss methods for analysing calibration data to estimate the effective
-    area of a pressure balance. These include the so-called P- and ΔP-methods, and
-    a method in which the estimate is made by solving a generalized regression problem
-    that reflects more correctly the error structure in the measurement data. We compare
-    these methods, both from a theoretical point of view and on simulated data, and
-    show that the differences in the parameter estimates can be significant compared
-    with the claimed measurement uncertainty.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>We discuss methods for analysing calibration data to estimate the effective
+    area of a pressure balance. These include the so-called <italic>P</italic>- and
+    Δ<italic>P</italic>-methods, and a method in which the estimate is made by solving
+    a generalized regression problem that reflects more correctly the error structure
+    in the measurement data. We compare these methods, both from a theoretical point
+    of view and on simulated data, and show that the differences in the parameter
+    estimates can be significant compared with the claimed measurement uncertainty.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimation algorithms in the calculation of effective area of pressure
+    - language: en
+      script: Latn
+      content: Estimation algorithms in the calculation of effective area of pressure
         balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '689'
     reference_to: '692'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

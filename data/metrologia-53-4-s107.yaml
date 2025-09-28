@@ -1,106 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia534S107
-title:
-- content: In pursuit of a fit-for-purpose uncertainty guide
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/S107
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/S107
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 S107
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: In pursuit of a fit-for-purpose uncertainty guide
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/S107
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/S107
+docidentifier:
+- content: Metrologia 53 4 S107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/S107
+- content: 10.1088/0026-1394/53/4/S107
   type: doi
 date:
 - type: published
-  value: '2016-06-14'
+  at: '2016-06-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31310, Lower Hutt 5040, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2016-06-14'
 abstract:
-- content: Abstract<p>Measurement uncertainty is a measure of the quality of a measurement;
-    it enables users of measurements to manage the risks and costs associated with
-    decisions influenced by measurements, and it supports metrological traceability
-    by quantifying the proximity of measurement results to true SI values. The Guide
-    to the Expression of Uncertainty in Measurement (GUM) ensures uncertainty statements
-    meet these purposes and encourages the world-wide harmony of measurement uncertainty
-    practice. Although the GUM is an extraordinarily successful document, it has flaws,
-    and a revision has been proposed. Like the already-published supplements to the
-    GUM, the proposed revision employs objective Bayesian statistics instead of frequentist
-    statistics. This paper argues that the move away from a frequentist treatment
-    of measurement error to a Bayesian treatment of states of knowledge is misguided.
-    The move entails changes in measurement philosophy, a change in the meaning of
-    probability, and a change in the object of uncertainty analysis, all leading to
-    different numerical results, increased costs, increased confusion, a loss of trust,
-    and, most significantly, a loss of harmony with current practice. Recommendations
-    are given for a revision in harmony with the current GUM and allowing all forms
-    of statistical inference.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Measurement uncertainty is a measure of the quality of a measurement; it enables users of measurements to manage the risks and costs associated with decisions influenced by measurements, and it supports metrological traceability by quantifying the proximity of measurement results to true SI values. The <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) ensures uncertainty statements meet these purposes and encourages the world-wide harmony of measurement uncertainty practice. Although the GUM is an extraordinarily successful document, it has flaws, and a revision has been proposed. Like the already-published supplements to the GUM, the proposed revision employs objective Bayesian statistics instead of frequentist statistics. This paper argues that the move away from a frequentist treatment of measurement error to a Bayesian treatment of states of knowledge is misguided. The move entails changes in measurement philosophy, a change in the meaning of probability, and a change in the object of uncertainty analysis, all leading to different numerical results, increased costs, increased confusion, a loss of trust, and, most significantly, a loss of harmony with current practice. Recommendations are given for a revision in harmony with the current GUM and allowing all forms of statistical inference.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: In pursuit of a fit-for-purpose uncertainty guide
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: In pursuit of a fit-for-purpose uncertainty guide
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: In pursuit of a fit-for-purpose uncertainty guide
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: In pursuit of a fit-for-purpose uncertainty guide
     date:
     - type: epub
-      value: '2016-06-14'
+      at: '2016-06-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +88,6 @@ extent:
     reference_from: S107
     reference_to: S124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

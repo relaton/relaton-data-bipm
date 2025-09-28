@@ -1,137 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496779
-title:
-- content: Realization of an accurate and repeatable wavelength scale for double subtractive
-    monochromators
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/779
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/779
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 779
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Realization of an accurate and repeatable wavelength scale for double subtractive
+    monochromators
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/779
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/779
+docidentifier:
+- content: Metrologia 49 6 779
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/779
+- content: 10.1088/0026-1394/49/6/779
   type: doi
 date:
 - type: published
-  value: '2012-10-30'
+  at: '2012-10-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Malcolm White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 325 Broadway, Boulder, CO 80305, USA
         name:
         - content: NIST Boulder
-        contact:
-        - address:
-            formatted_address: 325 Broadway, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marek Smid
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: LFM, V Botanice 4, Praha 5, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: LFM, V Botanice 4, Praha 5, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Geiland Porrovecchio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: LFM, V Botanice 4, Praha 5, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: LFM, V Botanice 4, Praha 5, Czech Republic
-  role:
-  - type: author
-revdate: '2012-10-30'
 abstract:
-- content: Abstract<p>We present the results and discussion of two methods for achieving
-    a higher degree of wavelength accuracy of double grating monochromators. In particular,
-    we assessed the benefits of using differential evolution curve fitting techniques
-    to minimize wavelength uncertainties associated with the manufacture of lead screws
-    in sine-bar driven monochromators. Absolute wavelength-scale uncertainties better
-    than ±0.1 nm can be realized using this technique.</p><p>We also report the realization
-    of an accurate and repeatable wavelength scale, using a novel calibration technique,
-    that is applicable to a wide range of monochromators. We present results demonstrating
-    the robustness of the technique by realizing an absolute wavelength scale, across
-    four grating sets from 250 nm to 1600 nm, with scale uncertainties within ±0.02 nm
-    and repeatable to ±0.005 nm.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We present the results and discussion of two methods for achieving a higher degree of wavelength accuracy of double grating monochromators. In particular, we assessed the benefits of using differential evolution curve fitting techniques to minimize wavelength uncertainties associated with the manufacture of lead screws in sine-bar driven monochromators. Absolute wavelength-scale uncertainties better than ±0.1 nm can be realized using this technique.</p>
+    <p>We also report the realization of an accurate and repeatable wavelength scale, using a novel calibration technique, that is applicable to a wide range of monochromators. We present results demonstrating the robustness of the technique by realizing an absolute wavelength scale, across four grating sets from 250 nm to 1600 nm, with scale uncertainties within ±0.02 nm and repeatable to ±0.005 nm.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of an accurate and repeatable wavelength scale for double
+    - script: Latn
+      content: Realization of an accurate and repeatable wavelength scale for double
         subtractive monochromators
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of an accurate and repeatable wavelength scale for double
+    - script: Latn
+      content: Realization of an accurate and repeatable wavelength scale for double
         subtractive monochromators
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-10-30'
+      at: '2012-10-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +120,6 @@ extent:
     reference_from: '779'
     reference_to: '784'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

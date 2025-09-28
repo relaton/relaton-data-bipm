@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia214207
-title:
-- content: Ac and Dc Insulation Leakage in Platinum Resistance Thermometers up to
-    750 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/4/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/4/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 4 207
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ac and Dc Insulation Leakage in Platinum Resistance Thermometers up to
+    750 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/4/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/4/006
+docidentifier:
+- content: Metrologia 21 4 207
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/4/006
+- content: 10.1088/0026-1394/21/4/006
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhang Jipei
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada K1A 0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert J Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>The ac and dc insulation resistance of two open-circuited, commercial,
+- language: en
+  script:
+  - Latn
+  content: "<p>The ac and dc insulation resistance of two open-circuited, commercial,
     standard platinum resistance thermometers is investigated over the range 0-750
     °C and 2-4000 Hz, to determine the magnitude of temperature errors caused by the
     insulation shunt across the platinum sensor. It is found that ac insulation leakage
@@ -75,40 +69,32 @@ abstract:
     of the thermometer furnace immersion; ac leakage in a thermometer containing moist
     air; ac leakage in the external thermometer leads; and the ac capacitance of the
     thermometer and leads.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ac and Dc Insulation Leakage in Platinum Resistance Thermometers up
+    - language: en
+      script: Latn
+      content: Ac and Dc Insulation Leakage in Platinum Resistance Thermometers up
         to 750 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +105,6 @@ extent:
     reference_from: '207'
     reference_to: '223'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

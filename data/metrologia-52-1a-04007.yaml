@@ -1,98 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521A04007
-title:
-- content: 'EURAMET.L-K7 final report: bilateral comparison on line-scale'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1A/04007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1A/04007
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1A 04007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'EURAMET.L-K7 final report: bilateral comparison on line-scale'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1A/04007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1A/04007
+docidentifier:
+- content: Metrologia 52 1A 04007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1A/04007
+- content: 10.1088/0026-1394/52/1A/04007
   type: doi
 date:
 - type: published
-  value: '2015-01-01'
+  at: '2015-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: José Salgado
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE, Laboratoire National de Métrologie et d'Essais, 1 rue Gaston
             Boissier, F-75015 Paris
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nuruul Alfiyati
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 'KIM-LIPI: Pusat Penelitian Kalibrasi, Instrumentasi, dan Metrologi
             Lembaga Ilmu Pengetahuan Indonesia (Puslit KIM-LIPI), Kompleks PUSPIPTEK
             Gedung 420, Tangerang Selatan, Banten, Indonesia'
-  role:
-  - type: author
-revdate: '2015-01-01'
 abstract:
-- content: |-
-    <p>The results of the bilateral comparison on line-scale between French (LNE) and Indonesian (KIM-LIPI) NMI for length is presented. A 300 mm long line-scale was calibrated by both participants. LNE acted as the coordinator and pilot laboratory. The measurand was the distance to a reference line labelled '0', 39 distances out of the 300 available were calibrated. Results showed a good agreement between both participants and will help KIM-LIPI to support new CMC values.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The results of the bilateral comparison on line-scale between French
+    (LNE) and Indonesian (KIM-LIPI) NMI for length is presented. A 300 mm long line-scale
+    was calibrated by both participants. LNE acted as the coordinator and pilot laboratory.
+    The measurand was the distance to a reference line labelled '0', 39 distances
+    out of the 300 available were calibrated. Results showed a good agreement between
+    both participants and will help KIM-LIPI to support new CMC values. \n</p>\n<p><bold>Main
+    text.</bold>\nTo reach the main text of this paper, click on <ext-link ext-link-type=\"uri\"
+    xlink:href=\"http://www.bipm.org/utils/common/pdf/final_reports/L/K7/EURAMET_L-K7.2014-Final_Report.pdf\">Final
+    Report</ext-link>. Note that this text is that which appears in Appendix B of
+    the BIPM key comparison database <ext-link ext-link-type=\"uri\" xlink:href=\"http://kcdb.bipm.org/\">kcdb.bipm.org/</ext-link>.</p>\n<p>The
+    final report has been peer-reviewed and approved for publication by the CCL, according
+    to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'EURAMET.L-K7 final report: bilateral comparison on line-scale'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'EURAMET.L-K7 final report: bilateral comparison on line-scale'
     date:
     - type: ppub
-      value: '2015-01-01'
+      at: '2015-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +98,6 @@ extent:
     reference_from: '04007'
     reference_to: '04007'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

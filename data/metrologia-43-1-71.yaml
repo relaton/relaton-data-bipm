@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43171
-title:
-- content: Estimating the influence of impurities on the freezing point of tin
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 71
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Estimating the influence of impurities on the freezing point of tin
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/011
+docidentifier:
+- content: Metrologia 43 1 71
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/011
+- content: 10.1088/0026-1394/43/1/011
   type: doi
 date:
 - type: published
-  value: '2005-12-07'
+  at: '2005-12-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernd Fellmuth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kenneth D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada (NRC), Institute for National
             Measurement Standards, Montreal Road, M-36, Ottawa, Ontario K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2005-12-07'
 abstract:
-- content: "<p>The sum of individual estimates (SIE) and the overall maximum estimate
+- language: en
+  script:
+  - Latn
+  content: "<p>The sum of individual estimates (SIE) and the overall maximum estimate
     (OME) are two methods recommended to estimate the influence of impurities on the
     temperatures of the liquid–solid phase transformations of high-purity substances.
     The methods are discussed starting with the basic crystallographic facts, and
@@ -74,53 +68,42 @@ abstract:
     and harmonization of approach are highly desirable goals. The SIE approach maximizes
     the application of scientific knowledge and represents the best chance of achieving
     these common goals.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimating the influence of impurities on the freezing point of tin
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Estimating the influence of impurities on the freezing point of tin
     date:
     - type: epub
-      value: '2005-12-07'
+      at: '2005-12-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimating the influence of impurities on the freezing point of tin
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Estimating the influence of impurities on the freezing point of tin
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +114,6 @@ extent:
     reference_from: '71'
     reference_to: '83'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

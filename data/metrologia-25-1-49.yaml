@@ -1,99 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia25149
-title:
-- content: Ballistic Methods of Measuring g - the Direct Free-Fall and Symmetrical
-    Rise-and-Fall Methods Compared
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/25/1/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/1/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 1 49
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ballistic Methods of Measuring <italic>g</italic> - the Direct Free-Fall
+    and Symmetrical Rise-and-Fall Methods Compared
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/1/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/1/008
+docidentifier:
+- content: Metrologia 25 1 49
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/1/008
+- content: 10.1088/0026-1394/25/1/008
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Faller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Joint Institute for Laboratory Astrophysics, National Bureau of
             Standards and University of Colorado, Boulder, CO 80309-0440, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Marson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Miniere e Geofisica Applicata dell'Università di Trieste,
             Italy
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Ballistic methods of measuring the absolute value of the free-fall
-    acceleration g are discussed. Particular attention is given to various error sources
-    and measurement limitations which affect the accuracy obtainable in this measurement.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Ballistic methods of measuring the absolute value of the free-fall
+    acceleration <italic>g</italic> are discussed. Particular attention is given to
+    various error sources and measurement limitations which affect the accuracy obtainable
+    in this measurement.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ballistic Methods of Measuring g - the Direct Free-Fall and Symmetrical
-        Rise-and-Fall Methods Compared
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Ballistic Methods of Measuring <italic>g</italic> - the Direct Free-Fall
+        and Symmetrical Rise-and-Fall Methods Compared
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +91,6 @@ extent:
     reference_from: '49'
     reference_to: '55'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

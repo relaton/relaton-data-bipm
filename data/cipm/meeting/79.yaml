@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1990-79
-title:
-- content: 79th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 79<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/79-1990
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/79-1990
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/74761780/CIPM1990.pdf/0fb8d4f4-1057-3361-37a8-e69251cb9414
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-79.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-79.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 79th Meeting (1990)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 79th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 79<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/79-1990
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/79-1990
+- type: pdf
+  content: https://www.bipm.org/documents/20126/74761780/CIPM1990.pdf/0fb8d4f4-1057-3361-37a8-e69251cb9414
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-79.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-79.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 79th Meeting (1990)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 79<sup>e</sup> réunion (1990)
+  content: CIPM 79<sup>e</sup> réunion (1990)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 79th Meeting (1990) / CIPM 79<sup>e</sup> réunion (1990)
+- content: CIPM 79th Meeting (1990) / CIPM 79<sup>e</sup> réunion (1990)
   type: BIPM
   primary: true
 docnumber: CIPM 79th Meeting (1990)
 date:
 - type: published
-  value: '1990-09-27'
+  at: '1990-09-27'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1990-09-27'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '79'

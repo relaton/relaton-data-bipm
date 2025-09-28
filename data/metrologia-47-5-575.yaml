@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia475575
-title:
-- content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/5/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/5/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 5 575
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/5/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/5/008
+docidentifier:
+- content: Metrologia 47 5 575
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/5/008
+- content: 10.1088/0026-1394/47/5/008
   type: doi
 date:
 - type: published
-  value: '2010-09-08'
+  at: '2010-09-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Svitlov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Institute for the Science of Light (MPL), Günther-Scharowsky-Str.
             1/Bau 24, 91058 Erlangen, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Rothleitner
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Schäfer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Institute for the Science of Light (MPL), Günther-Scharowsky-Str.
             1/Bau 24, 91058 Erlangen, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L J Wang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2010-09-08'
 abstract:
-- content: "<p>The MPG-2 (Max-Planck-Gravimeter) is a transportable absolute gravimeter
+- language: en
+  script:
+  - Latn
+  content: "<p>The MPG-2 (Max-Planck-Gravimeter) is a transportable absolute gravimeter
     built on a classical free-fall scheme to measure the local gravity value. With
     significant improvements and further investigations in recent years, the standard
     deviation of the mean for a typical measurement over 12 h to 24 h is 1.0 µGal
@@ -107,55 +93,47 @@ abstract:
     and new measurement results of MPG-2 are reported. The results of observations
     at the reference gravity station Bad Homburg confirmed the revised uncertainty
     budget.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
     date:
     - type: epub
-      value: '2010-09-08'
+      at: '2010-09-08'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improvements of the MPG-2 transportable absolute ballistic gravimeter
     date:
     - type: ppub
-      value: '2010-10-01'
+      at: '2010-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -166,6 +144,6 @@ extent:
     reference_from: '575'
     reference_to: '582'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

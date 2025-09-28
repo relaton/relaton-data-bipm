@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia393279
-title:
-- content: Combined result and associated uncertainty from interlaboratory evaluations
-    based on the ISO Guide
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/3/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/3/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 3 279
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Combined result and associated uncertainty from interlaboratory evaluations
+    based on the ISO Guide
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/3/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/3/5
+docidentifier:
+- content: Metrologia 39 3 279
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/3/5
+- content: 10.1088/0026-1394/39/3/5
   type: doi
 date:
 - type: published
-  value: '2002-06-01'
+  at: '2002-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kacker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Datla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Parr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2002-06-01'
 abstract:
-- content: "<p>We address the problem of determining the combined result and its associated
+- language: en
+  script:
+  - Latn
+  content: "<p>We address the problem of determining the combined result and its associated
     uncertainty in the measurement of a common measurand by a group of competent laboratories.
     Most data analyses of interlaboratory evaluations are based on the assumption
     that the expected values of the individual laboratory results are all equal to
@@ -95,40 +87,32 @@ abstract:
     of the individual laboratory results. We illustrate the three-step method by applying
     it to the results of an international comparison of cryogenic radiometers recently
     organized by the Consultative Committee for Photometry and Radiometry (CCPR).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combined result and associated uncertainty from interlaboratory evaluations
+    - language: en
+      script: Latn
+      content: Combined result and associated uncertainty from interlaboratory evaluations
         based on the ISO Guide
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-06-01'
+      at: '2002-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +123,6 @@ extent:
     reference_from: '279'
     reference_to: '293'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

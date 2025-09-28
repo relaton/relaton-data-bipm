@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S60
-title:
-- content: Long-term behaviour of space radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/314
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/314
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S60
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Long-term behaviour of space radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/314
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/314
+docidentifier:
+- content: Metrologia 40 1 S60
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/314
+- content: 10.1088/0026-1394/40/1/314
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Center, CH 7260 Davos, Switzerland
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Experience with the two types of radiometers in the experiment VIRGO
+- language: en
+  script:
+  - Latn
+  content: "<p>Experience with the two types of radiometers in the experiment VIRGO
     on the ESA/NASA mission SOHO launched in December 1995 has revealed important
     information about the long-term behaviour of such radiometers in space. Exposure-dependent
     changes can be determined from comparison of radiometers with different periods
@@ -58,53 +54,42 @@ abstract:
     experiments, to ±62 ppm (i.e. 62×10<sup>−6</sup>). Together with the result from
     a comparison with the independent record of ERBE the long-term uncertainty for
     the whole record from 1978 to present is estimated to ±85 ppm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Long-term behaviour of space radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Long-term behaviour of space radiometers
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Long-term behaviour of space radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Long-term behaviour of space radiometers
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +100,6 @@ extent:
     reference_from: S60
     reference_to: S65
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

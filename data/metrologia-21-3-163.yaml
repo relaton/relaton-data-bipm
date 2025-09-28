@@ -1,63 +1,60 @@
 ---
-schema-version: v1.2.9
-id: Metrologia213163
-link:
-- content: https://doi.org/10.1088/0026-1394/21/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 3 163
+schema_version: v1.4.1
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/3/009
+docidentifier:
+- content: Metrologia 21 3 163
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/3/009
+- content: 10.1088/0026-1394/21/3/009
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
-revdate: '1985-01-01'
+  at: '1985-01-01'
 abstract:
-- content: "<p>Joint UVSG/CORM Conference on Spectrometry \nUniversity of Oxford,
-    UK, September 14–17, 1986</p><p>The UV Spectrometry Group of the United Kingdom
-    and the US Council for Optical Radiation Measurements (CORM) have agreed to co-sponsor
-    a joint scientific conference on new developments in optical spectrometry and
-    spectrophotometry. The conference will be held September 14–17, 1986 at the Clarendon
-    Laboratory of Oxford University and will feature invited lectures on:<list list-type=\"unordered\"><list-item><p>Basic
-    Concepts of Spectrometry in Analytical Chemistry and Colour Science</p></list-item><list-item><p>High-Accuracy
-    Spectrometry at National Laboratories</p></list-item><list-item><p>Standards and
-    Calibration Methods for Spectrometry</p></list-item><list-item><p>New Trends (Diode-Array,
-    Fourier-Transform, and Tunable Dye laser Spectrometry)</p></list-item></list></p><p>The
+- language: en
+  script:
+  - Latn
+  content: "<p><bold>Joint UVSG/CORM Conference on Spectrometry</bold> \nUniversity
+    of Oxford, UK, September 14–17, 1986</p>\n<p>The UV Spectrometry Group of the
+    United Kingdom and the US Council for Optical Radiation Measurements (CORM) have
+    agreed to co-sponsor a joint scientific conference on new developments in optical
+    spectrometry and spectrophotometry. The conference will be held September 14–17,
+    1986 at the Clarendon Laboratory of Oxford University and will feature invited
+    lectures on:\n <list list-type=\"unordered\">\n <list-item><p>Basic Concepts of
+    Spectrometry in Analytical Chemistry and Colour Science</p></list-item>\n <list-item><p>High-Accuracy
+    Spectrometry at National Laboratories</p></list-item>\n <list-item><p>Standards
+    and Calibration Methods for Spectrometry</p></list-item>\n <list-item><p>New Trends
+    (Diode-Array, Fourier-Transform, and Tunable Dye laser Spectrometry)</p></list-item>\n</list></p>\n<p>The
     conference participants will be offered accommodation in college. More complete
     details will be given in future notices. In the meantime, questions may be directed
     to the US conference chairman, Dr Klaus D Mielenz, National Bureau of Standards,
     Gaithersburg, Md 20899, USA. Telephone (301) 921-3864.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -68,6 +65,6 @@ extent:
     reference_from: '163'
     reference_to: '163'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

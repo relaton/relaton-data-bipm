@@ -1,123 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5211
-title:
-- content: Sensitivity analysis of the transient torque viscosity measurement method
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Sensitivity analysis of the transient torque viscosity measurement method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/1
+docidentifier:
+- content: Metrologia 52 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/1
+- content: 10.1088/0026-1394/52/1/1
   type: doi
 date:
 - type: published
-  value: '2014-12-05'
+  at: '2014-12-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kyle Horne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Denton, TX 76207, USA
         name:
         - content: University of North Texas
         subdivision:
-        - content: Mechanical and Energy Engineering
-        contact:
-        - address:
-            formatted_address: Denton, TX 76207, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Mechanical and Energy Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Heng Ban
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Logan, UT 84322, USA
         name:
         - content: Utah State University
         subdivision:
-        - content: Mechanical and Aerospace Engineering
-        contact:
-        - address:
-            formatted_address: Logan, UT 84322, USA
-  role:
-  - type: author
-revdate: '2014-12-05'
+        - name:
+          - language: en
+            script: Latn
+            content: Mechanical and Aerospace Engineering
 abstract:
-- content: Abstract<p>While a new type of oscillating-cup viscometer which uses a
-    rotating magnetic field has been developed and tested, the uncertainty of such
-    measurements has been considered to only a cursory level. This paper reports work
-    in which the sensitivities of this new method’s output are studied for the measurement
-    of mercury with a particular device. It is concluded from the analysis that while
-    the new method requires dramatically shorter measurement times than previous methods,
-    the resultant uncertainty seems to be nearly the same as the classical oscillating
-    cup method. As such, since the results are just as precise as other oscillating-cup
-    methods, the new method should be employed for its speed advantage, allowing the
-    viscosity of materials as functions of temperature or pressure to be economically
-    determined.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>While a new type of oscillating-cup viscometer which uses a rotating magnetic field has been developed and tested, the uncertainty of such measurements has been considered to only a cursory level. This paper reports work in which the sensitivities of this new method’s output are studied for the measurement of mercury with a particular device. It is concluded from the analysis that while the new method requires dramatically shorter measurement times than previous methods, the resultant uncertainty seems to be nearly the same as the classical oscillating cup method. As such, since the results are just as precise as other oscillating-cup methods, the new method should be employed for its speed advantage, allowing the viscosity of materials as functions of temperature or pressure to be economically determined.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sensitivity analysis of the transient torque viscosity measurement
+    - script: Latn
+      content: Sensitivity analysis of the transient torque viscosity measurement
         method
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sensitivity analysis of the transient torque viscosity measurement
+    - script: Latn
+      content: Sensitivity analysis of the transient torque viscosity measurement
         method
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-12-05'
+      at: '2014-12-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +115,6 @@ extent:
     reference_from: '1'
     reference_to: '7'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

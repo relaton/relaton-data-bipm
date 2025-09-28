@@ -1,90 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia516565
-title:
-- content: The 12th international conference on new developments and applications
-    in optical radiometry (NEWRAD 2014)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/6/565
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/6/565
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 6 565
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The 12th international conference on new developments and applications
+    in optical radiometry (NEWRAD 2014)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/6/565
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/6/565
+docidentifier:
+- content: Metrologia 51 6 565
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/6/565
+- content: 10.1088/0026-1394/51/6/565
   type: doi
 date:
 - type: published
-  value: '2014-11-20'
+  at: '2014-11-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erkki Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Espoo, Finland
         name:
         - content: Centre for Metrology and Accreditation (MIKES) and Aalto University
         subdivision:
-        - content: Chairman of the NEWRAD Scientific Committee (2005–2014
-        contact:
-        - address:
-            formatted_address: Espoo, Finland
-  role:
-  - type: author
-revdate: '2014-11-20'
+        - name:
+          - language: en
+            script: Latn
+            content: Chairman of the NEWRAD Scientific Committee (2005–2014
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The 12th international conference on new developments and applications
+    - script: Latn
+      content: The 12th international conference on new developments and applications
         in optical radiometry (NEWRAD 2014)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-12-01'
+      at: '2014-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The 12th international conference on new developments and applications
+    - script: Latn
+      content: The 12th international conference on new developments and applications
         in optical radiometry (NEWRAD 2014)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-11-20'
+      at: '2014-11-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +90,6 @@ extent:
     reference_from: '565'
     reference_to: '567'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

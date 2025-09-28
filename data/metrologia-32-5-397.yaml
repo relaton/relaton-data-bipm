@@ -1,72 +1,62 @@
 ---
-schema-version: v1.2.9
-id: Metrologia325397
-title:
-- content: Chappuis' experiments and the "Échelle Normale"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/5/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/5/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 5 397
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Chappuis' experiments and the "Échelle Normale"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/5/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/5/9
+docidentifier:
+- content: Metrologia 32 5 397
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/5/9
+- content: 10.1088/0026-1394/32/5/9
   type: doi
 date:
 - type: published
-  value: '1995-10-01'
+  at: '1995-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Watanabe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
-  - type: author
-revdate: '1995-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Chappuis' experiments and the "Échelle Normale"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Chappuis' experiments and the "Échelle Normale"
     date:
     - type: ppub
-      value: '1995-10-01'
+      at: '1995-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -77,6 +67,6 @@ extent:
     reference_from: '397'
     reference_to: '399'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

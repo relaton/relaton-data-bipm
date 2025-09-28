@@ -1,115 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia571A01002
-title:
-- content: High value resistance comparison (SIM.EM-S15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/57/1A/01002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/57/1A/01002
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 1A 01002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High value resistance comparison (SIM.EM-S15)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/57/1A/01002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/57/1A/01002
+docidentifier:
+- content: Metrologia 57 1A 01002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/57/1A/01002
+- content: 10.1088/0026-1394/57/1A/01002
   type: doi
 date:
 - type: published
-  value: '2020-01-01'
+  at: '2020-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blanca I Castro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Costarricense de Electricidad, Laboratorio Metrológico
             de Variables Eléctricas, San Pedro de Montes de Oca, San José, CR, 485-2050
             San Pedro
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dean G Jarrett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Stop 8171, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shamith U Payagala
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Stop 8171, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2020-01-01'
 abstract:
-- content: |-
-    <p></p><p>This is a report of the results of an Interamerican Metrology System (SIM) comparison on high resistance values, performed to compare the measurement capabilities of National Institute of Standards and Technology (NIST) and (Instituto Costarrricense de Electricidad - Laboratorio Metrológico de Variables Eléctricas) ICE-LMVE and for establishing the degree of equivalence between those laboratories.</p><p>During 2018, two resistance standards were used as traveling standards for measurements in those countries, with NIST-USA acting as the pilot laboratory. Results for four measurement points are presented as errors relative to a comparison reference value together with their uncertainty.</p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>This is a report of the results of an Interamerican Metrology System (SIM) comparison on high resistance values, performed to compare the measurement capabilities of National Institute of Standards and Technology (NIST) and (Instituto Costarrricense de Electricidad - Laboratorio Metrológico de Variables Eléctricas) ICE-LMVE and for establishing the degree of equivalence between those laboratories.</p>
+    <p>During 2018, two resistance standards were used as traveling standards for measurements in those countries, with NIST-USA acting as the pilot laboratory. Results for four measurement points are presented as errors relative to a comparison reference value together with their uncertainty.</p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="https://www.bipm.org/utils/common/pdf/final_reports/EM/S15/SIM.EM-S15.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High value resistance comparison (SIM.EM-S15)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: High value resistance comparison (SIM.EM-S15)
     date:
     - type: ppub
-      value: '2020-01-01'
+      at: '2020-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +109,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

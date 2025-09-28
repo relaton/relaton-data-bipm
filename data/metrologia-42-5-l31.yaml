@@ -1,122 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425L31
-title:
-- content: The kilogram redefinition—an interim solution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/L02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/L02
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 L31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The kilogram redefinition—an interim solution
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/L02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/L02
+docidentifier:
+- content: Metrologia 42 5 L31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/L02
+- content: 10.1088/0026-1394/42/5/L02
   type: doi
 date:
 - type: published
-  value: '2005-08-11'
+  at: '2005-08-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Flowers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B W Petley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2005-08-11'
 abstract:
-- content: "<p>The role of measurements of the fundamental constants continues to
-    be extremely valuable in underpinning the basic units of metrology. It is concluded
-    that it might be preferable to sustain the present definition of the kilogram
-    for an interim period by having a mise en pratique accompanying the definition,
-    much as is currently done with the specified methods of realizing the metre. Central
-    to this proposal is our view that there is considerable latitude in the interpretation
-    of the present definition of the kilogram and that this can be exploited while
-    always disseminating a consistent mass unit. This would also permit the present
-    methods of maintaining and disseminating the kilogram to continue to be employed
-    throughout the world where necessary at the present accuracy until the new technology
-    could be phased in. An alternative definition of the kilogram, formulated in terms
-    of frequency, is also introduced. This would give an ampere that fundamentally
-    depends on the elementary charge, e, without the need to change the present definitions
-    of the ampere and ohm.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The role of measurements of the fundamental constants continues to
+    be extremely valuable in underpinning the basic units of metrology. It is concluded
+    that it might be preferable to sustain the present definition of the kilogram
+    for an interim period by having a <italic>mise en pratique</italic> accompanying
+    the definition, much as is currently done with the specified methods of realizing
+    the metre. Central to this proposal is our view that there is considerable latitude
+    in the interpretation of the present definition of the kilogram and that this
+    can be exploited while always disseminating a consistent mass unit. This would
+    also permit the present methods of maintaining and disseminating the kilogram
+    to continue to be employed throughout the world where necessary at the present
+    accuracy until the new technology could be phased in. An alternative definition
+    of the kilogram, formulated in terms of frequency, is also introduced. This would
+    give an ampere that fundamentally depends on the elementary charge, <italic>e</italic>,
+    without the need to change the present definitions of the ampere and ohm.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The kilogram redefinition—an interim solution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The kilogram redefinition—an interim solution
     date:
     - type: epub
-      value: '2005-08-11'
+      at: '2005-08-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The kilogram redefinition—an interim solution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The kilogram redefinition—an interim solution
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: L31
     reference_to: L34
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

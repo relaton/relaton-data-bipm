@@ -1,149 +1,130 @@
 ---
-schema-version: v1.2.9
-id: Metrologia322103
+type: article
+schema_version: v1.4.1
 title:
-- content: The chemical preparation and characterization of specimens for "absolute"
+- language: en
+  script: Latn
+  content: The chemical preparation and characterization of specimens for "absolute"
     measurements of the molar mass of an element, exemplified by silicon, for redeterminations
     of the Avogadro constant
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/2/005
-  type: doi
-type: article
-docid:
-- id: Metrologia 32 2 103
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/2/005
+docidentifier:
+- content: Metrologia 32 2 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/2/005
+- content: 10.1088/0026-1394/32/2/005
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P De Bièvre
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Commission
             of the European Communities JRC, B-2440 Geel, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Lenaers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Commission
             of the European Communities JRC, B-2440 Geel, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Murphy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Commission
             of the European Communities JRC, B-2440 Geel, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H S Peiser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Commission
             of the European Communities JRC, B-2440 Geel, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Valkiers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Reference Materials and Measurements (IRMM), Commission
             of the European Communities JRC, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: <p>The chemical steps needed to prepare specimens for "absolute" atomic-weight
-    [(mean) relative atomic mass] determinations are outlined and discussed in detail
-    for the atomic weight of silicon, A<sub>r</sub> (Si), as recently measured for
-    a redetermination of the Avogadro constant. The estimated combined uncertainties
-    arising from the chemical procedures in that A<sub>r</sub> (Si) measurement are
-    shown to be almost equal to those from the associated mass-spectrometric measurements.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>The chemical steps needed to prepare specimens for "absolute" atomic-weight
+    [(mean) relative atomic mass] determinations are outlined and discussed in detail
+    for the atomic weight of silicon, <italic>A</italic><sub>r</sub> (Si), as recently
+    measured for a redetermination of the Avogadro constant. The estimated combined
+    uncertainties arising from the chemical procedures in that <italic>A</italic><sub>r</sub>
+    (Si) measurement are shown to be almost equal to those from the associated mass-spectrometric
+    measurements.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The chemical preparation and characterization of specimens for "absolute"
+    - language: en
+      script: Latn
+      content: The chemical preparation and characterization of specimens for "absolute"
         measurements of the molar mass of an element, exemplified by silicon, for
         redeterminations of the Avogadro constant
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +135,6 @@ extent:
     reference_from: '103'
     reference_to: '110'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

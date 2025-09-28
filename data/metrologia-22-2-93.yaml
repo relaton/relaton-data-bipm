@@ -1,68 +1,60 @@
 ---
-schema-version: v1.2.9
-id: Metrologia22293
-title:
-- content: The Temperature-Jump Effect and the Theory of the Thermal Boundary Layer
-    for a Spherical Resonator. Speeds of Sound in Argon at 273.16K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 2 93
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Temperature-Jump Effect and the Theory of the Thermal Boundary Layer
+    for a Spherical Resonator. Speeds of Sound in Argon at 273.16K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/2/004
+docidentifier:
+- content: Metrologia 22 2 93
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/2/004
+- content: 10.1088/0026-1394/22/2/004
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M B Ewing
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Chemistry, University College London, 20 Gordon Street,
             London WC1H0AJ, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L McGlashan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Chemistry, University College London, 20 Gordon Street,
             London WC1H0AJ, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P M Trusler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -72,11 +64,11 @@ contributor:
         name:
         - content: Thermophysics Division, National Bureau of Standards, Gaithersburg,
             MD 20899, USA
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>The theory of the thermal boundary layer at the walls of a spherical
+- language: en
+  script:
+  - Latn
+  content: "<p>The theory of the thermal boundary layer at the walls of a spherical
     acoustic resonator is discussed in detail. For gases at low pressures, the temperature-jump
     effect is found to make a significant contribution to the resonance frequencies
     of the radial modes but not to their acoustic losses. Experimental results are
@@ -87,40 +79,32 @@ abstract:
     0.05). The results suggest that a determination of the gas constant with a fractional
     imprecision of 1 × 10<sup>-5</sup> or better should be possible using a spherical
     acoustic resonator.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Temperature-Jump Effect and the Theory of the Thermal Boundary
+    - language: en
+      script: Latn
+      content: The Temperature-Jump Effect and the Theory of the Thermal Boundary
         Layer for a Spherical Resonator. Speeds of Sound in Argon at 273.16K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +115,6 @@ extent:
     reference_from: '93'
     reference_to: '102'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

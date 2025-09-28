@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia342195
-title:
-- content: North American Metrology Cooperation (NORAMET)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/2/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/2/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 2 195
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: North American Metrology Cooperation (NORAMET)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/2/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/2/12
+docidentifier:
+- content: Metrologia 34 2 195
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/2/12
+- content: 10.1088/0026-1394/34/2/12
   type: doi
 date:
 - type: published
-  value: '1997-04-01'
+  at: '1997-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A R Robertson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, NIST, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P L M Heydemann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, NIST, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I A Castelazo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, NIST, CENAM
-  role:
-  - type: author
-revdate: '1997-04-01'
 abstract:
-- content: "<p>NORAMET is a regional cooperation in metrology, involving the national
+- language: en
+  script:
+  - Latn
+  content: "<p>NORAMET is a regional cooperation in metrology, involving the national
     measurement laboratories of Canada, Mexico and the United States of America. Most
     of its current activities are focused on establishing and documenting the degree
     of equivalence of the calibration services offered by members. This will be done
@@ -76,39 +68,31 @@ abstract:
     mutual confidence. The purpose is to facilitate international trade by providing
     assurance that each country's measurement system is traceable to the SI units
     with stated uncertainties.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: North American Metrology Cooperation (NORAMET)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: North American Metrology Cooperation (NORAMET)
     date:
     - type: ppub
-      value: '1997-04-01'
+      at: '1997-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '195'
     reference_to: '196'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

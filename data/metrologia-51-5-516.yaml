@@ -1,121 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia515516
-title:
-- content: On the adjustment of inconsistent data using the Birge ratio
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/5/516
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/5/516
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 5 516
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the adjustment of inconsistent data using the Birge ratio
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/5/516
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/5/516
+docidentifier:
+- content: Metrologia 51 5 516
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/5/516
+- content: 10.1088/0026-1394/51/5/516
   type: doi
 date:
 - type: published
-  value: '2014-08-19'
+  at: '2014-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olha Bodnar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2014-08-19'
 abstract:
-- content: Abstract<p>The Birge ratio is applied in metrology to enlarge quoted uncertainties
-    when combining inconsistent measurement results on the same measurand. We discuss
-    the statistical model underlying such a procedure and argue that the resulting
-    uncertainty associated with the adjusted value is underrated. We provide a simple
-    modification of this uncertainty on the basis of an objective Bayesian inference.
-    While the proposed uncertainty approaches that obtained by the conventional procedure
-    for a large number n of combined measurement results, differences are significant
-    for small n. For example, for n = 4 we get an increase of 73% in the standard
-    uncertainty associated with the adjusted value, and for n = 10 the increase is
-    still 13%. We derive the posterior distribution for the adjusted value in closed
-    form, including a 95% credible interval. In addition, we show that our results
-    do not only hold when the distribution of the measurement results is assumed to
-    be Gaussian, but for a whole family of (elliptically contoured) location-scale
-    distributions. We illustrate the modified Birge method by its application to data
-    from the 2002 adjustment of the Newtonian constant of gravitation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The Birge ratio is applied in metrology to enlarge quoted uncertainties when combining inconsistent measurement results on the same measurand. We discuss the statistical model underlying such a procedure and argue that the resulting uncertainty associated with the adjusted value is underrated. We provide a simple modification of this uncertainty on the basis of an objective Bayesian inference. While the proposed uncertainty approaches that obtained by the conventional procedure for a large number <italic>n</italic> of combined measurement results, differences are significant for small <italic>n</italic>. For example, for <italic>n</italic> = 4 we get an increase of 73% in the standard uncertainty associated with the adjusted value, and for <italic>n</italic> = 10 the increase is still 13%. We derive the posterior distribution for the adjusted value in closed form, including a 95% credible interval. In addition, we show that our results do not only hold when the distribution of the measurement results is assumed to be Gaussian, but for a whole family of (elliptically contoured) location-scale distributions. We illustrate the modified Birge method by its application to data from the 2002 adjustment of the Newtonian constant of gravitation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the adjustment of inconsistent data using the Birge ratio
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the adjustment of inconsistent data using the Birge ratio
     date:
     - type: ppub
-      value: '2014-10-01'
+      at: '2014-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the adjustment of inconsistent data using the Birge ratio
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the adjustment of inconsistent data using the Birge ratio
     date:
     - type: epub
-      value: '2014-08-19'
+      at: '2014-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +102,6 @@ extent:
     reference_from: '516'
     reference_to: '521'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

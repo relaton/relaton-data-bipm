@@ -1,53 +1,47 @@
 ---
-schema-version: v1.2.9
-id: Metrologia41133
-title:
-- content: 'Reference specimens for x-ray stress analysis: the French experience'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 33
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Reference specimens for x-ray stress analysis: the French experience'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/005
+docidentifier:
+- content: Metrologia 41 1 33
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/005
+- content: 10.1088/0026-1394/41/1/005
   type: doi
 date:
 - type: published
-  value: '2003-12-10'
+  at: '2003-12-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M François
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire des Systèmes Mécaniques et d'Ingénierie Simultanée
             (LASMIS), Université de Technologie de Troyes, 12 rue Marie Curie, BP2060,
             10010 Troyes Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Ferreira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -58,79 +52,66 @@ contributor:
         name:
         - content: PSA Peugeot-Citroën, DPTA/DMOV/MXP/TAC, Centre Technique de Belchamp,
             25420 Voujeaucourt, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Botzon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire d'Applications des Matériaux à la Mécanique (LAMM),
             I.U.T. de Saint-Nazaire, Bd de l'Université, BP406, 44602 St-Nazaire Cedex,
             France
-  role:
-  - type: author
-revdate: '2003-12-10'
 abstract:
-- content: "<p>The aim of this paper is to analyse the results obtained by a French
+- language: en
+  script:
+  - Latn
+  content: "<p>The aim of this paper is to analyse the results obtained by a French
     workgroup that has been working on reference specimens for x-ray stress determination,
     to critically examine the procedure and to understand the factors that control
     the accuracy of the results. It is found that manufacturing of specimens with
     sufficient accuracy is possible and the paper shows how the embryo of a metrological
     system for x-ray stress analysis can be set up.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Reference specimens for x-ray stress analysis: the French experience'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Reference specimens for x-ray stress analysis: the French experience'
     date:
     - type: epub
-      value: '2003-12-10'
+      at: '2003-12-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Reference specimens for x-ray stress analysis: the French experience'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Reference specimens for x-ray stress analysis: the French experience'
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: '33'
     reference_to: '40'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

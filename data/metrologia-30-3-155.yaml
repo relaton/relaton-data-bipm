@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia303155
-title:
-- content: An Updated Edlén Equation for the Refractive Index of Air
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 3 155
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Updated Edlén Equation for the Refractive Index of Air
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/3/004
+docidentifier:
+- content: Metrologia 30 3 155
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/3/004
+- content: 10.1088/0026-1394/30/3/004
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K P Birch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J Downs
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The Edlén equation for the refractive index of air, published in 1966,
+- language: en
+  script:
+  - Latn
+  content: "<p>The Edlén equation for the refractive index of air, published in 1966,
     is still widely used. Subsequent to its formulation, however, improved data have
     become available on the density of air and the refractivity of water vapour. The
     practical temperature scale has also been revised and the carbon dioxide content
@@ -62,39 +56,31 @@ abstract:
     of typically 1 × 10<sup>-7</sup>. The consequent revision of the equation brings
     the agreement between calculation and experiment within an experimental uncertainty
     of ± 3 × 10<sup>-8</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Updated Edlén Equation for the Refractive Index of Air
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Updated Edlén Equation for the Refractive Index of Air
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '155'
     reference_to: '162'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

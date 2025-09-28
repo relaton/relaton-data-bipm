@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483114
-title:
-- content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
-    superposition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 114
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
+    superposition
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/005
+docidentifier:
+- content: Metrologia 48 3 114
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/005
+- content: 10.1088/0026-1394/48/3/005
   type: doi
 date:
 - type: published
-  value: '2011-03-01'
+  at: '2011-03-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gordon Edwards
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robin Underwood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-03-01'
 abstract:
-- content: "<p>The electromagnetic fields and eigen-frequencies of triaxially ellipsoidal
+- language: en
+  script:
+  - Latn
+  content: <p>The electromagnetic fields and eigen-frequencies of triaxially ellipsoidal
     resonators have been calculated. The method used is modal superposition, based
     on the decomposition of the fields inside the resonator into a series expansion,
     with unknown coefficients, of the eigen-states of a spherical resonator. The coefficients
@@ -63,61 +57,54 @@ abstract:
     field at the resonator surface using software designed within MatLab®. Accuracies
     of parts in 10<sup>10</sup> have been obtained for the eigen-frequencies, and
     the dependence of the calculations on the ellipsoidal eccentricities and the resonator
-    modes has been analysed. The results are compared with those of Mehl (2009 Metrologia
-    46 554–9), who used a second-order approximation. The method of modal superposition
-    has the potential for solving many similar problems in resonators of arbitrary
-    shapes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    modes has been analysed. The results are compared with those of Mehl (<ext-link
+    ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/46/5/020">2009
+    <italic>Metrologia</italic> <bold>46</bold> 554–9</ext-link>), who used a second-order
+    approximation. The method of modal superposition has the potential for solving
+    many similar problems in resonators of arbitrary shapes.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
+    - language: en
+      script: Latn
+      content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
         superposition
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-03-01'
+      at: '2011-03-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
+    - language: en
+      script: Latn
+      content: The electromagnetic fields of a triaxial ellipsoid calculated by modal
         superposition
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +115,6 @@ extent:
     reference_from: '114'
     reference_to: '122'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,135 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia45183
-title:
-- content: Uncertainties on distance and chromatic dispersion measurement using optical
-    low-coherence reflectometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/1/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/1/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 1 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainties on distance and chromatic dispersion measurement using optical
+    low-coherence reflectometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/1/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/1/012
+docidentifier:
+- content: Metrologia 45 1 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/1/012
+- content: 10.1088/0026-1394/45/1/012
   type: doi
 date:
 - type: published
-  value: '2008-01-18'
+  at: '2008-01-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A-F Obaton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais (LNE), 29 avenue
             Roger Hennequin, 78197 Trappes Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Quoix
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais (LNE), 29 avenue
             Roger Hennequin, 78197 Trappes Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Dubard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais (LNE), 29 avenue
             Roger Hennequin, 78197 Trappes Cedex, France
-  role:
-  - type: author
-revdate: '2008-01-18'
 abstract:
-- content: "<p>The optical low-coherence reflectometer (OLCR) is a very powerful tool
+- language: en
+  script:
+  - Latn
+  content: "<p>The optical low-coherence reflectometer (OLCR) is a very powerful tool
     to characterize optical fibres and integrated optical components. However, this
     is a very complex set-up and in addition to that it performs Fourier transforms.
     Evaluating uncertainty in these conditions becomes very complicated. To overcome
     this difficulty, we chose to use an alternative statistical method as partly described
     in the ISO5725 standard. The most significant quantities which can be extracted
     from the OLCR measurements are length and chromatic dispersion (CD) of the optical
-    component. An uncertainty of 0.036 mm (k = 2) for the length and of 0.12 ps nm<sup>−1</sup> km<sup>−1</sup>
-    (k = 2) for the CD can be achieved for a 1 m long G652 type fibre.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    component. An uncertainty of 0.036 mm (<italic>k</italic> = 2) for the length
+    and of 0.12 ps nm<sup>−1</sup> km<sup>−1</sup> (<italic>k</italic> = 2) for the
+    CD can be achieved for a 1 m long G652 type fibre.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties on distance and chromatic dispersion measurement using
+    - language: en
+      script: Latn
+      content: Uncertainties on distance and chromatic dispersion measurement using
         optical low-coherence reflectometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2008-01-18'
+      at: '2008-01-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties on distance and chromatic dispersion measurement using
+    - language: en
+      script: Latn
+      content: Uncertainties on distance and chromatic dispersion measurement using
         optical low-coherence reflectometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2008-02-01'
+      at: '2008-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +122,6 @@ extent:
     reference_from: '83'
     reference_to: '92'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

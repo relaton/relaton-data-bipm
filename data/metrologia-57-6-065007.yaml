@@ -1,168 +1,134 @@
 ---
-schema-version: v1.2.9
-id: Metrologia576065007
-title:
-- content: Long-term drift analysis of Zener voltage standards and proposal of an
-    initial calibration interval using calibration records accumulated for 15 years
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aba893
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aba893
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 6 065007
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Long-term drift analysis of Zener voltage standards and proposal of an
+    initial calibration interval using calibration records accumulated for 15 years
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aba893
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aba893
+docidentifier:
+- content: Metrologia 57 6 065007
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aba893
+- content: 10.1088/1681-7575/aba893
   type: doi
 date:
 - type: published
-  value: '2020-10-12'
+  at: '2020-10-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seung-Nam Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic of
+            Korea
         name:
         - content: Korea Research Institute of Standards and Science
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic
-              of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hyung-Seok Shim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic of
+            Korea
         name:
         - content: Korea Research Institute of Standards and Science
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic
-              of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hehree Cho
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic of
+            Korea
         name:
         - content: Korea Research Institute of Standards and Science
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic
-              of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mun-Seog Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic of
+            Korea
         name:
         - content: Korea Research Institute of Standards and Science
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-Gu, Daejeon 43113, Republic
-              of Korea
-  role:
-  - type: author
-revdate: '2020-10-12'
 abstract:
-- content: Abstract<p>In electrical metrology, voltage is a key quantity together
-    with resistance for realising all electric standards in the low-frequency range.
-    Zener voltage standards are accepted as the most stable to disseminate voltage
-    references traceable to the Josephson standard devices. We study the long-term
-    drift of the Zener devices to propose their initial calibration interval (CI),
-    statistically analysing the calibration records accumulated for 15 years at the
-    Korea Research Institute of Standards and Science (KRISS). First, we apply the
-    direct method where the measurement reliability is obtained by integrating the
-    probability density functions acquired from kernel density estimation (KDE). Markov
-    chain Monte Carlo (MCMC) has been successfully demonstrated to determine the parameters
-    of the Weibull reliability model. A numerical experiment was performed to confirm
-    that the MCMC method works properly and is able to replace the S3 method of NCSLI.
-    The direct method agrees with the MCMC within the highest posterior density (HPD)
-    obtained by the MCMC method. The KDEs of the parameters acquired by the MCMC method
-    enable the uncertainty of the parameters to be expressed in probability distributions
-    rather than in confidence intervals. The final result proposes an initial CI of
-    the 10 V output taps in the Zener devices without any calibration record of 8.8
-    months with a 0.91-month standard deviation for 90% of the measurement reliability
-    target (MRT) and a 16 μV tolerance limit.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In electrical metrology, voltage is a key quantity together with resistance for realising all electric standards in the low-frequency range. Zener voltage standards are accepted as the most stable to disseminate voltage references traceable to the Josephson standard devices. We study the long-term drift of the Zener devices to propose their initial calibration interval (CI), statistically analysing the calibration records accumulated for 15 years at the Korea Research Institute of Standards and Science (KRISS). First, we apply the direct method where the measurement reliability is obtained by integrating the probability density functions acquired from kernel density estimation (KDE). Markov chain Monte Carlo (MCMC) has been successfully demonstrated to determine the parameters of the Weibull reliability model. A numerical experiment was performed to confirm that the MCMC method works properly and is able to replace the S3 method of NCSLI. The direct method agrees with the MCMC within the highest posterior density (HPD) obtained by the MCMC method. The KDEs of the parameters acquired by the MCMC method enable the uncertainty of the parameters to be expressed in probability distributions rather than in confidence intervals. The final result proposes an initial CI of the 10 V output taps in the Zener devices without any calibration record of 8.8 months with a 0.91-month standard deviation for 90% of the measurement reliability target (MRT) and a 16 μV tolerance limit.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Long-term drift analysis of Zener voltage standards and proposal of
+    - script: Latn
+      content: Long-term drift analysis of Zener voltage standards and proposal of
         an initial calibration interval using calibration records accumulated for
         15 years
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-12-01'
+      at: '2020-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Long-term drift analysis of Zener voltage standards and proposal of
+    - script: Latn
+      content: Long-term drift analysis of Zener voltage standards and proposal of
         an initial calibration interval using calibration records accumulated for
         15 years
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-10-12'
+      at: '2020-10-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +136,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,166 +1,139 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494577
-title:
-- content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
-    measurement
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/577
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/577
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 577
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
+    measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/577
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/577
+docidentifier:
+- content: Metrologia 49 4 577
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/577
+- content: 10.1088/0026-1394/49/4/577
   type: doi
 date:
 - type: published
-  value: '2012-07-05'
+  at: '2012-07-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Horne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 4130 Old Main Hill, Logan, UT 84322, USA
         name:
         - content: Utah State University
         subdivision:
-        - content: Mechanical and Aerospace Engineering
-        contact:
-        - address:
-            formatted_address: 4130 Old Main Hill, Logan, UT 84322, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Mechanical and Aerospace Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Ban
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 4130 Old Main Hill, Logan, UT 84322, USA
         name:
         - content: Utah State University
         subdivision:
-        - content: Mechanical and Aerospace Engineering
-        contact:
-        - address:
-            formatted_address: 4130 Old Main Hill, Logan, UT 84322, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Mechanical and Aerospace Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Fielding
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 1625, Idaho Falls, ID 83415, USA
         name:
         - content: Idaho National Lab
-        contact:
-        - address:
-            formatted_address: PO Box 1625, Idaho Falls, ID 83415, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kennedy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 1625, Idaho Falls, ID 83415, USA
         name:
         - content: Idaho National Lab
-        contact:
-        - address:
-            formatted_address: PO Box 1625, Idaho Falls, ID 83415, USA
-  role:
-  - type: author
-revdate: '2012-07-05'
 abstract:
-- content: 'Abstract<p>This paper discusses the initial design and evaluation of a
-    high temperature viscosity measurement system with the focus on the uncertainty
-    assessment. Numerical simulation of the viscometer is used to estimate viscosity
-    uncertainties through the Monte Carlo method. The simulation computes the system
-    response for a particular set of inputs (viscosity, moment of inertia, spring
-    constant and hysteretic damping), and the viscosity is calculated using two methods:
-    the Roscoe approximate solution and a numerical-fit method. For numerical fitting,
-    a residual function of the logarithmic decay of oscillation amplitude and oscillation
-    period is developed to replace the residual function of angular oscillation, which
-    is mathematically stiff.</p><p>The results of this study indicate that the method
-    using computational solution of the equations and fitting for the parameters should
-    be used, since it almost always out-performs the Roscoe approximation in uncertainty.
-    The hysteretic damping and spring stiffness uncertainties translate into viscosity
-    uncertainties almost directly, whereas the moment of inertial and vessel-height
-    uncertainties are magnified approximately two-fold. As the hysteretic damping
-    increases, so does the magnification of its uncertainty, therefore it should be
-    minimized in the system design. The result of this study provides a general guide
-    for the design and application of all oscillation-vessel viscosity measurement
-    systems.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This paper discusses the initial design and evaluation of a high temperature viscosity measurement system with the focus on the uncertainty assessment. Numerical simulation of the viscometer is used to estimate viscosity uncertainties through the Monte Carlo method. The simulation computes the system response for a particular set of inputs (viscosity, moment of inertia, spring constant and hysteretic damping), and the viscosity is calculated using two methods: the Roscoe approximate solution and a numerical-fit method. For numerical fitting, a residual function of the logarithmic decay of oscillation amplitude and oscillation period is developed to replace the residual function of angular oscillation, which is mathematically stiff.</p>
+    <p>The results of this study indicate that the method using computational solution of the equations and fitting for the parameters should be used, since it almost always out-performs the Roscoe approximation in uncertainty. The hysteretic damping and spring stiffness uncertainties translate into viscosity uncertainties almost directly, whereas the moment of inertial and vessel-height uncertainties are magnified approximately two-fold. As the hysteretic damping increases, so does the magnification of its uncertainty, therefore it should be minimized in the system design. The result of this study provides a general guide for the design and application of all oscillation-vessel viscosity measurement systems.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
+    - script: Latn
+      content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
         measurement
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
+    - script: Latn
+      content: Monte Carlo uncertainty estimation for an oscillating-vessel viscosity
         measurement
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-07-05'
+      at: '2012-07-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -171,6 +144,6 @@ extent:
     reference_from: '577'
     reference_to: '582'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

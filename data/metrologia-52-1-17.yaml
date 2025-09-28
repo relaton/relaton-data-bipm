@@ -1,202 +1,190 @@
 ---
-schema-version: v1.2.9
-id: Metrologia52117
-title:
-- content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot cavities
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/17
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 17
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot cavities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/17
+docidentifier:
+- content: Metrologia 52 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/17
+- content: 10.1088/0026-1394/52/1/17
   type: doi
 date:
 - type: published
-  value: '2014-12-09'
+  at: '2014-12-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tara Chalermsongsak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: MS 100–36, Pasadena, CA 91125, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: LIGO Laboratory
-        contact:
-        - address:
-            formatted_address: MS 100–36, Pasadena, CA 91125, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: LIGO Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Frank Seifert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: Joint Quantum Institute, National Institute of Standards and Technology
             and University of Maryland
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Evan D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: MS 100–36, Pasadena, CA 91125, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: LIGO Laboratory
-        contact:
-        - address:
-            formatted_address: MS 100–36, Pasadena, CA 91125, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: LIGO Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Koji Arai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: MS 100–36, Pasadena, CA 91125, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: LIGO Laboratory
-        contact:
-        - address:
-            formatted_address: MS 100–36, Pasadena, CA 91125, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: LIGO Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eric K Gustafson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: MS 100–36, Pasadena, CA 91125, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: LIGO Laboratory
-        contact:
-        - address:
-            formatted_address: MS 100–36, Pasadena, CA 91125, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: LIGO Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rana X Adhikari
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: MS 100–36, Pasadena, CA 91125, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: LIGO Laboratory
-        contact:
-        - address:
-            formatted_address: MS 100–36, Pasadena, CA 91125, USA
-  role:
-  - type: author
-revdate: '2014-12-09'
+        - name:
+          - language: en
+            script: Latn
+            content: LIGO Laboratory
 abstract:
-- content: "Abstract<p>We report on the relative length fluctuation of two fixed-spacer
-    Fabry–Pérot cavities with mirrors fabricated from silica/tantala dielectric coatings
-    on fused silica substrates. By locking a laser to each cavity and reading out
-    the beat note \n \n &#x03BD;&#x005E;=&#x03BD;1&#x2212;&#x03BD;2 >\n \n of the
-    transmitted beams, we find that, for frequencies from 10 Hz to 1 kHz, the power
-    spectral density of beat note fluctuation is \n \n S&#x03BD;&#x005E;(f)=(0.5Hz)2/f
-    >. By careful budgeting of noise sources contributing to the beat note, we find
-    that our measurement is consistent with the fluctuation in this band being dominated
-    by the Brownian noise of the mirror coatings. Fitting for the coating loss angle
-    ϕ<sub>c</sub>, we find it equal to 4 × 10<sup>−4</sup>. We then use a Bayesian
-    analysis to combine our measurement with previous observations, and thereby extract
-    estimates for the individual loss angles of the silica and tantala constituents
-    of these coatings. With minor upgrades, the testbed described in this article
-    can be used in the future to measure the length noise of cavities formed with
-    novel mirror coating materials and geometries.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We report on the relative length fluctuation of two fixed-spacer Fabry–Pérot cavities with mirrors fabricated from silica/tantala dielectric coatings on fused silica substrates. By locking a laser to each cavity and reading out the beat note <inline-formula>
+                      <tex-math><?CDATA $\hat{\nu}={{\nu}_{1}}-{{\nu}_{2}}$ ></tex-math>
+                      <?MML <mml:math><mml:mrow><mml:mover accent='true'><mml:mi>&#x03BD;</mml:mi><mml:mo>&#x005E;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x03BD;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x03BD;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:math> >
+                      <inline-graphic xlink:href="met505082ieqn001.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> of the transmitted beams, we find that, for frequencies from 10 Hz to 1 kHz, the power spectral density of beat note fluctuation is <inline-formula>
+                      <tex-math><?CDATA ${{S}_{{\hat{\nu}}}}(f)={{\left(0.5\text{Hz}\right)}^{2}}/f$ ></tex-math>
+                      <?MML <mml:math><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mover accent='true'><mml:mi>&#x03BD;</mml:mi><mml:mo>&#x005E;</mml:mo></mml:mover></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>0.5</mml:mn><mml:mtext mathvariant='normal'>Hz</mml:mtext></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>/</mml:mo><mml:mi>f</mml:mi></mml:mrow></mml:math> >
+                      <inline-graphic xlink:href="met505082ieqn002.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>. By careful budgeting of noise sources contributing to the beat note, we find that our measurement is consistent with the fluctuation in this band being dominated by the Brownian noise of the mirror coatings. Fitting for the coating loss angle <italic toggle="yes">ϕ</italic>
+                   <sub>c</sub>, we find it equal to 4 × 10<sup>−4</sup>. We then use a Bayesian analysis to combine our measurement with previous observations, and thereby extract estimates for the individual loss angles of the silica and tantala constituents of these coatings. With minor upgrades, the testbed described in this article can be used in the future to measure the length noise of cavities formed with novel mirror coating materials and geometries.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot
+    - script: Latn
+      content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot
         cavities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot
+    - script: Latn
+      content: Broadband measurement of coating thermal noise in rigid Fabry–Pérot
         cavities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-12-09'
+      at: '2014-12-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -207,6 +195,6 @@ extent:
     reference_from: '17'
     reference_to: '30'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

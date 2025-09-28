@@ -1,132 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia31149
-title:
-- content: Correlation between the Resistance Ratios of Platinum Resistance Thermometers
-    at the Melting Point of Gallium and the Triple Point of Mercury
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/1/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/1/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 1 49
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Correlation between the Resistance Ratios of Platinum Resistance Thermometers
+    at the Melting Point of Gallium and the Triple Point of Mercury
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/1/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/1/010
+docidentifier:
+- content: Metrologia 31 1 49
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/1/010
+- content: 10.1088/0026-1394/31/1/010
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y P Singh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Temperature Standards, National Physical Laboratory, Dr K S Krishnan
             Road, New Delhi 110 012, India
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Maas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Fuerstenwalder Damm 388,
             Fridrichshagan, D-10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Edler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Fuerstenwalder Damm 388,
             Fridrichshagan, D-10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z H Zaidi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Jamia Millia Islamia University, New Delhi 110 025, India
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>A set of resistance ratios (W) for platinum resistance thermometers
-    was obtained at the triple point of Hg and the melting point of Ga in order to
-    study their relationship. It was found that using measured values for one of the
-    fixed points, a linear equation will predict the value of the other. These measurements
-    also indicate that the fixed points of Hg and of Ga are inconsistent by about
-    1,5 mK in the sense that either the melting point of Ga or the triple point of
-    Hg was assigned too high a value on the ITS-90.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A set of resistance ratios (<italic>W</italic>) for platinum resistance
+    thermometers was obtained at the triple point of Hg and the melting point of Ga
+    in order to study their relationship. It was found that using measured values
+    for one of the fixed points, a linear equation will predict the value of the other.
+    These measurements also indicate that the fixed points of Hg and of Ga are inconsistent
+    by about 1,5 mK in the sense that either the melting point of Ga or the triple
+    point of Hg was assigned too high a value on the ITS-90.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correlation between the Resistance Ratios of Platinum Resistance Thermometers
+    - language: en
+      script: Latn
+      content: Correlation between the Resistance Ratios of Platinum Resistance Thermometers
         at the Melting Point of Gallium and the Triple Point of Mercury
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '49'
     reference_to: '50'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

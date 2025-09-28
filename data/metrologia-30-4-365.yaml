@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304365
-title:
-- content: Characterization of Two Bolometric Absolute Radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/027
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/027
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 365
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Characterization of Two Bolometric Absolute Radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/027
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/027
+docidentifier:
+- content: Metrologia 30 4 365
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/027
+- content: 10.1088/0026-1394/30/4/027
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Clare
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory, New Zealand Institute for Industrial
             Research and Development, PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>Progress in characterizing two bolometric absolute radiometers is described.
+- language: en
+  script:
+  - Latn
+  content: "<p>Progress in characterizing two bolometric absolute radiometers is described.
     Spatial variation in responsivity over the receivers is less than 0,2%, variation
     in responsivity between the four bolometers is less than 0,3% and their response
     relative to a photodiode was linear to within experimental uncertainty. Observations
     of noise in the radiometer heating power are reported and discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of Two Bolometric Absolute Radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Characterization of Two Bolometric Absolute Radiometers
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '365'
     reference_to: '366'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

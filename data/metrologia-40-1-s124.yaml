@@ -1,122 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S124
-title:
-- content: A SURF beamline for synchrotron source-based absolute radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/328
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/328
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S124
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A SURF beamline for synchrotron source-based absolute radiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/328
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/328
+docidentifier:
+- content: Metrologia 40 1 S124
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/328
+- content: 10.1088/0026-1394/40/1/328
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ping-Shine Shaw
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Uwe Arp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Howard W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert D Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Albert C Parr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Keith R Lykke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Dr,
             MS 8410, Gaithersburg, MD 20899-8410, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>A new source-based radiometry beamline was recently constructed at
+- language: en
+  script:
+  - Latn
+  content: "<p>A new source-based radiometry beamline was recently constructed at
     the Synchrotron Ultraviolet Radiation Facility (SURF III). The goal of this beamline
     is to establish a national source standard with a wide spectral range from the
     far ultraviolet to the infrared by using the calculability of SURF III. The new
@@ -128,53 +114,42 @@ abstract:
     paper we discuss the design of the beamline and present first results on the vertical
     angular distribution of the radiation determined with filtered radiometers in
     the ultraviolet, visible and near-infrared spectral ranges.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A SURF beamline for synchrotron source-based absolute radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A SURF beamline for synchrotron source-based absolute radiometry
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A SURF beamline for synchrotron source-based absolute radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A SURF beamline for synchrotron source-based absolute radiometry
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -185,6 +160,6 @@ extent:
     reference_from: S124
     reference_to: S127
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

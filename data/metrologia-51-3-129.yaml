@@ -1,140 +1,126 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513129
-title:
-- content: Secondary pressure calibration of measurement microphones
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/129
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/129
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 129
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Secondary pressure calibration of measurement microphones
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/129
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/129
+docidentifier:
+- content: Metrologia 51 3 129
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/129
+- content: 10.1088/0026-1394/51/3/129
   type: doi
 date:
 - type: published
-  value: '2014-04-15'
+  at: '2014-04-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Barham
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Acoustics Group, Acoustics and Ionising Radiation Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Acoustics Group, Acoustics and Ionising Radiation Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Salvador Barrera-Figueroa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Matematiktorvet 307, 2800 Kgs. Lyngby, Denmark
         name:
         - content: Danish Primary Laboratory of Acoustics
         subdivision:
-        - content: Danish Fundamental Metrology
-        contact:
-        - address:
-            formatted_address: Matematiktorvet 307, 2800 Kgs. Lyngby, Denmark
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Danish Fundamental Metrology
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Janine E M Avison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Acoustics Group, Acoustics and Ionising Radiation Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2014-04-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Acoustics Group, Acoustics and Ionising Radiation Division
 abstract:
-- content: Abstract<p>Recent developments are presented in the practical realization
-    of IEC 61094-5 on the pressure calibration of working standard microphones. Particular
-    emphasis is placed on the simultaneous comparison calibration approach, implemented
-    in an open sound field. Limiting factors as well as those having a significant
-    influence on the determination of the pressure sensitivity are discussed. These
-    include the separation between the microphones, the influence of the test environment
-    and location of the sound source, and issues arising from geometric and electroacoustic
-    dissimilarities between the reference microphone and the microphone under test.
-    Finally, recommendations are given for aspects to be considered in a future revision
-    of IEC 61094-5, including contributions to the measurement uncertainty arising
-    from the matters discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Recent developments are presented in the practical realization of IEC 61094-5 on the pressure calibration of working standard microphones. Particular emphasis is placed on the simultaneous comparison calibration approach, implemented in an open sound field. Limiting factors as well as those having a significant influence on the determination of the pressure sensitivity are discussed. These include the separation between the microphones, the influence of the test environment and location of the sound source, and issues arising from geometric and electroacoustic dissimilarities between the reference microphone and the microphone under test. Finally, recommendations are given for aspects to be considered in a future revision of IEC 61094-5, including contributions to the measurement uncertainty arising from the matters discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Secondary pressure calibration of measurement microphones
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Secondary pressure calibration of measurement microphones
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Secondary pressure calibration of measurement microphones
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Secondary pressure calibration of measurement microphones
     date:
     - type: epub
-      value: '2014-04-15'
+      at: '2014-04-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +131,6 @@ extent:
     reference_from: '129'
     reference_to: '138'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

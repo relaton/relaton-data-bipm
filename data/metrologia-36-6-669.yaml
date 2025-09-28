@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366669
-title:
-- content: Pressure comparison from 25 MPa to 260 MPa between the MSL and the NML
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/36
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/36
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 669
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pressure comparison from 25 MPa to 260 MPa between the MSL and the NML
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/36
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/36
+docidentifier:
+- content: Metrologia 36 6 669
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/36
+- content: 10.1088/0026-1394/36/6/36
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P Fitzgerald
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL, CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W J Giardini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL, CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D G Jack
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL, CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Triwiwat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL, CSIRO-NML
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>This paper describes a pressure comparison, covering the range 25 MPa
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes a pressure comparison, covering the range 25 MPa
     to 260 MPa, carried out between the CSIRO National Measurement Laboratory (NML,
     Australia) and the Measurement Standards Laboratory of New Zealand (MSL) in 1997
     and 1999. A feature of each part of the comparison was the high-resolution Digiquartz
@@ -97,40 +87,32 @@ abstract:
     balance parameters or that the transducer performance is not yet fully characterized.
     An analysis is presented to show the relationship between the measured pressure
     difference and the parameters of each pressure balance.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pressure comparison from 25 MPa to 260 MPa between the MSL and the
+    - language: en
+      script: Latn
+      content: Pressure comparison from 25 MPa to 260 MPa between the MSL and the
         NML
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +123,6 @@ extent:
     reference_from: '669'
     reference_to: '672'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

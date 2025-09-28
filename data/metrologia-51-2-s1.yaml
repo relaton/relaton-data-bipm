@@ -1,215 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia512S1
-title:
-- content: Watt and joule balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/2/S1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/2/S1
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 2 S1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Watt and joule balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/2/S1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/2/S1
+docidentifier:
+- content: Metrologia 51 2 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/2/S1
+- content: 10.1088/0026-1394/51/2/S1
   type: doi
 date:
 - type: published
-  value: '2014-03-31'
+  at: '2014-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian A Robinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2014-03-31'
 abstract:
-- content: "<p>The time is fast approaching when the SI unit of mass will cease to
-    be based on a single material artefact and will instead be based upon the defined
-    value of a fundamental constant—the Planck constant—h. This change requires that
-    techniques exist both to determine the appropriate value to be assigned to the
-    constant, and to measure mass in terms of the redefined unit. It is important
-    to ensure that these techniques are accurate and reliable to allow full advantage
-    to be taken of the stability and universality provided by the new definition and
-    to guarantee the continuity of the world's mass measurements, which can affect
-    the measurement of many other quantities such as energy and force.</p><p>Up to
-    now, efforts to provide the basis for such a redefinition of the kilogram were
-    mainly concerned with resolving the discrepancies between individual implementations
-    of the two principal techniques: the x-ray crystal density (XRCD) method [1] and
-    the watt and joule balance methods which are the subject of this special issue.
-    The first three papers report results from the NRC and NIST watt balance groups
-    and the NIM joule balance group. The result from the NRC (formerly the NPL Mk
-    II) watt balance is the first to be reported with a relative standard uncertainty
-    below 2 × 10<sup>−8</sup> and the NIST result has a relative standard uncertainty
-    below 5 × 10<sup>−8</sup>. Both results are shown in figure 1 along with some
-    previous results; the result from the NIM group is not shown on the plot but has
-    a relative uncertainty of 8.9 × 10<sup>−6</sup> and is consistent with all the
-    results shown. The Consultative Committee for Mass and Related Quantities (CCM)
-    in its meeting in 2013 produced a resolution [2] which set out the requirements
-    for the number, type and quality of results intended to support the redefinition
-    of the kilogram and required that there should be agreement between them. These
-    results from NRC, NIST and the IAC may be considered to meet these requirements
-    and are likely to be widely debated prior to a decision on redefinition. The CCM
-    had already recognized that agreement was close and has set in place a process
-    whereby redefinition can take place by 2018. The final decision will be in the
-    hands of the Conférence Générale des Poids et Mesures (CGPM) but the results reported
-    here should aid a positive decision.</p><p></p><p>Figure 1. Results from recent
-    measurements of the Planck constant. The reference for the results h<sub>90</sub>
-    is derived from the conventional values of the Josephson constant K<sub>J−90</sub>
-    and the von Klitzing constant R<sub>K−90</sub>. The factor of ten improvement
-    in uncertainty of the NRC watt balance result, over that achieved by the same
-    apparatus at NPL a few years earlier, can be understood as a factor of five improvement
-    arising from the elimination of an effect discovered at NPL that could not be
-    eliminated before shipment to Canada and a factor of two arising from the considerable
-    improvements made by NRC.</p><p>Once the kilogram has been redefined, the watt
-    and joule balances will complete their transitions from instruments that are primarily
-    of interest to the electrical community for determining the SI electrical units
-    from the mechanical units, to the principal methods by which an individual National
-    Measurement Institute (NMI) can make an independent determination of the SI unit
-    of mass and thereby contribute to the maintenance of national and international
-    mass scales.</p><p>This special issue gives an introduction to the diversity of
-    techniques which are required for the operation of watt and joule balances. However
-    it does not contain a review of existing balances; this was a deliberate decision,
-    as a number of such review papers have been published in the past five years [3–7]
-    and it was felt that it was not yet time for another.</p><p>The first technique
-    considered is that of gravimetry; the watt balance measures the weight Mg of a
-    mass M, and to convert the measured weight into a mass, the value of the acceleration
-    due to gravity g must be known, at the time of the weighing and at the centre
-    of gravity of the mass. The paper by Liard and his co-authors at NRC describes
-    how they have made this essential measurement.</p><p>The accuracy of the watt
-    balance may also depend on the alignment of the apparatus. Two papers deal with
-    this important issue. The first, by Sanchez and his co-authors at NRC, shows that
-    their balance is insensitive to a range of alignments and concentrates on the
-    essential alignments that contribute directly to the overall uncertainty of the
-    apparatus. Thomas and his co-authors at LNE describe their technique for reducing
-    uncertainties in their watt balance by aligning its coil in the field of the magnet
-    to minimize both horizontal forces and torques about horizontal axes.</p><p>The
-    search for discrepancies between the results from watt balances has encouraged
-    researchers to consider possible error mechanisms arising from the secondary electrical
-    interactions between the coil of a watt balance and other parts of the apparatus.
-    Researchers from INRIM have two such papers: one considering magnetic interactions
-    and the other considering electrostatic interactions. It is essential that such
-    investigations are carried out: both to prove that the problems are understood
-    and for the guidance of those building the next generation of watt and joule balances.</p><p>The
-    next four papers describe aspects of the construction of watt balances.</p><p>The
-    BIPM watt balance group describe the principles behind their simultaneous measurement
-    scheme for a watt balance. The balance that they are constructing can also be
-    used in the conventional two-phase mode and their paper describes the relative
-    advantages and disadvantages of the two modes of operation.</p><p>In a watt balance
-    there are some advantages to precise vertical movement of the coil. The METAS
-    group describe the two mechanisms that they have tested to achieve such motion
-    and give the reasons for the choice of mechanism for use in the balance that they
-    are constructing.</p><p>The KRISS watt balance group are in the initial phases
-    of the design and construction of a watt balance and their paper provides valuable
-    information on the design that they are building.</p><p>The design of the main
-    magnet of a watt balance is critical to its successful operation, and an important
-    assumption of watt balance operation is that the field of the magnet in moving
-    mode is equivalent to that in weighing mode. Sutton and Clarkson from MSL describe
-    a novel magnet which is designed to address this issue.</p><p>The international
-    prototype of the kilogram is kept in air but, after redefinition, the best realizations
-    of the mass unit will be in vacuum. In their paper Berry and Davidson from NPL
-    describe progress in techniques which relate mass measured in vacuum to that measured
-    in air. Such techniques will be essential for making the results of watt and joule
-    balance measurements available to science and industry.</p><p>Both the NIST and
-    NPL Mark II (NRC) watt balances use knife edges to act as the pivots for the beam.
-    Knife edges suffer from hysteresis which can produce systematic offsets during
-    weighing. In their paper Choi (KRISS) and Robinson (NPL) describe the analysis
-    of this problem using both finite element (FEM) techniques and a stand-alone balance
-    designed for testing knife edges.</p><p>The last two papers deal with the possible
-    future of the watt balance technique.</p><p>The BIPM simultaneous measurement
-    scheme for the watt balance was originally conceived for operation at cryogenic
-    temperatures with a superconducting coil. In their paper de Mirandes and her co-authors
-    describe initial work on the principles of this superconducting variant of the
-    BIPM watt balance and concentrate on the characteristics of the superconducting
-    coil in comparison with those of a normal coil.</p><p>The final paper is a good
-    example of serendipity in which Kibble (Independent Consultant) was designing
-    novel watt balances based on seismometer suspensions and Robinson (NPL) had derived
-    a set of general expressions, which are required for a watt balance to be immune
-    to a range of common misalignments but also lead to the design of watt balances
-    with a range of coil motions. The combination of these techniques has led to the
-    novel watt balance designs which are described.</p><p>Finally I would like to
-    thank: the editor of Metrologia and the editorial staff of IOP Publishing, the
-    referees who have responded rapidly to requests and have kept the issue on schedule,
-    and the authors who have taken the time to provide a range of papers showing the
-    breadth of the work required to build and operate watt or joule balances.</p><p>References</p><p>[1]
-    Andreas B et al 2011 Determination of the Avogadro constant by counting the atoms
-    in a 28Si crystal Phys. Rev. Lett. 106 030801</p><p>[2] BIPM 2013 Report of the
-    14th Meeting of the CCM Sèvres pp 34–7</p><p>[3] Steiner R 2013 History and progress
-    on accurate measurements of the Planck constant Rep. Prog. Phys. 76 016101</p><p>[4]
-    Stock M 2013 Watt balance experiments for the determination of the Planck constant
-    and the redefinition of the kilogram Metrologia 50 R1–16</p><p>[5] Li S, Han B,
-    Li Z and Lan J 2012 Precisely measuring the Planck constant by electromechanical
-    balances Measurement 45 1–13</p><p>[6] Eichenberger A, Genevès G and Gournay P
-    2009 Determination of the Planck constant by means of a watt balance Eur. Phys.
-    J. Spec. Top. 172 363–83</p><p>[7] Robinson I A 2009 Toward the redefinition of
-    the kilogram: measurements of Planck's constant using watt balances IEEE Trans.
-    Instrum. Meas. 58 942–8</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The time is fast approaching when the SI unit of mass will cease to be based on a single material artefact and will instead be based upon the defined value of a fundamental constant—the Planck constant—<italic>h</italic> . This change requires that techniques exist both to determine the appropriate value to be assigned to the constant, and to measure mass in terms of the redefined unit. It is important to ensure that these techniques are accurate and reliable to allow full advantage to be taken of the stability and universality provided by the new definition and to guarantee the continuity of the world's mass measurements, which can affect the measurement of many other quantities such as energy and force.</p>
+    <p>Up to now, efforts to provide the basis for such a redefinition of the kilogram were mainly concerned with resolving the discrepancies between individual implementations of the two principal techniques: the x-ray crystal density (XRCD) method [1] and the watt and joule balance methods which are the subject of this special issue. The first three papers report results from the NRC and NIST watt balance groups and the NIM joule balance group. The result from the NRC (formerly the NPL Mk II) watt balance is the first to be reported with a relative standard uncertainty below 2 × 10<sup>−8</sup> and the NIST result has a relative standard uncertainty below 5 × 10<sup>−8</sup>. Both results are shown in figure 1 along with some previous results; the result from the NIM group is not shown on the plot but has a relative uncertainty of 8.9 × 10<sup>−6</sup> and is consistent with all the results shown. The Consultative Committee for Mass and Related Quantities (CCM) in its meeting in 2013 produced a resolution [2] which set out the requirements for the number, type and quality of results intended to support the redefinition of the kilogram and required that there should be agreement between them. These results from NRC, NIST and the IAC may be considered to meet these requirements and are likely to be widely debated prior to a decision on redefinition. The CCM had already recognized that agreement was close and has set in place a process whereby redefinition can take place by 2018. The final decision will be in the hands of the Conférence Générale des Poids et Mesures (CGPM) but the results reported here should aid a positive decision.</p>
+    <p><inline-graphic xlink:href="metro492817f01_online.jpg"></inline-graphic></p>
+    <p><bold>Figure 1.</bold> Results from recent measurements of the Planck constant. The reference for the results <italic>h</italic> <sub>90</sub> is derived from the conventional values of the Josephson constant <italic>K</italic> <sub>J−90</sub> and the von Klitzing constant <italic>R</italic> <sub>K−90</sub>. The factor of ten improvement in uncertainty of the NRC watt balance result, over that achieved by the same apparatus at NPL a few years earlier, can be understood as a factor of five improvement arising from the elimination of an effect discovered at NPL that could not be eliminated before shipment to Canada and a factor of two arising from the considerable improvements made by NRC.</p>
+    <p>Once the kilogram has been redefined, the watt and joule balances will complete their transitions from instruments that are primarily of interest to the electrical community for determining the SI electrical units from the mechanical units, to the principal methods by which an individual National Measurement Institute (NMI) can make an independent determination of the SI unit of mass and thereby contribute to the maintenance of national and international mass scales.</p>
+    <p>This special issue gives an introduction to the diversity of techniques which are required for the operation of watt and joule balances. However it does not contain a review of existing balances; this was a deliberate decision, as a number of such review papers have been published in the past five years [3–7] and it was felt that it was not yet time for another.</p>
+    <p>The first technique considered is that of gravimetry; the watt balance measures the weight <italic>Mg</italic>  of a mass <italic>M</italic> , and to convert the measured weight into a mass, the value of the acceleration due to gravity <italic>g</italic>  must be known, at the time of the weighing and at the centre of gravity of the mass. The paper by Liard and his co-authors at NRC describes how they have made this essential measurement.</p>
+    <p>The accuracy of the watt balance may also depend on the alignment of the apparatus. Two papers deal with this important issue. The first, by Sanchez and his co-authors at NRC, shows that their balance is insensitive to a range of alignments and concentrates on the essential alignments that contribute directly to the overall uncertainty of the apparatus. Thomas and his co-authors at LNE describe their technique for reducing uncertainties in their watt balance by aligning its coil in the field of the magnet to minimize both horizontal forces and torques about horizontal axes.</p>
+    <p>The search for discrepancies between the results from watt balances has encouraged researchers to consider possible error mechanisms arising from the secondary electrical interactions between the coil of a watt balance and other parts of the apparatus. Researchers from INRIM have two such papers: one considering magnetic interactions and the other considering electrostatic interactions. It is essential that such investigations are carried out: both to prove that the problems are understood and for the guidance of those building the next generation of watt and joule balances.</p>
+    <p>The next four papers describe aspects of the construction of watt balances.</p>
+    <p>The BIPM watt balance group describe the principles behind their simultaneous measurement scheme for a watt balance. The balance that they are constructing can also be used in the conventional two-phase mode and their paper describes the relative advantages and disadvantages of the two modes of operation.</p>
+    <p>In a watt balance there are some advantages to precise vertical movement of the coil. The METAS group describe the two mechanisms that they have tested to achieve such motion and give the reasons for the choice of mechanism for use in the balance that they are constructing.</p>
+    <p>The KRISS watt balance group are in the initial phases of the design and construction of a watt balance and their paper provides valuable information on the design that they are building.</p>
+    <p>The design of the main magnet of a watt balance is critical to its successful operation, and an important assumption of watt balance operation is that the field of the magnet in moving mode is equivalent to that in weighing mode. Sutton and Clarkson from MSL describe a novel magnet which is designed to address this issue.</p>
+    <p>The international prototype of the kilogram is kept in air but, after redefinition, the best realizations of the mass unit will be in vacuum. In their paper Berry and Davidson from NPL describe progress in techniques which relate mass measured in vacuum to that measured in air. Such techniques will be essential for making the results of watt and joule balance measurements available to science and industry.</p>
+    <p>Both the NIST and NPL Mark II (NRC) watt balances use knife edges to act as the pivots for the beam. Knife edges suffer from hysteresis which can produce systematic offsets during weighing. In their paper Choi (KRISS) and Robinson (NPL) describe the analysis of this problem using both finite element (FEM) techniques and a stand-alone balance designed for testing knife edges.</p>
+    <p>The last two papers deal with the possible future of the watt balance technique.</p>
+    <p>The BIPM simultaneous measurement scheme for the watt balance was originally conceived for operation at cryogenic temperatures with a superconducting coil. In their paper de Mirandes and her co-authors describe initial work on the principles of this superconducting variant of the BIPM watt balance and concentrate on the characteristics of the superconducting coil in comparison with those of a normal coil.</p>
+    <p>The final paper is a good example of serendipity in which Kibble (Independent Consultant) was designing novel watt balances based on seismometer suspensions and Robinson (NPL) had derived a set of general expressions, which are required for a watt balance to be immune to a range of common misalignments but also lead to the design of watt balances with a range of coil motions. The combination of these techniques has led to the novel watt balance designs which are described.</p>
+    <p>Finally I would like to thank: the editor of <italic>Metrologia</italic>  and the editorial staff of IOP Publishing, the referees who have responded rapidly to requests and have kept the issue on schedule, and the authors who have taken the time to provide a range of papers showing the breadth of the work required to build and operate watt or joule balances.</p>
+    <p><bold>References</bold></p>
+    <p>[1] Andreas B <italic>et al</italic> 2011 Determination of the Avogadro constant by counting the atoms in a 28Si crystal <italic>Phys. Rev. Lett.</italic> <bold>106</bold> 030801</p>
+    <p>[2] BIPM 2013 <italic>Report of the 14th Meeting of the CCM Sèvres</italic> pp 34–7</p>
+    <p>[3] Steiner R 2013 History and progress on accurate measurements of the Planck constant <italic>Rep. Prog. Phys.</italic> <bold>76</bold> 016101</p>
+    <p>[4] Stock M 2013 Watt balance experiments for the determination of the Planck constant and the redefinition of the kilogram <italic>Metrologia</italic> <bold>50</bold> R1–16</p>
+    <p>[5] Li S, Han B, Li Z and Lan J 2012 Precisely measuring the Planck constant by electromechanical balances <italic>Measurement</italic> <bold>45</bold> 1–13</p>
+    <p>[6] Eichenberger A, Genevès G and Gournay P 2009 Determination of the Planck constant by means of a watt balance <italic>Eur. Phys. J. Spec. Top.</italic> <bold>172</bold> 363–83</p>
+    <p>[7] Robinson I A 2009 Toward the redefinition of the kilogram: measurements of Planck's constant using watt balances <italic>IEEE Trans. Instrum. Meas.</italic> <bold>58</bold> 942–8</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Watt and joule balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Watt and joule balances
     date:
     - type: epub
-      value: '2014-03-31'
+      at: '2014-03-31'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Watt and joule balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Watt and joule balances
     date:
     - type: ppub
-      value: '2014-04-01'
+      at: '2014-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -220,6 +117,6 @@ extent:
     reference_from: S1
     reference_to: S3
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

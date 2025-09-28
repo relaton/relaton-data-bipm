@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14279
-title:
-- content: Intercomparison of Triple Points of Argon and Oxygen of INM, IMGC and NRC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 2 79
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Intercomparison of Triple Points of Argon and Oxygen of INM, IMGC and NRC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/2/005
+docidentifier:
+- content: Metrologia 14 2 79
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/2/005
+- content: 10.1088/0026-1394/14/2/005
   type: doi
 date:
 - type: published
-  value: '1978-04-01'
+  at: '1978-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Division of Physics, Ottawa,
             Ontario, Canada
-  role:
-  - type: author
-revdate: '1978-04-01'
 abstract:
-- content: "<p>Triple point cells, containing argon and oxygen, from France and Italy
+- language: en
+  script:
+  - Latn
+  content: "<p>Triple point cells, containing argon and oxygen, from France and Italy
     have been compared with the corresponding triple points maintained at NRC of Canada.
     The results agreed within 0.1 mK for both argon and oxygen between Italy and Canada.
     Between France and Canada, the difference was found to be 0.2 mK and 0.5 mK for
     the argon and the oxygen cells respectively.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Intercomparison of Triple Points of Argon and Oxygen of INM, IMGC and
+    - language: en
+      script: Latn
+      content: Intercomparison of Triple Points of Argon and Oxygen of INM, IMGC and
         NRC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1978-04-01'
+      at: '1978-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '79'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

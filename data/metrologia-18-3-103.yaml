@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia183103
-title:
-- content: 'The Optically Pumped Caesium Fountain: 10<sup>-15</sup> Frequency Accuracy?'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 103
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Optically Pumped Caesium Fountain: 10<sup>-15</sup> Frequency Accuracy?'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/002
+docidentifier:
+- content: Metrologia 18 3 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/002
+- content: 10.1088/0026-1394/18/3/002
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea de Marchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale "Galileo Ferraris", Torino, Italy
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>Velocity-related problems like Doppler shifts, distributed cavity phase-shift
+- language: en
+  script:
+  - Latn
+  content: "<p>Velocity-related problems like Doppler shifts, distributed cavity phase-shift
     and pulling by neighbouring transitions are presently the limiting factors in
     the accuracy of Cs beam primary frequency standards. The use of slow atoms appears
     to be the only fundamental solution to these problems, and new kinds of standards
@@ -53,40 +49,32 @@ abstract:
     is outlined and a detailed analysis is given of the various uncertainty sources
     affecting the frequency of a fountain Cs standard, while problems which need further
     examination are pointed out.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Optically Pumped Caesium Fountain: 10<sup>-15</sup> Frequency
+    - language: en
+      script: Latn
+      content: 'The Optically Pumped Caesium Fountain: 10<sup>-15</sup> Frequency
         Accuracy?'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '103'
     reference_to: '116'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

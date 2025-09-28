@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia17397
-title:
-- content: NBS 45°/Normal Reflectometer for Absolute Reflectance Factors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 3 97
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: NBS 45°/Normal Reflectometer for Absolute Reflectance Factors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/3/005
+docidentifier:
+- content: Metrologia 17 3 97
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/3/005
+- content: 10.1088/0026-1394/17/3/005
   type: doi
 date:
 - type: published
-  value: '1981-07-01'
+  at: '1981-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jack J Hsia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Victor R Weidner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234, USA
-  role:
-  - type: author
-revdate: '1981-07-01'
 abstract:
-- content: "<p>A 45°/normal reflectometer has been constructed and tested for calibrating
+- language: en
+  script:
+  - Latn
+  content: "<p>A 45°/normal reflectometer has been constructed and tested for calibrating
     the absolute reflectance factor of diffuse samples over the 380-770 nm spectral
     range using polarized radiation. The measurement equations have been derived for
     the method used. The method using a step-down technique and view factor calls
@@ -66,39 +60,31 @@ abstract:
     to be higher than the 6°/hemispherical reflectance factor. The higher reflectance
     values for 45°/normal geometry were confirmed by additional gonioreflectometer
     measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NBS 45°/Normal Reflectometer for Absolute Reflectance Factors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: NBS 45°/Normal Reflectometer for Absolute Reflectance Factors
     date:
     - type: ppub
-      value: '1981-07-01'
+      at: '1981-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '97'
     reference_to: '102'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

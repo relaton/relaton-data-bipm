@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia554486
-title:
-- content: Lambda, the fifth foundational constant considered by Einstein
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aac10b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aac10b
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 4 486
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Lambda, the fifth foundational constant considered by Einstein
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aac10b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aac10b
+docidentifier:
+- content: Metrologia 55 4 486
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aac10b
+- content: 10.1088/1681-7575/aac10b
   type: doi
 date:
 - type: published
-  value: '2018-06-08'
+  at: '2018-06-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gilles Cohen-Tannoudji
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: F-91191 Gif sur Yvette Cedex, France
         name:
         - content: Laboratoire de recherches sur les sciences de la matière (IRFU,
             CEA Université Paris-Saclay)
-        contact:
-        - address:
-            formatted_address: F-91191 Gif sur Yvette Cedex, France
-  role:
-  - type: author
-revdate: '2018-06-08'
 abstract:
-- content: Abstract<p>The cosmological constant, usually referred to as Lambda, was
-    introduced by Einstein in 1917 and then abandoned by him as his biggest ‘blunder’.
-    It currently seems to have made a spectacular comeback in the framework of the
-    new cosmological standard model. I will explain why, together with Planck’s constant,
-    Boltzmann’s constant, the celerity of light, and Newton’s constant, also considered
-    by Einstein, the cosmological constant may play a foundational role in the conceptual
-    framework, and in the metrological framework in a role comparable to the one attributed
-    to the Avogadro constant.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The cosmological constant, usually referred to as Lambda, was introduced by Einstein in 1917 and then abandoned by him as his biggest ‘blunder’. It currently seems to have made a spectacular comeback in the framework of the new cosmological standard model. I will explain why, together with Planck’s constant, Boltzmann’s constant, the celerity of light, and Newton’s constant, also considered by Einstein, the cosmological constant may play a foundational role in the conceptual framework, and in the metrological framework in a role comparable to the one attributed to the Avogadro constant.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Lambda, the fifth foundational constant considered by Einstein
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Lambda, the fifth foundational constant considered by Einstein
     date:
     - type: ppub
-      value: '2018-08-01'
+      at: '2018-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Lambda, the fifth foundational constant considered by Einstein
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Lambda, the fifth foundational constant considered by Einstein
     date:
     - type: epub
-      value: '2018-06-08'
+      at: '2018-06-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '486'
     reference_to: '498'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

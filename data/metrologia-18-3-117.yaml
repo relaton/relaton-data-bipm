@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia183117
-title:
-- content: Uncertainties in Realizing the Standard of Sound Pressure by the Closed-Coupler
-    Reciprocity Technique
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 117
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainties in Realizing the Standard of Sound Pressure by the Closed-Coupler
+    Reciprocity Technique
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/003
+docidentifier:
+- content: Metrologia 18 3 117
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/003
+- content: 10.1088/0026-1394/18/3/003
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M E Delany
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex TW11 OLW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E N Bazley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex TW11 OLW, UK
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>Sources of uncertainty associated with realizing the standard of sound
+- language: en
+  script:
+  - Latn
+  content: "<p>Sources of uncertainty associated with realizing the standard of sound
     pressure using one-inch laboratory-standard microphones calibrated by the closed-coupler
     reciprocity technique are discussed in detail. A measurement technique designed
     to achieve an acceptable level of uncertainty is described and the components
@@ -65,40 +59,32 @@ abstract:
     With suitable microphones the overall systematic uncertainty of calibration is
     estimated to be less than 0.025 dB at frequencies up to 1 kHz, increasing to 0.11
     dB at 10 kHz.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in Realizing the Standard of Sound Pressure by the Closed-Coupler
+    - language: en
+      script: Latn
+      content: Uncertainties in Realizing the Standard of Sound Pressure by the Closed-Coupler
         Reciprocity Technique
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '117'
     reference_to: '132'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

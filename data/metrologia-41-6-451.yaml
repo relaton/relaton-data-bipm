@@ -1,75 +1,62 @@
 ---
-schema-version: v1.2.9
-id: Metrologia416451
-title:
-- content: Author index with titles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/6/M01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/6/M01
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 6 451
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Author index with titles
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/6/M01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/6/M01
+docidentifier:
+- content: Metrologia 41 6 451
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/6/M01
+- content: 10.1088/0026-1394/41/6/M01
   type: doi
 date:
 - type: published
-  value: '2004-12-01'
+  at: '2004-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
-        content: ''
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2004-12-01'
+        language: en
+        script: Latn
 abstract:
-- content: "<p>The PDF file provided contains web links to all articles in this volume.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The PDF file provided contains web links to all articles in this volume.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Author index with titles
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Author index with titles
     date:
     - type: ppub
-      value: '2004-12-01'
+      at: '2004-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -80,6 +67,6 @@ extent:
     reference_from: '451'
     reference_to: '453'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

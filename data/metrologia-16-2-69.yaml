@@ -1,114 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16269
-title:
-- content: Precise Calculation of the Integrated Emissivity of Baffled Blackbody Cavities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 2 69
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Precise Calculation of the Integrated Emissivity of Baffled Blackbody Cavities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/2/002
+docidentifier:
+- content: Metrologia 16 2 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/2/002
+- content: 10.1088/0026-1394/16/2/002
   type: doi
 date:
 - type: published
-  value: '1980-04-01'
+  at: '1980-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chen Shouren
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Harbin Institute of Technology, China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chu Zaixiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Harbin Institute of Technology, China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chen Hongpan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Harbin Institute of Technology, China
-  role:
-  - type: author
-revdate: '1980-04-01'
 abstract:
-- content: "<p>There are some methods to calculate the integrated cavity emissivity.
+- language: en
+  script:
+  - Latn
+  content: "<p>There are some methods to calculate the integrated cavity emissivity.
     Because of the existence of the penumbral region, the results obtained from these
     methods deviate from the exact values. In this paper, we pay special attention
     to solve the penumbral region problem and put a new method to calculate precisely
     the integrated cavity emissivity of the diffuse conical and cylindrical cavity.
     This method can also be used to calculate for isothermal or non-isothermal, symmetric-axis,
     diffuse cavities. Some numerical and typical results are also given here.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise Calculation of the Integrated Emissivity of Baffled Blackbody
+    - language: en
+      script: Latn
+      content: Precise Calculation of the Integrated Emissivity of Baffled Blackbody
         Cavities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-04-01'
+      at: '1980-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '69'
     reference_to: '72'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

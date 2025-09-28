@@ -1,126 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia533S96
-title:
-- content: Towards a standard for the dynamic measurement of pressure based on laser
-    absorption spectroscopy
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/S96
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/S96
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 S96
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Towards a standard for the dynamic measurement of pressure based on laser
+    absorption spectroscopy
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/S96
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/S96
+docidentifier:
+- content: Metrologia 53 3 S96
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/S96
+- content: 10.1088/0026-1394/53/3/S96
   type: doi
 date:
 - type: published
-  value: '2016-05-20'
+  at: '2016-05-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K O Douglass
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D A Olson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Dr Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: 100 Bureau Dr Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2016-05-20'
 abstract:
-- content: Abstract<p>We describe an approach for creating a standard for the dynamic
-    measurement of pressure based on the measurement of fundamental quantum properties
-    of molecular systems. From the linewidth and intensities of ro-vibrational transitions
-    we plan on making an accurate determination of pressure and temperature. The goal
-    is to achieve an absolute uncertainty for time-varying pressure of 5% with a measurement
-    rate of 100 kHz, which will in the future serve as a method for the traceable
-    calibration of pressure sensors used in transient processes. To illustrate this
-    concept we have used wavelength modulation spectroscopy (WMS), due to inherent
-    advantages over direct absorption spectroscopy, to perform rapid measurements
-    of carbon dioxide in order to determine the pressure. The system records the full
-    lineshape profile of a single ro-vibrational transition of CO<sub>2</sub> at a
-    repetition rate of 4 kHz and with a systematic measurement uncertainty of 12%
-    for the linewidth measurement. A series of pressures were measured at a rate of
-    400 Hz (10 averages) and from these measurements the linewidth was determined
-    with a relative uncertainty of about 0.5% on average. The pressures measured using
-    WMS have an average difference of 0.6% from the absolute pressure measured with
-    a capacitance diaphragm sensor.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We describe an approach for creating a standard for the dynamic measurement of pressure based on the measurement of fundamental quantum properties of molecular systems. From the linewidth and intensities of ro-vibrational transitions we plan on making an accurate determination of pressure and temperature. The goal is to achieve an absolute uncertainty for time-varying pressure of 5% with a measurement rate of 100 kHz, which will in the future serve as a method for the traceable calibration of pressure sensors used in transient processes. To illustrate this concept we have used wavelength modulation spectroscopy (WMS), due to inherent advantages over direct absorption spectroscopy, to perform rapid measurements of carbon dioxide in order to determine the pressure. The system records the full lineshape profile of a single ro-vibrational transition of CO<sub>2</sub> at a repetition rate of 4 kHz and with a systematic measurement uncertainty of 12% for the linewidth measurement. A series of pressures were measured at a rate of 400 Hz (10 averages) and from these measurements the linewidth was determined with a relative uncertainty of about 0.5% on average. The pressures measured using WMS have an average difference of 0.6% from the absolute pressure measured with a capacitance diaphragm sensor.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a standard for the dynamic measurement of pressure based on
+    - script: Latn
+      content: Towards a standard for the dynamic measurement of pressure based on
         laser absorption spectroscopy
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a standard for the dynamic measurement of pressure based on
+    - script: Latn
+      content: Towards a standard for the dynamic measurement of pressure based on
         laser absorption spectroscopy
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-05-20'
+      at: '2016-05-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +105,6 @@ extent:
     reference_from: S96
     reference_to: S106
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

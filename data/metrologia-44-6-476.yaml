@@ -1,38 +1,34 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446476
-title:
-- content: Fiducial approach to uncertainty assessment accounting for error due to
-    instrument resolution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 476
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fiducial approach to uncertainty assessment accounting for error due to
+    instrument resolution
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/006
+docidentifier:
+- content: Metrologia 44 6 476
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/006
+- content: 10.1088/0026-1394/44/6/006
   type: doi
 date:
 - type: published
-  value: '2007-11-07'
+  at: '2007-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Hannig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -42,16 +38,14 @@ contributor:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hari K Iyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -61,26 +55,24 @@ contributor:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Boulder, CO 80305, USA
-  role:
-  - type: author
-revdate: '2007-11-07'
 abstract:
-- content: "<p>This paper presents an approach for making inference on the parameters
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper presents an approach for making inference on the parameters
     μ and σ of a Gaussian distribution in the presence of resolution errors. The approach
     is based on the principle of fiducial inference and requires a Monte Carlo method
     for computing uncertainty intervals. A small simulation study is carried out to
@@ -89,55 +81,44 @@ abstract:
     to the best of the competing procedures for inference on μ. However, unlike some
     of the competing procedures, the same Monte Carlo calculations also provide inference
     for σ and many other related quantities of interest.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fiducial approach to uncertainty assessment accounting for error due
+    - language: en
+      script: Latn
+      content: Fiducial approach to uncertainty assessment accounting for error due
         to instrument resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-11-07'
+      at: '2007-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fiducial approach to uncertainty assessment accounting for error due
+    - language: en
+      script: Latn
+      content: Fiducial approach to uncertainty assessment accounting for error due
         to instrument resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +129,6 @@ extent:
     reference_from: '476'
     reference_to: '483'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

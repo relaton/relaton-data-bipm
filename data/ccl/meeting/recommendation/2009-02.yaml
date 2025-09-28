@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: CCL-REC-2009-02
-title:
-- content: Updates to the list of standard frequencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Updates to the list of standard frequencies
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccl/14-2009/resolution-2
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccl/14-2009/resolution-2
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-14.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-14.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2070984/CCL14.pdf/cf1ebdab-3a0c-f27e-76a5-12bfab38b1fe
-  type: pdf
 type: proceedings
-docid:
-- id: CCL REC 2 (2009)
-  type: BIPM
-  primary: true
-- id: CCL REC 2 (2009, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCL REC 2 (2009, F)
+  content: Updates to the list of standard frequencies
+- language: fr
+  script: Latn
+  content: Updates to the list of standard frequencies
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccl/14-2009/resolution-2
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccl/14-2009/resolution-2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-14.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-14.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2070984/CCL14.pdf/cf1ebdab-3a0c-f27e-76a5-12bfab38b1fe
+docidentifier:
+- content: CCL REC 2 (2009)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCL Recommendation 2 (2009)
+  content: CCL REC 2 (2009, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCL REC 2 (2009, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCL Recommendation 2 (2009)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CCL (2009)
+  content: Recommandation 2 du CCL (2009)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCL Recommendation 2 (2009) / Recommandation 2 du CCL (2009)
+- content: CCL Recommendation 2 (2009) / Recommandation 2 du CCL (2009)
   type: BIPM-long
 docnumber: CCL REC 2 (2009)
 date:
 - type: published
-  value: '2009-06-11'
+  at: '2009-06-11'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2009-06-11'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -94,8 +79,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

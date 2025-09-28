@@ -1,135 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513L9
-title:
-- content: Measurement of the speed-of-light perturbation of free-fall absolute gravimeters
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/L9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/L9
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 L9
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Measurement of the <italic>speed-of-light</italic> perturbation of free-fall
+    absolute gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/L9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/L9
+docidentifier:
+- content: Metrologia 51 3 L9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/L9
+- content: 10.1088/0026-1394/51/3/L9
   type: doi
 date:
 - type: published
-  value: '2014-04-15'
+  at: '2014-04-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Rothleitner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Faculty of Sciences, Technology and Communication, L-1359
+            Luxembourg, Luxembourg
         name:
         - content: University of Luxembourg
-        contact:
-        - address:
-            formatted_address: Faculty of Sciences, Technology and Communication,
-              L-1359 Luxembourg, Luxembourg
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M Niebauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Francis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Faculty of Sciences, Technology and Communication, L-1359
+            Luxembourg, Luxembourg
         name:
         - content: University of Luxembourg
-        contact:
-        - address:
-            formatted_address: Faculty of Sciences, Technology and Communication,
-              L-1359 Luxembourg, Luxembourg
-  role:
-  - type: author
-revdate: '2014-04-15'
 abstract:
-- content: Abstract<p>We report on a direct measurement of the relativistic Doppler
-    shift with a commercial free-fall absolute gravimeter of the type FG5X. The observed
-    Doppler shift, which is commonly called speed-of-light perturbation, can be well
-    described by the relativistic Doppler formula, where the constant object velocity
-    is replaced by a time-dependent velocity with constant acceleration. The observed
-    speed-of-light perturbation stands in contrast to other publications, which predict
-    a higher frequency shift. It has been measured with a relative uncertainty of
-    1.1 × 10<sup>−3</sup>.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We report on a direct measurement of the relativistic Doppler shift with a commercial free-fall absolute gravimeter of the type FG5X. The observed Doppler shift, which is commonly called <italic>speed-of-light</italic> perturbation, can be well described by the relativistic Doppler formula, where the constant object velocity is replaced by a time-dependent velocity with constant acceleration. The observed <italic>speed-of-light</italic> perturbation stands in contrast to other publications, which predict a higher frequency shift. It has been measured with a relative uncertainty of 1.1 × 10<sup>−3</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the speed-of-light perturbation of free-fall absolute
-        gravimeters
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Measurement of the <italic>speed-of-light</italic> perturbation of
+        free-fall absolute gravimeters
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the speed-of-light perturbation of free-fall absolute
-        gravimeters
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Measurement of the <italic>speed-of-light</italic> perturbation of
+        free-fall absolute gravimeters
     date:
     - type: epub
-      value: '2014-04-15'
+      at: '2014-04-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +121,6 @@ extent:
     reference_from: L9
     reference_to: L13
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

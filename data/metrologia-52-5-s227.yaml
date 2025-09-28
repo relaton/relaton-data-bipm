@@ -1,105 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525S227
-title:
-- content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid II
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/S227
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/S227
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 S227
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid II
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/S227
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/S227
+docidentifier:
+- content: Metrologia 52 5 S227
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/S227
+- content: 10.1088/0026-1394/52/5/S227
   type: doi
 date:
 - type: published
-  value: '2015-08-19'
+  at: '2015-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James B Mehl
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 36 Zunuqua Trail, PO Box 307, Orcas, WA 98280-0307
-  role:
-  - type: author
-revdate: '2015-08-19'
 abstract:
-- content: Abstract<p>Finite-element calculations of electromagnetic eigenvalues are
-    known to converge to the exact solutions in the limit of vanishing element sizes.
-    In an extension of previous work (Mehl 2009 Metrologia 46 554–9) the eigenfrequencies
-    of the TM1n and TE1n (n  =  1, 2, ··· 6) modes of triaxial ellipsoids were calculated
-    as a function of mesh size. Higher-accuracy eigenvalues were obtained through
-    a limiting process as the mesh size was reduced; the extrapolation was based on
-    the theoretical convergence rate. The difference between the finite-element eigenfrequencies
-    and the eigenfrequencies predicted by shape perturbation theory is found to be
-    proportional to the cube of the fractional deformation parameter ϵ for all investigated
-    modes. For ellipsoids with axes proportional to 1 : 1.0005 : 1.0010, the cubic
-    term represents a fractional perturbation of the average TM16 eigenvalue k<sup>2</sup>
-    by  −0.16  × 10<sup>  −  6</sup> and the average TE16 eigenvalue by  −0.22  ×
-    10<sup>  −  6</sup>. This work adds support to the correctness of the analytic
-    second-order formula derived in the previous work, and also demonstrates the usefulness
-    of finite-element methods for investigating the quasi-spherical resonators (QSRs)
-    used in measurements of the Boltzmann constant. In principle, the method can be
-    extended to QSRs whose shape differs from triaxial ellipsoids.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Finite-element calculations of electromagnetic eigenvalues are known to converge to the exact solutions in the limit of vanishing element sizes. In an extension of previous work (Mehl 2009 <italic>Metrologia</italic> <bold>46</bold> 554–9) the eigenfrequencies of the TM1<italic>n</italic> and TE1<italic>n</italic> (<italic>n</italic>  =  1, 2, ··· 6) modes of triaxial ellipsoids were calculated as a function of mesh size. Higher-accuracy eigenvalues were obtained through a limiting process as the mesh size was reduced; the extrapolation was based on the theoretical convergence rate. The difference between the finite-element eigenfrequencies and the eigenfrequencies predicted by shape perturbation theory is found to be proportional to the cube of the fractional deformation parameter <italic>ϵ</italic> for all investigated modes. For ellipsoids with axes proportional to 1 : 1.0005 : 1.0010, the cubic term represents a fractional perturbation of the average TM16 eigenvalue <italic>k</italic><sup>2</sup> by  −0.16  × 10<sup>  −  6</sup> and the average TE16 eigenvalue by  −0.22  × 10<sup>  −  6</sup>. This work adds support to the correctness of the analytic second-order formula derived in the previous work, and also demonstrates the usefulness of finite-element methods for investigating the quasi-spherical resonators (QSRs) used in measurements of the Boltzmann constant. In principle, the method can be extended to QSRs whose shape differs from triaxial ellipsoids.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid
+    - script: Latn
+      content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid
         II
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid
+    - script: Latn
+      content: Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid
         II
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-08-19'
+      at: '2015-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +88,6 @@ extent:
     reference_from: S227
     reference_to: S232
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

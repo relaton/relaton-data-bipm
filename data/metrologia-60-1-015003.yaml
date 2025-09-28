@@ -1,135 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia601015003
-title:
-- content: UME Kibble balance operating in air
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aca335
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aca335
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 1 015003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: UME Kibble balance operating in air
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aca335
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aca335
+docidentifier:
+- content: Metrologia 60 1 015003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aca335
+- content: 10.1088/1681-7575/aca335
   type: doi
 date:
 - type: published
-  value: '2022-12-19'
+  at: '2022-12-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hacı Ahmedov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kocaeli, Turkey
         name:
         - content: TÜBİTAK National Metrology Institute (UME)
-        contact:
-        - address:
-            formatted_address: Kocaeli, Turkey
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Recep Orhan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kocaeli, Turkey
         name:
         - content: TÜBİTAK National Metrology Institute (UME)
-        contact:
-        - address:
-            formatted_address: Kocaeli, Turkey
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Beste Korutlu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kocaeli, Turkey
         name:
         - content: TÜBİTAK National Metrology Institute (UME)
-        contact:
-        - address:
-            formatted_address: Kocaeli, Turkey
-  role:
-  - type: author
-revdate: '2022-12-19'
 abstract:
-- content: Abstract<p>The UME KB-3 operating since 2020 allows the realization of
-    kilogram under ambient air conditions owing to its distinguishing design and operation
-    protocol. This is possible only because the coil pair is stationary but the surrounding
-    magnet assembly is moving. The mechanically decoupled nature of the magnet assembly
-    allows the implementation of a local vacuum for displacement measurements rather
-    than a vacuum covering the entire apparatus. The balance operates in single mode
-    with simultaneous operation of weighing and moving phases instead of successive
-    phases. A novel dynamical measurement procedure is developed in order to conform
-    with the single phase measurements. The paper describes the apparatus and presents
-    the measurement results for stainless steel mass artefact with a nominal value
-    of 1 kg. The mass of the artefact is measured with a total relative uncertainty
-    of 54 ppb.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The UME KB-3 operating since 2020 allows the realization of kilogram under ambient air conditions owing to its distinguishing design and operation protocol. This is possible only because the coil pair is stationary but the surrounding magnet assembly is moving. The mechanically decoupled nature of the magnet assembly allows the implementation of a local vacuum for displacement measurements rather than a vacuum covering the entire apparatus. The balance operates in single mode with simultaneous operation of weighing and moving phases instead of successive phases. A novel dynamical measurement procedure is developed in order to conform with the single phase measurements. The paper describes the apparatus and presents the measurement results for stainless steel mass artefact with a nominal value of 1 kg. The mass of the artefact is measured with a total relative uncertainty of 54 ppb.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: UME Kibble balance operating in air
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: UME Kibble balance operating in air
     date:
     - type: ppub
-      value: '2023-02-01'
+      at: '2023-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: UME Kibble balance operating in air
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: UME Kibble balance operating in air
     date:
     - type: epub
-      value: '2022-12-19'
+      at: '2022-12-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +113,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia40236
-title:
-- content: Impurity dependence of the aluminium point
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/2/306
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/2/306
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 2 36
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Impurity dependence of the aluminium point
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/2/306
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/2/306
+docidentifier:
+- content: Metrologia 40 2 36
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/2/306
+- content: 10.1088/0026-1394/40/2/306
   type: doi
 date:
 - type: published
-  value: '2003-04-01'
+  at: '2003-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council of Canada, Ottawa, Ontario, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '2003-04-01'
 abstract:
-- content: "<p>Aluminium samples were doped with an assortment of impurities and the
+- language: en
+  script:
+  - Latn
+  content: "<p>Aluminium samples were doped with an assortment of impurities and the
     shifts of their equilibrium melting curves were determined under static adiabatic
     experimental conditions. The shift of run-off temperatures (i.e. when the sample
     temperature breaks off from the melting `plateau' and rapidly begins to rise)
@@ -49,53 +45,42 @@ abstract:
     be as follows (in millikelvin per part per million (ppm) by weight): Ag, −0.12;
     Zn, −0.16; Cu, −0.29; Fe, −0.35; In, −0.21; Quartz, −0.33; Si, −0.66; Ti, +3.30;
     Mn, −0.063; Cd, −0.10; Sb, −0.19; Ca ?; Ni, −0.43.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impurity dependence of the aluminium point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impurity dependence of the aluminium point
     date:
     - type: epub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impurity dependence of the aluminium point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impurity dependence of the aluminium point
     date:
     - type: ppub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: '36'
     reference_to: '41'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

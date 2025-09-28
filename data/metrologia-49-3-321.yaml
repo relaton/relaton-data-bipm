@@ -1,136 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493321
-title:
-- content: An alternative approach to the measurement of the acoustic transfer impedance
-    of the IEC 60318-1 ear simulator
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/321
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/321
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 321
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An alternative approach to the measurement of the acoustic transfer impedance
+    of the IEC 60318-1 ear simulator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/321
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/321
+docidentifier:
+- content: Metrologia 49 3 321
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/321
+- content: 10.1088/0026-1394/49/3/321
   type: doi
 date:
 - type: published
-  value: '2012-03-29'
+  at: '2012-03-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Barham
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tomasz Zmierczak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Warsaw, Poland
         name:
         - content: Central Office of Measures
-        contact:
-        - address:
-            formatted_address: Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Jackett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, UK
-  role:
-  - type: author
-revdate: '2012-03-29'
 abstract:
-- content: Abstract<p>Ear simulators are important measurement devices for characterizing
-    the performance and acoustic output of earphones and other transducers designed
-    to be coupled to human ears. For best practice in the use of these devices it
-    is important that the acoustic transfer impedance is periodically tested against
-    published specification. This practice has been facilitated by IEC 60318-1 : 2009,
-    where a test method has been specified. This paper reports an alternative method
-    offering simplifications in concept and implementation, and leads to improved
-    measurement uncertainty. A comparison of impedance measurements on a sample of
-    ear simulators shows that the two methods produce equivalent results, and that
-    the proposed method offers a viable alternative to that given in IEC 60318-1.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Ear simulators are important measurement devices for characterizing the performance and acoustic output of earphones and other transducers designed to be coupled to human ears. For best practice in the use of these devices it is important that the acoustic transfer impedance is periodically tested against published specification. This practice has been facilitated by IEC 60318-1 : 2009, where a test method has been specified. This paper reports an alternative method offering simplifications in concept and implementation, and leads to improved measurement uncertainty. A comparison of impedance measurements on a sample of ear simulators shows that the two methods produce equivalent results, and that the proposed method offers a viable alternative to that given in IEC 60318-1.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An alternative approach to the measurement of the acoustic transfer
+    - script: Latn
+      content: An alternative approach to the measurement of the acoustic transfer
         impedance of the IEC 60318-1 ear simulator
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An alternative approach to the measurement of the acoustic transfer
+    - script: Latn
+      content: An alternative approach to the measurement of the acoustic transfer
         impedance of the IEC 60318-1 ear simulator
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-03-29'
+      at: '2012-03-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +119,6 @@ extent:
     reference_from: '321'
     reference_to: '326'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

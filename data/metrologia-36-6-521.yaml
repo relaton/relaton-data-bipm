@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366521
-title:
-- content: Early history of the development and characterization of a 50 mm diameter,
-    gas-operated piston gauge as a primary pressure standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 521
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Early history of the development and characterization of a 50 mm diameter,
+    gas-operated piston gauge as a primary pressure standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/7
+docidentifier:
+- content: Metrologia 36 6 521
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/7
+- content: 10.1088/0026-1394/36/6/7
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Delajoud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DH Instrum. Inc., NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Girard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DH Instrum. Inc., NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C D Ehrlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DH Instrum. Inc., NIST
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>The early history of the development and characterization of a set
+- language: en
+  script:
+  - Latn
+  content: "<p>The early history of the development and characterization of a set
     of three 50 mm diameter piston gauges for primary pressure measurements in the
     atmospheric range is described, including target geometric specifications and
     uncertainty objectives, most significantly a relative combined uncertainty in
@@ -88,40 +80,32 @@ abstract:
     consistently and to reduce uncertainty. This early work was quite promising, and
     demonstrated the potential of the approach. The project, with some hardware changes,
     is ongoing.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Early history of the development and characterization of a 50 mm diameter,
+    - language: en
+      script: Latn
+      content: Early history of the development and characterization of a 50 mm diameter,
         gas-operated piston gauge as a primary pressure standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +116,6 @@ extent:
     reference_from: '521'
     reference_to: '524'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

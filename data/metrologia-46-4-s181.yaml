@@ -1,82 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia464S181
-title:
-- content: Spectral irradiance comparison using a multi-wavelength filter radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/4/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/4/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 4 S181
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spectral irradiance comparison using a multi-wavelength filter radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/4/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/4/S09
+docidentifier:
+- content: Metrologia 46 4 S181
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/4/S09
+- content: 10.1088/0026-1394/46/4/S09
   type: doi
 date:
 - type: published
-  value: '2009-06-02'
+  at: '2009-06-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y J Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Centre, Agency for Science and Technology Research
             (A*STAR), Singapore
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Xu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Centre, Agency for Science and Technology Research
             (A*STAR), Singapore
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ojanen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (TKK), Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -85,11 +75,11 @@ contributor:
     - organization:
         name:
         - content: Centre for Metrology and Accreditation (MIKES), Finland
-  role:
-  - type: author
-revdate: '2009-06-02'
 abstract:
-- content: "<p>An automatic multi-wavelength filter radiometer (MWFR) was developed
+- language: en
+  script:
+  - Latn
+  content: "<p>An automatic multi-wavelength filter radiometer (MWFR) was developed
     at the National Metrology Centre (NMC) of Singapore to realize the spectral irradiance
     scale in the wavelength range from 250 nm to 1600 nm. The UV–VIS range (250 nm
     to 900 nm) is covered by a silicon trap detector with 17 filters, while the near
@@ -103,53 +93,42 @@ abstract:
     a properly designed MWFR with sufficient spectral coverage is a good alternative
     instrument for spectral irradiance comparison owing to its faster speed and better
     short-term reproducibility.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectral irradiance comparison using a multi-wavelength filter radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectral irradiance comparison using a multi-wavelength filter radiometer
     date:
     - type: epub
-      value: '2009-06-02'
+      at: '2009-06-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectral irradiance comparison using a multi-wavelength filter radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectral irradiance comparison using a multi-wavelength filter radiometer
     date:
     - type: ppub
-      value: '2009-08-01'
+      at: '2009-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +139,6 @@ extent:
     reference_from: S181
     reference_to: S185
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

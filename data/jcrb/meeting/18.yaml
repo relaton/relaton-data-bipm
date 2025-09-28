@@ -1,81 +1,66 @@
 ---
-schema-version: v1.2.9
 id: JCRB-2007-18
-title:
-- content: 18th meeting of the JCRB (Muldersdrift, South Africa)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 18<sup>e</sup> réunion du JCRB (Muldersdrift, Afrique du Sud)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/18-2007
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/18-2007
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/34908566/JCRB18.pdf/b5c339ee-1b05-e942-43a0-fbe8286c5750
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-18.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-18.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB 18th Meeting (2007)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 18th meeting of the JCRB (Muldersdrift, South Africa)
+- language: fr
+  script: Latn
+  content: 18<sup>e</sup> réunion du JCRB (Muldersdrift, Afrique du Sud)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/18-2007
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/18-2007
+- type: pdf
+  content: https://www.bipm.org/documents/20126/34908566/JCRB18.pdf/b5c339ee-1b05-e942-43a0-fbe8286c5750
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-18.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-18.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: JCRB 18th Meeting (2007)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: JCRB 18<sup>e</sup> réunion (2007)
+  content: JCRB 18<sup>e</sup> réunion (2007)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: JCRB 18th Meeting (2007) / JCRB 18<sup>e</sup> réunion (2007)
+- content: JCRB 18th Meeting (2007) / JCRB 18<sup>e</sup> réunion (2007)
   type: BIPM
   primary: true
 docnumber: JCRB 18th Meeting (2007)
 date:
 - type: published
-  value: '2007-05-04'
+  at: '2007-05-04'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2007-05-04'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -84,8 +69,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '18'

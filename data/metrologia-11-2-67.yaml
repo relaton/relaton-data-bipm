@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11267
-title:
-- content: 'An Extension of the 4πβ–γ Coincidence Technique: Two Dimensional Extrapolation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'An Extension of the 4πβ–γ Coincidence Technique: Two Dimensional Extrapolation'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/003
+docidentifier:
+- content: Metrologia 11 2 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/003
+- content: 10.1088/0026-1394/11/2/003
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L E H Stuart
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             UK
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>As an extension of the 4 πβ - γ coincidence technique, it is shown
+- language: en
+  script:
+  - Latn
+  content: "<p>As an extension of the 4 πβ - γ coincidence technique, it is shown
     that for some radionuclides, the β count rate should be expressed as a function
     of at least two observed β efficiencies, and that the absolute disintegration
     rate can be obtained by a simultaneous extrapolation to 100% efficiency in the
-    two or more dimensions. Measurements on<sup>57</sup>Co and<sup>134</sup>Cs are
+    two or more dimensions. Measurements on <sup>57</sup>Co and <sup>134</sup>Cs are
     described as examples. For these nuclides, the separated efficiency functions
     are shown to be linear in theory as well as in practice. Thus a major source of
     systematic uncertainty in efficiency extrapolation, that due to the unknown form
     of the extrapolation function, is greatly reduced.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'An Extension of the 4πβ–γ Coincidence Technique: Two Dimensional Extrapolation'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'An Extension of the 4πβ–γ Coincidence Technique: Two Dimensional Extrapolation'
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '67'
     reference_to: '72'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia49170
-title:
-- content: 'Report on the first international comparison of small force facilities:
-    a pilot study at the micronewton level'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 70
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Report on the first international comparison of small force facilities:
+    a pilot study at the micronewton level'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/011
+docidentifier:
+- content: Metrologia 49 1 70
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/011
+- content: 10.1088/0026-1394/49/1/011
   type: doi
 date:
 - type: published
-  value: '2011-11-28'
+  at: '2011-11-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Min-Seok Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science (KRISS), Daejeon,
             Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jon R Pratt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology (NIST), Gaithersburg,
             MD, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Uwe Brand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christopher W Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Hampton Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-11-28'
 abstract:
-- content: "<p>Measurements of forces less than a micronewton are critical when examining
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurements of forces less than a micronewton are critical when examining
     the mechanical behaviour of materials and devices at characteristic length scales
     below a micrometre. As a result, specification standards for nanomechanical tests
     and test equipment are being proposed by international standards organizations,
@@ -108,57 +98,49 @@ abstract:
     the non-linearity of their output, and to compensate for the stiffness of the
     associated fixtures and load frames are required if the resolution of future comparisons
     is to improve.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Report on the first international comparison of small force facilities:
+    - language: en
+      script: Latn
+      content: 'Report on the first international comparison of small force facilities:
         a pilot study at the micronewton level'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-11-28'
+      at: '2011-11-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Report on the first international comparison of small force facilities:
+    - language: en
+      script: Latn
+      content: 'Report on the first international comparison of small force facilities:
         a pilot study at the micronewton level'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -169,6 +151,6 @@ extent:
     reference_from: '70'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

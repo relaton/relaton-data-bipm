@@ -1,90 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3417
-title:
-- content: Entitic quantities, molar quantities, and relations between them
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 7
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Entitic quantities, molar quantities, and relations between them
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/2
+docidentifier:
+- content: Metrologia 34 1 7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/2
+- content: 10.1088/0026-1394/34/1/2
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L McGlashan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. College London
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>Entitic quantities are quantities, such as entitic number (or number
-    of entities) N<sub>e</sub>(B),, entitic mass m<sub>e</sub>(B) or entitic volume
-    V<sub>e</sub>(B), relating to a specified ''generalized molecule'' or entity B,
-    such as H (meaning a single atom of hydrogen) or H<sub>2</sub>O or {(1 - x)H<sub>2</sub>0
-    + xCH<sub>3</sub>OH}. Molar quantities are the quotients of an extensive quantity
-    and amount of substance n<sub>B</sub>, such as molar number N<sub>m</sub> {or
-    Avogadro constant L = N<sub>e</sub>(B)/n(B)}, molar mass m<sub>m</sub>(B) {or
-    M(B)}, or molar volume V<sub>m</sub>(B), also of an entity B. It is shown that
-    there is no imperative need to retain quantities like amount of substance n, or
-    the Avogadro constant L, or the molar gas constant R, or the SI unit: mole. All
-    of these could be discarded from the equations of physical science, though whether
-    it would be useful to discard them is of course open to question.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p><italic>Entitic quantities</italic> are quantities, such as entitic
+    number (or number of entities) <italic>N</italic><sub>e</sub>(B), , entitic mass
+    <italic>m</italic><sub>e</sub>(B) or entitic volume <italic>V</italic><sub>e</sub>(B),
+    relating to a specified ''generalized molecule'' or <italic>entity</italic> B,
+    such as H (meaning a single atom of hydrogen) or H<sub>2</sub>O or {(1 - <italic>x</italic>)H<sub>2</sub>0
+    + <italic>x</italic>CH<sub>3</sub>OH}. Molar quantities are the quotients of an
+    extensive quantity and amount of substance <italic>n</italic><sub>B</sub>, such
+    as molar number <italic>N</italic><sub>m</sub> {or Avogadro constant <italic>L</italic>
+    = <italic>N</italic><sub>e</sub>(B)/<italic>n</italic>(B)}, molar mass <italic>m</italic><sub>m</sub>(B)
+    {or <italic>M</italic>(B)}, or molar volume <italic>V</italic><sub>m</sub>(B),
+    also of an <italic>entity</italic> B. It is shown that there is no imperative
+    need to retain quantities like amount of substance <italic>n</italic>, or the
+    Avogadro constant <italic>L</italic>, or the molar gas constant <italic>R</italic>,
+    or the SI unit: mole. All of these could be discarded from the equations of physical
+    science, though whether it would be useful to discard them is of course open to
+    question.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Entitic quantities, molar quantities, and relations between them
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Entitic quantities, molar quantities, and relations between them
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +87,6 @@ extent:
     reference_from: '7'
     reference_to: '11'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

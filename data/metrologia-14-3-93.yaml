@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14393
-title:
-- content: The Triple Point of Argon and Oxygen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 3 93
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Triple Point of Argon and Oxygen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/3/001
+docidentifier:
+- content: Metrologia 14 3 93
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/3/001
+- content: 10.1088/0026-1394/14/3/001
   type: doi
 date:
 - type: published
-  value: '1978-07-01'
+  at: '1978-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia, "G Colonnetti" (IMGC), Torino, Italy
-  role:
-  - type: author
-revdate: '1978-07-01'
 abstract:
-- content: "<p>The triple point temperatures (T<sub>tp</sub>) of argon and oxygen
-    were realized by a calorimetric technique with an accuracy of ±0·15 mK. Their
-    values lie within 0.5 mK of the most recent determinations carried out in other
-    laboratories. Errors in T<sub>tp</sub> due to the cryostat and to impurities were
-    extensively investigated. After initial conditioning, the gases were sealed into
-    triple point cells, in which T<sub>tp</sub> was stable at the quoted accuracy
-    over a two-year period. The triple point pressure of oxygen was found to be 146.2<sub>5</sub>
-    ± 0.4 Pa. An extensive bibliography of solid-solid equilibria of mixtures with
-    Ar and O<sub>2</sub> is also given.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The triple point temperatures (<italic>T</italic><sub>tp</sub>) of
+    argon and oxygen were realized by a calorimetric technique with an accuracy of
+    ±0·15 mK. Their values lie within 0.5 mK of the most recent determinations carried
+    out in other laboratories. Errors in <italic>T</italic><sub>tp</sub> due to the
+    cryostat and to impurities were extensively investigated. After initial conditioning,
+    the gases were sealed into triple point cells, in which <italic>T</italic><sub>tp</sub>
+    was stable at the quoted accuracy over a two-year period. The triple point pressure
+    of oxygen was found to be 146.2<sub>5</sub> ± 0.4 Pa. An extensive bibliography
+    of solid-solid equilibria of mixtures with Ar and O<sub>2</sub> is also given.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Triple Point of Argon and Oxygen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Triple Point of Argon and Oxygen
     date:
     - type: ppub
-      value: '1978-07-01'
+      at: '1978-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '93'
     reference_to: '103'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

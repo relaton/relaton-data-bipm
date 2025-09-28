@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354235
-title:
-- content: New basis for the Australian realization of the candela
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 235
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New basis for the Australian realization of the candela
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/3
+docidentifier:
+- content: Metrologia 35 4 235
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/3
+- content: 10.1088/0026-1394/35/4/3
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Gardner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D J Butler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E G Atkinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F J Wilkinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>Photometric units in Australia are currently derived from power measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>Photometric units in Australia are currently derived from power measurements
     made with a roomtemperature electrical-substitution radiometer. This basis has
     been transferred to a cryogenic radiometer. The cryogenic radiometer was used
     to calibrate the absolute responsivity of a four-element, planar, transmission
@@ -93,39 +83,31 @@ abstract:
     correction factors for CIE Illuminant A. The candela so derived essentially agrees
     with our existing unit, maintained on a set of lamps. The trap detector was also
     used to determine the polarization properties of the monochromator.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New basis for the Australian realization of the candela
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New basis for the Australian realization of the candela
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +118,6 @@ extent:
     reference_from: '235'
     reference_to: '239'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

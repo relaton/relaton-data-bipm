@@ -1,103 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia144179
-title:
-- content: Stability Limits for Frequency Standards Using Divergent Beams
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/4/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/4/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 4 179
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Stability Limits for Frequency Standards Using Divergent Beams
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/4/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/4/008
+docidentifier:
+- content: Metrologia 14 4 179
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/4/008
+- content: 10.1088/0026-1394/14/4/008
   type: doi
 date:
 - type: published
-  value: '1978-10-01'
+  at: '1978-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A De Marchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale, Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G P Bava
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Elettronica e Telecomunicazioni, Politecnico di Torino,
             Torino, Italy
-  role:
-  - type: author
-revdate: '1978-10-01'
 abstract:
-- content: "<p>A theoretical analysis is given of the stabilities obtainable with
-    Rabi and Ramsey interrogation methods in divergent beams. The performances of
-    both techniques in frequency standard applications are strongly degraded by first
-    order Doppler effect when the divergence is such that the beam width becomes comparable
-    with the transition wavelength.</p><p>Upper limits exist for the stability obtainable
-    in both configurations, with given beam intensity and detection efficiency, and
-    for the frequency at which that maximum is reachable in mechanically collimated
-    beams. Non-mechanical collimation (e.g. saturated absorption) should be used in
-    order to reach that maximum at higher frequencies.</p><p>Doppler-free interrogation
-    methods appear to be the only way to remove these upper limits.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A theoretical analysis is given of the stabilities obtainable with Rabi and Ramsey interrogation methods in divergent beams. The performances of both techniques in frequency standard applications are strongly degraded by first order Doppler effect when the divergence is such that the beam width becomes comparable with the transition wavelength.</p>
+    <p>Upper limits exist for the stability obtainable in both configurations, with given beam intensity and detection efficiency, and for the frequency at which that maximum is reachable in mechanically collimated beams. Non-mechanical collimation (e.g. saturated absorption) should be used in order to reach that maximum at higher frequencies.</p>
+    <p>Doppler-free interrogation methods appear to be the only way to remove these upper limits.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stability Limits for Frequency Standards Using Divergent Beams
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Stability Limits for Frequency Standards Using Divergent Beams
     date:
     - type: ppub
-      value: '1978-10-01'
+      at: '1978-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +88,6 @@ extent:
     reference_from: '179'
     reference_to: '183'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

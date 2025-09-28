@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375437
-title:
-- content: Lowest uncertainty direct comparison of a mechanically-cooled and a helium-cooled
-    cryogenic radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/20
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/20
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 437
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Lowest uncertainty direct comparison of a mechanically-cooled and a helium-cooled
+    cryogenic radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/20
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/20
+docidentifier:
+- content: Metrologia 37 5 437
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/20
+- content: 10.1088/0026-1394/37/5/20
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, NPL
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>Cryogenic radiometers are widely used as national primary standards
+- language: en
+  script:
+  - Latn
+  content: "<p>Cryogenic radiometers are widely used as national primary standards
     for radiometric and photometric measurements. The most common comparisons are
     indirect, using various types of trap detector. The lowest limit of relative uncertainty
-    achievable by indirect comparisons is not much less than 2 × 10<sup>−4</sup> (k
+    achievable by indirect comparisons is not much less than 2 × 10<sup>−4</sup> (<italic>k</italic>
     = 1). To improve this level of uncertainty, it is necessary to compare the cryogenic
     radiometers directly at the same position using an identical beam. In this case
     error sources such as beam size, beam power and scatter are significantly reduced.
@@ -101,40 +91,32 @@ abstract:
     stated relative difference of the measurements of radiant power with these two
     very different cryogenic radiometers was only 3.2 × 10<sup>5</sup>, which is currently
     the lowest obtained in a radiometric comparison of absolute scales.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Lowest uncertainty direct comparison of a mechanically-cooled and a
+    - language: en
+      script: Latn
+      content: Lowest uncertainty direct comparison of a mechanically-cooled and a
         helium-cooled cryogenic radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +127,6 @@ extent:
     reference_from: '437'
     reference_to: '439'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,145 +1,126 @@
 ---
-schema-version: v1.2.9
-id: Metrologia52172
-title:
-- content: Calibration of bridge-, charge- and voltage amplifiers for dynamic measurement
-    applications
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/72
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/72
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 72
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Calibration of bridge-, charge- and voltage amplifiers for dynamic measurement
+    applications
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/72
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/72
+docidentifier:
+- content: Metrologia 52 1 72
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/72
+- content: 10.1088/0026-1394/52/1/72
   type: doi
 date:
 - type: published
-  value: '2015-01-07'
+  at: '2015-01-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Leonard Klaus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas Bruns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Henrik Volkers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2015-01-07'
 abstract:
-- content: Abstract<p>Measuring amplifiers are used for transducer output signal conditioning
-    in many dynamic measurement applications. For a traceable measurement, a calibration
-    of all components of the measuring chain—and therefore of the conditioning amplifiers,
-    too—is mandatory. In this paper methods for a dynamic calibration of different
-    types of conditioning amplifiers are presented. Measurement uncertainties and
-    calibration results for typical amplifiers are discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2
+
+    <title>Abstract</title>
+    <p>Measuring amplifiers are used for transducer output signal conditioning in many dynamic measurement applications. For a traceable measurement, a calibration of all components of the measuring chain—and therefore of the conditioning amplifiers, too—is mandatory. In this paper methods for a dynamic calibration of different types of conditioning amplifiers are presented. Measurement uncertainties and calibration results for typical amplifiers are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
+    - script: Latn
+      content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
         measurement applications
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
+    - script: Latn
+      content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
         measurement applications
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-01-07'
+      at: '2015-01-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
+    - script: Latn
+      content: Calibration of bridge-, charge- and voltage amplifiers for dynamic
         measurement applications
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2015-01-07'
+      at: '2015-01-07'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +131,6 @@ extent:
     reference_from: '72'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

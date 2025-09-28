@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S239
-title:
-- content: Radionuclide neutron source characterization techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S239
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radionuclide neutron source characterization techniques
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S02
+docidentifier:
+- content: Metrologia 48 6 S239
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S02
+- content: 10.1088/0026-1394/48/6/S02
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N J Roberts
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N N Moiseev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), Moskovsky pr.19,
             198005 St Petersburg, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Králik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Czech Metrology Institute (CMI), Radiová 3, 102 00 Praha 10, Czech
             Republic
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>Radionuclide neutron sources are of fundamental importance to neutron
+- language: en
+  script:
+  - Latn
+  content: "<p>Radionuclide neutron sources are of fundamental importance to neutron
     metrology. They are the reference standards which allow quantities such as neutron
     fluence and neutron dose equivalent to be realized in laboratories around the
     world. In order to do this it is essential that the sources themselves are well
@@ -82,55 +74,47 @@ abstract:
     determining the anisotropy of emission are discussed, followed by a brief description
     of the spectral fluence of the different source types. Finally, an overview of
     international comparison exercises in this area is included.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radionuclide neutron source characterization techniques
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radionuclide neutron source characterization techniques
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radionuclide neutron source characterization techniques
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radionuclide neutron source characterization techniques
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +125,6 @@ extent:
     reference_from: S239
     reference_to: S253
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

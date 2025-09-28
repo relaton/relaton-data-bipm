@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283297
-title:
-- content: 'Radiometric Calibration of SBUV/2 Instruments: Retrospective Improvements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/038
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/038
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 297
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Radiometric Calibration of SBUV/2 Instruments: Retrospective Improvements'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/038
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/038
+docidentifier:
+- content: Metrologia 28 3 297
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/038
+- content: 10.1088/0026-1394/28/3/038
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A A Fegley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ball Aerospace Systems Group, Boulder, Colorado 80301, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W K Fowler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ball Aerospace Systems Group, Boulder, Colorado 80301, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The Solar Backscatter Ultraviolet Radiometer satellite-borne ozone
+- language: en
+  script:
+  - Latn
+  content: "<p>The Solar Backscatter Ultraviolet Radiometer satellite-borne ozone
     monitoring instrument and its radiometric calibration are described. BaSO<sub>4</sub>
     diffusers used as part of the calibration transfer optics were found to be unstable,
     losing up to 6.5% total reflectance at 230 nm over five years. The resulting calibration
     errors were corrected after the instrument was in orbit by using data gathered
     when a more stable aluminum diffuser was used. A small spectral irradiance disagreement
     between FEL and D2 lamps is described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Radiometric Calibration of SBUV/2 Instruments: Retrospective Improvements'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Radiometric Calibration of SBUV/2 Instruments: Retrospective Improvements'
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '297'
     reference_to: '300'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

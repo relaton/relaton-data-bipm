@@ -1,202 +1,167 @@
 ---
-schema-version: v1.2.9
-id: Metrologia512S96
-title:
-- content: Design of the KRISS watt balance
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/2/S96
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/2/S96
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 2 S96
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Design of the KRISS watt balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/2/S96
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/2/S96
+docidentifier:
+- content: Metrologia 51 2 S96
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/2/S96
+- content: 10.1088/0026-1394/51/2/S96
   type: doi
 date:
 - type: published
-  value: '2014-03-31'
+  at: '2014-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dongmin Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Byung-Chill Woo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kwang-Cheol Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kee-Bong Choi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-343, Korea
         name:
         - content: Korea Institute of Machinery and Materials (KIMM)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-343, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jong-Ahn Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jae Wan Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jinhee Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Korea
-  role:
-  - type: author
-revdate: '2014-03-31'
 abstract:
-- content: Abstract<p>We report the design of the KRISS watt balance, which includes
-    a magnet, a guiding stage and a coil position measurement system. The KRISS watt
-    balance incorporates a closed-type cylindrical permanent magnet and a motion guiding
-    stage. For the magnet, a flux shunt is used to reduce flux changes due to temperature
-    variations. A piston gauge is used to achieve linearity in the motion guiding
-    stage. In the weighing mode, the residual force between the weight of the test
-    mass and the Lorentz force generated in a coil is measured by a commercial weighing
-    cell. In the dynamic mode, a linear motor in the motion guiding stage vertically
-    translates the coil and the weighing cell. The in-plane motion of the coil is
-    measured by position sensors, and the out-of-plane motion is measured by single-pass
-    homodyne interferometers.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We report the design of the KRISS watt balance, which includes a magnet, a guiding stage and a coil position measurement system. The KRISS watt balance incorporates a closed-type cylindrical permanent magnet and a motion guiding stage. For the magnet, a flux shunt is used to reduce flux changes due to temperature variations. A piston gauge is used to achieve linearity in the motion guiding stage. In the weighing mode, the residual force between the weight of the test mass and the Lorentz force generated in a coil is measured by a commercial weighing cell. In the dynamic mode, a linear motor in the motion guiding stage vertically translates the coil and the weighing cell. The in-plane motion of the coil is measured by position sensors, and the out-of-plane motion is measured by single-pass homodyne interferometers.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Design of the KRISS watt balance
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Design of the KRISS watt balance
     date:
     - type: ppub
-      value: '2014-04-01'
+      at: '2014-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Design of the KRISS watt balance
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Design of the KRISS watt balance
     date:
     - type: epub
-      value: '2014-03-31'
+      at: '2014-03-31'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -207,6 +172,6 @@ extent:
     reference_from: S96
     reference_to: S100
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,99 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia511A01010
-title:
-- content: 'Supplementary comparison COOMET.EM-S12: Measurements of magnetic loss
-    power in electrical steel at frequencies of 50 Hz and 60 Hz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1A/01010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1A/01010
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1A 01010
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Supplementary comparison COOMET.EM-S12: Measurements of magnetic loss
+    power in electrical steel at frequencies of 50 Hz and 60 Hz'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1A/01010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1A/01010
+docidentifier:
+- content: Metrologia 51 1A 01010
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1A/01010
+- content: 10.1088/0026-1394/51/1A/01010
   type: doi
 date:
 - type: published
-  value: '2014-01-01'
+  at: '2014-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yury I Didik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of electromagnetism metrology, Urals Research Institute
             for Metrology (FGUP 'UNIIM'), Ekaterinberg, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mikhail A Malyagin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of magnetic and acoustic quantity metrology, Urals Research
             Institute for Metrology (FGUP 'UNIIM'), Ekaterinberg, Russia
-  role:
-  - type: author
-revdate: '2014-01-01'
 abstract:
-- content: |-
-    <p>The decision to carry out a COOMET supplementary comparison in the field of magnetic loss power measurements was taken in October 2010. It is registered in the BIPM key comparison database with the identifier COOMET.EM-S12. The comparison was piloted by UNIIM (Russia) and two other laboratories participated, namely PTB (Germany) and CMI (Czech Republic).</p><p>The results of the comparison allow one to demonstrate the equivalence of the standards of the three National Metrology Institutes, and thus confirm the corresponding claimed Calibration and Measurement Capabilities (CMCs).</p><p>It is noted that the deviation of the measurement results obtained with sheet samples exceeds that obtained with samples of toroidal form and of Epstein strips, a point that requires further investigation.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The decision to carry out a COOMET supplementary comparison in the field of magnetic loss power measurements was taken in October 2010. It is registered in the BIPM key comparison database with the identifier COOMET.EM-S12. The comparison was piloted by UNIIM (Russia) and two other laboratories participated, namely PTB (Germany) and CMI (Czech Republic).</p>
+    <p>The results of the comparison allow one to demonstrate the equivalence of the standards of the three National Metrology Institutes, and thus confirm the corresponding claimed Calibration and Measurement Capabilities (CMCs).</p>
+    <p>It is noted that the deviation of the measurement results obtained with sheet samples exceeds that obtained with samples of toroidal form and of Epstein strips, a point that requires further investigation.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/S12/COOMET.EM-S12.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Supplementary comparison COOMET.EM-S12: Measurements of magnetic loss
+    - language: en
+      script: Latn
+      content: 'Supplementary comparison COOMET.EM-S12: Measurements of magnetic loss
         power in electrical steel at frequencies of 50 Hz and 60 Hz'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-01-01'
+      at: '2014-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +94,6 @@ extent:
     reference_from: '01010'
     reference_to: '01010'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

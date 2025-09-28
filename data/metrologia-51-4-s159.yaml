@@ -1,111 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S159
-title:
-- content: Bayesian uncertainty analysis compared with the application of the GUM
-    and its supplements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S159
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S159
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S159
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian uncertainty analysis compared with the application of the GUM
+    and its supplements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S159
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S159
+docidentifier:
+- content: Metrologia 51 4 S159
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S159
+- content: 10.1088/0026-1394/51/4/S159
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr.2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr.2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2014-07-11'
 abstract:
-- content: Abstract<p>The Guide to the Expression of Uncertainty in Measurement (GUM)
-    has proven to be a major step towards the harmonization of uncertainty evaluation
-    in metrology. Its procedures contain elements from both classical and Bayesian
-    statistics. The recent supplements 1 and 2 to the GUM appear to move the guidelines
-    towards the Bayesian point of view, and they produce a probability distribution
-    that shall encode one's state of knowledge about the measurand. In contrast to
-    a Bayesian uncertainty analysis, however, Bayes' theorem is not applied explicitly.
-    Instead, a distribution is assigned for the input quantities which is then ‘propagated’
-    through a model that relates the input quantities to the measurand. The resulting
-    distribution for the measurand may coincide with a distribution obtained by the
-    application of Bayes' theorem, but this is not true in general.</p><p>The relation
-    between a Bayesian uncertainty analysis and the application of the GUM and its
-    supplements is investigated. In terms of a simple example, similarities and differences
-    in the approaches are illustrated. Then a general class of models is considered
-    and conditions are specified for which the distribution obtained by supplement
-    1 to the GUM is equivalent to a posterior distribution resulting from the application
-    of Bayes' theorem. The corresponding prior distribution is identified and assessed.
-    Finally, we briefly compare the GUM approach with a Bayesian uncertainty analysis
-    in the context of regression problems.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) has proven to be a major step towards the harmonization of uncertainty evaluation in metrology. Its procedures contain elements from both classical and Bayesian statistics. The recent supplements 1 and 2 to the GUM appear to move the guidelines towards the Bayesian point of view, and they produce a probability distribution that shall encode one's state of knowledge about the measurand. In contrast to a Bayesian uncertainty analysis, however, Bayes' theorem is not applied explicitly. Instead, a distribution is assigned for the input quantities which is then ‘propagated’ through a model that relates the input quantities to the measurand. The resulting distribution for the measurand may coincide with a distribution obtained by the application of Bayes' theorem, but this is not true in general.</p>
+    <p>The relation between a Bayesian uncertainty analysis and the application of the GUM and its supplements is investigated. In terms of a simple example, similarities and differences in the approaches are illustrated. Then a general class of models is considered and conditions are specified for which the distribution obtained by supplement 1 to the GUM is equivalent to a posterior distribution resulting from the application of Bayes' theorem. The corresponding prior distribution is identified and assessed. Finally, we briefly compare the GUM approach with a Bayesian uncertainty analysis in the context of regression problems.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian uncertainty analysis compared with the application of the
+    - script: Latn
+      content: Bayesian uncertainty analysis compared with the application of the
         GUM and its supplements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian uncertainty analysis compared with the application of the
+    - script: Latn
+      content: Bayesian uncertainty analysis compared with the application of the
         GUM and its supplements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +92,6 @@ extent:
     reference_from: S159
     reference_to: S166
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354229
-title:
-- content: Design considerations for the construction of an absolute radiation detector
-    at the NPL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 229
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Design considerations for the construction of an absolute radiation detector
+    at the NPL
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/2
+docidentifier:
+- content: Metrologia 35 4 229
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/2
+- content: 10.1088/0026-1394/35/4/2
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P R Haycocks
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>An Absolute Radiation Detector (ARD) has been designed and constructed.
+- language: en
+  script:
+  - Latn
+  content: "<p>An Absolute Radiation Detector (ARD) has been designed and constructed.
     After evaluation it will replace the existing UK primary national standard cryogenic
     radiometer, with an improved uncertainty. The ARD has been designed to measure
     black-body and laser radiation with an uncertainty approaching 10<sup>-5</sup>.
@@ -66,40 +60,32 @@ abstract:
     units will be tied to an invariant physical quantity ensuring their long-term
     stability. This paper describes some of the design considerations to enable the
     ARD to meet its objectives.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Design considerations for the construction of an absolute radiation
+    - language: en
+      script: Latn
+      content: Design considerations for the construction of an absolute radiation
         detector at the NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '229'
     reference_to: '233'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

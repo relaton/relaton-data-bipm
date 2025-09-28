@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia232111
-title:
-- content: A Black-Body Cavity for Total Radiation Thermometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/23/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/23/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 23 2 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Black-Body Cavity for Total Radiation Thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/23/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/23/2/004
+docidentifier:
+- content: Metrologia 23 2 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/23/2/004
+- content: 10.1088/0026-1394/23/2/004
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92312 Sèvres Cedex,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1986-01-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Black-Body Cavity for Total Radiation Thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Black-Body Cavity for Total Radiation Thermometry
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '111'
     reference_to: '114'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

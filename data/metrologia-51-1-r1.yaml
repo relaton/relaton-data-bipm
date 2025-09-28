@@ -1,194 +1,163 @@
 ---
-schema-version: v1.2.9
-id: Metrologia511R1
-title:
-- content: Acoustic gas thermometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/R1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/R1
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 R1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Acoustic gas thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/R1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/R1
+docidentifier:
+- content: Metrologia 51 1 R1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/R1
+- content: 10.1088/0026-1394/51/1/R1
   type: doi
 date:
 - type: published
-  value: '2014-01-16'
+  at: '2014-01-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R Moldover
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Sensor Science Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Sensor Science Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R M Gavioso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
         subdivision:
-        - content: Thermodynamics Division
-        contact:
-        - address:
-            formatted_address: 10135 Turin, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Thermodynamics Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Mehl
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 307, Orcas, WA 98280-0307, USA
         name:
         - content: 36 Zunuqua Trail
-        contact:
-        - address:
-            formatted_address: PO Box 307, Orcas, WA 98280-0307, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Pitre
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 61 rue du Landy, 93210 La Plaine Saint-Denis, France
         name:
         - content: Laboratoire Commun de Métrologie LNE-Cnam (LCM)
-        contact:
-        - address:
-            formatted_address: 61 rue du Landy, 93210 La Plaine Saint-Denis, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M de Podesta
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J T Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100013, People's Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100013, People's Republic of China
-  role:
-  - type: author
-revdate: '2014-01-16'
 abstract:
-- content: Abstract<p>We review the principles, techniques and results from primary
-    acoustic gas thermometry (AGT). Since the establishment of ITS-90, the International
-    Temperature Scale of 1990, spherical and quasi-spherical cavity resonators have
-    been used to realize primary AGT in the temperature range 7 K to 552 K. Throughout
-    the sub-range 90 K &lt; T &lt; 384 K, at least two laboratories measured (T − T<sub>90</sub>).
-    (Here T is the thermodynamic temperature and T<sub>90</sub> is the temperature
-    on ITS-90.) With a minor exception, the resulting values of (T − T<sub>90</sub>)
-    are mutually consistent within 3 × 10<sup>−6</sup> T. These consistent measurements
-    were obtained using helium and argon as thermometric gases inside cavities that
-    had radii ranging from 40 mm to 90 mm and that had walls made of copper or aluminium
-    or stainless steel. The AGT values of (T − T<sub>90</sub>) fall on a smooth curve
-    that is outside ±u(T<sub>90</sub>), the estimated uncertainty of T<sub>90</sub>.
-    Thus, the AGT results imply that ITS-90 has errors that could be reduced in a
-    future temperature scale. Recently developed techniques imply that low-uncertainty
-    AGT can be realized at temperatures up to 1350 K or higher and also at temperatures
-    in the liquid-helium range.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We review the principles, techniques and results from primary acoustic gas thermometry (AGT). Since the establishment of ITS-90, the International Temperature Scale of 1990, spherical and quasi-spherical cavity resonators have been used to realize primary AGT in the temperature range 7 K to 552 K. Throughout the sub-range 90 K &lt; <italic>T</italic> &lt; 384 K, at least two laboratories measured (<italic>T</italic> − <italic>T</italic><sub>90</sub>). (Here <italic>T</italic> is the thermodynamic temperature and <italic>T</italic><sub>90</sub> is the temperature on ITS-90.) With a minor exception, the resulting values of (<italic>T</italic> − <italic>T</italic><sub>90</sub>) are mutually consistent within 3 × 10<sup>−6</sup> <italic>T</italic>. These consistent measurements were obtained using helium and argon as thermometric gases inside cavities that had radii ranging from 40 mm to 90 mm and that had walls made of copper or aluminium or stainless steel. The AGT values of (<italic>T</italic> − <italic>T</italic><sub>90</sub>) fall on a smooth curve that is outside ±<italic>u</italic>(<italic>T</italic><sub>90</sub>), the estimated uncertainty of <italic>T</italic><sub>90</sub>. Thus, the AGT results imply that ITS-90 has errors that could be reduced in a future temperature scale. Recently developed techniques imply that low-uncertainty AGT can be realized at temperatures up to 1350 K or higher and also at temperatures in the liquid-helium range.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Acoustic gas thermometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Acoustic gas thermometry
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Acoustic gas thermometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Acoustic gas thermometry
     date:
     - type: epub
-      value: '2014-01-16'
+      at: '2014-01-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -199,6 +168,6 @@ extent:
     reference_from: R1
     reference_to: R19
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

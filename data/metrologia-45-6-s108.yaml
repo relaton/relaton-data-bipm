@@ -1,114 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S108
-title:
-- content: Atomic clock prediction based on stochastic differential equations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S16
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S16
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S108
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Atomic clock prediction based on stochastic differential equations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S16
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S16
+docidentifier:
+- content: Metrologia 45 6 S108
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S16
+- content: 10.1088/0026-1394/45/6/S16
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Panfilo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, F-92312, Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM, Strada delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>In this paper we use a mathematical model based on stochastic differential
-    equations to predict the behaviour of atomic clocks. We consider several different
-    cases with deterministic and random signatures and we obtain the best clock prediction
-    together with its uncertainty. The results given by our mathematical model are
-    compared with the results of the traditional method of extrapolating clock behaviour
-    from the past data.</p><p>Wyye test our methods using experimental data from caesium
-    and hydrogen masers maintained by the Italian time laboratory (INRIM), showing
-    the good performance of our model.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In this paper we use a mathematical model based on stochastic differential equations to predict the behaviour of atomic clocks. We consider several different cases with deterministic and random signatures and we obtain the best clock prediction together with its uncertainty. The results given by our mathematical model are compared with the results of the traditional method of extrapolating clock behaviour from the past data.</p>
+    <p>Wyye test our methods using experimental data from caesium and hydrogen masers maintained by the Italian time laboratory (INRIM), showing the good performance of our model.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic clock prediction based on stochastic differential equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic clock prediction based on stochastic differential equations
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic clock prediction based on stochastic differential equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic clock prediction based on stochastic differential equations
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +97,6 @@ extent:
     reference_from: S108
     reference_to: S116
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

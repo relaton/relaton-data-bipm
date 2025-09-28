@@ -1,97 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S80
-title:
-- content: The atomic hydrogen maser oscillator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S80
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The atomic hydrogen maser oscillator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S09
+docidentifier:
+- content: Metrologia 42 3 S80
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S09
+- content: 10.1088/0026-1394/42/3/S09
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert F C Vessot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Harvard–Smithsonian Center for Astrophysics, Cambridge, MA 02138,
             USA
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>The basic operational requirements and present technology for high
+- language: en
+  script:
+  - Latn
+  content: "<p>The basic operational requirements and present technology for high
     stability hydrogen maser (H-maser) oscillators are described. Design features
     of a high stability maser oscillator for use in space, maser operation at 0.5 K
     and present uses of high stability H-masers are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The atomic hydrogen maser oscillator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The atomic hydrogen maser oscillator
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The atomic hydrogen maser oscillator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The atomic hydrogen maser oscillator
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +87,6 @@ extent:
     reference_from: S80
     reference_to: S89
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

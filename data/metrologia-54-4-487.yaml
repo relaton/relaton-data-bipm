@@ -1,121 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia544487
-title:
-- content: Optical simulation of the new PTB sphere interferometer
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa75d3
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa75d3
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 4 487
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Optical simulation of the new PTB sphere interferometer
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa75d3
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa75d3
+docidentifier:
+- content: Metrologia 54 4 487
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa75d3
+- content: 10.1088/1681-7575/aa75d3
   type: doi
 date:
 - type: published
-  value: '2017-06-28'
+  at: '2017-06-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Torsten Mai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Arnold Nicolaus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2017-06-28'
 abstract:
-- content: Abstract<p>For the redefinition of the SI-unit kilogram the Avogadro constant
-    needs to be determined with lowest possible uncertainty. The approach which is
-    followed by an international group including the PTB is the XRCD-method (Azuma
-    et al 2015 Metrologia 52 360). Currently the uncertainty of the silicon sphere
-    volume determination is the main contribution to the uncertainty of the Avogadro
-    constant and therefore critical for reaching the self-set goal of underrunning
-    a relative uncertainty of 1.5×10−8. The volume uncertainty itself is dominated
-    by the wave-front deformation uncertainty which occurs due to optical imperfections
-    in the measurement system. Up to now this type of uncertainty was only roughly
-    estimated. This paper presents results from a self developed optical raytracing
-    software which allows the main deviations of the real optical system from the
-    ideal optical design to be investigated. With this software a complete sphere
-    measurement can be simulated which helps to determine the influence of the system
-    imperfections. In result the relative uncertainty contribution of the wave-front
-    uncertainties to the volume measurement can be reduced to 4.5×10−9.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>For the redefinition of the SI-unit kilogram the Avogadro constant needs to be determined with lowest possible uncertainty. The approach which is followed by an international group including the PTB is the XRCD-method (Azuma <italic>et al</italic> 2015 <italic>Metrologia</italic> <bold>52</bold> 360). Currently the uncertainty of the silicon sphere volume determination is the main contribution to the uncertainty of the Avogadro constant and therefore critical for reaching the self-set goal of underrunning a relative uncertainty of <inline-formula><tex-math><?CDATA $1.5\times10^{-8}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:mn>1.5</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>8</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:math><inline-graphic xlink:href="metaa75d3ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula>. The volume uncertainty itself is dominated by the wave-front deformation uncertainty which occurs due to optical imperfections in the measurement system. Up to now this type of uncertainty was only roughly estimated. This paper presents results from a self developed optical raytracing software which allows the main deviations of the real optical system from the ideal optical design to be investigated. With this software a complete sphere measurement can be simulated which helps to determine the influence of the system imperfections. In result the relative uncertainty contribution of the wave-front uncertainties to the volume measurement can be reduced to <inline-formula><tex-math><?CDATA $4.5\, \times\, 10^{-9}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:mn>4.5</mml:mn><mml:mspace width="thinmathspace"></mml:mspace><mml:mo>×</mml:mo><mml:mspace width="thinmathspace"></mml:mspace><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:math><inline-graphic xlink:href="metaa75d3ieqn002.gif" xlink:type="simple"></inline-graphic></inline-formula>.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optical simulation of the new PTB sphere interferometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Optical simulation of the new PTB sphere interferometer
     date:
     - type: ppub
-      value: '2017-08-01'
+      at: '2017-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optical simulation of the new PTB sphere interferometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Optical simulation of the new PTB sphere interferometer
     date:
     - type: epub
-      value: '2017-06-28'
+      at: '2017-06-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +102,6 @@ extent:
     reference_from: '487'
     reference_to: '493'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

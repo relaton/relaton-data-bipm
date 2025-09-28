@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia254233
-title:
-- content: Fine-Structure Constant Derived from Quantum Electrodynamics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/4/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/4/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 4 233
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fine-Structure Constant Derived from Quantum Electrodynamics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/4/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/4/006
+docidentifier:
+- content: Metrologia 25 4 233
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/4/006
+- content: 10.1088/0026-1394/25/4/006
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Toichiro Kinoshita
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Newman Laboratory, Cornell University, Ithaca, New York 14853,
             USA
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Quantum electrodynamics enables us to extract a precise value of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Quantum electrodynamics enables us to extract a precise value of the
     fine-structure constant α from measurements of the hyperfine structure of the
     muonium ground state and the anomalous magnetic moment of the electron. Results
     obtained thus far are reviewed and compared with the values of α obtained from
     the ac Josephson effect and the quantized Hall effect.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fine-Structure Constant Derived from Quantum Electrodynamics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Fine-Structure Constant Derived from Quantum Electrodynamics
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '233'
     reference_to: '237'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

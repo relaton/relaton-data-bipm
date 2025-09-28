@@ -1,109 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia491A09002
-title:
-- content: Final report on key comparison APMP.AUV.A-K3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1A/09002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1A/09002
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1A 09002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison APMP.AUV.A-K3
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1A/09002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1A/09002
+docidentifier:
+- content: Metrologia 49 1A 09002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1A/09002
+- content: 10.1088/0026-1394/49/1A/09002
   type: doi
 date:
 - type: published
-  value: '2012-01-01'
+  at: '2012-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hyu-Sang Kwon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science (KRISS), Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sang-Joon Suh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science (KRISS), Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jae-Gap Suh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science (KRISS), Korea
-  role:
-  - type: author
-revdate: '2012-01-01'
 abstract:
-- content: |-
-    <p>A regional key comparison APMP.AUV.A-K3 has been carried out for the pressure sensitivity of laboratory standard microphones. Korea Research Institute of Standards and Science (KRISS) was the pilot laboratory for this project. Two LS2P microphones were circulated through ten national metrology institutes and calibrated in the frequency range from 31.5 Hz to 25 kHz (31.5 kHz was optional). Deviations from the mean value for all participants are within their declared expanded uncertainties for all frequencies except the optional 31.5 kHz. Results were linked to the CIPM key comparison CCAUV.A-K3.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A regional key comparison APMP.AUV.A-K3 has been carried out for the pressure sensitivity of laboratory standard microphones. Korea Research Institute of Standards and Science (KRISS) was the pilot laboratory for this project. Two LS2P microphones were circulated through ten national metrology institutes and calibrated in the frequency range from 31.5 Hz to 25 kHz (31.5 kHz was optional). Deviations from the mean value for all participants are within their declared expanded uncertainties for all frequencies except the optional 31.5 kHz. Results were linked to the CIPM key comparison  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/43/1A/09001">CCAUV.A-K3</ext-link>.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K3/APMP.AUV.A-K3_2.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison APMP.AUV.A-K3
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison APMP.AUV.A-K3
     date:
     - type: ppub
-      value: '2012-01-01'
+      at: '2012-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '09002'
     reference_to: '09002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

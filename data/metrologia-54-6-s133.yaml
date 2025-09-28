@@ -1,125 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia546S133
-title:
-- content: Error-in-variables models in calibration
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa8f02
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa8f02
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 6 S133
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Error-in-variables models in calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa8f02
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa8f02
+docidentifier:
+- content: Metrologia 54 6 S133
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa8f02
+- content: 10.1088/1681-7575/aa8f02
   type: doi
 date:
 - type: published
-  value: '2017-11-06'
+  at: '2017-11-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Vicuña Mackenna 4860, Santiago, Chile
         name:
         - content: Pontificia Universidad Católica de Chile
         subdivision:
-        - content: Department of Mechanical and Metallurgical Engineering
-        contact:
-        - address:
-            formatted_address: Vicuña Mackenna 4860, Santiago, Chile
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mechanical and Metallurgical Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Grientschnig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Kernstockstr. 4, 8600 Bruck an der Mur, Austria
         name:
         - content: Metrolytik
-        contact:
-        - address:
-            formatted_address: Kernstockstr. 4, 8600 Bruck an der Mur, Austria
-  role:
-  - type: author
-revdate: '2017-11-06'
 abstract:
-- content: Abstract<p>In many calibration operations, the stimuli applied to the measuring
-    system or instrument under test are derived from measurement standards whose values
-    may be considered to be perfectly known. In that case, it is assumed that calibration
-    uncertainty arises solely from inexact measurement of the responses, from imperfect
-    control of the calibration process and from the possible inaccuracy of the calibration
-    model. However, the premise that the stimuli are completely known is never strictly
-    fulfilled and in some instances it may be grossly inadequate. Then, error-in-variables
-    (EIV) regression models have to be employed. In metrology, these models have been
-    approached mostly from the frequentist perspective. In contrast, not much guidance
-    is available on their Bayesian analysis. In this paper, we first present a brief
-    summary of the conventional statistical techniques that have been developed to
-    deal with EIV models in calibration. We then proceed to discuss the alternative
-    Bayesian framework under some simplifying assumptions. Through a detailed example
-    about the calibration of an instrument for measuring flow rates, we provide advice
-    on how the user of the calibration function should employ the latter framework
-    for inferring the stimulus acting on the calibrated device when, in use, a certain
-    response is measured.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In many calibration operations, the stimuli applied to the measuring system or instrument under test are derived from measurement standards whose values may be considered to be perfectly known. In that case, it is assumed that calibration uncertainty arises solely from inexact measurement of the responses, from imperfect control of the calibration process and from the possible inaccuracy of the calibration model. However, the premise that the stimuli are completely known is never strictly fulfilled and in some instances it may be grossly inadequate. Then, error-in-variables (EIV) regression models have to be employed. In metrology, these models have been approached mostly from the frequentist perspective. In contrast, not much guidance is available on their Bayesian analysis. In this paper, we first present a brief summary of the conventional statistical techniques that have been developed to deal with EIV models in calibration. We then proceed to discuss the alternative Bayesian framework under some simplifying assumptions. Through a detailed example about the calibration of an instrument for measuring flow rates, we provide advice on how the user of the calibration function should employ the latter framework for inferring the stimulus acting on the calibrated device when, in use, a certain response is measured.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error-in-variables models in calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Error-in-variables models in calibration
     date:
     - type: ppub
-      value: '2017-12-01'
+      at: '2017-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error-in-variables models in calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Error-in-variables models in calibration
     date:
     - type: epub
-      value: '2017-11-06'
+      at: '2017-11-06'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +107,6 @@ extent:
     reference_from: S133
     reference_to: S145
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

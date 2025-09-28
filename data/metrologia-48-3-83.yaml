@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia48383
-title:
-- content: Towards a better definition of the kilogram
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Towards a better definition of the kilogram
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/002
+docidentifier:
+- content: Metrologia 48 3 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/002
+- content: 10.1088/0026-1394/48/3/002
   type: doi
 date:
 - type: published
-  value: '2011-03-01'
+  at: '2011-03-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Theodore P Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Mathematics, Georgia Institute of Technology, 686 Cherry
             Street, Atlanta, GA 30332, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jack Miller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley,
             CA 94720, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Albert C Censullo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Chemistry and Biochemistry, California Polytechnic
             State University, 1 Grand Avenue, San Luis Obispo, CA 93407, USA
-  role:
-  - type: author
-revdate: '2011-03-01'
 abstract:
-- content: "<p>It is widely accepted that improvement of the current International
+- language: en
+  script:
+  - Latn
+  content: "<p>It is widely accepted that improvement of the current International
     System of Units (SI) is necessary, and that central to this problem is redefinition
     of the kilogram. This paper compares the relative advantages of two main proposals
     for a modern scientific definition of the kilogram: an ‘electronic kilogram’ based
@@ -81,55 +73,47 @@ abstract:
     neutral than the electronic kilogram, more realizable by school and university
     laboratories than the electronic kilogram, and more readily comprehensible than
     the electronic kilogram.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a better definition of the kilogram
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Towards a better definition of the kilogram
     date:
     - type: epub
-      value: '2011-03-01'
+      at: '2011-03-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a better definition of the kilogram
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Towards a better definition of the kilogram
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +124,6 @@ extent:
     reference_from: '83'
     reference_to: '86'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

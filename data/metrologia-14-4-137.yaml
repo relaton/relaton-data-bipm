@@ -1,117 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia144137
-title:
-- content: A Proposal for a Practical Temperature Scale between 1 K and 273 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 4 137
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Proposal for a Practical Temperature Scale between 1 K and 273 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/4/001
+docidentifier:
+- content: Metrologia 14 4 137
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/4/001
+- content: 10.1088/0026-1394/14/4/001
   type: doi
 date:
 - type: published
-  value: '1978-10-01'
+  at: '1978-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L M Besley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R G Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1978-10-01'
 abstract:
-- content: "<p>A combination of the two current practical scales of temperature (EPT-76
-    and IPTS-68) in the range 1 K to 83 K has been shown to produce a scale which
-    is irregular with respect to the most recent thermodynamic data. We suggest an
-    alternative practical scale, T<sub>77,NML</sub>, which covers the range 1 to 273.16
-    K and is based on the best available thermodynamic data below 83 K and on the
-    present IPTS-68 above 83 K. T<sub>77,NML</sub> provides a means of calibrating
-    resistance thermometers in this range in a manner superior in accuracy, thermodynamic
-    smoothness and ease of use to that provided by the current practical scales of
-    temperature. Certain inconsistencies between T<sub>77,NML</sub> and IPTS-68 suggest
-    that there should be a redetermination of the thermodynamic temperature of the
-    triple point of oxygen.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A combination of the two current practical scales of temperature (EPT-76
+    and IPTS-68) in the range 1 K to 83 K has been shown to produce a scale which
+    is irregular with respect to the most recent thermodynamic data. We suggest an
+    alternative practical scale, <italic>T</italic><sub>77,NML</sub>, which covers
+    the range 1 to 273.16 K and is based on the best available thermodynamic data
+    below 83 K and on the present IPTS-68 above 83 K. <italic>T</italic><sub>77,NML</sub>
+    provides a means of calibrating resistance thermometers in this range in a manner
+    superior in accuracy, thermodynamic smoothness and ease of use to that provided
+    by the current practical scales of temperature. Certain inconsistencies between
+    <italic>T</italic><sub>77,NML</sub> and IPTS-68 suggest that there should be a
+    redetermination of the thermodynamic temperature of the triple point of oxygen.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Proposal for a Practical Temperature Scale between 1 K and 273 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Proposal for a Practical Temperature Scale between 1 K and 273 K
     date:
     - type: ppub
-      value: '1978-10-01'
+      at: '1978-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '137'
     reference_to: '142'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

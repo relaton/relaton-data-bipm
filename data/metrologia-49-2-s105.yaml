@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia492S105
-title:
-- content: A transfer standard radiometer for atmospheric longwave irradiance measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/2/S105
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/2/S105
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 2 S105
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A transfer standard radiometer for atmospheric longwave irradiance measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/2/S105
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/2/S105
+docidentifier:
+- content: Metrologia 49 2 S105
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/2/S105
+- content: 10.1088/0026-1394/49/2/S105
   type: doi
 date:
 - type: published
-  value: '2012-03-02'
+  at: '2012-03-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Julian Gröbner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Center, Dorfstrasse 33, 7260 Davos Dorf, Switzerland
-  role:
-  - type: author
-revdate: '2012-03-02'
 abstract:
-- content: "<p>A new reference radiometer for downwelling atmospheric longwave irradiance
+- language: en
+  script:
+  - Latn
+  content: "<p>A new reference radiometer for downwelling atmospheric longwave irradiance
     has been designed and built. The new infrared integrating sphere (IRIS) radiometer
     is designed to acquire measurements with a time constant of less than 1 s. Based
     on a thorough characterization, the IRIS radiometer is able to measure longwave
@@ -54,57 +50,49 @@ abstract:
     in April 2011. The four radiometers measured atmospheric longwave irradiance with
     differences ranging from −1.1 W m<sup>−2</sup> to +0.7 W m<sup>−2</sup>, which
     were well within their estimated uncertainties.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A transfer standard radiometer for atmospheric longwave irradiance
+    - language: en
+      script: Latn
+      content: A transfer standard radiometer for atmospheric longwave irradiance
         measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-03-02'
+      at: '2012-03-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A transfer standard radiometer for atmospheric longwave irradiance
+    - language: en
+      script: Latn
+      content: A transfer standard radiometer for atmospheric longwave irradiance
         measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-04-01'
+      at: '2012-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +103,6 @@ extent:
     reference_from: S105
     reference_to: S111
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia35133
-title:
-- content: The fourth interlaboratory comparison of 10 V Josephson voltage standards
-    in North America
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/1/6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/1/6
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 1 33
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The fourth interlaboratory comparison of 10 V Josephson voltage standards
+    in North America
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/1/6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/1/6
+docidentifier:
+- content: Metrologia 35 1 33
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/1/6
+- content: 10.1088/0026-1394/35/1/6
   type: doi
 date:
 - type: published
-  value: '1998-02-01'
+  at: '1998-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Hamilton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-02-01'
 abstract:
-- content: "<p>An interlaboratory comparison of Josephson voltage standards has been
+- language: en
+  script:
+  - Latn
+  content: "<p>An interlaboratory comparison of Josephson voltage standards has been
     made among fifteen national, industrial, and military standards laboratories in
     North America. The comparison was made at 10 V using a set of four travelling
     Zener reference standards. The uncertainty (2σ) of the comparison is estimated
     to be 17 parts in 10<sup>9</sup>. The measurements of all participants fall within
     this uncertainty, indicating that no significant difference has been detected
     among them.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The fourth interlaboratory comparison of 10 V Josephson voltage standards
+    - language: en
+      script: Latn
+      content: The fourth interlaboratory comparison of 10 V Josephson voltage standards
         in North America
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-02-01'
+      at: '1998-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '33'
     reference_to: '40'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

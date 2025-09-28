@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1920-30
-title:
-- content: 30th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 30<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/30-1920
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/30-1920
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/75012477/CIPM1920.pdf/5b28e47b-b1b6-a115-8bee-a01d89850c9e
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-30.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-30.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 30th Meeting (1920)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 30th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 30<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/30-1920
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/30-1920
+- type: pdf
+  content: https://www.bipm.org/documents/20126/75012477/CIPM1920.pdf/5b28e47b-b1b6-a115-8bee-a01d89850c9e
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-30.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-30.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 30th Meeting (1920)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 30<sup>e</sup> réunion (1920)
+  content: CIPM 30<sup>e</sup> réunion (1920)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 30th Meeting (1920) / CIPM 30<sup>e</sup> réunion (1920)
+- content: CIPM 30th Meeting (1920) / CIPM 30<sup>e</sup> réunion (1920)
   type: BIPM
   primary: true
 docnumber: CIPM 30th Meeting (1920)
 date:
 - type: published
-  value: '1920-10-08'
+  at: '1920-10-08'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1920-10-08'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '30'

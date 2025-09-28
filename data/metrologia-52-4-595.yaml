@@ -1,133 +1,119 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524595
-title:
-- content: Measurement of rubidium ground-state hyperfine transition frequency using
-    atomic fountains
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/595
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/595
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 595
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Measurement of rubidium ground-state hyperfine transition frequency using
+    atomic fountains
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/595
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/595
+docidentifier:
+- content: Metrologia 52 4 595
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/595
+- content: 10.1088/0026-1394/52/4/595
   type: doi
 date:
 - type: published
-  value: '2015-08-01'
+  at: '2015-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuri B Ovchinnikov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Krzysztof Szymaniec
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Soliman Edris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gower Street, London WC1E 6BT, UK
         name:
         - content: University College London
         subdivision:
-        - content: Department of Physics and Astronomy
-        contact:
-        - address:
-            formatted_address: Gower Street, London WC1E 6BT, UK
-  role:
-  - type: author
-revdate: '2015-08-01'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics and Astronomy
 abstract:
-- content: Abstract<p>The results of precision measurements of the<sup>87</sup>Rb
-    ground-state hyperfine transition frequency, which were conducted at NPL from
-    2009 to 2013, are reported. The resulting frequency, measured using NPL’s Cs and
-    Rb atomic frequency standards, demonstrates reasonable agreement with the most
-    recent measurements reported by LNE-SYRTE.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The results of precision measurements of the <sup>87</sup>Rb ground-state hyperfine transition frequency, which were conducted at NPL from 2009 to 2013, are reported. The resulting frequency, measured using NPL’s Cs and Rb atomic frequency standards, demonstrates reasonable agreement with the most recent measurements reported by LNE-SYRTE.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of rubidium ground-state hyperfine transition frequency
+    - script: Latn
+      content: Measurement of rubidium ground-state hyperfine transition frequency
         using atomic fountains
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of rubidium ground-state hyperfine transition frequency
+    - script: Latn
+      content: Measurement of rubidium ground-state hyperfine transition frequency
         using atomic fountains
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-08-03'
+      at: '2015-08-03'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +124,6 @@ extent:
     reference_from: '595'
     reference_to: '599'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

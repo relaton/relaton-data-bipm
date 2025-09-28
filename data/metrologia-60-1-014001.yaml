@@ -1,147 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia601014001
-title:
-- content: Towards a consensus on a continuous coordinated universal time
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac9da5
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac9da5
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 1 014001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Towards a consensus on a continuous coordinated universal time
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac9da5
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac9da5
+docidentifier:
+- content: Metrologia 60 1 014001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac9da5
+- content: 10.1088/1681-7575/ac9da5
   type: doi
 date:
 - type: published
-  value: '2022-11-25'
+  at: '2022-11-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Judah Levine
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder CO, 80305, United States of America
         name:
         - content: National Institute of Standard and Technology
-        contact:
-        - address:
-            formatted_address: Boulder CO, 80305, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Patrizia Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 92310 Sevrés, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: 92310 Sevrés, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martin Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 92310 Sevrés, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: 92310 Sevrés, France
-  role:
-  - type: author
-revdate: '2022-11-25'
 abstract:
-- content: Abstract<p>This paper explains the considerations that were important in
-    1972, when the current leap second procedure was adopted, to maintain a close
-    connection between UTC, the international reference time scale, and UT1—a time
-    scale based on the rotation of the Earth. Although some of these considerations
-    are still relevant, the procedure for adding leap seconds creates difficulties
-    in many modern applications that require a continuous and monotonic time scale.
-    We present the advantages and disadvantages of the leap second procedure, and
-    some of the problems foreseen if it is not reconsidered. We suggest the general
-    outline of a way forward, which addresses the deficiencies in the current leap
-    second system, and which will ensure that UTC remains an international standard
-    that is useful and appropriate for all time and frequency applications. Further
-    discussion and evaluation of the impact of any changes is required.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper explains the considerations that were important in 1972, when the current leap second procedure was adopted, to maintain a close connection between UTC, the international reference time scale, and UT1—a time scale based on the rotation of the Earth. Although some of these considerations are still relevant, the procedure for adding leap seconds creates difficulties in many modern applications that require a continuous and monotonic time scale. We present the advantages and disadvantages of the leap second procedure, and some of the problems foreseen if it is not reconsidered. We suggest the general outline of a way forward, which addresses the deficiencies in the current leap second system, and which will ensure that UTC remains an international standard that is useful and appropriate for all time and frequency applications. Further discussion and evaluation of the impact of any changes is required.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a consensus on a continuous coordinated universal time
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Towards a consensus on a continuous coordinated universal time
     date:
     - type: ppub
-      value: '2023-02-01'
+      at: '2023-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a consensus on a continuous coordinated universal time
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Towards a consensus on a continuous coordinated universal time
     date:
     - type: epub
-      value: '2022-11-25'
+      at: '2022-11-25'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a consensus on a continuous coordinated universal time
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Towards a consensus on a continuous coordinated universal time
     date:
     - type: open-access
-      value: '2022-11-25'
+      at: '2022-11-25'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +123,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

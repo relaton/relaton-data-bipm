@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375377
-title:
-- content: NIST-PTB measurements of the radiometric temperatures of a high-temperature
-    black body using filter radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 377
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: NIST-PTB measurements of the radiometric temperatures of a high-temperature
+    black body using filter radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/7
+docidentifier:
+- content: Metrologia 37 5 377
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/7
+- content: 10.1088/0026-1394/37/5/7
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Sperfeld
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Galal Yousef
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Metzdorf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, PTB
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>Filter radiometers were used in a bilateral comparison of the radiometric
+- language: en
+  script:
+  - Latn
+  content: "<p>Filter radiometers were used in a bilateral comparison of the radiometric
     temperatures of a high-temperature black body from 2100 K to 3100 K. The measurements
     took place over a ten-day period in October 1998 at the Physikalisch-Technische
     Bundesanstalt (PTB, Braunschweig, Germany) using filter radiometers from the PTB
@@ -93,40 +83,32 @@ abstract:
     K to 5.1 K at 3200 K, with the NIST temperature values always lower than the PTB
     values. Differences in the measurements of absolute spectral responsivity were
     the main cause of the observed temperature differences.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST-PTB measurements of the radiometric temperatures of a high-temperature
+    - language: en
+      script: Latn
+      content: NIST-PTB measurements of the radiometric temperatures of a high-temperature
         black body using filter radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '377'
     reference_to: '380'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

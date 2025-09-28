@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S187
-title:
-- content: A low differential-pressure primary standard for the range 1 Pa to 13 kPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S187
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A low differential-pressure primary standard for the range 1 Pa to 13 kPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S09
+docidentifier:
+- content: Metrologia 42 6 S187
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S09
+- content: 10.1088/0026-1394/42/6/S09
   type: doi
 date:
 - type: published
-  value: '2005-11-09'
+  at: '2005-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A P Miiller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Gaithersburg, MD 20899-8364, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C R Tilford
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Gaithersburg, MD 20899-8364, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J H Hendricks
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, 100 Bureau Drive,
             Gaithersburg, MD 20899-8364, USA
-  role:
-  - type: author
-revdate: '2005-11-09'
 abstract:
-- content: "<p>The National Institute of Standards and Technology (NIST) has completed
+- language: en
+  script:
+  - Latn
+  content: "<p>The National Institute of Standards and Technology (NIST) has completed
     the development of a low differential-pressure primary standard covering a range
     from 1 Pa to 13 kPa for operation with line pressures up to 200 kPa. The standard
     is based on an ultrasonic interferometer manometer (UIM) primary pressure standard
@@ -84,62 +76,51 @@ abstract:
     diaphragm gauges, resonant silicon gauges and Bell-type micromanometers and the
     other for characterizing pressure-generating instruments such as conical-piston,
     ball and force-balanced piston gauges. The UIM is characterized by a standard
-    (k = 1) uncertainty due to systematic effects of [(3 × 10<sup>−3</sup> Pa)<sup>2</sup>
-    + (3.2 × 10<sup>−6</sup>P)<sup>2</sup>]<sup>1/2</sup> where P is the pressure
-    in pascal. Random uncertainties are dominated by pressure instabilities which
-    can be controlled to a level that varies from standard deviations of 3 mPa at
-    lowest differential pressures to about 60 mPa at full range. The NIST primary
+    (<italic>k</italic> = 1) uncertainty due to systematic effects of [(3 × 10<sup>−3</sup> Pa)<sup>2</sup>
+    + (3.2 × 10<sup>−6</sup><italic>P</italic>)<sup>2</sup>]<sup>1/2</sup> where <italic>P</italic>
+    is the pressure in pascal. Random uncertainties are dominated by pressure instabilities
+    which can be controlled to a level that varies from standard deviations of 3 mPa
+    at lowest differential pressures to about 60 mPa at full range. The NIST primary
     standard is described, along with results of comparisons with primary standards
     developed at other NMIs.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A low differential-pressure primary standard for the range 1 Pa to
+    - language: en
+      script: Latn
+      content: A low differential-pressure primary standard for the range 1 Pa to
         13 kPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-09'
+      at: '2005-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A low differential-pressure primary standard for the range 1 Pa to
+    - language: en
+      script: Latn
+      content: A low differential-pressure primary standard for the range 1 Pa to
         13 kPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +131,6 @@ extent:
     reference_from: S187
     reference_to: S192
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

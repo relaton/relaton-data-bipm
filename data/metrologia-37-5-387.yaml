@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375387
-title:
-- content: 'Uncertainty of total solar irradiance: an assessment of the last twenty
-    years of space radiometry'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 387
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Uncertainty of total solar irradiance: an assessment of the last twenty
+    years of space radiometry'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/9
+docidentifier:
+- content: Metrologia 37 5 387
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/9
+- content: 10.1088/0026-1394/37/5/9
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Anklin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>A complete set of total solar irradiance measurements from space is
+- language: en
+  script:
+  - Latn
+  content: "<p>A complete set of total solar irradiance measurements from space is
     available dating from November 1978, yielding a time series of more than twenty
     years. From measurements made by different space radiometers (HF on NIMBUS-7,
     ACRIM I on SMM, ACRIM II on UARS and VIRGO on SOHO) a composite record of solar
@@ -68,40 +62,32 @@ abstract:
     to estimate the long-term stability, which is much better than the estimated 1
     part in 10<sup>5</sup> per annum deduced as an upper limit from VIRGO radiometry.
     The absolute accuracy of the data, however, is more difficult to estimate.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty of total solar irradiance: an assessment of the last twenty
+    - language: en
+      script: Latn
+      content: 'Uncertainty of total solar irradiance: an assessment of the last twenty
         years of space radiometry'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +98,6 @@ extent:
     reference_from: '387'
     reference_to: '391'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

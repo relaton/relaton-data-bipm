@@ -1,122 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia49157
-title:
-- content: Use of GLONASS for UTC time transfer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 57
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Use of GLONASS for UTC time transfer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/009
+docidentifier:
+- content: Metrologia 49 1 57
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/009
+- content: 10.1088/0026-1394/49/1/009
   type: doi
 date:
 - type: published
-  value: '2011-11-17'
+  at: '2011-11-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Jiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time Department, International Bureau of Weights and Measures (BIPM),
             Pavillon de Breteuil, F-92312, Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lewandowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time Department, International Bureau of Weights and Measures (BIPM),
             Pavillon de Breteuil, F-92312, Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2011-11-17'
 abstract:
-- content: "<p>At present, the applicable spatial techniques used in UTC (Coordinated
-    Universal Time) computation are GPS, TWSTFT (Two-Way Satellite Time and Frequency
-    Transfers) and GLONASS. To enable accuracy and robustness for the generation of
-    UTC, a multi-technique strategy for UTC time transfer is indispensable. Over the
-    last two decades efforts have been made to use GLONASS for accurate time transfer.
-    The first GLONASS time link that presents in UTC was introduced in November 2009,
-    BIPM Circular T 263.</p><p>For present and future accurate time transfers, GLONASS
-    is comparable to GPS with the same types of observations. In this paper, we first
-    recall principles of the GNSS Common-View and All in View time transfers; we present
-    the technical issues for the use of GLONASS in UTC, i.e. short- and long-term
-    stabilities, frequency biases, calibration and its practical implementation. Finally,
-    we outline the prospects for the use of GLONASS in accurate time transfer.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>At present, the applicable spatial techniques used in UTC (Coordinated Universal Time) computation are GPS, TWSTFT (Two-Way Satellite Time and Frequency Transfers) and GLONASS. To enable accuracy and robustness for the generation of UTC, a multi-technique strategy for UTC time transfer is indispensable. Over the last two decades efforts have been made to use GLONASS for accurate time transfer. The first GLONASS time link that presents in UTC was introduced in November 2009, BIPM <italic>Circular T</italic> 263.</p>
+    <p>For present and future accurate time transfers, GLONASS is comparable to GPS with the same types of observations. In this paper, we first recall principles of the GNSS Common-View and All in View time transfers; we present the technical issues for the use of GLONASS in UTC, i.e. short- and long-term stabilities, frequency biases, calibration and its practical implementation. Finally, we outline the prospects for the use of GLONASS in accurate time transfer.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of GLONASS for UTC time transfer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Use of GLONASS for UTC time transfer
     date:
     - type: epub
-      value: '2011-11-17'
+      at: '2011-11-17'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of GLONASS for UTC time transfer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Use of GLONASS for UTC time transfer
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +104,6 @@ extent:
     reference_from: '57'
     reference_to: '61'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

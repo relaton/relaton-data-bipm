@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306695
-title:
-- content: New Ideas in Semiconductor Pressure Sensors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/030
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/030
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 695
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New Ideas in Semiconductor Pressure Sensors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/030
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/030
+docidentifier:
+- content: Metrologia 30 6 695
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/030
+- content: 10.1088/0026-1394/30/6/030
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Trzeciakowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: High Pressure Research Center "Unipress", Polish Academy of Sciences,
             Sokolowska 29, 01-142 Warsaw, Poland
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>The possibility of using the optical properties of semiconductors for
+- language: en
+  script:
+  - Latn
+  content: "<p>The possibility of using the optical properties of semiconductors for
     high-pressure calibration is discussed. Quantum-well luminescence and absorption
     are shown to be useful for measuring pressures up to 5 GPa and possibly up to
     10 GPa. Other candidates for optical calibrants like laser-diode emission or the
@@ -50,39 +46,31 @@ abstract:
     of their small size and the lack of electrical connections. They are over an order
     of magnitude more sensitive than the ruby gauge, but they work in a much lower
     pressure range.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New Ideas in Semiconductor Pressure Sensors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New Ideas in Semiconductor Pressure Sensors
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '695'
     reference_to: '699'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

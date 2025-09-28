@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S193
-title:
-- content: New apparatus for calibrations in the range of 2 kPa absolute pressure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S10
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S193
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New apparatus for calibrations in the range of 2 kPa absolute pressure
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S10
+docidentifier:
+- content: Metrologia 42 6 S193
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S10
+- content: 10.1088/0026-1394/42/6/S10
   type: doi
 date:
 - type: published
-  value: '2005-11-09'
+  at: '2005-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Y Woo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science, PO Box 102, Yuseong, Daejeon, 305-600, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Choi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science, PO Box 102, Yuseong, Daejeon, 305-600, Republic of Korea
-  role:
-  - type: author
-revdate: '2005-11-09'
 abstract:
-- content: "<p>Capacitance diaphragm gauges (CDGs) are precise electromechanical pressure
+- language: en
+  script:
+  - Latn
+  content: "<p>Capacitance diaphragm gauges (CDGs) are precise electromechanical pressure
     sensors in which the displacement of a stretched thin metal diaphragm is detected
     by the measurement of a capacitance. These are very accurate gauges, and are frequently
     used as transfer gauges. To calibrate such accurate low-pressure gauges, precise
@@ -73,53 +67,42 @@ abstract:
     system can be used to measure pressures from 100 Pa to 2 kPa in the absolute mode.
     In this paper, we also present the calibration results for two types of CDGs with
     full-scale ranges of 1330 Pa and 1000 Pa, respectively.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New apparatus for calibrations in the range of 2 kPa absolute pressure
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New apparatus for calibrations in the range of 2 kPa absolute pressure
     date:
     - type: epub
-      value: '2005-11-09'
+      at: '2005-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: New apparatus for calibrations in the range of 2 kPa absolute pressure
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New apparatus for calibrations in the range of 2 kPa absolute pressure
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +113,6 @@ extent:
     reference_from: S193
     reference_to: S196
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

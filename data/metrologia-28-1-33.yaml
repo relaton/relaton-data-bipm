@@ -1,91 +1,80 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28133
-title:
-- content: Thermal Dilatation of Water between 0 °C and 44 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 1 33
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermal Dilatation of Water between 0 °C and 44 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/1/006
+docidentifier:
+- content: Metrologia 28 1 33
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/1/006
+- content: 10.1088/0026-1394/28/1/006
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Watanabe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, Tsukuba, Ibaraki 305,
             Japan
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A measurement of the thermal dilatation of pure water has been made
+- language: en
+  script:
+  - Latn
+  content: "<p>A measurement of the thermal dilatation of pure water has been made
     by detecting the change of buoyancy acting on a cylindrical hollow artifact made
     of fused quartz immersed in water between the temperatures of 0 °C and 44 °C.
     The formula for the thermal dilatation of water, free from air, is obtained in
     terms of the relative density ρ/ρ<sub>0</sub> at the pressure of 101 325 Pa with
-    an uncertainty of less than 1 ppm is as follows:</p><p>ρ/ρ<sub>0</sub> = 0,999
-    867 75 + 6,786 687 54 × 10<sup>-5</sup>(t/°C) - 9,090 991 73 × 10<sup>-6</sup>(t/°C)<sup>2</sup>
-    \n+ 1,025 981 51 × 10<sup>-7</sup>(t/°C)<sup>3</sup> - 1,350 290 42 × 10<sup>-9</sup>(t/°C)<sup>4</sup>
-    \n+ 1,326 743 92 × 10<sup>-11</sup>(t/°C)<sup>5</sup> - 6,461 418 × 10<sup>-14</sup>(t/°C)<sup>6</sup></p><p>where
+    an uncertainty of less than 1 ppm is as follows:</p>\n<p>ρ/ρ<sub>0</sub> = 0,999
+    867 75 + 6,786 687 54 × 10<sup>-5</sup>(<italic>t</italic>/°C) - 9,090 991 73
+    × 10<sup>-6</sup>(<italic>t</italic>/°C)<sup>2</sup> \n+ 1,025 981 51 × 10<sup>-7</sup>(<italic>t</italic>/°C)<sup>3</sup>
+    - 1,350 290 42 × 10<sup>-9</sup>(<italic>t</italic>/°C)<sup>4</sup> \n+ 1,326
+    743 92 × 10<sup>-11</sup>(<italic>t</italic>/°C)<sup>5</sup> - 6,461 418 × 10<sup>-14</sup>(<italic>t</italic>/°C)<sup>6</sup></p>\n<p>where
     the temperature of the maximum density ρ<sub>0</sub> is 3,983 4 °C in terms of
     the ITS-90. The uncertainty of the measurement and the derived formula is evaluated
     to be 0,2 to 0,5 ppm in standard deviation for the same temperature range.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermal Dilatation of Water between 0 °C and 44 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermal Dilatation of Water between 0 °C and 44 °C
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +85,6 @@ extent:
     reference_from: '33'
     reference_to: '43'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

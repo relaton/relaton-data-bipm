@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11133
-title:
-- content: Vacuum Wavelength Measurements with a Fabry-Pérot Interferometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 1 33
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Vacuum Wavelength Measurements with a Fabry-Pérot Interferometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/1/007
+docidentifier:
+- content: Metrologia 11 1 33
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/1/007
+- content: 10.1088/0026-1394/11/1/007
   type: doi
 date:
 - type: published
-  value: '1975-01-01'
+  at: '1975-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Sacconi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Fontana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Torino, Italy
-  role:
-  - type: author
-revdate: '1975-01-01'
 abstract:
-- content: "<p>A technique was devised for wavelength comparison with respect to the<sup>86</sup>Kr
-    standard. The apparatus used is described; it consists of an evacuated Fabry-Pérot
-    interferometer with photoelectric detection. The essential feature is provision
-    for scanning the projected interference pattern by a uniform rotation of a mirror.
-    Sources of uncertainty are discussed. Vacuum wavelength values are given for the<sup>86</sup>Kr
-    secondary standards which are compared with other recent measurements. The wavelengths
-    obtained agree with the adopted values within the allowable tolerances. Furthermore
-    a first series of measurements of the wavelengths of two helium-neon lasers stabilized
-    on the Lamb dip are reported.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A technique was devised for wavelength comparison with respect to the
+    <sup>86</sup>Kr standard. The apparatus used is described; it consists of an evacuated
+    Fabry-Pérot interferometer with photoelectric detection. The essential feature
+    is provision for scanning the projected interference pattern by a uniform rotation
+    of a mirror. Sources of uncertainty are discussed. Vacuum wavelength values are
+    given for the <sup>86</sup>Kr secondary standards which are compared with other
+    recent measurements. The wavelengths obtained agree with the adopted values within
+    the allowable tolerances. Furthermore a first series of measurements of the wavelengths
+    of two helium-neon lasers stabilized on the Lamb dip are reported.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Vacuum Wavelength Measurements with a Fabry-Pérot Interferometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Vacuum Wavelength Measurements with a Fabry-Pérot Interferometer
     date:
     - type: ppub
-      value: '1975-01-01'
+      at: '1975-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '33'
     reference_to: '36'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,95 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14253
-title:
-- content: Phase Correction in the Interferometric Measurement of End Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 2 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Phase Correction in the Interferometric Measurement of End Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/2/002
+docidentifier:
+- content: Metrologia 14 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/2/002
+- content: 10.1088/0026-1394/14/2/002
   type: doi
 date:
 - type: published
-  value: '1978-04-01'
+  at: '1978-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E G Thwaite
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1978-04-01'
 abstract:
-- content: <p>When end standards are measured interferometrically using an auxiliary
-    platen a phase correction is needed to compensate for differences in the reflecting
-    properties of the end standard and the platen. The phase correction is dependent
-    on the complex refractive index of the materials and their roughness. None of
-    the established methods of determining the phase correction has proved entirely
-    satisfactory and a profiling method which results in an improved consistency of
-    results is described.</p><p>A theoretical derivation is outlined which shows that
-    under general conditions the "apparent" plane of reflection for a randomly rough
-    surface approximates very closely to the mean plane of the surface.</p><p>Results
-    of direct measurement of the relation of the apparent plane of reflection, measured
-    by an interferometric and a profiling technique, are reported which verify the
-    location as the mean plane. The profiling method has been applied in a controlled
-    experiment which showed an improvement in the degree of consistency achieved in
-    the measurement of gauge blocks.</p><p>The effect of the variability of the refractive
-    index of gauge block and platen materials and the presence of contaminants on
-    the reflecting surfaces is considered and the results of a survey of the roughness
-    of gauge block surfaces are reported.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>When end standards are measured interferometrically using an auxiliary platen a phase correction is needed to compensate for differences in the reflecting properties of the end standard and the platen. The phase correction is dependent on the complex refractive index of the materials and their roughness. None of the established methods of determining the phase correction has proved entirely satisfactory and a profiling method which results in an improved consistency of results is described.</p>
+    <p>A theoretical derivation is outlined which shows that under general conditions the "apparent" plane of reflection for a randomly rough surface approximates very closely to the mean plane of the surface.</p>
+    <p>Results of direct measurement of the relation of the apparent plane of reflection, measured by an interferometric and a profiling technique, are reported which verify the location as the mean plane. The profiling method has been applied in a controlled experiment which showed an improvement in the degree of consistency achieved in the measurement of gauge blocks.</p>
+    <p>The effect of the variability of the refractive index of gauge block and platen materials and the presence of contaminants on the reflecting surfaces is considered and the results of a survey of the roughness of gauge block surfaces are reported.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase Correction in the Interferometric Measurement of End Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Phase Correction in the Interferometric Measurement of End Standards
     date:
     - type: ppub
-      value: '1978-04-01'
+      at: '1978-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +76,6 @@ extent:
     reference_from: '53'
     reference_to: '62'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

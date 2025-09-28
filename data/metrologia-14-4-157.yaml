@@ -1,101 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia144157
-title:
-- content: The Decay of<sup>137</sup>Cs Determined by β-Ray Spectrometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/14/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 4 157
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Decay of <sup>137</sup>Cs Determined by β-Ray Spectrometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/4/004
+docidentifier:
+- content: Metrologia 14 4 157
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/4/004
+- content: 10.1088/0026-1394/14/4/004
   type: doi
 date:
 - type: published
-  value: '1978-10-01'
+  at: '1978-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Christmas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Cross
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1978-10-01'
 abstract:
-- content: "<p>The internal conversion coefficients of the 662 keV transition in<sup>137</sup>Ba
-    have been determined by the PBS method using an iron-free, double-focusing β-ray
-    spectrometer. The results, with overall 68% confidence limits, were α<sub>T</sub>
-    = 0.1092 ± 0.0008 and α<sub>K</sub> = 0.0888 ± 0.0007. In addition, the intensities
-    per disintegration of the high-energy β-branch and of the 662 keV γ-ray were determined
-    to be (6.21 ± 0.07)% and (84.56 ± 0.08)% respectively, and the value (513.89 ±
-    0.26) keV was obtained for the endpoint energy of the inner β-branch.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The internal conversion coefficients of the 662 keV transition in <sup>137</sup>Ba
+    have been determined by the PBS method using an iron-free, double-focusing β-ray
+    spectrometer. The results, with overall 68% confidence limits, were α<sub><italic>T</italic></sub>
+    = 0.1092 ± 0.0008 and α<sub><italic>K</italic></sub> = 0.0888 ± 0.0007. In addition,
+    the intensities per disintegration of the high-energy β-branch and of the 662
+    keV γ-ray were determined to be (6.21 ± 0.07)% and (84.56 ± 0.08)% respectively,
+    and the value (513.89 ± 0.26) keV was obtained for the endpoint energy of the
+    inner β-branch.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Decay of<sup>137</sup>Cs Determined by β-Ray Spectrometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: The Decay of <sup>137</sup>Cs Determined by β-Ray Spectrometry
     date:
     - type: ppub
-      value: '1978-10-01'
+      at: '1978-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +93,6 @@ extent:
     reference_from: '157'
     reference_to: '166'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

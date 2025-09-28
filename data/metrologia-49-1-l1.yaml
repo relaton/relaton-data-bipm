@@ -1,64 +1,59 @@
 ---
-schema-version: v1.2.9
-id: Metrologia491L1
-title:
-- content: Revision of ‘Reassessment of a calibration model by Bayesian reference
-    analysis’
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Revision of ‘Reassessment of a calibration model by Bayesian reference
+    analysis’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/L01
+docidentifier:
+- content: Metrologia 49 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/L01
+- content: 10.1088/0026-1394/49/1/L01
   type: doi
 date:
 - type: published
-  value: '2011-11-07'
+  at: '2011-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dieter Grientschnig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Chemical Laboratories, Böhler Edelstahl, Mariazeller Str. 25, 8605
             Kapfenberg, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2011-11-07'
 abstract:
-- content: "<p>In a previous paper (2011 Metrologia 48 L7–11) we have calculated a
-    reference prior for a calibration model where a state-of-knowledge distribution
+- language: en
+  script:
+  - Latn
+  content: <p>In a previous paper (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/48/1/L02">2011
+    <italic>Metrologia</italic> <bold>48</bold> L7–11</ext-link>) we have calculated
+    a reference prior for a calibration model where a state-of-knowledge distribution
     of the coefficients of the calibration function is provided. Observed values of
     the response for a fixed value of the stimulus are also available. They are assumed
     to conform to a Gaussian probability distribution of unknown standard deviation.
@@ -66,59 +61,51 @@ abstract:
     of subsets of the parameter space. This choice is preferable to the earlier one
     with respect to the properties of the ensuing posterior. In contrast to the former
     result the revised reference prior leads to the same posterior distribution as
-    the application of Supplement 1 to the ‘Guide to the Expression of Uncertainty
-    in Measurement’.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    the application of Supplement 1 to the ‘<italic>Guide to the Expression of Uncertainty
+    in Measurement</italic>’.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revision of ‘Reassessment of a calibration model by Bayesian reference
+    - language: en
+      script: Latn
+      content: Revision of ‘Reassessment of a calibration model by Bayesian reference
         analysis’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-11-07'
+      at: '2011-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revision of ‘Reassessment of a calibration model by Bayesian reference
+    - language: en
+      script: Latn
+      content: Revision of ‘Reassessment of a calibration model by Bayesian reference
         analysis’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +116,6 @@ extent:
     reference_from: L1
     reference_to: L3
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

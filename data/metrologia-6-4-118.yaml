@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia64118
-title:
-- content: Areas of Promise for the Development of Future Primary Frequency Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 4 118
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Areas of Promise for the Development of Future Primary Frequency Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/4/003
+docidentifier:
+- content: Metrologia 6 4 118
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/4/003
+- content: 10.1088/0026-1394/6/4/003
   type: doi
 date:
 - type: published
-  value: '1970-10-01'
+  at: '1970-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hellwig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atomic Frequency and Time Standards Section, National Bureau of
             Standards, Boulder, Colorado 80302 USA
-  role:
-  - type: author
-revdate: '1970-10-01'
 abstract:
-- content: "<p>This paper discusses possibilities which may lead to the development
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper discusses possibilities which may lead to the development
     of future primary frequency standards of superior accuracy capability. Aspects
     of costs and field-usage are totally neglected. A review is given of the various
     methods and techniques which are currently employed in quantum electronic frequency
@@ -55,39 +51,31 @@ abstract:
     on the stability and accuracy capability. Aspects of the most promising devices
     are discussed, and it is concluded that accuracy capabilities of 10<sup>-14</sup>
     should be within reach of today's research and development.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Areas of Promise for the Development of Future Primary Frequency Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Areas of Promise for the Development of Future Primary Frequency Standards
     date:
     - type: ppub
-      value: '1970-10-01'
+      at: '1970-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '118'
     reference_to: '126'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

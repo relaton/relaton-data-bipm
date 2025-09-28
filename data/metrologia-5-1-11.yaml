@@ -1,88 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5111
-title:
-- content: Algorithms in Series Form for the Calculation of Capillary Action in Cylindrical
-    Tubes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Algorithms in Series Form for the Calculation of Capillary Action in Cylindrical
+    Tubes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/1/003
+docidentifier:
+- content: Metrologia 5 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/1/003
+- content: 10.1088/0026-1394/5/1/003
   type: doi
 date:
 - type: published
-  value: '1969-01-01'
+  at: '1969-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Ury
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Faculty of Mechanical Engineering, Technion, Israel Institute of
             Technology, Haifa, Israel
-  role:
-  - type: author
-revdate: '1969-01-01'
 abstract:
-- content: "<p>Algorithms in series form are derived, suitable for computer calculation
+- language: en
+  script:
+  - Latn
+  content: "<p>Algorithms in series form are derived, suitable for computer calculation
     of capillary action in vertical cylindrical tubes. Concerning the capillary depression
     of mercury barometers and manometers they are shown to give, in the entire range
     of practical interest, results at least as accurate as tables based on numerical
     integration. They have, however, far more general application, since with their
     help capillary displacement, and the corresponding contact angles, can be calculated
     immediately also for other liquids and tube diameters.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Algorithms in Series Form for the Calculation of Capillary Action in
+    - language: en
+      script: Latn
+      content: Algorithms in Series Form for the Calculation of Capillary Action in
         Cylindrical Tubes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1969-01-01'
+      at: '1969-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '11'
     reference_to: '14'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

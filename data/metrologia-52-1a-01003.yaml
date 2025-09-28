@@ -1,81 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521A01003
-title:
-- content: 'Final report: EURAMET.EM-S39'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1A/01003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1A/01003
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1A 01003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report: EURAMET.EM-S39'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1A/01003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1A/01003
+docidentifier:
+- content: Metrologia 52 1A 01003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1A/01003
+- content: 10.1088/0026-1394/52/1A/01003
   type: doi
 date:
 - type: published
-  value: '2015-01-01'
+  at: '2015-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Helge Malmbekk
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Justervesenet—The Norwegian Metrology Service
-  role:
-  - type: author
-revdate: '2015-01-01'
 abstract:
-- content: |-
-    <p>The AC-DC difference of a set of current shunts produced by the Norwegian Metrology Service (Justervesenet), were measured by PTB and Justervesenet, in a bilateral comparison, where Justervesenet acted as the organizer and pilot laboratory. The nominal values of the current shunts are 30 mA, 100 mA, 300 mA, 1 A, 3 A, 5 A, 10 A and 20 A, which were measured at their nominal values for the frequencies 10 Hz, 20 Hz, 55 Hz, 110 Hz, 400 Hz, 1 kHz, 5 kHz, 10 kHz, 20 kHz, 50 kHz and 100 kHz. All current shunts were measured in combination with Planar Multi-junction Thermal Converters produced by PTB.</p><p>The results show that there is a degree of equivalence within 0.4 for all measured values, and that for frequencies below 10 kHz, the value is typically below 0.2. Hence, there is a very close agreement between the measurements, which are not correlated by traceability chains, and the properties of the current shunts have been documented by the comparison.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The AC-DC difference of a set of current shunts produced by the Norwegian Metrology Service (Justervesenet), were measured by PTB and Justervesenet, in a bilateral comparison, where Justervesenet acted as the organizer and pilot laboratory. The nominal values of the current shunts are 30 mA, 100 mA, 300 mA, 1 A, 3 A, 5 A, 10 A and 20 A, which were measured at their nominal values for the frequencies 10 Hz, 20 Hz, 55 Hz, 110 Hz, 400 Hz, 1 kHz, 5 kHz, 10 kHz, 20 kHz, 50 kHz and 100 kHz. All current shunts were measured in combination with Planar Multi-junction Thermal Converters produced by PTB.</p>
+    <p>The results show that there is a degree of equivalence within 0.4 for all measured values, and that for frequencies below 10 kHz, the value is typically below 0.2. Hence, there is a very close agreement between the measurements, which are not correlated by traceability chains, and the properties of the current shunts have been documented by the comparison. </p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/S39/EURAMET.EM-S39.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report: EURAMET.EM-S39'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final report: EURAMET.EM-S39'
     date:
     - type: ppub
-      value: '2015-01-01'
+      at: '2015-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +77,6 @@ extent:
     reference_from: '01003'
     reference_to: '01003'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

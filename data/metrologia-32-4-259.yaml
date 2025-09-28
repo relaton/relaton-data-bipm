@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324259
-title:
-- content: Modelling of the effective emissivity of a graphite black body
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 259
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Modelling of the effective emissivity of a graphite black body
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/3
+docidentifier:
+- content: Metrologia 32 4 259
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/3
+- content: 10.1088/0026-1394/32/4/3
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J Ballico
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: "<p>Measurements of the effective radiance temperature of a high-temperature
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurements of the effective radiance temperature of a high-temperature
     graphite tube black-body furnace are compared with those calculated from two theoretical
     models. The first model extends the conventional annular zone model by including
     effects of vignetting and temperature gradients. Because the black-body surface
     is not a perfect diffuse reflector, this is found to be insufficiently accurate
     and a Monte-Carlo integration with a diffuse/Fresnel-specular surface model is
     presented, which gives good agreement with the measured data.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Modelling of the effective emissivity of a graphite black body
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Modelling of the effective emissivity of a graphite black body
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '259'
     reference_to: '265'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

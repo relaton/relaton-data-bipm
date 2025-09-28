@@ -1,142 +1,120 @@
 ---
-schema-version: v1.2.9
-id: Metrologia602025001
-title:
-- content: Thickness and refractive index measurements of a thin-film using an artificial
-    neural network algorithm
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/acb70d
-  type: src
-- content: https://doi.org/10.1088/1681-7575/acb70d
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 2 025001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Thickness and refractive index measurements of a thin-film using an artificial
+    neural network algorithm
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/acb70d
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/acb70d
+docidentifier:
+- content: Metrologia 60 2 025001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/acb70d
+- content: 10.1088/1681-7575/acb70d
   type: doi
 date:
 - type: published
-  value: '2023-02-13'
+  at: '2023-02-13'
 contributor:
-- person:
-    name:
-      completename:
-        content: Joonyoung Lee
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: University of Science and Technology
-        subdivision:
-        - content: Department of Precision Measurement
-        contact:
-        - address:
-            formatted_address: Daejeon, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
-        content: Jonghan Jin
-        language:
-        - en
-        script:
-        - Latn
+        language: en
+        script: Latn
+        content: Joonyoung Lee
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon, Republic of Korea
         name:
         - content: University of Science and Technology
         subdivision:
-        - content: Department of Precision Measurement
-        contact:
-        - address:
-            formatted_address: Daejeon, Republic of Korea
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Precision Measurement
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
+        content: Jonghan Jin
+    affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon, Republic of Korea
+        name:
+        - content: University of Science and Technology
+        subdivision:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Precision Measurement
+    - organization:
+        address:
+        - formatted_address: Daejeon, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science
         subdivision:
-        - content: Division of Physical Metrology
-        contact:
-        - address:
-            formatted_address: Daejeon, Republic of Korea
-  role:
-  - type: author
-revdate: '2023-02-13'
+        - name:
+          - language: en
+            script: Latn
+            content: Division of Physical Metrology
 abstract:
-- content: Abstract<p>Thin-film thickness and refractive index measurements are important
-    for quality control in many high-tech industrial manufacturing processes, such
-    as the semiconductor, display, and battery. Many studies have been carried out
-    to measure the thickness and refractive index of thin-films, and recently studies
-    using an artificial neural network (ANN) algorithm have also been conducted. However,
-    strict evaluations of ANNs were not reported in all previous studies. In this
-    study, a multilayer perceptron type of ANN algorithm for simultaneously analyzing
-    the thickness and refractive index of a thin-film is designed and verified by
-    using four thin-film certified reference materials (CRMs) being traceable to the
-    length standard. According to the number of hidden layers and the number of nodes
-    for each hidden layer, 12 multilayer perceptron type ANN algorithms were designed
-    and trained with a theoretical dataset generated through optics theory based on
-    multiple interferences. Subsequently, the interference spectra measured by the
-    four CRMs were put into the 12 trained ANNs as input, and it was checked whether
-    or not the output values were in good agreement with the corresponding certified
-    values of both the thickness and refractive index. As a result, an ANN algorithm
-    having two hidden layers with 100 nodes was selected as the final algorithm and
-    an uncertainty evaluation was performed. Finally, the combined uncertainties for
-    the thickness and refractive index were estimated to be 2.0 nm and 0.025 at a
-    wavelength of 632.8 nm, respectively, as measured using a spectral reflectometer
-    with the well-trained ANN algorithm.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Thin-film thickness and refractive index measurements are important for quality control in many high-tech industrial manufacturing processes, such as the semiconductor, display, and battery. Many studies have been carried out to measure the thickness and refractive index of thin-films, and recently studies using an artificial neural network (ANN) algorithm have also been conducted. However, strict evaluations of ANNs were not reported in all previous studies. In this study, a multilayer perceptron type of ANN algorithm for simultaneously analyzing the thickness and refractive index of a thin-film is designed and verified by using four thin-film certified reference materials (CRMs) being traceable to the length standard. According to the number of hidden layers and the number of nodes for each hidden layer, 12 multilayer perceptron type ANN algorithms were designed and trained with a theoretical dataset generated through optics theory based on multiple interferences. Subsequently, the interference spectra measured by the four CRMs were put into the 12 trained ANNs as input, and it was checked whether or not the output values were in good agreement with the corresponding certified values of both the thickness and refractive index. As a result, an ANN algorithm having two hidden layers with 100 nodes was selected as the final algorithm and an uncertainty evaluation was performed. Finally, the combined uncertainties for the thickness and refractive index were estimated to be 2.0 nm and 0.025 at a wavelength of 632.8 nm, respectively, as measured using a spectral reflectometer with the well-trained ANN algorithm.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thickness and refractive index measurements of a thin-film using an
+    - script: Latn
+      content: Thickness and refractive index measurements of a thin-film using an
         artificial neural network algorithm
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2023-04-01'
+      at: '2023-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thickness and refractive index measurements of a thin-film using an
+    - script: Latn
+      content: Thickness and refractive index measurements of a thin-film using an
         artificial neural network algorithm
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2023-02-13'
+      at: '2023-02-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +122,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

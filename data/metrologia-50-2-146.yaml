@@ -1,117 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia502146
-title:
-- content: Temperature dependence of cavity ionization chamber response
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/2/146
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/2/146
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 2 146
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Temperature dependence of cavity ionization chamber response
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/2/146
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/2/146
+docidentifier:
+- content: Metrologia 50 2 146
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/2/146
+- content: 10.1088/0026-1394/50/2/146
   type: doi
 date:
 - type: published
-  value: '2013-03-05'
+  at: '2013-03-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chul-Young Yi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science
         subdivision:
-        - content: Center for Ionizing Radiation
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Center for Ionizing Radiation
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hyun-Moon Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science
         subdivision:
-        - content: Center for Ionizing Radiation
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
-  role:
-  - type: author
-revdate: '2013-03-05'
+        - name:
+          - language: en
+            script: Latn
+            content: Center for Ionizing Radiation
 abstract:
-- content: Abstract<p>The temperature dependence of the cavity ion chamber response
-    was measured at room temperature in the range 17 °C to 27 °C. By analysing the
-    variation of the ionization current with temperature produced in the cavity chamber,
-    the temperature coefficient of the cavity chamber response was evaluated. The
-    values were 4.1 × 10<sup>−4</sup> °C<sup>−1</sup>, 4.3 × 10<sup>−4</sup> °C<sup>−1</sup>
-    and 2 × 10<sup>−5</sup> °C<sup>−1</sup> for chambers made of C552 air equivalent
-    plastic, polyoxymethylene and graphite, respectively.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The temperature dependence of the cavity ion chamber response was measured at room temperature in the range 17 °C to 27 °C. By analysing the variation of the ionization current with temperature produced in the cavity chamber, the temperature coefficient of the cavity chamber response was evaluated. The values were 4.1 × 10<sup>−4</sup> °C<sup>−1</sup>, 4.3 × 10<sup>−4</sup> °C<sup>−1</sup> and 2 × 10<sup>−5</sup> °C<sup>−1</sup> for chambers made of C552 air equivalent plastic, polyoxymethylene and graphite, respectively.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Temperature dependence of cavity ionization chamber response
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Temperature dependence of cavity ionization chamber response
     date:
     - type: ppub
-      value: '2013-04-01'
+      at: '2013-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Temperature dependence of cavity ionization chamber response
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Temperature dependence of cavity ionization chamber response
     date:
     - type: epub
-      value: '2013-03-05'
+      at: '2013-03-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +112,6 @@ extent:
     reference_from: '146'
     reference_to: '152'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

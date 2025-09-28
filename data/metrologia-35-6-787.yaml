@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia356787
-title:
-- content: Detection of corruption in Gaussian processes with application to noise
-    thermometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/6/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/6/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 6 787
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Detection of corruption in Gaussian processes with application to noise
+    thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/6/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/6/1
+docidentifier:
+- content: Metrologia 35 6 787
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/6/1
+- content: 10.1088/0026-1394/35/6/1
   type: doi
 date:
 - type: published
-  value: '1998-12-01'
+  at: '1998-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL-IRL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL-IRL
-  role:
-  - type: author
-revdate: '1998-12-01'
 abstract:
-- content: "<p>Statistical tests are given for the detection of corruption in the
+- language: en
+  script:
+  - Latn
+  content: "<p>Statistical tests are given for the detection of corruption in the
     Gaussian process underlying the measurement of temperature with a Johnson noise
     thermometer. Principles of hypothesis testing are discussed, with emphasis being
     placed on the importance of utilizing prior knowledge in the design of a powerful
@@ -64,40 +58,32 @@ abstract:
     power of the tests are described, and example values given. The statistical power
     is sufficient for corruption at practical levels of interest to be detected with
     high probability.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detection of corruption in Gaussian processes with application to noise
+    - language: en
+      script: Latn
+      content: Detection of corruption in Gaussian processes with application to noise
         thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-12-01'
+      at: '1998-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '787'
     reference_to: '798'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

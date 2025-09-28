@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia15147
-title:
-- content: On the IPTS-68 Temperature Value of the Triple Point of Methane
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 1 47
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the IPTS-68 Temperature Value of the Triple Point of Methane
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/1/004
+docidentifier:
+- content: Metrologia 15 1 47
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/1/004
+- content: 10.1088/0026-1394/15/1/004
   type: doi
 date:
 - type: published
-  value: '1979-01-01'
+  at: '1979-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia, "G Colonnetti, " strada delle Cacce 73,
             10135 Torino, Italy
-  role:
-  - type: author
-revdate: '1979-01-01'
 abstract:
-- content: "<p>From accurate measurements on a set of sealed cells, each reproducible
+- language: en
+  script:
+  - Latn
+  content: "<p>From accurate measurements on a set of sealed cells, each reproducible
     to within ±0.2 mK, the temperature value for the triple point of methane was found
     to be 90.6856 K, with a range of 1 mK depending on which one of ten thermometers
     was used. All thermometers were calibrated on IPTS-68 using T(Ar) = 83.798 K.
@@ -49,39 +45,31 @@ abstract:
     based on the condensation point of oxygen as realized in different laboratories,
     a spread of 3.6 mK was found for the values of both the argon and the methane
     triple points.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the IPTS-68 Temperature Value of the Triple Point of Methane
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the IPTS-68 Temperature Value of the Triple Point of Methane
     date:
     - type: ppub
-      value: '1979-01-01'
+      at: '1979-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '47'
     reference_to: '49'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

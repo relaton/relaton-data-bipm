@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: JCRB-REC-2016-35-1
-title:
-- content: Recommendation JCRB/35-1 (2016)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Recommandation JCRB/35-1 (2016)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/35-2016
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/35-2016
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-35.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-35.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB REC 35-1 (2016)
-  type: BIPM
-  primary: true
-- id: JCRB REC 35-1 (2016, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: JCRB REC 35-1 (2016, F)
+  content: Recommendation JCRB/35-1 (2016)
+- language: fr
+  script: Latn
+  content: Recommandation JCRB/35-1 (2016)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/35-2016
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/35-2016
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-35.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-35.yml
+docidentifier:
+- content: JCRB REC 35-1 (2016)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: JCRB Recommendation 35-1 (2016)
+  content: JCRB REC 35-1 (2016, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: JCRB REC 35-1 (2016, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: JCRB Recommendation 35-1 (2016)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 35-1 du JCRB (2016)
+  content: Recommandation 35-1 du JCRB (2016)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: JCRB Recommendation 35-1 (2016) / Recommandation 35-1 du JCRB (2016)
+- content: JCRB Recommendation 35-1 (2016) / Recommandation 35-1 du JCRB (2016)
   type: BIPM-long
 docnumber: JCRB REC 35-1 (2016)
 date:
 - type: published
-  value: '2016-03-17'
+  at: '2016-03-17'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2016-03-17'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -92,8 +77,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: 35-1

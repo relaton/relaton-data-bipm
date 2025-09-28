@@ -1,131 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia39191
-title:
-- content: International comparison of volume measurement standards at 50 l at the
-    CENAM (Mexico), PTB (Germany), Measurement Canada and NIST (USA)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1 91
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International comparison of volume measurement standards at 50 l at the
+    CENAM (Mexico), PTB (Germany), Measurement Canada and NIST (USA)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1/11
+docidentifier:
+- content: Metrologia 39 1 91
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/11
+- content: 10.1088/0026-1394/39/1/11
   type: doi
 date:
 - type: published
-  value: '2002-02-01'
+  at: '2002-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Maldonado
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Arias
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H-H Oelze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V E Bean
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J F Houser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Lachance
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Jacques
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CENAM, PTB, NIST, MC, NRC
-  role:
-  - type: author
-revdate: '2002-02-01'
 abstract:
-- content: "<p>The Centro Nacional de Metrologia (CENAM), the Physikalisch-Technische
+- language: en
+  script:
+  - Latn
+  content: "<p>The Centro Nacional de Metrologia (CENAM), the Physikalisch-Technische
     Bundesanstalt (PTB), Measurement Canada (MC), and the National Institute of Standards
     and Technology (NIST) maintain the national primary standard facilities for the
     measurement of volume in Mexico, Germany, Canada and the United States, respectively.
@@ -134,40 +118,32 @@ abstract:
     circulated among the laboratories, with the CENAM acting as pilot laboratory.
     All the participants used gravimetric methods. The maximum and minimum reported
     volumes differ by 0.0098 %.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International comparison of volume measurement standards at 50 l at
+    - language: en
+      script: Latn
+      content: International comparison of volume measurement standards at 50 l at
         the CENAM (Mexico), PTB (Germany), Measurement Canada and NIST (USA)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-02-01'
+      at: '2002-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -178,6 +154,6 @@ extent:
     reference_from: '91'
     reference_to: '95'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia243101
-title:
-- content: Metrological Studies in the Field of Phase-angle Measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 3 101
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Metrological Studies in the Field of Phase-angle Measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/3/001
+docidentifier:
+- content: Metrologia 24 3 101
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/3/001
+- content: 10.1088/0026-1394/24/3/001
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yu V Tarbeyev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute of Metrology (VNIIM), Leningrad, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S A Kravchenko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute of Metrology (VNIIM), Leningrad, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E D Koltik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute of Metrology (VNIIM), Leningrad, USSR
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>The paper presents a discussion of the studies carried out at VNIIM
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper presents a discussion of the studies carried out at VNIIM
     on the measurement assurance of working and reference instruments in the field
     of measuring phase-shift angle (PSA) between two electric potentials. A description
     is given of the block diagram of the PSA standard and standard measures (phase
@@ -78,39 +70,31 @@ abstract:
     the frequency range of 0.001 Hz to 10 MHz. A possibility of increasing the accuracy
     of phaseangle measurement up to 10<sup>-5</sup> - 10<sup>-6</sup> of a degree
     is indicated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological Studies in the Field of Phase-angle Measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Metrological Studies in the Field of Phase-angle Measurement
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +105,6 @@ extent:
     reference_from: '101'
     reference_to: '106'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

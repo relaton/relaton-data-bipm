@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354403
-title:
-- content: Fast calibration of photodiodes in the near-infrared, visible and ultraviolet
-    using a Fourier-transform spectrometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/31
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/31
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 403
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fast calibration of photodiodes in the near-infrared, visible and ultraviolet
+    using a Fourier-transform spectrometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/31
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/31
+docidentifier:
+- content: Metrologia 35 4 403
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/31
+- content: 10.1088/0026-1394/35/4/31
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Werner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A new, fast method for broadband secondary calibrations of photodiodes
+- language: en
+  script:
+  - Latn
+  content: "<p>A new, fast method for broadband secondary calibrations of photodiodes
     against a calibrated reference diode has been developed. It is based on a Fourier-transform
     spectrometer (FTS) and does not require any exchange of the light source, grating
     or higher-order filter. With the present set-up, it takes only 10 minutes to measure
@@ -68,40 +62,32 @@ abstract:
     an efficient, practicable way has been found to provide customers with photodiodes
     as working standards of spectral responsivity for wavelengths from 1000 nm to
     200 nm with uncertainties of 0.05% to 0.2% (near-infrared and visible to ultraviolet).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fast calibration of photodiodes in the near-infrared, visible and ultraviolet
+    - language: en
+      script: Latn
+      content: Fast calibration of photodiodes in the near-infrared, visible and ultraviolet
         using a Fourier-transform spectrometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +98,6 @@ extent:
     reference_from: '403'
     reference_to: '406'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

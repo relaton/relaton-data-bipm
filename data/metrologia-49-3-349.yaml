@@ -1,143 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493349
-title:
-- content: Wideband digital phase comparator for high current shunts
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/349
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/349
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 349
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Wideband digital phase comparator for high current shunts
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/349
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/349
+docidentifier:
+- content: Metrologia 49 3 349
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/349
+- content: 10.1088/0026-1394/49/3/349
   type: doi
 date:
 - type: published
-  value: '2012-04-04'
+  at: '2012-04-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Umberto Pogliano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bruno Trinchera
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Danilo Serazio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135-Torino, Italy
-  role:
-  - type: author
-revdate: '2012-04-04'
 abstract:
-- content: Abstract<p>A wideband phase comparator for precise measurements of phase
-    difference of high current shunts has been developed at INRIM. The two-input digital
-    phase detector is realized with a precision wideband digitizer connected to the
-    outputs of the shunts under comparison through a pair of symmetric active guarded
-    transformers. Data are first acquired asynchronously, and then transferred from
-    on-board memory to host memory. Because of the large amount of data collected
-    the filtering process and the analysis algorithms are performed outside the acquisition
-    routine. Most of the systematic errors can be compensated by a proper inversion
-    procedure.</p><p>The system is suitable for comparing shunts in a wide range of
-    currents, from 2 A up to 100 A, and frequencies ranging between 500 Hz and 100 kHz.
-    Expanded uncertainty (k = 2) less than 50 µrad, for frequency up to 100 kHz, is
-    obtained in the measurement of the phase difference of a group of 10 A shunts,
-    provided by some European NMIs, using a digitizer with sampling frequency up to
-    1 MHz. An enhanced version of the phase comparator employs a new digital phase
-    detector with higher sampling frequency and vertical resolution. This permits
-    the contribution to the uncertainty budget of the phase detector to be decreased
-    by a factor two from 20 kHz to 100 kHz. Theories and experiments show that the
-    phase difference between two high precision wideband digitizers, coupled as a
-    phase detector, depends on multiple factors derived from the analogue and digital
-    imprint of each sampling system.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>A wideband phase comparator for precise measurements of phase difference of high current shunts has been developed at INRIM. The two-input digital phase detector is realized with a precision wideband digitizer connected to the outputs of the shunts under comparison through a pair of symmetric active guarded transformers. Data are first acquired asynchronously, and then transferred from on-board memory to host memory. Because of the large amount of data collected the filtering process and the analysis algorithms are performed outside the acquisition routine. Most of the systematic errors can be compensated by a proper inversion procedure.</p>
+    <p>The system is suitable for comparing shunts in a wide range of currents, from 2 A up to 100 A, and frequencies ranging between 500 Hz and 100 kHz. Expanded uncertainty (<italic>k</italic> = 2) less than 50 µrad, for frequency up to 100 kHz, is obtained in the measurement of the phase difference of a group of 10 A shunts, provided by some European NMIs, using a digitizer with sampling frequency up to 1 MHz. An enhanced version of the phase comparator employs a new digital phase detector with higher sampling frequency and vertical resolution. This permits the contribution to the uncertainty budget of the phase detector to be decreased by a factor two from 20 kHz to 100 kHz. Theories and experiments show that the phase difference between two high precision wideband digitizers, coupled as a phase detector, depends on multiple factors derived from the analogue and digital imprint of each sampling system.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wideband digital phase comparator for high current shunts
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wideband digital phase comparator for high current shunts
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wideband digital phase comparator for high current shunts
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wideband digital phase comparator for high current shunts
     date:
     - type: epub
-      value: '2012-04-04'
+      at: '2012-04-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +117,6 @@ extent:
     reference_from: '349'
     reference_to: '358'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

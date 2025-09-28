@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10111
-title:
-- content: An Ultra-Stable AC Power Supply for an Absolute Volt Determination
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Ultra-Stable AC Power Supply for an Absolute Volt Determination
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/1/004
+docidentifier:
+- content: Metrologia 10 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/1/004
+- content: 10.1088/0026-1394/10/1/004
   type: doi
 date:
 - type: published
-  value: '1974-01-01'
+  at: '1974-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H K Schoenwetter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Basic Standards, National Bureau of Standards, Washington,
             DC, USA
-  role:
-  - type: author
-revdate: '1974-01-01'
 abstract:
-- content: "<p>A 159.2 Hz power supply with 85 VA power output and very stable amplitude
+- language: en
+  script:
+  - Latn
+  content: "<p>A 159.2 Hz power supply with 85 VA power output and very stable amplitude
     was designed and constructed for use in an absolute volt experiment. The rms value
     of the ac voltage is regulated at the level of a dc reference voltage (based on
     unsaturated standard cells), using a feedback control circuit. The measured amplitude
     drift is less than 0.5 ppm/h and is typically less than 1 ppm in 4 h. The measured
     amplitude temperature coefficient is 0.6 ppm/°C and the distortion is less than
     0.02%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Ultra-Stable AC Power Supply for an Absolute Volt Determination
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Ultra-Stable AC Power Supply for an Absolute Volt Determination
     date:
     - type: ppub
-      value: '1974-01-01'
+      at: '1974-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '11'
     reference_to: '15'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia4118
-title:
-- content: New weight-loading device for calibration of precise barometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 8
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New weight-loading device for calibration of precise barometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/002
+docidentifier:
+- content: Metrologia 41 1 8
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/002
+- content: 10.1088/0026-1394/41/1/002
   type: doi
 date:
 - type: published
-  value: '2003-12-10'
+  at: '2003-12-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Y Woo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass & Force Group, Korea Research Institute of Standards and Science,
             PO Box 102, Yuseong, Daejeon 305-600, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y J Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass & Force Group, Korea Research Institute of Standards and Science,
             PO Box 102, Yuseong, Daejeon 305-600, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Choi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass & Force Group, Korea Research Institute of Standards and Science,
             PO Box 102, Yuseong, Daejeon 305-600, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Choi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Information and Communication, Honam University,
             Seobongdong 59-1, Gwangsangu, Gwangju, Republic of Korea
-  role:
-  - type: author
-revdate: '2003-12-10'
 abstract:
-- content: "<p>In order to calibrate highly accurate barometers, laser/ultrasonic
+- language: en
+  script:
+  - Latn
+  content: "<p>In order to calibrate highly accurate barometers, laser/ultrasonic
     mercury manometers have been used. However, the complexity and cost of mercury
     manometers have gradually taken them out of use in most calibration laboratories.
     As a substitute, a gas-operated pressure balance is used to calibrate precise
@@ -94,58 +84,47 @@ abstract:
     not desirable because the consequent exposure of the piston, cylinder and masses
     to the atmosphere causes the problem of contamination and the ingress of dust
     particles to the gap between the piston and cylinder. In this paper, a novel weight-loading
-    device for changing the masses in situ without breaking the vacuum is described.
-    This device makes it possible to add or remove weights easily in the absolute
-    mode, thereby greatly reducing the time between observations. Using this device
-    we could easily calibrate a precise quartz resonance barometer (Paroscientific,
+    device for changing the masses <italic>in situ</italic> without breaking the vacuum
+    is described. This device makes it possible to add or remove weights easily in
+    the absolute mode, thereby greatly reducing the time between observations. Using
+    this device we could easily calibrate a precise quartz resonance barometer (Paroscientific,
     Model 760-16B) from 940 hPa to 1050 hPa.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New weight-loading device for calibration of precise barometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New weight-loading device for calibration of precise barometers
     date:
     - type: epub
-      value: '2003-12-10'
+      at: '2003-12-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: New weight-loading device for calibration of precise barometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New weight-loading device for calibration of precise barometers
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +135,6 @@ extent:
     reference_from: '8'
     reference_to: '11'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

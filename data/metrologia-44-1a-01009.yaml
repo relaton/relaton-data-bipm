@@ -1,113 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A01009
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Final report on EUROMET.EM.BIPM-K11.6 (EUROMET project no 846):
     Comparison of 1.018 V and 10 V DC voltages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/01009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/01009
-  type: doi
-type: article
-docid:
-- id: Metrologia 44 1A 01009
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/01009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/01009
+docidentifier:
+- content: Metrologia 44 1A 01009
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/01009
+- content: 10.1088/0026-1394/44/1A/01009
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Waldmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen (BEV), Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Dragomir
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institutul National de Metrologie (INM), Romania
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Turhan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ulusal Metroloji Enstitüsü (UME), Turkey
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>This report presents the results of a trilateral comparison of measurements on a Zener voltage standard within the framework of EUROMET. The participants are the national metrology institutes of Romania (INM), Turkey (UME) and Austria (BEV); BEV acted as the pilot laboratory. The comparison was performed in order to link the National Institute of Metrology Bucharest (INM) to the BIPM key comparisons.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This report presents the results of a trilateral comparison of measurements on a Zener voltage standard within the framework of EUROMET. The participants are the national metrology institutes of Romania (INM), Turkey (UME) and Austria (BEV); BEV acted as the pilot laboratory. The comparison was performed in order to link the National Institute of Metrology Bucharest (INM) to the BIPM key comparisons.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K11/EUROMET.EM.BIPM-K11.6.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Final report on EUROMET.EM.BIPM-K11.6 (EUROMET project no 846):
         Comparison of 1.018 V and 10 V DC voltages
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +104,6 @@ extent:
     reference_from: '01009'
     reference_to: '01009'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S42
-title:
-- content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary frequency
-    standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S42
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary frequency
+    standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S07
+docidentifier:
+- content: Metrologia 45 6 S42
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S07
+- content: 10.1088/0026-1394/45/6/S07
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pierre Uhrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE-SYRTE, UMR CNRS 8630, Observatoire de Paris, 61 avenue de l'Observatoire,
             75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David Valat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE-SYRTE, UMR CNRS 8630, Observatoire de Paris, 61 avenue de l'Observatoire,
             75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michel Abgrall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE-SYRTE, UMR CNRS 8630, Observatoire de Paris, 61 avenue de l'Observatoire,
             75014 Paris, France
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>The French atomic time scale TA(F), which is computed with data from
+- language: en
+  script:
+  - Latn
+  content: "<p>The French atomic time scale TA(F), which is computed with data from
     about 20 industrial caesium standards located in nine French institutions, aims
     to provide a stable national frequency reference to the contributing institutions.
     To improve its stability, it was decided a few years ago to steer the time scale,
@@ -84,60 +76,50 @@ abstract:
     from the LNE-SYRTE PFS, in that way providing a more stable reference. We describe
     the steering applied to TA(F) and show the results in terms of relative stability
     with respect to TAI, or by comparing TA(F) with the SI second on the geoid as
-    published monthly by the BIPM in its Circular T. When applying this steering during
-    recent years, the departure over 30 d intervals of TA(F) from the SI second on
-    the geoid was maintained inside the limits ±3 × 10<sup>−15</sup>. Within these
-    limits, the TA(F) scale unit interval is in agreement with the SI second, a result
-    which was made possible thanks to the four PFS currently in operation in the LNE-SYRTE.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    published monthly by the BIPM in its <italic>Circular T</italic>. When applying
+    this steering during recent years, the departure over 30 d intervals of TA(F)
+    from the SI second on the geoid was maintained inside the limits ±3 × 10<sup>−15</sup>.
+    Within these limits, the TA(F) scale unit interval is in agreement with the SI
+    second, a result which was made possible thanks to the four PFS currently in operation
+    in the LNE-SYRTE.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary
+    - language: en
+      script: Latn
+      content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary
         frequency standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary
+    - language: en
+      script: Latn
+      content: Steering of the French time scale TA(F) towards the LNE-SYRTE primary
         frequency standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +130,6 @@ extent:
     reference_from: S42
     reference_to: S46
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

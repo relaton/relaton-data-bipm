@@ -1,131 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia555747
-title:
-- content: Non-linear response of a class of hyper-spectral radiometers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aadd7f
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aadd7f
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 5 747
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Non-linear response of a class of hyper-spectral radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aadd7f
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aadd7f
+docidentifier:
+- content: Metrologia 55 5 747
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aadd7f
+- content: 10.1088/1681-7575/aadd7f
   type: doi
 date:
 - type: published
-  value: '2018-09-21'
+  at: '2018-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marco Talone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ispra, Italy
         name:
         - content: European Commission
         subdivision:
-        - content: Directorate for Sustainable Resources, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Ispra, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Directorate for Sustainable Resources, Joint Research Centre
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giuseppe Zibordi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ispra, Italy
         name:
         - content: European Commission
         subdivision:
-        - content: Directorate for Sustainable Resources, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Ispra, Italy
-  role:
-  - type: author
-revdate: '2018-09-21'
+        - name:
+          - language: en
+            script: Latn
+            content: Directorate for Sustainable Resources, Joint Research Centre
 abstract:
-- content: Abstract<p>The non-linear response of RAMSES hyperspectral radiometers
-    was characterized in the 450 nm–800 nm spectral region. Results indicate inverse
-    proportionality of the non-linearity with the output counts. The departure from
-    linearity is generally within  ±1.5% with maxima at the longest wavelengths. Notably,
-    the consistency of results across different instruments suggests the possibility
-    of applying corrections to the entire class of RAMSES radiometers with residuals
-    generally lower than 0.3%. Finally, an analysis based on field measurements from
-    different water types indicates that non-linearity can contribute up to 1.5% to
-    the relative uncertainties affecting spectra of remote sensing reflectance.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The non-linear response of RAMSES hyperspectral radiometers was characterized in the 450 nm–800 nm spectral region. Results indicate inverse proportionality of the non-linearity with the output counts. The departure from linearity is generally within  ±1.5% with maxima at the longest wavelengths. Notably, the consistency of results across different instruments suggests the possibility of applying corrections to the entire class of RAMSES radiometers with residuals generally lower than 0.3%. Finally, an analysis based on field measurements from different water types indicates that non-linearity can contribute up to 1.5% to the relative uncertainties affecting spectra of remote sensing reflectance.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-linear response of a class of hyper-spectral radiometers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Non-linear response of a class of hyper-spectral radiometers
     date:
     - type: ppub
-      value: '2018-10-01'
+      at: '2018-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-linear response of a class of hyper-spectral radiometers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Non-linear response of a class of hyper-spectral radiometers
     date:
     - type: epub
-      value: '2018-09-21'
+      at: '2018-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-linear response of a class of hyper-spectral radiometers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Non-linear response of a class of hyper-spectral radiometers
     date:
     - type: open-access
-      value: '2018-09-21'
+      at: '2018-09-21'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +122,6 @@ extent:
     reference_from: '747'
     reference_to: '758'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

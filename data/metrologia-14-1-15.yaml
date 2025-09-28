@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14115
-title:
-- content: A Simple Linear Feedback Method for Twin Load Calorimetric rf Power Meters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 1 15
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Simple Linear Feedback Method for Twin Load Calorimetric rf Power Meters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/1/004
+docidentifier:
+- content: Metrologia 14 1 15
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/1/004
+- content: 10.1088/0026-1394/14/1/004
   type: doi
 date:
 - type: published
-  value: '1978-01-01'
+  at: '1978-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A E Fantom
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1978-01-01'
 abstract:
-- content: "<p>Feedback is often applied to calorimetric rf power meters to reduce
+- language: en
+  script:
+  - Latn
+  content: "<p>Feedback is often applied to calorimetric rf power meters to reduce
     the response time. In its usual form such feedback is non-linear, i.e. the loop
     gain varies with signal level. A simple method of linearizing the feedback loop
     is presented and its advantages outlined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Simple Linear Feedback Method for Twin Load Calorimetric rf Power
+    - language: en
+      script: Latn
+      content: A Simple Linear Feedback Method for Twin Load Calorimetric rf Power
         Meters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1978-01-01'
+      at: '1978-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '15'
     reference_to: '16'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

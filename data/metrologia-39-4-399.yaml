@@ -1,148 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia394399
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Comparison of spectral irradiance scales between
     the NIST and the HUT
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/4/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/4/10
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 4 399
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/4/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/4/10
+docidentifier:
+- content: Metrologia 39 4 399
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/4/10
+- content: 10.1088/0026-1394/39/4/10
   type: doi
 date:
 - type: published
-  value: '2002-08-01'
+  at: '2002-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Kübarsepp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), POB 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Technology Division, National Institute of Standards and
             Technology (NIST), 100 Bureau Drive, Stop 8441, Gaithersburg, MD 20899-8441,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Nevas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), POB 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), POB 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), POB 3000, FIN-02015 HUT, Finland
-  role:
-  - type: author
-revdate: '2002-08-01'
 abstract:
-- content: |-
-    <p>The results of a comparison of spectral irradiance scales between the National Institute of Standards
-    and Technology (NIST, USA), and the Metrology Research Institute, Helsinki University of Technology (HUT,
-    Finland), are presented. The comparison was carried out by measuring irradiances of two sets of 1 kW FEL-type lamps in the spectral range 290 nm to 900 nm. One set had calibration from the NIST 1992 source-based scale and the other from the HUT detector-based scale. The spectral irradiance values measured by the HUT are slightly higher than those given by the NIST: the differences are less than 1% in the visible/near-infrared wavelength region and up to 3.3% in the ultraviolet. The relative expanded uncertainty (k = 2) of the comparison varies between 3.1% to 1.0% from 290 nm to 900 nm, respectively.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The results of a comparison of spectral irradiance scales between the National Institute of Standards
+    and Technology (NIST, USA), and the Metrology Research Institute, Helsinki University of Technology (HUT,
+    Finland), are presented. The comparison was carried out by measuring irradiances of two sets of 1 kW FEL-type lamps in the spectral range 290 nm to 900 nm. One set had calibration from the NIST 1992 source-based scale and the other from the HUT detector-based scale. The spectral irradiance values measured by the HUT are slightly higher than those given by the NIST: the differences are less than 1% in the visible/near-infrared wavelength region and up to 3.3% in the ultraviolet. The relative expanded uncertainty (<italic>k</italic> = 2) of the comparison varies between 3.1% to 1.0% from 290 nm to 900 nm, respectively.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Comparison of spectral irradiance scales between
         the NIST and the HUT
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-08-01'
+      at: '2002-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +133,6 @@ extent:
     reference_from: '399'
     reference_to: '402'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

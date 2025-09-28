@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283281
-title:
-- content: Solar Irradiance Variability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/035
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/035
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 281
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Solar Irradiance Variability
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/035
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/035
+docidentifier:
+- content: Metrologia 28 3 281
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/035
+- content: 10.1088/0026-1394/28/3/035
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G A Nikolsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: The Leningrad State University Physical Institute. Petrodvorets
             198904, USSR
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>Support is given for the suggestion that the mean annual value of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Support is given for the suggestion that the mean annual value of the
     solar constant varies as an algebraic sum of changes in effective temperature
     and photospheric radius. A set of harmonic constituents covering the period 1979
     to 1987 is suggested. The fundamental harmonic used has a period of 10,56 years
     and harmonics of up to 74th order are described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar Irradiance Variability
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Solar Irradiance Variability
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '281'
     reference_to: '283'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S105
-title:
-- content: The measurement of optical frequencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S12
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S105
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The measurement of optical frequencies
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S12
+docidentifier:
+- content: Metrologia 42 3 S105
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S12
+- content: 10.1088/0026-1394/42/3/S12
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Hollberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time & Frequency Division, National Institute of Standards and
             Technology, 325 Broadway, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Diddams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time & Frequency Division, National Institute of Standards and
             Technology, 325 Broadway, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bartels
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Gigaoptics GmbH, Blarerstrasse 56, 78462 Konstanz, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Fortier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -85,26 +75,24 @@ contributor:
         name:
         - content: Los Alamos National Laboratory, Physics Division P-23, Los Alamos,
             NM 87545, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time & Frequency Division, National Institute of Standards and
             Technology, 325 Broadway, Boulder, CO 80305, USA
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>Surprising as it might seem, it is possible to phase-coherently track,
+- language: en
+  script:
+  - Latn
+  content: "<p>Surprising as it might seem, it is possible to phase-coherently track,
     synthesize, count and divide optical frequencies of visible laser sources. In
     essence, the technologies described here now allow direct connection of basically
     any frequency from DC to 1000 THz. Modern ‘self-referenced’ femtosecond mode-locked
@@ -118,53 +106,42 @@ abstract:
     the speed of light and in redefining the metre. We then describe the present state-of-the-art
     technology in femtosecond laser frequency combs, their extraordinary performance
     capabilities and some of the latest results.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The measurement of optical frequencies
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The measurement of optical frequencies
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The measurement of optical frequencies
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The measurement of optical frequencies
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -175,6 +152,6 @@ extent:
     reference_from: S105
     reference_to: S124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

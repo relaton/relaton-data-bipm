@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283125
-title:
-- content: First Comparison of the Solar and an SI Radiometric Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 125
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: First Comparison of the Solar and an SI Radiometric Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/004
+docidentifier:
+- content: Metrologia 28 3 125
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/004
+- content: 10.1088/0026-1394/28/3/004
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Romero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Centre, CH-7260 Davos-Dorf, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex TW11 OLW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Centre, CH-7260 Davos-Dorf, Switzerland
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The paper presents the results of the first comparison between the
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper presents the results of the first comparison between the
     solar radiometric scale, the World Radiometric Reference (WRR) and a Système International
     radiometric scale (SI scale) as disseminated by national standards laboratories,
     in particular, the scale based on the cryogenic radiometer of the National Physical
@@ -79,39 +71,31 @@ abstract:
     intermediaries between the two scales which limited the overall uncertainty to
     0,07%. The final result shows that the WARR and the NPL SI scale agree to better
     than 0,03%, well within the absolute uncertainty of the two scales.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: First Comparison of the Solar and an SI Radiometric Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: First Comparison of the Solar and an SI Radiometric Scale
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '125'
     reference_to: '128'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

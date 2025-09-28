@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia395425
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Thirty years of progress in absolute gravimetry: a scientific capability implemented by
     technological advances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/5/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/5/3
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 5 425
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/5/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/5/3
+docidentifier:
+- content: Metrologia 39 5 425
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/5/3
+- content: 10.1088/0026-1394/39/5/3
   type: doi
 date:
 - type: published
-  value: '2002-10-01'
+  at: '2002-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Faller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Joint Institute for Laboratory Astrophysics (JILA), National Institute
             of Standards and Technology and University of Colorado, Boulder, CO 80309-0440,
             USA
-  role:
-  - type: author
-revdate: '2002-10-01'
 abstract:
-- content: |-
-    <p>The application of technological advances has dramatically improved our ability to measure the absolute
-    value of g, the free-fall acceleration due to gravity. Over the past thirty years this improvement has been nearly three orders of magnitude! Today, the value of gcan be determined with an accuracy approaching 1 µGal (10<sup>-8</sup> m/s<sup>2</sup>) and measured with a precision that is at least ten times better. This paper reviews the history of and the reasons for this progress as well as taking a look to the future.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The application of technological advances has dramatically improved our ability to measure the absolute
+    value of <italic>g</italic>, the free-fall acceleration due to gravity. Over the past thirty years this improvement has been nearly three orders of magnitude! Today, the value of <italic>g</italic>can be determined with an accuracy approaching 1 µGal (10<sup>-8</sup> m/s<sup>2</sup>) and measured with a precision that is at least ten times better. This paper reviews the history of and the reasons for this progress as well as taking a look to the future.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Thirty years of progress in absolute gravimetry: a scientific capability implemented by
         technological advances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-10-01'
+      at: '2002-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '425'
     reference_to: '428'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

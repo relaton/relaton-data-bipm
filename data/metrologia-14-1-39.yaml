@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14139
-title:
-- content: Uncertainties in Calibrating a Stylus Type Surface Texture Measuring Instrument
-    with an Interferometrically Measured Step
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 1 39
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainties in Calibrating a Stylus Type Surface Texture Measuring Instrument
+    with an Interferometrically Measured Step
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/1/007
+docidentifier:
+- content: Metrologia 14 1 39
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/1/007
+- content: 10.1088/0026-1394/14/1/007
   type: doi
 date:
 - type: published
-  value: '1978-01-01'
+  at: '1978-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Clayton Teague
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
-  - type: author
-revdate: '1978-01-01'
 abstract:
-- content: "<p>This paper presents discussion and experimental data to demonstrate
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper presents discussion and experimental data to demonstrate
     that: (1) proper measurement of a step-height with interferometry must include
     a determination of the geometry of the surfaces on both sides of the step in the
     neighborhood of the measured area, (2) uncertainty of a step-height measurement
@@ -54,40 +50,32 @@ abstract:
     a stylus profile of a step is ultimately limited by and is approximately equal
     to the root mean square roughness, or the arithmetical average roughness value
     of the surface texture on both sides of the step.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in Calibrating a Stylus Type Surface Texture Measuring
+    - language: en
+      script: Latn
+      content: Uncertainties in Calibrating a Stylus Type Surface Texture Measuring
         Instrument with an Interferometrically Measured Step
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1978-01-01'
+      at: '1978-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '39'
     reference_to: '44'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

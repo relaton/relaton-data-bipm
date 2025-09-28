@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28295
+type: article
+schema_version: v1.4.1
 title:
-- content: Intercomparison of Optical Frequencies at 473 THz of<sup>127</sup>I<sub>2</sub>-stabilized
+- language: en
+  script: Latn
+  content: Intercomparison of Optical Frequencies at 473 THz of <sup>127</sup>I<sub>2</sub>-stabilized
     He-Ne Lasers from the Swedish National Testing and Research Institute and the
     Bureau International des Poids et Mesures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/28/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/2/006
-  type: doi
-type: article
-docid:
-- id: Metrologia 28 2 95
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/2/006
+docidentifier:
+- content: Metrologia 28 2 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/2/006
+- content: 10.1088/0026-1394/28/2/006
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L R Pendrill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SP, Weights and Measures, Box 857. S-501 15 Borås, Sweden
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), F-92312 Sèvres,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Frennberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SP, Weights and Measures, Box 857. S-501 15 Borås, Sweden
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Robertsson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), F-92312 Sèvres,
             France
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>An account is given of an intercomparison of the optical frequencies
+- language: en
+  script:
+  - Latn
+  content: "<p>An account is given of an intercomparison of the optical frequencies
     of I<sub>2</sub>-stabilized He-Ne lasers at 473 THz (633 nm) performed at the
     Bureau International des Poids et Mesures (BIPM), Sèvres, France during June 12-16,
     1989. The lasers, SP1 and BIPM2, belong to SP, Borås, Sweden and BIPM, respectively.
@@ -95,41 +85,33 @@ abstract:
     of 1,6 kHz and at a one-way intracavity power of 23,7 mW for laser SP1 and 8,3
     mW for laser BIPM2. The reproducibility of the laser SP1 frequency was estimated
     to be ± 20 kHz.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Intercomparison of Optical Frequencies at 473 THz of<sup>127</sup>I<sub>2</sub>-stabilized
+    - language: en
+      script: Latn
+      content: Intercomparison of Optical Frequencies at 473 THz of <sup>127</sup>I<sub>2</sub>-stabilized
         He-Ne Lasers from the Swedish National Testing and Research Institute and
         the Bureau International des Poids et Mesures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +122,6 @@ extent:
     reference_from: '95'
     reference_to: '98'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

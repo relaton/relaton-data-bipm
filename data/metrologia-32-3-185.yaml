@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia323185
-title:
-- content: Analysis of data from the 1994 International Comparison of Absolute Gravimeters
-    with a single computational protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 3 185
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analysis of data from the 1994 International Comparison of Absolute Gravimeters
+    with a single computational protocol
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/3/006
+docidentifier:
+- content: Metrologia 32 3 185
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/3/006
+- content: 10.1088/0026-1394/32/3/006
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G S Sasagawa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Geosciences Laboratory, National Oceanic and Atmospheric Administration,
             8600 North 39th Street, Longmont, CO 80503, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Klopping
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Geosciences Laboratory, National Oceanic and Atmospheric Administration,
             8600 North 39th Street, Longmont, CO 80503, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M vanDam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Geosciences Laboratory, National Oceanic and Atmospheric Administration,
             8600 North 39th Street, Longmont, CO 80503, USA
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>Data from the 1994 International Comparison of Absolute Gravimeters
+- language: en
+  script:
+  - Latn
+  content: "<p>Data from the 1994 International Comparison of Absolute Gravimeters
     were processed with the National Oceanic and Atmospheric Administration (NOAA)
     Geosciences Lab protocols and processing algorithms. The rootmean-square discrepancy
     between results obtained from individual groups and the NOAA processing is 2,3
@@ -80,40 +72,32 @@ abstract:
     probably (i) differences in the vertical gradients used for datum level transfers,
     (ii) inconsistencies between processing algorithms, and (iii) differences in data
     editing criteria.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis of data from the 1994 International Comparison of Absolute
+    - language: en
+      script: Latn
+      content: Analysis of data from the 1994 International Comparison of Absolute
         Gravimeters with a single computational protocol
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '185'
     reference_to: '192'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

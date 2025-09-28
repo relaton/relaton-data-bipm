@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia475616
-title:
-- content: Standard deviation of the mean and other time series properties of voltages
-    measured with a digital lock-in amplifier
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/5/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/5/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 5 616
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Standard deviation of the mean and other time series properties of voltages
+    measured with a digital lock-in amplifier
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/5/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/5/012
+docidentifier:
+- content: Metrologia 47 5 616
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/5/012
+- content: 10.1088/0026-1394/47/5/012
   type: doi
 date:
 - type: published
-  value: '2010-09-15'
+  at: '2010-09-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas J Witt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             92312 Sèvres cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N E Fletcher
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             92312 Sèvres cedex, France
-  role:
-  - type: author
-revdate: '2010-09-15'
 abstract:
-- content: "<p>We investigate some statistical properties of ac voltages from a white
+- language: en
+  script:
+  - Latn
+  content: "<p>We investigate some statistical properties of ac voltages from a white
     noise source measured with a digital lock-in amplifier equipped with finite impulse
     response output filters which introduce correlations between successive voltage
     values. The main goal of this work is to propose simple solutions to account for
@@ -68,62 +62,54 @@ abstract:
     autocorrelation function, the equivalent noise bandwidth and the Allan variance;
     all are related to the SDM. At most three parameters suffice to specify any of
     the above quantities: the filter time constant, the time between successive measurements
-    (both set by the lock-in operator) and the PSD of the white noise input, h<sub>0</sub>.
+    (both set by the lock-in operator) and the PSD of the white noise input, <italic>h</italic><sub>0</sub>.
     Our white noise source is a resistor so that the PSD is easily calculated; there
     are no free parameters. Theoretical expressions are checked against their respective
     sample estimates and, with the exception of two of the bandwidth estimates, agreement
     to within 11% or better is found.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Standard deviation of the mean and other time series properties of
+    - language: en
+      script: Latn
+      content: Standard deviation of the mean and other time series properties of
         voltages measured with a digital lock-in amplifier
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-09-15'
+      at: '2010-09-15'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Standard deviation of the mean and other time series properties of
+    - language: en
+      script: Latn
+      content: Standard deviation of the mean and other time series properties of
         voltages measured with a digital lock-in amplifier
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-10-01'
+      at: '2010-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +120,6 @@ extent:
     reference_from: '616'
     reference_to: '630'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

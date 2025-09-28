@@ -1,142 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia591015004
-title:
-- content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
-    Carlo techniques of GUM-S1
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac3920
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac3920
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 1 015004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
+    Carlo techniques of GUM-S1
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac3920
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac3920
+docidentifier:
+- content: Metrologia 59 1 015004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac3920
+- content: 10.1088/1681-7575/ac3920
   type: doi
 date:
 - type: published
-  value: '2021-12-09'
+  at: '2021-12-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Manuel Marschall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig and Berlin
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gerd Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig and Berlin
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig and Berlin
-  role:
-  - type: author
-revdate: '2021-12-09'
 abstract:
-- content: Abstract<p>Supplement 1 to the GUM (GUM-S1) extends the GUM uncertainty
-    framework to non-linear functions and non-Gaussian distributions. For this purpose,
-    it employs a Monte Carlo method that yields a probability density function for
-    the measurand. This Monte Carlo method has been successfully applied in numerous
-    applications throughout metrology. However, considerable criticism has been raised
-    against the type A uncertainty evaluation of GUM-S1. Most of the criticism could
-    be addressed by including prior information about the measurand which, however,
-    is beyond the scope of GUM-S1. We propose an alternative Monte Carlo method that
-    will allow prior information about the measurand to be included. The proposed
-    method is based on a Bayesian uncertainty evaluation and applies a simple rejection
-    sampling approach using the Monte Carlo techniques of GUM-S1. The range of applicability
-    of the approach is explored theoretically and in terms of examples. The results
-    are promising, leading us to conclude that many metrological applications could
-    benefit from this approach. Software support is provided to ease its implementation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Supplement 1 to the GUM (GUM-S1) extends the GUM uncertainty framework to non-linear functions and non-Gaussian distributions. For this purpose, it employs a Monte Carlo method that yields a probability density function for the measurand. This Monte Carlo method has been successfully applied in numerous applications throughout metrology. However, considerable criticism has been raised against the type A uncertainty evaluation of GUM-S1. Most of the criticism could be addressed by including prior information about the measurand which, however, is beyond the scope of GUM-S1. We propose an alternative Monte Carlo method that will allow prior information about the measurand to be included. The proposed method is based on a Bayesian uncertainty evaluation and applies a simple rejection sampling approach using the Monte Carlo techniques of GUM-S1. The range of applicability of the approach is explored theoretically and in terms of examples. The results are promising, leading us to conclude that many metrological applications could benefit from this approach. Software support is provided to ease its implementation.</p>
 copyright:
-- owner:
-  - name:
-    - content: The Author
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: The Author
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
+    - script: Latn
+      content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
         Carlo techniques of GUM-S1
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-02-01'
+      at: '2022-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
+    - script: Latn
+      content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
         Carlo techniques of GUM-S1
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-12-09'
+      at: '2021-12-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
+    - script: Latn
+      content: Rejection sampling for Bayesian uncertainty evaluation using the Monte
         Carlo techniques of GUM-S1
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2021-12-09'
+      at: '2021-12-09'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +116,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

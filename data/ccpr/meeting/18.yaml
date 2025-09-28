@@ -1,79 +1,64 @@
 ---
-schema-version: v1.2.9
 id: CCPR-2005-18
-title:
-- content: 18th meeting of the CCPR
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 18<sup>e</sup> réunion du CCPR
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/cc/ccpr/18-2005
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccpr/18-2005
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccpr/meetings-en/meeting-18.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccpr/meetings-fr/meeting-18.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CCPR 18th Meeting (2005)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 18th meeting of the CCPR
+- language: fr
+  script: Latn
+  content: 18<sup>e</sup> réunion du CCPR
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccpr/18-2005
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccpr/18-2005
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccpr/meetings-en/meeting-18.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccpr/meetings-fr/meeting-18.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CCPR 18th Meeting (2005)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CCPR 18<sup>e</sup> réunion (2005)
+  content: CCPR 18<sup>e</sup> réunion (2005)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CCPR 18th Meeting (2005) / CCPR 18<sup>e</sup> réunion (2005)
+- content: CCPR 18th Meeting (2005) / CCPR 18<sup>e</sup> réunion (2005)
   type: BIPM
   primary: true
 docnumber: CCPR 18th Meeting (2005)
 date:
 - type: published
-  value: '2005-10-26'
+  at: '2005-10-26'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2005-10-26'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -82,8 +67,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '18'

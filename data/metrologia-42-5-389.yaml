@@ -1,113 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425389
-title:
-- content: Validation of absolute planarity reference plates with a liquid mirror
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 389
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Validation of absolute planarity reference plates with a liquid mirror
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/008
+docidentifier:
+- content: Metrologia 42 5 389
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/008
+- content: 10.1088/0026-1394/42/5/008
   type: doi
 date:
 - type: published
-  value: '2005-08-11'
+  at: '2005-08-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurizio Vannoni
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ottica Applicata, Largo E Fermi 6, 50125
             Firenze, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giuseppe Molesini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ottica Applicata, Largo E Fermi 6, 50125
             Firenze, Italy
-  role:
-  - type: author
-revdate: '2005-08-11'
 abstract:
-- content: "<p>The use of a simplified version of the liquid mirror approach to validate
+- language: en
+  script:
+  - Latn
+  content: "<p>The use of a simplified version of the liquid mirror approach to validate
     absolute planarity reference flats is described in detail. It is shown that the
     approach can serve the purpose, providing a measurement of the peak-to-valley
     departure from planarity that in experiments is within 7 nm uncertainty (2σ) over
     a diameter of 90 mm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of absolute planarity reference plates with a liquid mirror
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Validation of absolute planarity reference plates with a liquid mirror
     date:
     - type: epub
-      value: '2005-08-11'
+      at: '2005-08-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of absolute planarity reference plates with a liquid mirror
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Validation of absolute planarity reference plates with a liquid mirror
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +101,6 @@ extent:
     reference_from: '389'
     reference_to: '393'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

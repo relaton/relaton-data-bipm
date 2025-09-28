@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia421L1
-title:
-- content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1/L01
+docidentifier:
+- content: Metrologia 42 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1/L01
+- content: 10.1088/0026-1394/42/1/L01
   type: doi
 date:
 - type: published
-  value: '2005-01-06'
+  at: '2005-01-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kenneth D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada (NRC), Institute for National
             Measurement Standards, Montreal Road, M-36, Ottawa, Ontario, K1A 0R6,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Steffen Rudtsch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, FB 7.4, Abbestr. 2-12, 10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '2005-01-06'
 abstract:
-- content: "<p>The International Temperature Scale of 1990 assigns temperatures to
+- language: en
+  script:
+  - Latn
+  content: "<p>The International Temperature Scale of 1990 assigns temperatures to
     the solid–liquid phase transitions (triple points, melting points, freezing points)
     of various substances. Since the ideally pure substances of the definition are
     unattainable in practice, the influence of impurities must be accounted for. Frequently,
@@ -71,53 +65,42 @@ abstract:
     techniques as can reasonably be brought to bear on the problem in an effort to
     develop certified reference materials to serve both the thermometry and chemical
     metrology communities.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
     date:
     - type: epub
-      value: '2005-01-06'
+      at: '2005-01-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: 'Thermometry''s dependence on chemical metrology: a needs-based assessment'
     date:
     - type: ppub
-      value: '2005-02-01'
+      at: '2005-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +111,6 @@ extent:
     reference_from: L1
     reference_to: L4
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

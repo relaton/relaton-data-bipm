@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia183133
-title:
-- content: Ac-Dc Transfer Measurements with a Precision of &lt; 0.1 ppm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 133
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ac-Dc Transfer Measurements with a Precision of &lt; 0.1 ppm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/004
+docidentifier:
+- content: Metrologia 18 3 133
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/004
+- content: 10.1088/0026-1394/18/3/004
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Inglis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>An ac-dc transfer comparator for the precise intercomparison of thermal
+- language: en
+  script:
+  - Latn
+  content: "<p>An ac-dc transfer comparator for the precise intercomparison of thermal
     converters (TCs) is described and its circuit analysed for comparisons between
     TCs with both equal and unequal heater currents. Details of its use in ac-dc current-transfer
     measurements and the repeatability achieved for a range of excitation currents
@@ -49,39 +45,31 @@ abstract:
     deviation of the mean of repeated sets of 10 measurements at rated current is
     typically similar 0.02 ppm and for sets of 30 measurements at 20% of rated current
     is similar 0.2 ppm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ac-Dc Transfer Measurements with a Precision of &lt; 0.1 ppm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Ac-Dc Transfer Measurements with a Precision of &lt; 0.1 ppm
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '133'
     reference_to: '138'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

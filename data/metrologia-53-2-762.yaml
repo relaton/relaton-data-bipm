@@ -1,126 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532762
-title:
-- content: Buoyancy contribution to uncertainty of mass, conventional mass and force
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/762
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/762
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 762
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Buoyancy contribution to uncertainty of mass, conventional mass and force
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/762
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/762
+docidentifier:
+- content: Metrologia 53 2 762
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/762
+- content: 10.1088/0026-1394/53/2/762
   type: doi
 date:
 - type: published
-  value: '2016-02-02'
+  at: '2016-02-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Malengo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2016-02-02'
 abstract:
-- content: 'Abstract<p>The conventional mass is a useful concept introduced to reduce
-    the impact of the buoyancy correction in everyday mass measurements, thus avoiding
-    in most cases its accurate determination, necessary in measurements of ‘true’
-    mass. Although usage of conventional mass is universal and standardized, the concept
-    is considered as a sort of second-choice tool, to be avoided in high-accuracy
-    applications. In this paper we show that this is a false belief, by elucidating
-    the role played by covariances between volume and mass and between volume and
-    conventional mass at the various stages of the dissemination chain and in the
-    relationship between the uncertainties of mass and conventional mass. We arrive
-    at somewhat counter-intuitive results: the volume of the transfer standard plays
-    a comparatively minor role in the uncertainty budget of the standard under calibration.
-    In addition, conventional mass is preferable to mass in normal, in-air operation,
-    as its uncertainty is smaller than that of mass, if covariance terms are properly
-    taken into account, and the uncertainty over-stating (typically) resulting from
-    neglecting them is less severe than that (always) occurring with mass. The same
-    considerations hold for force. In this respect, we show that the associated uncertainty
-    is the same using mass or conventional mass, and, again, that the latter is preferable
-    if covariance terms are neglected.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The conventional mass is a useful concept introduced to reduce the impact of the buoyancy correction in everyday mass measurements, thus avoiding in most cases its accurate determination, necessary in measurements of ‘true’ mass. Although usage of conventional mass is universal and standardized, the concept is considered as a sort of second-choice tool, to be avoided in high-accuracy applications. In this paper we show that this is a false belief, by elucidating the role played by covariances between volume and mass and between volume and conventional mass at the various stages of the dissemination chain and in the relationship between the uncertainties of mass and conventional mass. We arrive at somewhat counter-intuitive results: the volume of the transfer standard plays a comparatively minor role in the uncertainty budget of the standard under calibration. In addition, conventional mass is preferable to mass in normal, in-air operation, as its uncertainty is smaller than that of mass, if covariance terms are properly taken into account, and the uncertainty over-stating (typically) resulting from neglecting them is less severe than that (always) occurring with mass. The same considerations hold for force. In this respect, we show that the associated uncertainty is the same using mass or conventional mass, and, again, that the latter is preferable if covariance terms are neglected.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Buoyancy contribution to uncertainty of mass, conventional mass and
+    - script: Latn
+      content: Buoyancy contribution to uncertainty of mass, conventional mass and
         force
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Buoyancy contribution to uncertainty of mass, conventional mass and
+    - script: Latn
+      content: Buoyancy contribution to uncertainty of mass, conventional mass and
         force
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-02-02'
+      at: '2016-02-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +104,6 @@ extent:
     reference_from: '762'
     reference_to: '769'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,130 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia592022001
-title:
-- content: The irony of the magnet system for Kibble balances—a review
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac464a
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac464a
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 2 022001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The irony of the magnet system for Kibble balances—a review
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac464a
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac464a
+docidentifier:
+- content: Metrologia 59 2 022001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac464a
+- content: 10.1088/1681-7575/ac464a
   type: doi
 date:
 - type: published
-  value: '2022-03-01'
+  at: '2022-03-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shisong Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People’s Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Department of Electrical Engineering
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephan Schlamminger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
-  role:
-  - type: author
-revdate: '2022-03-01'
 abstract:
-- content: 'Abstract<p>The magnet system is an essential component of the Kibble balance,
-    a device that is used to realize the unit of mass. It is the source of the magnetic
-    flux, and its importance is captured in the geometric factor Bl. Ironically, the
-    Bl factor cancels out and does not appear in the final Kibble equation. Nevertheless,
-    care must be taken to design and build the magnet system because the cancellation
-    is perfect only if the Bl is the same in both modes: the weighing and velocity
-    mode. This review provides the knowledge necessary to build a magnetic circuit
-    for the Kibble balance. In addition, this article discusses the design considerations,
-    parameter optimizations, practical adjustments to the finished product, and an
-    assessment of systematic uncertainties associated with the magnet system.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The magnet system is an essential component of the Kibble balance, a device that is used to realize the unit of mass. It is the source of the magnetic flux, and its importance is captured in the geometric factor <italic toggle="yes">Bl</italic>. Ironically, the <italic toggle="yes">Bl</italic> factor cancels out and does not appear in the final Kibble equation. Nevertheless, care must be taken to design and build the magnet system because the cancellation is perfect only if the <italic toggle="yes">Bl</italic> is the same in both modes: the weighing and velocity mode. This review provides the knowledge necessary to build a magnetic circuit for the Kibble balance. In addition, this article discusses the design considerations, parameter optimizations, practical adjustments to the finished product, and an assessment of systematic uncertainties associated with the magnet system.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The irony of the magnet system for Kibble balances—a review
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The irony of the magnet system for Kibble balances—a review
     date:
     - type: ppub
-      value: '2022-04-01'
+      at: '2022-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The irony of the magnet system for Kibble balances—a review
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The irony of the magnet system for Kibble balances—a review
     date:
     - type: epub
-      value: '2022-03-01'
+      at: '2022-03-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The irony of the magnet system for Kibble balances—a review
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The irony of the magnet system for Kibble balances—a review
     date:
     - type: open-access
-      value: '2022-03-01'
+      at: '2022-03-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +114,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6374
-title:
-- content: Radiations étalons secondaires de longueur du krypton 86 (λ = 0,8 à 1,2
-    μm)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 3 74
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Radiations étalons secondaires de longueur du krypton 86 (λ = 0,8 à 1,2
+    μm)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/3/002
+docidentifier:
+- content: Metrologia 6 3 74
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/3/002
+- content: 10.1088/0026-1394/6/3/002
   type: doi
 date:
 - type: published
-  value: '1970-08-01'
+  at: '1970-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Czerwonka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Giacomo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hamon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
-  - type: author
-revdate: '1970-08-01'
 abstract:
-- content: "<p>A krypton 86 source, used in the recommended way for the emission of
+- language: en
+  script:
+  - Latn
+  content: "<p>A krypton 86 source, used in the recommended way for the emission of
     the primary standard radiation, provides also many other radiations, particularly
     in the near infrared region (λ = 0.7 to 1.2 μm). Among these, nine radiations
     have been selected; they allow to observe interferences up to path differences
@@ -79,40 +71,32 @@ abstract:
     due to the bath temperature and the current density in the discharge have been
     investigated. Only one radiation exhibits a temperature-shift definitely larger
     than the one exhibited by the primary standard.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiations étalons secondaires de longueur du krypton 86 (λ = 0,8 à
+    - language: fr
+      script: Latn
+      content: Radiations étalons secondaires de longueur du krypton 86 (λ = 0,8 à
         1,2 μm)
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1970-08-01'
+      at: '1970-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '74'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

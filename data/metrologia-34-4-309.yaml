@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia344309
-title:
-- content: Sequential frequency locking of three He-Ne lasers with one external iodine
-    stabilizer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/4/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/4/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 4 309
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Sequential frequency locking of three He-Ne lasers with one external iodine
+    stabilizer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/4/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/4/3
+docidentifier:
+- content: Metrologia 34 4 309
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/4/3
+- content: 10.1088/0026-1394/34/4/3
   type: doi
 date:
 - type: published
-  value: '1997-08-01'
+  at: '1997-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Jaatinen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
-  - type: author
-revdate: '1997-08-01'
 abstract:
-- content: "<p>A laser control system is described which locks the frequencies of
+- language: en
+  script:
+  - Latn
+  content: "<p>A laser control system is described which locks the frequencies of
     three He-Ne lasers (543 nm, 612 nm and 633 nm) to iodine transitions using a single
     external cell stabilizer. The system is fully automated and is now used at the
     CSIRO to provide three unmodulated frequency references for the CSIRO gauge block
     interferometers and for a 1 m length bar interferometer. The relative uncertainty
     of the three references is thought to be better than 2 × 10<sup>-10</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sequential frequency locking of three He-Ne lasers with one external
+    - language: en
+      script: Latn
+      content: Sequential frequency locking of three He-Ne lasers with one external
         iodine stabilizer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1997-08-01'
+      at: '1997-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '309'
     reference_to: '312'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

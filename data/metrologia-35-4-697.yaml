@@ -1,117 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354697
-title:
-- content: Calibration of the SOLSPEC spectrometer to measure the solar irradiance
-    from space
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/80
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/80
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 697
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of the SOLSPEC spectrometer to measure the solar irradiance
+    from space
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/80
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/80
+docidentifier:
+- content: Metrologia 35 4 697
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/80
+- content: 10.1088/0026-1394/35/4/80
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Mandel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Labs
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Thuillier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Hersé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P C Simon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Gillotay
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landessternwarte, CNRS, Inst. d'aéronomie spatiale de Belgique
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The SOLSPEC instrument has been built to carry out absolute solar spectral
+- language: en
+  script:
+  - Latn
+  content: "<p>The SOLSPEC instrument has been built to carry out absolute solar spectral
     irradiance measurements from space. It was first flown in December 1983 on mission
     STS 9 (Spacelab 1), from August 1992 to June 1993 on board the free-flying EURECA
     platform with mission STS 46 (deployment) and STS 57 (retrieval), then flown three
@@ -123,40 +109,32 @@ abstract:
     up to 3300 K. In this paper the calibration concept is presented, together with
     a short instrument description and suggestions for improvements in order that
     higher black-body temperatures can be reached.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of the SOLSPEC spectrometer to measure the solar irradiance
+    - language: en
+      script: Latn
+      content: Calibration of the SOLSPEC spectrometer to measure the solar irradiance
         from space
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -167,6 +145,6 @@ extent:
     reference_from: '697'
     reference_to: '700'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

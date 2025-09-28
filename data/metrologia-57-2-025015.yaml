@@ -1,159 +1,140 @@
 ---
-schema-version: v1.2.9
-id: Metrologia572025015
-title:
-- content: Realization of a universal quantum pressure standard
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab7170
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab7170
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 2 025015
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Realization of a universal quantum pressure standard
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab7170
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab7170
+docidentifier:
+- content: Metrologia 57 2 025015
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab7170
+- content: 10.1088/1681-7575/ab7170
   type: doi
 date:
 - type: published
-  value: '2020-03-25'
+  at: '2020-03-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pinrui Shen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 6224 Agricultural Road, Vancouver, B.C., V6T 1Z1, Canada
         name:
         - content: University of British Columbia
         subdivision:
-        - content: Department of Physics and Astronomy
-        contact:
-        - address:
-            formatted_address: 6224 Agricultural Road, Vancouver, B.C., V6T 1Z1, Canada
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics and Astronomy
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kirk W Madison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 6224 Agricultural Road, Vancouver, B.C., V6T 1Z1, Canada
         name:
         - content: University of British Columbia
         subdivision:
-        - content: Department of Physics and Astronomy
-        contact:
-        - address:
-            formatted_address: 6224 Agricultural Road, Vancouver, B.C., V6T 1Z1, Canada
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics and Astronomy
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James L Booth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 3700 Willingdon Avenue, Burnaby, B.C. V5G 3H2, Canada
         name:
         - content: British Columbia Institute of Technology
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: 3700 Willingdon Avenue, Burnaby, B.C. V5G 3H2, Canada
-  role:
-  - type: author
-revdate: '2020-03-25'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 abstract:
-- content: "Abstract<p>We report the realization of the first cold-atom primary standard.
-    This standard is based on a universal law governing quantum diffractive collisions
-    between particles that allows an experimental determination of the velocity averaged
-    total collision cross section, the only parameter required to quantify the pressure
-    or flux of particles given a sensor particle collision rate measurement. Using
-    an ensemble of<sup>87</sup>Rb sensor atoms, we show that this new quantum pressure
-    standard can be applied to gases of both atomic (He, Ar, and Xe) and molecular
-    species (\nN2, \nCO2, and \nH2), surpassing the scope of existing orifice flow
-    pressure standards. We verify the accuracy of this new standard using an ionization
-    gauge (IG) calibrated for N<sub>2</sub> by an orifice flow standard. The gauge
-    calibration factors determined by the cold atom and orifice flow standards differ
-    by less than 0.5% and, thus, agree within their uncertainties of 2% and 2.8% respectively.
-    Using this standard, we evaluate the response of two different IGs to a variety
-    of different gas species and report variations of up to 20% for their measured
-    calibration factors. We also observe a non-linear response of the IG readings
-    for CO<sub>2</sub> gas. Finally, we demonstrate the use of a magneto-optical trap
-    (MOT) as a transfer standard to extend the measurement range by a factor of 100
-    to include pressures up to P ~ 10<sup>−5</sup> Pa.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>We report the realization of the first cold-atom primary standard. This standard is based on a universal law governing quantum diffractive collisions between particles that allows an experimental determination of the velocity averaged total collision cross section, the only parameter required to quantify the pressure or flux of particles given a sensor particle collision rate measurement. Using an ensemble of <sup>87</sup>Rb sensor atoms, we show that this new quantum pressure standard can be applied to gases of both atomic (He, Ar, and Xe) and molecular species (<inline-formula><tex-math><?CDATA $\mathrm{N}_2$></tex-math>
+    <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">N</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="metab7170ieqn1.gif" xlink:type="simple"></inline-graphic></inline-formula>, <inline-formula><tex-math><?CDATA $\mathrm{CO}_2$></tex-math>
+    <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">C</mml:mi><mml:mi mathvariant="normal">O</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="metab7170ieqn2.gif" xlink:type="simple"></inline-graphic></inline-formula>, and <inline-formula><tex-math><?CDATA $\mathrm{H}_2$></tex-math>
+    <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="metab7170ieqn3.gif" xlink:type="simple"></inline-graphic></inline-formula>), surpassing the scope of existing orifice flow pressure standards. We verify the accuracy of this new standard using an ionization gauge (IG) calibrated for N<sub>2</sub> by an orifice flow standard. The gauge calibration factors determined by the cold atom and orifice flow standards differ by less than 0.5% and, thus, agree within their uncertainties of 2% and 2.8% respectively. Using this standard, we evaluate the response of two different IGs to a variety of different gas species and report variations of up to 20% for their measured calibration factors. We also observe a non-linear response of the IG readings for CO<sub>2</sub> gas. Finally, we demonstrate the use of a magneto-optical trap (MOT) as a transfer standard to extend the measurement range by a factor of 100 to include pressures up to <italic>P</italic> ~ 10<sup>−5</sup> Pa.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of a universal quantum pressure standard
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Realization of a universal quantum pressure standard
     date:
     - type: ppub
-      value: '2020-04-01'
+      at: '2020-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of a universal quantum pressure standard
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Realization of a universal quantum pressure standard
     date:
     - type: epub
-      value: '2020-03-25'
+      at: '2020-03-25'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of a universal quantum pressure standard
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Realization of a universal quantum pressure standard
     date:
     - type: open-access
-      value: '2020-03-25'
+      at: '2020-03-25'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -161,6 +142,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

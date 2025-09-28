@@ -1,104 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia274165
-title:
-- content: Measurement of the Thermal Expansion of Pure Water in the Temperature Range
-    0°C-85°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 4 165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the Thermal Expansion of Pure Water in the Temperature Range
+    0°C-85°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/4/001
+docidentifier:
+- content: Metrologia 27 4 165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/4/001
+- content: 10.1088/0026-1394/27/4/001
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Takenaka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4, Umezono, Tsukuba,
             Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Masui
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4, Umezono, Tsukuba,
             Ibaraki 305, Japan
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>The thermal expansion of pure water having natural isotopic abundance
-    was determined by the dilatometric method in a temperature range from 0 to 85
-    °C and under a pressure of 101 325 Pa. The following equation was obtained:</p><p>ρ(t)/ρ<sub>max</sub>
-    = 1 - [(t - 3,98152)<sup>2</sup> (t + 396,18534) (t + 32,28853)/609 628,6(t +
-    83,12333) (t + 30,24455)]</p><p>where ρ(t) is the density of water at temperature
-    t, which is expressed in terms of the ITS-90, and ρ<sub>max</sub> the maximum
-    density. The density ratio which the above equation gives is estimated to have
-    an uncertainty of approximately 1 × 10<sup>-6</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The thermal expansion of pure water having natural isotopic abundance was determined by the dilatometric method in a temperature range from 0 to 85 °C and under a pressure of 101 325 Pa. The following equation was obtained:</p>
+    <p>ρ(<italic>t</italic>)/ρ<sub>max</sub> = 1 - [(<italic>t</italic> - 3,98152)<sup>2</sup> (<italic>t</italic> + 396,18534) (<italic>t</italic> + 32,28853)/609 628,6(<italic>t</italic> + 83,12333) (<italic>t</italic> + 30,24455)]</p>
+    <p>where ρ(<italic>t</italic>) is the density of water at temperature <italic>t</italic>, which is expressed in terms of the ITS-90, and ρ<sub>max</sub> the maximum density. The density ratio which the above equation gives is estimated to have an uncertainty of approximately 1 × 10<sup>-6</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the Thermal Expansion of Pure Water in the Temperature
+    - language: en
+      script: Latn
+      content: Measurement of the Thermal Expansion of Pure Water in the Temperature
         Range 0°C-85°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +91,6 @@ extent:
     reference_from: '165'
     reference_to: '171'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

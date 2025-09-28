@@ -1,87 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5331009
-title:
-- content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/1009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/1009
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 1009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/1009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/1009
+docidentifier:
+- content: Metrologia 53 3 1009
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/1009
+- content: 10.1088/0026-1394/53/3/1009
   type: doi
 date:
 - type: published
-  value: '2016-06-01'
+  at: '2016-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kurt Gibble
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: University Park, PA 16802, USA
         name:
         - content: The Pennsylvania State University
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: University Park, PA 16802, USA
-  role:
-  - type: author
-revdate: '2016-06-01'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Corrigendum: Comment on ‘First accuracy evaluation of NIST-F2’'
     date:
     - type: epub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +87,6 @@ extent:
     reference_from: '1009'
     reference_to: '1009'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

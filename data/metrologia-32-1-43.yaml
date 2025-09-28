@@ -1,38 +1,34 @@
 ---
-schema-version: v1.2.9
-id: Metrologia32143
-title:
-- content: Long-term stability of measurements in the<sup>60</sup>Co field at the
-    BIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 1 43
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Long-term stability of measurements in the <sup>60</sup>Co field at the
+    BIPM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/1/005
+docidentifier:
+- content: Metrologia 32 1 43
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/1/005
+- content: 10.1088/0026-1394/32/1/005
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A-M Perroche
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -42,64 +38,54 @@ contributor:
         name:
         - content: Office de Protection contre les Rayonnements Ionisants, 78110 Le
             Vésinet, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Boutillon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>A critical review is presented of the parameters which are continuously
-    or periodically verified in order to maintain the long-term stability of BIPM
-    standards of air kerma and absorbed dose for<sup>60</sup>Co. Some problems encountered
-    in the measurement of the ionization current and in the determination of calibration
-    factors are described and resolved.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A critical review is presented of the parameters which are continuously
+    or periodically verified in order to maintain the long-term stability of BIPM
+    standards of air kerma and absorbed dose for <sup>60</sup>Co. Some problems encountered
+    in the measurement of the ionization current and in the determination of calibration
+    factors are described and resolved.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Long-term stability of measurements in the<sup>60</sup>Co field at
+    - language: en
+      script: Latn
+      content: Long-term stability of measurements in the <sup>60</sup>Co field at
         the BIPM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '43'
     reference_to: '50'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

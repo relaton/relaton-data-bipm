@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283197
-title:
-- content: Trap Detectors and their Properties
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 197
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Trap Detectors and their Properties
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/018
+docidentifier:
+- content: Metrologia 28 3 197
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/018
+- content: 10.1088/0026-1394/28/3/018
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: <p>The paper describes a new solid state detector which fulfils all the
+- language: en
+  script:
+  - Latn
+  content: <p>The paper describes a new solid state detector which fulfils all the
     requirements of the ideal detector for optical radiation measurements. This "trap"
     detector is shown to be spatially uniform, linear, stable and to have a predictable
     relative spectral response so that it can be used to realize a relative spectral
@@ -49,39 +45,31 @@ abstract:
     to be capable of disseminating an absolute spectral responsivity scale with an
     uncertainty of less than 0,02% at specific laser wavelengths and, independently,
     of realizing such a scale with an uncertainty of better than 0,05%.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Trap Detectors and their Properties
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Trap Detectors and their Properties
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '197'
     reference_to: '202'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

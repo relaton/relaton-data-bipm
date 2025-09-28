@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326531
-title:
-- content: A Fourier-transform spectrometer for spectral-irradiance comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/27
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/27
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 531
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Fourier-transform spectrometer for spectral-irradiance comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/27
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/27
+docidentifier:
+- content: Metrologia 32 6 531
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/27
+- content: 10.1088/0026-1394/32/6/27
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Werner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>A Fourier-transform spectrometer (FTS) for the wavelength region between
+- language: en
+  script:
+  - Latn
+  content: "<p>A Fourier-transform spectrometer (FTS) for the wavelength region between
     1100 nm (cut-off wavelength of the Si photodiode detector) and 190 nm (absorption
     edge of air) has been developed for use in spectral-irradiance comparisons. The
     main advantages of the FTS over traditional spectroradiometers based on a monochromator
@@ -51,39 +47,31 @@ abstract:
     studied. It was found that sources with a diameter of up to 20 mm can be compared
     with an uncertainty of 2,5% between 1100 nm and 250 nm, and 3% below 250 nm. In
     the case of a homogeneous radiance distribution the uncertainty is below 1,5 %.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Fourier-transform spectrometer for spectral-irradiance comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Fourier-transform spectrometer for spectral-irradiance comparisons
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '531'
     reference_to: '534'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

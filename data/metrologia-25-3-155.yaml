@@ -1,93 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia253155
-title:
-- content: Triple Point of Pure and Impure Deuterium
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 3 155
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Triple Point of Pure and Impure Deuterium
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/3/005
+docidentifier:
+- content: Metrologia 25 3 155
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/3/005
+- content: 10.1088/0026-1394/25/3/005
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada (NRC), Division of Physics,
             Ottawa, Ottawa, Ontario, Canada, K1A OR6
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>The liquidus-point behaviour of high-purity and impure D<sub>2</sub>
-    has been studied in both normal and equilibrium states. It was found that the
-    liquidus point in the limit of vanishing amount of condensed phase is nearly impurity
-    independent; D<sub>2</sub> samples doped with as much as 1% H<sub>2</sub> had
-    liquidus points only about 2 mK different from the purest samples available.</p><p>The
-    temperatures (on the IPTS-68) for the triple points of equilibrium and normal
-    D<sub>2</sub> were found to be 18.696<sub>3</sub> K and 18.731<sub>9</sub> K respectively;
-    the normal boiling point of equilibrium D<sub>2</sub> was found to be 23.636<sub>9</sub>
-    K; the heat of fusion was measured as 49.53 J/g; and the density of D<sub>2</sub>
-    gas at the triple-point temperature and pressure for normal D<sub>2</sub> is 4.61
-    g/cm<sup>3</sup>.</p><p>The vapour pressure of equilibrium D<sub>2</sub> between
-    its normal boiling and triple points can be well described by a polynomial of
-    the form ln (P/P<sub>0</sub>) = ∑<sub>i=−1</sub><sup>4</sup> a<sub>i</sub>(T −
-    T<sub>0</sub>)<sup>i</sup></p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The liquidus-point behaviour of high-purity and impure D<sub>2</sub> has been studied in both normal and equilibrium states. It was found that the liquidus point in the limit of vanishing amount of condensed phase is nearly impurity independent; D<sub>2</sub> samples doped with as much as 1% H<sub>2</sub> had liquidus points only about 2 mK different from the purest samples available.</p>
+    <p>The temperatures (on the IPTS-68) for the triple points of equilibrium and normal D<sub>2</sub> were found to be 18.696<sub>3</sub> K and 18.731<sub>9</sub> K respectively; the normal boiling point of equilibrium D<sub>2</sub> was found to be 23.636<sub>9</sub> K; the heat of fusion was measured as 49.53 J/g; and the density of D<sub>2</sub> gas at the triple-point temperature and pressure for normal D<sub>2</sub> is 4.61 g/cm<sup>3</sup>.</p>
+    <p>The vapour pressure of equilibrium D<sub>2</sub> between its normal boiling and triple points can be well described by a polynomial of the form ln (<italic>P</italic>/<italic>P</italic><sub>0</sub>) = ∑<sub><italic>i</italic>=−1</sub><sup>4</sup> <italic>a</italic><sub><italic>i</italic></sub>(<italic>T</italic> − <italic>T</italic><sub>0</sub>)<sup><italic>i</italic></sup> </p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Triple Point of Pure and Impure Deuterium
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Triple Point of Pure and Impure Deuterium
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +76,6 @@ extent:
     reference_from: '155'
     reference_to: '163'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia24139
-title:
-- content: Black Coatings for Absolute Radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 4 139
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Black Coatings for Absolute Radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/4/002
+docidentifier:
+- content: Metrologia 2 4 139
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/4/002
+- content: 10.1088/0026-1394/2/4/002
   type: doi
 date:
 - type: published
-  value: '1966-10-01'
+  at: '1966-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R Blevin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Standards Laboratory, Chippendale,
             NSW, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W J Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Standards Laboratory, Chippendale,
             NSW, Australia
-  role:
-  - type: author
-revdate: '1966-10-01'
 abstract:
-- content: "<p>With radiometers in which electrical heating is substituted for radiant
+- language: en
+  script:
+  - Latn
+  content: "<p>With radiometers in which electrical heating is substituted for radiant
     heating, corrections are necessary for radiation reflected by the blackened receiver
     and for the thermal resistance of the black coating. Carbon-black and the common
     form of gold-black are unsuitable for coating radiometers because their thermal
@@ -66,39 +60,31 @@ abstract:
     of the radiation value because of reflection losses, and of less than 0.001 because
     of thermal resistance effects. The mechanism of heat transport through the black
     coatings is discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Black Coatings for Absolute Radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Black Coatings for Absolute Radiometers
     date:
     - type: ppub
-      value: '1966-10-01'
+      at: '1966-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '139'
     reference_to: '143'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,102 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43146
-title:
-- content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 46
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/007
+docidentifier:
+- content: Metrologia 43 1 46
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/007
+- content: 10.1088/0026-1394/43/1/007
   type: doi
 date:
 - type: published
-  value: '2005-11-18'
+  at: '2005-11-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Picard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '2005-11-18'
 abstract:
-- content: "<p>For a new determination of the Avogadro constant to play a role in
+- language: en
+  script:
+  - Latn
+  content: "<p>For a new determination of the Avogadro constant to play a role in
     the redefinition of the mass unit, the BIPM and other laboratories must carry
     out mass comparisons at a very high level of accuracy. We must achieve mass comparison
-    among a 1 kg<sup>28</sup>Si sphere and 1 kg Pt/Ir mass standards to a combined
+    among a 1 kg <sup>28</sup>Si sphere and 1 kg Pt/Ir mass standards to a combined
     standard uncertainty of 4 µg. The BIPM has developed a method to reach the target
     requested by the Avogadro group. The goal of this paper is to report the advances
     at the BIPM and to describe our new method for linking between weighings in air
     and in vacuum. The results obtained by classical comparisons in air are compared
     with those obtained by the new BIPM method.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
     date:
     - type: epub
-      value: '2005-11-18'
+      at: '2005-11-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass determinations of a 1 kg silicon sphere for the Avogadro project
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: '46'
     reference_to: '52'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

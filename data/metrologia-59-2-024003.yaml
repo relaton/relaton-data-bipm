@@ -1,121 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia592024003
-title:
-- content: Iodine frequency-stabilized HeNe laser amplified by injection locking of
-    a semiconductor laser diode
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac4f2b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac4f2b
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 2 024003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Iodine frequency-stabilized HeNe laser amplified by injection locking of
+    a semiconductor laser diode
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac4f2b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac4f2b
+docidentifier:
+- content: Metrologia 59 2 024003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac4f2b
+- content: 10.1088/1681-7575/ac4f2b
   type: doi
 date:
 - type: published
-  value: '2022-02-17'
+  at: '2022-02-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alain Küng
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
         subdivision:
-        - content: Department One
-        contact:
-        - address:
-            formatted_address: Wabern, Switzerland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department One
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Felix Meli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
         subdivision:
-        - content: Department One
-        contact:
-        - address:
-            formatted_address: Wabern, Switzerland
-  role:
-  - type: author
-revdate: '2022-02-17'
+        - name:
+          - language: en
+            script: Latn
+            content: Department One
 abstract:
-- content: Abstract<p>The realisation of the metre definition is still today mostly
-    performed using iodine frequency-stabilized HeNe lasers. Unfortunately, they deliver
-    little optical power. Instead of migrating to other expensive laser technologies,
-    the use of an injection locked semiconductor laser is proposed in order to boost
-    the optical output of the legacy HeNe laser primary reference. The characterisation
-    of the system and its validation through a comparison measurement is reported
-    whereby no impact on the frequency and the stability of the HeNe reference laser
-    could be observed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The realisation of the metre definition is still today mostly performed using iodine frequency-stabilized HeNe lasers. Unfortunately, they deliver little optical power. Instead of migrating to other expensive laser technologies, the use of an injection locked semiconductor laser is proposed in order to boost the optical output of the legacy HeNe laser primary reference. The characterisation of the system and its validation through a comparison measurement is reported whereby no impact on the frequency and the stability of the HeNe reference laser could be observed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Iodine frequency-stabilized HeNe laser amplified by injection locking
+    - script: Latn
+      content: Iodine frequency-stabilized HeNe laser amplified by injection locking
         of a semiconductor laser diode
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-04-01'
+      at: '2022-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Iodine frequency-stabilized HeNe laser amplified by injection locking
+    - script: Latn
+      content: Iodine frequency-stabilized HeNe laser amplified by injection locking
         of a semiconductor laser diode
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-02-17'
+      at: '2022-02-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +112,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

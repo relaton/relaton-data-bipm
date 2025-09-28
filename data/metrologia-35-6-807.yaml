@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia356807
-title:
-- content: The use and abuse of the terms percent, parts per million and parts in
-    10<sup>n</sup>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/35/6/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/6/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 6 807
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The use and abuse of the terms percent, parts per million and parts in
+    10<sup><italic>n</italic></sup>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/6/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/6/3
+docidentifier:
+- content: Metrologia 35 6 807
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/6/3
+- content: 10.1088/0026-1394/35/6/3
   type: doi
 date:
 - type: published
-  value: '1998-12-01'
+  at: '1998-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Univ. Reading
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Mills
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Univ. Reading
-  role:
-  - type: author
-revdate: '1998-12-01'
 abstract:
-- content: "<p>We discuss two different ways in which terms such as percent (%) and
+- language: en
+  script:
+  - Latn
+  content: "<p>We discuss two different ways in which terms such as percent (%) and
     parts per million (ppm) are used, both in the scientific literature and in everyday
     language. We give examples of the way in which these terms may be used without
     ambiguity, and we also describe common misuse of the terms. We suggest the adoption
     of the special name uno (symbol U) for the unit one, for use with the International
     System of Units (SI) prefixes in place of terms such as percent and parts per
     million in the technical literature.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The use and abuse of the terms percent, parts per million and parts
-        in 10<sup>n</sup>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: The use and abuse of the terms percent, parts per million and parts
+        in 10<sup><italic>n</italic></sup>
     date:
     - type: ppub
-      value: '1998-12-01'
+      at: '1998-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '807'
     reference_to: '810'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,116 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283265
-title:
-- content: 'Solar Irradiance Measurements: Minimum through Maximum Solar Activity'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/032
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/032
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 265
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Solar Irradiance Measurements: Minimum through Maximum Solar Activity'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/032
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/032
+docidentifier:
+- content: Metrologia 28 3 265
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/032
+- content: 10.1088/0026-1394/28/3/032
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Lee III
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA Langley Research Center, Hampton, VA 23665-5225, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M A Gibson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ST Systems Corporation, Hampton, VA 23666, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Shivakumar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ST Systems Corporation, Hampton, VA 23666, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Wilson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ST Systems Corporation, Hampton, VA 23666, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H L Kyle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A T Mecherikunnel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The Earth Radiation Budget Satellite (ERBS) and the NOAA-9 spacecraft
+- language: en
+  script:
+  - Latn
+  content: "<p>The Earth Radiation Budget Satellite (ERBS) and the NOAA-9 spacecraft
     solar monitors were used to measure the total solar irradiance during the period
     October 1984 to December 1989. Decreasing trends in the irradiance measurements
     were observed as sunspot activity decreased to minimum levels in 1986; after 1986,
@@ -122,39 +108,31 @@ abstract:
     the mean value of the solar irradiance, normalized to the mean Earth/Sun distance.
     The monitors are electrical substitution, active-cavity radiometers with estimated
     measurement precisions and accuracies of less than 0,02% and 0,2%, respectively.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Solar Irradiance Measurements: Minimum through Maximum Solar Activity'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Solar Irradiance Measurements: Minimum through Maximum Solar Activity'
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -165,6 +143,6 @@ extent:
     reference_from: '265'
     reference_to: '268'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

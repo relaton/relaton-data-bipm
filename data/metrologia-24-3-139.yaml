@@ -1,119 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia243139
-title:
-- content: Realization of the New Candela (1979) at NRC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 3 139
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the New Candela (1979) at NRC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/3/005
+docidentifier:
+- content: Metrologia 24 3 139
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/3/005
+- content: 10.1088/0026-1394/24/3/005
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Boivin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada K1A OR6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A A Gaertner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada K1A OR6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D S Gignac
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada K1A OR6
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>The paper describes the realization of a new scale of luminous intensity
-    at the National Research Council of Canada, based on the 1979 redefinition of
-    the candela. Two different methods were used. In the first method, the lamps were
-    calibrated directly by means of absolute radiometers equipped with V(λ)-correcting
-    filters. In the second method, secondary radiometers incorporating silicon photodiodes
-    were first calibrated spectrally by means of absolute radiometers, then used in
-    conjunction with V(λ) filters to calibrate the lamps. The sources of error and
-    measurement results for the two methods are analyzed in detail. A comparison of
-    the new scale with the previous platinum-blackbody-based scale indicates that
-    the new NRC candela is 1.2% smaller on average than the old NRC candela.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The paper describes the realization of a new scale of luminous intensity
+    at the National Research Council of Canada, based on the 1979 redefinition of
+    the candela. Two different methods were used. In the first method, the lamps were
+    calibrated directly by means of absolute radiometers equipped with <italic>V</italic>(λ)-correcting
+    filters. In the second method, secondary radiometers incorporating silicon photodiodes
+    were first calibrated spectrally by means of absolute radiometers, then used in
+    conjunction with <italic>V</italic>(λ) filters to calibrate the lamps. The sources
+    of error and measurement results for the two methods are analyzed in detail. A
+    comparison of the new scale with the previous platinum-blackbody-based scale indicates
+    that the new NRC candela is 1.2% smaller on average than the old NRC candela.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the New Candela (1979) at NRC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the New Candela (1979) at NRC
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '139'
     reference_to: '152'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

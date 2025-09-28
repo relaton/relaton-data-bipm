@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia362107
-title:
-- content: 'Expression of the uncertainty of measurement in the calibration of thermometers.
-    Part I: Standard platinum resistance thermometers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/2/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/2/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 2 107
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Expression of the uncertainty of measurement in the calibration of thermometers.
+    Part I: Standard platinum resistance thermometers'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/2/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/2/5
+docidentifier:
+- content: Metrologia 36 2 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/2/5
+- content: 10.1088/0026-1394/36/2/5
   type: doi
 date:
 - type: published
-  value: '1999-04-01'
+  at: '1999-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INMETRO
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Camarano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INMETRO
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Paredes Villalobos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INMETRO
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Santiago
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INMETRO
-  role:
-  - type: author
-revdate: '1999-04-01'
 abstract:
-- content: "<p>A model is proposed for the calibration of a standard platinum resistance
+- language: en
+  script:
+  - Latn
+  content: "<p>A model is proposed for the calibration of a standard platinum resistance
     thermometer (SPRT) in accordance with the BIPM recommended procedures to realize
     the International Temperature Scale of 1990 (ITS-90). The model is used to obtain
     the standard uncertainty of measurement associated with the temperature indicated
@@ -91,40 +81,32 @@ abstract:
     uncertainty is established. Equations are illustrated by an example that considers
     the ITS-90 subrange from 273.15 K to 692.677 K. The approach closely follows the
     rules in the ISO Guide to the Expression of Uncertainty in Measurement.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Expression of the uncertainty of measurement in the calibration of
+    - language: en
+      script: Latn
+      content: 'Expression of the uncertainty of measurement in the calibration of
         thermometers. Part I: Standard platinum resistance thermometers'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-04-01'
+      at: '1999-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +117,6 @@ extent:
     reference_from: '107'
     reference_to: '111'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

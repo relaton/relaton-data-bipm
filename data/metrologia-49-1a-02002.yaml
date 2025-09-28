@@ -1,113 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia491A02002
-title:
-- content: 'Final report of international comparison on averaged LED intensity: APMP.PR-S3a'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1A/02002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1A/02002
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1A 02002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report of international comparison on averaged LED intensity: APMP.PR-S3a'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1A/02002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1A/02002
+docidentifier:
+- content: Metrologia 49 1A 02002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1A/02002
+- content: 10.1088/0026-1394/49/1A/02002
   type: doi
 date:
 - type: published
-  value: '2012-01-01'
+  at: '2012-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dong-Hoon Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science (KRISS), 267 Gajeong-Ro, Yuseong-Gu, Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seongchong Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science (KRISS), 267 Gajeong-Ro, Yuseong-Gu, Daejeon 305-340, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seung-Nam Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science (KRISS), 267 Gajeong-Ro, Yuseong-Gu, Daejeon 305-340, Korea
-  role:
-  - type: author
-revdate: '2012-01-01'
 abstract:
-- content: |-
-    <p>We report the results of the international comparison of LED measurements on the quantity of averaged LED intensity in condition B defined by the International Commission on Illumination (CIE). The comparison is conducted by circulating five different types of artefact LEDs (red, green, blue, white and diffuser-type green) to 15 National Metrology Institutes (NMIs). The artefact LEDs are prepared by functional seasoning to enable a temperature correction based on the junction voltage measurement. The comparison reference values and the unilateral degrees of equivalence (DoEs) of each participant are calculated for each type of LEDs from the reported measurement results.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by APMP, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>We report the results of the international comparison of LED measurements on the quantity of averaged LED intensity in condition B defined by the International Commission on Illumination (CIE). The comparison is conducted by circulating five different types of artefact LEDs (red, green, blue, white and diffuser-type green) to 15 National Metrology Institutes (NMIs). The artefact LEDs are prepared by functional seasoning to enable a temperature correction based on the junction voltage measurement. The comparison reference values and the unilateral degrees of equivalence (DoEs) of each participant are calculated for each type of LEDs from the reported measurement results.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/PR/S3/APMP.PR-S3.a.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by APMP, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report of international comparison on averaged LED intensity:
+    - language: en
+      script: Latn
+      content: 'Final report of international comparison on averaged LED intensity:
         APMP.PR-S3a'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-01-01'
+      at: '2012-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +104,6 @@ extent:
     reference_from: '02002'
     reference_to: '02002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

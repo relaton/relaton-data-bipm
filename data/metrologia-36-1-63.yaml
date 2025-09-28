@@ -1,96 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia36163
-title:
-- content: On the redefinition of the kilogram
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/1/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/1/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 1 63
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the redefinition of the kilogram
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/1/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/1/11
+docidentifier:
+- content: Metrologia 36 1 63
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/1/11
+- content: 10.1088/0026-1394/36/1/11
   type: doi
 date:
 - type: published
-  value: '1999-02-01'
+  at: '1999-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B N Taylor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P J Mohr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1999-02-01'
 abstract:
-- content: "<p>A new definition of the kilogram based on the relations E = mc<sup>2</sup>
-    and E = hν is proposed, motivated by recent progress in the development of moving-coil
-    watt balances. Such a balance together with the definition promises to provide
-    a practical means of directly calibrating standards of mass.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A new definition of the kilogram based on the relations <italic>E</italic>
+    = <italic>mc</italic><sup>2</sup> and <italic>E</italic> = <italic>h</italic>ν
+    is proposed, motivated by recent progress in the development of moving-coil watt
+    balances. Such a balance together with the definition promises to provide a practical
+    means of directly calibrating standards of mass.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the redefinition of the kilogram
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the redefinition of the kilogram
     date:
     - type: ppub
-      value: '1999-02-01'
+      at: '1999-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +88,6 @@ extent:
     reference_from: '63'
     reference_to: '64'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,123 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S208
-title:
-- content: Influence of the beam shape on aperture measurements with the laser beam
-    scanning technique
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/348
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/348
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S208
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Influence of the beam shape on aperture measurements with the laser beam
+    scanning technique
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/348
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/348
+docidentifier:
+- content: Metrologia 40 1 S208
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/348
+- content: 10.1088/0026-1394/40/1/348
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Goebel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>The realization of a number of radiometric and photometric units requires
-    one to measure accurately the area of precision apertures. The BIPM employs the
-    laser-beam scanning technique which is based on the generation of a uniform irradiance
-    by a two-dimensional superposition of many regularly spaced laser beams.</p><p>The
-    existing literature describes the formation of the uniform irradiance as a superposition
-    of Gaussian laser beams and derives a condition for the largest allowable lattice
-    spacing to obtain the necessary uniformity. In this paper we analyse the effect
-    of the use of real laser beams which are almost, but not completely, Gaussian
-    by applying Fourier analysis. Experimental results of aperture measurements with
-    different spacings of the laser beams are also shown. The results of the calculations
-    and the measurements show a characteristic dependence of the measured area on
-    the grid spacing, even for spacings sufficiently small according to the condition
-    based on Gaussian theory. This can be explained by very small deviations of the
-    actual beam shape from a perfect Gaussian profile.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The realization of a number of radiometric and photometric units requires one to measure accurately the area of precision apertures. The BIPM employs the laser-beam scanning technique which is based on the generation of a uniform irradiance by a two-dimensional superposition of many regularly spaced laser beams.</p>
+    <p>The existing literature describes the formation of the uniform irradiance as a superposition of Gaussian laser beams and derives a condition for the largest allowable lattice spacing to obtain the necessary uniformity. In this paper we analyse the effect of the use of real laser beams which are almost, but not completely, Gaussian by applying Fourier analysis. Experimental results of aperture measurements with different spacings of the laser beams are also shown. The results of the calculations and the measurements show a characteristic dependence of the measured area on the grid spacing, even for spacings sufficiently small according to the condition based on Gaussian theory. This can be explained by very small deviations of the actual beam shape from a perfect Gaussian profile.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Influence of the beam shape on aperture measurements with the laser
+    - language: en
+      script: Latn
+      content: Influence of the beam shape on aperture measurements with the laser
         beam scanning technique
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Influence of the beam shape on aperture measurements with the laser
+    - language: en
+      script: Latn
+      content: Influence of the beam shape on aperture measurements with the laser
         beam scanning technique
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +100,6 @@ extent:
     reference_from: S208
     reference_to: S211
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

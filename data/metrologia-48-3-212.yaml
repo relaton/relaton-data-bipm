@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483212
-title:
-- content: Uncertainty due to parasitic accelerations in absolute gravimetry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/016
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/016
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 212
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty due to parasitic accelerations in absolute gravimetry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/016
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/016
+docidentifier:
+- content: Metrologia 48 3 212
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/016
+- content: 10.1088/0026-1394/48/3/016
   type: doi
 date:
 - type: published
-  value: '2011-04-19'
+  at: '2011-04-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Str. delle Cacce
             73, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G D'Agostino
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Str. delle Cacce
             73, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Germak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Str. delle Cacce
             73, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2011-04-19'
 abstract:
-- content: "<p>Absolute gravity measurements are based on the reconstruction of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Absolute gravity measurements are based on the reconstruction of the
     free-falling motion of a test body in vacuum. In this paper, two large disturbing
     effects are studied, namely the non-gravitational accelerations originated by
     rotation and translation of the flying body. Their contribution to the uncertainty
@@ -89,55 +79,47 @@ abstract:
     in Supplement 1 to the GUM. The analysis is specifically applied to the IMGC-02
     absolute gravimeter, but can be easily extended to other instruments, including
     cold-atom gravimeters currently under development.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty due to parasitic accelerations in absolute gravimetry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty due to parasitic accelerations in absolute gravimetry
     date:
     - type: epub
-      value: '2011-04-19'
+      at: '2011-04-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty due to parasitic accelerations in absolute gravimetry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty due to parasitic accelerations in absolute gravimetry
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +130,6 @@ extent:
     reference_from: '212'
     reference_to: '218'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

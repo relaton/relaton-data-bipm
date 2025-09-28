@@ -1,118 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493289
-title:
-- content: Simultaneous determination of mass and volume of a standard by weighings
-    in air
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/289
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/289
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 289
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Simultaneous determination of mass and volume of a standard by weighings
+    in air
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/289
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/289
+docidentifier:
+- content: Metrologia 49 3 289
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/289
+- content: 10.1088/0026-1394/49/3/289
   type: doi
 date:
 - type: published
-  value: '2012-03-16'
+  at: '2012-03-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Malengo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2012-03-16'
 abstract:
-- content: Abstract<p>Volume is an input quantity in the measurement model for the
-    mass of a body, say, a mass standard. The classical method to determine volume,
-    hydrostatic weighing, is time-consuming, expensive and can introduce instability
-    in the standard mass. Some years ago an alternative method was proposed, based
-    on weighings in air at different densities. We generalize the method, showing
-    that also the mass of the standard can be determined with it using a weighted-least-squares
-    adjustment. To this purpose, we discuss a measurement model taking into account
-    the covariances between the input estimates. The method, experimentally validated,
-    yields uncertainties for the mass estimates that are smaller than those obtained
-    with the traditional method, and gives the further advantage of directly providing
-    the covariance between mass and volume.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Volume is an input quantity in the measurement model for the mass of a body, say, a mass standard. The classical method to determine volume, hydrostatic weighing, is time-consuming, expensive and can introduce instability in the standard mass. Some years ago an alternative method was proposed, based on weighings in air at different densities. We generalize the method, showing that also the mass of the standard can be determined with it using a weighted-least-squares adjustment. To this purpose, we discuss a measurement model taking into account the covariances between the input estimates. The method, experimentally validated, yields uncertainties for the mass estimates that are smaller than those obtained with the traditional method, and gives the further advantage of directly providing the covariance between mass and volume.</p>
 copyright:
-- owner:
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simultaneous determination of mass and volume of a standard by weighings
+    - script: Latn
+      content: Simultaneous determination of mass and volume of a standard by weighings
         in air
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simultaneous determination of mass and volume of a standard by weighings
+    - script: Latn
+      content: Simultaneous determination of mass and volume of a standard by weighings
         in air
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-03-16'
+      at: '2012-03-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +97,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia492S118
-title:
-- content: Optical properties of semiconductor photodiodes/solar cells
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/2/S118
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/2/S118
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 2 S118
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Optical properties of semiconductor photodiodes/solar cells
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/2/S118
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/2/S118
+docidentifier:
+- content: Metrologia 49 2 S118
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/2/S118
+- content: 10.1088/0026-1394/49/2/S118
   type: doi
 date:
 - type: published
-  value: '2012-03-02'
+  at: '2012-03-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Terubumi Saito
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Tohoku Institute of Technology, Sendai 982-8577, Japan
-  role:
-  - type: author
-revdate: '2012-03-02'
 abstract:
-- content: "<p>Among possible losses in the efficiency of semiconductor photodiodes
+- language: en
+  script:
+  - Latn
+  content: "<p>Among possible losses in the efficiency of semiconductor photodiodes
     and solar cells, optical losses are dominant in many cases and, therefore, are
     important. The optical losses, mainly consisting of reflection from the surface
     and absorption in a dead layer, are evaluated based on a theoretical model whose
@@ -52,55 +48,47 @@ abstract:
     that the optical properties of the layered system are completely different from
     those of a single boundary system and change steeply in the UV range due to the
     change in optical indices of both the surface layer and the substrate.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optical properties of semiconductor photodiodes/solar cells
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Optical properties of semiconductor photodiodes/solar cells
     date:
     - type: epub
-      value: '2012-03-02'
+      at: '2012-03-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optical properties of semiconductor photodiodes/solar cells
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Optical properties of semiconductor photodiodes/solar cells
     date:
     - type: ppub
-      value: '2012-04-01'
+      at: '2012-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +99,6 @@ extent:
     reference_from: S118
     reference_to: S123
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

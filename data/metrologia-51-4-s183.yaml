@@ -1,99 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S183
-title:
-- content: Evaluation of mass measurements in accordance with the GUM
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S183
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S183
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S183
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Evaluation of mass measurements in accordance with the GUM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S183
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S183
+docidentifier:
+- content: Metrologia 51 4 S183
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S183
+- content: 10.1088/0026-1394/51/4/S183
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lars Nielsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Matematiktorvet 307, DK-2800 Kgs. Lyngby, Denmark
         name:
         - content: the Danish National Metrology Institute
         subdivision:
-        - content: DFM
-        contact:
-        - address:
-            formatted_address: Matematiktorvet 307, DK-2800 Kgs. Lyngby, Denmark
-  role:
-  - type: author
-revdate: '2014-07-11'
+        - name:
+          - language: en
+            script: Latn
+            content: DFM
 abstract:
-- content: 'Abstract<p>When the mass laboratory of DFM was created in 1989, harmonized
-    principles for the evaluation of measurement uncertainty were being created based
-    on a very simple principle endorsed by the CIPM: all uncertainties should be interpreted
-    as the square root of variances (standard deviations) and should be combined and
-    expressed as such. This paper describes how DFM has interpreted this principle
-    for the calibration of mass standards and for the measurement of mass in general.
-    The importance of reporting calibration results in a compact way that is easily
-    propagated down the traceability chain is also discussed.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>When the mass laboratory of DFM was created in 1989, harmonized principles for the evaluation of measurement uncertainty were being created based on a very simple principle endorsed by the CIPM: all uncertainties should be interpreted as the square root of variances (standard deviations) and should be combined and expressed as such. This paper describes how DFM has interpreted this principle for the calibration of mass standards and for the measurement of mass in general. The importance of reporting calibration results in a compact way that is easily propagated down the traceability chain is also discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of mass measurements in accordance with the GUM
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluation of mass measurements in accordance with the GUM
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of mass measurements in accordance with the GUM
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluation of mass measurements in accordance with the GUM
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +93,6 @@ extent:
     reference_from: S183
     reference_to: S190
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

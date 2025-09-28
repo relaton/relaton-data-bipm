@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia325363
-title:
-- content: Comparison between the He-Ne laser wavelength standards at 633 nm from
-    the UME and the BIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/5/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/5/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 5 363
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison between the He-Ne laser wavelength standards at 633 nm from
+    the UME and the BIPM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/5/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/5/2
+docidentifier:
+- content: Metrologia 32 5 363
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/5/2
+- content: 10.1088/0026-1394/32/5/2
   type: doi
 date:
 - type: published
-  value: '1995-10-01'
+  at: '1995-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Erin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Malinovsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Titov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, BIPM
-  role:
-  - type: author
-revdate: '1995-10-01'
 abstract:
-- content: "<p>An international comparison of the<sup>127</sup>I<sub>2</sub> stabilized
+- language: en
+  script:
+  - Latn
+  content: "<p>An international comparison of the <sup>127</sup>I<sub>2</sub> stabilized
     lasers, used as wavelength standards and belonging to the National Metrology Institute
     of Turkey (UME) and the Bureau International des Poids et Mesures (BIPM), has
     been performed at the BIPM. A frequency stability of 45 Hz (a standard deviation
@@ -110,40 +98,32 @@ abstract:
     reproducibility usually reported for this kind of laser standard. For the portable
     UME standard, the difference in frequencies found before and after the comparison,
     when measured against a stationary UME laser, was less than 3 × 10<sup>-13</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison between the He-Ne laser wavelength standards at 633 nm from
+    - language: en
+      script: Latn
+      content: Comparison between the He-Ne laser wavelength standards at 633 nm from
         the UME and the BIPM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-10-01'
+      at: '1995-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +134,6 @@ extent:
     reference_from: '363'
     reference_to: '365'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

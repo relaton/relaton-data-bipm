@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S299
-title:
-- content: 'Spectral analysis of clock noise: a primer'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S18
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S18
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S299
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Spectral analysis of clock noise: a primer'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S18
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S18
+docidentifier:
+- content: Metrologia 43 4 S299
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S18
+- content: 10.1088/0026-1394/43/4/S18
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Donald B Percival
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Applied Physics Laboratory, University of Washington, Seattle,
             WA 98195–5640, USA
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>The statistical characterization of clock noise is important for understanding
+- language: en
+  script:
+  - Latn
+  content: "<p>The statistical characterization of clock noise is important for understanding
     how well a clock can perform in applications where timekeeping is important. The
     usual frequency domain characterization of clock noise is the power spectrum.
     We present a primer on how to estimate the power spectrum of clock noise given
@@ -55,53 +51,42 @@ abstract:
     the periodogram and give comparable results. We also discuss some of the uses
     for the spectrum and its estimates in the statistical characterization of clock
     noise.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Spectral analysis of clock noise: a primer'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Spectral analysis of clock noise: a primer'
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Spectral analysis of clock noise: a primer'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Spectral analysis of clock noise: a primer'
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +97,6 @@ extent:
     reference_from: S299
     reference_to: S310
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

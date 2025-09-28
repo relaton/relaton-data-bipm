@@ -1,196 +1,160 @@
 ---
-schema-version: v1.2.9
-id: Metrologia575055010
-title:
-- content: Artifacts and errors in cross-spectrum phase noise measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab8d7b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab8d7b
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 5 055010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Artifacts and errors in cross-spectrum phase noise measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab8d7b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab8d7b
+docidentifier:
+- content: Metrologia 57 5 055010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab8d7b
+- content: 10.1088/1681-7575/ab8d7b
   type: doi
 date:
 - type: published
-  value: '2020-08-19'
+  at: '2020-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yannick Gruson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: France
         name:
         - content: FEMTO-ST Institute, UBFC CNRS Besançon
-        contact:
-        - address:
-            formatted_address: France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adrian Rus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Independent researcher, Bucharest, . Call sign YO3HHZ.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ulrich L Rohde
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Synergy Microwave Corp. Paterson NJ United States of America. Call
             sign N1UL.
     - organization:
+        address:
+        - formatted_address: München, Germany
         name:
         - content: Universität der Bundeswehr
-        contact:
-        - address:
-            formatted_address: München, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alexander Roth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: München, Germany
         name:
         - content: Rohde & Schwarz
-        contact:
-        - address:
-            formatted_address: München, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Enrico Rubiola
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: France
         name:
         - content: FEMTO-ST Institute, UBFC CNRS Besançon
-        contact:
-        - address:
-            formatted_address: France
     - organization:
+        address:
+        - formatted_address: Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica INRiM
-        contact:
-        - address:
-            formatted_address: Torino, Italy
     - organization:
         name:
         - content: Reference author
-  role:
-  - type: author
-revdate: '2020-08-19'
 abstract:
-- content: Abstract<p>This article deals with the erratic and inconsistent phase-noise
-    spectra often seen in low-noise oscillators, whose floor is of the order of −180
-    dBc/Hz or less. Such oscillators are generally measured with two-channel instruments
-    based on averaging two simultaneous and statistically independent measures. Our
-    new method consists of inserting a dissipative attenuator between the oscillator
-    under test and the phase-noise analyzer. The thermal noise of the attenuator introduces
-    a controlled amount of phase noise. We compare the phase noise floor to the theoretical
-    expectation with different values of the attenuation in small steps. The analysis
-    reveals a negative bias (underestimation of phase noise) due to the thermal energy
-    of the internal power splitter at the instrument input, and an uncertainty due
-    to crosstalk between the two channels. In not-so-rare unfortunate cases, the bias
-    results in a negative phase-noise spectrum, which is an obvious nonsense. Similar
-    results are observed separately in three labs with instruments from the two major
-    brands. We provide experimental evidence, full theory and suggestions to mitigate
-    the problem, and a first attempt to assess the uncertainty. Our multiple-attenuators
-    method provides quantitative information about the correlation phenomena inside
-    the instrument.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>This article deals with the erratic and inconsistent phase-noise spectra often seen in low-noise oscillators, whose floor is of the order of −180 dBc/Hz or less. Such oscillators are generally measured with two-channel instruments based on averaging two simultaneous and statistically independent measures. Our new method consists of inserting a dissipative attenuator between the oscillator under test and the phase-noise analyzer. The thermal noise of the attenuator introduces a controlled amount of phase noise. We compare the phase noise floor to the theoretical expectation with different values of the attenuation in small steps. The analysis reveals a negative bias (underestimation of phase noise) due to the thermal energy of the internal power splitter at the instrument input, and an uncertainty due to crosstalk between the two channels. In not-so-rare unfortunate cases, the bias results in a negative phase-noise spectrum, which is an obvious nonsense. Similar results are observed separately in three labs with instruments from the two major brands. We provide experimental evidence, full theory and suggestions to mitigate the problem, and a first attempt to assess the uncertainty. Our multiple-attenuators method provides quantitative information about the correlation phenomena inside the instrument.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Artifacts and errors in cross-spectrum phase noise measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Artifacts and errors in cross-spectrum phase noise measurements
     date:
     - type: ppub
-      value: '2020-10-01'
+      at: '2020-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Artifacts and errors in cross-spectrum phase noise measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Artifacts and errors in cross-spectrum phase noise measurements
     date:
     - type: epub
-      value: '2020-08-19'
+      at: '2020-08-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Artifacts and errors in cross-spectrum phase noise measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Artifacts and errors in cross-spectrum phase noise measurements
     date:
     - type: open-access
-      value: '2020-08-19'
+      at: '2020-08-19'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -198,6 +162,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

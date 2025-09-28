@@ -1,82 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223140
-title:
-- content: The Role of the Fine-Structure Constant in QED
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 140
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Role of the Fine-Structure Constant in QED
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/004
+docidentifier:
+- content: Metrologia 22 3 140
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/004
+- content: 10.1088/0026-1394/22/3/004
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Borie
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kernforschungszentrum Karlsruhe, Institut für Datenverarbeitung
             in der Technik, Postfach 3640, D-7500 Karlsruhe, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>The results of some tests of QED are presented, which illustrate both
-    the many-faceted role played by the coupling constant α and some of the problems
-    which are encountered in precision calculations, especially of bound states.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The results of some tests of QED are presented, which illustrate both
+    the many-faceted role played by the coupling constant α and some of the problems
+    which are encountered in precision calculations, especially of bound states.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Role of the Fine-Structure Constant in QED
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Role of the Fine-Structure Constant in QED
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +75,6 @@ extent:
     reference_from: '140'
     reference_to: '145'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

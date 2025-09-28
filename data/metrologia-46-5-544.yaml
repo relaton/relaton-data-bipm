@@ -1,109 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465544
-title:
-- content: On the uncertainty in the correction for the size-of-source effect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/019
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/019
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 544
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the uncertainty in the correction for the size-of-source effect
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/019
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/019
+docidentifier:
+- content: Metrologia 46 5 544
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/019
+- content: 10.1088/0026-1394/46/5/019
   type: doi
 date:
 - type: published
-  value: '2009-08-04'
+  at: '2009-08-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Bloembergen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, AIST, Tsukuba, Japan
-  role:
-  - type: author
-revdate: '2009-08-04'
 abstract:
-- content: "<p>In the first part of this paper a procedure is described for calculating
-    the standard uncertainty u[F(D)] in the approximation F(D) to the size-of-source
-    effect σ(D<sub>i</sub>), measured for a range of source diameters D<sub>i</sub>,
-    for two examples out of a total of 35 considered in an accompanying paper. The
-    overall uncertainty includes the uncertainty s<sub>fit</sub> of the approximation
-    F(D) to the experimental data and other components such as the repeatability of
-    the measurements, the effect of interreflections and the in-focus/out-of-focus
-    shift. In the main part of the paper this procedure is tailored to the calculation
-    of the uncertainty u<sub>SSE</sub>[S(D<sub>ref</sub>)]/S(D<sub>ref</sub>) in the
-    correction for the size-of-source effect as a function of the reference diameter
-    D<sub>ref</sub>, a relationship characteristic for a given thermometer–source
-    combination. The source considered here is a eutectic fixed-point radiator, Re–C,
-    radiating at the eutectic temperature of 2747 K. The correction is carried out
-    by transformation of the directly obtained results, in terms of the signals S
-    measured under the local prevailing measurement conditions, to univocal results
-    associated with a specified reference condition. The utility of the formalism
-    is demonstrated by some practical applications given in an appendix to the paper.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>In the first part of this paper a procedure is described for calculating
+    the standard uncertainty <italic>u</italic>[<italic>F</italic>(<italic>D</italic>)]
+    in the approximation <italic>F</italic>(<italic>D</italic>) to the size-of-source
+    effect σ(<italic>D</italic><sub><italic>i</italic></sub>), measured for a range
+    of source diameters <italic>D</italic><sub><italic>i</italic></sub>, for two examples
+    out of a total of 35 considered in an accompanying paper. The overall uncertainty
+    includes the uncertainty <italic>s</italic><sub>fit</sub> of the approximation
+    <italic>F</italic>(<italic>D</italic>) to the experimental data and other components
+    such as the repeatability of the measurements, the effect of interreflections
+    and the in-focus/out-of-focus shift. In the main part of the paper this procedure
+    is tailored to the calculation of the uncertainty <italic>u</italic><sub>SSE</sub>[<italic>S</italic>(<italic>D</italic><sub>ref</sub>)]/<italic>S</italic>(<italic>D</italic><sub>ref</sub>)
+    in the correction for the size-of-source effect as a function of the reference
+    diameter <italic>D</italic><sub>ref</sub>, a relationship characteristic for a
+    given thermometer–source combination. The source considered here is a eutectic
+    fixed-point radiator, Re–C, radiating at the eutectic temperature of 2747 K. The
+    correction is carried out by transformation of the directly obtained results,
+    in terms of the signals <italic>S</italic> measured under the local prevailing
+    measurement conditions, to univocal results associated with a specified reference
+    condition. The utility of the formalism is demonstrated by some practical applications
+    given in an appendix to the paper.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the uncertainty in the correction for the size-of-source effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the uncertainty in the correction for the size-of-source effect
     date:
     - type: epub
-      value: '2009-08-04'
+      at: '2009-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the uncertainty in the correction for the size-of-source effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the uncertainty in the correction for the size-of-source effect
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +102,6 @@ extent:
     reference_from: '544'
     reference_to: '553'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

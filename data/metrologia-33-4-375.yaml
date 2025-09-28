@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia334375
-title:
-- content: Total radiation measurements of thermodynamic temperature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/4/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/4/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 4 375
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Total radiation measurements of thermodynamic temperature
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/4/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/4/12
+docidentifier:
+- content: Metrologia 33 4 375
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/4/12
+- content: 10.1088/0026-1394/33/4/12
   type: doi
 date:
 - type: published
-  value: '1996-08-01'
+  at: '1996-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, NPL
-  role:
-  - type: author
-revdate: '1996-08-01'
 abstract:
-- content: "<p>The principles of total radiation thermometry as a method of primary
+- language: en
+  script:
+  - Latn
+  content: "<p>The principles of total radiation thermometry as a method of primary
     thermometry are presented. Their practical application using a cryogenic radiometer
     is described with an account of the principal sources of uncertainty. It is shown
     that an uncertainty of about 0,3 mK may now be expected in the measurement of
-    T in the room temperature range if advantage is taken of new commercial black
-    surface preparations and new ideas in the design of black-body enclosures. Included
-    also are comments on the use of the same equipment for a determination of the
-    Stefan-Boltzmann constant with an estimated uncertainty approaching 1 part in
-    10<sup>5</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>T</italic> in the room temperature range if advantage is taken of new
+    commercial black surface preparations and new ideas in the design of black-body
+    enclosures. Included also are comments on the use of the same equipment for a
+    determination of the Stefan-Boltzmann constant with an estimated uncertainty approaching
+    1 part in 10<sup>5</sup>.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Total radiation measurements of thermodynamic temperature
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Total radiation measurements of thermodynamic temperature
     date:
     - type: ppub
-      value: '1996-08-01'
+      at: '1996-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '375'
     reference_to: '381'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

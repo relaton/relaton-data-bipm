@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375539
-title:
-- content: New spectral radiance scale from 220 nm to 2500 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/43
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/43
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 539
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New spectral radiance scale from 220 nm to 2500 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/43
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/43
+docidentifier:
+- content: Metrologia 37 5 539
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/43
+- content: 10.1088/0026-1394/37/5/43
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Friedrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a spectral
+- language: en
+  script:
+  - Latn
+  content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a spectral
     comparator facility for accurate spectral radiance measurements. As a primary
     standard source, a high-temperature black body (HTBB) is operated in the temperature
     range 1500 K to 3200 K. The black-body temperature is determined by two methods:
@@ -65,39 +59,31 @@ abstract:
     scale embodied by gas-filled tungsten strip lamps from 220 nm to 2500 nm. Such
     lamps are currently used as transfer standards for the Consultative Committee
     for Photometry and Radiometry (CCPR) comparison of spectral radiance (CCPR-S1).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New spectral radiance scale from 220 nm to 2500 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New spectral radiance scale from 220 nm to 2500 nm
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '539'
     reference_to: '542'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

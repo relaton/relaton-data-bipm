@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466L29
-title:
-- content: On some consequences of the different nature of within- and between-laboratory
-    data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/L02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/L02
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 L29
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On some consequences of the different nature of <italic>within</italic>-
+    and <italic>between</italic>-laboratory data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/L02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/L02
+docidentifier:
+- content: Metrologia 46 6 L29
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/L02
+- content: 10.1088/0026-1394/46/6/L02
   type: doi
 date:
 - type: published
-  value: '2009-11-19'
+  at: '2009-11-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Franco Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Torino, Italy
-  role:
-  - type: author
-revdate: '2009-11-19'
 abstract:
-- content: "<p>The ISO TS21748:2003 statement that the laboratory component of ‘bias’
-    included in the model and indicated by B in ISO 5725-2:1994 has “zero expectation”
-    is evaluated critically. It is found that this condition should apply not to the
-    B<sub>k</sub> of each laboratory modelled in ISO 5725-2:1994, but to the expectation
-    of the distribution of the B<sub>k</sub> in a comparison when the method of choosing
-    the participant laboratories supports the hypothesis that it becomes a ‘random
-    effect’. A few related inconsistencies are also discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The ISO TS21748:2003 statement that the laboratory component of ‘bias’
+    included in the model and indicated by <italic>B</italic> in ISO 5725-2:1994 has
+    “zero expectation” is evaluated critically. It is found that this condition should
+    apply not to the <italic>B</italic><sub><italic>k</italic></sub> of each laboratory
+    modelled in ISO 5725-2:1994, but to the expectation of the distribution of the
+    <italic>B</italic><sub><italic>k</italic></sub> in a comparison when the method
+    of choosing the participant laboratories supports the hypothesis that it becomes
+    a ‘random effect’. A few related inconsistencies are also discussed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On some consequences of the different nature of within- and between-laboratory
-        data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: On some consequences of the different nature of <italic>within</italic>-
+        and <italic>between</italic>-laboratory data
     date:
     - type: epub
-      value: '2009-11-19'
+      at: '2009-11-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On some consequences of the different nature of within- and between-laboratory
-        data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: On some consequences of the different nature of <italic>within</italic>-
+        and <italic>between</italic>-laboratory data
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: L29
     reference_to: L32
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

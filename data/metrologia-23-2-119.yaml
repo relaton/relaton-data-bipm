@@ -1,115 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia232119
-title:
-- content: Apropos of "The Gravitational Field of a 111 Tetrahedron"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/23/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/23/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 23 2 119
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Apropos of "The Gravitational Field of a 111 Tetrahedron"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/23/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/23/2/007
+docidentifier:
+- content: Metrologia 23 2 119
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/23/2/007
+- content: 10.1088/0026-1394/23/2/007
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Carré
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92312 Sèvres Cedex,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J F Metherell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Cavendish Laboratory, Madingley Road, Cambridge CB3 0HE, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92312 Sèvres Cedex,
             France
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>In a recent paper by A J F Metherell and T J Quinn, The Gravitational
-    Field of a 111 Tetrahedron (1986 Metrologia 22 87-91), some typographical and
-    other errors appeared. In this note these are corrected and suggestions made that
-    might aid in the reading of the article and in use of the equations presented
-    therein. The results of further calculations, made using double-precision arithmetic,
-    are given, which clarify the behaviour of the field near the apices and the edges
-    of the tetrahedron. An analytical expression is given for the field at the apices.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>In a recent paper by A J F Metherell and T J Quinn, <italic>The Gravitational
+    Field of a 111 Tetrahedron</italic> (1986 Metrologia <bold>22</bold> 87-91), some
+    typographical and other errors appeared. In this note these are corrected and
+    suggestions made that might aid in the reading of the article and in use of the
+    equations presented therein. The results of further calculations, made using double-precision
+    arithmetic, are given, which clarify the behaviour of the field near the apices
+    and the edges of the tetrahedron. An analytical expression is given for the field
+    at the apices.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Apropos of "The Gravitational Field of a 111 Tetrahedron"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Apropos of "The Gravitational Field of a 111 Tetrahedron"
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +105,6 @@ extent:
     reference_from: '119'
     reference_to: '120'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

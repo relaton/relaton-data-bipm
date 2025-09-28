@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia41169
-title:
-- content: Units for quantities of dimension one
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 69
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Units for quantities of dimension one
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/010
+docidentifier:
+- content: Metrologia 41 1 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/010
+- content: 10.1088/0026-1394/41/1/010
   type: doi
 date:
 - type: published
-  value: '2003-12-16'
+  at: '2003-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: René Dybkaer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Standardization in Laboratory Medicine, H:S Frederiksberg
             Hospital, Nordre Fasanvej 57, DK-2000 Frederiksberg, Denmark
-  role:
-  - type: author
-revdate: '2003-12-16'
 abstract:
-- content: "<p>All quantities of dimension one are said to have the SI coherent derived
+- language: en
+  script:
+  - Latn
+  content: "<p>All quantities of dimension one are said to have the SI coherent derived
     unit “one” with the symbol ‘1’. (Single quotation marks are used here sometimes
     to indicate a quote, name, term or symbol; double quotation marks flag a concept
     when necessary.) Conventionally, the term and symbol may not be combined with
@@ -55,53 +51,42 @@ abstract:
     relative quantity, relative increment or characteristic number and may also use
     the unit “one”, whether considered to be base or derived. The special term ‘uno’
     and symbol ‘u’ in either case are proposed, allowing combination with SI prefixes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Units for quantities of dimension one
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Units for quantities of dimension one
     date:
     - type: epub
-      value: '2003-12-16'
+      at: '2003-12-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Units for quantities of dimension one
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Units for quantities of dimension one
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +97,6 @@ extent:
     reference_from: '69'
     reference_to: '73'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

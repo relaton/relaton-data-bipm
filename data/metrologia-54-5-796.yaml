@@ -1,136 +1,123 @@
 ---
-schema-version: v1.2.9
-id: Metrologia545796
-title:
-- content: Uncertainty of relative sensitivity factors in glow discharge mass spectrometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa83d6
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa83d6
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 5 796
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty of relative sensitivity factors in glow discharge mass spectrometry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa83d6
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa83d6
+docidentifier:
+- content: Metrologia 54 5 796
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa83d6
+- content: 10.1088/1681-7575/aa83d6
   type: doi
 date:
 - type: published
-  value: '2017-09-15'
+  at: '2017-09-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Juris Meija
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
         name:
         - content: National Research Council Canada
         subdivision:
-        - content: Measurement Science and Standards
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Science and Standards
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Brad Methven
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
         name:
         - content: National Research Council Canada
         subdivision:
-        - content: Measurement Science and Standards
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Science and Standards
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ralph E Sturgeon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
         name:
         - content: National Research Council Canada
         subdivision:
-        - content: Measurement Science and Standards
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa ON K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2017-09-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Measurement Science and Standards
 abstract:
-- content: Abstract<p>The concept of the relative sensitivity factors required for
-    the correction of the measured ion beam ratios in pin-cell glow discharge mass
-    spectrometry is examined in detail. We propose a data-driven model for predicting
-    the relative response factors, which relies on a non-linear least squares adjustment
-    and analyte/matrix interchangeability phenomena. The model provides a self-consistent
-    set of response factors for any analyte/matrix combination of any element that
-    appears as either an analyte or matrix in at least one known response factor.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The concept of the relative sensitivity factors required for the correction of the measured ion beam ratios in pin-cell glow discharge mass spectrometry is examined in detail. We propose a data-driven model for predicting the relative response factors, which relies on a non-linear least squares adjustment and analyte/matrix interchangeability phenomena. The model provides a self-consistent set of response factors for any analyte/matrix combination of any element that appears as either an analyte or matrix in at least one known response factor.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of relative sensitivity factors in glow discharge mass
+    - script: Latn
+      content: Uncertainty of relative sensitivity factors in glow discharge mass
         spectrometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-10-01'
+      at: '2017-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of relative sensitivity factors in glow discharge mass
+    - script: Latn
+      content: Uncertainty of relative sensitivity factors in glow discharge mass
         spectrometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-09-15'
+      at: '2017-09-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +128,6 @@ extent:
     reference_from: '796'
     reference_to: '804'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

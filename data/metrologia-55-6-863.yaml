@@ -1,101 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia556863
-title:
-- content: Uncertainty propagation through integrated quantities for radiation thermometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaebbf
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaebbf
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 6 863
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty propagation through integrated quantities for radiation thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaebbf
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaebbf
+docidentifier:
+- content: Metrologia 55 6 863
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaebbf
+- content: 10.1088/1681-7575/aaebbf
   type: doi
 date:
 - type: published
-  value: '2018-11-13'
+  at: '2018-11-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2018-11-13'
 abstract:
-- content: Abstract<p>Uncertainty formulae are derived for propagating both correlated
-    and uncorrelated components of uncertainty in spectral responsivity measurements
-    directly through the Planck integrals for the radiation thermometry range of the
-    international temperature scale of 1990 (ITS-90) and for absolute radiometry.
-    These formulae are compared to those obtained using the Sakuma–Hattori equation
-    as an approximation to the Planck integrals. It is shown that for typical spectral
-    responsivity bandwidths, the differences are negligible, confirming that the Sakuma–Hattori
-    approximation provides an excellent model for the basis of uncertainty propagation
-    for radiation thermometry, resulting in simpler and more intuitive uncertainty
-    equations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Uncertainty formulae are derived for propagating both correlated and uncorrelated components of uncertainty in spectral responsivity measurements directly through the Planck integrals for the radiation thermometry range of the international temperature scale of 1990 (ITS-90) and for absolute radiometry. These formulae are compared to those obtained using the Sakuma–Hattori equation as an approximation to the Planck integrals. It is shown that for typical spectral responsivity bandwidths, the differences are negligible, confirming that the Sakuma–Hattori approximation provides an excellent model for the basis of uncertainty propagation for radiation thermometry, resulting in simpler and more intuitive uncertainty equations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation through integrated quantities for radiation
+    - script: Latn
+      content: Uncertainty propagation through integrated quantities for radiation
         thermometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-12-01'
+      at: '2018-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation through integrated quantities for radiation
+    - script: Latn
+      content: Uncertainty propagation through integrated quantities for radiation
         thermometry
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-11-13'
+      at: '2018-11-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +90,6 @@ extent:
     reference_from: '863'
     reference_to: '871'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

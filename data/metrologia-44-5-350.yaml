@@ -1,79 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445350
-title:
-- content: Uncertainty associated with the energy content in flow measurement of natural
-    gas including real-time correction for fluid properties
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 350
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty associated with the energy content in flow measurement of natural
+    gas including real-time correction for fluid properties
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/011
+docidentifier:
+- content: Metrologia 44 5 350
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/011
+- content: 10.1088/0026-1394/44/5/011
   type: doi
 date:
 - type: published
-  value: '2007-09-12'
+  at: '2007-09-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lilian Martins
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Natural Gas Measurement and Quality Management, Gas and Power Division,
             Petrobras, Av. República do Chile 65, Room 1201, 20031-912, Rio de Janeiro,
             RJ, Brazil
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurício N Frota
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Postgraduate Programme in Metrology, PósMQI/PUC-Rio, Catholic University
             of Rio de Janeiro, 22453-900, Rio de Janeiro, RJ, Brazil
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2007-09-12'
 abstract:
-- content: "<p>A procedure is proposed to calculate the uncertainty of the energy
+- language: en
+  script:
+  - Latn
+  content: "<p>A procedure is proposed to calculate the uncertainty of the energy
     content associated with real-time flow measurements of natural gas. The procedure
     was applied to a measuring scheme consisting of an arrangement of orifice plate
     meters installed in parallel, coupled to an on-line gas chromatograph and a real-time
@@ -82,55 +74,44 @@ abstract:
     the uncertainty depends mainly on these fluctuations, on the flow regime and on
     systematic errors. The work also suggests that the chemical analysis-sampling
     rate plays an important role in the overall uncertainty budget.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty associated with the energy content in flow measurement
+    - language: en
+      script: Latn
+      content: Uncertainty associated with the energy content in flow measurement
         of natural gas including real-time correction for fluid properties
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-09-12'
+      at: '2007-09-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty associated with the energy content in flow measurement
+    - language: en
+      script: Latn
+      content: Uncertainty associated with the energy content in flow measurement
         of natural gas including real-time correction for fluid properties
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: '350'
     reference_to: '355'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

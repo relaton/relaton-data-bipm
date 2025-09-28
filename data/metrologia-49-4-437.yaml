@@ -1,121 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494437
-title:
-- content: The evaluation of key comparison data using key comparison reference curves
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/437
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/437
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 437
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The evaluation of key comparison data using key comparison reference curves
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/437
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/437
+docidentifier:
+- content: Metrologia 49 4 437
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/437
+- content: 10.1088/0026-1394/49/4/437
   type: doi
 date:
 - type: published
-  value: '2012-05-16'
+  at: '2012-05-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2012-05-16'
 abstract:
-- content: Abstract<p>The concern is with key comparisons for which the participating
-    laboratories provide measured data at each of a number of prescribed values of
-    an auxiliary parameter, such as wavelength or frequency. Key comparison reference
-    curves provide a continuous counterpart of the key comparison reference values
-    (KCRVs) currently determined independently from the measured data relating to
-    each value of the auxiliary parameter. They have the potential to provide a smoother
-    realization of KCRVs across the interval of values of the auxiliary parameter
-    and thus avoid the anomalous erratic sequences of KCRVs, associated standard uncertainties
-    and degrees of equivalence that can be obtained otherwise. Key comparison reference
-    curves may also help in assuring the consistency of statements of calibration
-    and measurement capabilities with the results of key comparisons in cases where
-    the former relate to a continuous interval of values of an auxiliary parameter
-    and the latter to discrete values within the interval.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The concern is with key comparisons for which the participating laboratories provide measured data at each of a number of prescribed values of an auxiliary parameter, such as wavelength or frequency. Key comparison reference curves provide a continuous counterpart of the key comparison reference values (KCRVs) currently determined independently from the measured data relating to each value of the auxiliary parameter. They have the potential to provide a smoother realization of KCRVs across the interval of values of the auxiliary parameter and thus avoid the anomalous erratic sequences of KCRVs, associated standard uncertainties and degrees of equivalence that can be obtained otherwise. Key comparison reference curves may also help in assuring the consistency of statements of calibration and measurement capabilities with the results of key comparisons in cases where the former relate to a continuous interval of values of an auxiliary parameter and the latter to discrete values within the interval.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The evaluation of key comparison data using key comparison reference
+    - script: Latn
+      content: The evaluation of key comparison data using key comparison reference
         curves
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The evaluation of key comparison data using key comparison reference
+    - script: Latn
+      content: The evaluation of key comparison data using key comparison reference
         curves
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-05-16'
+      at: '2012-05-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +104,6 @@ extent:
     reference_from: '437'
     reference_to: '445'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

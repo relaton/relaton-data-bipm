@@ -1,103 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524613
-title:
-- content: Comment on ‘Dimensionless units in the SI’
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/613
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/613
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 613
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comment on ‘Dimensionless units in the SI’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/613
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/613
+docidentifier:
+- content: Metrologia 52 4 613
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/613
+- content: 10.1088/0026-1394/52/4/613
   type: doi
 date:
 - type: published
-  value: '2015-08-01'
+  at: '2015-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B P Leonard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Akron, Ohio 44325, USA
         name:
         - content: The University of Akron
-        contact:
-        - address:
-            formatted_address: Akron, Ohio 44325, USA
-  role:
-  - type: author
-revdate: '2015-08-01'
 abstract:
-- content: Abstract<p>In their paper, Mohr and Phillips demonstrate that the SI’s
-    representation of ‘plane angle’ as dimensionless rather than as an independent
-    dimensional quantity continues to create confusion. The authors also address perceived
-    problems in terminology regarding numbers of items, such as discrete events or
-    particles. However, their general philosophy of equating the dimensionless ‘number
-    of items’ to ‘(number of items)  ×  (item name)’ leads to false conclusions, such
-    as that the hertz is equal to 2π radians per second, and therefore not a coherent
-    SI unit. In attempting to specify kinds of entities, the authors introduce descriptive
-    labels into their supposed ‘units,’ resulting in confusion between number of entities
-    and amount of substance. And, in discussing the mole and related fundamental constants,
-    they incorrectly portray the Avogadro constant as a conversion factor, identically
-    equal to 1, thereby corrupting the relationships between the Boltzmann constant
-    and the universal gas constant, and between the elementary charge and the Faraday
-    constant. In my comment, I explain and correct these and related errors.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In their paper, Mohr and Phillips demonstrate that the SI’s representation of ‘plane angle’ as dimensionless rather than as an independent dimensional quantity continues to create confusion. The authors also address perceived problems in terminology regarding numbers of items, such as discrete events or particles. However, their general philosophy of equating the dimensionless ‘number of items’ to ‘(number of items)  ×  (item name)’ leads to false conclusions, such as that the hertz is equal to 2<italic>π</italic> radians per second, and therefore not a coherent SI unit. In attempting to specify kinds of entities, the authors introduce descriptive labels into their supposed ‘units,’ resulting in confusion between number of entities and amount of substance. And, in discussing the mole and related fundamental constants, they incorrectly portray the Avogadro constant as a conversion factor, identically equal to 1, thereby corrupting the relationships between the Boltzmann constant and the universal gas constant, and between the elementary charge and the Faraday constant. In my comment, I explain and correct these and related errors.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Dimensionless units in the SI’
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Comment on ‘Dimensionless units in the SI’
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Dimensionless units in the SI’
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Comment on ‘Dimensionless units in the SI’
     date:
     - type: epub
-      value: '2015-08-03'
+      at: '2015-08-03'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +88,6 @@ extent:
     reference_from: '613'
     reference_to: '616'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

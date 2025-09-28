@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A01002
-title:
-- content: EUROMET Comparison of AC Electric Field Strength EUROMET.EM-S6
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/01002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/01002
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1A 01002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: EUROMET Comparison of AC Electric Field Strength EUROMET.EM-S6
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/01002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/01002
+docidentifier:
+- content: Metrologia 40 1A 01002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/01002
+- content: 10.1088/0026-1394/40/1A/01002
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Heinz Eckardt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, 10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Lippoldt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, 10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>A comparison of the low-frequency electric field strength in the\nrange
+- language: en
+  script:
+  - Latn
+  content: "<p>A comparison of the low-frequency electric field strength in the\nrange
     from 1 V/m to 20 kV/m at frequencies of 16<sup>2</sup>/<sub>3</sub> Hz, 50 Hz,\n60 Hz
     and 400 Hz was carried out within the scope of\nEUROMET. Eight partners from seven
     European countries were \ninvolved in the comparison; the PTB in Berlin acted
@@ -66,39 +60,31 @@ abstract:
     supplementary\ntasks which could be carried out on a voluntary basis. The\nreport
     on hand presents and evaluates the results achieved by\nthe participants in the
     main task. The results of the \nsupplementary tasks will be reported separately.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: EUROMET Comparison of AC Electric Field Strength EUROMET.EM-S6
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: EUROMET Comparison of AC Electric Field Strength EUROMET.EM-S6
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '01002'
     reference_to: '01002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

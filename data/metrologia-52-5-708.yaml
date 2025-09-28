@@ -1,133 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525708
-title:
-- content: Wave front and phase correction for double-ended gauge block interferometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/708
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/708
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 708
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Wave front and phase correction for double-ended gauge block interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/708
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/708
+docidentifier:
+- content: Metrologia 52 5 708
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/708
+- content: 10.1088/0026-1394/52/5/708
   type: doi
 date:
 - type: published
-  value: '2015-09-24'
+  at: '2015-09-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Lassila
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tekniikantie 1, FIN-02150 Espoo, Finland
         name:
         - content: VTT Technical Research Centre of Finland Ltd, Centre for Metrology
             (MIKES)
-        contact:
-        - address:
-            formatted_address: Tekniikantie 1, FIN-02150 Espoo, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Byman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tekniikantie 1, FIN-02150 Espoo, Finland
         name:
         - content: VTT Technical Research Centre of Finland Ltd, Centre for Metrology
             (MIKES)
-        contact:
-        - address:
-            formatted_address: Tekniikantie 1, FIN-02150 Espoo, Finland
-  role:
-  - type: author
-revdate: '2015-09-24'
 abstract:
-- content: 'Abstract<p>Double-ended interferometry has several benefits over single-ended
-    gauge block interferometry: there is no need for wringing, which wears surfaces
-    and requires expertise, and there is improved repeatability, since there is no
-    variation due to inconsistent wringing conditions or form errors of the gauge
-    block surfaces. Some disadvantages of double-ended interferometry are that absolute
-    phase change correction is needed for the gauge block and its uncertainty has
-    a double effect on total uncertainty. In addition, elimination of the wavefront
-    error is more complicated than with single-ended interferometry. A simple optical
-    modification that enables double-ended interferometer (DEI) measurements with
-    the MIKES interferometer for long gauge blocks is presented. This modification
-    is applicable to almost any single-ended interferometer (SEI). A procedure for
-    evaluating the wave front correction for different parts of the interferogram
-    of DEI is explained, and a modification and software with capability for nine-point
-    phase stepping is presented. Three independent methods for evaluation of the phase
-    correction were studied. One of them uses integrating sphere for the surface roughness
-    correction and literature values for the phase change due to complex refractive
-    index of material correction. The second evaluates the phase correction from the
-    difference between DEI and SEI results obtained with a quartz platen. The third
-    uses differences—from separate measurements—between the results obtained with
-    quartz or steel auxiliary platens. Only a few gauge blocks per set need testing
-    to obtain phase correction. SEI and DEI results with different phase correction
-    determination methods are presented and evaluated. The uncertainty estimate for
-    gauge block calibration with DEI gives a similar standard uncertainty to that
-    with the best SEIs, u&equals;(10.0&#x00A0;&thinsp;nm)2&plus;(118&#x00D7;10&#x2212;9L)2
-    >.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Double-ended interferometry has several benefits over single-ended gauge block interferometry: there is no need for wringing, which wears surfaces and requires expertise, and there is improved repeatability, since there is no variation due to inconsistent wringing conditions or form errors of the gauge block surfaces. Some disadvantages of double-ended interferometry are that absolute phase change correction is needed for the gauge block and its uncertainty has a double effect on total uncertainty. In addition, elimination of the wavefront error is more complicated than with single-ended interferometry. A simple optical modification that enables double-ended interferometer (DEI) measurements with the MIKES interferometer for long gauge blocks is presented. This modification is applicable to almost any single-ended interferometer (SEI). A procedure for evaluating the wave front correction for different parts of the interferogram of DEI is explained, and a modification and software with capability for nine-point phase stepping is presented. Three independent methods for evaluation of the phase correction were studied. One of them uses integrating sphere for the surface roughness correction and literature values for the phase change due to complex refractive index of material correction. The second evaluates the phase correction from the difference between DEI and SEI results obtained with a quartz platen. The third uses differences—from separate measurements—between the results obtained with quartz or steel auxiliary platens. Only a few gauge blocks per set need testing to obtain phase correction. SEI and DEI results with different phase correction determination methods are presented and evaluated. The uncertainty estimate for gauge block calibration with DEI gives a similar standard uncertainty to that with the best SEIs, <inline-formula><tex-math><?CDATA $u=\sqrt{{{\left(10.0~\,\text{nm}\right)}^{2}}+{{\left(118\times {{10}^{-9}}L\right)}^{2}}}$ ></tex-math><?MML <mml:math><mml:mstyle displaystyle='false'><mml:mrow><mml:mi>u</mml:mi><mml:mo>&equals;</mml:mo><mml:msqrt><mml:mrow><mml:mstyle displaystyle='false'><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>10.0</mml:mn><mml:mo>&#x00A0;</mml:mo><mml:mtext>&thinsp;</mml:mtext><mml:mtext mathvariant="normal">nm</mml:mtext></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mstyle><mml:mo>&plus;</mml:mo><mml:mstyle displaystyle='false'><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>118</mml:mn><mml:mo>&#x00D7;</mml:mo><mml:mstyle displaystyle='false'><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mstyle><mml:mi>L</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mstyle></mml:mrow></mml:msqrt></mml:mrow></mml:mstyle></mml:math> ><inline-graphic xlink:href="met519561ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula>.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wave front and phase correction for double-ended gauge block interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wave front and phase correction for double-ended gauge block interferometry
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wave front and phase correction for double-ended gauge block interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Wave front and phase correction for double-ended gauge block interferometry
     date:
     - type: epub
-      value: '2015-09-24'
+      at: '2015-09-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +104,6 @@ extent:
     reference_from: '708'
     reference_to: '716'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

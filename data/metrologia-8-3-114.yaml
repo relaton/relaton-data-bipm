@@ -1,118 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia83114
-title:
-- content: Monitoring the NSL Standard of EMF Using the AC Josephson Effect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 3 114
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monitoring the NSL Standard of EMF Using the AC Josephson Effect
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/3/006
+docidentifier:
+- content: Metrologia 8 3 114
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/3/006
+- content: 10.1088/0026-1394/8/3/006
   type: doi
 date:
 - type: published
-  value: '1972-07-01'
+  at: '1972-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I K Harvey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Standards Laboratory,
             Sydney, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Macfarlane
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Standards Laboratory,
             Sydney, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Frenkel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Standards Laboratory,
             Sydney, Australia
-  role:
-  - type: author
-revdate: '1972-07-01'
 abstract:
-- content: "<p>The techniques used for the monitoring of the NSL standard of emf using
-    the ac Josephson effect are reported. The standard has been monitored since 29th
-    May 1970 and the reported measurements span a period of 482 days. These measurements
-    have predominantly used niobium point contact Josephson junctions operated at
-    the 1 mV level.</p><p>The mean of the set of standard cells comprising the NSL
-    standard has been determined in terms of a `Josephson frequency'. The value of
-    this frequency at the time of the NBS-NSL volt transfer was 492.590 64 THz and
-    a value of 2 e/h = 483.593 80 ± 0.1 ppm THz/V<sub>NSL</sub> has been obtained
-    for this period.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The techniques used for the monitoring of the NSL standard of emf using the ac Josephson effect are reported. The standard has been monitored since 29th May 1970 and the reported measurements span a period of 482 days. These measurements have predominantly used niobium point contact Josephson junctions operated at the 1 mV level.</p>
+    <p>The mean of the set of standard cells comprising the NSL standard has been determined in terms of a `Josephson frequency'. The value of this frequency at the time of the NBS-NSL volt transfer was 492.590 64 THz and a value of 2 <italic>e/h</italic> = 483.593 80 ± 0.1 ppm THz/V<sub>NSL</sub> has been obtained for this period.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monitoring the NSL Standard of EMF Using the AC Josephson Effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Monitoring the NSL Standard of EMF Using the AC Josephson Effect
     date:
     - type: ppub
-      value: '1972-07-01'
+      at: '1972-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +101,6 @@ extent:
     reference_from: '114'
     reference_to: '124'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

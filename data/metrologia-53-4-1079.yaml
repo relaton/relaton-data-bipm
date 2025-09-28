@@ -1,161 +1,125 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5341079
-title:
-- content: Uncertainty of empirical correlation equations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/1079
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/1079
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 1079
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty of empirical correlation equations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/1079
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/1079
+docidentifier:
+- content: Metrologia 53 4 1079
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/1079
+- content: 10.1088/0026-1394/53/4/1079
   type: doi
 date:
 - type: published
-  value: '2016-07-06'
+  at: '2016-07-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Feistel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: D-18119 Warnemünde, Germany
         name:
         - content: Leibniz Institute for Baltic Sea Research (IOW)
-        contact:
-        - address:
-            formatted_address: D-18119 Warnemünde, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Lovell-Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31–310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory (MSL)
-        contact:
-        - address:
-            formatted_address: PO Box 31–310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31–310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory (MSL)
-        contact:
-        - address:
-            formatted_address: PO Box 31–310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Seitz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: D-38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: D-38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2016-07-06'
 abstract:
-- content: Abstract<p>The International Association for the Properties of Water and
-    Steam (IAPWS) has published a set of empirical reference equations of state, forming
-    the basis of the 2010 Thermodynamic Equation of Seawater (TEOS-10), from which
-    all thermodynamic properties of seawater, ice, and humid air can be derived in
-    a thermodynamically consistent manner. For each of the equations of state, the
-    parameters have been found by simultaneously fitting equations for a range of
-    different derived quantities using large sets of measurements of these quantities.
-    In some cases, uncertainties in these fitted equations have been assigned based
-    on the uncertainties of the measurement results. However, because uncertainties
-    in the parameter values have not been determined, it is not possible to estimate
-    the uncertainty in many of the useful quantities that can be calculated using
-    the parameters. In this paper we demonstrate how the method of generalised least
-    squares (GLS), in which the covariance of the input data is propagated into the
-    values calculated by the fitted equation, and in particular into the covariance
-    matrix of the fitted parameters, can be applied to one of the TEOS-10 equations
-    of state, namely IAPWS-95 for fluid pure water. Using the calculated parameter
-    covariance matrix, we provide some preliminary estimates of the uncertainties
-    in derived quantities, namely the second and third virial coefficients for water.
-    We recommend further investigation of the GLS method for use as a standard method
-    for calculating and propagating the uncertainties of values computed from empirical
-    equations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The International Association for the Properties of Water and Steam (IAPWS) has published a set of empirical reference equations of state, forming the basis of the 2010 Thermodynamic Equation of Seawater (TEOS-10), from which all thermodynamic properties of seawater, ice, and humid air can be derived in a thermodynamically consistent manner. For each of the equations of state, the parameters have been found by simultaneously fitting equations for a range of different derived quantities using large sets of measurements of these quantities. In some cases, uncertainties in these fitted equations have been assigned based on the uncertainties of the measurement results. However, because uncertainties in the parameter values have not been determined, it is not possible to estimate the uncertainty in many of the useful quantities that can be calculated using the parameters. In this paper we demonstrate how the method of generalised least squares (GLS), in which the covariance of the input data is propagated into the values calculated by the fitted equation, and in particular into the covariance matrix of the fitted parameters, can be applied to one of the TEOS-10 equations of state, namely IAPWS-95 for fluid pure water. Using the calculated parameter covariance matrix, we provide some preliminary estimates of the uncertainties in derived quantities, namely the second and third virial coefficients for water. We recommend further investigation of the GLS method for use as a standard method for calculating and propagating the uncertainties of values computed from empirical equations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of empirical correlation equations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty of empirical correlation equations
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of empirical correlation equations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty of empirical correlation equations
     date:
     - type: epub
-      value: '2016-07-06'
+      at: '2016-07-06'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -166,6 +130,6 @@ extent:
     reference_from: '1079'
     reference_to: '1090'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

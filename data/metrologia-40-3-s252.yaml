@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S252
-title:
-- content: Towards an optimal weighting scheme for TAI computation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/304
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/304
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S252
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Towards an optimal weighting scheme for TAI computation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/304
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/304
+docidentifier:
+- content: Metrologia 40 3 S252
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/304
+- content: 10.1088/0026-1394/40/3/304
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gérard Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>International atomic time (TAI) is an ensemble timescale based on a
+- language: en
+  script:
+  - Latn
+  content: "<p>International atomic time (TAI) is an ensemble timescale based on a
     weighted average of clocks. The basic properties of the algorithm have been fixed
     since its inception: that is, the weight of a clock is inversely proportional
     to a variance measuring the instability of the clock, and it cannot exceed a maximum
@@ -54,53 +50,42 @@ abstract:
     reliability criterion defined here. Tests using simulated and real data are presented.
     A weighting scheme to be used for TAI computation is proposed in which the reliability
     estimator is optimized.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards an optimal weighting scheme for TAI computation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Towards an optimal weighting scheme for TAI computation
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards an optimal weighting scheme for TAI computation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Towards an optimal weighting scheme for TAI computation
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: S252
     reference_to: S256
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

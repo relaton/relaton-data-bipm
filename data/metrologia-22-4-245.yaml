@@ -1,90 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia224245
-title:
-- content: Another Viewpoint on Plane Angle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 4 245
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Another Viewpoint on Plane Angle
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/4/002
+docidentifier:
+- content: Metrologia 22 4 245
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/4/002
+- content: 10.1088/0026-1394/22/4/002
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D C Dixon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Chemical Engineering and Industrial Chemistry, University
             of New South Wales, Kensington, NSW 2033, Australia
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>Angle can be made dimensional by introducing a universal constant into
-    its definition, so that linear-and rotary-action quantities then have different
-    dimensions. However, to offset this gain, extensive changes will be required in
-    the educational system. The view is put that the confusion surrounding angle will
-    be more easily dispelled by making clear that radians, degrees, revolutions, etc.
-    do not designate different units of the same quantity, but definitions of different,
-    but related, quantities, all of which are dimensionless.</p><p>With respect to
-    dimensional analysis, examples are used to show that treating angle as dimensional
-    does not generally lead to correct results. Rather, it is best to avoid the use
-    of angles in describing systems for dimensional analysis, using appropriate lengths
-    instead.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Angle can be made dimensional by introducing a universal constant into its definition, so that linear-and rotary-action quantities then have different dimensions. However, to offset this gain, extensive changes will be required in the educational system. The view is put that the confusion surrounding angle will be more easily dispelled by making clear that radians, degrees, revolutions, etc. do not designate different units of the same quantity, but definitions of different, but related, quantities, all of which are dimensionless.</p>
+    <p>With respect to dimensional analysis, examples are used to show that treating angle as dimensional does not generally lead to correct results. Rather, it is best to avoid the use of angles in describing systems for dimensional analysis, using appropriate lengths instead.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Another Viewpoint on Plane Angle
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Another Viewpoint on Plane Angle
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +75,6 @@ extent:
     reference_from: '245'
     reference_to: '250'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia436531
-title:
-- content: Estimation of the modulus of a complex-valued quantity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/6/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/6/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 6 531
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Estimation of the modulus of a complex-valued quantity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/6/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/6/008
+docidentifier:
+- content: Metrologia 43 6 531
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/6/008
+- content: 10.1088/0026-1394/43/6/008
   type: doi
 date:
 - type: published
-  value: '2006-11-13'
+  at: '2006-11-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Oberto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,26 +37,24 @@ contributor:
         name:
         - content: Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino,
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2006-11-13'
 abstract:
-- content: "<p>This paper analyses two possible estimators for the modulus of a complex-valued
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper analyses two possible estimators for the modulus of a complex-valued
     quantity. The case of uncorrelated and normally distributed real and imaginary
     parts is treated. The expectations of the two estimators are calculated for varying
     parameters of the two normal distributions. They are derived analytically, when
@@ -70,53 +64,42 @@ abstract:
     between the second estimator and the maximum likelihood estimator for a Rayleigh
     distribution is also presented. Examples from the metrological and physical fields
     are provided in order to compare the considered estimation methods.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimation of the modulus of a complex-valued quantity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Estimation of the modulus of a complex-valued quantity
     date:
     - type: epub
-      value: '2006-11-13'
+      at: '2006-11-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimation of the modulus of a complex-valued quantity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Estimation of the modulus of a complex-valued quantity
     date:
     - type: ppub
-      value: '2006-12-01'
+      at: '2006-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: '531'
     reference_to: '538'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

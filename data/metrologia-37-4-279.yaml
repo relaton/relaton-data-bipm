@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia374279
-title:
-- content: Accurate determination of the spectral responsivity of silicon trap detectors
-    between 238 nm and 1015 nm using a laser-based cryogenic radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/4/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/4/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 4 279
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accurate determination of the spectral responsivity of silicon trap detectors
+    between 238 nm and 1015 nm using a laser-based cryogenic radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/4/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/4/3
+docidentifier:
+- content: Metrologia 37 4 279
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/4/3
+- content: 10.1088/0026-1394/37/4/3
   type: doi
 date:
 - type: published
-  value: '2000-08-01'
+  at: '2000-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Werner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Johannsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hartmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '2000-08-01'
 abstract:
-- content: "<p>The Physikalisch-Technische Bundesanstalt has further improved and
+- language: en
+  script:
+  - Latn
+  content: "<p>The Physikalisch-Technische Bundesanstalt has further improved and
     extended its spectral responsivity scale based on the laser-operated radiation
     thermometry cryogenic radiometer. Five laser wavelengths in the ultraviolet (UV)
     (238 nm to 400 nm) and another fifteen in the visible and near-infrared (NIR)
@@ -91,44 +81,37 @@ abstract:
     can be used in air. The lasers employed are a Kr<sup>+</sup> laser, an Ar<sup>+</sup>
     laser with optional intra-cavity frequency-doubling, and a continuously tuneable
     Ti:sapphire ring laser. The total relative standard uncertainty of the spectral
-    responsivity at the laser lines is u = 10<sup>-4</sup> in the visible and NIR
-    below 950 nm and u = 10<sup>-3</sup> in the UV. With an improved model for interpolation
-    between the laser wavelengths, a continuous scale of spectral responsivity has
-    been established in the wavelength range 400 nm to 1015 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    responsivity at the laser lines is <italic>u</italic> = 10<sup>-4</sup> in the
+    visible and NIR below 950 nm and <italic>u</italic> = 10<sup>-3</sup> in the UV.
+    With an improved model for interpolation between the laser wavelengths, a continuous
+    scale of spectral responsivity has been established in the wavelength range 400
+    nm to 1015 nm.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate determination of the spectral responsivity of silicon trap
+    - language: en
+      script: Latn
+      content: Accurate determination of the spectral responsivity of silicon trap
         detectors between 238 nm and 1015 nm using a laser-based cryogenic radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-08-01'
+      at: '2000-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +122,6 @@ extent:
     reference_from: '279'
     reference_to: '284'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

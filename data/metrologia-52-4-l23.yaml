@@ -1,158 +1,133 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524L23
-title:
-- content: Corrigendum to the 2014 NRC determination of Planck’s constant
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/L23
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/L23
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 L23
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Corrigendum to the 2014 NRC determination of Planck’s constant
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/L23
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/L23
+docidentifier:
+- content: Metrologia 52 4 L23
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/L23
+- content: 10.1088/0026-1394/52/4/L23
   type: doi
 date:
 - type: published
-  value: '2015-05-15'
+  at: '2015-05-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Sanchez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, Ottawa, Ontario, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, Ottawa, Ontario,
-              Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B M Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, Ottawa, Ontario, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, Ottawa, Ontario,
-              Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Green
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, Ottawa, Ontario, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, Ottawa, Ontario,
-              Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J O Liard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, Ottawa, Ontario, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, Ottawa, Ontario,
-              Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Inglis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, Ottawa, Ontario, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, Ottawa, Ontario,
-              Canada
-  role:
-  - type: author
-revdate: '2015-05-15'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Corrigendum to the 2014 NRC determination of Planck’s constant
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Corrigendum to the 2014 NRC determination of Planck’s constant
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Corrigendum to the 2014 NRC determination of Planck’s constant
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Corrigendum to the 2014 NRC determination of Planck’s constant
     date:
     - type: epub
-      value: '2015-05-15'
+      at: '2015-05-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -163,6 +138,6 @@ extent:
     reference_from: L23
     reference_to: L23
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

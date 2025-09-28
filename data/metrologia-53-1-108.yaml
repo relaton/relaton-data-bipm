@@ -1,102 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531108
-title:
-- content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/108
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/108
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 108
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/108
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/108
+docidentifier:
+- content: Metrologia 53 1 108
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/108
+- content: 10.1088/0026-1394/53/1/108
   type: doi
 date:
 - type: published
-  value: '2016-01-27'
+  at: '2016-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Donald B Macnaughton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 30 Greenfield Ave. Suite 1503, Toronto, ON M2N 6N3, Canada
         name:
         - content: MatStat
-        contact:
-        - address:
-            formatted_address: 30 Greenfield Ave. Suite 1503, Toronto, ON M2N 6N3,
-              Canada
-  role:
-  - type: author
-revdate: '2016-01-27'
 abstract:
-- content: Abstract<p>The International Committee for Weights and Measures has projected
-    a major revision of the International System of Units in which all the base units
-    will be defined by fixing the values of certain fundamental constants of nature.
-    To assist, de Podesta et al recently experimentally obtained a precise new estimate
-    of the Boltzmann constant. This estimate is proposed as a basis for the redefinition
-    of the unit of temperature, the kelvin. The present paper reports a reanalysis
-    of de Podesta et al’s data that reveals systematic non-random patterns in the
-    residuals of the key fitted model equation. These patterns violate the assumptions
-    underlying the analysis and thus they raise questions about the validity of de
-    Podesta et al’s estimate of the Boltzmann constant. An approach is discussed to
-    address these issues, which should lead to an accurate estimate of the Boltzmann
-    constant with a lower uncertainty.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The International Committee for Weights and Measures has projected a major revision of the International System of Units in which all the base units will be defined by fixing the values of certain fundamental constants of nature. To assist, de Podesta <italic>et al</italic> recently experimentally obtained a precise new estimate of the Boltzmann constant. This estimate is proposed as a basis for the redefinition of the unit of temperature, the kelvin. The present paper reports a reanalysis of de Podesta <italic>et al</italic>’s data that reveals systematic non-random patterns in the residuals of the key fitted model equation. These patterns violate the assumptions underlying the analysis and thus they raise questions about the validity of de Podesta <italic>et al</italic>’s estimate of the Boltzmann constant. An approach is discussed to address these issues, which should lead to an accurate estimate of the Boltzmann constant with a lower uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Comment on ‘A low-uncertainty measurement of the Boltzmann constant’
     date:
     - type: epub
-      value: '2016-01-27'
+      at: '2016-01-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +88,6 @@ extent:
     reference_from: '108'
     reference_to: '115'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

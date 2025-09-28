@@ -1,136 +1,119 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532770
-title:
-- content: A method to measure the density of seawater accurately to the level of
-    10<sup>−6</sup>
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/770
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/770
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 770
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A method to measure the density of seawater accurately to the level of
+    10<sup>−6</sup>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/770
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/770
+docidentifier:
+- content: Metrologia 53 2 770
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/770
+- content: 10.1088/0026-1394/53/2/770
   type: doi
 date:
 - type: published
-  value: '2016-02-10'
+  at: '2016-02-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hannes Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Henning Wolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Egon Hassel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Albert-Einstein-Straße 2, 18051 Rostock, Germany
         name:
         - content: Universität Rostock
         subdivision:
-        - content: Lehrstuhl für Technische Thermodynamik
-        contact:
-        - address:
-            formatted_address: Albert-Einstein-Straße 2, 18051 Rostock, Germany
-  role:
-  - type: author
-revdate: '2016-02-10'
+        - name:
+          - language: en
+            script: Latn
+            content: Lehrstuhl für Technische Thermodynamik
 abstract:
-- content: Abstract<p>A substitution method to measure seawater density relative to
-    pure water density using vibrating tube densimeters was realized and validated.
-    Standard uncertainties of 1 g m<sup>−3</sup> at atmospheric pressure, 10 g m<sup>−3</sup>
-    up to 10 MPa, and 20 g m<sup>−3</sup> to 65 MPa in the temperature range of 5
-    °C to 35 °C and for salt contents up to 35 g kg<sup>−1</sup> were achieved. The
-    realization was validated by comparison measurements with a hydrostatic weighing
-    apparatus for atmospheric pressure. For high pressures, literature values of seawater
-    compressibility were compared with substitution measurements of the realized apparatus.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A substitution method to measure seawater density relative to pure water density using vibrating tube densimeters was realized and validated. Standard uncertainties of 1 g m<sup>−3</sup> at atmospheric pressure, 10 g m<sup>−3</sup> up to 10 MPa, and 20 g m<sup>−3</sup> to 65 MPa in the temperature range of 5 °C to 35 °C and for salt contents up to 35 g kg<sup>−1</sup> were achieved. The realization was validated by comparison measurements with a hydrostatic weighing apparatus for atmospheric pressure. For high pressures, literature values of seawater compressibility were compared with substitution measurements of the realized apparatus.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A method to measure the density of seawater accurately to the level
+    - script: Latn
+      content: A method to measure the density of seawater accurately to the level
         of 10<sup>−6</sup>
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A method to measure the density of seawater accurately to the level
+    - script: Latn
+      content: A method to measure the density of seawater accurately to the level
         of 10<sup>−6</sup>
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2016-02-10'
+      at: '2016-02-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +124,6 @@ extent:
     reference_from: '770'
     reference_to: '786'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

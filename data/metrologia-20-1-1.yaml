@@ -1,87 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2011
-title:
-- content: Systematic Errors in a High-Accuracy Johnson Noise Thermometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systematic Errors in a High-Accuracy Johnson Noise Thermometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/1/002
+docidentifier:
+- content: Metrologia 20 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/1/002
+- content: 10.1088/0026-1394/20/1/002
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics and Engineering Laboratory, Department of Scientific and
             Industrial Research, Private Bag, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>The design of a cross-correlation noise thermometer based on a very-low-noise
-    preamplifier and a high-speed, high-accuracy analog-to-digital converter is described.
-    Error estimations indicate that the thermometer will have a basic accuracy better
-    than 10 mK. Further self-check procedures are outlined that will reduce the systematic
-    errors to approximately ±2 mK. The measurement time required to achieve a statistical
-    uncertainty of ±3 mK is 2.5 days.</p><p>A thermometer of the design suggested
-    is under construction at the Physics and Engineering Laboratory of the DSIR, for
-    operation between 0 °C and 200 °C.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The design of a cross-correlation noise thermometer based on a very-low-noise preamplifier and a high-speed, high-accuracy analog-to-digital converter is described. Error estimations indicate that the thermometer will have a basic accuracy better than 10 mK. Further self-check procedures are outlined that will reduce the systematic errors to approximately ±2 mK. The measurement time required to achieve a statistical uncertainty of ±3 mK is 2.5 days.</p>
+    <p>A thermometer of the design suggested is under construction at the Physics and Engineering Laboratory of the DSIR, for operation between 0 °C and 200 °C.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Systematic Errors in a High-Accuracy Johnson Noise Thermometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Systematic Errors in a High-Accuracy Johnson Noise Thermometer
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +75,6 @@ extent:
     reference_from: '1'
     reference_to: '9'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

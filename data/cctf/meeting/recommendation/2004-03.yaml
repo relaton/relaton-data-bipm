@@ -1,112 +1,90 @@
 ---
-schema-version: v1.2.9
 id: CCTF-REC-2004-03
-title:
-- content: Concerning the steering of International Atomic Time (TAI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Au sujet du pilotage du Temps atomique international (TAI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cctf/16-2004/resolution-3
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cctf/16-2004/resolution-3
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-16.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-16.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071143/CCTF16.pdf/69d3d443-0372-9c79-cb1d-9d8851c65dd7
-  type: pdf
 type: proceedings
-docid:
-- id: CCTF REC 3 (2004)
-  type: BIPM
-  primary: true
-- id: CCTF REC 3 (2004, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCTF REC 3 (2004, F)
+  content: Concerning the steering of International Atomic Time (TAI)
+- language: fr
+  script: Latn
+  content: Au sujet du pilotage du Temps atomique international (TAI)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/cctf/16-2004/resolution-3
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/cctf/16-2004/resolution-3
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-16.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-16.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071143/CCTF16.pdf/69d3d443-0372-9c79-cb1d-9d8851c65dd7
+docidentifier:
+- content: CCTF REC 3 (2004)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCTF Recommendation 3 (2004)
+  content: CCTF REC 3 (2004, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCTF REC 3 (2004, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCTF Recommendation 3 (2004)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 3 du CCTF (2004)
+  content: Recommandation 3 du CCTF (2004)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCTF Recommendation 3 (2004) / Recommandation 3 du CCTF (2004)
+- content: CCTF Recommendation 3 (2004) / Recommandation 3 du CCTF (2004)
   type: BIPM-long
 docnumber: CCTF REC 3 (2004)
 date:
 - type: published
-  value: '2004-04-02'
+  at: '2004-04-02'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: Consultative Committee for Time and Frequency
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité consultatif du temps et des fréquences
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CCTF
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2004-04-02'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Consultative Committee for Time and Frequency
+    - language: fr
+      script: Latn
+      content: Comité consultatif du temps et des fréquences
+    abbreviation:
+      language: en
+      script: Latn
+      content: CCTF
 language:
 - en
 - fr
@@ -115,8 +93,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '3'

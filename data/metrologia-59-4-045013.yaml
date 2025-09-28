@@ -1,161 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia594045013
-title:
-- content: 'Defining relative humidity in terms of water activity: III. Relations
-    to dew-point and frost-point temperatures'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac7185
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac7185
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 4 045013
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Defining relative humidity in terms of water activity: III. Relations
+    to dew-point and frost-point temperatures'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac7185
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac7185
+docidentifier:
+- content: Metrologia 59 4 045013
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac7185
+- content: 10.1088/1681-7575/ac7185
   type: doi
 date:
 - type: published
-  value: '2022-07-20'
+  at: '2022-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Feistel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 18119 Warnemünde, Germany
         name:
         - content: Leibniz Institute for Baltic Sea Research (IOW)
-        contact:
-        - address:
-            formatted_address: 18119 Warnemünde, Germany
     - organization:
+        address:
+        - formatted_address: 10117 Berlin, Germany
         name:
         - content: Leibniz-Sozietät der Wissenschaften zu Berlin e. V.
-        contact:
-        - address:
-            formatted_address: 10117 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olaf Hellmuth
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10117 Berlin, Germany
         name:
         - content: Leibniz-Sozietät der Wissenschaften zu Berlin e. V.
-        contact:
-        - address:
-            formatted_address: 10117 Berlin, Germany
     - organization:
+        address:
+        - formatted_address: '04318 Leipzig, Germany'
         name:
         - content: Leibniz Institute for Tropospheric Research (TROPOS)
-        contact:
-        - address:
-            formatted_address: '04318 Leipzig, Germany'
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jeremy Lovell-Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31-310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory (MSL)
-        contact:
-        - address:
-            formatted_address: PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2022-07-20'
 abstract:
-- content: "Abstract<p>Relative humidity (RH) is a fundamental quantity used in many
-    fields of engineering and science, and in particular in meteorology and climate
-    research. Relative fugacity (RF) and, equivalently, relative activity of water
-    vapour in humid air have recently been proposed as a physically well-founded,
-    unambiguous common metrological reference quantity for several conventional but
-    mutually inconsistent definitions of RH. The RF definition is valid is valid under
-    real-gas conditions and above boiling and sublimation temperatures. While differences
-    between RH and RF mostly remain within uncertainties of typical present-day RH
-    measurements, such systematic discrepancies are expected to be of substantial
-    climatological relevance. Consequently, interdisciplinary harmonisation of RH
-    definitions is overdue within the SI framework. Dew-point and frost-point temperatures
-    are preferred measurands in humidity metrology using, for example, chilled-mirror
-    hygrometers. Here, relations are presented for estimating RF from those temperatures,
-    based on equations of state of the 2011 IUGG\n 5<p>IUGG: International Union of
-    Geodesy and Geophysics, https://iugg.org/.</p> standard TEOS-10, the ‘international
-    thermodynamic equation of seawater—2010’. Recommendations are given for numerically
-    computing RF using the open-source TEOS-10 SIA library<sup>6</sup>\n \n 6<p>SIA
-    Library: Sea-Ice-Air Library of TEOS-10, http://teos-10.org.</p>. The asymptotic
-    limiting laws of RF for nearly saturated humid air exhibit the familiar form of
-    Clausius–Clapeyron-like equations, despite departing from ideal-gas assumptions.
-    Under various practical conditions, these simple equations may cover the full
-    humidity range with only minor residuals compared to the full numerical TEOS-10
-    solution for RF.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Relative humidity (RH) is a fundamental quantity used in many fields of engineering and science, and in particular in meteorology and climate research. Relative fugacity (RF) and, equivalently, relative activity of water vapour in humid air have recently been proposed as a physically well-founded, unambiguous common metrological reference quantity for several conventional but mutually inconsistent definitions of RH. The RF definition is valid is valid under real-gas conditions and above boiling and sublimation temperatures. While differences between RH and RF mostly remain within uncertainties of typical present-day RH measurements, such systematic discrepancies are expected to be of substantial climatological relevance. Consequently, interdisciplinary harmonisation of RH definitions is overdue within the SI framework. Dew-point and frost-point temperatures are preferred measurands in humidity metrology using, for example, chilled-mirror hygrometers. Here, relations are presented for estimating RF from those temperatures, based on equations of state of the 2011 IUGG
+                   <fn id="metac7185afn2"><label>5</label><p>IUGG: International Union of Geodesy and Geophysics, <ext-link ext-link-type="uri" xlink:href="https://www.iugg.org/" xlink:type="simple">https://iugg.org/</ext-link>.</p></fn> standard TEOS-10, the ‘international thermodynamic equation of seawater—2010’. Recommendations are given for numerically computing RF using the open-source TEOS-10 SIA library<xref ref-type="fn" rid="metac7185fn4">
+                      <sup>6</sup>
+                   </xref>
+                   <fn id="metac7185fn4"><label>6</label><p>SIA Library: Sea-Ice-Air Library of TEOS-10, <ext-link ext-link-type="uri" xlink:href="http://www.teos-10.org/" xlink:type="simple">http://teos-10.org</ext-link>.</p></fn>. The asymptotic limiting laws of RF for nearly saturated humid air exhibit the familiar form of Clausius–Clapeyron-like equations, despite departing from ideal-gas assumptions. Under various practical conditions, these simple equations may cover the full humidity range with only minor residuals compared to the full numerical TEOS-10 solution for RF.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity: III. Relations
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity: III. Relations
         to dew-point and frost-point temperatures'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-08-01'
+      at: '2022-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity: III. Relations
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity: III. Relations
         to dew-point and frost-point temperatures'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-07-20'
+      at: '2022-07-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -163,6 +130,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

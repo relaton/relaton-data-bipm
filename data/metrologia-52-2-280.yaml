@@ -1,133 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522280
-title:
-- content: Ultra-precise single-ion atomic mass measurements on deuterium and helium-3
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/280
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/280
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 280
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Ultra-precise single-ion atomic mass measurements on deuterium and helium-3
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/280
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/280
+docidentifier:
+- content: Metrologia 52 2 280
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/280
+- content: 10.1088/0026-1394/52/2/280
   type: doi
 date:
 - type: published
-  value: '2015-03-11'
+  at: '2015-03-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S L Zafonte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Seattle, WA 98195-1560, USA
         name:
         - content: University of Washington
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Seattle, WA 98195-1560, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R S Van Dyck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Seattle, WA 98195-1560, USA
         name:
         - content: University of Washington
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Seattle, WA 98195-1560, USA
-  role:
-  - type: author
-revdate: '2015-03-11'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 abstract:
-- content: Abstract<p>The former University of Washington Penning Trap Mass Spectrometer
-    (UW-PTMS), now located at the Max Planck Institute for Nuclear Physics in Heidelberg,
-    Germany, was used in the decade before the move to determine new values for the
-    deuteron atomic mass, M (<sup>2</sup>H<sup>+</sup>) = 2.013 553 212 745(40) u,
-    and the deuterium atomic mass, M (<sup>2</sup>H) = 2.014 101 778 052(40) u, both
-    of which are now more than an order-of-magnitude more accurate than the previous
-    best 1994-MIT measurements of these quantities. The new value for the deuteron’s
-    mass can then be used with the accepted 2010-CODATA proton mass and the most recent
-    1999-measurement of the 2.2 MeV gamma-ray binding energy of the deuteron to refine
-    the neutron’s mass to m<sub>n</sub> = 1.008 664 916 018(435) u which has about
-    half the uncertainty relative to the value computed using that previous 1994-MIT
-    deuterium measurement. As a result, further improvements of m<sub>n</sub> must
-    now come from a more accurate determination of the wavelength of this gamma ray.</p><p>In
-    this same period of time, this spectrometer has also been used to determine new
-    values for the helion atomic mass, M (<sup>3</sup>He<sup>2+</sup>) = 3.014 932 246 668(43) u,
-    and the neutral helium-3 atomic mass, M (<sup>3</sup>He) = 3.016 029 321 675(43) u,
-    which are both about 60 times more accurate than the 2006-SMILETRAP measurements,
-    but disagree with the 4.4-times less-accurate 2015-Florida-State measurements
-    by 0.76 nu. It is expected that these helium-3 results will be used in the future<sup>3</sup>H/<sup>3</sup>He
-    mass ratio (to be determined by the Heidelberg, Germany version of the old UW-PTMS)
-    in order to generate a more accurate value for the tritium atomic mass.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The former University of Washington Penning Trap Mass Spectrometer (UW-PTMS), now located at the Max Planck Institute for Nuclear Physics in Heidelberg, Germany, was used in the decade before the move to determine new values for the deuteron atomic mass, <italic>M</italic> (<sup>2</sup>H<sup>+</sup>) = 2.013 553 212 745(40) u, and the deuterium atomic mass, <italic>M</italic> (<sup>2</sup>H) = 2.014 101 778 052(40) u, both of which are now more than an order-of-magnitude more accurate than the previous best 1994-MIT measurements of these quantities. The new value for the deuteron’s mass can then be used with the accepted 2010-CODATA proton mass and the most recent 1999-measurement of the 2.2 MeV gamma-ray binding energy of the deuteron to refine the neutron’s mass to <italic>m</italic><sub>n</sub> = 1.008 664 916 018(435) u which has about half the uncertainty relative to the value computed using that previous 1994-MIT deuterium measurement. As a result, further improvements of <italic>m</italic><sub>n</sub> must now come from a more accurate determination of the wavelength of this gamma ray.</p>
+    <p>In this same period of time, this spectrometer has also been used to determine new values for the helion atomic mass, <italic>M</italic> (<sup>3</sup>He<sup>2+</sup>) = 3.014 932 246 668(43) u, and the neutral helium-3 atomic mass, <italic>M</italic> (<sup>3</sup>He) = 3.016 029 321 675(43) u, which are both about 60 times more accurate than the 2006-SMILETRAP measurements, but disagree with the 4.4-times less-accurate 2015-Florida-State measurements by 0.76 nu. It is expected that these helium-3 results will be used in the future <sup>3</sup>H/<sup>3</sup>He mass ratio (to be determined by the Heidelberg, Germany version of the old UW-PTMS) in order to generate a more accurate value for the tritium atomic mass.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ultra-precise single-ion atomic mass measurements on deuterium and
+    - script: Latn
+      content: Ultra-precise single-ion atomic mass measurements on deuterium and
         helium-3
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ultra-precise single-ion atomic mass measurements on deuterium and
+    - script: Latn
+      content: Ultra-precise single-ion atomic mass measurements on deuterium and
         helium-3
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-03-11'
+      at: '2015-03-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +115,6 @@ extent:
     reference_from: '280'
     reference_to: '290'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

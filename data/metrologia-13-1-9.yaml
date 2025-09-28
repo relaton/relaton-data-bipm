@@ -1,68 +1,60 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1319
-title:
-- content: Dimensional Stability of Fused Silica, Invar, and Several Ultra-low Thermal
-    Expansion Materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 13 1 9
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dimensional Stability of Fused Silica, Invar, and Several Ultra-low Thermal
+    Expansion Materials
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/1/004
+docidentifier:
+- content: Metrologia 13 1 9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/1/004
+- content: 10.1088/0026-1394/13/1/004
   type: doi
 date:
 - type: published
-  value: '1977-01-01'
+  at: '1977-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Berthold
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Sciences Center, University of Arizona, Tucson, Arizona
             85721, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S F Jacobs
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Sciences Center, University of Arizona, Tucson, Arizona
             85721, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M A Norton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -72,51 +64,44 @@ contributor:
         name:
         - content: Department of Physics, California Polytechnic State University,
             San Luis Obispo, California 93407, USA
-  role:
-  - type: author
-revdate: '1977-01-01'
 abstract:
-- content: "<p>We have measured length change vs time for several low thermal expansion
-    materials maintained in evacuated environments at constant temperature (near 300
-    K). Materials were two types of fused silica, Cer-Vit, ULE, Zerodur, Invar, and
-    super Invar. ΔL/L was measured over a period of 170 days to a precision of two
-    to three parts in 10<sup>9</sup>. In addition, we have measured time-dependent
-    changes in optical contact interfaces and have placed an upper limit on drift
-    of optical phase shift on reflection from multilayer dielectric coatings.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>We have measured length change vs time for several low thermal expansion
+    materials maintained in evacuated environments at constant temperature (near 300
+    K). Materials were two types of fused silica, Cer-Vit, ULE, Zerodur, Invar, and
+    super Invar. Δ<italic>L/L</italic> was measured over a period of 170 days to a
+    precision of two to three parts in 10<sup>9</sup>. In addition, we have measured
+    time-dependent changes in optical contact interfaces and have placed an upper
+    limit on drift of optical phase shift on reflection from multilayer dielectric
+    coatings.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Dimensional Stability of Fused Silica, Invar, and Several Ultra-low
+    - language: en
+      script: Latn
+      content: Dimensional Stability of Fused Silica, Invar, and Several Ultra-low
         Thermal Expansion Materials
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1977-01-01'
+      at: '1977-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +112,6 @@ extent:
     reference_from: '9'
     reference_to: '16'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

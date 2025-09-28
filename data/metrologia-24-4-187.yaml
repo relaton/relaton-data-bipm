@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia244187
-title:
-- content: International Comparison of Measurements of Line Scales (1976-1984)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/4/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/4/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 4 187
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Measurements of Line Scales (1976-1984)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/4/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/4/006
+docidentifier:
+- content: Metrologia 24 4 187
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/4/006
+- content: 10.1088/0026-1394/24/4/006
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hamon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Giacomo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Carré
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>This paper summarizes a report by the Bureau International des Poids
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper summarizes a report by the Bureau International des Poids
     et Mesures (BIPM) of an international comparison of measurements of line scales
     which was instigated by the Comité Consultatif pour la Définition du Mètre (CCDM).
     Eleven national laboratories participated in the comparison. The reproducibility
@@ -79,44 +71,37 @@ abstract:
     of approximately 0,02 μm in the best case, i.e. when focusing is good. It became
     evident that one of the causes of the dispersion of the results is the presence
     of soiling which may be more or less adhesive. For the measurement of an interval
-    L, the standard deviation, s, of the result from any laboratory with respect to
-    the mean of all laboratories is s = 0,03 μm + 0,08 × 10<sup>-6</sup> L. This standard
-    deviation is approximately three times that which each laboratory gives to its
-    results; it appears that certain components of the uncertainty have been underestimated
+    <italic>L</italic>, the standard deviation, <italic>s</italic>, of the result
+    from any laboratory with respect to the mean of all laboratories is <italic>s</italic>
+    = 0,03 μm + 0,08 × 10<sup>-6</sup> <italic>L</italic>. This standard deviation
+    is approximately three times that which each laboratory gives to its results;
+    it appears that certain components of the uncertainty have been underestimated
     and require further study.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Measurements of Line Scales (1976-1984)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International Comparison of Measurements of Line Scales (1976-1984)
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +112,6 @@ extent:
     reference_from: '187'
     reference_to: '194'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

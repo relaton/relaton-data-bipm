@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia254221
-title:
-- content: Triple Point of Xenon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 4 221
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Triple Point of Xenon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/4/004
+docidentifier:
+- content: Metrologia 25 4 221
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/4/004
+- content: 10.1088/0026-1394/25/4/004
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Division of Physics, Ottawa,
             Ontario, Canada, K1A 0R6
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Liquidus points of Research Grade xenon samples from four different
+- language: en
+  script:
+  - Latn
+  content: "<p>Liquidus points of Research Grade xenon samples from four different
     suppliers were intercompared and found to spread over a range of 0.45 mK. Such
     samples, with suitable experimental procedures, are acceptable for establishing
     a defining fixed point of the forthcoming new international temperature scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Triple Point of Xenon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Triple Point of Xenon
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '221'
     reference_to: '225'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

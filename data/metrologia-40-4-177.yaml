@@ -1,147 +1,135 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404177
-title:
-- content: Uncertainty calculation for the ratio of dependent measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/306
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/306
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 177
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty calculation for the ratio of dependent measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/306
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/306
+docidentifier:
+- content: Metrologia 40 4 177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/306
+- content: 10.1088/0026-1394/40/4/306
   type: doi
 date:
 - type: published
-  value: '2003-06-13'
+  at: '2003-06-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Hannig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hari K Iyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
-  - type: author
-revdate: '2003-06-13'
 abstract:
-- content: "<p>A measurand θ of interest is the ratio of two other quantities, μ<sub>p</sub>
-    and μ<sub>q</sub>. A measurement experiment is conducted and results P and Q are
-    obtained as estimates of μ<sub>p</sub> and μ<sub>q</sub>. The ratio Y = P/Q is
-    generally reported as the result for the measurand θ. In this paper we consider
-    the problem of computing an uncertainty interval for θ having a prescribed confidence
-    level of 1−α. Although an exact procedure, based on an approach due to Fieller,
-    is available for this problem, it is well known that this procedure can lead to
-    unbounded confidence regions in certain situations. As a result, practitioners
-    often use various non-exact methods. One such non-exact method is based on the
-    propagation-of-errors approach described in the ISO Guide to the Expression of
-    Uncertainty in Measurement to calculate a standard uncertainty u<sub>y</sub> for
-    Y. A confidence interval for θ with a presumed confidence level of 95% is obtained
-    as [Y−2u<sub>y</sub>, Y+2u<sub>y</sub>]. In this paper we develop a highly accurate
-    approximation for the coverage probability associated with the interval [Y−ku<sub>y</sub>,
-    Y+ku<sub>y</sub>]. In particular, we demonstrate that, using n−1 degrees of freedom
-    for u<sub>y</sub>, and the corresponding Student's t coverage factor k = t<sub>1−α/2 : n−1</sub>
-    rather than k = 2, leads to uncertainty intervals [Y−t<sub>1−α/2 : n−1</sub>u<sub>y</sub>,
-    Y+t<sub>1−α/2 : n−1</sub>u<sub>y</sub>], that are nearly identical to Fieller's
-    exact intervals whenever the measurement relative uncertainties are small, as
-    is the case in most metrological applications. In addition, they are easy to compute
-    and may be recommended for routine use in metrological applications. Improved
-    coverage factors k can be derived based on the results of this paper for those
-    exceptional situations where the t-interval may not have coverage probability
-    sufficiently close to the desired value.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A measurand θ of interest is the ratio of two other quantities, μ<sub><italic>p</italic></sub>
+    and μ<sub><italic>q</italic></sub>. A measurement experiment is conducted and
+    results <italic>P</italic> and <italic>Q</italic> are obtained as estimates of
+    μ<sub><italic>p</italic></sub> and μ<sub><italic>q</italic></sub>. The ratio <italic>Y</italic>
+    = <italic>P</italic>/<italic>Q</italic> is generally reported as the result for
+    the measurand θ. In this paper we consider the problem of computing an uncertainty
+    interval for θ having a prescribed confidence level of 1−α. Although an exact
+    procedure, based on an approach due to Fieller, is available for this problem,
+    it is well known that this procedure can lead to unbounded confidence regions
+    in certain situations. As a result, practitioners often use various non-exact
+    methods. One such non-exact method is based on the propagation-of-errors approach
+    described in the ISO <italic>Guide to the Expression of Uncertainty in Measurement</italic>
+    to calculate a standard uncertainty <italic>u</italic><sub><italic>y</italic></sub>
+    for <italic>Y</italic>. A confidence interval for θ with a presumed confidence
+    level of 95% is obtained as [<italic>Y</italic>−2<italic>u</italic><sub><italic>y</italic></sub>,
+    <italic>Y</italic>+2<italic>u</italic><sub><italic>y</italic></sub>]. In this
+    paper we develop a highly accurate approximation for the coverage probability
+    associated with the interval [<italic>Y</italic>−<italic>ku</italic><sub><italic>y</italic></sub>,
+    <italic>Y</italic>+<italic>ku</italic><sub><italic>y</italic></sub>]. In particular,
+    we demonstrate that, using <italic>n</italic>−1 degrees of freedom for <italic>u</italic><sub><italic>y</italic></sub>,
+    and the corresponding Student's <italic>t</italic> coverage factor <italic>k</italic>
+    = <italic>t</italic><sub>1−α/2 : <italic>n</italic>−1</sub> rather than <italic>k</italic>
+    = 2, leads to uncertainty intervals [<italic>Y</italic>−<italic>t</italic><sub>1−α/2 : <italic>n</italic>−1</sub><italic>u</italic><sub><italic>y</italic></sub>,
+    <italic>Y</italic>+<italic>t</italic><sub>1−α/2 : <italic>n</italic>−1</sub><italic>u</italic><sub><italic>y</italic></sub>],
+    that are nearly identical to Fieller's exact intervals whenever the measurement
+    relative uncertainties are small, as is the case in most metrological applications.
+    In addition, they are easy to compute and may be recommended for routine use in
+    metrological applications. Improved coverage factors <italic>k</italic> can be
+    derived based on the results of this paper for those exceptional situations where
+    the <italic>t</italic>-interval may not have coverage probability sufficiently
+    close to the desired value.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty calculation for the ratio of dependent measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty calculation for the ratio of dependent measurements
     date:
     - type: epub
-      value: '2003-06-13'
+      at: '2003-06-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty calculation for the ratio of dependent measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty calculation for the ratio of dependent measurements
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -152,6 +140,6 @@ extent:
     reference_from: '177'
     reference_to: '183'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

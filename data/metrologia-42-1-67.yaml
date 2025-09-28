@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia42167
-title:
-- content: Supplementary investigations to PTB's evaluation of G
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1/C01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1/C01
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Supplementary investigations to PTB's evaluation of <italic>G</italic>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1/C01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1/C01
+docidentifier:
+- content: Metrologia 42 1 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1/C01
+- content: 10.1088/0026-1394/42/1/C01
   type: doi
 date:
 - type: published
-  value: '2005-02-01'
+  at: '2005-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Michaelis
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Melcher
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Haars
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2005-02-01'
 abstract:
-- content: "<p>At an advanced stage of our investigations, a private communication
-    from Clive Speake [1] pointed out that the discrepancy between our earlier measurements
-    of G [2] and the CODATA value may have been due to additional contributions to
-    the electrostatic calibration torque from previously omitted partial capacitances,
-    as discussed in section 2.3 of [2].</p><p>We gratefully acknowledge this suggestion,
-    which eventually proved to be correct. Due to a misunderstanding during the reviewing
-    process, this acknowledgment was omitted in the recent publication.</p><p>References
-    \nSpeake C C 2004 private communication \nMichaelis W, Haars H and Augustin R
-    1995/96 Metrologia 32 267–76</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>At an advanced stage of our investigations, a private communication
+    from Clive Speake [1] pointed out that the discrepancy between our earlier measurements
+    of <italic>G</italic> [2] and the CODATA value may have been due to additional
+    contributions to the electrostatic calibration torque from previously omitted
+    partial capacitances, as discussed in section 2.3 of [2].</p>\n<p>We gratefully
+    acknowledge this suggestion, which eventually proved to be correct.  Due to a
+    misunderstanding during the reviewing process, this acknowledgment was omitted
+    in the recent publication.</p>\n<p><bold>References</bold> \nSpeake C C 2004 private
+    communication \nMichaelis W, Haars H and Augustin R 1995/96 <ext-link ext-link-type=\"uri\"
+    xlink:href=\"http://stacks.iop.org/Met/32/267\"><italic>Metrologia</italic> <bold>32</bold>
+    267–76</ext-link></p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Supplementary investigations to PTB's evaluation of G
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Supplementary investigations to PTB's evaluation of <italic>G</italic>
     date:
     - type: ppub
-      value: '2005-02-01'
+      at: '2005-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '67'
     reference_to: '67'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

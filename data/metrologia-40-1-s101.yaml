@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S101
-title:
-- content: Radiometry with synchrotron radiation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/323
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/323
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S101
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiometry with synchrotron radiation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/323
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/323
+docidentifier:
+- content: Metrologia 40 1 S101
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/323
+- content: 10.1088/0026-1394/40/1/323
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ulm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, 10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Electron storage rings are nearly ideal radiation sources for radiometry
+- language: en
+  script:
+  - Latn
+  content: "<p>Electron storage rings are nearly ideal radiation sources for radiometry
     over a broad spectral range from the infrared to the x-ray region. Many national
     metrology institutes make extensive use of synchrotron radiation for radiometry.
     The Synchrotron Ultraviolet Radiation Facility SURF III, which has recently been
@@ -56,53 +52,42 @@ abstract:
     Radiometry in the extreme UV (EUV) range, and in particular reflectometry, has
     become increasingly important for the development of EUV lithography. An overview
     of synchrotron radiation based radiometry will be given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometry with synchrotron radiation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiometry with synchrotron radiation
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometry with synchrotron radiation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiometry with synchrotron radiation
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: S101
     reference_to: S106
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

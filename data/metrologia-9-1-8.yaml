@@ -1,108 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia918
-title:
-- content: The Problem of Metamerism and Selection of Standard Colour Samples for
-    a Comparator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 1 8
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Problem of Metamerism and Selection of Standard Colour Samples for
+    a Comparator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/1/003
+docidentifier:
+- content: Metrologia 9 1 8
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/1/003
+- content: 10.1088/0026-1394/9/1/003
   type: doi
 date:
 - type: published
-  value: '1973-01-01'
+  at: '1973-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E N Yustova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Union Research Institute of Metrology (VNIIM), Leningrad, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N M Nikitina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Union Research Institute of Metrology (VNIIM), Leningrad, USSR
-  role:
-  - type: author
-revdate: '1973-01-01'
 abstract:
-- content: "<p>Individual variations in the colour matching function are far in excess
-    of colour measurement errors for each specific observer with normal colour vision.
-    The introduction of the standard observer does not solve the problem of observer's
-    metamerism.</p><p>A new principle of colour standardization set out below is suggested.
-    Colour matching functions are standardized with tolerances governed by the extreme
-    forms of colour vision and standard colour functions in relation to which colour
-    is measured by the method of comparison are established. The cases of sharp metamerism
-    are eliminated.</p><p>The paper analyzes the relationship between the tolerance
-    for the colour matching function and the number of standard colour samples.</p><p>As
-    an illustration of this relationship, the zones in the xy chart within which the
-    systematic errors of measurements conducted in relation to a standard sample will
-    not exceed the preset value are calculated. The calculation is made both for the
-    samples with optimum reflection spectra and those from the VNIIM colour atlas,
-    with an ideal diffuser adopted as a standard sample.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Individual variations in the colour matching function are far in excess of colour measurement errors for each specific observer with normal colour vision. The introduction of the standard observer does not solve the problem of observer's metamerism.</p>
+    <p>A new principle of colour standardization set out below is suggested. Colour matching functions are standardized with tolerances governed by the extreme forms of colour vision and standard colour functions in relation to which colour is measured by the method of comparison are established. The cases of sharp metamerism are eliminated.</p>
+    <p>The paper analyzes the relationship between the tolerance for the colour matching function and the number of standard colour samples.</p>
+    <p>As an illustration of this relationship, the zones in the xy chart within which the systematic errors of measurements conducted in relation to a standard sample will not exceed the preset value are calculated. The calculation is made both for the samples with optimum reflection spectra and those from the VNIIM colour atlas, with an ideal diffuser adopted as a standard sample.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Problem of Metamerism and Selection of Standard Colour Samples
+    - language: en
+      script: Latn
+      content: The Problem of Metamerism and Selection of Standard Colour Samples
         for a Comparator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-01-01'
+      at: '1973-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +90,6 @@ extent:
     reference_from: '8'
     reference_to: '13'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

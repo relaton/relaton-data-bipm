@@ -1,93 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1711
-title:
-- content: A Note from the Former Editor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/1/E01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/1/E01
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Note from the Former Editor
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/1/E01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/1/E01
+docidentifier:
+- content: Metrologia 17 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/1/E01
+- content: 10.1088/0026-1394/17/1/E01
   type: doi
 date:
 - type: published
-  value: '1981-01-01'
+  at: '1981-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Preston-Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ottawa, Ontario, Canada
-  role:
-  - type: author
-revdate: '1981-01-01'
 abstract:
-- content: "<p>Metrologia was sponsored by, and since its first appearance in 1965
-    has been published under the auspices of, the International Committee of Weights
-    and Measures. It is thus highly appropriate that its editorial offices will henceforth
-    be located in the laboratories of the International Bureau of Weights &amp; Measures
-    at Sèvres. It is also particularly gratifying to me that it has been able to acquire
-    an editor having the long and distinguished experience in Metrology possessed
-    by Dr R P Hudson, formerly of the National Bureau of Standards.</p><p>This issue
-    of Metrologia is the first to appear under the editorship of Dr Hudson. The mechanics
-    of publishing are such, however, that the articles in this issue have been (but
-    are the last to be) processed from the Canadian editorial office, so that any
-    errors or omissions are mine.</p><p>I would like to record my very great appreciation
-    for the support I have received from the many contributors to Metrologia during
-    the past twelve years, and also, and particularly, for the work of the members
-    of the editorial board. I wish Dr Hudson the very best success, and a like support
-    from his colleagues.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p><italic>Metrologia</italic> was sponsored by, and since its first appearance in 1965 has been published under the auspices of, the International Committee of Weights and Measures. It is thus highly appropriate that its editorial offices will henceforth be located in the laboratories of the International Bureau of Weights &amp; Measures at Sèvres. It is also particularly gratifying to me that it has been able to acquire an editor having the long and distinguished experience in Metrology possessed by Dr R P Hudson, formerly of the National Bureau of Standards.</p>
+    <p>This issue of  <italic>Metrologia</italic> is the first to appear under the editorship of Dr Hudson. The mechanics of publishing are such, however, that the articles in this issue have been (but are the last to be) processed from the Canadian editorial office, so that any errors or omissions are mine.</p>
+    <p>I would like to record my very great appreciation for the support I have received from the many contributors to  <italic>Metrologia</italic> during the past twelve years, and also, and particularly, for the work of the members of the editorial board. I wish Dr Hudson the very best success, and a like support from his colleagues.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Note from the Former Editor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Note from the Former Editor
     date:
     - type: ppub
-      value: '1981-01-01'
+      at: '1981-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +75,6 @@ extent:
     reference_from: '1'
     reference_to: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

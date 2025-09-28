@@ -1,121 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425L27
-title:
-- content: Monte Carlo-based estimation of uncertainty owing to limited resolution
-    of digital instruments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 L27
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monte Carlo-based estimation of uncertainty owing to limited resolution
+    of digital instruments
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/L01
+docidentifier:
+- content: Metrologia 42 5 L27
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/L01
+- content: 10.1088/0026-1394/42/5/L01
   type: doi
 date:
 - type: published
-  value: '2005-08-01'
+  at: '2005-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Frenkel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Institute of Australia, Bradfield Rd, West
             Lindfield 2070, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Kirkup
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Applied Physics, Faculty of Science, University of
             Technology Sydney, Broadway 2007, Australia
-  role:
-  - type: author
-revdate: '2005-08-01'
 abstract:
-- content: "<p>We have used a Monte Carlo simulation for investigating the output
-    of a digital instrument, of resolution half-width a, when its analogue input is
-    a Gaussian signal. The digitizing process converts an actual mean to an observed
-    mean and an actual variance to an observed variance. The resulting relationships
-    are plotted as two sets of graphs, in one of which the observed mean is the parameter,
-    while in the other the observed variance is the parameter. Given an observed mean
-    and an observed variance, it is then easy to infer from the graphs the corresponding
-    actual mean and actual variance. The graphs illustrate, for example, that unless
-    the observed variance is very low, the actual variance can be recovered from the
-    observed variance by subtracting a<sup>2</sup>/3 from the observed variance.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>We have used a Monte Carlo simulation for investigating the output
+    of a digital instrument, of resolution half-width <italic>a</italic>, when its
+    analogue input is a Gaussian signal. The digitizing process converts an actual
+    mean to an observed mean and an actual variance to an observed variance. The resulting
+    relationships are plotted as two sets of graphs, in one of which the observed
+    mean is the parameter, while in the other the observed variance is the parameter.
+    Given an observed mean and an observed variance, it is then easy to infer from
+    the graphs the corresponding actual mean and actual variance. The graphs illustrate,
+    for example, that unless the observed variance is very low, the actual variance
+    can be recovered from the observed variance by subtracting <italic>a</italic><sup>2</sup>/3
+    from the observed variance.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo-based estimation of uncertainty owing to limited resolution
+    - language: en
+      script: Latn
+      content: Monte Carlo-based estimation of uncertainty owing to limited resolution
         of digital instruments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-08-01'
+      at: '2005-08-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo-based estimation of uncertainty owing to limited resolution
+    - language: en
+      script: Latn
+      content: Monte Carlo-based estimation of uncertainty owing to limited resolution
         of digital instruments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: L27
     reference_to: L30
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

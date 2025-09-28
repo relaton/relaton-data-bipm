@@ -1,87 +1,77 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465450
-title:
-- content: Absolute frequency shifts of iodine cells for laser stabilization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 450
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute frequency shifts of iodine cells for laser stabilization
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/008
+docidentifier:
+- content: Metrologia 46 5 450
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/008
+- content: 10.1088/0026-1394/46/5/008
   type: doi
 date:
 - type: published
-  value: '2009-06-26'
+  at: '2009-06-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Josef Lazar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Hrabina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Scientific Instruments, Academy of Sciences of the
             Czech Republic, Královopolská 147, 612 64 Brno, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petr Jedlička
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Scientific Instruments, Academy of Sciences of the
             Czech Republic, Královopolská 147, 612 64 Brno, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ondřej Číp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Scientific Instruments, Academy of Sciences of the
             Czech Republic, Královopolská 147, 612 64 Brno, Czech Republic
-  role:
-  - type: author
-revdate: '2009-06-26'
 abstract:
-- content: "<p>We present an investigation of iodine cell purity and influence of
+- language: en
+  script:
+  - Latn
+  content: "<p>We present an investigation of iodine cell purity and influence of
     contaminations upon frequency shifts of iodine-stabilized frequency-doubled Nd : YAG
     lasers. The study combines measurements of laser-induced fluorescence and evaluation
     through the Stern–Volmer formula, with direct measurement of frequency shifts
@@ -91,53 +81,42 @@ abstract:
     fluorescence is reported, leading to better repeatability of the results. The
     ultimate precision that can be achieved in measurements of the absolute frequency
     of a stabilized laser is discussed in terms of the cell quality.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute frequency shifts of iodine cells for laser stabilization
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute frequency shifts of iodine cells for laser stabilization
     date:
     - type: epub
-      value: '2009-06-26'
+      at: '2009-06-26'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute frequency shifts of iodine cells for laser stabilization
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute frequency shifts of iodine cells for laser stabilization
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +127,6 @@ extent:
     reference_from: '450'
     reference_to: '456'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

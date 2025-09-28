@@ -1,95 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461A07001
-title:
-- content: Final report on COOMET Rockwell PTB/KazInMetr comparison
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1A/07001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1A/07001
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1A 07001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on COOMET Rockwell PTB/KazInMetr comparison
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1A/07001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1A/07001
+docidentifier:
+- content: Metrologia 46 1A 07001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1A/07001
+- content: 10.1088/0026-1394/46/1A/07001
   type: doi
 date:
 - type: published
-  value: '2009-01-01'
+  at: '2009-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Herrmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Zhamanbalin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kazakhstan Institute of Metrology (KazInMetr), Karaganda, Kazakhstan
-  role:
-  - type: author
-revdate: '2009-01-01'
 abstract:
-- content: |-
-    <p>This bilateral comparison of Rockwell scales involving the Kazakhstan Institute of Metrology (KazInMetr) was agreed upon in the year 2006 in the COOMET theme 371/KZ/06, in which should participate the hardness laboratories of the national metrology institutes of Germany (PTB) and Kazakhstan (KazInMetr). The Physikalisch-Technische Bundesanstalt (Braunschweig, Germany) declared its readiness to act as pilot laboratory of this supplementary COOMET comparison.</p><p>The COOMET Rockwell PTB/KazInMetr comparison can be considered as a successful metrological exercise. The stated uncertainties were confirmed by the measurement result differences that were found. It is recommended to concentrate metrological investigations on the influence of ball indenter deviations at the HRT scale.</p><p>Main text.
-    To reach the main text of this Paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by COOMET, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This bilateral comparison of Rockwell scales involving the Kazakhstan Institute of Metrology (KazInMetr) was agreed upon in the year 2006 in the COOMET theme 371/KZ/06, in which should participate the hardness laboratories of the national metrology institutes of Germany (PTB) and Kazakhstan (KazInMetr). The Physikalisch-Technische Bundesanstalt (Braunschweig, Germany) declared its readiness to act as pilot laboratory of this supplementary COOMET comparison.</p>
+    <p>The COOMET Rockwell PTB/KazInMetr comparison can be considered as a successful metrological exercise. The stated uncertainties were confirmed by the measurement result differences that were found. It is recommended to concentrate metrological investigations on the influence of ball indenter deviations at the HRT scale.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this Paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/H-S1/COOMET.M.H-S1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by COOMET, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on COOMET Rockwell PTB/KazInMetr comparison
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on COOMET Rockwell PTB/KazInMetr comparison
     date:
     - type: ppub
-      value: '2009-01-01'
+      at: '2009-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +89,6 @@ extent:
     reference_from: '07001'
     reference_to: '07001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,134 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia13117
-title:
-- content: 'NBS-4 and NBS-6: The NBS Primary Frequency Standards'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 13 1 17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'NBS-4 and NBS-6: The NBS Primary Frequency Standards'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/1/005
+docidentifier:
+- content: Metrologia 13 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/1/005
+- content: 10.1088/0026-1394/13/1/005
   type: doi
 date:
 - type: published
-  value: '1977-01-01'
+  at: '1977-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David J Glaze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Bureau of Standards, Boulder,
             CO 80302, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Helmut Hellwig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Bureau of Standards, Boulder,
             CO 80302, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David W Allan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Bureau of Standards, Boulder,
             CO 80302, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephen Jarvis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Bureau of Standards, Boulder,
             CO 80302, USA
-  role:
-  - type: author
-revdate: '1977-01-01'
 abstract:
-- content: <p>The NBS primary frequency standard NBS-4 has been operating since January
-    1973. NBS-5 operated from January 1973 until March 1974. At this time NBS-5 was
-    modified significantly and redesignated NBS-6. The extent and character of these
-    design changes are discussed. NBS-6 operation and evaluation began in March 1975.
-    Results obtained from NBS-4, NBS-5 and NBS-6 are given, along with intercomparisons
-    of some significant parameters.</p><p>During 1975, NBS-4 was operated as a clock
-    and a time dispersion of 2.5 ns was obtained for one day. The NBS approach to
-    long term clock operation of the primary standards is discussed. These techniques
-    will probably involve "accuracy servo" methods, and may lead to very accurate
-    clocks with time dispersion less than 1 ns per day.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The NBS primary frequency standard NBS-4 has been operating since January 1973. NBS-5 operated from January 1973 until March 1974. At this time NBS-5 was modified significantly and redesignated NBS-6. The extent and character of these design changes are discussed. NBS-6 operation and evaluation began in March 1975. Results obtained from NBS-4, NBS-5 and NBS-6 are given, along with intercomparisons of some significant parameters.</p>
+    <p>During 1975, NBS-4 was operated as a clock and a time dispersion of 2.5 ns was obtained for one day. The NBS approach to long term clock operation of the primary standards is discussed. These techniques will probably involve "accuracy servo" methods, and may lead to very accurate clocks with time dispersion less than 1 ns per day.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'NBS-4 and NBS-6: The NBS Primary Frequency Standards'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'NBS-4 and NBS-6: The NBS Primary Frequency Standards'
     date:
     - type: ppub
-      value: '1977-01-01'
+      at: '1977-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +114,6 @@ extent:
     reference_from: '17'
     reference_to: '28'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

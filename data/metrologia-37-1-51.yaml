@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37151
-title:
-- content: A CCPR international comparison of spectral radiance measurements in the
-    air-ultraviolet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/6
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 51
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A CCPR international comparison of spectral radiance measurements in the
+    air-ultraviolet
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/6
+docidentifier:
+- content: Metrologia 37 1 51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/6
+- content: 10.1088/0026-1394/37/1/6
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Lambe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Gibson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hollandt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, NIST, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Tegeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, NIST, PTB
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>An international comparison of the spectral radiance scales of the
+- language: en
+  script:
+  - Latn
+  content: "<p>An international comparison of the spectral radiance scales of the
     National Physical Laboratory (NPL), the National Institute of Standards and Technology
     (NIST) and the Physikalisch-Technische Bundesanstalt (PTB) was carried out in
     1993 and 1994, under the auspices of the Comité Consultatif de Photométrie et
@@ -108,44 +96,36 @@ abstract:
     of systematic errors and to gather information on their relative performance.
     The scales of the laboratories agreed within the combined uncertainties. However,
     the combined uncertainties were high (an expanded uncertainty with a coverage
-    factor of k = 2 of up to 8 %), and further work is required to reduce the uncertainties
-    associated with the spectral radiance scales of each laboratory. Little difference
-    was observed in the performance of the three different transfer standard sources
-    used.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    factor of <italic>k</italic> = 2 of up to 8 %), and further work is required to
+    reduce the uncertainties associated with the spectral radiance scales of each
+    laboratory. Little difference was observed in the performance of the three different
+    transfer standard sources used.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A CCPR international comparison of spectral radiance measurements in
+    - language: en
+      script: Latn
+      content: A CCPR international comparison of spectral radiance measurements in
         the air-ultraviolet
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +136,6 @@ extent:
     reference_from: '51'
     reference_to: '54'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

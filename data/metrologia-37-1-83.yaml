@@ -1,84 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37183
-title:
-- content: 'The use and abuse of the terms percent, parts per million and parts in
-    10<sup>n</sup>: Open letter to Messrs T J Quinn and I M Mills'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/13
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The use and abuse of the terms percent, parts per million and parts in
+    10<sup><italic>n</italic></sup>: Open letter to Messrs T J  Quinn and I M Mills'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/13
+docidentifier:
+- content: Metrologia 37 1 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/13
+- content: 10.1088/0026-1394/37/1/13
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Giacomo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>The hybrid character of the terms percent, parts per million and parts
-    in 10<sup>n</sup> means that we should refrain from using them in scientific language.
-    A clear and precise statement of the quantity considered would in all cases allow
-    its value to be expressed as a simple number.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The hybrid character of the terms percent, parts per million and parts
+    in 10<sup><italic>n</italic></sup> means that we should refrain from using them
+    in scientific language. A clear and precise statement of the quantity considered
+    would in all cases allow its value to be expressed as a simple number.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The use and abuse of the terms percent, parts per million and parts
-        in 10<sup>n</sup>: Open letter to Messrs T J Quinn and I M Mills'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: 'The use and abuse of the terms percent, parts per million and parts
+        in 10<sup><italic>n</italic></sup>: Open letter to Messrs T J  Quinn and I
+        M Mills'
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +78,6 @@ extent:
     reference_from: '83'
     reference_to: '84'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

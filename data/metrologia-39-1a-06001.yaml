@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia391A06001
-title:
-- content: |-
-    BIPM comparison BIPM.RI(II)-K1.Ag-110m of the
-    activity measurements of the radionuclide<sup>110</sup>Ag<sup>m</sup>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1A/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1A/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1A 06001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: |-
+    BIPM comparison BIPM.RI(II)-K1.Ag-110m of the
+    activity measurements of the radionuclide  <sup>110</sup>Ag<sup>m</sup>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1A/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1A/7
+docidentifier:
+- content: Metrologia 39 1A 06001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1A/7
+- content: 10.1088/0026-1394/39/1A/7
   type: doi
 date:
 - type: published
-  value: '2002-01-01'
+  at: '2002-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ratel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil, F-92312, Sèvres
             Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil, F-92312, Sèvres
             Cedex, France
-  role:
-  - type: author
-revdate: '2002-01-01'
 abstract:
-- content: |-
-    <p>Since 1983, five national metrology institutes have submitted six samples of known activity of<sup>110</sup>Ag<sup>m</sup> to the International Reference System (SIR) for activity comparison at the Bureau International des Poids et Mesures. The activities ranged from about 1 MBq to 6 MBq. The degrees of equivalence between each equivalent activity measured in the SIR and the key comparison reference value (KCRV) have been calculated and the results are given in the form of a matrix. A graphical presentation is also given. The results of this comparison have been approved by Section II of the Consultative Committee for Ionizing Radiation (CCRI(II)), comparison identifier
-    BIPM.RI(II)-K1.Ag-110m.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Since 1983, five national metrology institutes have submitted six samples of known activity of  <sup>110</sup>Ag<sup>m</sup> to the International Reference System (SIR) for activity comparison at the Bureau International des Poids et Mesures. The activities ranged from about 1 MBq to 6 MBq. The degrees of equivalence between each equivalent activity measured in the SIR and the key comparison reference value (KCRV) have been calculated and the results are given in the form of a matrix. A graphical presentation is also given. The results of this comparison have been approved by Section II of the Consultative Committee for Ionizing Radiation (CCRI(II)), comparison identifier
+    BIPM.RI(II)-K1.Ag-110m.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         BIPM comparison BIPM.RI(II)-K1.Ag-110m of the
-        activity measurements of the radionuclide<sup>110</sup>Ag<sup>m</sup>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+        activity measurements of the radionuclide  <sup>110</sup>Ag<sup>m</sup>
     date:
     - type: ppub
-      value: '2002-01-01'
+      at: '2002-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '06001'
     reference_to: '06001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

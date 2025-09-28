@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16115
-title:
-- content: Field Distortion in Guarded-Wall Free-Air Ionization Chambers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 1 15
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Field Distortion in Guarded-Wall Free-Air Ionization Chambers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/1/004
+docidentifier:
+- content: Metrologia 16 1 15
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/1/004
+- content: 10.1088/0026-1394/16/1/004
   type: doi
 date:
 - type: published
-  value: '1980-01-01'
+  at: '1980-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I K Uotila
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Radiation Protection, Box 268, Helsinki 10, Finland
-  role:
-  - type: author
-revdate: '1980-01-01'
 abstract:
-- content: "<p>The potential distribution inside a parallel-plate guarded-wall chamber
+- language: en
+  script:
+  - Latn
+  content: "<p>The potential distribution inside a parallel-plate guarded-wall chamber
     is expressed in terms of harmonic function series. Field distortion is described
     by excursions of the electrostatic field lines determining the collection volume
     of the chamber. Design data are derived including the two-dimensional basic case,
@@ -48,39 +44,31 @@ abstract:
     guard wall. The data can be used to design free-air chambers with a collection
     volume loss of a small fraction of one per cent, a value determined primarily
     by the precision in the construction of the guard wall.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Field Distortion in Guarded-Wall Free-Air Ionization Chambers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Field Distortion in Guarded-Wall Free-Air Ionization Chambers
     date:
     - type: ppub
-      value: '1980-01-01'
+      at: '1980-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '15'
     reference_to: '19'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

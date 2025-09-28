@@ -1,99 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433L14
-title:
-- content: Resolution revisited
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/N03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/N03
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 L14
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Resolution revisited
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/N03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/N03
+docidentifier:
+- content: Metrologia 43 3 L14
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/N03
+- content: 10.1088/0026-1394/43/3/N03
   type: doi
 date:
 - type: published
-  value: '2006-03-13'
+  at: '2006-03-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Pontificia Universidad Católica de Chile, Department of Mechanical
             and Metallurgical Engineering, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2006-03-13'
 abstract:
-- content: "<p>A simple procedure is presented to evaluate the standard uncertainty
+- language: en
+  script:
+  - Latn
+  content: "<p>A simple procedure is presented to evaluate the standard uncertainty
     of a quantity about which discretized measurement data are available. The procedure
     is based on Bayesian statistics and depends on the value of the experimental variance.
     If the variance is less than a certain limit, the standard uncertainty can be
     obtained by the numerical approximations and plots provided in the paper. Otherwise,
     the data can be treated as if it were not resolution-limited.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Resolution revisited
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Resolution revisited
     date:
     - type: epub
-      value: '2006-03-13'
+      at: '2006-03-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Resolution revisited
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Resolution revisited
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +89,6 @@ extent:
     reference_from: L14
     reference_to: L17
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,105 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9262
-title:
-- content: Concerning the Different Tables of the Thermal Expansion of Water between
-    0 and 40 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 2 62
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Concerning the Different Tables of the Thermal Expansion of Water between
+    0 and 40 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/2/002
+docidentifier:
+- content: Metrologia 9 2 62
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/2/002
+- content: 10.1088/0026-1394/9/2/002
   type: doi
 date:
 - type: published
-  value: '1973-04-01'
+  at: '1973-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Menaché
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Océanographique, 195, rue Saint-Jacques, F-75005 Paris,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Girard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Océanographique, 195, rue Saint-Jacques, F-75005 Paris,
             France
-  role:
-  - type: author
-revdate: '1973-04-01'
 abstract:
-- content: "<p>Attention is drawn on the fact that several tables of the thermal expansion
-    of water are available between 0 and 40 °C. For a given temperature, the values
-    they give are somewhat different. No criterion helps to select between them the
-    table that gives the most reliable values. The drawbacks of such a situation are
-    reviewed and recommendations made to lessen their effects.</p><p>Tables and graphs
-    show the existing deviations, according to temperature, between the values of
-    the various tables.</p><p>New observations are needed to obtain values of the
-    thermal expansion of water between 0 and 40 °C, having a relative accuracy of
-    at least 1 × 10<sup>-6</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Attention is drawn on the fact that several tables of the thermal expansion of water are available between 0 and 40 °C. For a given temperature, the values they give are somewhat different. No criterion helps to select between them the table that gives the most reliable values. The drawbacks of such a situation are reviewed and recommendations made to lessen their effects.</p>
+    <p>Tables and graphs show the existing deviations, according to temperature, between the values of the various tables.</p>
+    <p>New observations are needed to obtain values of the thermal expansion of water between 0 and 40 °C, having a relative accuracy of at least 1 × 10<sup>-6</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Concerning the Different Tables of the Thermal Expansion of Water between
+    - language: en
+      script: Latn
+      content: Concerning the Different Tables of the Thermal Expansion of Water between
         0 and 40 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-04-01'
+      at: '1973-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +91,6 @@ extent:
     reference_from: '62'
     reference_to: '68'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,129 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia506654
-title:
-- content: A weighted total least-squares algorithm for any fitting model with correlated
-    variables
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/6/654
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/6/654
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 6 654
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A weighted total least-squares algorithm for any fitting model with correlated
+    variables
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/6/654
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/6/654
+docidentifier:
+- content: Metrologia 50 6 654
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/6/654
+- content: 10.1088/0026-1394/50/6/654
   type: doi
 date:
 - type: published
-  value: '2013-11-27'
+  at: '2013-11-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Malengo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
         subdivision:
-        - content: INRIM
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: INRIM
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesca Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
         subdivision:
-        - content: INRIM
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2013-11-27'
+        - name:
+          - language: en
+            script: Latn
+            content: INRIM
 abstract:
-- content: Abstract<p>An algorithm able to deal with any desired fitting model was
-    developed for regression problems with uncertain and correlated variables.</p><p>A
-    typical application concerns the determination of calibration curves, especially
-    (i) in those cases in which the uncertainties on the independent variables x<sub>i</sub>
-    cannot be considered negligible with respect to those associated with the dependent
-    variables y<sub>i</sub>, and (ii) when correlations exist among x<sub>i</sub>
-    and y<sub>i</sub>. In the metrological field, several types of software have already
-    been dedicated to the determination of calibration curves, some being focused
-    just on problem (i) and a few others considering also problem (ii) but only for
-    a straight-line fitting model. The proposed algorithm is able to deal with problems
-    (i) and (ii) at the same time, for a generic fitting model. The tool was developed
-    in the MATLAB® environment and validated on several benchmark data sets, fitted
-    with linear and non-linear regression models.</p><p>A review of the most commonly
-    applied approximations to the parameter uncertainty is also presented, together
-    with a Monte Carlo method proposed for comparison purposes with the results provided
-    by the formula for the uncertainty evaluation which is implemented in the software.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>An algorithm able to deal with any desired fitting model was developed for regression problems with uncertain and correlated variables.</p>
+    <p>A typical application concerns the determination of calibration curves, especially (i) in those cases in which the uncertainties on the independent variables <italic>x</italic><sub><italic>i</italic></sub> cannot be considered negligible with respect to those associated with the dependent variables <italic>y</italic><sub><italic>i</italic></sub>, and (ii) when correlations exist among <italic>x</italic><sub><italic>i</italic></sub> and <italic>y</italic><sub><italic>i</italic></sub>. In the metrological field, several types of software have already been dedicated to the determination of calibration curves, some being focused just on problem (i) and a few others considering also problem (ii) but only for a straight-line fitting model. The proposed algorithm is able to deal with problems (i) and (ii) at the same time, for a generic fitting model. The tool was developed in the MATLAB® environment and validated on several benchmark data sets, fitted with linear and non-linear regression models.</p>
+    <p>A review of the most commonly applied approximations to the parameter uncertainty is also presented, together with a Monte Carlo method proposed for comparison purposes with the results provided by the formula for the uncertainty evaluation which is implemented in the software.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A weighted total least-squares algorithm for any fitting model with
+    - script: Latn
+      content: A weighted total least-squares algorithm for any fitting model with
         correlated variables
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-12-01'
+      at: '2013-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A weighted total least-squares algorithm for any fitting model with
+    - script: Latn
+      content: A weighted total least-squares algorithm for any fitting model with
         correlated variables
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-11-27'
+      at: '2013-11-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +117,6 @@ extent:
     reference_from: '654'
     reference_to: '662'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306553
-title:
-- content: Use of a Precision Mercury Manometer with Capacitance Sensing of the Menisci
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 553
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Use of a Precision Mercury Manometer with Capacitance Sensing of the Menisci
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/002
+docidentifier:
+- content: Metrologia 30 6 553
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/002
+- content: 10.1088/0026-1394/30/6/002
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Jäger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>A commercially available dual-cistern mercury manometer, modified in
+- language: en
+  script:
+  - Latn
+  content: "<p>A commercially available dual-cistern mercury manometer, modified in
     some details, has been in use for many years as the main standard instrument of
     the PTB for the pressure range up to 200 kPa (absolute and gauge). With this instrument
     the PTB participated in an international intercomparison of pressure standards
@@ -49,40 +45,32 @@ abstract:
     pour la Masse et les grandeurs apparentées (CCM). An error analysis for absolute
     pressure measurements with the manometer is presented together with a discussion
     of experimental data and some technical details.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of a Precision Mercury Manometer with Capacitance Sensing of the
+    - language: en
+      script: Latn
+      content: Use of a Precision Mercury Manometer with Capacitance Sensing of the
         Menisci
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '553'
     reference_to: '558'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

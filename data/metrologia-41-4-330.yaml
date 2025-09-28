@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia414330
-title:
-- content: Mass comparisons using air buoyancy artefacts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/4/015
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/4/015
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 4 330
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Mass comparisons using air buoyancy artefacts
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/4/015
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/4/015
+docidentifier:
+- content: Metrologia 41 4 330
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/4/015
+- content: 10.1088/0026-1394/41/4/015
   type: doi
 date:
 - type: published
-  value: '2004-06-30'
+  at: '2004-06-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Picard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Fang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2004-06-30'
 abstract:
-- content: "<p>This work is a follow-up to a previous study that was aimed at reducing
+- language: en
+  script:
+  - Latn
+  content: "<p>This work is a follow-up to a previous study that was aimed at reducing
     the uncertainty of the air density correction used to correct mass comparisons
     for the effects of air buoyancy. To clarify the difference observed previously
     in moist air between two absolute methods (CIPM-81/91 formula and air buoyancy
@@ -70,53 +64,42 @@ abstract:
     the good accuracy of the air buoyancy artefacts method and reinforced the hypotheses
     that the accuracy of the air density using the CIPM formula is limited by the
     estimation of its composition.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass comparisons using air buoyancy artefacts
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass comparisons using air buoyancy artefacts
     date:
     - type: epub
-      value: '2004-06-30'
+      at: '2004-06-30'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass comparisons using air buoyancy artefacts
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass comparisons using air buoyancy artefacts
     date:
     - type: ppub
-      value: '2004-08-01'
+      at: '2004-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: '330'
     reference_to: '332'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

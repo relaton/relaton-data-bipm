@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6381
-title:
-- content: A New Determination of the Lumen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 3 81
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A New Determination of the Lumen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/3/003
+docidentifier:
+- content: Metrologia 6 3 81
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/3/003
+- content: 10.1088/0026-1394/6/3/003
   type: doi
 date:
 - type: published
-  value: '1970-08-01'
+  at: '1970-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O C Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, National Physical Laboratory, Teddington,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, National Physical Laboratory, Teddington,
             UK
-  role:
-  - type: author
-revdate: '1970-08-01'
 abstract:
-- content: "<p>The NPL Lumen [2793 K] unit is preserved in the calibration of a group
+- language: en
+  script:
+  - Latn
+  content: "<p>The NPL Lumen [2793 K] unit is preserved in the calibration of a group
     of gas-filled, tungsten filament, flux standards operating at a colour temperature
     of 2793 K. Its value relative to the NPL Candela [2045 K] has been established
     with an accuracy of ± 0.2% by means of an automatic recording goniophotometer.
     – A subsidiary experiment on high-pressure mercury vapour lamps showed that flux
     measurements using an integrating sphere method are in good agreement with those
     found using the goniophotometer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A New Determination of the Lumen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A New Determination of the Lumen
     date:
     - type: ppub
-      value: '1970-08-01'
+      at: '1970-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '81'
     reference_to: '89'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

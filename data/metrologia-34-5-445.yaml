@@ -1,88 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia345445
-title:
-- content: 'Summary report: International comparison of temperature radiation scales
-    at 650 nm and 950 nm by means of standard lamps'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/5/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/5/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 5 445
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Summary report: International comparison of temperature radiation scales
+    at 650 nm and 950 nm by means of standard lamps'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/5/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/5/12
+docidentifier:
+- content: Metrologia 34 5 445
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/5/12
+- content: 10.1088/0026-1394/34/5/12
   type: doi
 date:
 - type: published
-  value: '1997-10-01'
+  at: '1997-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Chimenti
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CEM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Pérez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CEM
-  role:
-  - type: author
-revdate: '1997-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Summary report: International comparison of temperature radiation
+    - language: en
+      script: Latn
+      content: 'Summary report: International comparison of temperature radiation
         scales at 650 nm and 950 nm by means of standard lamps'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1997-10-01'
+      at: '1997-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '445'
     reference_to: '447'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

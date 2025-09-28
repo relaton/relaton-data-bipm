@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354255
-title:
-- content: Filter radiometry based on direct utilization of trap detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 255
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Filter radiometry based on direct utilization of trap detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/7
+docidentifier:
+- content: Metrologia 35 4 255
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/7
+- content: 10.1088/0026-1394/35/4/7
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Haapalinna
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Toivanen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Manoochehri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A new design for a filter radiometer based on a trap detector, a set
+- language: en
+  script:
+  - Latn
+  content: "<p>A new design for a filter radiometer based on a trap detector, a set
     of temperature-controlled filters, and a precision aperture is described. This
     filter radiometer can be used to realize high-accuracy scales for illuminance,
     luminous intensity, and spectral irradiance. The new filter radiometer is an improved
@@ -106,39 +94,31 @@ abstract:
     The results of the characterization of the filter radiometer equipped with a lambda
     filter using two different methods are presented. The results are in agreement
     at the level of 0.3%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Filter radiometry based on direct utilization of trap detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Filter radiometry based on direct utilization of trap detectors
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +129,6 @@ extent:
     reference_from: '255'
     reference_to: '259'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

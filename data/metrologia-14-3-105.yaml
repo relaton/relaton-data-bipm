@@ -1,90 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia143105
-title:
-- content: An Investigation of the Mercury-Melting Pressure Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 3 105
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Investigation of the Mercury-Melting Pressure Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/3/002
+docidentifier:
+- content: Metrologia 14 3 105
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/3/002
+- content: 10.1088/0026-1394/14/3/002
   type: doi
 date:
 - type: published
-  value: '1978-07-01'
+  at: '1978-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E C Morris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2008
-  role:
-  - type: author
-revdate: '1978-07-01'
 abstract:
-- content: "<p>An investigation of the mercury-melting pressure scale for pressures
-    between 190 and 750 MPa has been made using a high-stability manganin gauge. Below
-    350 MPa the manganin gauge was calibrated against a free-piston gauge. The resistance-pressure
-    relationship was extended to 750 MPa with the aid of the well-established mercury
-    fixed-point pressure at 0°C.</p><p>The melting pressure was located by a quick
-    and simple method which depends on the latent heat. Systematic errors arising
-    from impurities in the mercury were found to be negligible.</p><p>The results
-    differ considerably from the predictions of the equation, based on the Simon equation,
-    which has gained some acceptance as a high-pressure standard. They also differ
-    somewhat from results given by Michels. However they are in close agreement with
-    data recently published by Houck. The experimental pressures have been fitted
-    very closely by a third-order polynomial in temperature.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>An investigation of the mercury-melting pressure scale for pressures between 190 and 750 MPa has been made using a high-stability manganin gauge. Below 350 MPa the manganin gauge was calibrated against a free-piston gauge. The resistance-pressure relationship was extended to 750 MPa with the aid of the well-established mercury fixed-point pressure at 0°C.</p>
+    <p>The melting pressure was located by a quick and simple method which depends on the latent heat. Systematic errors arising from impurities in the mercury were found to be negligible.</p>
+    <p>The results differ considerably from the predictions of the equation, based on the Simon equation, which has gained some acceptance as a high-pressure standard. They also differ somewhat from results given by Michels. However they are in close agreement with data recently published by Houck. The experimental pressures have been fitted very closely by a third-order polynomial in temperature.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Investigation of the Mercury-Melting Pressure Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Investigation of the Mercury-Melting Pressure Scale
     date:
     - type: ppub
-      value: '1978-07-01'
+      at: '1978-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +75,6 @@ extent:
     reference_from: '105'
     reference_to: '109'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

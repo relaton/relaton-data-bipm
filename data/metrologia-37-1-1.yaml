@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3711
-title:
-- content: A new algorithm for the French atomic time scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A new algorithm for the French atomic time scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/1
+docidentifier:
+- content: Metrologia 37 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/1
+- content: 10.1088/0026-1394/37/1/1
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Andreucci
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LPTF
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>The Bureau National de Metrologie, Laboratoire Primaire du Temps et
+- language: en
+  script:
+  - Latn
+  content: "<p>The Bureau National de Metrologie, Laboratoire Primaire du Temps et
     des Frequences (BNM-LPTF) Time Section is in charge of generating and disseminating
     the French atomic time scale TA(F). The latter is obtained in deferred time (1
     month) as a weighted average of individual atomic clock readings using an algorithm
@@ -53,39 +49,31 @@ abstract:
     covering the last few years; they have shown an improvement in the stability of
     the time scale. Since 1 January 1997 at 00:00:00 UT, the time scale TA(F) has
     been obtained by the algorithm TAC. Details of this new algorithm are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new algorithm for the French atomic time scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A new algorithm for the French atomic time scale
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '1'
     reference_to: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

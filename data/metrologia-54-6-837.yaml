@@ -1,134 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia546837
-title:
-- content: A suite of capacitors of fixed values for use with the new calculable cross
-    capacitor and measurement system at the National Measurement Institute Australia
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa8520
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa8520
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 6 837
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A suite of capacitors of fixed values for use with the new calculable cross
+    capacitor and measurement system at the National Measurement Institute Australia
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa8520
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa8520
+docidentifier:
+- content: Metrologia 54 6 837
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa8520
+- content: 10.1088/1681-7575/aa8520
   type: doi
 date:
 - type: published
-  value: '2017-10-04'
+  at: '2017-10-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G W Small
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
         name:
         - content: National Measurement Institute Australia (NMIA)
-        contact:
-        - address:
-            formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P C Coogan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
         name:
         - content: National Measurement Institute Australia (NMIA)
-        contact:
-        - address:
-            formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G C Cameron
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
         name:
         - content: National Measurement Institute Australia (NMIA)
-        contact:
-        - address:
-            formatted_address: PO Box 264, Lindfield, NSW 2070, Australia
-  role:
-  - type: author
-revdate: '2017-10-04'
 abstract:
-- content: Abstract<p>A suite of capacitors of fixed values for use with the new calculable
-    cross capacitor and measurement system at the National Measurement Institute Australia
-    has been constructed. One set of capacitors, of values 5, 10, 20 and 50 pF, is
-    of Invar construction; a second set, of values 50, 100, 200 and 500 pF, is comprised
-    of fused silica elements. In the case of the Invar capacitors, an analytical calculation
-    of capacitance has been derived that facilitates the design process.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A suite of capacitors of fixed values for use with the new calculable cross capacitor and measurement system at the National Measurement Institute Australia has been constructed. One set of capacitors, of values 5, 10, 20 and 50 pF, is of Invar construction; a second set, of values 50, 100, 200 and 500 pF, is comprised of fused silica elements. In the case of the Invar capacitors, an analytical calculation of capacitance has been derived that facilitates the design process.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A suite of capacitors of fixed values for use with the new calculable
+    - script: Latn
+      content: A suite of capacitors of fixed values for use with the new calculable
         cross capacitor and measurement system at the National Measurement Institute
         Australia
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-12-01'
+      at: '2017-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A suite of capacitors of fixed values for use with the new calculable
+    - script: Latn
+      content: A suite of capacitors of fixed values for use with the new calculable
         cross capacitor and measurement system at the National Measurement Institute
         Australia
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-10-04'
+      at: '2017-10-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +121,6 @@ extent:
     reference_from: '837'
     reference_to: '846'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283285
-title:
-- content: Solar Spectral Irradiance Measurements at 368 nm, 500 nm and 778 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/036
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/036
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 285
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Solar Spectral Irradiance Measurements at 368 nm, 500 nm and 778 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/036
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/036
+docidentifier:
+- content: Metrologia 28 3 285
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/036
+- content: 10.1088/0026-1394/28/3/036
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Wehrli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Center, CH-7260 Davos-Dorf, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Center, CH-7260 Davos-Dorf, Switzerland
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A sunphotometer was used to measure the solar irradiance at three wavelengths
+- language: en
+  script:
+  - Latn
+  content: "<p>A sunphotometer was used to measure the solar irradiance at three wavelengths
     from rockets and a balloon over a period of three years. The sunphotometer was
     developed at the Physikalisch-Meteorologisches Observatorium Davos (PMOD) and
     calibrated by an irradiance standard lamp. The measured solar irradiance agrees
     within + 1,5% and - 2,0% with Neckel and Labs measurements in the 1960s. Unfortunately,
     the measured variability cannot necessarily be assigned to solar origin because
     of insufficient calibration accuracy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar Spectral Irradiance Measurements at 368 nm, 500 nm and 778 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Solar Spectral Irradiance Measurements at 368 nm, 500 nm and 778 nm
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '285'
     reference_to: '289'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

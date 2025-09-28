@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3111
-title:
-- content: Measuring the Vertical Displacements of the Centre of Gravity of a Levitated
-    Superconducting Body
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measuring the Vertical Displacements of the Centre of Gravity of a Levitated
+    Superconducting Body
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/1/002
+docidentifier:
+- content: Metrologia 31 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/1/002
+- content: 10.1088/0026-1394/31/1/002
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V M Khavinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), 19 Moskovsky pr.,
             St Petersburg 198005, Russian Federation
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E T Frantsuz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), 19 Moskovsky pr.,
             St Petersburg 198005, Russian Federation
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: <p>Directly comparing the "mechanical" with the "electrical" joule by the
+- language: en
+  script:
+  - Latn
+  content: <p>Directly comparing the "mechanical" with the "electrical" joule by the
     levitated mass method implies accurately measuring the vertical displacement of
     the centre of gravity of a levitated superconducting body. The required accuracy
     of some parts in 10<sup>9</sup> over relatively small displacements of a few millimetres
@@ -66,40 +60,32 @@ abstract:
     The principles of the D. I. Mendeleyev Institute for Metrology measurements system
     are discussed. Estimates of the potential of the system, based upon some preliminary
     results, are presented.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measuring the Vertical Displacements of the Centre of Gravity of a
+    - language: en
+      script: Latn
+      content: Measuring the Vertical Displacements of the Centre of Gravity of a
         Levitated Superconducting Body
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '1'
     reference_to: '7'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,108 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia515402
-title:
-- content: Numerical optimization of the radial dependence of effective emissivity
-    in blackbody cylindrical cavities
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/5/402
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/5/402
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 5 402
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Numerical optimization of the radial dependence of effective emissivity
+    in blackbody cylindrical cavities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/5/402
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/5/402
+docidentifier:
+- content: Metrologia 51 5 402
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/5/402
+- content: 10.1088/0026-1394/51/5/402
   type: doi
 date:
 - type: published
-  value: '2014-06-25'
+  at: '2014-06-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Javier De Lucas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Crta. de Ajalvir, km 4, 28850 Torrejón de Ardoz, Madrid,
+            Spain
         name:
         - content: Instituto Nacional de Técnica Aeroespacial (INTA)
         subdivision:
-        - content: Centro de Metrología y Calibración
-        contact:
-        - address:
-            formatted_address: Crta. de Ajalvir, km 4, 28850 Torrejón de Ardoz, Madrid,
-              Spain
-  role:
-  - type: author
-revdate: '2014-06-25'
+        - name:
+          - language: en
+            script: Latn
+            content: Centro de Metrología y Calibración
 abstract:
-- content: Abstract<p>The effective emissivity of a blackbody with cylindrical geometry
-    has a definite radial dependence, at the bottom cavity, which is a function of
-    the surface intrinsic emissivity, cavity geometry (L/D) and the temperature gradient
-    along the cylinder walls.</p><p>The optimal use of large aperture blackbody cavities,
-    particularly in thermal imager calibration applications or for the characterization
-    of size-of-source effect of radiation thermometers for example, requires quite
-    precise control of the thermal gradient, in order to achieve sources as uniform
-    as possible in effective emissivity, over the complete aperture. In this paper,
-    we present a numerical model in which the radial profile of effective emissivity
-    is optimized, by means of the theoretical modification of the temperature gradients
-    in a cylindrical diffuse cavity. The distribution functions of secondary absorption
-    impacts are defined and the criteria for a suitable choice of experimentally realizable
-    temperature gradients are presented, including the uncertainty analysis.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The effective emissivity of a blackbody with cylindrical geometry has a definite radial dependence, at the bottom cavity, which is a function of the surface intrinsic emissivity, cavity geometry (<italic>L</italic>/<italic>D</italic>) and the temperature gradient along the cylinder walls.</p>
+    <p>The optimal use of large aperture blackbody cavities, particularly in thermal imager calibration applications or for the characterization of size-of-source effect of radiation thermometers for example, requires quite precise control of the thermal gradient, in order to achieve sources as uniform as possible in effective emissivity, over the complete aperture. In this paper, we present a numerical model in which the radial profile of effective emissivity is optimized, by means of the theoretical modification of the temperature gradients in a cylindrical diffuse cavity. The distribution functions of secondary absorption impacts are defined and the criteria for a suitable choice of experimentally realizable temperature gradients are presented, including the uncertainty analysis.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Numerical optimization of the radial dependence of effective emissivity
+    - script: Latn
+      content: Numerical optimization of the radial dependence of effective emissivity
         in blackbody cylindrical cavities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-10-01'
+      at: '2014-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Numerical optimization of the radial dependence of effective emissivity
+    - script: Latn
+      content: Numerical optimization of the radial dependence of effective emissivity
         in blackbody cylindrical cavities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-06-25'
+      at: '2014-06-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: '402'
     reference_to: '409'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CGPM-1895-2
-title:
-- content: 2nd meeting of the CGPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 2<sup>e</sup> réunion de la CGPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/cg/cgpm/2-1895
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cg/cgpm/2-1895
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/38096899/CGPM2.pdf/e4bb071f-f9a9-35c2-e886-428606e1ebd5
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-02.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-02.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CGPM 2nd Meeting (1895)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 2nd meeting of the CGPM
+- language: fr
+  script: Latn
+  content: 2<sup>e</sup> réunion de la CGPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cg/cgpm/2-1895
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cg/cgpm/2-1895
+- type: pdf
+  content: https://www.bipm.org/documents/20126/38096899/CGPM2.pdf/e4bb071f-f9a9-35c2-e886-428606e1ebd5
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-02.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-02.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CGPM 2nd Meeting (1895)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CGPM 2<sup>e</sup> réunion (1895)
+  content: CGPM 2<sup>e</sup> réunion (1895)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CGPM 2nd Meeting (1895) / CGPM 2<sup>e</sup> réunion (1895)
+- content: CGPM 2nd Meeting (1895) / CGPM 2<sup>e</sup> réunion (1895)
   type: BIPM
   primary: true
 docnumber: CGPM 2nd Meeting (1895)
 date:
 - type: published
-  value: '1895-09-14'
+  at: '1895-09-14'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1895-09-14'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '2'

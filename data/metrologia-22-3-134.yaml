@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223134
-title:
-- content: The Constants of Nature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 134
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Constants of Nature
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/003
+docidentifier:
+- content: Metrologia 22 3 134
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/003
+- content: 10.1088/0026-1394/22/3/003
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Fritzsch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Sektion Physik der Universität München and Max-Planck-Institut
             für Physik und Astrophysik, Werner Heisenberg Institut für Physik, D-8000
             München, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>Apart from gravity, all physics phenomena can be described by the standard
+- language: en
+  script:
+  - Latn
+  content: "<p>Apart from gravity, all physics phenomena can be described by the standard
     gauge-theory framework of modern particle physics: quantum chromodynamics and
     the electroweak gauge theory. At least eighteen parameters are needed to adjust
     theory and experiments. A further reduction of the parameters requires theoretical
     considerations reaching beyond the standard model.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Constants of Nature
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Constants of Nature
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '134'
     reference_to: '139'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

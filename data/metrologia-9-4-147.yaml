@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia94147
-title:
-- content: Studies of Phase Changes in Argon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 4 147
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Studies of Phase Changes in Argon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/4/002
+docidentifier:
+- content: Metrologia 9 4 147
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/4/002
+- content: 10.1088/0026-1394/9/4/002
   type: doi
 date:
 - type: published
-  value: '1973-10-01'
+  at: '1973-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics National Research Council of Canada, Ottawa,
             Canada, K1A 0S1
-  role:
-  - type: author
-revdate: '1973-10-01'
 abstract:
-- content: <p>The influence of the geometry of the sample chamber on the melting behaviour
+- language: en
+  script:
+  - Latn
+  content: <p>The influence of the geometry of the sample chamber on the melting behaviour
     of Ar samples is discussed. Melting curves of Ar samples doped with various small
     amounts of He, H<sub>2</sub>, Ne, N<sub>2</sub>, CO, O<sub>2</sub>, CH<sub>4</sub>
     and Kr impurities were determined relative to "pure" samples. It was found that
@@ -52,44 +48,39 @@ abstract:
     for the triple point temperature and pressure and the boiling point were found
     to be 83.797<sub>6</sub> K and 516.730 ± 0.010 mmHg (68891.6 N/m<sup>2</sup>)
     and 87.294<sub>6</sub> K, respectively. – The vapour pressure of solid and liquid
-    Ar can be described by ln P = A<sub>S</sub> + (B<sub>S</sub>/T) and ln P = A<sub>L</sub>
-    + (B<sub>L</sub>/T) + C<sub>L</sub>T for 81 K ≲ T ≲ 83.8 K and 83.8 K ≲ T ≲ 87.3
-    K respectively. Numerical values of these constants are compared with some previous
-    determinations. Latent heats of sublimation, vaporization and fusion are calculated
-    to be 7751.6, 6562.0 and 1189.6 joules/mole respectively.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    Ar can be described by ln <italic>P</italic> = <italic>A</italic><sub>S</sub>
+    + (<italic>B</italic><sub>S</sub>/<italic>T</italic>) and ln <italic>P</italic>
+    = <italic>A</italic><sub>L</sub> + (<italic>B</italic><sub>L</sub>/<italic>T</italic>)
+    + <italic>C</italic><sub>L</sub><italic>T</italic> for 81 K ≲ <italic>T</italic>
+    ≲ 83.8 K and 83.8 K ≲ <italic>T</italic> ≲ 87.3 K respectively. Numerical values
+    of these constants are compared with some previous determinations.  Latent heats
+    of sublimation, vaporization and fusion are calculated to be 7751.6, 6562.0 and
+    1189.6 joules/mole respectively.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Studies of Phase Changes in Argon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Studies of Phase Changes in Argon
     date:
     - type: ppub
-      value: '1973-10-01'
+      at: '1973-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +91,6 @@ extent:
     reference_from: '147'
     reference_to: '154'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

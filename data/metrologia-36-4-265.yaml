@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia364265
-title:
-- content: The static pressure and temperature coefficients of laboratory standard
-    microphones
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/4/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/4/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 4 265
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The static pressure and temperature coefficients of laboratory standard
+    microphones
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/4/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/4/4
+docidentifier:
+- content: Metrologia 36 4 265
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/4/4
+- content: 10.1088/0026-1394/36/4/4
   type: doi
 date:
 - type: published
-  value: '1999-08-01'
+  at: '1999-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Rasmussen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Primary Lab. Acoustics
-  role:
-  - type: author
-revdate: '1999-08-01'
 abstract:
-- content: "<p>The sensitivity of condenser measurement microphones depends on the
+- language: en
+  script:
+  - Latn
+  content: "<p>The sensitivity of condenser measurement microphones depends on the
     environmental conditions, which affect the acoustic properties of the air enclosed
     between the diaphragm and the back electrode and in the cavity behind the back
     electrode. A theoretical investigation has been performed based on an extended
@@ -54,40 +50,32 @@ abstract:
     individual resonance frequency of the microphone. The theoretical results are
     supported by experimentally determined coefficients for about twenty samples of
     microphone types B&amp;K 4160 and B&amp;K 4180.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The static pressure and temperature coefficients of laboratory standard
+    - language: en
+      script: Latn
+      content: The static pressure and temperature coefficients of laboratory standard
         microphones
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-08-01'
+      at: '1999-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '265'
     reference_to: '273'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

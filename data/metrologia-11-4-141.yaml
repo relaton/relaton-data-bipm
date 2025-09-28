@@ -1,88 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia114141
-title:
-- content: Détermination radiométrique des températures thermodynamiques comprises
-    entre 904 et 1338 K
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 4 141
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Détermination radiométrique des températures thermodynamiques comprises
+    entre 904 et 1338 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/4/001
+docidentifier:
+- content: Metrologia 11 4 141
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/4/001
+- content: 10.1088/0026-1394/11/4/001
   type: doi
 date:
 - type: published
-  value: '1975-10-01'
+  at: '1975-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bonhoure
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
-  - type: author
-revdate: '1975-10-01'
 abstract:
-- content: "<p>The thermodynamic temperatures of the freezing points of silver and
-    gold are determined by comparison with 903.89 K, a temperature which is regarded
-    as exact; we are using the monochromatic optical pyrometric method (with a wavelength
-    close to 1 μm) based on Planck's radiation law, taking c<sub>2</sub> = 0.014388
-    m.K. The values obtained for Ag (1235.16 K ± 0.13 K) and Au (1337.53 K ± 0.16
-    K) are in good agreement with the values of the IPTS-68 (1235.08 K and 1337.58
-    K), but the scale of the standard thermocouple is not satisfactory between 904
-    K and 1235 K.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The thermodynamic temperatures of the freezing points of silver and
+    gold are determined by comparison with 903.89 K, a temperature which is regarded
+    as exact; we are using the monochromatic optical pyrometric method (with a wavelength
+    close to 1 μm) based on Planck's radiation law, taking <italic>c</italic><sub>2</sub>
+    = 0.014388 m.K. The values obtained for Ag (1235.16 K ± 0.13 K) and Au (1337.53
+    K ± 0.16 K) are in good agreement with the values of the IPTS-68 (1235.08 K and
+    1337.58 K), but the scale of the standard thermocouple is not satisfactory between
+    904 K and 1235 K.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Détermination radiométrique des températures thermodynamiques comprises
+    - language: fr
+      script: Latn
+      content: Détermination radiométrique des températures thermodynamiques comprises
         entre 904 et 1338 K
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1975-10-01'
+      at: '1975-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '141'
     reference_to: '150'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

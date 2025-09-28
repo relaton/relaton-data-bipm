@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia213107
-title:
-- content: Comparative Measurement of the Density of Mercury
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 3 107
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparative Measurement of the Density of Mercury
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/3/002
+docidentifier:
+- content: Metrologia 21 3 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/3/002
+- content: 10.1088/0026-1394/21/3/002
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Patterson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D B Prowse
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>The results of the four absolute determinations of the density of mercury
+- language: en
+  script:
+  - Latn
+  content: "<p>The results of the four absolute determinations of the density of mercury
     since 1945 are discussed. When reduced to a common temperature scale the values
     differ by more than the claimed uncertainties. Results are presented of a comparative
     measurement of the density of two further samples of mercury in terms of a reference
@@ -66,39 +60,31 @@ abstract:
     variation in the isotopic ratios between samples, is discussed. We confirm that
     the density of mercury must be measured if it is required to be known to better
     than a few parts in 10<sup>6</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparative Measurement of the Density of Mercury
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparative Measurement of the Density of Mercury
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '107'
     reference_to: '113'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,114 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531A07007
-title:
-- content: Bilateral comparison on volume of mass standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1A/07007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1A/07007
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1A 07007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bilateral comparison on volume of mass standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1A/07007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1A/07007
+docidentifier:
+- content: Metrologia 53 1A 07007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1A/07007
+- content: 10.1088/0026-1394/53/1A/07007
   type: doi
 date:
 - type: published
-  value: '2016-01-01'
+  at: '2016-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Vámossy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MKEH, Magyar KereskedelmiEngedélyezésiHivatal, 1124 Budapest XII,
             Németvölgyiút 37-39, Hungary
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Davidson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 OLW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Zelenka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BEV, Bundesamt für Eich und Vermessungswesen, Arltgasse 35, 1160
             Wien, Austria
-  role:
-  - type: author
-revdate: '2016-01-01'
 abstract:
-- content: |-
-    <p></p><p>This project was a European regional bilateral comparison of volume determination of stainless steel standards of 10 g, 20 g, and 200 g and 1 kg carried out under the auspices of EURAMET (project 1356, EURAMET.M.D-S2).</p><p>The objectives of the present comparison were to check the measurement capabilities of the participants in the field of volume measurements of weights and provide a basis for the calibration measurement capabilities (CMC).</p><p>BEV (Austria) was the pilot laboratory and the provider of the transfer standards. MKEH was the other participant in the bilateral comparison and NPL collected the measurement data ensuring the impartiality.</p><p>The objectives of the comparison were achieved.</p><p></p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>This project was a European regional bilateral comparison of volume determination of stainless steel standards of 10 g, 20 g, and 200 g and 1 kg carried out under the auspices of EURAMET (project 1356, EURAMET.M.D-S2).</p>
+    <p>The objectives of the present comparison were to check the measurement capabilities of the participants in the field of volume measurements of weights and provide a basis for the calibration measurement capabilities (CMC).</p>
+    <p>BEV (Austria) was the pilot laboratory and the provider of the transfer standards. MKEH was the other participant in the bilateral comparison and NPL collected the measurement data ensuring the impartiality.</p>
+    <p>The objectives of the comparison were achieved.</p>
+    <p></p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/D-S2/EURAMET.M.D-S2_Final_Report.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bilateral comparison on volume of mass standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Bilateral comparison on volume of mass standards
     date:
     - type: ppub
-      value: '2016-01-01'
+      at: '2016-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +111,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

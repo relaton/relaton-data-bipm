@@ -1,124 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia512S107
-title:
-- content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
-    and silicon mass artefacts
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/2/S107
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/2/S107
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 2 S107
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
+    and silicon mass artefacts
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/2/S107
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/2/S107
+docidentifier:
+- content: Metrologia 51 2 S107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/2/S107
+- content: 10.1088/0026-1394/51/2/S107
   type: doi
 date:
 - type: published
-  value: '2014-03-31'
+  at: '2014-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stuart Davidson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2014-03-31'
 abstract:
-- content: Abstract<p>This paper reports work undertaken to evaluate the change in
-    mass of platinum/iridium, stainless steel and silicon artefacts measured at atmospheric
-    pressure and in vacuum at a range of pressures typical of those used in vacuum
-    mass comparators and watt balances and for x-ray crystal density (XRCD) measurements.
-    The sets of platinum/iridium, stainless steel and silicon artefacts used in this
-    work have different surface areas and the effect of transferring them between
-    atmospheric pressure and different levels of vacuum was evaluated by measuring
-    the relative changes in mass between them.</p><p>Reversible variations in the
-    mass differences between the artefacts were found over the pressure range from
-    0.1 Pa to 100 000 Pa (atmospheric pressure). At lower pressures (0.001 Pa to 0.1 Pa)
-    the mass differences between all the artefacts were stable and no evidence for
-    hysteresis over this range was found when going down in pressure compared with
-    increasing pressure. Therefore consistent results between watt balance, XRCD measurements
-    and vacuum mass measurements can be realized providing the measurements are performed
-    within this pressure range.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This paper reports work undertaken to evaluate the change in mass of platinum/iridium, stainless steel and silicon artefacts measured at atmospheric pressure and in vacuum at a range of pressures typical of those used in vacuum mass comparators and watt balances and for x-ray crystal density (XRCD) measurements. The sets of platinum/iridium, stainless steel and silicon artefacts used in this work have different surface areas and the effect of transferring them between atmospheric pressure and different levels of vacuum was evaluated by measuring the relative changes in mass between them.</p>
+    <p>Reversible variations in the mass differences between the artefacts were found over the pressure range from 0.1 Pa to 100 000 Pa (atmospheric pressure). At lower pressures (0.001 Pa to 0.1 Pa) the mass differences between all the artefacts were stable and no evidence for hysteresis over this range was found when going down in pressure compared with increasing pressure. Therefore consistent results between watt balance, XRCD measurements and vacuum mass measurements can be realized providing the measurements are performed within this pressure range.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
+    - script: Latn
+      content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
         and silicon mass artefacts
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-04-01'
+      at: '2014-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
+    - script: Latn
+      content: Effect of pressure on the sorption correction to stainless steel, platinum/iridium
         and silicon mass artefacts
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-03-31'
+      at: '2014-03-31'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +106,6 @@ extent:
     reference_from: S107
     reference_to: S113
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

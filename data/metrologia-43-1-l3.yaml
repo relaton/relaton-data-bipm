@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia431L3
-title:
-- content: Note on invariant redefinitions of SI base units for both mass and amount
-    of substance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 L3
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Note on invariant redefinitions of SI base units for both mass and amount
+    of substance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/L01
+docidentifier:
+- content: Metrologia 43 1 L3
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/L01
+- content: 10.1088/0026-1394/43/1/L01
   type: doi
 date:
 - type: published
-  value: '2005-12-22'
+  at: '2005-12-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B P Leonard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical Engineering, The University of Akron,
             Akron, Ohio 44325, USA
-  role:
-  - type: author
-revdate: '2005-12-22'
 abstract:
-- content: "<p>The Planck constant, the Avogadro constant and the molar mass of carbon-12
+- language: en
+  script:
+  - Latn
+  content: "<p>The Planck constant, the Avogadro constant and the molar mass of carbon-12
     satisfy a compatibility condition: the product of the first two quantities is
     proportional to the third. Independently fixing any two of these quantities at
     exact values creates invariant redefinitions of the SI base units for both mass
@@ -54,55 +50,44 @@ abstract:
     on the molar mass of carbon-12, has a number of positive attributes that would
     seem to make it worth considering along with the other two strategies that each
     fix the molar mass of carbon-12.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Note on invariant redefinitions of SI base units for both mass and
+    - language: en
+      script: Latn
+      content: Note on invariant redefinitions of SI base units for both mass and
         amount of substance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-12-22'
+      at: '2005-12-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Note on invariant redefinitions of SI base units for both mass and
+    - language: en
+      script: Latn
+      content: Note on invariant redefinitions of SI base units for both mass and
         amount of substance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: L3
     reference_to: L5
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

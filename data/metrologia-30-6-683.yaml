@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia306683
-title:
-- content: A Pressure Transducer with a Ceramic Free-rod as the Active Element
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/6/027
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/6/027
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 6 683
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Pressure Transducer with a Ceramic Free-rod as the Active Element
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/6/027
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/6/027
+docidentifier:
+- content: Metrologia 30 6 683
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/6/027
+- content: 10.1088/0026-1394/30/6/027
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Wisniewski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Physics, Warsaw University of Technology, Warsaw,
             Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G F Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Strada delle Cacce 73, 10135
             Torino, Italy
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>A strain-gauge pressure transducer for hydrostatic pressure measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>A strain-gauge pressure transducer for hydrostatic pressure measurements
     up to 0,5 GPa with a free ceramic rod (or thick-walled cylinder) element in which
     pressure acts on the ends is presented. The operating principle and main metrological
     properties of the device are also described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Pressure Transducer with a Ceramic Free-rod as the Active Element
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Pressure Transducer with a Ceramic Free-rod as the Active Element
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '683'
     reference_to: '685'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

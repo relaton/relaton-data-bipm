@@ -1,99 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia545784
-title:
-- content: Toward a harmonized treatment of nominal properties in metrology
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa8521
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa8521
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 5 784
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Toward a harmonized treatment of nominal properties in metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa8521
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa8521
+docidentifier:
+- content: Metrologia 54 5 784
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa8521
+- content: 10.1088/1681-7575/aa8521
   type: doi
 date:
 - type: published
-  value: '2017-09-15'
+  at: '2017-09-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Mari
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Castellanza (VA, Italy
         name:
         - content: Università Cattaneo—LIUC
-        contact:
-        - address:
-            formatted_address: Castellanza (VA, Italy
-  role:
-  - type: author
-revdate: '2017-09-15'
 abstract:
-- content: Abstract<p>This paper explores in a metrological perspective the basic
-    characteristics of an (i) experimental process that (ii) provides publicly trustworthy
-    information (iii) on the property of an object as a value of that property (iv)
-    through the comparison of the property and a reference set of properties of the
-    same kind, at the same time not requiring that the property is quantitative. The
-    conclusion is that such a process, called here a nominal property evaluation,
-    is not only both logically and operatively possible, but actually shares most
-    of the fundamental features of measurement, and in particular the possibility
-    to provide publicly trustworthy information. Hence the proposed conceptual framework
-    paves the way toward a harmonized treatment of nominal properties in metrology.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper explores in a metrological perspective the basic characteristics of an (i) experimental process that (ii) provides publicly trustworthy information (iii) on the property of an object as a value of that property (iv) through the comparison of the property and a reference set of properties of the same kind, at the same time not requiring that the property is quantitative. The conclusion is that such a process, called here a <italic>nominal property evaluation</italic>, is not only both logically and operatively possible, but actually shares most of the fundamental features of measurement, and in particular the possibility to provide publicly trustworthy information. Hence the proposed conceptual framework paves the way toward a harmonized treatment of nominal properties in metrology.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Toward a harmonized treatment of nominal properties in metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Toward a harmonized treatment of nominal properties in metrology
     date:
     - type: ppub
-      value: '2017-10-01'
+      at: '2017-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Toward a harmonized treatment of nominal properties in metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Toward a harmonized treatment of nominal properties in metrology
     date:
     - type: epub
-      value: '2017-09-15'
+      at: '2017-09-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +88,6 @@ extent:
     reference_from: '784'
     reference_to: '795'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,99 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia123101
-title:
-- content: Realization of the Boiling and Triple Points of Oxygen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 3 101
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the Boiling and Triple Points of Oxygen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/3/003
+docidentifier:
+- content: Metrologia 12 3 101
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/3/003
+- content: 10.1088/0026-1394/12/3/003
   type: doi
 date:
 - type: published
-  value: '1976-07-01'
+  at: '1976-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Compton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S D Ward
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1976-07-01'
 abstract:
-- content: "<p>The boiling and triple points of oxygen have been realized with absolute
-    uncertainties (at the 67% confidence level) estimated at 0.1 mK in both cases.
-    The work completes the implementation at NPL of the International Practical Temperature
-    Scale of 1968.</p><p>Sources of error are examined in detail, with particular
-    attention paid to the effects of impurities. Although these have been studied
-    experimentally, the results are believed to have been perturbed by persistent
-    sample inhomogeneities.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The boiling and triple points of oxygen have been realized with absolute uncertainties (at the 67% confidence level) estimated at 0.1 mK in both cases. The work completes the implementation at NPL of the International Practical Temperature Scale of 1968.</p>
+    <p>Sources of error are examined in detail, with particular attention paid to the effects of impurities. Although these have been studied experimentally, the results are believed to have been perturbed by persistent sample inhomogeneities.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the Boiling and Triple Points of Oxygen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the Boiling and Triple Points of Oxygen
     date:
     - type: ppub
-      value: '1976-07-01'
+      at: '1976-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +86,6 @@ extent:
     reference_from: '101'
     reference_to: '113'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

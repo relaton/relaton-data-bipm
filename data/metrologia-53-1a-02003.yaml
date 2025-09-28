@@ -1,85 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531A02003
-title:
-- content: Bilateral comparison of cryogenic radiometers between NPL and UME,  linked
-    to the CCPR-S3 supplementary comparison
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1A/02003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1A/02003
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1A 02003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bilateral comparison of cryogenic radiometers between NPL and UME,  linked
+    to the CCPR-S3 supplementary comparison
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1A/02003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1A/02003
+docidentifier:
+- content: Metrologia 53 1A 02003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1A/02003
+- content: 10.1088/0026-1394/53/1A/02003
   type: doi
 date:
 - type: published
-  value: '2016-01-01'
+  at: '2016-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Goodman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL, Hampton Road, Teddington, Middlesex, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-01-01'
 abstract:
-- content: |-
-    <p></p><p>This report presents the results of a bilateral comparison between NPL and UME, which was carried out to establish the unilateral degrees of equivalence for UME with respect to the defined reference value of the CCPR S3 supplementary comparison of cryogenic radiometers using silicon trap detectors as transfer devices. In accordance with the protocol for the CCPR S3 comparison, UME was asked to calibrate a set of NPL supplied silicon trap transfer detectors at a series of laser wavelengths; UME chose to measure at 514.5 nm and 632.8 nm.</p><p></p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCPR, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>This report presents the results of a bilateral comparison between NPL and UME, which was carried out to establish the unilateral degrees of equivalence for UME with respect to the defined reference value of the CCPR S3 supplementary comparison of cryogenic radiometers using silicon trap detectors as transfer devices. In accordance with the protocol for the CCPR S3 comparison, UME was asked to calibrate a set of NPL supplied silicon trap transfer detectors at a series of laser wavelengths; UME chose to measure at 514.5 nm and 632.8 nm.</p>
+    <p></p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/PR/S3/CCPR-S3_NPL-UME.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCPR, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bilateral comparison of cryogenic radiometers between NPL and UME,  linked
+    - language: en
+      script: Latn
+      content: Bilateral comparison of cryogenic radiometers between NPL and UME,  linked
         to the CCPR-S3 supplementary comparison
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-01-01'
+      at: '2016-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +83,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S260
-title:
-- content: Least squares problems with element-wise weighting
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S13
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S260
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Least squares problems with element-wise weighting
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S13
+docidentifier:
+- content: Metrologia 43 4 S260
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S13
+- content: 10.1088/0026-1394/43/4/S13
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L Rastello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, strada delle Cacce 91,
             I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Premoli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Dipartimento di Elettronica e Informazione, Politecnico di Milano,
             piazza Leonardo da Vinci 32, I-20133 Milano, Italy
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>In the conventional least squares solution of an overdetermined system
+- language: en
+  script:
+  - Latn
+  content: "<p>In the conventional least squares solution of an overdetermined system
     of linear equations, independently distributed (i.d.) errors are assumed to affect
     the known terms. However, in most metrological applications, both matrix elements
     and known terms can be affected by errors with zero averages and different variances
@@ -74,53 +68,42 @@ abstract:
     Then, EWLS is applied for calibrating colorimeters as the devoted least-squares
     approach allows the uncertainties to be taken into proper account. Experimental
     results show the capabilities of the proposed method for accurate calibrations.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Least squares problems with element-wise weighting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Least squares problems with element-wise weighting
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Least squares problems with element-wise weighting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Least squares problems with element-wise weighting
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +114,6 @@ extent:
     reference_from: S260
     reference_to: S267
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

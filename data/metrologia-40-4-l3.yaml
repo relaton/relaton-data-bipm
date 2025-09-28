@@ -1,100 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404L3
-title:
-- content: Author's reply to Dr G Bönsch's Letter to the Editor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/101
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/101
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 L3
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Author's reply to Dr G Bönsch's Letter to the Editor
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/101
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/101
+docidentifier:
+- content: Metrologia 40 4 L3
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/101
+- content: 10.1088/0026-1394/40/4/101
   type: doi
 date:
 - type: published
-  value: '2003-06-13'
+  at: '2003-06-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Titov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Av. Nossa Senhora das Graças 50, Xerém 25250-020 Duque de Caxias,
             Rio de Janeiro, Brazil
-  role:
-  - type: author
-revdate: '2003-06-13'
 abstract:
-- content: "<p>Deviations from flatness of the gauging surfaces of material artefacts
+- language: en
+  script:
+  - Latn
+  content: "<p>Deviations from flatness of the gauging surfaces of material artefacts
     do not practically affect the results of new parallax-free methods of length measurements
     based on optical differential measurements (DM). The surface texture deformations,
     resulting from the wringing procedure of a gauge block to a reference plate and
     defined for the wringing contact without an excessive wringing film thickness,
     are highly reproducible and can be included in the definition of the mechanical
     length of a block without any tangible increase in the total uncertainty.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Author's reply to Dr G Bönsch's Letter to the Editor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Author's reply to Dr G Bönsch's Letter to the Editor
     date:
     - type: epub
-      value: '2003-06-13'
+      at: '2003-06-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Author's reply to Dr G Bönsch's Letter to the Editor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Author's reply to Dr G Bönsch's Letter to the Editor
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +90,6 @@ extent:
     reference_from: L3
     reference_to: L5
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

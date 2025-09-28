@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia73108
-title:
-- content: An Intercomparison of High Temperature Platinum Resistance Thermometers
-    and Standard Thermocouples
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/7/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 3 108
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Intercomparison of High Temperature Platinum Resistance Thermometers
+    and Standard Thermocouples
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/3/004
+docidentifier:
+- content: Metrologia 7 3 108
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/3/004
+- content: 10.1088/0026-1394/7/3/004
   type: doi
 date:
 - type: published
-  value: '1971-07-01'
+  at: '1971-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Evans
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S D Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234, USA
-  role:
-  - type: author
-revdate: '1971-07-01'
 abstract:
-- content: <p>To obtain some of the information necessary for redefining a practical
+- language: en
+  script:
+  - Latn
+  content: <p>To obtain some of the information necessary for redefining a practical
     temperature scale in terms of resistance thermometry up to the gold point, we
     have intercompared nine high temperature platinum resistance thermometers and
     eight standard thermocouples at 50 degree intervals over the range 630.74 to 1064.43
@@ -69,49 +63,41 @@ abstract:
     630.74 °C, with about one-third the uncertainty usually attributed to a single
     thermocouple determination (±200 mK). The data also revealed that there is a lack
     of "smoothness" in the scale at 630.74 °C – first derivatives with respect to
-    t<sub>68</sub> are discontinuous by about 0.1% at this temperature. – We conclude
-    from the results of this work that if a practical temperature scale were redefined
-    in terms of presently available high temperature platinum resistance thermometers,
-    it could be realized with significantly less uncertainty (±12 mK for a single
-    determination) than IPTS-68, as it is now realized with thermocouples (±200 mK
-    for a single determination). We recommend, however, that the adoption of such
-    a scale be deferred until indicated improvements in thermometers have been made,
-    and until current researches in gas thermometry have provided new values of thermodynamic
-    temperatures for calibrating fixed points.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>t</italic><sub>68</sub> are discontinuous by about 0.1% at this temperature.
+    – We conclude from the results of this work that if a practical temperature scale
+    were redefined in terms of presently available high temperature platinum resistance
+    thermometers, it could be realized with significantly less uncertainty (±12 mK
+    for a single determination) than IPTS-68, as it is now realized with thermocouples
+    (±200 mK for a single determination). We recommend, however, that the adoption
+    of such a scale be deferred until indicated improvements in thermometers have
+    been made, and until current researches in gas thermometry have provided new values
+    of thermodynamic temperatures for calibrating fixed points.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Intercomparison of High Temperature Platinum Resistance Thermometers
+    - language: en
+      script: Latn
+      content: An Intercomparison of High Temperature Platinum Resistance Thermometers
         and Standard Thermocouples
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1971-07-01'
+      at: '1971-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +108,6 @@ extent:
     reference_from: '108'
     reference_to: '130'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

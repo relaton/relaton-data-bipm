@@ -1,117 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia335427
-title:
-- content: An extrapolation formula for the standard platinum resistance thermometer
-    in the temperature range 419,527 °C to 660,323 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/5/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/5/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 5 427
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An extrapolation formula for the standard platinum resistance thermometer
+    in the temperature range 419,527 °C to 660,323 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/5/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/5/1
+docidentifier:
+- content: Metrologia 33 5 427
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/5/1
+- content: 10.1088/0026-1394/33/5/1
   type: doi
 date:
 - type: published
-  value: '1996-10-01'
+  at: '1996-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Zhiru
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Metrol. Meas. Hebei
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Jingbo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Metrol. Meas. Hebei
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Zhenguo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Metrol. Meas. Hebei
-  role:
-  - type: author
-revdate: '1996-10-01'
 abstract:
-- content: "<p>Based on the International Temperature Scale of 1990 (ITS-90), this
-    paper gives an extrapolation formula: W*<sub>Al</sub> = 2,193 711 W<sub>Zn</sub>
-    - 1,193 711 W<sub>Sn</sub>. By this formula, the standard platinum resistance
-    thermometer (SPRT) can be used to measure temperature in the range 419,527 °C
-    to 660,323 °C and the formula can be determined from just the calibration values
-    at the triple point of water and the freezing points of Sn and Zn, which are convenient
-    to realize. Fifty SPRTs have been used to check the formula for the range 0 °C
-    to 660,323 °C. The extrapolation error is less than 7,0 mK in the range 419,527
-    °C to 660,323 °C. The precision of the formula is sufficient for secondary measurement.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Based on the International Temperature Scale of 1990 (ITS-90), this
+    paper gives an extrapolation formula: <italic>W</italic>*<sub>Al</sub> = 2,193
+    711 W<sub>Zn</sub> - 1,193 711 <italic>W</italic><sub>Sn</sub>. By this formula,
+    the standard platinum resistance thermometer (SPRT) can be used to measure temperature
+    in the range 419,527 °C to 660,323 °C and the formula can be determined from just
+    the calibration values at the triple point of water and the freezing points of
+    Sn and Zn, which are convenient to realize. Fifty SPRTs have been used to check
+    the formula for the range 0 °C to 660,323 °C. The extrapolation error is less
+    than 7,0 mK in the range 419,527 °C to 660,323 °C. The precision of the formula
+    is sufficient for secondary measurement.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An extrapolation formula for the standard platinum resistance thermometer
+    - language: en
+      script: Latn
+      content: An extrapolation formula for the standard platinum resistance thermometer
         in the temperature range 419,527 °C to 660,323 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1996-10-01'
+      at: '1996-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +107,6 @@ extent:
     reference_from: '427'
     reference_to: '431'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

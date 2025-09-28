@@ -1,148 +1,126 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10261
-title:
-- content: Development of Hydrogen Masers as Frequency Standards at the Laboratoire
-    de l'Horloge Atomique
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/10/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 2 61
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Development of Hydrogen Masers as Frequency Standards at the Laboratoire
+    de l'Horloge Atomique
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/2/004
+docidentifier:
+- content: Metrologia 10 2 61
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/2/004
+- content: 10.1088/0026-1394/10/2/004
   type: doi
 date:
 - type: published
-  value: '1974-04-01'
+  at: '1974-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique Bat. 221, Université Paris-Sud,
             91405 Orsay, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Viennet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique Bat. 221, Université Paris-Sud,
             91405 Orsay, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Barillet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique Bat. 221, Université Paris-Sud,
             91405 Orsay, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Desaintfuscien
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique Bat. 221, Université Paris-Sud,
             91405 Orsay, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Audoin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique Bat. 221, Université Paris-Sud,
             91405 Orsay, France
-  role:
-  - type: author
-revdate: '1974-04-01'
 abstract:
-- content: "<p>The main features of the design of two hydrogen masers in operation
-    at the Laboratoire de l'Horloge Atomique are described.</p><p>They show a frequency
-    stability (square root of the Allan variance) of 4 × 10<sup>-13</sup> × 1/τ for
-    1 s &lt; τ &lt; 40 s and 5 × 10<sup>-15</sup> for 200 s &lt; τ &lt; 1 h.</p><p>Results
-    of time comparisons with distant Cs clocks are also given.</p><p>The oscillation
-    frequency has been extrapolated to zero magnetic field and a frequency offset,
-    which depends on the value of the applied field, has been measured.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The main features of the design of two hydrogen masers in operation at the Laboratoire de l'Horloge Atomique are described.</p>
+    <p>They show a frequency stability (square root of the Allan variance) of 4 × 10<sup>-13</sup> × 1/τ for 1 s &lt; τ &lt; 40 s and 5 × 10<sup>-15</sup> for 200 s &lt; τ &lt; 1 h.</p>
+    <p>Results of time comparisons with distant Cs clocks are also given.</p>
+    <p>The oscillation frequency has been extrapolated to zero magnetic field and a frequency offset, which depends on the value of the applied field, has been measured.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Development of Hydrogen Masers as Frequency Standards at the Laboratoire
+    - language: en
+      script: Latn
+      content: Development of Hydrogen Masers as Frequency Standards at the Laboratoire
         de l'Horloge Atomique
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1974-04-01'
+      at: '1974-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +131,6 @@ extent:
     reference_from: '61'
     reference_to: '67'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

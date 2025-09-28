@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6260
-title:
-- content: Cesium Beam Frequency Standard Cavity Design
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 2 60
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cesium Beam Frequency Standard Cavity Design
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/2/007
+docidentifier:
+- content: Metrologia 6 2 60
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/2/007
+- content: 10.1088/0026-1394/6/2/007
   type: doi
 date:
 - type: published
-  value: '1970-04-01'
+  at: '1970-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Mungall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council, Division of Physics, Ottawa, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Daams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council, Division of Physics, Ottawa, Canada
-  role:
-  - type: author
-revdate: '1970-04-01'
 abstract:
-- content: "<p>A new technique of constructing resonant cavities for exciting the
+- language: en
+  script:
+  - Latn
+  content: "<p>A new technique of constructing resonant cavities for exciting the
     Ramsey resonance in cesium beam frequency standards is discussed. A centrally
     located E-plane tee is used as the feed system in a symmetric even-order mode
     cavity. The location of the tee is determined initially from measurements made
@@ -63,39 +57,31 @@ abstract:
     between the oscillating magnetic fields at the ends of the cavity are described.
     Experimental results indicate agreement with theory and that the method is effective
     and simple to apply.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Cesium Beam Frequency Standard Cavity Design
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Cesium Beam Frequency Standard Cavity Design
     date:
     - type: ppub
-      value: '1970-04-01'
+      at: '1970-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '60'
     reference_to: '64'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

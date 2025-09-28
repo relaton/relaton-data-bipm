@@ -1,147 +1,126 @@
 ---
-schema-version: v1.2.9
-id: Metrologia552294
-title:
-- content: Self-weight effect in the measurement of the volume of silicon spheres
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaaed5
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaaed5
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 2 294
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Self-weight effect in the measurement of the volume of silicon spheres
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaaed5
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaaed5
+docidentifier:
+- content: Metrologia 55 2 294
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaaed5
+- content: 10.1088/1681-7575/aaaed5
   type: doi
 date:
 - type: published
-  value: '2018-03-15'
+  at: '2018-03-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Mari
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Massa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Kuramoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: National Institute of Advanced Industrial Science and
+            Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
         name:
         - content: NMIJ—National Metrology Institute of Japan
-        contact:
-        - address:
-            formatted_address: National Institute of Advanced Industrial Science and
-              Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2018-03-15'
 abstract:
-- content: Abstract<p>The volume of<sup>28</sup>Si spheres about 94 mm in diameter
-    is an input datum for the determination of the Avogadro constant. We report a
-    finite element analysis of the self-weight effect on the volume determination
-    via optical interferometric measurements of the sphere diameters. The self-weight
-    expansion or shrinkage of the equatorial diameters, which ranges from  −31 pm
-    to  +180 pm, depends on the southern latitude of the supports.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The volume of <sup>28</sup>Si spheres about 94 mm in diameter is an input datum for the determination of the Avogadro constant. We report a finite element analysis of the self-weight effect on the volume determination via optical interferometric measurements of the sphere diameters. The self-weight expansion or shrinkage of the equatorial diameters, which ranges from  −31 pm to  +180 pm, depends on the southern latitude of the supports.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Self-weight effect in the measurement of the volume of silicon spheres
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Self-weight effect in the measurement of the volume of silicon spheres
     date:
     - type: ppub
-      value: '2018-04-01'
+      at: '2018-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Self-weight effect in the measurement of the volume of silicon spheres
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Self-weight effect in the measurement of the volume of silicon spheres
     date:
     - type: epub
-      value: '2018-03-15'
+      at: '2018-03-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -152,6 +131,6 @@ extent:
     reference_from: '294'
     reference_to: '301'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

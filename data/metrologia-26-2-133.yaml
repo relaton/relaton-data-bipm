@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia262133
-title:
-- content: Measurement of the Silver Point with a Simple, High-Precision Pyrometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 133
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the Silver Point with a Simple, High-Precision Pyrometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/008
+docidentifier:
+- content: Metrologia 26 2 133
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/008
+- content: 10.1088/0026-1394/26/2/008
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tapping
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,16 +37,14 @@ contributor:
         name:
         - content: CSIRO Division of Applied Physics, P.O. Box 4, Woodville, South
             Australia, Australia 5011
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V N Ojha
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -60,50 +54,42 @@ contributor:
         name:
         - content: Thermometry Section, National Physical Laboratory, Dr. K. A. Krishnan
             Rd., New Delhi 110012 India
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>A pyrometer is described which is simple and easy to construct, yet
+- language: en
+  script:
+  - Latn
+  content: "<p>A pyrometer is described which is simple and easy to construct, yet
     fulfils the requirements of a standards laboratory which wishes to perform radiation
     thermometry to very high accuracy. A test of its performance is described in which
     it was used to measure the ratio of the spectral radiances at 650 nm of black
     bodies at the melting points of silver and gold. Taking the gold-point temperature
     to be 1064.43 °C, this measurement gave a result of (961.961 ± 0.017) °C (99%
     confidence level) as the value of the silver-point temperature.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the Silver Point with a Simple, High-Precision Pyrometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Measurement of the Silver Point with a Simple, High-Precision Pyrometer
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '133'
     reference_to: '139'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

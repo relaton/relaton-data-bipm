@@ -1,168 +1,134 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553437
-title:
-- content: Uncertainty propagation in the calibration equations for NTC thermistors
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaba8e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaba8e
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 437
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty propagation in the calibration equations for NTC thermistors
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaba8e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaba8e
+docidentifier:
+- content: Metrologia 55 3 437
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaba8e
+- content: 10.1088/1681-7575/aaba8e
   type: doi
 date:
 - type: published
-  value: '2018-05-30'
+  at: '2018-05-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Guang Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
+            Changchun Jilin 130033, People’s Republic of China
         name:
         - content: Changchun Institute of Optics
-        contact:
-        - address:
-            formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
-              Changchun Jilin 130033, People’s Republic of China
     - organization:
+        address:
+        - formatted_address: Beijing 100049, People’s Republic of China
         name:
         - content: University of Chinese Academy of Sciences
-        contact:
-        - address:
-            formatted_address: Beijing 100049, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Liang Guo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
+            Changchun Jilin 130033, People’s Republic of China
         name:
         - content: Changchun Institute of Optics
-        contact:
-        - address:
-            formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
-              Changchun Jilin 130033, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chunlong Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
+            Changchun Jilin 130033, People’s Republic of China
         name:
         - content: Changchun Institute of Optics
-        contact:
-        - address:
-            formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
-              Changchun Jilin 130033, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Qingwen Wu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
+            Changchun Jilin 130033, People’s Republic of China
         name:
         - content: Changchun Institute of Optics
-        contact:
-        - address:
-            formatted_address: Fine Mechanics and Physics, Chinese Academy of Sciences,
-              Changchun Jilin 130033, People’s Republic of China
-  role:
-  - type: author
-revdate: '2018-05-30'
 abstract:
-- content: Abstract<p>The uncertainty propagation problem is quite important for temperature
-    measurements, since we rely so much on the sensors and calibration equations.
-    Although uncertainty propagation for platinum resistance or radiation thermometers
-    is well known, there have been few publications concerning negative temperature
-    coefficient (NTC) thermistors. Insight into the propagation characteristics of
-    uncertainty that develop when equations are determined using the Lagrange interpolation
-    or least-squares fitting method is presented here with respect to several of the
-    most common equations used in NTC thermistor calibration. Within this work, analytical
-    expressions of the propagated uncertainties for both fitting methods are derived
-    for the uncertainties in the measured temperature and resistance at each calibration
-    point. High-precision calibration of an NTC thermistor in a precision water bath
-    was performed by means of the comparison method. Results show that, for both fitting
-    methods, the propagated uncertainty is flat in the interpolation region but rises
-    rapidly beyond the calibration range. Also, for temperatures interpolated between
-    calibration points, the propagated uncertainty is generally no greater than that
-    associated with the calibration points. For least-squares fitting, the propagated
-    uncertainty is significantly reduced by increasing the number of calibration points
-    and can be well kept below the uncertainty of the calibration points.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The uncertainty propagation problem is quite important for temperature measurements, since we rely so much on the sensors and calibration equations. Although uncertainty propagation for platinum resistance or radiation thermometers is well known, there have been few publications concerning negative temperature coefficient (NTC) thermistors. Insight into the propagation characteristics of uncertainty that develop when equations are determined using the Lagrange interpolation or least-squares fitting method is presented here with respect to several of the most common equations used in NTC thermistor calibration. Within this work, analytical expressions of the propagated uncertainties for both fitting methods are derived for the uncertainties in the measured temperature and resistance at each calibration point. High-precision calibration of an NTC thermistor in a precision water bath was performed by means of the comparison method. Results show that, for both fitting methods, the propagated uncertainty is flat in the interpolation region but rises rapidly beyond the calibration range. Also, for temperatures interpolated between calibration points, the propagated uncertainty is generally no greater than that associated with the calibration points. For least-squares fitting, the propagated uncertainty is significantly reduced by increasing the number of calibration points and can be well kept below the uncertainty of the calibration points.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation in the calibration equations for NTC thermistors
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty propagation in the calibration equations for NTC thermistors
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation in the calibration equations for NTC thermistors
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty propagation in the calibration equations for NTC thermistors
     date:
     - type: epub
-      value: '2018-05-30'
+      at: '2018-05-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -173,6 +139,6 @@ extent:
     reference_from: '437'
     reference_to: '445'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

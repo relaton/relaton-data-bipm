@@ -1,118 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522238
-title:
-- content: Human errors and measurement uncertainty
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/238
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/238
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 238
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Human errors and measurement uncertainty
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/238
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/238
+docidentifier:
+- content: Metrologia 52 2 238
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/238
+- content: 10.1088/0026-1394/52/2/238
   type: doi
 date:
 - type: published
-  value: '2015-02-18'
+  at: '2015-02-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ilya Kuselman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Danciger ‘A’ Bldg, Givat Ram, 91904 Jerusalem, Israel
         name:
         - content: National Physical Laboratory of Israel (INPL)
-        contact:
-        - address:
-            formatted_address: Danciger ‘A’ Bldg, Givat Ram, 91904 Jerusalem, Israel
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesca Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 91 Strada delle Cacce, 10135 Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: 91 Strada delle Cacce, 10135 Turin, Italy
-  role:
-  - type: author
-revdate: '2015-02-18'
 abstract:
-- content: Abstract<p>Evaluating the residual risk of human errors in a measurement
-    and testing laboratory, remaining after the error reduction by the laboratory
-    quality system, and quantifying the consequences of this risk for the quality
-    of the measurement/test results are discussed based on expert judgments and Monte
-    Carlo simulations. A procedure for evaluation of the contribution of the residual
-    risk to the measurement uncertainty budget is proposed. Examples are provided
-    using earlier published sets of expert judgments on human errors in pH measurement
-    of groundwater, elemental analysis of geological samples by inductively coupled
-    plasma mass spectrometry, and multi-residue analysis of pesticides in fruits and
-    vegetables. The human error contribution to the measurement uncertainty budget
-    in the examples was not negligible, yet also not dominant. This was assessed as
-    a good risk management result.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Evaluating the residual risk of human errors in a measurement and testing laboratory, remaining after the error reduction by the laboratory quality system, and quantifying the consequences of this risk for the quality of the measurement/test results are discussed based on expert judgments and Monte Carlo simulations. A procedure for evaluation of the contribution of the residual risk to the measurement uncertainty budget is proposed. Examples are provided using earlier published sets of expert judgments on human errors in pH measurement of groundwater, elemental analysis of geological samples by inductively coupled plasma mass spectrometry, and multi-residue analysis of pesticides in fruits and vegetables. The human error contribution to the measurement uncertainty budget in the examples was not negligible, yet also not dominant. This was assessed as a good risk management result.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Human errors and measurement uncertainty
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Human errors and measurement uncertainty
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Human errors and measurement uncertainty
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Human errors and measurement uncertainty
     date:
     - type: epub
-      value: '2015-02-18'
+      at: '2015-02-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +102,6 @@ extent:
     reference_from: '238'
     reference_to: '243'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

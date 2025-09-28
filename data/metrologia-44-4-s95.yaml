@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S95
-title:
-- content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
-    source'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S13
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S95
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
+    source'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S13
+docidentifier:
+- content: Metrologia 44 4 S95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S13
+- content: 10.1088/0026-1394/44/4/S13
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: François O Bochud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University Institute for Radiation Physics (IRA), DUMSC-CHUV, Grand-Pré
             1, CH-1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Claude J Bailat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University Institute for Radiation Physics (IRA), DUMSC-CHUV, Grand-Pré
             1, CH-1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Pascal Laedermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University Institute for Radiation Physics (IRA), DUMSC-CHUV, Grand-Pré
             1, CH-1007 Lausanne, Switzerland
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The most intuitive way of defining a probability is perhaps through
+- language: en
+  script:
+  - Latn
+  content: "<p>The most intuitive way of defining a probability is perhaps through
     the frequency at which it appears when a large number of trials are realized in
     identical conditions. The probability derived from the obtained histogram characterizes
     the so-called frequentist or conventional statistical approach. In this sense,
@@ -92,55 +84,44 @@ abstract:
     the conceptual understanding of statistics, the main difficulty that could deter
     radionuclide metrologists from using Bayesian statistics is the complexity of
     the computation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
+    - language: en
+      script: Latn
+      content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
         source'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
+    - language: en
+      script: Latn
+      content: 'Bayesian statistics in radionuclide metrology: measurement of a decaying
         source'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +132,6 @@ extent:
     reference_from: S95
     reference_to: S101
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

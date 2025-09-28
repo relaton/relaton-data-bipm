@@ -1,38 +1,34 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463345
-title:
-- content: A generalized method for the multiple artefacts problem in interlaboratory
-    comparisons with linear trends
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/024
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/024
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 345
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A generalized method for the multiple artefacts problem in interlaboratory
+    comparisons with linear trends
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/024
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/024
+docidentifier:
+- content: Metrologia 46 3 345
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/024
+- content: 10.1088/0026-1394/46/3/024
   type: doi
 date:
 - type: published
-  value: '2009-05-22'
+  at: '2009-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Weiping Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -42,41 +38,37 @@ contributor:
         name:
         - content: Department of Statistics and Finance, University of Science and
             Technology of China, Hefei, 230026, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hung-kung Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2009-05-22'
 abstract:
-- content: "<p>A generalized statistical approach for interlaboratory comparisons
+- language: en
+  script:
+  - Latn
+  content: "<p>A generalized statistical approach for interlaboratory comparisons
     with linear trends is proposed. This new approach can be applied to the general
     case when the artefacts are measured and reported multiple times in each participating
     laboratory. The advantages of this approach are that it is consistent with the
@@ -85,55 +77,44 @@ abstract:
     comparison reference value and the degree of equivalence are also provided. As
     an illustration, the method is applied to the SIM.EM-K2 comparison for resistance
     at the level of 1 GΩ.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A generalized method for the multiple artefacts problem in interlaboratory
+    - language: en
+      script: Latn
+      content: A generalized method for the multiple artefacts problem in interlaboratory
         comparisons with linear trends
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-05-22'
+      at: '2009-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A generalized method for the multiple artefacts problem in interlaboratory
+    - language: en
+      script: Latn
+      content: A generalized method for the multiple artefacts problem in interlaboratory
         comparisons with linear trends
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +125,6 @@ extent:
     reference_from: '345'
     reference_to: '350'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

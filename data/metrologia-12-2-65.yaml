@@ -1,49 +1,45 @@
 ---
-schema-version: v1.2.9
-id: Metrologia12265
-title:
-- content: A Precision Measurement of some Attenuation Coefficients for 1.33 MeV Gamma
-    Rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 2 65
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Precision Measurement of some Attenuation Coefficients for 1.33 MeV Gamma
+    Rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/2/005
+docidentifier:
+- content: Metrologia 12 2 65
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/2/005
+- content: 10.1088/0026-1394/12/2/005
   type: doi
 date:
 - type: published
-  value: '1976-04-01'
+  at: '1976-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A-M Roux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Service Central de Protection contre les Rayonnements Ionisants,
             France
-  role:
-  - type: author
-revdate: '1976-04-01'
 abstract:
-- content: "<p>Measurements of some mass attenuation coefficients for 1.33 MeV γ radiation
-    of<sup>60</sup>Co have been performed in excellent narrow beam collimated geometry.
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurements of some mass attenuation coefficients for 1.33 MeV γ radiation
+    of <sup>60</sup>Co have been performed in excellent narrow beam collimated geometry.
     The mass attenuation coefficient of aluminum was determined from the experimental
     transmission curve with a good accuracy (less than 2 × 10<sup>-3</sup>) and the
     value obtained was then used as a reference for other elements or compounds: copper,
@@ -57,40 +53,32 @@ abstract:
     = (0.052 91 ± 0.000 18) cm<sup>2</sup> g<sup>-1</sup>, are in good agreement with
     the values tabulated at NBS (about 1 × 10<sup>-3</sup>). A comparison is made
     with other experimental results.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Precision Measurement of some Attenuation Coefficients for 1.33 MeV
+    - language: en
+      script: Latn
+      content: A Precision Measurement of some Attenuation Coefficients for 1.33 MeV
         Gamma Rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1976-04-01'
+      at: '1976-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +89,6 @@ extent:
     reference_from: '65'
     reference_to: '75'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

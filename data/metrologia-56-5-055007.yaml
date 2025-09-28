@@ -1,99 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia565055007
-title:
-- content: Chi-squared test for binned, Gaussian samples
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab2d53
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab2d53
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 5 055007
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Chi-squared test for binned, Gaussian samples
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab2d53
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab2d53
+docidentifier:
+- content: Metrologia 56 5 055007
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab2d53
+- content: 10.1088/1681-7575/ab2d53
   type: doi
 date:
 - type: published
-  value: '2019-08-09'
+  at: '2019-08-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicholas R Hutzler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CA 91125, United States of America
         name:
         - content: California Institute of Technology Pasadena
         subdivision:
-        - content: Division of Physics, Mathematics, and Astronomy
-        contact:
-        - address:
-            formatted_address: CA 91125, United States of America
-  role:
-  - type: author
-revdate: '2019-08-09'
+        - name:
+          - language: en
+            script: Latn
+            content: Division of Physics, Mathematics, and Astronomy
 abstract:
-- content: Abstract<p>We examine the test for binned, Gaussian samples, including
-    effects due to the fact that the experimentally available sample standard deviation
-    and the unavailable true standard deviation have different statistical properties.
-    For data formed by binning Gaussian samples with bin size n, we find that the
-    expected value and standard deviation of the reduced statistic is</p><p></p><p>where
-    N is the total number of binned values. This is strictly larger in both mean and
-    standard deviation than the value of reported in standard treatments, which ignore
-    the distinction between true and sample standard deviation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We examine the <inline-formula><inline-graphic xlink:href="metab2d53ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> test for binned, Gaussian samples, including effects due to the fact that the experimentally available sample standard deviation and the unavailable true standard deviation have different statistical properties. For data formed by binning Gaussian samples with bin size <italic>n</italic>, we find that the expected value and standard deviation of the reduced <inline-formula><inline-graphic xlink:href="metab2d53ieqn002.gif" xlink:type="simple"></inline-graphic></inline-formula> statistic is</p>
+    <p><inline-formula><inline-graphic xlink:href="metab2d53ieqn003.gif" xlink:type="simple"></inline-graphic></inline-formula></p>
+    <p>where <italic>N</italic> is the total number of binned values. This is strictly larger in both mean and standard deviation than the value of <inline-formula><inline-graphic xlink:href="metab2d53ieqn004.gif" xlink:type="simple"></inline-graphic></inline-formula> reported in standard treatments, which ignore the distinction between true and sample standard deviation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Chi-squared test for binned, Gaussian samples
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Chi-squared test for binned, Gaussian samples
     date:
     - type: ppub
-      value: '2019-10-01'
+      at: '2019-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Chi-squared test for binned, Gaussian samples
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Chi-squared test for binned, Gaussian samples
     date:
     - type: epub
-      value: '2019-08-09'
+      at: '2019-08-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +92,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

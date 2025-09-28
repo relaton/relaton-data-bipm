@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1895-19
-title:
-- content: 19th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 19<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/19-1895
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/19-1895
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/75013272/CIPM1895.pdf/f3fb5179-decb-3107-1a67-22d8434ffc19
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-19.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-19.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 19th Meeting (1895)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 19th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 19<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/19-1895
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/19-1895
+- type: pdf
+  content: https://www.bipm.org/documents/20126/75013272/CIPM1895.pdf/f3fb5179-decb-3107-1a67-22d8434ffc19
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-19.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-19.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 19th Meeting (1895)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 19<sup>e</sup> réunion (1895)
+  content: CIPM 19<sup>e</sup> réunion (1895)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 19th Meeting (1895) / CIPM 19<sup>e</sup> réunion (1895)
+- content: CIPM 19th Meeting (1895) / CIPM 19<sup>e</sup> réunion (1895)
   type: BIPM
   primary: true
 docnumber: CIPM 19th Meeting (1895)
 date:
 - type: published
-  value: '1895-09-20'
+  at: '1895-09-20'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1895-09-20'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '19'

@@ -1,117 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia592024004
-title:
-- content: Traceable spectral interferometry for length measurement
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac545d
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac545d
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 2 024004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Traceable spectral interferometry for length measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac545d
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac545d
+docidentifier:
+- content: Metrologia 59 2 024004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac545d
+- content: 10.1088/1681-7575/ac545d
   type: doi
 date:
 - type: published
-  value: '2022-03-14'
+  at: '2022-03-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Lancaster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
-              Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D O’Connor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
-              Kingdom
-  role:
-  - type: author
-revdate: '2022-03-14'
 abstract:
-- content: Abstract<p>Spectral interferometry is becoming a popular method of performing
-    dimensional measurements, e.g. of surfaces, but such devices require pre-calibration
-    of their spectrometers to achieve traceability. The use of a spectral lamp and
-    imaging spectrometer to perform inherently traceable distance measurements using
-    spectral interferometry, without the need for external calibration, is proposed
-    and its experimental feasibility demonstrated. Initial experiments show measurements
-    over a working range of 200 µm. The estimated standard uncertainty of the distance
-    measurements is 0.6 nm, corresponding to an expanded uncertainty of 1.2 nm at
-    k = 2.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Spectral interferometry is becoming a popular method of performing dimensional measurements, e.g. of surfaces, but such devices require pre-calibration of their spectrometers to achieve traceability. The use of a spectral lamp and imaging spectrometer to perform inherently traceable distance measurements using spectral interferometry, without the need for external calibration, is proposed and its experimental feasibility demonstrated. Initial experiments show measurements over a working range of 200 µm. The estimated standard uncertainty of the distance measurements is 0.6 nm, corresponding to an expanded uncertainty of 1.2 nm at <italic toggle="yes">k</italic> = 2.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable spectral interferometry for length measurement
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Traceable spectral interferometry for length measurement
     date:
     - type: ppub
-      value: '2022-04-01'
+      at: '2022-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable spectral interferometry for length measurement
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Traceable spectral interferometry for length measurement
     date:
     - type: epub
-      value: '2022-03-14'
+      at: '2022-03-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +101,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

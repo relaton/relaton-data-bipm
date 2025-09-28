@@ -1,95 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia292175
-title:
-- content: The Quantum Hall Effect and Resistance Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/2/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 2 175
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Quantum Hall Effect and Resistance Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/2/006
+docidentifier:
+- content: Metrologia 29 2 175
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/2/006
+- content: 10.1088/0026-1394/29/2/006
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Hartland
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Teddington, Middlesex TW11
             0LW, UK
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>Following the discovery of the quantum Hall effect in 1980 metrologists
+- language: en
+  script:
+  - Latn
+  content: "<p>Following the discovery of the quantum Hall effect in 1980 metrologists
     were eager to develop the effect as a resistance standard in a similar manner
     to the development, a decade earlier, of the Josephson effects in superconductors
     as a voltage standard. This article reviews the progress made by many national
     laboratories to assess and compare the quality and limitations of semiconductor
     devices, mainly silicon MOSFETs and GaAs/AlGaAs heterostructures, as quantized
-    Hall resistance standards with values R<sub>H</sub> (i) = R<sub>K</sub>/i = h/ie<sup>2</sup>,
-    where R<sub>K</sub> = 25812,807 Ω is the von Klitzing constant and i is an integer.
-    Potentiometric and cryogenic current comparator bridge techniques for the measurement
-    of R<sub>K</sub> in terms of conventional resistance standards with 1 σ relative
-    accuracies better than 1 part in 10<sup>8</sup> are compared, and determinations
-    of R<sub>K</sub> in ohms with accuracies as high as 2,4 parts in 10<sup>8</sup>
-    using calculable capacitors are described. The comparison of direct determinations
-    of R<sub>K</sub> with alternative derivations of h/e<sup>2</sup> leading to the
+    Hall resistance standards with values <italic>R</italic><sub>H</sub> (<italic>i</italic>)
+    = <italic>R</italic><sub>K</sub>/<italic>i</italic> = <italic>h/ie</italic><sup>2</sup>,
+    where <italic>R</italic><sub>K</sub> = 25812,807 Ω is the von Klitzing constant
+    and <italic>i</italic> is an integer. Potentiometric and cryogenic current comparator
+    bridge techniques for the measurement of <italic>R</italic><sub>K</sub> in terms
+    of conventional resistance standards with 1 σ relative accuracies better than
+    1 part in 10<sup>8</sup> are compared, and determinations of <italic>R</italic><sub>K</sub>
+    in ohms with accuracies as high as 2,4 parts in 10<sup>8</sup> using calculable
+    capacitors are described. The comparison of direct determinations of <italic>R</italic><sub>K</sub>
+    with alternative derivations of <italic>h/e</italic><sup>2</sup> leading to the
     CCE recommendations and subsequent international adoption, from 1 January 1990,
-    of the value 25812,807 ± 0,005 Ω for R<sub>K</sub> are also described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of the value 25812,807 ± 0,005 Ω for <italic>R</italic><sub>K</sub> are also described.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Quantum Hall Effect and Resistance Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Quantum Hall Effect and Resistance Standards
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +90,6 @@ extent:
     reference_from: '175'
     reference_to: '190'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

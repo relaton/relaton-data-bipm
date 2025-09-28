@@ -1,110 +1,88 @@
 ---
-schema-version: v1.2.9
 id: CIPM-DECN-2015-104-22
-title:
-- content: Decision CIPM/104-22 (2015)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Décision CIPM/104-20 (2015)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-104-1.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-104-1.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM DECN 104-22 (2015)
-  type: BIPM
-  primary: true
-- id: CIPM DECN 104-22 (2015, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM DECN 104-22 (2015, F)
+  content: Decision CIPM/104-22 (2015)
+- language: fr
+  script: Latn
+  content: Décision CIPM/104-20 (2015)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-104-1.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-104-1.yml
+docidentifier:
+- content: CIPM DECN 104-22 (2015)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Decision 104-22 (2015)
+  content: CIPM DECN 104-22 (2015, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM DECN 104-22 (2015, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Decision 104-22 (2015)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Décision CIPM/104-22 (2015)
+  content: Décision CIPM/104-22 (2015)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Decision 104-22 (2015) / Décision CIPM/104-22 (2015)
+- content: CIPM Decision 104-22 (2015) / Décision CIPM/104-22 (2015)
   type: BIPM-long
 docnumber: CIPM DECN 104-22 (2015)
 date:
 - type: published
-  value: '2015-03-10'
+  at: '2015-03-10'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2015-03-10'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -113,8 +91,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: decision
+    content: decision
   structuredidentifier:
     docnumber: 104-22

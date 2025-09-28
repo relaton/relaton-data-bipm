@@ -1,132 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia263205
-title:
-- content: Determination of the Manganese K-shell Fluorescence Yield from the<sup>55</sup>Fe
-    Decay
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/3/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/3/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 3 205
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Determination of the Manganese K-shell Fluorescence Yield from the <sup>55</sup>Fe
+    Decay
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/3/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/3/007
+docidentifier:
+- content: Metrologia 26 3 205
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/3/007
+- content: 10.1088/0026-1394/26/3/007
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A A Konstantinov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T E Sazonova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S V Sepman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E A Frolov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>The manganese K-shell fluorescence yield (ω<sub>K</sub>) in the<sup>55</sup>Fe
-    decay for two thermally evaporated sources was measured using absolute measurement
-    methods for the activity and the K X-ray emission rate with the national primary
-    standard at VNIIM.</p><p>The mean value obtained is ω<sub>K</sub> = 0.312 ± 0.003
-    which agrees with a semiempirical value of ω<sub>K</sub> = 0.314 ± 0.023 within
-    the limits of measurement uncertainty.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The manganese K-shell fluorescence yield (ω<sub>K</sub>) in the <sup>55</sup>Fe decay for two thermally evaporated sources was measured using absolute measurement methods for the activity and the K X-ray emission rate with the national primary standard at VNIIM.</p>
+    <p>The mean value obtained is ω<sub>K</sub> = 0.312 ± 0.003 which agrees with a semiempirical value of ω<sub>K</sub> = 0.314 ± 0.023 within the limits of measurement uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determination of the Manganese K-shell Fluorescence Yield from the<sup>55</sup>Fe
-        Decay
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Determination of the Manganese K-shell Fluorescence Yield from the
+        <sup>55</sup>Fe Decay
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +116,6 @@ extent:
     reference_from: '205'
     reference_to: '206'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

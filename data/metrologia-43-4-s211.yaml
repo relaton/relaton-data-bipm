@@ -1,98 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S211
-title:
-- content: Principles of probability and statistics for metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S211
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Principles of probability and statistics for metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S07
+docidentifier:
+- content: Metrologia 43 4 S211
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S07
+- content: 10.1088/0026-1394/43/4/S07
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Industrial Research Ltd, PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>The sciences of probability and statistics involve the practitioner
+- language: en
+  script:
+  - Latn
+  content: "<p>The sciences of probability and statistics involve the practitioner
     in a kind of thinking that promotes good decision-making. This article describes
     principles of probability and statistics that underlie such thinking in metrology,
     particularly in the analysis of uncertainties and interlaboratory comparisons.
     These principles are applicable whatever reasonable understanding of probability
     is held.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Principles of probability and statistics for metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Principles of probability and statistics for metrology
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Principles of probability and statistics for metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Principles of probability and statistics for metrology
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +88,6 @@ extent:
     reference_from: S211
     reference_to: S219
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

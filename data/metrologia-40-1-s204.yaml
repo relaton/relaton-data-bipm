@@ -1,116 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S204
-title:
-- content: Radiation pattern from a double slit illuminated by parametric fluorescence
-    light
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/347
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/347
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S204
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiation pattern from a double slit illuminated by parametric fluorescence
+    light
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/347
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/347
+docidentifier:
+- content: Metrologia 40 1 S204
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/347
+- content: 10.1088/0026-1394/40/1/347
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giorgio Brida
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale, strada della Cacce 91, 10135
             Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Carlo Novero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale, strada della Cacce 91, 10135
             Torino, Italy
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>This paper reports on the interference and diffraction effects produced
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper reports on the interference and diffraction effects produced
     by a double slit illuminated with parametric fluorescence light. We have evaluated,
     in a one-dimensional frame, the single and joint photon detection probability
     per unit of area, with respect to the position of a couple of detectors, far from
     the slits, in the so-called Fraunhofer region.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiation pattern from a double slit illuminated by parametric fluorescence
+    - language: en
+      script: Latn
+      content: Radiation pattern from a double slit illuminated by parametric fluorescence
         light
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiation pattern from a double slit illuminated by parametric fluorescence
+    - language: en
+      script: Latn
+      content: Radiation pattern from a double slit illuminated by parametric fluorescence
         light
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +104,6 @@ extent:
     reference_from: S204
     reference_to: S207
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia44173
-title:
-- content: On the uncertainty of the mean of digitized measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1 73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the uncertainty of the mean of digitized measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1/011
+docidentifier:
+- content: Metrologia 44 1 73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1/011
+- content: 10.1088/0026-1394/44/1/011
   type: doi
 date:
 - type: published
-  value: '2007-01-16'
+  at: '2007-01-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Industrial Research Ltd, PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2007-01-16'
 abstract:
-- content: "<p>Two equations relating to the effect of finite resolution on the uncertainty
+- language: en
+  script:
+  - Latn
+  content: "<p>Two equations relating to the effect of finite resolution on the uncertainty
     of a sample mean give the impression of being contradictory. One suggests that
     knowing the data to be digitized increases uncertainty while the other might be
     thought to imply the opposite. This issue is clarified and relevant concepts are
@@ -53,53 +49,42 @@ abstract:
     are equal and to exhibit anomalous behaviour in certain other circumstances. One
     of the appendices describes an estimator that has smaller mean-square error than
     the sample mean when averaging over the set of measurement problems of this type.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the uncertainty of the mean of digitized measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the uncertainty of the mean of digitized measurements
     date:
     - type: epub
-      value: '2007-01-16'
+      at: '2007-01-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the uncertainty of the mean of digitized measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the uncertainty of the mean of digitized measurements
     date:
     - type: ppub
-      value: '2007-02-01'
+      at: '2007-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +95,6 @@ extent:
     reference_from: '73'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

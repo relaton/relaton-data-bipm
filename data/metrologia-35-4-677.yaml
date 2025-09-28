@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354677
-title:
-- content: SSBUV sensitivity drift determined using solar spectral irradiance measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/77
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/77
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 677
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SSBUV sensitivity drift determined using solar spectral irradiance measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/77
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/77
+docidentifier:
+- content: Metrologia 35 4 677
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/77
+- content: 10.1088/0026-1394/35/4/77
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Cebula
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L K Huang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Hilsenrath
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The Shuttle Solar Backscatter Ultraviolet (SSBUV) experiment flew eight
+- language: en
+  script:
+  - Latn
+  content: "<p>The Shuttle Solar Backscatter Ultraviolet (SSBUV) experiment flew eight
     Space Shuttle missions between 1989 and 1996, in order to maintain and validate
     the calibrations of a number of satellite-borne ozone-monitoring instruments.
     The SSBUV sensitivity drifted during each mission. Reversible drifts resulted
@@ -89,40 +81,32 @@ abstract:
     It is shown that the application of this technique reduces the uncertainty in
     the SSBUV solar measurements associated with radiometric sensitivity drifts to
     approximately 1% at 200 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: SSBUV sensitivity drift determined using solar spectral irradiance
+    - language: en
+      script: Latn
+      content: SSBUV sensitivity drift determined using solar spectral irradiance
         measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +117,6 @@ extent:
     reference_from: '677'
     reference_to: '683'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

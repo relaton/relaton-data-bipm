@@ -1,53 +1,47 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S270
-title:
-- content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
-    and timescale formation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/307
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/307
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S270
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
+    and timescale formation'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/307
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/307
+docidentifier:
+- content: Metrologia 40 3 S270
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/307
+- content: 10.1088/0026-1394/40/3/307
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ray
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Senior
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>The development within the International GPS Service (IGS) of a suite
+- language: en
+  script:
+  - Latn
+  content: "<p>The development within the International GPS Service (IGS) of a suite
     of clock products, for both satellites and tracking receivers, offers some experiences
     which mirror the operations of the Bureau International des Poids et Mesures (BIPM)
     in its formation of TAI/UTC but some aspects differ markedly. The IGS relies exclusively
@@ -84,55 +78,44 @@ abstract:
     in progress. In major ways, the experiences of this joint effort can serve as
     a useful model for future distributed timing systems, for example, Galileo and
     other GNSS operations.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
+    - language: en
+      script: Latn
+      content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
         and timescale formation'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
+    - language: en
+      script: Latn
+      content: 'IGS/BIPM pilot project: GPS carrier phase for time/frequency transfer
         and timescale formation'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -143,6 +126,6 @@ extent:
     reference_from: S270
     reference_to: S288
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

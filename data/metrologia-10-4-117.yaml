@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia104117
-title:
-- content: The Utilization of Solid Objects as Reference Standards in Density Measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 4 117
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Utilization of Solid Objects as Reference Standards in Density Measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/4/001
+docidentifier:
+- content: Metrologia 10 4 117
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/4/001
+- content: 10.1088/0026-1394/10/4/001
   type: doi
 date:
 - type: published
-  value: '1974-10-01'
+  at: '1974-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H A Bowman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R M Schoonover
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C L Carroll
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
-  - type: author
-revdate: '1974-10-01'
 abstract:
-- content: "<p>NBS has measured the densities of four single crystal silicon objects
+- language: en
+  script:
+  - Latn
+  content: "<p>NBS has measured the densities of four single crystal silicon objects
     to a standard deviation of 0.26 ppm with a systematic error of 0.7 ppm. These
     objects will be used as working standards to which density work in the United
     States will be referred. A redundant hydrostatic comparison test involving two
@@ -76,40 +68,32 @@ abstract:
     propagation of the density information contained in these crystals into other
     objects which may be used as standards by other laboratories. This article describes
     a method of employing this redundant comparison procedure.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Utilization of Solid Objects as Reference Standards in Density
+    - language: en
+      script: Latn
+      content: The Utilization of Solid Objects as Reference Standards in Density
         Measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1974-10-01'
+      at: '1974-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +104,6 @@ extent:
     reference_from: '117'
     reference_to: '121'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

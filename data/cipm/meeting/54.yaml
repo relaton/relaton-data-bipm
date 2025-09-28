@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1965-54
-title:
-- content: 54th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 54<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/54-1965
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/54-1965
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/75002747/CIPM1965.pdf/a27e95ba-a016-c193-6443-38e80f98677d
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-54.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-54.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 54th Meeting (1965)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 54th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 54<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/54-1965
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/54-1965
+- type: pdf
+  content: https://www.bipm.org/documents/20126/75002747/CIPM1965.pdf/a27e95ba-a016-c193-6443-38e80f98677d
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-54.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-54.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 54th Meeting (1965)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 54<sup>e</sup> réunion (1965)
+  content: CIPM 54<sup>e</sup> réunion (1965)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 54th Meeting (1965) / CIPM 54<sup>e</sup> réunion (1965)
+- content: CIPM 54th Meeting (1965) / CIPM 54<sup>e</sup> réunion (1965)
   type: BIPM
   primary: true
 docnumber: CIPM 54th Meeting (1965)
 date:
 - type: published
-  value: '1965-10-08'
+  at: '1965-10-08'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1965-10-08'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '54'

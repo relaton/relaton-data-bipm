@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354663
-title:
-- content: Sensitivity of Total Ozone Mapping Spectrometer products to diffuse reflectance
-    measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/75
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/75
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 663
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Sensitivity of Total Ozone Mapping Spectrometer products to diffuse reflectance
+    measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/75
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/75
+docidentifier:
+- content: Metrologia 35 4 663
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/75
+- content: 10.1088/0026-1394/35/4/75
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Jaross
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Krueger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Wellemeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Raytheon STX Co., NASA-GSFC
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>Total column ozone (O<sub>3</sub>) amount and an aerosol index are
+- language: en
+  script:
+  - Latn
+  content: "<p>Total column ozone (O<sub>3</sub>) amount and an aerosol index are
     among the geophysical properties currently retrieved from Total Ozone Mapping
     Spectrometer (TOMS) measurements. The accuracy with which each is retrieved depends
     in part on the characterization of diffuser plates used in the pre-launch instrument
@@ -84,40 +76,32 @@ abstract:
     We also examine TOMS diffuser measurements made at the Goddard Space Flight Center
     (GSFC) in an attempt to evaluate existing diffuser uncertainty components for
     O<sub>3</sub> and aerosol retrievals.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sensitivity of Total Ozone Mapping Spectrometer products to diffuse
+    - language: en
+      script: Latn
+      content: Sensitivity of Total Ozone Mapping Spectrometer products to diffuse
         reflectance measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +112,6 @@ extent:
     reference_from: '663'
     reference_to: '668'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

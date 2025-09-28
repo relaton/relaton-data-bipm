@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia22275
-title:
-- content: Establishment of a Spectral Irradiance Scale in the Visible and Near Infrared
-    Using the Electron Storage Ring BESSY
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 2 75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Establishment of a Spectral Irradiance Scale in the Visible and Near Infrared
+    Using the Electron Storage Ring BESSY
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/2/002
+docidentifier:
+- content: Metrologia 22 2 75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/2/002
+- content: 10.1088/0026-1394/22/2/002
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Riehle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Institut Berlin, Abbestraße
             2-12, D-1000 Berlin 10, Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Wende
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Institut Berlin, Abbestraße
             2-12, D-1000 Berlin 10, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>The electron storage ring BESSY was investigated for use as a primary
+- language: en
+  script:
+  - Latn
+  content: "<p>The electron storage ring BESSY was investigated for use as a primary
     standard of spectral irradiance at wavelengths between 400 nm and 1000 nm. A method
     was devised to transfer the spectral irradiance scale realized on to tungsten
     halogen lamps by means of a radiometer that measured either the spectral irradiance
@@ -73,40 +67,32 @@ abstract:
     0.1% can be achieved if it seems worthwhile. Also, the uncertainty in the calibration
     of the spectral irradiance of tungsten halogen lamps could be reduced below 0.5%
     if desired.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Establishment of a Spectral Irradiance Scale in the Visible and Near
+    - language: en
+      script: Latn
+      content: Establishment of a Spectral Irradiance Scale in the Visible and Near
         Infrared Using the Electron Storage Ring BESSY
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '75'
     reference_to: '85'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

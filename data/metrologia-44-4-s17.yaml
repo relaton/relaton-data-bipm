@@ -1,98 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S17
-title:
-- content: Methods for primary standardization of activity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Methods for primary standardization of activity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S03
+docidentifier:
+- content: Metrologia 44 4 S17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S03
+- content: 10.1088/0026-1394/44/4/S03
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stefaan Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: European Commission, Joint Research Centre, Institute for Reference
             Materials and Measurements, Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>A succinct overview is presented of primary standardization methods
+- language: en
+  script:
+  - Latn
+  content: "<p>A succinct overview is presented of primary standardization methods
     for activity. They have been subdivided into high-geometry (4π or 2π) methods,
     defined-solid-angle counting methods and coincidence counting methods. References
     are provided of work explaining the basics of the methods as well as papers describing
     recent developments and applications.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Methods for primary standardization of activity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Methods for primary standardization of activity
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Methods for primary standardization of activity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Methods for primary standardization of activity
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +88,6 @@ extent:
     reference_from: S17
     reference_to: S26
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

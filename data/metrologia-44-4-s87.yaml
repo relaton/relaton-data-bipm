@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S87
-title:
-- content: Low-level gamma-ray spectrometry using Ge-detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S12
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Low-level gamma-ray spectrometry using Ge-detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S12
+docidentifier:
+- content: Metrologia 44 4 S87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S12
+- content: 10.1088/0026-1394/44/4/S12
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mikael Hult
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: EC-JRC-IRMM (Institute for Reference Materials and Measurements),
             Retieseweg 111, 2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The technological advances that have taken place during the past 45
+- language: en
+  script:
+  - Latn
+  content: "<p>The technological advances that have taken place during the past 45
     years in the fabrication of high purity germanium crystals have had a significant
     impact on low-level gamma-ray spectrometry. Today, Ge-detectors with high purity
     Ge-crystals of 2 kg are readily available and detectors with crystals up to 5 kg
@@ -52,53 +48,42 @@ abstract:
     components in gamma-ray spectrometry systems. This paper deals with the major
     technical factors affecting the performance of low-background HPGe-detectors and
     provides an overview of the major areas of application.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-level gamma-ray spectrometry using Ge-detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-level gamma-ray spectrometry using Ge-detectors
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-level gamma-ray spectrometry using Ge-detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-level gamma-ray spectrometry using Ge-detectors
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: S87
     reference_to: S94
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

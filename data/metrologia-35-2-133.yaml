@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia352133
-title:
-- content: Measurement of the refractive index of air and comparison with modified
-    Edlén's formulae
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/35/2/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/2/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 2 133
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the refractive index of air and comparison with modified
+    Edlén's formulae
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/2/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/2/8
+docidentifier:
+- content: Metrologia 35 2 133
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/2/8
+- content: 10.1088/0026-1394/35/2/8
   type: doi
 date:
 - type: published
-  value: '1998-04-01'
+  at: '1998-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bönsch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Potulski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1998-04-01'
 abstract:
-- content: "<p>An air refractometer has been developed for accurate measurements of
+- language: en
+  script:
+  - Latn
+  content: "<p>An air refractometer has been developed for accurate measurements of
     the refractive index of gases under well-defined conditions. Measurements have
     been performed for dry and moist air at four wavelengths distributed over the
     visible part of the spectrum. The measured values have been compared with values
@@ -66,40 +60,32 @@ abstract:
     of fitting. For 50 % relative humidity, a standard uncertainty of 10<sup>-8</sup>
     for the fitted formulae is claimed, arising mainly from the uncertainty contributions
     of the air parameters.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the refractive index of air and comparison with modified
+    - language: en
+      script: Latn
+      content: Measurement of the refractive index of air and comparison with modified
         Edlén's formulae
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1998-04-01'
+      at: '1998-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '133'
     reference_to: '139'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

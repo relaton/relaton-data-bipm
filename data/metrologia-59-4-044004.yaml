@@ -1,147 +1,125 @@
 ---
-schema-version: v1.2.9
-id: Metrologia594044004
-title:
-- content: A digital framework for realising the SI—a proposal for the metre
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac7fce
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac7fce
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 4 044004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A digital framework for realising the SI—a proposal for the metre
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac7fce
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac7fce
+docidentifier:
+- content: Metrologia 59 4 044004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac7fce
+- content: 10.1088/1681-7575/ac7fce
   type: doi
 date:
 - type: published
-  value: '2022-08-01'
+  at: '2022-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew J Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew Yacoot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martin J T Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew J Lancaster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2022-08-01'
 abstract:
-- content: Abstract<p>A current focus of the international metrology community is
-    the digitalisation of documents, certificates and services in response to initiatives
-    underway throughout industry and to the requirement to follow the principles of
-    data being Findable, Accessible, Interoperable, and Reusable. We propose the key
-    elements of a digital framework for the SI metre, at the point of realisation,
-    showing how it may be implemented in practice. We give examples of direct benefits
-    of this approach, which may be extended to other SI units.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A current focus of the international metrology community is the digitalisation of documents, certificates and services in response to initiatives underway throughout industry and to the requirement to follow the principles of data being Findable, Accessible, Interoperable, and Reusable. We propose the key elements of a digital framework for the SI metre, at the point of realisation, showing how it may be implemented in practice. We give examples of direct benefits of this approach, which may be extended to other SI units.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A digital framework for realising the SI—a proposal for the metre
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A digital framework for realising the SI—a proposal for the metre
     date:
     - type: ppub
-      value: '2022-08-01'
+      at: '2022-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A digital framework for realising the SI—a proposal for the metre
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A digital framework for realising the SI—a proposal for the metre
     date:
     - type: epub
-      value: '2022-08-19'
+      at: '2022-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +127,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

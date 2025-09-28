@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223209
-title:
-- content: Realization of the SI Unit Volt by Means of a Voltage Balance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 209
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the SI Unit Volt by Means of a Voltage Balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/018
+docidentifier:
+- content: Metrologia 22 3 209
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/018
+- content: 10.1088/0026-1394/22/3/018
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Sienknecht
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Funck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>A description is given of the measuring system set up at the PTB for
-    the realization of the SI volt and the determination of the conversion factor
-    K<sub>v</sub> by means of a voltage balance. The voltage balance comprises two
-    cylindrical electrodes to generate the electrostatic force from the measuring
-    voltage of 10.186 kV, and a substitution balance to measure the force by comparison
-    with the force due to gravity acting on a 2 g mass. To achieve force equilibrium
-    a small variable voltage is added to the constant measuring voltage. The measuring
-    voltage is generated in a two-stage 1000-fold step-up and linked up with the asmaintained
-    volt by using a transfer standard consisting of 10 saturated standard cells connected
-    in series. The total relative uncertainty of K<sub>v</sub> is expected to be less
-    than 4 parts in 10<sup>7</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A description is given of the measuring system set up at the PTB for
+    the realization of the SI volt and the determination of the conversion factor
+    <italic>K</italic><sub>v</sub> by means of a voltage balance. The voltage balance
+    comprises two cylindrical electrodes to generate the electrostatic force from
+    the measuring voltage of 10.186 kV, and a substitution balance to measure the
+    force by comparison with the force due to gravity acting on a 2 g mass. To achieve
+    force equilibrium a small variable voltage is added to the constant measuring
+    voltage. The measuring voltage is generated in a two-stage 1000-fold step-up and
+    linked up with the asmaintained volt by using a transfer standard consisting of
+    10 saturated standard cells connected in series. The total relative uncertainty
+    of <italic>K</italic><sub>v</sub> is expected to be less than 4 parts in 10<sup>7</sup>.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the SI Unit Volt by Means of a Voltage Balance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the SI Unit Volt by Means of a Voltage Balance
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '209'
     reference_to: '212'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,195 +1,156 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361384
-title:
-- content: Traceable measurements of the electrical parameters of solid-state lighting
-    products
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1384
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1384
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1384
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Traceable measurements of the electrical parameters of solid-state lighting
+    products
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1384
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1384
+docidentifier:
+- content: Metrologia 53 6 1384
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1384
+- content: 10.1088/0026-1394/53/6/1384
   type: doi
 date:
 - type: published
-  value: '2016-11-21'
+  at: '2016-11-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Zhao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL, Dutch Metrology Institute
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rietveld
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL, Dutch Metrology Institute
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-P Braun
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Overney
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Lippert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Mads Clausens Vej 12, 8600 Silkeborg, Denmark
         name:
         - content: Trescal A/S
-        contact:
-        - address:
-            formatted_address: Mads Clausens Vej 12, 8600 Silkeborg, Denmark
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Christensen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Mads Clausens Vej 12, 8600 Silkeborg, Denmark
         name:
         - content: Trescal A/S
-        contact:
-        - address:
-            formatted_address: Mads Clausens Vej 12, 8600 Silkeborg, Denmark
-  role:
-  - type: author
-revdate: '2016-11-21'
 abstract:
-- content: Abstract<p>In order to perform traceable measurements of the electrical
-    parameters of solid-state lighting (SSL) products, it is necessary to technically
-    adequately define the measurement procedures and to identify the relevant uncertainty
-    sources. The present published written standard for SSL products specifies test
-    conditions, but it lacks an explanation of how adequate these test conditions
-    are. More specifically, both an identification of uncertainty sources and a quantitative
-    uncertainty analysis are absent. This paper fills the related gap in the present
-    written standard. New uncertainty sources with respect to conventional lighting
-    sources are determined and their effects are quantified. It shows that for power
-    measurements, the main uncertainty sources are temperature deviation, power supply
-    voltage distortion, and instability of the SSL product. For current RMS measurements,
-    the influence of bandwidth, shunt resistor, power supply source impedance and
-    ac frequency flatness are significant as well. The measurement uncertainty depends
-    not only on the test equipment but is also a function of the characteristics of
-    the device under test (DUT), for example, current harmonics spectrum and input
-    impedance. Therefore, an online calculation tool is provided to help non-electrical
-    experts. Following our procedures, unrealistic uncertainty estimations, unnecessary
-    procedures and expensive equipment can be prevented.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In order to perform traceable measurements of the electrical parameters of solid-state lighting (SSL) products, it is necessary to technically adequately define the measurement procedures and to identify the relevant uncertainty sources. The present published written standard for SSL products specifies test conditions, but it lacks an explanation of how adequate these test conditions are. More specifically, both an identification of uncertainty sources and a quantitative uncertainty analysis are absent. This paper fills the related gap in the present written standard. New uncertainty sources with respect to conventional lighting sources are determined and their effects are quantified. It shows that for power measurements, the main uncertainty sources are temperature deviation, power supply voltage distortion, and instability of the SSL product. For current RMS measurements, the influence of bandwidth, shunt resistor, power supply source impedance and ac frequency flatness are significant as well. The measurement uncertainty depends not only on the test equipment but is also a function of the characteristics of the device under test (DUT), for example, current harmonics spectrum and input impedance. Therefore, an online calculation tool is provided to help non-electrical experts. Following our procedures, unrealistic uncertainty estimations, unnecessary procedures and expensive equipment can be prevented.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable measurements of the electrical parameters of solid-state
+    - script: Latn
+      content: Traceable measurements of the electrical parameters of solid-state
         lighting products
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable measurements of the electrical parameters of solid-state
+    - script: Latn
+      content: Traceable measurements of the electrical parameters of solid-state
         lighting products
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-11-21'
+      at: '2016-11-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -200,6 +161,6 @@ extent:
     reference_from: '1384'
     reference_to: '1394'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

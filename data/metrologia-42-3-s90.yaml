@@ -1,99 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S90
-title:
-- content: Fifty years of commercial caesium clocks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S10
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S90
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fifty years of commercial caesium clocks
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S10
+docidentifier:
+- content: Metrologia 42 3 S90
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S10
+- content: 10.1088/0026-1394/42/3/S10
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Leonard S Cutler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Agilent Laboratories, 3500 Deer Creek Road, Palo Alto, CA 94304,
             USA
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>The first commercial caesium-beam clock was the Atomichron, developed
+- language: en
+  script:
+  - Latn
+  content: "<p>The first commercial caesium-beam clock was the Atomichron, developed
     by National Company. The first unit was delivered in 1956. This paper first presents
     a brief history of commercial caesium-beam clocks. It then covers many of the
     sources of frequency error and frequency instability. Some details of the technical
     design of the caesium-tube and electronics are presented. Finally, we present
     some possible directions for future commercial caesium clocks.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fifty years of commercial caesium clocks
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Fifty years of commercial caesium clocks
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fifty years of commercial caesium clocks
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Fifty years of commercial caesium clocks
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +89,6 @@ extent:
     reference_from: S90
     reference_to: S99
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

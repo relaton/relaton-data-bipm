@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27283
-title:
-- content: Comparison of Resistance Versus Thermodynamic Temperature of Platinum Resistance
-    Thermometers with the ITS-90
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/2/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 2 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of Resistance Versus Thermodynamic Temperature of Platinum Resistance
+    Thermometers with the ITS-90
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/2/006
+docidentifier:
+- content: Metrologia 27 2 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/2/006
+- content: 10.1088/0026-1394/27/2/006
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J J Connolly
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics. National Measurement Laboratory,
             Lindfield, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T P Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics. National Measurement Laboratory,
             Lindfield, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tapping
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics. National Measurement Laboratory,
             Lindfield, Australia 2070
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Data relating the resistance of high temperature platinum resistance
+- language: en
+  script:
+  - Latn
+  content: "<p>Data relating the resistance of high temperature platinum resistance
     thermometers with thermodynamic temperatures, which were independent from those
     used to derive ITS-90, have been compared with ITS-90. Within the accuracy of
     the photoelectric pyrometry involved, ±0,40°C at the freezing point of silver,
@@ -82,40 +74,32 @@ abstract:
     thermometers at the triple point of water, were equivalent to ±0,015°C at the
     freezing point of silver, whilst, in this period, the drifts in the measured values
     of the resistance ratio at the freezing point of silver were equivalent to 0,03°C.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of Resistance Versus Thermodynamic Temperature of Platinum
+    - language: en
+      script: Latn
+      content: Comparison of Resistance Versus Thermodynamic Temperature of Platinum
         Resistance Thermometers with the ITS-90
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '83'
     reference_to: '88'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

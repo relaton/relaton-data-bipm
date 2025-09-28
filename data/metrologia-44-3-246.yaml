@@ -1,108 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia443246
-title:
-- content: Uncertainty propagation in non-linear measurement equations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/3/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/3/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 3 246
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Uncertainty propagation in non-linear measurement equations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/3/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/3/012
+docidentifier:
+- content: Metrologia 44 3 246
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/3/012
+- content: 10.1088/0026-1394/44/3/012
   type: doi
 date:
 - type: published
-  value: '2007-05-24'
+  at: '2007-05-24'
 contributor:
-- person:
-    name:
-      completename:
-        content: Giovanni Mana
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
+        content: Giovanni Mana
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
         content: Francesca Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, Str. delle Cacce 91,
             Torino 10135, Italy
-  role:
-  - type: author
-revdate: '2007-05-24'
 abstract:
-- content: "<p>When non-linearity is significant, the determination of the combined
+- language: en
+  script:
+  - Latn
+  content: "<p>When non-linearity is significant, the determination of the combined
     standard uncertainty requires that at least third order terms are retained in
     the Taylor approximation of the measurement equation. Hence, if the input variables
     follow a multivariate normal distribution, approximate expressions exist for the
     mean and combined uncertainty of the estimator.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation in non-linear measurement equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty propagation in non-linear measurement equations
     date:
     - type: epub
-      value: '2007-05-24'
+      at: '2007-05-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty propagation in non-linear measurement equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Uncertainty propagation in non-linear measurement equations
     date:
     - type: ppub
-      value: '2007-06-01'
+      at: '2007-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +96,6 @@ extent:
     reference_from: '246'
     reference_to: '251'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

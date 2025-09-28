@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia113125
-title:
-- content: Effects of Dissolved Oxygen and Freezing Techniques on the Silver Freezing
-    Point
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 3 125
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Effects of Dissolved Oxygen and Freezing Techniques on the Silver Freezing
+    Point
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/3/005
+docidentifier:
+- content: Metrologia 11 3 125
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/3/005
+- content: 10.1088/0026-1394/11/3/005
   type: doi
 date:
 - type: published
-  value: '1975-07-01'
+  at: '1975-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bongiovanni
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Crovini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Marcarino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G. Colonnetti", Turin, Italy
-  role:
-  - type: author
-revdate: '1975-07-01'
 abstract:
-- content: "<p>The freezing point of silver is being considered as a joining point
+- language: en
+  script:
+  - Latn
+  content: "<p>The freezing point of silver is being considered as a joining point
     between platinum resistance thermometry and optical pyrometry. Therefore the freezing
     points of high purity samples of silver have been investigated. An important impurity
     effect arises from the depression of the freezing point of pure Ag caused by residual
@@ -83,40 +75,32 @@ abstract:
     of oxygen, but is not sufficient for purifying heavily oxided samples; such samples
     require a vacuum treatment at about 1050° C. The pressure effect on the freezing
     temperature of silver has been determined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effects of Dissolved Oxygen and Freezing Techniques on the Silver Freezing
+    - language: en
+      script: Latn
+      content: Effects of Dissolved Oxygen and Freezing Techniques on the Silver Freezing
         Point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1975-07-01'
+      at: '1975-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +111,6 @@ extent:
     reference_from: '125'
     reference_to: '132'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

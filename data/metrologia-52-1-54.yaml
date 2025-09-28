@@ -1,109 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia52154
-title:
-- content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/54
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/54
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 54
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/54
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/54
+docidentifier:
+- content: Metrologia 52 1 54
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/54
+- content: 10.1088/0026-1394/52/1/54
   type: doi
 date:
 - type: published
-  value: '2015-01-02'
+  at: '2015-01-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: National Research Council, 1200 Montreal Road, M-36,
+            Ottawa,  K1A 0R6, Canada
         name:
         - content: Institute for National Measurement Standards
-        contact:
-        - address:
-            formatted_address: National Research Council, 1200 Montreal Road, M-36,
-              Ottawa,  K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2015-01-02'
 abstract:
-- content: Abstract<p>Four platinum resistance thermometer data sets of resistance
-    ratio as a function of temperature from 13.8033 K to 273.16 K are fitted to two
-    different functions. One has the form of the ITS-90 reference function (the ‘Kemp
-    model’) while the second is the mathematically more complex model of Nicholas.
-    Both are shown to fit the resistivity data well, though the residuals for the
-    Kemp model are lower. Both models also cope well with adjustments to the input
-    temperatures consistent with the most recent consensus estimates of T–T<sub>90</sub>.
-    In particular, the refitting of the data on which the low-temperature reference
-    function of the ITS-90 is based to the Kemp functional form provides updated coefficients
-    that could be part of a revised International Temperature Scale, or incorporated
-    into the Mise en pratique for the kelvin. The residuals of both the Kemp and Nicholas
-    models have similar magnitudes whether fitting either the original (W, T<sub>90</sub>)
-    data pairs or the (W, T) data pairs obtained by adjusting the temperatures to
-    incorporate the recent estimates of (T–T<sub>90</sub>). On that basis, there appears
-    to be no evidence to suggest that either of the models is useful as an arbiter
-    of thermodynamic temperature data—a reduction in the magnitude of the residuals
-    might have been expected after revising the temperatures of the data pairs for
-    better accord with thermodynamic temperature if a discriminating model function
-    had such predictive ability.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Four platinum resistance thermometer data sets of resistance ratio as a function of temperature from 13.8033 K to 273.16 K are fitted to two different functions. One has the form of the ITS-90 reference function (the ‘Kemp model’) while the second is the mathematically more complex model of Nicholas. Both are shown to fit the resistivity data well, though the residuals for the Kemp model are lower. Both models also cope well with adjustments to the input temperatures consistent with the most recent consensus estimates of <italic>T</italic>–<italic>T</italic><sub>90</sub>. In particular, the refitting of the data on which the low-temperature reference function of the ITS-90 is based to the Kemp functional form provides updated coefficients that could be part of a revised International Temperature Scale, or incorporated into the <italic>Mise en pratique</italic> for the kelvin. The residuals of both the Kemp and Nicholas models have similar magnitudes whether fitting either the original (<italic>W</italic>, <italic>T</italic><sub>90</sub>) data pairs or the (<italic>W</italic>, <italic>T</italic>) data pairs obtained by adjusting the temperatures to incorporate the recent estimates of (<italic>T</italic>–<italic>T</italic><sub>90</sub>). On that basis, there appears to be no evidence to suggest that either of the models is useful as an arbiter of thermodynamic temperature data—a reduction in the magnitude of the residuals might have been expected after revising the temperatures of the data pairs for better accord with thermodynamic temperature if a discriminating model function had such predictive ability.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Platinum resistivity below 273.16 K: a tale of two reference functions'
     date:
     - type: epub
-      value: '2015-01-02'
+      at: '2015-01-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +89,6 @@ extent:
     reference_from: '54'
     reference_to: '61'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

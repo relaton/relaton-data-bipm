@@ -1,156 +1,159 @@
 ---
-schema-version: v1.2.9
-id: Metrologia601015007
-title:
-- content: Improved absolute frequency measurement of the strontium ion clock using
-    a GPS link to the SI second
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aca615
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aca615
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 1 015007
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Improved absolute frequency measurement of the strontium ion clock using
+    a GPS link to the SI second
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aca615
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aca615
+docidentifier:
+- content: Metrologia 60 1 015007
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aca615
+- content: 10.1088/1681-7575/aca615
   type: doi
 date:
 - type: published
-  value: '2022-12-21'
+  at: '2022-12-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bin Jian
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Bernard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marina Gertsvolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pierre Dubé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2022-12-21'
 abstract:
-- content: "Abstract<p>We report on an improved absolute frequency measurement of
-    the \n \n 5s2S1/2\n \n –\n \n 4d2D5/2\n \n optical transition of a single trapped
-    strontium ion using a Global Positioning System (GPS) link to the SI second. Compared
-    to our previous measurement, the systematic uncertainty of the optical clock has
-    been reduced from \n \n 1.5×10−17\n \n to \n \n 1.2×10−17. The measurement campaign
-    was performed over a two-week period in June 2017, with a total measurement time
-    of 92 h. The traceability to the SI second through International Atomic Time was
-    achieved through a GPS link using the Precise Point Positioning method. The dead
-    time uncertainty of the link between the optical clock and the maser was evaluated
-    using standard methods based on a model of the maser noise and on the optical
-    frequency measurement uptimes. The measured frequency of the<sup>88</sup>Sr<sup>+</sup>
-    ion \n \n 5s2S1/2\n \n –\n \n 4d2D5/2\n \n transition is \n \n 444779044095485.49(19)\n
-    \n Hz. This result is in excellent agreement with our previous measurements and
-    the uncertainty has been reduced by almost a factor of four, from a fractional
-    frequency uncertainty of \n \n 1.7×10−15\n \n to \n \n 4.3×10−16.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We report on an improved absolute frequency measurement of the <inline-formula>
+                      <tex-math><?CDATA $5s\,^{2}S_{1/2}\,$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>5</mml:mn><mml:msup><mml:mi>s</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mrow><mml:mo>/</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn1.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>–<inline-formula>
+                      <tex-math><?CDATA $\,4d\,^{2}D_{5/2}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>4</mml:mn><mml:msup><mml:mi>d</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mn>5</mml:mn><mml:mrow><mml:mo>/</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn2.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> optical transition of a single trapped strontium ion using a Global Positioning System (GPS) link to the SI second. Compared to our previous measurement, the systematic uncertainty of the optical clock has been reduced from <inline-formula>
+                      <tex-math><?CDATA $1.5\times10^{-17}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>1.5</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>17</mml:mn></mml:mrow></mml:msup></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn3.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> to <inline-formula>
+                      <tex-math><?CDATA $1.2\times10^{-17}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>1.2</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>17</mml:mn></mml:mrow></mml:msup></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn4.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>. The measurement campaign was performed over a two-week period in June 2017, with a total measurement time of 92 h. The traceability to the SI second through International Atomic Time was achieved through a GPS link using the Precise Point Positioning method. The dead time uncertainty of the link between the optical clock and the maser was evaluated using standard methods based on a model of the maser noise and on the optical frequency measurement uptimes. The measured frequency of the <sup>88</sup>Sr<sup>+</sup> ion <inline-formula>
+                      <tex-math><?CDATA $5s\,^{2}S_{1/2}\,$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>5</mml:mn><mml:msup><mml:mi>s</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mrow><mml:mo>/</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn5.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>–<inline-formula>
+                      <tex-math><?CDATA $\,4d\,^{2}D_{5/2}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>4</mml:mn><mml:msup><mml:mi>d</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mn>5</mml:mn><mml:mrow><mml:mo>/</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn6.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> transition is <inline-formula>
+                      <tex-math><?CDATA $444\,779\,044\,095\,485.49(19)$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>444</mml:mn><mml:mn>779</mml:mn><mml:mn>044</mml:mn><mml:mn>095</mml:mn><mml:mn>485.49</mml:mn><mml:mo stretchy="false">(</mml:mo><mml:mn>19</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn7.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> Hz. This result is in excellent agreement with our previous measurements and the uncertainty has been reduced by almost a factor of four, from a fractional frequency uncertainty of <inline-formula>
+                      <tex-math><?CDATA $1.7 \times 10^{-15}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>1.7</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>15</mml:mn></mml:mrow></mml:msup></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn8.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula> to <inline-formula>
+                      <tex-math><?CDATA $4.3\times 10^{-16}$></tex-math>
+                      <mml:math overflow="scroll"><mml:mn>4.3</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>16</mml:mn></mml:mrow></mml:msup></mml:math>
+                      <inline-graphic xlink:href="metaca615ieqn9.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved absolute frequency measurement of the strontium ion clock
+    - script: Latn
+      content: Improved absolute frequency measurement of the strontium ion clock
         using a GPS link to the SI second
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2023-02-01'
+      at: '2023-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved absolute frequency measurement of the strontium ion clock
+    - script: Latn
+      content: Improved absolute frequency measurement of the strontium ion clock
         using a GPS link to the SI second
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-12-21'
+      at: '2022-12-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -158,6 +161,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

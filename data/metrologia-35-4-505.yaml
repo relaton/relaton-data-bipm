@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354505
-title:
-- content: The NIST EOS thermal-infrared transfer radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/51
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/51
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 505
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The NIST EOS thermal-infrared transfer radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/51
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/51
+docidentifier:
+- content: Metrologia 35 4 505
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/51
+- content: 10.1088/0026-1394/35/4/51
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Rice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B C Johnson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A portable thermal-infrared transfer radiometer (TXR) has been developed
+- language: en
+  script:
+  - Latn
+  content: "<p>A portable thermal-infrared transfer radiometer (TXR) has been developed
     for use in comparisons and scale verifications of sources used to calibrate thermal-infrared
     (TIR) channels of the National Aeronautics and Space Administration's (NASA's)
     Earth Observing System (EOS) flight instruments. The TXR is designed to measure
@@ -67,39 +61,31 @@ abstract:
     detector, and the other centred at 10 µm based on a photovoltaic HgCdTe (MCT)
     detector. The spectral, spatial and temporal characterization of the TXR using
     state-of-the-art NIST ambient-infrared instrumentation is reported.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The NIST EOS thermal-infrared transfer radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The NIST EOS thermal-infrared transfer radiometer
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '505'
     reference_to: '509'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

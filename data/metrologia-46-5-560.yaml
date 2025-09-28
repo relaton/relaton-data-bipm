@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465560
-title:
-- content: A primary standard for the calibration of sniffer test leak devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/021
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/021
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 560
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A primary standard for the calibration of sniffer test leak devices
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/021
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/021
+docidentifier:
+- content: Metrologia 46 5 560
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/021
+- content: 10.1088/0026-1394/46/5/021
   type: doi
 date:
 - type: published
-  value: '2009-08-14'
+  at: '2009-08-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Karl Jousten
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestr. 2-12, 10587 Berlin,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ute Becker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestr. 2-12, 10587 Berlin,
             Germany
-  role:
-  - type: author
-revdate: '2009-08-14'
 abstract:
-- content: "<p>Test leaks with a gas flow to atmospheric pressure are often called
+- language: en
+  script:
+  - Latn
+  content: "<p>Test leaks with a gas flow to atmospheric pressure are often called
     sniffer test leaks. They are used to calibrate leak detectors for sniffing applications.
     Sniffer test leaks need calibration against a standard. A primary standard for
     the calibration of sniffer test leaks with relatively low measurement uncertainties
@@ -69,53 +63,42 @@ abstract:
     temperature where the calibration can be carried out may vary from 18 °C to 30 °C.
     The flow rate of any test gas not condensing in this temperature range can be
     measured.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A primary standard for the calibration of sniffer test leak devices
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A primary standard for the calibration of sniffer test leak devices
     date:
     - type: epub
-      value: '2009-08-14'
+      at: '2009-08-14'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A primary standard for the calibration of sniffer test leak devices
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A primary standard for the calibration of sniffer test leak devices
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +109,6 @@ extent:
     reference_from: '560'
     reference_to: '568'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

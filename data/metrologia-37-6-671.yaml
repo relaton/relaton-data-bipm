@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia376671
-title:
-- content: The special name "katal" for the SI derived unit, mole per second, when
-    expressing catalytic activity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/37/6/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/6/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 6 671
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The special name "katal" for the SI derived unit, mole per second, when
+    expressing catalytic activity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/6/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/6/4
+docidentifier:
+- content: Metrologia 37 6 671
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/6/4
+- content: 10.1088/0026-1394/37/6/4
   type: doi
 date:
 - type: published
-  value: '2000-12-01'
+  at: '2000-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Dybkaer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Fredericksberg Hospital Denmark
-  role:
-  - type: author
-revdate: '2000-12-01'
 abstract:
-- content: <p>Measurement of amounts or concentrations of catalysts is of great usefulness
+- language: en
+  script:
+  - Latn
+  content: <p>Measurement of amounts or concentrations of catalysts is of great usefulness
     in science, technology, and especially in the health services. When it is impossible
     or impractical to measure amount of substance or mass of catalyst, its amount
     may be expressed by the catalysed change in a substrate entity as evidenced by
@@ -58,40 +54,32 @@ abstract:
     adopted by the 21st Conférence Générale des Poids et Mesures in 1999, referring
     to human health and safety and promotion of SI units. This decision should improve
     the traceability and comparability of results.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The special name "katal" for the SI derived unit, mole per second,
+    - language: en
+      script: Latn
+      content: The special name "katal" for the SI derived unit, mole per second,
         when expressing catalytic activity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2000-12-01'
+      at: '2000-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +90,6 @@ extent:
     reference_from: '671'
     reference_to: '676'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

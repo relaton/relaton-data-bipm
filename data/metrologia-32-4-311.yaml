@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324311
-title:
-- content: Sans dimension ou de dimension un ?
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 311
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Sans dimension ou de dimension un ?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/8
+docidentifier:
+- content: Metrologia 32 4 311
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/8
+- content: 10.1088/0026-1394/32/4/8
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Giacomo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: <p>Adopting the phrase "quantity of dimension one" instead of "dimensionless
+- language: en
+  script:
+  - Latn
+  content: <p>Adopting the phrase "quantity of dimension one" instead of "dimensionless
     quantity" raises a number of questions. After recalling what underlies the concept
     of dimension, the respective merits and drawbacks of both phrases are reviewed
     and discussed. In conclusion the author would like to have the current phrase
     "dimensionless" maintained.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sans dimension ou de dimension un ?
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/plain
+    - language: fr
+      script: Latn
+      content: Sans dimension ou de dimension un ?
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '311'
     reference_to: '313'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

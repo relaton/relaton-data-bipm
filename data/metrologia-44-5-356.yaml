@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445356
-title:
-- content: 'Modernizing the SI: towards an improved, accessible and enduring system'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 356
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Modernizing the SI: towards an improved, accessible and enduring system'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/012
+docidentifier:
+- content: Metrologia 44 5 356
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/012
+- content: 10.1088/0026-1394/44/5/012
   type: doi
 date:
 - type: published
-  value: '2007-09-21'
+  at: '2007-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martin J T Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jonathan M Williams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seton J Bennett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2007-09-21'
 abstract:
-- content: "<p>Recent proposals to redefine four of the base units of the International
+- language: en
+  script:
+  - Latn
+  content: "<p>Recent proposals to redefine four of the base units of the International
     System (SI) have stimulated some debate as to how the SI might best be developed
     to meet changes in requirements. In this paper we consider whether the proposals
     are a timely and proportionate response to those changes in requirements that
@@ -79,53 +71,42 @@ abstract:
     definitions of the mole and kelvin appear to have some advantages, the case for
     changes in the definitions of the ampere and the kilogram is less well made at
     the present stage of development of the key experiments involved.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Modernizing the SI: towards an improved, accessible and enduring system'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Modernizing the SI: towards an improved, accessible and enduring system'
     date:
     - type: epub
-      value: '2007-09-21'
+      at: '2007-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Modernizing the SI: towards an improved, accessible and enduring system'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Modernizing the SI: towards an improved, accessible and enduring system'
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +117,6 @@ extent:
     reference_from: '356'
     reference_to: '364'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

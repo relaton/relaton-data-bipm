@@ -1,132 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia574045012
-title:
-- content: New apparatus for liquids high-pressure density measurement
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab8d7a
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab8d7a
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 4 045012
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: New apparatus for liquids high-pressure density measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab8d7a
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab8d7a
+docidentifier:
+- content: Metrologia 57 4 045012
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab8d7a
+- content: 10.1088/1681-7575/ab8d7a
   type: doi
 date:
 - type: published
-  value: '2020-07-17'
+  at: '2020-07-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andreia Furtado
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Caparica, Portugal
         name:
         - content: Instituto Português da Qualidade (IPQ)
-        contact:
-        - address:
-            formatted_address: Caparica, Portugal
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Frank Lorenz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Henning Wolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: formerly Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2020-07-17'
 abstract:
-- content: Abstract<p>Nowadays, fast and precise density measurements of fluids are
-    mostly performed using so-called oscillation-type density meters, able to measure
-    in a very wide interval of temperature and pressure. This work aimed to developed,
-    characterized and validated a high-pressure density measurement (HPDM) apparatus
-    ensuring the traceability to SI of density measurements performed with these devices
-    at high pressure (up to 650 bar) with a relative uncertainty of 8.0 × 10<sup>–4</sup>.
-    The developed HPDM apparatus and methodology are found to be suitable to be used
-    for calibration purposes, as recommended by the standard ASTM D7961, fulfilling
-    this existing gap in density traceability chain.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Nowadays, fast and precise density measurements of fluids are mostly performed using so-called oscillation-type density meters, able to measure in a very wide interval of temperature and pressure. This work aimed to developed, characterized and validated a high-pressure density measurement (HPDM) apparatus ensuring the traceability to SI of density measurements performed with these devices at high pressure (up to 650 bar) with a relative uncertainty of 8.0 × 10<sup>–4</sup>. The developed HPDM apparatus and methodology are found to be suitable to be used for calibration purposes, as recommended by the standard ASTM D7961, fulfilling this existing gap in density traceability chain.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New apparatus for liquids high-pressure density measurement
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: New apparatus for liquids high-pressure density measurement
     date:
     - type: ppub
-      value: '2020-08-01'
+      at: '2020-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: New apparatus for liquids high-pressure density measurement
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: New apparatus for liquids high-pressure density measurement
     date:
     - type: epub
-      value: '2020-07-17'
+      at: '2020-07-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +113,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

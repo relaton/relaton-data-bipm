@@ -1,90 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37161
-title:
-- content: Limitations of the Welch-Satterthwaite approximation for measurement uncertainty
-    calculations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 61
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Limitations of the Welch-Satterthwaite approximation for measurement uncertainty
+    calculations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/8
+docidentifier:
+- content: Metrologia 37 1 61
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/8
+- content: 10.1088/0026-1394/37/1/8
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ballico
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: <p>The Welch-Satterthwaite approximation is used to estimate an "effective
+- language: en
+  script:
+  - Latn
+  content: <p>The Welch-Satterthwaite approximation is used to estimate an "effective
     degrees of freedom" for a probability distribution formed from several independent
     normal distributions for which only estimates of the variance are known. The International
-    Organization for Standardization (ISO) Guide to the Expression of Uncertainty
-    in Measurement recommends its use for the calculation of expanded uncertainties
+    Organization for Standardization (ISO) <italic>Guide to the Expression of Uncertainty
+    in Measurement</italic> recommends its use for the calculation of expanded uncertainties
     (the ISO term for confidence intervals) for uncertainties formed from several
     distributions. Although it is well recognized that this formula is an approximation,
     counter-intuitive results may be obtained when a variance estimate of the dominant
     distribution has a small number of degrees of freedom; the calculated confidence
     limits are sometimes found to decrease with increases in the contributing uncertainties.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Limitations of the Welch-Satterthwaite approximation for measurement
+    - language: en
+      script: Latn
+      content: Limitations of the Welch-Satterthwaite approximation for measurement
         uncertainty calculations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '61'
     reference_to: '64'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

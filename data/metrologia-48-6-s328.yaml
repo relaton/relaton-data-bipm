@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S328
-title:
-- content: The neutron cross section standards, evaluations and applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S328
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The neutron cross section standards, evaluations and applications
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S09
+docidentifier:
+- content: Metrologia 48 6 S328
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S09
+- content: 10.1088/0026-1394/48/6/S09
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A D Carlson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, STOP 8463, Gaithersburg,
             MD 20899, USA
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>The measurement of a neutron cross section can be simplified if it
+- language: en
+  script:
+  - Latn
+  content: "<p>The measurement of a neutron cross section can be simplified if it
     is measured relative to a neutron cross section standard. Then it is not necessary
     to measure the neutron fluence. The standards in effect provide determinations
     of the neutron fluence. These standards are not defined standards but instead
@@ -51,55 +47,47 @@ abstract:
     from the first rather primitive one to the latest very sophisticated evaluation
     that was an international cooperative effort. An overview of the main detectors
     used for applications of the standards is given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The neutron cross section standards, evaluations and applications
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The neutron cross section standards, evaluations and applications
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The neutron cross section standards, evaluations and applications
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The neutron cross section standards, evaluations and applications
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +98,6 @@ extent:
     reference_from: S328
     reference_to: S345
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

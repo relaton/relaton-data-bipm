@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia193109
-title:
-- content: The Dynamics of the Double-Pan Beam Balance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 3 109
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Dynamics of the Double-Pan Beam Balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/3/005
+docidentifier:
+- content: Metrologia 19 3 109
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/3/005
+- content: 10.1088/0026-1394/19/3/005
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J F Metherell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Cavendish Laboratory, Madingley Road, Cambridge, CB3 0HE, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C C Speake
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Cavendish Laboratory, Madingley Road, Cambridge, CB3 0HE, UK
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>The dynamical behaviour of the double-pan beam balance is investigated
+- language: en
+  script:
+  - Latn
+  content: "<p>The dynamical behaviour of the double-pan beam balance is investigated
     for the case of free vibration and also for the case of forced vibration of the
     type that is commonly called ground vibration; this being motion which is coupled
     to the balance via its central pivot. Considered first is the case of free vibration
@@ -68,39 +62,31 @@ abstract:
     parametric excitation are also studied. The results of this analysis suggest a
     feedback control of the beam balance which will, if realized in practice, isolate
     it more effectively from ground vibration than has been possible in the past.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Dynamics of the Double-Pan Beam Balance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Dynamics of the Double-Pan Beam Balance
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: '109'
     reference_to: '122'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

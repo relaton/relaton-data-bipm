@@ -1,95 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493L11
-title:
-- content: On the proposed redefinition of the mole
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/L11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/L11
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 L11
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the proposed redefinition of the mole
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/L11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/L11
+docidentifier:
+- content: Metrologia 49 3 L11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/L11
+- content: 10.1088/0026-1394/49/3/L11
   type: doi
 date:
 - type: published
-  value: '2012-03-29'
+  at: '2012-03-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W T Chyla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 22, 00-975 Warszawa 12, Poland
         name:
         - content: Applied Science Enterprise
-        contact:
-        - address:
-            formatted_address: PO Box 22, 00-975 Warszawa 12, Poland
-  role:
-  - type: author
-revdate: '2012-03-29'
 abstract:
-- content: Abstract<p>This letter calls for reconsidering the new definition of the
-    mole, which has been proposed in the draft chapter 2 for the SI Brochure, posted
-    on the BIPM website. It is argued that the list of particles should be deleted
-    from the new definition of the mole. The necessary elements of the definition
-    are summarized and another wording is suggested. Proposals to rename ‘amount of
-    substance’ are briefly discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This letter calls for reconsidering the new definition of the mole, which has been proposed in the draft chapter 2 for the <italic>SI Brochure</italic>, posted on the BIPM website. It is argued that the list of particles should be deleted from the new definition of the mole. The necessary elements of the definition are summarized and another wording is suggested. Proposals to rename ‘amount of substance’ are briefly discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the proposed redefinition of the mole
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the proposed redefinition of the mole
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the proposed redefinition of the mole
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the proposed redefinition of the mole
     date:
     - type: epub
-      value: '2012-03-29'
+      at: '2012-03-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: L11
     reference_to: L13
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

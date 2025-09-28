@@ -1,106 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361306
-title:
-- content: Disseminating the unit of mass from multiple primary realisations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1306
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1306
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1306
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Disseminating the unit of mass from multiple primary realisations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1306
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1306
+docidentifier:
+- content: Metrologia 53 6 1306
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1306
+- content: 10.1088/0026-1394/53/6/1306
   type: doi
 date:
 - type: published
-  value: '2016-11-02'
+  at: '2016-11-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lars Nielsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Matematiktorvet 307, DK-2800 Lyngby, Denmark
         name:
         - content: Danish National Metrology Institute (DFM)
-        contact:
-        - address:
-            formatted_address: Matematiktorvet 307, DK-2800 Lyngby, Denmark
-  role:
-  - type: author
-revdate: '2016-11-02'
 abstract:
-- content: Abstract<p>When a new definition of the kilogram has been adopted in 2018
-    as expected, the unit of mass will be realised by the watt balance method, the
-    x-ray crystal density method or perhaps other primary methods still to be developed.
-    So far, the standard uncertainties associated with the available primary methods
-    are at least one order of magnitude larger than the standard uncertainty associated
-    with mass comparisons using mass comparators, so differences in primary realisations
-    of the kilogram are easily detected, whereas many National Metrology Institutes
-    would have to increase their calibration and measurement capabilities (CMCs) if
-    they were traceable to a single primary realisation. This paper presents a scheme
-    for obtaining traceability to multiple primary realisations of the kilogram using
-    a small group of stainless steel 1 kg weights, which are allowed to change their
-    masses over time in a way known to be realistic, and which are calibrated and
-    stored in air. An analysis of the scheme shows that if the relative standard uncertainties
-    of future primary realisations are equal to the relative standard uncertainties
-    of the present methods used to measure the Planck constant, the unit of mass can
-    be disseminated with a standard uncertainty less than 0.015 mg, which matches
-    the smallest CMCs currently claimed for the calibration of 1 kg weights.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>When a new definition of the kilogram has been adopted in 2018 as expected, the unit of mass will be realised by the watt balance method, the x-ray crystal density method or perhaps other primary methods still to be developed. So far, the standard uncertainties associated with the available primary methods are at least one order of magnitude larger than the standard uncertainty associated with mass comparisons using mass comparators, so differences in primary realisations of the kilogram are easily detected, whereas many National Metrology Institutes would have to increase their calibration and measurement capabilities (CMCs) if they were traceable to a single primary realisation. This paper presents a scheme for obtaining traceability to multiple primary realisations of the kilogram using a small group of stainless steel 1 kg weights, which are allowed to change their masses over time in a way known to be realistic, and which are calibrated and stored in air. An analysis of the scheme shows that if the relative standard uncertainties of future primary realisations are equal to the relative standard uncertainties of the present methods used to measure the Planck constant, the unit of mass can be disseminated with a standard uncertainty less than 0.015 mg, which matches the smallest CMCs currently claimed for the calibration of 1 kg weights.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Disseminating the unit of mass from multiple primary realisations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Disseminating the unit of mass from multiple primary realisations
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Disseminating the unit of mass from multiple primary realisations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Disseminating the unit of mass from multiple primary realisations
     date:
     - type: epub
-      value: '2016-11-02'
+      at: '2016-11-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +88,6 @@ extent:
     reference_from: '1306'
     reference_to: '1316'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

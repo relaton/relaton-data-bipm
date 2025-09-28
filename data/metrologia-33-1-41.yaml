@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia33141
-title:
-- content: Measurements of long gauge blocks using a fringe-counting interferometer
-    and subgauge blocks with lines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/1/6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/1/6
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 1 41
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurements of long gauge blocks using a fringe-counting interferometer
+    and subgauge blocks with lines
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/1/6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/1/6
+docidentifier:
+- content: Metrologia 33 1 41
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/1/6
+- content: 10.1088/0026-1394/33/1/6
   type: doi
 date:
 - type: published
-  value: '1996-02-01'
+  at: '1996-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Matsumoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Fujima
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
-  - type: author
-revdate: '1996-02-01'
 abstract:
-- content: "<p>A new method for measuring long gauge blocks using a fringe-counting
+- language: en
+  script:
+  - Latn
+  content: "<p>A new method for measuring long gauge blocks using a fringe-counting
     interferometer with a 633 nm wavelength-stabilized He-Ne laser is described. Two
     subgauge blocks, which have V-type graduation lines covered with glass plates,
     are optically contacted with both sides of a long gauge block. They are handled
@@ -80,41 +72,34 @@ abstract:
     deviation. A comparison between the lengths of gauge blocks measured by the new
     method and by the conventional excess fractions method is made. The results show
     that the length of gauge blocks up to 1 m can be determined with an expanded uncertainty
-    U = 0,3 µm, corresponding to a level of confidence of about 95 %.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>U</italic> = 0,3 µm, corresponding to a level of confidence of about 95
+    %.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurements of long gauge blocks using a fringe-counting interferometer
+    - language: en
+      script: Latn
+      content: Measurements of long gauge blocks using a fringe-counting interferometer
         and subgauge blocks with lines
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1996-02-01'
+      at: '1996-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +110,6 @@ extent:
     reference_from: '41'
     reference_to: '48'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

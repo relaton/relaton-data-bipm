@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375415
-title:
-- content: Solar Spectral Irradiance Monitor (SIM)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/15
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/15
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 415
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Solar Spectral Irradiance Monitor (SIM)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/15
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/15
+docidentifier:
+- content: Metrologia 37 5 415
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/15
+- content: 10.1088/0026-1394/37/5/15
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Harder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado-LASP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G M Lawrence
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado-LASP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rottman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado-LASP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado-LASP
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The Spectral Irradiance Monitor (SIM) will measure the solar spectral
+- language: en
+  script:
+  - Latn
+  content: "<p>The Spectral Irradiance Monitor (SIM) will measure the solar spectral
     irradiance between 0.2 µm to 2.0 µm to a relative standard uncertainty of 3 ×
     10<sup>−4</sup> (1 s) and with a noise level of &lt;1 × 10<sup>−4</sup>. The instrument
     will be launched in 2002 on the SORCE mission of the Earth Observing System (EOS).
@@ -95,39 +85,31 @@ abstract:
     are under digital signal processor control. The measurement equation and the uncertainty
     budget for the SIM instrument are presented along with plans for the pre-flight
     characterization of the instrument.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar Spectral Irradiance Monitor (SIM)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Solar Spectral Irradiance Monitor (SIM)
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +120,6 @@ extent:
     reference_from: '415'
     reference_to: '418'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

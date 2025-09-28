@@ -1,52 +1,46 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485290
-title:
-- content: Revisiting absolute gravimeter intercomparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 290
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Revisiting absolute gravimeter intercomparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/008
+docidentifier:
+- content: Metrologia 48 5 290
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/008
+- content: 10.1088/0026-1394/48/5/008
   type: doi
 date:
 - type: published
-  value: '2011-08-26'
+  at: '2011-08-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O de Viron
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Paris Diderot, Sorbonne Paris Cité, Institut de Physique
             du Globe de Paris, F-75013 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Van Camp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -56,26 +50,24 @@ contributor:
         name:
         - content: Royal Observatory of Belgium, Brussels, Avenue Circulaire, 3, BE-1180
             Uccle, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Francis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Luxembourg, Faculté des Sciences, de la Technologie
             et de la Communication, 6, rue Richard Coudenhove-Kalergi, L-1359 Luxembourg
-  role:
-  - type: author
-revdate: '2011-08-26'
 abstract:
-- content: "<p>An absolute gravimeter allows us to determine the local value of gravity,
+- language: en
+  script:
+  - Latn
+  content: "<p>An absolute gravimeter allows us to determine the local value of gravity,
     which makes its accuracy assessment challenging. The instrumental offsets are
     classically estimated by performing comparisons of the results obtained by a set
     of instruments measuring at the same location but at different epochs (measuring
@@ -87,55 +79,47 @@ abstract:
     We also propose a new criterion, based on the minimization of the L1 norm of the
     offsets, for fixing the constant of the ill-conditioned problem, which we show
     to be statistically more precise than the one classically used.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revisiting absolute gravimeter intercomparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Revisiting absolute gravimeter intercomparisons
     date:
     - type: epub
-      value: '2011-08-26'
+      at: '2011-08-26'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revisiting absolute gravimeter intercomparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Revisiting absolute gravimeter intercomparisons
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -146,6 +130,6 @@ extent:
     reference_from: '290'
     reference_to: '298'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

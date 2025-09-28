@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia24289
-title:
-- content: The Theory of the Flow in a Converging Channel Applied to Piston-Cylinder
-    Systems of Pressure Balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 2 89
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Theory of the Flow in a Converging Channel Applied to Piston-Cylinder
+    Systems of Pressure Balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/2/005
+docidentifier:
+- content: Metrologia 24 2 89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/2/005
+- content: 10.1088/0026-1394/24/2/005
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Klingenberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: |-
-    <p>Calculation of the pressure dependence of the effective area of pressure balances normally assumes the pressure gradient in the clearance between the piston and cylinder to be constant along the engagement length of the piston which yields a linearly varying clearance between the piston and cylinder. The assumption is not strictly valid.</p><p>In this work, the assumption is avoided by applying the theory of flow in a converging channel to the pressure balance to calculate: (i) The upward force on the flanks of the piston due to fluid friction; (ii)
-    The flow passing through the clearance and (iii) The pressure coefficient for a pressure balance.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Calculation of the pressure dependence of the effective area of pressure balances normally assumes the pressure gradient in the clearance between the piston and cylinder to be constant along the engagement length of the piston which yields a linearly varying clearance between the piston and cylinder. The assumption is not strictly valid.</p>
+    <p>In this work, the assumption is avoided by applying the theory of flow in a converging channel to the pressure balance to calculate: (i) The upward force on the flanks of the piston due to fluid friction; (ii)
+    The flow passing through the clearance and (iii) The pressure coefficient for a pressure balance.
+    </p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Theory of the Flow in a Converging Channel Applied to Piston-Cylinder
+    - language: en
+      script: Latn
+      content: The Theory of the Flow in a Converging Channel Applied to Piston-Cylinder
         Systems of Pressure Balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +79,6 @@ extent:
     reference_from: '89'
     reference_to: '95'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,140 +1,124 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361317
-title:
-- content: Uncertainty analysis of the magnetic field measurement by the translating
-    coil method in axisymmetric magnets
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1317
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1317
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1317
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty analysis of the magnetic field measurement by the translating
+    coil method in axisymmetric magnets
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1317
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1317
+docidentifier:
+- content: Metrologia 53 6 1317
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1317
+- content: 10.1088/0026-1394/53/6/1317
   type: doi
 date:
 - type: published
-  value: '2016-11-04'
+  at: '2016-11-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pasquale Arpaia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Naples, Italy
         name:
         - content: University of Naples Federico II
         subdivision:
-        - content: Department of Electrical Engineering and Technology Information
-        contact:
-        - address:
-            formatted_address: Naples, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering and Technology Information
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca De Vito
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Benevento, Italy
         name:
         - content: University of Sannio
         subdivision:
-        - content: Engineering Department
-        contact:
-        - address:
-            formatted_address: Benevento, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Engineering Department
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mario Kazazi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: F-91191 Gif sur Yvette, France
         name:
         - content: CEA, IRFU
-        contact:
-        - address:
-            formatted_address: F-91191 Gif sur Yvette, France
-  role:
-  - type: author
-revdate: '2016-11-04'
 abstract:
-- content: 'Abstract<p>In the uncertainty assessment of magnetic flux measurements
-    in axially symmetric magnets by the translating coil method, the Guide to the
-    Uncertainty in Measurement and its supplement cannot be applied: the voltage variation
-    at the coil terminals, which is the actual measured quantity, affects the flux
-    estimate and its uncertainty. In this paper, a particle filter, implementing a
-    sequential Monte-Carlo method based on Bayesian inference, is applied. At this
-    aim, the main uncertainty sources are analyzed and a model of the measurement
-    process is defined. The results of the experimental validation point out the transport
-    system and the acquisition system as the main contributions to the uncertainty
-    budget.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In the uncertainty assessment of magnetic flux measurements in axially symmetric magnets by the translating coil method, the Guide to the Uncertainty in Measurement and its supplement cannot be applied: the voltage variation at the coil terminals, which is the actual measured quantity, affects the flux estimate and its uncertainty. In this paper, a particle filter, implementing a sequential Monte-Carlo method based on Bayesian inference, is applied. At this aim, the main uncertainty sources are analyzed and a model of the measurement process is defined. The results of the experimental validation point out the transport system and the acquisition system as the main contributions to the uncertainty budget.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis of the magnetic field measurement by the translating
+    - script: Latn
+      content: Uncertainty analysis of the magnetic field measurement by the translating
         coil method in axisymmetric magnets
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty analysis of the magnetic field measurement by the translating
+    - script: Latn
+      content: Uncertainty analysis of the magnetic field measurement by the translating
         coil method in axisymmetric magnets
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-11-04'
+      at: '2016-11-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +129,6 @@ extent:
     reference_from: '1317'
     reference_to: '1329'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

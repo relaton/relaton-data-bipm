@@ -1,114 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia711
-title:
-- content: Precise Measurement of Thermal Conductivity at High Temperatures (100–1200
-    K)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/7/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Precise Measurement of Thermal Conductivity at High Temperatures (100–1200
+    K)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/1/002
+docidentifier:
+- content: Metrologia 7 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/1/002
+- content: 10.1088/0026-1394/7/1/002
   type: doi
 date:
 - type: published
-  value: '1971-01-01'
+  at: '1971-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J Laubitz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D L McElroy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metals and Ceramics Division, Oak Ridge National Laboratory, Oak
             Ridge, Tennessee, USA
-  role:
-  - type: author
-revdate: '1971-01-01'
 abstract:
-- content: "<p>Various absolute steady-state methods of measuring thermal conductivity
-    can be made to yield, verifiably, experimental results accurate to within ± 2%
-    from 100 to 1200 K, and for conductivity values from 0.1 to 5 W/cmK. This statement
-    is substantiated by a detailed analysis of the results obtained by eight different
-    systems in three laboratories on ten metals: Cu, Ag, Au, Pd, Pt, W, Cr, Armco
-    Iron, and the alloys Nb-10 W and Inconel 702. The experimental systems by which
-    these results were obtained are also briefly described.</p><p>The achievement
-    of such accuracy, however, requires that careful attention be paid to the design
-    and operation of the experimental apparatus. In general, the thermal conductivity
-    is computed from three parameters: the power developed in a specific heater; the
-    temperature difference due to that heater; and a geometrical factor relating the
-    two through the geometry of the heat flow pattern. The determination of each parameter
-    presents problems of its own; these we outline, and present solutions to them
-    which are often a matter of judicious compromises. However, because the individual
-    problems are not equally severe for the different methods here discussed, the
-    close agreement of the results that we show provides a gratifying reassurance
-    that the experimental approaches and theoretical analysis, including estimates
-    of error, are basically sound.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Various absolute steady-state methods of measuring thermal conductivity can be made to yield, verifiably, experimental results accurate to within ± 2% from 100 to 1200 K, and for conductivity values from 0.1 to 5 W/cmK. This statement is substantiated by a detailed analysis of the results obtained by eight different systems in three laboratories on ten metals: Cu, Ag, Au, Pd, Pt, W, Cr, Armco Iron, and the alloys Nb-10 W and Inconel 702. The experimental systems by which these results were obtained are also briefly described.</p>
+    <p>The achievement of such accuracy, however, requires that careful attention be paid to the design and operation of the experimental apparatus. In general, the thermal conductivity is computed from three parameters: the power developed in a specific heater; the temperature difference due to that heater; and a geometrical factor relating the two through the geometry of the heat flow pattern. The determination of each parameter presents problems of its own; these we outline, and present solutions to them which are often a matter of judicious compromises. However, because the individual problems are not equally severe for the different methods here discussed, the close agreement of the results that we show provides a gratifying reassurance that the experimental approaches and theoretical analysis, including estimates of error, are basically sound.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise Measurement of Thermal Conductivity at High Temperatures (100–1200
+    - language: en
+      script: Latn
+      content: Precise Measurement of Thermal Conductivity at High Temperatures (100–1200
         K)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1971-01-01'
+      at: '1971-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +90,6 @@ extent:
     reference_from: '1'
     reference_to: '15'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

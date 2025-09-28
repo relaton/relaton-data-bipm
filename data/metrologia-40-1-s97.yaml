@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S97
-title:
-- content: Gonioreflectometer-based gloss standard calibration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/322
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/322
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S97
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gonioreflectometer-based gloss standard calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/322
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/322
+docidentifier:
+- content: Metrologia 40 1 S97
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/322
+- content: 10.1088/0026-1394/40/1/322
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: György Andor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Office of Measures, Budapest, PO Box 919, H-1535, Hungary
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Highly polished plane gloss standards are indispensable when using
+- language: en
+  script:
+  - Latn
+  content: "<p>Highly polished plane gloss standards are indispensable when using
     a glossmeter. The gloss value of a primary reference standard is defined by its
     refractive index at 589.3 nm. This definition allows ease of use, but the calibration
     accuracy is limited to about ±0.5% due to inconsistency between the monochromatic
@@ -54,53 +50,42 @@ abstract:
     measured in 1° steps and ±0.07% agreement on average for the angular corrected
     data. The requirement for an uncertainty of ±0.1% in the gonioreflectometric calibration
     was also analysed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gonioreflectometer-based gloss standard calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gonioreflectometer-based gloss standard calibration
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gonioreflectometer-based gloss standard calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gonioreflectometer-based gloss standard calibration
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: S97
     reference_to: S100
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

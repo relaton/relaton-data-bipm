@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283291
-title:
-- content: The Use of a Self-scanning Photodiode Array in Sunphotometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/037
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/037
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 291
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Use of a Self-scanning Photodiode Array in Sunphotometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/037
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/037
+docidentifier:
+- content: Metrologia 28 3 291
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/037
+- content: 10.1088/0026-1394/28/3/037
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L J B McArthur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atmospheric Environment Service, Downsview, Ontario M3H 5T4, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D I Wardle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atmospheric Environment Service, Downsview, Ontario M3H 5T4, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C T McElroy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atmospheric Environment Service, Downsview, Ontario M3H 5T4, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Kerr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atmospheric Environment Service, Downsview, Ontario M3H 5T4, Canada
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: <p>The use of self-scanning photodiode arrays is well established for low
+- language: en
+  script:
+  - Latn
+  content: <p>The use of self-scanning photodiode arrays is well established for low
     light intensity multi-spectral measurement systems such as those used in spectroscopy
     and astronomy. Using the newly developed EG&amp;G Reticon random access self-scanning
     linear photodiode array, an instrument has been developed for solar observations
@@ -94,39 +84,31 @@ abstract:
     version expected to fly aboard the US Space Shuttle within the next two years.
     The design of this instrument is described and preliminary spectra are presented
     to illustrate the measurement of NO<sub>2</sub> using this portable system.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Use of a Self-scanning Photodiode Array in Sunphotometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Use of a Self-scanning Photodiode Array in Sunphotometry
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '291'
     reference_to: '295'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

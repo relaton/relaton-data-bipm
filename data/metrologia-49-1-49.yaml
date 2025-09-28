@@ -1,133 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia49149
-title:
-- content: A new prediction algorithm for the generation of International Atomic Time
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 49
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A new prediction algorithm for the generation of International Atomic Time
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/008
+docidentifier:
+- content: Metrologia 49 1 49
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/008
+- content: 10.1088/0026-1394/49/1/008
   type: doi
 date:
 - type: published
-  value: '2011-11-17'
+  at: '2011-11-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gianna Panfilo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: International Bureau of Weights and Measures (BIPM), Pavillon de
             Breteuil, 92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aurelie Harmegnies
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: International Bureau of Weights and Measures (BIPM), Pavillon de
             Breteuil, 92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Laurent Tisserand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: International Bureau of Weights and Measures (BIPM), Pavillon de
             Breteuil, 92312 Sèvres, France
-  role:
-  - type: author
-revdate: '2011-11-17'
 abstract:
-- content: "<p>In this paper we present a new prediction algorithm for the generation
+- language: en
+  script:
+  - Latn
+  content: "<p>In this paper we present a new prediction algorithm for the generation
     of International Atomic Time (TAI). The new prediction algorithm takes into account
     the frequency drift which affects most of the participating atomic clocks. In
     particular, we focus on the effect of the application of the new model on the
     prediction term for the frequency drift affecting the free atomic time scale (EAL).
     We also present its effect on TAI performance and on atomic clock weights.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new prediction algorithm for the generation of International Atomic
+    - language: en
+      script: Latn
+      content: A new prediction algorithm for the generation of International Atomic
         Time
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-11-17'
+      at: '2011-11-17'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new prediction algorithm for the generation of International Atomic
+    - language: en
+      script: Latn
+      content: A new prediction algorithm for the generation of International Atomic
         Time
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +122,6 @@ extent:
     reference_from: '49'
     reference_to: '56'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

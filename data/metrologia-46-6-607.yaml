@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466607
-title:
-- content: The propagation of uncertainty for humidity calculations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 607
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The propagation of uncertainty for humidity calculations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/001
+docidentifier:
+- content: Metrologia 46 6 607
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/001
+- content: 10.1088/0026-1394/46/6/001
   type: doi
 date:
 - type: published
-  value: '2009-10-07'
+  at: '2009-10-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Lovell-Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: The Measurement Standards Laboratory of New Zealand (MSL), Industrial
             Research Ltd, PO Box 31-310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2009-10-07'
 abstract:
-- content: "<p>This paper addresses the international humidity community's need for
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper addresses the international humidity community's need for
     standardization of methods for propagation of uncertainty associated with humidity
     generators and for handling uncertainty associated with the reference water vapour-pressure
     and enhancement-factor equations. The paper outlines uncertainty calculations
@@ -57,53 +53,42 @@ abstract:
     input variables and between different instances of the evaluation of the reference
     equations is discussed. The uncertainty calculation examples presented here are
     representative of most humidity calculations.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The propagation of uncertainty for humidity calculations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The propagation of uncertainty for humidity calculations
     date:
     - type: epub
-      value: '2009-10-07'
+      at: '2009-10-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The propagation of uncertainty for humidity calculations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The propagation of uncertainty for humidity calculations
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +99,6 @@ extent:
     reference_from: '607'
     reference_to: '615'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

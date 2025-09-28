@@ -1,117 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia435414
-title:
-- content: Set standard deviation, repeatability and offset of absolute gravimeter
-    A10-008
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/5/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/5/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 5 414
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Set standard deviation, repeatability and offset of absolute gravimeter
+    A10-008
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/5/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/5/012
+docidentifier:
+- content: Metrologia 43 5 414
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/5/012
+- content: 10.1088/0026-1394/43/5/012
   type: doi
 date:
 - type: published
-  value: '2006-09-12'
+  at: '2006-09-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Schmerge
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Formerly at US Geological Survey, Denver, CO, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Francis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Faculté des Sciences, de la Technologie et de la Communication,
             University of Luxembourg, L-1511 Luxembourg
-  role:
-  - type: author
-revdate: '2006-09-12'
 abstract:
-- content: "<p>The set standard deviation, repeatability and offset of absolute gravimeter
+- language: en
+  script:
+  - Latn
+  content: "<p>The set standard deviation, repeatability and offset of absolute gravimeter
     A10-008 were assessed at the Walferdange Underground Laboratory for Geodynamics
     (WULG) in Luxembourg. Analysis of the data indicates that the instrument performed
     within the specifications of the manufacturer. For A10-008, the average set standard
     deviation was (1.6 ± 0.6) µGal (1Gal ≡ 1 cm s<sup>−2</sup>), the average repeatability
     was (2.9 ± 1.5) µGal, and the average offset compared to absolute gravimeter FG5-216
     was (3.2 ± 3.5) µGal.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Set standard deviation, repeatability and offset of absolute gravimeter
+    - language: en
+      script: Latn
+      content: Set standard deviation, repeatability and offset of absolute gravimeter
         A10-008
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-09-12'
+      at: '2006-09-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Set standard deviation, repeatability and offset of absolute gravimeter
+    - language: en
+      script: Latn
+      content: Set standard deviation, repeatability and offset of absolute gravimeter
         A10-008
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-10-01'
+      at: '2006-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +105,6 @@ extent:
     reference_from: '414'
     reference_to: '418'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

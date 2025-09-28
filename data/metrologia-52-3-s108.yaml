@@ -1,230 +1,193 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S108
-title:
-- content: Uncertainty evaluation in activity measurements using ionization chambers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S108
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S108
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S108
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty evaluation in activity measurements using ionization chambers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S108
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S108
+docidentifier:
+- content: Metrologia 52 3 S108
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S108
+- content: 10.1088/0026-1394/52/3/S108
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M N Amiot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bât. 602 PC111, CEA-Saclay 91191 Gif-sur-Yvette Cedex,
+            France
         name:
         - content: CEA, LIST, Laboratoire National Henri Becquerel
-        contact:
-        - address:
-            formatted_address: Bât. 602 PC111, CEA-Saclay 91191 Gif-sur-Yvette Cedex,
-              France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Chisté
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bât. 602 PC111, CEA-Saclay 91191 Gif-sur-Yvette Cedex,
+            France
         name:
         - content: CEA, LIST, Laboratoire National Henri Becquerel
-        contact:
-        - address:
-            formatted_address: Bât. 602 PC111, CEA-Saclay 91191 Gif-sur-Yvette Cedex,
-              France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Fitzgerald
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology (NIST)
         subdivision:
-        - content: Physical Measurement Laboratory
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Physical Measurement Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Juget
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Grand Pré 1, 1007 Lausanne, Switzerland
         name:
         - content: Institute of Radiation Physics
-        contact:
-        - address:
-            formatted_address: Grand Pré 1, 1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Pearce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ratel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B E Zimmerman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology (NIST)
         subdivision:
-        - content: Physical Measurement Laboratory
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: Physical Measurement Laboratory
 abstract:
-- content: Summary<p>Pressurized re-entrant (or 4π) ionization chambers (ICs) connected
-    to current-measuring electronics are used for activity measurements of photon
-    emitting radionuclides and some beta emitters in the fields of metrology and nuclear
-    medicine. As a secondary method, these instruments need to be calibrated with
-    appropriate activity standards from primary or direct standardization. The use
-    of these instruments over 50 years has been well described in numerous publications,
-    such as the Monographie BIPM-4 and the special issue of Metrologia on radionuclide
-    metrology (Ratel 2007 Metrologia 44 S7–16, Schrader1997 Activity Measurements
-    With Ionization Chambers (Monographie BIPM-4) Schrader 2007 Metrologia 44 S53–66,
-    Cox et al 2007 Measurement Modelling of the International Reference System (SIR)
-    for Gamma-Emitting Radionuclides (Monographie BIPM-7)). The present work describes
-    the principles of activity measurements, calibrations, and impurity corrections
-    using pressurized ionization chambers in the first part and the uncertainty analysis
-    illustrated with example uncertainty budgets from routine source-calibration as
-    well as from an international reference system (SIR) measurement in the second
-    part.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Summary</title>
+    <p>Pressurized re-entrant (or 4<italic>π</italic>) ionization chambers (ICs) connected to current-measuring electronics are used for activity measurements of photon emitting radionuclides and some beta emitters in the fields of metrology and nuclear medicine. As a secondary method, these instruments need to be calibrated with appropriate activity standards from primary or direct standardization. The use of these instruments over 50 years has been well described in numerous publications, such as the Monographie BIPM-4 and the special issue of <italic>Metrologia</italic> on radionuclide metrology (Ratel 2007 <italic>Metrologia</italic> <bold>44</bold> S7–16, Schrader1997 <italic>Activity Measurements With Ionization Chambers (Monographie BIPM-4)</italic> Schrader 2007 <italic>Metrologia</italic> <bold>44</bold> S53–66, Cox <italic>et al</italic> 2007 <italic>Measurement Modelling of the International Reference System (SIR) for Gamma-Emitting Radionuclides (Monographie BIPM-7)</italic>). The present work describes the principles of activity measurements, calibrations, and impurity corrections using pressurized ionization chambers in the first part and the uncertainty analysis illustrated with example uncertainty budgets from routine source-calibration as well as from an international reference system (SIR) measurement in the second part.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty evaluation in activity measurements using ionization chambers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty evaluation in activity measurements using ionization chambers
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty evaluation in activity measurements using ionization chambers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty evaluation in activity measurements using ionization chambers
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -235,6 +198,6 @@ extent:
     reference_from: S108
     reference_to: S122
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

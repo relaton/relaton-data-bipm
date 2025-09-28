@@ -1,96 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S196
-title:
-- content: Realization of a spectral radiance scale at KRISS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/345
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/345
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S196
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of a spectral radiance scale at KRISS
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/345
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/345
+docidentifier:
+- content: Metrologia 40 1 S196
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/345
+- content: 10.1088/0026-1394/40/1/345
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seung Nam Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, Korea Research Institute of Standards
             and Science (KRISS), PO Box 102, Yuseong, Daejeon, 305-600, Republic of
             Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jung Chul Seo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, Korea Research Institute of Standards
             and Science (KRISS), PO Box 102, Yuseong, Daejeon, 305-600, Republic of
             Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dong Joo Shin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, Korea Research Institute of Standards
             and Science (KRISS), PO Box 102, Yuseong, Daejeon, 305-600, Republic of
             Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: In Won Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Optical Metrology, Korea Research Institute of Standards
             and Science (KRISS), PO Box 102, Yuseong, Daejeon, 305-600, Republic of
             Korea
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>The KRISS spectral radiance standards have been realized from 250 nm
+- language: en
+  script:
+  - Latn
+  content: "<p>The KRISS spectral radiance standards have been realized from 250 nm
     to 2.5 µm with reference to the radiance temperature scale. Based on the definition
     of the ITS-90, the temperature scale has been realized using a copper and silver
     point blackbody. This paper briefly describes the calibration facility, which
@@ -108,53 +98,42 @@ abstract:
     and uncertainty analysis of the calibration is proposed. The relative standard
     uncertainty of the KRISS spectral radiance scale is determined to be 0.83% at
     250 nm, 0.49% at 300 nm and less than 0.3% from 650 nm to 2.5 µm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of a spectral radiance scale at KRISS
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of a spectral radiance scale at KRISS
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of a spectral radiance scale at KRISS
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of a spectral radiance scale at KRISS
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -165,6 +144,6 @@ extent:
     reference_from: S196
     reference_to: S199
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

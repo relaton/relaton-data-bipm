@@ -1,121 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S1
-title:
-- content: Practical implementation of uncertainty analysis in radionuclide metrology
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S1
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Practical implementation of uncertainty analysis in radionuclide metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S1
+docidentifier:
+- content: Metrologia 52 3 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S1
+- content: 10.1088/0026-1394/52/3/S1
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: editor
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lisa Karam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Radiation Physics Division Head, Gaithersburg, MD,  [Chairman,
+            CCRI(II, USA
         name:
         - content: NIST
-        contact:
-        - address:
-            formatted_address: Radiation Physics Division Head, Gaithersburg, MD,  [Chairman,
-              CCRI(II, USA
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Keightley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex,  [Chairman, KCWG(II, UK
         name:
         - content: NPL, Radioactivity Group
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex,  [Chairman, KCWG(II, UK
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: José María Los Arcos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ionizing Radiation Department Director, Sèvres CEDEX  [CCRI
+            Executive Secretary, France
         name:
         - content: BIPM
-        contact:
-        - address:
-            formatted_address: Ionizing Radiation Department Director, Sèvres CEDEX  [CCRI
-              Executive Secretary, France
-  role:
-  - type: editor
-revdate: '2015-05-22'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Practical implementation of uncertainty analysis in radionuclide metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Practical implementation of uncertainty analysis in radionuclide metrology
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Practical implementation of uncertainty analysis in radionuclide metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Practical implementation of uncertainty analysis in radionuclide metrology
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +112,6 @@ extent:
     reference_from: S1
     reference_to: S2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

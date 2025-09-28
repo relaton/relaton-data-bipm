@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia313219
-title:
-- content: Density of Silicon Crystals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/3/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/3/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 3 219
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Density of Silicon Crystals
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/3/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/3/008
+docidentifier:
+- content: Metrologia 31 3 219
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/3/008
+- content: 10.1088/0026-1394/31/3/008
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Tanaka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4 Umezono, Tsukuba,
             Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Peuto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR - Istituto di Metrologia "G Colonnetti", Strada delle Cacce
             73, 10135 Turin, Italy
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>Measurements of silicon crystal density for the determination of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurements of silicon crystal density for the determination of the
     Avogadro constant are reviewed. Volume, mass and hydrostatic-weighing measurements
     are considered from the technical standpoints of error sources and uncertainty
     of measurement. The outlook on the possibility of achieving experimental uncertainties
     of less than 10<sup>-7</sup> is described. Attention is paid to the necessity
     of reducing the sources of uncertainty in the density arising from the surface,
     such as silica layers and damaged crystalline layers.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Density of Silicon Crystals
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Density of Silicon Crystals
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '219'
     reference_to: '230'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,100 +1,78 @@
 ---
-schema-version: v1.2.9
 id: CGPM-1995-20
-title:
-- content: 20th meeting of the CGPM (1995)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 20<sup>e</sup> réunion de la CGPM (1995)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/cg/cgpm/20-1995
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cg/cgpm/20-1995
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-20.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-20.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CGPM 20th Meeting (1995)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 20th meeting of the CGPM (1995)
+- language: fr
+  script: Latn
+  content: 20<sup>e</sup> réunion de la CGPM (1995)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cg/cgpm/20-1995
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cg/cgpm/20-1995
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-20.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-20.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CGPM 20th Meeting (1995)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CGPM 20<sup>e</sup> réunion (1995)
+  content: CGPM 20<sup>e</sup> réunion (1995)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CGPM 20th Meeting (1995) / CGPM 20<sup>e</sup> réunion (1995)
+- content: CGPM 20th Meeting (1995) / CGPM 20<sup>e</sup> réunion (1995)
   type: BIPM
   primary: true
 docnumber: CGPM 20th Meeting (1995)
 date:
 - type: published
-  value: '1995-10-13'
+  at: '1995-10-13'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1995-10-13'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -103,8 +81,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '20'

@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3353
-title:
-- content: Platinum Resistance Thermometry Below 10°K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 3 3 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Platinum Resistance Thermometry Below 10°K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/3/001
+docidentifier:
+- content: Metrologia 3 3 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/3/001
+- content: 10.1088/0026-1394/3/3/001
   type: doi
 date:
 - type: published
-  value: '1967-07-01'
+  at: '1967-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1967-07-01'
 abstract:
-- content: "<p>The usefulness of platinum resistance thermometers in the 2–10 °K region
+- language: en
+  script:
+  - Latn
+  content: "<p>The usefulness of platinum resistance thermometers in the 2–10 °K region
     has been assessed on the basis of their sensitivity, stability and ease of calibration.
     It is concluded that many of these instruments may be used to measure temperatures
     with an overall accuracy of about 0.03–0.05 deg in a fairly convenient manner,
     and with an accuracy of about 0.01 deg if considerable care is taken. In some
     cases, however, thermometer stability poses serious limitations on accuracy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Platinum Resistance Thermometry Below 10°K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Platinum Resistance Thermometry Below 10°K
     date:
     - type: ppub
-      value: '1967-07-01'
+      at: '1967-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '53'
     reference_to: '57'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

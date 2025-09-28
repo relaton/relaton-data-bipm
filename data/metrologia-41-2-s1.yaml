@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S1
-title:
-- content: Present state of the solid and liquid density standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S01
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Present state of the solid and liquid density standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S01
+docidentifier:
+- content: Metrologia 41 2 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S01
+- content: 10.1088/0026-1394/41/2/S01
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kenichi Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology, AIST Tsukuba Central 3, 1-1-1 Umezono,
             Tsukuba, Ibaraki 305-8563, Japan
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>The method and devices used for the absolute measurement of the density
+- language: en
+  script:
+  - Latn
+  content: "<p>The method and devices used for the absolute measurement of the density
     of solids and liquids are reviewed. A density standard based on a single-crystal
     silicon sphere has recently been developed at national metrology institutes, where
     the mass of the 1 kg silicon sphere is compared with that of the mass standard
@@ -54,53 +50,42 @@ abstract:
     density measurements of solids and liquids by hydrostatic weighing, pressure of
     flotation, and magnetic suspension methods are described. Recent results on the
     absolute measurements of the density of water and mercury are briefly summarized.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Present state of the solid and liquid density standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Present state of the solid and liquid density standards
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Present state of the solid and liquid density standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Present state of the solid and liquid density standards
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: S1
     reference_to: S15
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

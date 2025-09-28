@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia394361
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     A classical method for uncertainty analysis with
     multidimensional data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/4/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/4/5
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 4 361
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/4/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/4/5
+docidentifier:
+- content: Metrologia 39 4 361
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/4/5
+- content: 10.1088/0026-1394/39/4/5
   type: doi
 date:
 - type: published
-  value: '2002-08-01'
+  at: '2002-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Applied Mathematics, Industrial Research Ltd, PO Box
             31-310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2002-08-01'
 abstract:
-- content: |-
-    <p>A method of uncertainty analysis based on classical statistical principles is presented for a measurand
-    that is a linear combination of multidimensional input quantities. The method assigns the measurand a combined standard uncertainty matrix and an effective degrees of freedom, which allows the measurand to be estimated by an ellipsoidal confidence region in the multidimensional space. Simulations for a 95 % nominal confidence level show the ellipsoids to contain the measurand with probability approximately 0.95, as required. The derivation of the method assumes all input uncertainties to be evaluated by the Type A method. So the method is analogous to the Welch-Satterthwaite formula for one-dimensional data, a derivation of which is given in an appendix.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A method of uncertainty analysis based on classical statistical principles is presented for a measurand
+    that is a linear combination of multidimensional input quantities. The method assigns the measurand a combined standard uncertainty matrix and an effective degrees of freedom, which allows the measurand to be estimated by an ellipsoidal confidence region in the multidimensional space. Simulations for a 95 % nominal confidence level show the ellipsoids to contain the measurand with probability approximately 0.95, as required. The derivation of the method assumes all input uncertainties to be evaluated by the Type A method. So the method is analogous to the Welch-Satterthwaite formula for one-dimensional data, a derivation of which is given in an appendix.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         A classical method for uncertainty analysis with
         multidimensional data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-08-01'
+      at: '2002-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '361'
     reference_to: '369'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

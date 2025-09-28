@@ -1,88 +1,77 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375381
-title:
-- content: Correlated colour temperature - uncertainty and estimation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 381
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Correlated colour temperature - uncertainty and estimation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/8
+docidentifier:
+- content: Metrologia 37 5 381
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/8
+- content: 10.1088/0026-1394/37/5/8
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Gardner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NML-CSIRO
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>Correlated colour temperature (CCT) of a source is estimated from position
-    in CIE 1960 (u, v) colour space in relation to the black-body locus. In this paper,
-    the methods of the ISO Guide to the Expression of Uncertainty in Measurement are
-    applied to derive analytical expressions for uncertainty in u and v chromacity
+- language: en
+  script:
+  - Latn
+  content: "<p>Correlated colour temperature (CCT) of a source is estimated from position
+    in CIE 1960 (<italic>u</italic>, <italic>v</italic>) colour space in relation
+    to the black-body locus. In this paper, the methods of the ISO <italic>Guide to
+    the Expression of Uncertainty in Measurement</italic> are applied to derive analytical
+    expressions for uncertainty in <italic>u</italic> and <italic>v</italic> chromacity
     coordinates and CCT, including correlation effects. Uncertainty in CCT is found
     by fitting the form of the black-body locus and relevant derivatives. Examples
     are given for calibration of four typical sources of spectral distributions. Accurate
     CCT is determined by a search technique. An alternative method using fitted functions
-    to solve for CCT using the geometry in (u, v) space is presented. An uncertainty
-    in CCT of a few kelvin can be achieved.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    to solve for CCT using the geometry in (<italic>u</italic>, <italic>v</italic>)
+    space is presented. An uncertainty in CCT of a few kelvin can be achieved.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correlated colour temperature - uncertainty and estimation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Correlated colour temperature - uncertainty and estimation
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +82,6 @@ extent:
     reference_from: '381'
     reference_to: '384'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

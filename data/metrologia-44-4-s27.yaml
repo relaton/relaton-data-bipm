@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S27
-title:
-- content: Primary standardization of activity using the coincidence method based
-    on analogue instrumentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S04
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S04
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S27
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Primary standardization of activity using the coincidence method based
+    on analogue instrumentation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S04
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S04
+docidentifier:
+- content: Metrologia 44 4 S27
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S04
+- content: 10.1088/0026-1394/44/4/S04
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christophe Bobin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE–LNHB, Laboratoire National Henri Becquerel CEA/Saclay, F-91191
             Gif/Yvette Cedex, France
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>Widely implemented at national metrology institutes (NMIs), the coincidence
+- language: en
+  script:
+  - Latn
+  content: "<p>Widely implemented at national metrology institutes (NMIs), the coincidence
     method is a technique to assay a wide variety of radionuclides which decay through
     two or more types of radiation. Through a survey of the literature, this paper
     seeks to describe the main aspects of one of the most powerful direct methods
@@ -50,55 +46,44 @@ abstract:
     efficiency extrapolation method are covered. The problem of non-linearities in
     the extrapolation curve is also considered. The main characteristics of variants
     to the conventional coincidence instrumentation are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standardization of activity using the coincidence method based
+    - language: en
+      script: Latn
+      content: Primary standardization of activity using the coincidence method based
         on analogue instrumentation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standardization of activity using the coincidence method based
+    - language: en
+      script: Latn
+      content: Primary standardization of activity using the coincidence method based
         on analogue instrumentation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: S27
     reference_to: S31
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

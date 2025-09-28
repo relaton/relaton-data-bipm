@@ -1,97 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361286
-title:
-- content: Reply to Comment on ‘On the units radian and cycle for the quantity plane
-    angle’
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1286
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1286
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1286
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Reply to Comment on ‘On the units radian and cycle for the quantity plane
+    angle’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1286
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1286
+docidentifier:
+- content: Metrologia 53 6 1286
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1286
+- content: 10.1088/0026-1394/53/6/1286
   type: doi
 date:
 - type: published
-  value: '2016-10-25'
+  at: '2016-10-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Mills
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Reading, RG6 6AD, UK
         name:
         - content: University of Reading
         subdivision:
-        - content: School of Chemistry
-        contact:
-        - address:
-            formatted_address: Reading, RG6 6AD, UK
-  role:
-  - type: author
-revdate: '2016-10-25'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Chemistry
 abstract:
-- content: Abstract<p>This paper is a reply to the preceding paper (Leonard 2016 Metrologia
-    53 1281–5) which was a comment on my paper (Mills 2016 Metrologia 53 991–7) ‘On
-    the units radian and cycle for the quantity plane angle’.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper is a reply to the preceding paper (Leonard 2016 <italic>Metrologia</italic> <ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/6/1281" xlink:type="simple">53</ext-link> <ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/6/1281" xlink:type="simple">1281</ext-link>–<ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/6/1281" xlink:type="simple">5</ext-link>) which was a comment on my paper (Mills 2016 <italic>Metrologia</italic> <ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/3/991" xlink:type="simple">53</ext-link> <ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/3/991" xlink:type="simple">991</ext-link>–<ext-link ext-link-type="doi" xlink:href="http://dx.doi.org/10.1088/0026-1394/53/3/991" xlink:type="simple">7</ext-link>) ‘On the units radian and cycle for the quantity plane angle’.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reply to Comment on ‘On the units radian and cycle for the quantity
+    - script: Latn
+      content: Reply to Comment on ‘On the units radian and cycle for the quantity
         plane angle’
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reply to Comment on ‘On the units radian and cycle for the quantity
+    - script: Latn
+      content: Reply to Comment on ‘On the units radian and cycle for the quantity
         plane angle’
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-10-25'
+      at: '2016-10-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +96,6 @@ extent:
     reference_from: '1286'
     reference_to: '1286'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

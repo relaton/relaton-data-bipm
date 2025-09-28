@@ -1,53 +1,47 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463254
-title:
-- content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
-    trapezoidal distribution'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 254
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
+    trapezoidal distribution'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/012
+docidentifier:
+- content: Metrologia 46 3 254
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/012
+- content: 10.1088/0026-1394/46/3/012
   type: doi
 date:
 - type: published
-  value: '2009-03-24'
+  at: '2009-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raghu N Kacker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mathematical and Computational Science Division, National Institute
             of Standards and Technology, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James F Lawrence
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -57,11 +51,11 @@ contributor:
         name:
         - content: Department of Mathematics, George Mason University, Fairfax, VA
             22030, USA
-  role:
-  - type: author
-revdate: '2009-03-24'
 abstract:
-- content: "<p>After the Gaussian distribution, the probability distribution most
+- language: en
+  script:
+  - Latn
+  content: "<p>After the Gaussian distribution, the probability distribution most
     commonly used in evaluation of uncertainty in measurement is the rectangular distribution.
     If the half-width of a rectangular distribution is specified, the mid-point is
     uncertain, and the probability distribution of the mid-point may be represented
@@ -76,55 +70,44 @@ abstract:
     when the half-width is uncertain. When the uncertainty in specification of the
     half-width is not excessive, the isocurvilinear trapezoidal distribution can be
     approximated by an isosceles trapezoidal distribution.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
+    - language: en
+      script: Latn
+      content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
         trapezoidal distribution'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-03-24'
+      at: '2009-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
+    - language: en
+      script: Latn
+      content: 'Rectangular distribution whose width is not exactly known: isocurvilinear
         trapezoidal distribution'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +118,6 @@ extent:
     reference_from: '254'
     reference_to: '260'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

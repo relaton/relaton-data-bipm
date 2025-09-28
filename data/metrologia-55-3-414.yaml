@@ -1,124 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553414
-title:
-- content: 'Sensitivity analysis in practice: providing an uncertainty budget when
-    applying supplement 1 to the GUM'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aabd55
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aabd55
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 414
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Sensitivity analysis in practice: providing an uncertainty budget when
+    applying supplement 1 to the GUM'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aabd55
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aabd55
+docidentifier:
+- content: Metrologia 55 3 414
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aabd55
+- content: 10.1088/1681-7575/aabd55
   type: doi
 date:
 - type: published
-  value: '2018-05-09'
+  at: '2018-05-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alexandre Allard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicolas Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
-  - type: author
-revdate: '2018-05-09'
 abstract:
-- content: Abstract<p>Sensitivity analysis associated with the evaluation of measurement
-    uncertainty is a very important tool for the metrologist, enabling them to provide
-    an uncertainty budget and to gain a better understanding of the measurand and
-    the underlying measurement process. Using the GUM uncertainty framework, the contribution
-    of an input quantity to the variance of the output quantity is obtained through
-    so-called ‘sensitivity coefficients’. In contrast, such coefficients are no longer
-    computed in cases where a Monte-Carlo method is used. In such a case, supplement
-    1 to the GUM suggests varying the input quantities one at a time, which is not
-    an efficient method and may provide incorrect contributions to the variance in
-    cases where significant interactions arise. This paper proposes different methods
-    for the elaboration of the uncertainty budget associated with a Monte Carlo method.
-    An application to the mass calibration example described in supplement 1 to the
-    GUM is performed with the corresponding R code for implementation. Finally, guidance
-    is given for choosing a method, including suggestions for a future revision of
-    supplement 1 to the GUM.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Sensitivity analysis associated with the evaluation of measurement uncertainty is a very important tool for the metrologist, enabling them to provide an uncertainty budget and to gain a better understanding of the measurand and the underlying measurement process. Using the GUM uncertainty framework, the contribution of an input quantity to the variance of the output quantity is obtained through so-called ‘sensitivity coefficients’. In contrast, such coefficients are no longer computed in cases where a Monte-Carlo method is used. In such a case, supplement 1 to the GUM suggests varying the input quantities one at a time, which is not an efficient method and may provide incorrect contributions to the variance in cases where significant interactions arise. This paper proposes different methods for the elaboration of the uncertainty budget associated with a Monte Carlo method. An application to the mass calibration example described in supplement 1 to the GUM is performed with the corresponding R code for implementation. Finally, guidance is given for choosing a method, including suggestions for a future revision of supplement 1 to the GUM.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Sensitivity analysis in practice: providing an uncertainty budget
+    - script: Latn
+      content: 'Sensitivity analysis in practice: providing an uncertainty budget
         when applying supplement 1 to the GUM'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Sensitivity analysis in practice: providing an uncertainty budget
+    - script: Latn
+      content: 'Sensitivity analysis in practice: providing an uncertainty budget
         when applying supplement 1 to the GUM'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-05-09'
+      at: '2018-05-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +105,6 @@ extent:
     reference_from: '414'
     reference_to: '426'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

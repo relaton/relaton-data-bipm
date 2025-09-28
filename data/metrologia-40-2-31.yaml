@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia40231
-title:
-- content: 'On a measure of consistency in comparison measurements: II. Using effective
-    degrees of freedom'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/2/305
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/2/305
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 2 31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'On a measure of consistency in comparison measurements: II. Using effective
+    degrees of freedom'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/2/305
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/2/305
+docidentifier:
+- content: Metrologia 40 2 31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/2/305
+- content: 10.1088/0026-1394/40/2/305
   type: doi
 date:
 - type: published
-  value: '2003-04-01'
+  at: '2003-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Beissner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Bundesallee 100, 38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2003-04-01'
 abstract:
-- content: "<p>The quality of the results of a comparison measurement is often assessed
+- language: en
+  script:
+  - Latn
+  content: "<p>The quality of the results of a comparison measurement is often assessed
     by comparing the differences between the individual results and the reference
     value with the uncertainties of these differences. Here, this method is extended
     to cover situations in which finite effective degrees of freedom have been stated
@@ -50,55 +46,44 @@ abstract:
     is discussed and some peculiarities are described. Finally, a method is proposed
     to assess the compatibility of the reference value model chosen with the entire
     group of measurement results.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'On a measure of consistency in comparison measurements: II. Using
+    - language: en
+      script: Latn
+      content: 'On a measure of consistency in comparison measurements: II. Using
         effective degrees of freedom'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'On a measure of consistency in comparison measurements: II. Using
+    - language: en
+      script: Latn
+      content: 'On a measure of consistency in comparison measurements: II. Using
         effective degrees of freedom'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: '31'
     reference_to: '35'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

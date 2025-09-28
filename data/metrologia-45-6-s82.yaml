@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S82
-title:
-- content: High performance of a DMTD system used in a composite clock including a
-    Cs clock, a H-maser (clock) and a VCO
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S13
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S82
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High performance of a DMTD system used in a composite clock including a
+    Cs clock, a H-maser (clock) and a VCO
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S13
+docidentifier:
+- content: Metrologia 45 6 S82
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S13
+- content: 10.1088/0026-1394/45/6/S13
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Plantard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UTINAM—UMR CNRS/UFC 6213, Besançon Observatory, University of Franche-Comte,
             41 bis avenue de l'Observatoire, BP 1615, 25010 Besançon Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Mbaye
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UTINAM—UMR CNRS/UFC 6213, Besançon Observatory, University of Franche-Comte,
             41 bis avenue de l'Observatoire, BP 1615, 25010 Besançon Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Vernotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UTINAM—UMR CNRS/UFC 6213, Besançon Observatory, University of Franche-Comte,
             41 bis avenue de l'Observatoire, BP 1615, 25010 Besançon Cedex, France
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>We present a composite clock based on servoing a voltage controlled
+- language: en
+  script:
+  - Latn
+  content: "<p>We present a composite clock based on servoing a voltage controlled
     oscillator (VCO) by both a caesium beam clock and a hydrogen maser. We wish to
     obtain a physical realization of a new reference timescale with an output signal
     which combines the long term stability of the caesium clock, the middle term stability
@@ -80,55 +72,44 @@ abstract:
     at 100 MHz to the middle term frequency instabilities is expected to be around
     10<sup>−15</sup> at 1 s. This paper describes the dual-mixer time-difference (DMTD)
     system used to obtain the information needed for the control of the VCO.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High performance of a DMTD system used in a composite clock including
+    - language: en
+      script: Latn
+      content: High performance of a DMTD system used in a composite clock including
         a Cs clock, a H-maser (clock) and a VCO
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: High performance of a DMTD system used in a composite clock including
+    - language: en
+      script: Latn
+      content: High performance of a DMTD system used in a composite clock including
         a Cs clock, a H-maser (clock) and a VCO
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +120,6 @@ extent:
     reference_from: S82
     reference_to: S86
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

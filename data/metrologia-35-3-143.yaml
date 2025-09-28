@@ -1,88 +1,77 @@
 ---
-schema-version: v1.2.9
-id: Metrologia353143
-title:
-- content: Analytical resolution of least-squares applications for the circle in interferometry
-    and radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/3/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/3/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 3 143
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analytical resolution of least-squares applications for the circle in interferometry
+    and radiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/3/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/3/2
+docidentifier:
+- content: Metrologia 35 3 143
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/3/2
+- content: 10.1088/0026-1394/35/3/2
   type: doi
 date:
 - type: published
-  value: '1998-06-01'
+  at: '1998-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Razet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM
-  role:
-  - type: author
-revdate: '1998-06-01'
 abstract:
-- content: "<p>A new least-squares method for the circle using a set of coordinate
-    data (x<sub>i</sub>, y<sub>i</sub>) is presented. This method provides analytical
-    expressions for the coordinates (X̂<sub>0</sub>, Ŷ<sub>0</sub>) of the central
-    point of a circle and its radius R̂<sub>0</sub>. Expressions for the variances
-    V (X̂<sub>0</sub>), V (Ŷ<sub>0</sub>) and V(R̂<sub>0</sub>), and the covariances
-    cov (X̂<sub>0</sub>, Ŷ<sub>0</sub>), cov (X̂<sub>0</sub>, R̂<sub>0</sub>) and
-    cov (Ŷ<sub>0</sub>, R̂<sub>0</sub>) are also presented. The method is applied
-    to two problems, one in interferometry and the other in radiometry.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A new least-squares method for the circle using a set of coordinate
+    data (<italic>x<sub>i</sub></italic>, <italic>y<sub>i</sub></italic>) is presented.
+    This method provides analytical expressions for the coordinates (X̂<sub>0</sub>,
+    Ŷ<sub>0</sub>) of the central point of a circle and its radius R̂<sub>0</sub>.
+    Expressions for the variances <italic>V</italic> (X̂<sub>0</sub>), <italic>V</italic>
+    (Ŷ<sub>0</sub>) and <italic>V</italic>(R̂<sub>0</sub>), and the covariances cov
+    (X̂<sub>0</sub>, Ŷ<sub>0</sub>), cov (X̂<sub>0</sub>, R̂<sub>0</sub>) and cov
+    (Ŷ<sub>0</sub>, R̂<sub>0</sub>) are also presented. The method is applied to two
+    problems, one in interferometry and the other in radiometry.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analytical resolution of least-squares applications for the circle
+    - language: en
+      script: Latn
+      content: Analytical resolution of least-squares applications for the circle
         in interferometry and radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-06-01'
+      at: '1998-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +82,6 @@ extent:
     reference_from: '143'
     reference_to: '149'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

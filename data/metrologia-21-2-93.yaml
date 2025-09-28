@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia21293
-title:
-- content: Concerning the Thermodynamic Temperatures of the Silver and Gold Points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 2 93
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Concerning the Thermodynamic Temperatures of the Silver and Gold Points
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/2/007
+docidentifier:
+- content: Metrologia 21 2 93
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/2/007
+- content: 10.1088/0026-1394/21/2/007
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Tischler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Nacional de Tecnologia Industrial, Leandro N. Alem 1067,
             1001 Buenos Aires, Argentina
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Jimenez Rebagliati
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Nacional de Tecnologia Industrial, Leandro N. Alem 1067,
             1001 Buenos Aires, Argentina
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>This is a short note presenting some results that follow from an analysis
+- language: en
+  script:
+  - Latn
+  content: "<p>This is a short note presenting some results that follow from an analysis
     of several well-known experiments performed employing radiation pyrometry. This
     is done in the light of a recently published experiment which indicates that,
     at least up to the aluminium point, temperatures measured on the IPTS-68 are systematically
@@ -67,39 +61,31 @@ abstract:
     equation arising in optical pyrometry was used. The error introduced by this approximation
     is evaluated in terms of the half-transmittance bandwidth of a pyrometer and its
     maximum-transmittance wavelength.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Concerning the Thermodynamic Temperatures of the Silver and Gold Points
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Concerning the Thermodynamic Temperatures of the Silver and Gold Points
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '93'
     reference_to: '96'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

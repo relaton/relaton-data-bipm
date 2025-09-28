@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia35275
-title:
-- content: Possible influence of residual amplitude modulation when using modulation
-    transfer with iodine transitions at 543 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/2/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/2/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 2 75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Possible influence of residual amplitude modulation when using modulation
+    transfer with iodine transitions at 543 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/2/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/2/2
+docidentifier:
+- content: Metrologia 35 2 75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/2/2
+- content: 10.1088/0026-1394/35/2/2
   type: doi
 date:
 - type: published
-  value: '1998-04-01'
+  at: '1998-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Jaatinen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO-NML, BIPM
-  role:
-  - type: author
-revdate: '1998-04-01'
 abstract:
-- content: "<p>A 543 nm He-Ne laser stabilized to iodine using modulation transfer
+- language: en
+  script:
+  - Latn
+  content: "<p>A 543 nm He-Ne laser stabilized to iodine using modulation transfer
     spectroscopy is described. A beatfrequency comparison between it and a reference
     iodine-stabilized laser showed that it had a stability better than 2 × 10<sup>-12</sup>
     after 140 seconds. The average frequency difference between the two lasers was
@@ -66,40 +60,32 @@ abstract:
     beam propagates through the absorbing medium. For the laser described here, the
     frequency shifts are smaller than the uncertainty of the frequency measurement
     (~10 kHz).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Possible influence of residual amplitude modulation when using modulation
+    - language: en
+      script: Latn
+      content: Possible influence of residual amplitude modulation when using modulation
         transfer with iodine transitions at 543 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-04-01'
+      at: '1998-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '75'
     reference_to: '81'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

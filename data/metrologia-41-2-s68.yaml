@@ -1,80 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S68
-title:
-- content: Mass measurement of 1 kg silicon spheres to establish a density standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S68
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Mass measurement of 1 kg silicon spheres to establish a density standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S07
+docidentifier:
+- content: Metrologia 41 2 S68
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S07
+- content: 10.1088/0026-1394/41/2/S07
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Mizushima
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology (NMIJ/AIST), Central 3, 1-1, Umezono
             1-chome, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ueki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology (NMIJ/AIST), Central 3, 1-1, Umezono
             1-chome, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology (NMIJ/AIST), Central 3, 1-1, Umezono
             1-chome, Tsukuba, Ibaraki 305-8563, Japan
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>Air buoyancy causes a significant systematic effect in precision mass
+- language: en
+  script:
+  - Latn
+  content: "<p>Air buoyancy causes a significant systematic effect in precision mass
     determination of 1 kg silicon spheres. In order to correct this effect accurately,
     mass measurement of the silicon sphere was conducted using buoyancy artefacts;
     additionally, in order to stabilize atmospheric conditions, we used a vacuum chamber
@@ -83,53 +75,42 @@ abstract:
     air and in vacuum showed good agreement with each other in spite of the desorption
     effect from weight surfaces. Furthermore, the result of weighing under vacuum
     conditions demonstrated better repeatability than that obtained in air.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass measurement of 1 kg silicon spheres to establish a density standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass measurement of 1 kg silicon spheres to establish a density standard
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mass measurement of 1 kg silicon spheres to establish a density standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Mass measurement of 1 kg silicon spheres to establish a density standard
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +121,6 @@ extent:
     reference_from: S68
     reference_to: S74
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

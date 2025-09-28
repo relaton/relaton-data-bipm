@@ -1,105 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia551114
-title:
-- content: Anelasticity in flexure strips revisited
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaa112
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaa112
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 114
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Anelasticity in flexure strips revisited
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaa112
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaa112
+docidentifier:
+- content: Metrologia 55 1 114
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaa112
+- content: 10.1088/1681-7575/aaa112
   type: doi
 date:
 - type: published
-  value: '2018-01-24'
+  at: '2018-01-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clive C Speake
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Edgbaston, Birmingham B15 2TT, United Kingdom
         name:
         - content: University of Birmingham
         subdivision:
-        - content: School of Physics and Astronomy
-        contact:
-        - address:
-            formatted_address: Edgbaston, Birmingham B15 2TT, United Kingdom
-  role:
-  - type: author
-revdate: '2018-01-24'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Physics and Astronomy
 abstract:
-- content: Abstract<p>This note reviews previous analyses by the author of the damping
-    produced by the anelasticity of a simple flexure element that is loaded in tension
-    by an extended object such as a beam balance. The correct calculation of the anelasticity
-    of a simple flexure appeared in an appendix in Quinn et al (1995 Phys. Lett. A
-    197 197) where the change in the gravitational potential energy due to the shortening
-    of the flexure was calculated enabling expressions for the elastic energy and
-    its associated losses to be derived. Publications prior to this paper did not
-    include this lossless term which led to incorrect predictions of the anelastic
-    losses in flexure pivots in Quinn et al (1992 Phil. Mag. A 65 261–76). In this
-    current paper the derivation of the result is given in such a way that it can
-    be easily contrasted with the expressions in these earlier papers. I also extend
-    the methodology to calculate the elastic and gravitational energy associated with
-    the motion of a suspended object whose dimensions are significantly smaller than
-    the length of the flexure.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This note reviews previous analyses by the author of the damping produced by the anelasticity of a simple flexure element that is loaded in tension by an extended object such as a beam balance. The correct calculation of the anelasticity of a simple flexure appeared in an appendix in Quinn <italic>et al</italic> (1995 <italic>Phys. Lett</italic>. A <bold>197</bold> 197) where the change in the gravitational potential energy due to the shortening of the flexure was calculated enabling expressions for the elastic energy and its associated losses to be derived. Publications prior to this paper did not include this lossless term which led to incorrect predictions of the anelastic losses in flexure pivots in Quinn <italic>et al</italic> (1992 <italic>Phil. Mag</italic>. A <bold>65</bold> 261–76). In this current paper the derivation of the result is given in such a way that it can be easily contrasted with the expressions in these earlier papers. I also extend the methodology to calculate the elastic and gravitational energy associated with the motion of a suspended object whose dimensions are significantly smaller than the length of the flexure.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Anelasticity in flexure strips revisited
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Anelasticity in flexure strips revisited
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Anelasticity in flexure strips revisited
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Anelasticity in flexure strips revisited
     date:
     - type: epub
-      value: '2018-01-24'
+      at: '2018-01-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +93,6 @@ extent:
     reference_from: '114'
     reference_to: '119'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

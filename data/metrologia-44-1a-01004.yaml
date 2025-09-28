@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A01004
-title:
-- content: 'Final report on CCEM-K10: Key comparison of resistance standards at 100
-    Ω'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/01004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/01004
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 01004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on CCEM-K10: Key comparison of resistance standards at 100
+    Ω'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/01004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/01004
+docidentifier:
+- content: Metrologia 44 1A 01004
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/01004
+- content: 10.1088/0026-1394/44/1A/01004
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernd Schumacher
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>A key comparison of resistance standards at 100 Ω started in 2001. The pilot laboratory, seven national metrological institutes and the BIPM participated in that comparison. Within an expanded measurement uncertainty (k = 2) of 2 × 10<sup>-8</sup> the results of the participants agreed with the key comparison reference value. The comparison was limited by the transport behaviour of the travelling standards and hence does not reflect the actual calibration capabilities of the participants.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A key comparison of resistance standards at 100 Ω started in 2001. The pilot laboratory, seven national metrological institutes and the BIPM participated in that comparison. Within an expanded measurement uncertainty (<italic>k</italic> = 2) of 2 × 10<sup>-8</sup> the results of the participants agreed with the key comparison reference value. The comparison was limited by the transport behaviour of the travelling standards and hence does not reflect the actual calibration capabilities of the participants.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K10/CCEM-K10.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on CCEM-K10: Key comparison of resistance standards at
+    - language: en
+      script: Latn
+      content: 'Final report on CCEM-K10: Key comparison of resistance standards at
         100 Ω'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +79,6 @@ extent:
     reference_from: '01004'
     reference_to: '01004'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

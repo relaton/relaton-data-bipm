@@ -1,127 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6135
-title:
-- content: Normal Boiling Point and Triple Point Temperatures of Neon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 1 35
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Normal Boiling Point and Triple Point Temperatures of Neon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/1/007
+docidentifier:
+- content: Metrologia 6 1 35
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/1/007
+- content: 10.1088/0026-1394/6/1/007
   type: doi
 date:
 - type: published
-  value: '1970-01-01'
+  at: '1970-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G T Furukawa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W G Saba
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D M Sweger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H H Plumb
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
-  - type: author
-revdate: '1970-01-01'
 abstract:
-- content: "<p>The normal boiling point and triple point temperatures and the triple
+- language: en
+  script:
+  - Latn
+  content: "<p>The normal boiling point and triple point temperatures and the triple
     point pressure of neon were found to be 27.096 ± 0.001 K and 24.553 ± 0.001 K,
     and 43332 ± 13 N/m<sup>2</sup> [325.02 ± 0.10 mm Hg (0 °C)], respectively. (The
     temperatures are in terms of the NBS-1955 provisional temperature scale. The figures
     after the ± symbol indicate estimated uncertainties.) The triple point pressure
     is in accord with the more recent values, but the normal boiling point and triple
     point temperatures deviate significantly from those of previous investigators.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Normal Boiling Point and Triple Point Temperatures of Neon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Normal Boiling Point and Triple Point Temperatures of Neon
     date:
     - type: ppub
-      value: '1970-01-01'
+      at: '1970-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +114,6 @@ extent:
     reference_from: '35'
     reference_to: '37'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

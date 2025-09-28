@@ -1,148 +1,127 @@
 ---
-schema-version: v1.2.9
-id: Metrologia455503
-title:
-- content: The coverage factor in a Flatten–Gaussian distribution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/5/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/5/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 5 503
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The coverage factor in a Flatten–Gaussian distribution
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/5/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/5/002
+docidentifier:
+- content: Metrologia 45 5 503
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/5/002
+- content: 10.1088/0026-1394/45/5/002
   type: doi
 date:
 - type: published
-  value: '2008-08-21'
+  at: '2008-08-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Blázquez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Nuclear Fission Division, CIEMAT, Avenida Complutense 22, 28040
             Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A García-Berrocal
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: AMERPREM Research Group, School of Mines, Technical University
             of Madrid (UPM), Ríos Rosas 21, 28003 Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Montalvo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: AMERPREM Research Group, School of Mines, Technical University
             of Madrid (UPM), Ríos Rosas 21, 28003 Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Balbás
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: AMERPREM Research Group, School of Mines, Technical University
             of Madrid (UPM), Ríos Rosas 21, 28003 Madrid, Spain
-  role:
-  - type: author
-revdate: '2008-08-21'
 abstract:
-- content: "<p>According to the Guide to the Expression of Uncertainty in Measurement,
-    a coverage factor that produces an expanded uncertainty having an approximate
-    level of confidence is recommended in the final expression of the measurement
-    result. The numerical value for the coverage factor depends on the probability
-    density function. When a Type A evaluation following a Gaussian (normal) distribution
-    is combined with a Type B one following a rectangular distribution, the resulting
-    probability density function is neither Gaussian nor rectangular, but similar
-    to both, which we term a Flatten–Gaussian probability density function. The variance
-    of such a function is the combined variance in the usual way, but the coverage
-    factor must be calculated.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>According to the <italic>Guide to the Expression of Uncertainty in
+    Measurement</italic>, a coverage factor that produces an expanded uncertainty
+    having an approximate level of confidence is recommended in the final expression
+    of the measurement result. The numerical value for the coverage factor depends
+    on the probability density function. When a Type A evaluation following a Gaussian
+    (normal) distribution is combined with a Type B one following a rectangular distribution,
+    the resulting probability density function is neither Gaussian nor rectangular,
+    but similar to both, which we term a Flatten–Gaussian probability density function.
+    The variance of such a function is the combined variance in the usual way, but
+    the coverage factor must be calculated.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The coverage factor in a Flatten–Gaussian distribution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The coverage factor in a Flatten–Gaussian distribution
     date:
     - type: epub
-      value: '2008-08-21'
+      at: '2008-08-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The coverage factor in a Flatten–Gaussian distribution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The coverage factor in a Flatten–Gaussian distribution
     date:
     - type: ppub
-      value: '2008-10-01'
+      at: '2008-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +132,6 @@ extent:
     reference_from: '503'
     reference_to: '506'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

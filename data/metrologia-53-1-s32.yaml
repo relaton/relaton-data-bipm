@@ -1,123 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S32
-title:
-- content: 'Markov chain Monte Carlo methods: an introductory example'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S32
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S32
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S32
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Markov chain Monte Carlo methods: an introductory example'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S32
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S32
+docidentifier:
+- content: Metrologia 53 1 S32
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S32
+- content: 10.1088/0026-1394/53/1/S32
   type: doi
 date:
 - type: published
-  value: '2016-01-13'
+  at: '2016-01-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Katy Klauenberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2016-01-13'
 abstract:
-- content: Abstract<p>When the Guide to the Expression of Uncertainty in Measurement
-    (GUM) and methods from its supplements are not applicable, the Bayesian approach
-    may be a valid and welcome alternative. Evaluating the posterior distribution,
-    estimates or uncertainties involved in Bayesian inferences often requires numerical
-    methods to avoid high-dimensional integrations. Markov chain Monte Carlo (MCMC)
-    sampling is such a method—powerful, flexible and widely applied. Here, a concise
-    introduction is given, illustrated by a simple, typical example from metrology.</p><p>The
-    Metropolis–Hastings algorithm is the most basic and yet flexible MCMC method.
-    Its underlying concepts are explained and the algorithm is given step by step.
-    The few lines of software code required for its implementation invite interested
-    readers to get started. Diagnostics to evaluate the performance and common algorithmic
-    choices are illustrated to calibrate the Metropolis–Hastings algorithm for efficiency.
-    Routine application of MCMC algorithms may be hindered currently by the difficulty
-    to assess the convergence of MCMC output and thus to assure the validity of results.
-    An example points to the importance of convergence and initiates discussion about
-    advantages as well as areas of research. Available software tools are mentioned
-    throughout.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>When the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) and methods from its supplements are not applicable, the Bayesian approach may be a valid and welcome alternative. Evaluating the posterior distribution, estimates or uncertainties involved in Bayesian inferences often requires numerical methods to avoid high-dimensional integrations. Markov chain Monte Carlo (MCMC) sampling is such a method—powerful, flexible and widely applied. Here, a concise introduction is given, illustrated by a simple, typical example from metrology.</p>
+    <p>The Metropolis–Hastings algorithm is the most basic and yet flexible MCMC method. Its underlying concepts are explained and the algorithm is given step by step. The few lines of software code required for its implementation invite interested readers to get started. Diagnostics to evaluate the performance and common algorithmic choices are illustrated to calibrate the Metropolis–Hastings algorithm for efficiency. Routine application of MCMC algorithms may be hindered currently by the difficulty to assess the convergence of MCMC output and thus to assure the validity of results. An example points to the importance of convergence and initiates discussion about advantages as well as areas of research. Available software tools are mentioned throughout.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Markov chain Monte Carlo methods: an introductory example'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Markov chain Monte Carlo methods: an introductory example'
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Markov chain Monte Carlo methods: an introductory example'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Markov chain Monte Carlo methods: an introductory example'
     date:
     - type: epub
-      value: '2016-01-13'
+      at: '2016-01-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +103,6 @@ extent:
     reference_from: S32
     reference_to: S39
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

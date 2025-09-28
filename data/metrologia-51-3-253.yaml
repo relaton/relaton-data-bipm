@@ -1,189 +1,155 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513253
-title:
-- content: Carrier-phase two-way satellite frequency transfer over a very long baseline
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/253
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/253
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 253
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Carrier-phase two-way satellite frequency transfer over a very long baseline
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/253
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/253
+docidentifier:
+- content: Metrologia 51 3 253
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/253
+- content: 10.1088/0026-1394/51/3/253
   type: doi
 date:
 - type: published
-  value: '2014-05-28'
+  at: '2014-05-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Fujieda
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Koganei, Japan
         name:
         - content: National Institute of Information and Communications Technology
-        contact:
-        - address:
-            formatted_address: Koganei, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Piester
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Gotoh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Koganei, Japan
         name:
         - content: National Institute of Information and Communications Technology
-        contact:
-        - address:
-            formatted_address: Koganei, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Becker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Aida
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Koganei, Japan
         name:
         - content: National Institute of Information and Communications Technology
-        contact:
-        - address:
-            formatted_address: Koganei, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bauch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2014-05-28'
 abstract:
-- content: Abstract<p>In this paper we report that carrier-phase two-way satellite
-    time and frequency transfer (TWSTFT) was successfully demonstrated over a very
-    long baseline of 9000 km, established between the National Institute of Information
-    and Communications Technology (NICT) and the Physikalisch-Technische Bundesanstalt
-    (PTB). We verified that the carrier-phase TWSTFT (TWCP) result agreed with those
-    obtained by conventional TWSTFT and GPS carrier-phase (GPSCP) techniques. Moreover,
-    a much improved short-term instability for frequency transfer of 2 × 10<sup>−13</sup>
-    at 1 s was achieved, which is at the same level as previously confirmed over a
-    shorter baseline within Japan. The precision achieved was so high that the effects
-    of ionospheric delay became significant; they are ignored in conventional TWSTFT
-    even over a long link. We compensated for these effects using ionospheric delays
-    computed from regional vertical total electron content maps. The agreement between
-    the TWCP and GPSCP results was improved because of this compensation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In this paper we report that carrier-phase two-way satellite time and frequency transfer (TWSTFT) was successfully demonstrated over a very long baseline of 9000 km, established between the National Institute of Information and Communications Technology (NICT) and the Physikalisch-Technische Bundesanstalt (PTB). We verified that the carrier-phase TWSTFT (TWCP) result agreed with those obtained by conventional TWSTFT and GPS carrier-phase (GPSCP) techniques. Moreover, a much improved short-term instability for frequency transfer of 2 × 10<sup>−13</sup> at 1 s was achieved, which is at the same level as previously confirmed over a shorter baseline within Japan. The precision achieved was so high that the effects of ionospheric delay became significant; they are ignored in conventional TWSTFT even over a long link. We compensated for these effects using ionospheric delays computed from regional vertical total electron content maps. The agreement between the TWCP and GPSCP results was improved because of this compensation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Carrier-phase two-way satellite frequency transfer over a very long
+    - script: Latn
+      content: Carrier-phase two-way satellite frequency transfer over a very long
         baseline
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Carrier-phase two-way satellite frequency transfer over a very long
+    - script: Latn
+      content: Carrier-phase two-way satellite frequency transfer over a very long
         baseline
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-05-28'
+      at: '2014-05-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -194,6 +160,6 @@ extent:
     reference_from: '253'
     reference_to: '262'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

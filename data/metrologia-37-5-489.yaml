@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375489
-title:
-- content: Correction of directional errors for radiometric and photometric standard
-    detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/32
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/32
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 489
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Correction of directional errors for radiometric and photometric standard
+    detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/32
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/32
+docidentifier:
+- content: Metrologia 37 5 489
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/32
+- content: 10.1088/0026-1394/37/5/32
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Rácz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hungarian Acad. Sci.-RITPMS, Konkoly Obs.-Budapest, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G P Eppeldauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hungarian Acad. Sci.-RITPMS, Konkoly Obs.-Budapest, NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>Changes in beam geometry during the calibration and subsequent testing
+- language: en
+  script:
+  - Latn
+  content: "<p>Changes in beam geometry during the calibration and subsequent testing
     of optical detector standards can cause errors which appear as uncertainties in
     the responsivities of the detectors. These uncertainties, caused by non-ideal
     detector input characteristics and changes in input beam geometry, can be decreased
@@ -72,40 +66,32 @@ abstract:
     correction factors for some practical standard detectors (such as diffuser-input
     InGaAs and integrating-sphere-input silicon irradiance meters, silicon photodiodes,
     and pyroelectric radiant power and irradiance measuring detectors).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correction of directional errors for radiometric and photometric standard
+    - language: en
+      script: Latn
+      content: Correction of directional errors for radiometric and photometric standard
         detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +102,6 @@ extent:
     reference_from: '489'
     reference_to: '492'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,101 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S82
-title:
-- content: Primary standards of radon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S11
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S82
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Primary standards of radon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S11
+docidentifier:
+- content: Metrologia 44 4 S82
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S11
+- content: 10.1088/0026-1394/44/4/S11
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P De Felice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ENEA—Istituto Nazionale di Metrologia delle Radiazioni Ionizzanti,
             C.R. Casaccia, via Anguillarese, 301, I-00100 Rome, Italy
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>This paper describes the present status of radon (<sup>222</sup>Rn)
-    reference standards developed by national metrology institutes. The main contributions
-    to this field are reviewed with emphasis both on the traditional methods (based
-    on<sup>226</sup>Ra standards) and also on the new absolute methods that have become
-    available since 1996, especially those more recently developed. The topics covered
-    include a description of the various methodologies adopted, instrumentation used,
-    uncertainties achieved and the internal and international comparisons performed
-    to demonstrate the validity of the developed standards.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>This paper describes the present status of radon (<sup>222</sup>Rn)
+    reference standards developed by national metrology institutes. The main contributions
+    to this field are reviewed with emphasis both on the traditional methods (based
+    on <sup>226</sup>Ra standards) and also on the new absolute methods that have
+    become available since 1996, especially those more recently developed. The topics
+    covered include a description of the various methodologies adopted, instrumentation
+    used, uncertainties achieved and the internal and international comparisons performed
+    to demonstrate the validity of the developed standards.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standards of radon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Primary standards of radon
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standards of radon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Primary standards of radon
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: S82
     reference_to: S86
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

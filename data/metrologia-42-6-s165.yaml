@@ -1,124 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S165
-title:
-- content: Results on the effective area of the FPG-type digital piston manometer
-    of MIKES
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Results on the effective area of the FPG-type digital piston manometer
+    of MIKES
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S03
+docidentifier:
+- content: Metrologia 42 6 S165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S03
+- content: 10.1088/0026-1394/42/6/S03
   type: doi
 date:
 - type: published
-  value: '2005-11-09'
+  at: '2005-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Markku Rantanen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centre for Metrology and Accreditation (MIKES), PO Box 9, FI-02151
             Espoo, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sari Semenoja
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centre for Metrology and Accreditation (MIKES), PO Box 9, FI-02151
             Espoo, Finland
-  role:
-  - type: author
-revdate: '2005-11-09'
 abstract:
-- content: "<p>The Centre for Metrology and Accreditation (MIKES) has been using a
-    new type of a digital piston manometer (force-balanced piston gauge (FPG)) since
-    2001. The instrument was developed by DH Instruments Inc., USA. Determination
-    of the effective area was an essential part in validating the FPG in MIKES. One
-    of the big advantages of the FPG is the fact that a conventional pressure balance
-    can be used to determine the effective area. However, the measurement is not straightforward
-    due to the lubrication gas flow in the FPG.</p><p>The effective area of the MIKES
-    FPG has now been determined several times in the gauge mode by MIKES, once by
-    NMi-VSL, The Netherlands, once by SP, Sweden, and twice by the manufacturer. Measurements
-    in absolute mode have been made using the mercury column manometer of the Physikalisch-Technische
-    Bundesanstalt, Germany.</p><p>The measurement methods and the results are described
-    in the paper. The results of measurements in MIKES from 2001 to 2004 illustrate
-    the long-term stability and reproducibility of the instrument.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The Centre for Metrology and Accreditation (MIKES) has been using a new type of a digital piston manometer (force-balanced piston gauge (FPG)) since 2001. The instrument was developed by DH Instruments Inc., USA. Determination of the effective area was an essential part in validating the FPG in MIKES. One of the big advantages of the FPG is the fact that a conventional pressure balance can be used to determine the effective area. However, the measurement is not straightforward due to the lubrication gas flow in the FPG.</p>
+    <p>The effective area of the MIKES FPG has now been determined several times in the gauge mode by MIKES, once by NMi-VSL, The Netherlands, once by SP, Sweden, and twice by the manufacturer. Measurements in absolute mode have been made using the mercury column manometer of the Physikalisch-Technische Bundesanstalt, Germany.</p>
+    <p>The measurement methods and the results are described in the paper. The results of measurements in MIKES from 2001 to 2004 illustrate the long-term stability and reproducibility of the instrument.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Results on the effective area of the FPG-type digital piston manometer
+    - language: en
+      script: Latn
+      content: Results on the effective area of the FPG-type digital piston manometer
         of MIKES
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-09'
+      at: '2005-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Results on the effective area of the FPG-type digital piston manometer
+    - language: en
+      script: Latn
+      content: Results on the effective area of the FPG-type digital piston manometer
         of MIKES
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +103,6 @@ extent:
     reference_from: S165
     reference_to: S168
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia376651
-title:
-- content: Absolute measurement of the hyperfine splittings of six molecular<sup>127</sup>I<sub>2</sub>
-    lines around the He-Ne/I<sub>2</sub> wavelength at λ = 633 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/37/6/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/6/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 6 651
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute measurement of the hyperfine splittings of six molecular <sup>127</sup>I<sub>2</sub>
+    lines around the He-Ne/I<sub>2</sub> wavelength at λ = 633 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/6/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/6/2
+docidentifier:
+- content: Metrologia 37 6 651
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/6/2
+- content: 10.1088/0026-1394/37/6/2
   type: doi
 date:
 - type: published
-  value: '2000-12-01'
+  at: '2000-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H R Simonsen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DFM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Rose
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DFM
-  role:
-  - type: author
-revdate: '2000-12-01'
 abstract:
-- content: "<p>With the aid of two diode-laser narrowband spectrometers around 633
+- language: en
+  script:
+  - Latn
+  content: "<p>With the aid of two diode-laser narrowband spectrometers around 633
     nm, we report the measurement of the iodine hyperfine components of the R(60)
     8-4, R(125) 9-4 and P(54) 8-4 transitions located −12 GHz from the classical red
-    He-Ne laser stabilized on the R(127) 11-5 transition of<sup>127</sup>I<sub>2</sub>,
+    He-Ne laser stabilized on the R(127) 11-5 transition of <sup>127</sup>I<sub>2</sub>,
     the P(33) 6-3 transition roughly −1 GHz away, the P(39) 6-3 transition 3.4 GHz
     above, and the R(59) 8-4 and P(53) 8-4 transitions roughly 19 GHz above. The Doppler-free
     absorption signals were resolved using a third-harmonic detection technique and
@@ -66,40 +60,32 @@ abstract:
     individual hyperfine transitions were linked to a 633 nm He-Ne laser by direct
     frequency measurements up to 16 GHz. The experimental standard uncertainty was
     typically below 5 kHz (i.e. relative uncertainty &lt;1 × 10<sup>−11</sup>).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute measurement of the hyperfine splittings of six molecular<sup>127</sup>I<sub>2</sub>
+    - language: en
+      script: Latn
+      content: Absolute measurement of the hyperfine splittings of six molecular <sup>127</sup>I<sub>2</sub>
         lines around the He-Ne/I<sub>2</sub> wavelength at λ = 633 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2000-12-01'
+      at: '2000-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '651'
     reference_to: '658'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

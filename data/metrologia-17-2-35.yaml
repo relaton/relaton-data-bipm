@@ -1,93 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia17235
-title:
-- content: 'The Use of Triple Point of Gases in Sealed Cells as Pressure Transfer
-    Standards: Oxygen (146.25 Pa), Methane (11,696 Pa) and Argon (68,890 Pa)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 2 35
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Use of Triple Point of Gases in Sealed Cells as Pressure Transfer
+    Standards: Oxygen (146.25 Pa), Methane (11,696 Pa) and Argon (68,890 Pa)'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/2/001
+docidentifier:
+- content: Metrologia 17 2 35
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/2/001
+- content: 10.1088/0026-1394/17/2/001
   type: doi
 date:
 - type: published
-  value: '1981-04-01'
+  at: '1981-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Franco Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
-  - type: author
-revdate: '1981-04-01'
 abstract:
-- content: "<p>The use of the triple point of gases as a method for obtaining highly
+- language: en
+  script:
+  - Latn
+  content: "<p>The use of the triple point of gases as a method for obtaining highly
     reproducible pressure fixed points is described. In order to obtain pressure transfer
     standards, the method is implemented with transportable, self-contained sealed
     cells, containing the sample of gas, which can be easily shipped around for intercomparisons
     in the pressure range 0.1 to 100 kPa. Experimental results on these devices are
     reported for three gases, including also their absolute pressure value. Oxygen:
-    p = 146.25 ± 0.3 Pa, T = 54.3610 K, reproducibility of the transfer standard:
-    ±0.1 Pa; methane: p = 11 696 ± 2 Pa, T = 90.6856 K, reproducibility: ±0.7 Pa;
-    argon: p = 68 890 ± 1.5 Pa, T = 83.7980 K, reproducibility: ±1 Pa. The temperature
-    of the normal boiling point of argon was also measured and found to be 87.295<sub>2</sub>
-    ± 0.0005 K. All temperatures are given in IPTS-68, realized with the triple point
-    of argon.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>p</italic> = 146.25 ± 0.3 Pa, <italic>T</italic> = 54.3610 K, reproducibility
+    of the transfer standard: ±0.1 Pa; methane: <italic>p</italic> = 11 696 ± 2 Pa,
+    <italic>T</italic> = 90.6856 K, reproducibility: ±0.7 Pa; argon: <italic>p</italic>
+    = 68 890 ± 1.5 Pa, <italic>T</italic> = 83.7980 K, reproducibility: ±1 Pa. The
+    temperature of the normal boiling point of argon was also measured and found to
+    be 87.295<sub>2</sub> ± 0.0005 K. All temperatures are given in IPTS-68, realized
+    with the triple point of argon.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Use of Triple Point of Gases in Sealed Cells as Pressure Transfer
+    - language: en
+      script: Latn
+      content: 'The Use of Triple Point of Gases in Sealed Cells as Pressure Transfer
         Standards: Oxygen (146.25 Pa), Methane (11,696 Pa) and Argon (68,890 Pa)'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1981-04-01'
+      at: '1981-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +87,6 @@ extent:
     reference_from: '35'
     reference_to: '42'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

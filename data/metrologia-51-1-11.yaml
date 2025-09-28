@@ -1,118 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia51111
-title:
-- content: Compatibility verification of certified reference materials and user measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 11
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Compatibility verification of certified reference materials and user measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/11
+docidentifier:
+- content: Metrologia 51 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/11
+- content: 10.1088/0026-1394/51/1/11
   type: doi
 date:
 - type: published
-  value: '2013-12-06'
+  at: '2013-12-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew L Rukhin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2013-12-06'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division, Information Technology Laboratory
 abstract:
-- content: Abstract<p>A problem that frequently occurs in metrology is one of assessing
-    compatibility of data obtained by a user laboratory with the specified values
-    and uncertainty estimates from the certificate of analysis. The user's data are
-    summarized by an estimated measurand value and a confidence interval, which is
-    typically based on a repeatability standard deviation, but may include other variance
-    or bias components. If the lab's interval and the certificate interval do not
-    overlap, or more generally when the ‘no-bias’ hypothesis is rejected, the user
-    may seek guidance on how to confirm this lack of compatibility or how to rectify
-    it. The suggested two-stage statistical approach demonstrates a confidence interval
-    whose width is similar to that of the certificate, and a compatibility test of
-    guaranteed power for the given bias magnitude. Practical computationally simple
-    formulae for each stage sample size are provided.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>A problem that frequently occurs in metrology is one of assessing compatibility of data obtained by a user laboratory with the specified values and uncertainty estimates from the certificate of analysis. The user's data are summarized by an estimated measurand value and a confidence interval, which is typically based on a repeatability standard deviation, but may include other variance or bias components. If the lab's interval and the certificate interval do not overlap, or more generally when the ‘no-bias’ hypothesis is rejected, the user may seek guidance on how to confirm this lack of compatibility or how to rectify it. The suggested two-stage statistical approach demonstrates a confidence interval whose width is similar to that of the certificate, and a compatibility test of guaranteed power for the given bias magnitude. Practical computationally simple formulae for each stage sample size are provided.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Compatibility verification of certified reference materials and user
+    - script: Latn
+      content: Compatibility verification of certified reference materials and user
         measurements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Compatibility verification of certified reference materials and user
+    - script: Latn
+      content: Compatibility verification of certified reference materials and user
         measurements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-12-06'
+      at: '2013-12-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Compatibility verification of certified reference materials and user
+    - script: Latn
+      content: Compatibility verification of certified reference materials and user
         measurements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2013-12-06'
+      at: '2013-12-06'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: '11'
     reference_to: '17'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

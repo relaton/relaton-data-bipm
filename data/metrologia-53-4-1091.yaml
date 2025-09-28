@@ -1,160 +1,125 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5341091
-title:
-- content: Reference data sets for testing metrology software
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/1091
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/1091
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 1091
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Reference data sets for testing metrology software
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/1091
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/1091
+docidentifier:
+- content: Metrologia 53 4 1091
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/1091
+- content: 10.1088/0026-1394/53/4/1091
   type: doi
 date:
 - type: published
-  value: '2016-07-06'
+  at: '2016-07-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G J P Kok
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
         name:
         - content: VSL
-        contact:
-        - address:
-            formatted_address: Thijsseweg 11, 2629 JA Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I M Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A B Forbes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-07-06'
 abstract:
-- content: Abstract<p>Many fields of metrology rely on calculations that are implemented
-    in software. When such software is used to provide a measurement result, which
-    is required to be traceable, it is necessary to recognise explicitly the software
-    and show it to be operating correctly. An approach to testing the performance
-    of calculation software is based on using reference pairs each of which comprises
-    reference input data applied as input to the software and corresponding reference
-    output data against which the output data of the software is compared. However,
-    to make the reference pair useful for verifying and validating calculation software,
-    information is needed about the numerical accuracy of the reference pair, the
-    numerical sensitivity of the reference output data to perturbations in the reference
-    input data, and the measurement uncertainty associated with the reference output
-    data arising from simulated measurement uncertainty associated with the reference
-    input data. Such information is important as a means to express quantitatively
-    the quality of the reference pair as a numerical artefact to test calculation
-    software, and as a basis for performance metrics to express quantitatively the
-    numerical performance of software. In this paper these additional components of
-    a reference data set are described, and various approaches to calculating them
-    are discussed. An example, concerned with the calculation of the Gaussian (least-squares)
-    best-fit plane to measured data, which is typical of calculations undertaken in
-    coordinate metrology, is used to illustrate the ideas presented.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Many fields of metrology rely on calculations that are implemented in software. When such software is used to provide a measurement result, which is required to be traceable, it is necessary to recognise explicitly the software and show it to be operating correctly. An approach to testing the performance of calculation software is based on using reference pairs each of which comprises reference input data applied as input to the software and corresponding reference output data against which the output data of the software is compared. However, to make the reference pair useful for verifying and validating calculation software, information is needed about the numerical accuracy of the reference pair, the numerical sensitivity of the reference output data to perturbations in the reference input data, and the measurement uncertainty associated with the reference output data arising from simulated measurement uncertainty associated with the reference input data. Such information is important as a means to express quantitatively the quality of the reference pair as a numerical artefact to test calculation software, and as a basis for performance metrics to express quantitatively the numerical performance of software. In this paper these additional components of a reference data set are described, and various approaches to calculating them are discussed. An example, concerned with the calculation of the Gaussian (least-squares) best-fit plane to measured data, which is typical of calculations undertaken in coordinate metrology, is used to illustrate the ideas presented.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reference data sets for testing metrology software
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Reference data sets for testing metrology software
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reference data sets for testing metrology software
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Reference data sets for testing metrology software
     date:
     - type: epub
-      value: '2016-07-06'
+      at: '2016-07-06'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -165,6 +130,6 @@ extent:
     reference_from: '1091'
     reference_to: '1100'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

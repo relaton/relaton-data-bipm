@@ -1,102 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia211
-title:
-- content: Slowing Down Spectrum and Neutron Temperature in a Thermal Neutron Flux
-    Density Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Slowing Down Spectrum and Neutron Temperature in a Thermal Neutron Flux
+    Density Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/1/002
+docidentifier:
+- content: Metrologia 2 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/1/002
+- content: 10.1088/0026-1394/2/1/002
   type: doi
 date:
 - type: published
-  value: '1966-01-01'
+  at: '1966-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K W Geiger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L van der Zwan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1966-01-01'
 abstract:
-- content: "<p>Epithermal and thermal flux parameters for the thermal flux density
-    standard at the National Research Council have been measured to allow a more accurate
-    calculation of activation rates. The epithermal spectrum is found to follow a
-    E<sup>-0.95</sup> law, where E is the neutron energy. The effective neutron temperature
-    in the irradiation cavity is found to be 42 °C which is 22 °C higher than the
-    moderator temperature. A formula to calculate the reaction rate is given.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Epithermal and thermal flux parameters for the thermal flux density
+    standard at the National Research Council have been measured to allow a more accurate
+    calculation of activation rates. The epithermal spectrum is found to follow a
+    <italic>E</italic><sup>-0.95</sup> law, where <italic>E</italic> is the neutron
+    energy. The effective neutron temperature in the irradiation cavity is found to
+    be 42 °C which is 22 °C higher than the moderator temperature. A formula to calculate
+    the reaction rate is given.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Slowing Down Spectrum and Neutron Temperature in a Thermal Neutron
+    - language: en
+      script: Latn
+      content: Slowing Down Spectrum and Neutron Temperature in a Thermal Neutron
         Flux Density Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1966-01-01'
+      at: '1966-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +94,6 @@ extent:
     reference_from: '1'
     reference_to: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

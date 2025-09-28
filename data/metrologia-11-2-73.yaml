@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11273
-title:
-- content: An Improved Method of Data Collection for 4πβ–γ Coincidence Measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Improved Method of Data Collection for 4πβ–γ Coincidence Measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/004
+docidentifier:
+- content: Metrologia 11 2 73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/004
+- content: 10.1088/0026-1394/11/2/004
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             UK
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>A method of data collection for the determination of absolute disintegration
+- language: en
+  script:
+  - Latn
+  content: "<p>A method of data collection for the determination of absolute disintegration
     rates by the 4 πβ - γ coincidence technique is described, which gives nearly an
     order of magnitude smaller variance, for a given total counting time, than conventional
     methods. It is applicable when the β counter output is proportional to the β particle
-    energy. The principle, which is demonstrated for<sup>134</sup>Cs, is to record
+    energy. The principle, which is demonstrated for <sup>134</sup>Cs, is to record
     the amplitudes of all the β pulses, followed by integration over variable limits.
     Expressions for dead time and resolving time corrections are derived.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Improved Method of Data Collection for 4πβ–γ Coincidence Measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Improved Method of Data Collection for 4πβ–γ Coincidence Measurements
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '73'
     reference_to: '77'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326575
-title:
-- content: Reduction of the background thermal radiation input to a cryogenic radiometer
-    for the measurement of a spectrally filtered continuum source
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/35
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/35
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 575
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reduction of the background thermal radiation input to a cryogenic radiometer
+    for the measurement of a spectrally filtered continuum source
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/35
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/35
+docidentifier:
+- content: Metrologia 32 6 575
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/35
+- content: 10.1088/0026-1394/32/6/35
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D H Nettleton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>An optical system is proposed that reduces the background thermal radiation
+- language: en
+  script:
+  - Latn
+  content: "<p>An optical system is proposed that reduces the background thermal radiation
     input to a cryogenic radiometer by a factor of almost 40000. This system is based
     on a concave grating which can be configured to create a scanning monochromator
     with the cryogenic radiometer entrance aperture as the exit slit. A cryogenic
     radiometer is described that has a sensitivity of 1 pW and which is suitable for
     use with this monochromator and a continuum source to calibrate detectors at an
     uncertainty level of one part in 10<sup>5</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reduction of the background thermal radiation input to a cryogenic
+    - language: en
+      script: Latn
+      content: Reduction of the background thermal radiation input to a cryogenic
         radiometer for the measurement of a spectrally filtered continuum source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '575'
     reference_to: '579'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

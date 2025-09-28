@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2919
-title:
-- content: Calculation of the Effective Emissivities of Specular-Diffuse Cavities
-    by the Monte Carlo Method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 1 9
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calculation of the Effective Emissivities of Specular-Diffuse Cavities
+    by the Monte Carlo Method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/1/003
+docidentifier:
+- content: Metrologia 29 1 9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/1/003
+- content: 10.1088/0026-1394/29/1/003
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Sapritsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Union Research Institute for Optical and Physical Measurements
             (VNIIOFI), Ozernaya str. 46, Moscow 119361, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A V Prokhorov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Union Research Institute for Optical and Physical Measurements
             (VNIIOFI), Ozernaya str. 46, Moscow 119361, Russia
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>An algorithm of the Monte Carlo method is described which allows evaluation
+- language: en
+  script:
+  - Latn
+  content: "<p>An algorithm of the Monte Carlo method is described which allows evaluation
     of the effective emissivities of isothermal and nonisothermal specular-diffuse
     black-body cavities for use in radiometry, photometry and optical pyrometry. The
     calculation provides estimates of normal spectral effective emissivity for black-body
     cavities, formed by cone surfaces and a cylinder. It does this for an isothermal
     cavity and for a cavity having an arbitrary variation of temperature along the
     cavity length.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calculation of the Effective Emissivities of Specular-Diffuse Cavities
+    - language: en
+      script: Latn
+      content: Calculation of the Effective Emissivities of Specular-Diffuse Cavities
         by the Monte Carlo Method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '9'
     reference_to: '14'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

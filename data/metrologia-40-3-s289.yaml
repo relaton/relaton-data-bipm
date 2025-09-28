@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S289
-title:
-- content: Stochastic models and statistical analysis for clock noise
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/308
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/308
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S289
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Stochastic models and statistical analysis for clock noise
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/308
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/308
+docidentifier:
+- content: Metrologia 40 3 S289
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/308
+- content: 10.1088/0026-1394/40/3/308
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Donald B Percival
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Applied Physics Laboratory, University of Washington, Seattle,
             WA 98195-5640, USA
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>In this primer we first give an overview of stochastic models that
+- language: en
+  script:
+  - Latn
+  content: "<p>In this primer we first give an overview of stochastic models that
     can be used to interpret clock noise. Because of their statistical tractability,
     we concentrate on fractionally differenced (FD) processes, which we relate to
     fractional Brownian motion, discrete fractional Brownian motion, fractional Gaussian
@@ -56,53 +52,42 @@ abstract:
     WV decompose the sample variance of clock noise. We give an overview of the statistical
     properties of estimators of the SDF and the WV and show how these estimators can
     be used to deduce the parameters of stochastic models for clock noise.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stochastic models and statistical analysis for clock noise
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Stochastic models and statistical analysis for clock noise
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stochastic models and statistical analysis for clock noise
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Stochastic models and statistical analysis for clock noise
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: S289
     reference_to: S304
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

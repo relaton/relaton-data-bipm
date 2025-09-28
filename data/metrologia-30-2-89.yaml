@@ -1,105 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia30289
-title:
-- content: Comparison of GLONASS and GPS Time Transfers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 2 89
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of GLONASS and GPS Time Transfers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/2/005
+docidentifier:
+- content: Metrologia 30 2 89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/2/005
+- content: 10.1088/0026-1394/30/2/005
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Daly
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Leeds, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N B Koshelyaevsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIFTRI, Mendeleevo, Moscow Region, Russian Federation
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lewandowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres, France
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The Russian global space navigation system GLONASS could provide a
+- language: en
+  script:
+  - Latn
+  content: "<p>The Russian global space navigation system GLONASS could provide a
     technique similar to GPS for international time comparison. The main limitation
     to its use for time transfer is the lack of commercially available time receivers.
     The University of Leeds built a GPS/GLONASS receiver five years ago and since
@@ -111,39 +99,31 @@ abstract:
     GPS and GLONASS. This seven-month experiment shows that even with relatively imprecise
     data recording and processing, in terms of time metrology, GLONASS can provide
     continental time transfer at a level of several tens of nanoseconds.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of GLONASS and GPS Time Transfers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of GLONASS and GPS Time Transfers
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +134,6 @@ extent:
     reference_from: '89'
     reference_to: '94'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

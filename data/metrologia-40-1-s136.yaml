@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S136
-title:
-- content: Reversible and apparent ageing effects in infrared detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/331
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/331
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S136
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reversible and apparent ageing effects in infrared detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/331
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/331
+docidentifier:
+- content: Metrologia 40 1 S136
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/331
+- content: 10.1088/0026-1394/40/1/331
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Theocharous
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centre for Optical and Analytical Measurement, National Physical
             Laboratory, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centre for Optical and Analytical Measurement, National Physical
             Laboratory, UK
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Infrared (IR) radiometric applications require the use of IR detectors
+- language: en
+  script:
+  - Latn
+  content: "<p>Infrared (IR) radiometric applications require the use of IR detectors
     having characteristics which are stable with time. Little has appeared in the
     scientific literature on the ageing effects of IR detectors. The purpose of this
     paper is to describe some effects that can be attributed to ageing and that were
@@ -70,53 +64,42 @@ abstract:
     in path lengths during the characterization of the detectors, errors in the wavelength
     scale or radiation bandwidth used and, in some cases, due to nonlinearities in
     the response of some IR detection systems.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reversible and apparent ageing effects in infrared detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reversible and apparent ageing effects in infrared detectors
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reversible and apparent ageing effects in infrared detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reversible and apparent ageing effects in infrared detectors
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: S136
     reference_to: S140
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

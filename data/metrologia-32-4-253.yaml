@@ -1,93 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324253
-title:
-- content: 'On the propagation of the uncertainty at the triple point of water, associated
-    with the calibration of SPRTs according to the ITS-90: a case study'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 253
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'On the propagation of the uncertainty at the triple point of water, associated
+    with the calibration of SPRTs according to the ITS-90: a case study'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/2
+docidentifier:
+- content: Metrologia 32 4 253
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/2
+- content: 10.1088/0026-1394/32/4/2
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Bloembergen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: "<p>The overall uncertainty between the fixed points underlying the primary
-    calibration of standard platinum resistance thermometers (SPRTs) may be described
-    by terms, each of which is associated with the uncertainty at a given fixed point
-    T<sub>j</sub>, within the sub-range covered by the calibration. Each term is calculated,
-    using the appropriate deviation function ΔW(T), by imposing an uncertainty of
-    value zero at the other fixed points. Deviation functions with a non-zero value
-    of the deviation ΔW(T<sub>0</sub>) at the triple point of water, T<sub>0</sub>,
-    are not defined in the ITS-90, since, nominally, ΔW(T<sub>0</sub>) = 0. For this
-    reason the propagation of the uncertainty at T = T<sub>0</sub> is usually accounted
-    for only indirectly through its contribution to the uncertainties δW(T<sub>j</sub>),
-    where j ≠ 0. By slightly extending the current mathematical scheme within the
-    formalism provided by the ITS-90 it is shown that the uncertainty δW(T<sub>0</sub>)
-    at the triple point of water is also directly propagated.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The overall uncertainty between the fixed points underlying the primary
+    calibration of standard platinum resistance thermometers (SPRTs) may be described
+    by terms, each of which is associated with the uncertainty at a given fixed point
+    <italic>T</italic><sub><italic>j</italic></sub>, within the sub-range covered
+    by the calibration. Each term is calculated, using the appropriate deviation function
+    Δ<italic>W</italic>(<italic>T</italic>), by imposing an uncertainty of value zero
+    at the other fixed points. Deviation functions with a non-zero value of the deviation
+    Δ<italic>W</italic>(<italic>T</italic><sub>0</sub>) at the triple point of water,
+    <italic>T</italic><sub>0</sub>, are not defined in the ITS-90, since, nominally,
+    Δ<italic>W</italic>(<italic>T</italic><sub>0</sub>) = 0. For this reason the propagation
+    of the uncertainty at <italic>T</italic> = <italic>T</italic><sub>0</sub> is usually
+    accounted for only <italic>indirectly</italic> through its contribution to the
+    uncertainties δ<italic>W</italic>(<italic>T</italic><sub><italic>j</italic></sub>),
+    where <italic>j</italic> ≠ 0. By slightly extending the current mathematical scheme
+    within the formalism provided by the ITS-90 it is shown that the uncertainty δ<italic>W</italic>(<italic>T</italic><sub>0</sub>)
+    at the triple point of water is also <italic>directly</italic> propagated.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'On the propagation of the uncertainty at the triple point of water,
+    - language: en
+      script: Latn
+      content: 'On the propagation of the uncertainty at the triple point of water,
         associated with the calibration of SPRTs according to the ITS-90: a case study'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +89,6 @@ extent:
     reference_from: '253'
     reference_to: '257'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S203
-title:
-- content: Timing in telecommunications networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S12
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S203
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Timing in telecommunications networks
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S12
+docidentifier:
+- content: Metrologia 48 4 S203
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S12
+- content: 10.1088/0026-1394/48/4/S12
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Judah Levine
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division and JILA, National Institute of Standards
             and Technology and the University of Colorado, Boulder, CO 80305, USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>I describe the statistical considerations used to design systems whose
+- language: en
+  script:
+  - Latn
+  content: "<p>I describe the statistical considerations used to design systems whose
     clocks are compared by the use of dial-up telephone lines or the Internet to exchange
     timing information. The comparison is usually used to synchronize the time of
     a client system to the time of a server, which is, in turn, synchronized to the
@@ -52,55 +48,47 @@ abstract:
     the specified performance at minimal cost, where the cost is taken to be proportional
     to the inverse of the interval between message exchanges using either the Internet
     or dial-up telephone calls.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Timing in telecommunications networks
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Timing in telecommunications networks
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Timing in telecommunications networks
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Timing in telecommunications networks
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +99,6 @@ extent:
     reference_from: S203
     reference_to: S212
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

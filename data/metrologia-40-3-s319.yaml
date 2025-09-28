@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S319
-title:
-- content: Instantaneous spectrum of clock errors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/311
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/311
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S319
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Instantaneous spectrum of clock errors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/311
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/311
+docidentifier:
+- content: Metrologia 40 3 S319
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/311
+- content: 10.1088/0026-1394/40/3/311
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lorenzo Galleani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Patrizia Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, Torino, Italy
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>We study the case of an atomic clock whose parameters are time dependent.
+- language: en
+  script:
+  - Latn
+  content: "<p>We study the case of an atomic clock whose parameters are time dependent.
     This results in a time variation of the frequency spectrum of the clock error
     that we are able to track using time–frequency techniques. The clock is modelled
     by a standard stochastic differential equation, and several cases of time-varying
@@ -62,53 +56,42 @@ abstract:
     The time–frequency technique used to estimate the instantaneous power spectrum
     is the sliding Welch's estimator. We present numerical simulations that prove
     the effectiveness of the approach.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Instantaneous spectrum of clock errors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Instantaneous spectrum of clock errors
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Instantaneous spectrum of clock errors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Instantaneous spectrum of clock errors
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +102,6 @@ extent:
     reference_from: S319
     reference_to: S325
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

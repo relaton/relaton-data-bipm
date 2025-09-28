@@ -1,137 +1,119 @@
 ---
-schema-version: v1.2.9
-id: Metrologia416414
-title:
-- content: Algorithm for deriving the value of the Earth's gravity using the ZZG ballistic
-    absolute gravimeter
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/41/6/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/6/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 6 414
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Algorithm for deriving the value of the Earth's gravity using the ZZG ballistic
+    absolute gravimeter
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/6/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/6/009
+docidentifier:
+- content: Metrologia 41 6 414
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/6/009
+- content: 10.1088/0026-1394/41/6/009
   type: doi
 date:
 - type: published
-  value: '2004-11-05'
+  at: '2004-11-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Zabek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Geodesy and Geodetic Astronomy, Warsaw University
             of Technology, Plac Politechniki 1, 00-661, Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Knap
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Geodesy and Geodetic Astronomy, Warsaw University
             of Technology, Plac Politechniki 1, 00-661, Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Kielek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Radio-electronics, Warsaw University of Technology,
             Nowowiejska Street 15/19, 00-665 Warsaw, Poland
-  role:
-  - type: author
-revdate: '2004-11-05'
 abstract:
-- content: "<p>We describe an original algorithm for extraction of the local value
-    of the Earth's gravity from the measured trajectory, h(t), of a test mass thrown
-    up vertically. This algorithm relies upon separate adjustment of the rising and
-    the falling parts of the test mass motion to an assumed model of the trajectory,
-    and then connecting both limbs at the apex to obtain a complete ballistic curve.
-    This complete curve is adjusted finally to the motion model to obtain the values
-    of g, other trajectory parameters and the height residuals versus time curve.
-    Within the procedure for connecting the two limbs at the apex, the two limbs are
-    adjusted separately; some mechanisms are included that allow partial elimination
-    of errors arising from microseisms and other disturbances. Standard methods of
-    adjustment calculus used in geodesy are used in the fitting process.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>We describe an original algorithm for extraction of the local value
+    of the Earth's gravity from the measured trajectory, <italic>h</italic>(<italic>t</italic>),
+    of a test mass thrown up vertically. This algorithm relies upon separate adjustment
+    of the rising and the falling parts of the test mass motion to an assumed model
+    of the trajectory, and then connecting both limbs at the apex to obtain a complete
+    ballistic curve. This complete curve is adjusted finally to the motion model to
+    obtain the values of <italic>g</italic>, other trajectory parameters and the height
+    residuals versus time curve. Within the procedure for connecting the two limbs
+    at the apex, the two limbs are adjusted separately; some mechanisms are included
+    that allow partial elimination of errors arising from microseisms and other disturbances.
+    Standard methods of adjustment calculus used in geodesy are used in the fitting
+    process.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Algorithm for deriving the value of the Earth's gravity using the ZZG
+    - language: en
+      script: Latn
+      content: Algorithm for deriving the value of the Earth's gravity using the ZZG
         ballistic absolute gravimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: epub
-      value: '2004-11-05'
+      at: '2004-11-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Algorithm for deriving the value of the Earth's gravity using the ZZG
+    - language: en
+      script: Latn
+      content: Algorithm for deriving the value of the Earth's gravity using the ZZG
         ballistic absolute gravimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '2004-12-01'
+      at: '2004-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +124,6 @@ extent:
     reference_from: '414'
     reference_to: '420'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

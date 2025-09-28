@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2411
-title:
-- content: The PEL Calculable Capacitor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The PEL Calculable Capacitor
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/1/002
+docidentifier:
+- content: Metrologia 24 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/1/002
+- content: 10.1088/0026-1394/24/1/002
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics and Engineering Laboratory, Department of Scientific and
             Industrial Research, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A C Corney
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics and Engineering Laboratory, Department of Scientific and
             Industrial Research, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>The Thompson-Lampard calculable cross-capacitor is used at the Physics
+- language: en
+  script:
+  - Latn
+  content: "<p>The Thompson-Lampard calculable cross-capacitor is used at the Physics
     and Engineering Laboratory (PEL) for the derivation of the ohm. A description
     of a calculable capacitor capable of determining the value of a 0.5 pF capacitor
     with an uncertainty of 2.2 parts in 10<sup>8</sup> is given. A detailed model
@@ -67,39 +61,31 @@ abstract:
     of the capacitor. The model is also used to investigate the effect of changing
     the length and diameter of the capacitor and the significance of the use of ferromagnetic
     materials is also investigated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The PEL Calculable Capacitor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The PEL Calculable Capacitor
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '1'
     reference_to: '11'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

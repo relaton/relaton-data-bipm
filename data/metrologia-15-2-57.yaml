@@ -1,130 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia15257
-title:
-- content: The Derivation and Development of the 1976 Provisional 0.5 K to 30 K Temperature
-    Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 2 57
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Derivation and Development of the 1976 Provisional 0.5 K to 30 K Temperature
+    Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/2/001
+docidentifier:
+- content: Metrologia 15 2 57
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/2/001
+- content: 10.1088/0026-1394/15/2/001
   type: doi
 date:
 - type: published
-  value: '1979-04-01'
+  at: '1979-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratorium, Leiden, Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D N Astrov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physico-Technical and Radiotechnical Measurements Institute, Moscow,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R G Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, Sydney, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Swenson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ames Laboratory-USDOE and Department of Physics, Iowa State University,
             Ames, Iowa, USA 50011
-  role:
-  - type: author
-revdate: '1979-04-01'
 abstract:
-- content: "<p>The background, derivation and estimated thermodynamic accuracy are
+- language: en
+  script:
+  - Latn
+  content: "<p>The background, derivation and estimated thermodynamic accuracy are
     given for a provisional temperature scale, the EPT-76, which is intended to alleviate
     inconsistencies which exist between the liquid helium vapour pressure scales and
     the IPTS-68 and which prevent a thermodynamically smooth interpolation. Brief
     discussions and references are given for the use of the magnetic and gas thermometers
     which are the recommended interpolation instruments for realizing this scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Derivation and Development of the 1976 Provisional 0.5 K to 30
+    - language: en
+      script: Latn
+      content: The Derivation and Development of the 1976 Provisional 0.5 K to 30
         K Temperature Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1979-04-01'
+      at: '1979-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +117,6 @@ extent:
     reference_from: '57'
     reference_to: '63'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

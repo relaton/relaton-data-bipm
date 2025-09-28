@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375473
-title:
-- content: The NPL detector-stabilized irradiance source
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/28
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/28
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 473
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The NPL detector-stabilized irradiance source
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/28
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/28
+docidentifier:
+- content: Metrologia 37 5 473
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/28
+- content: 10.1088/0026-1394/37/5/28
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S A Windsor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N J Harrison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The design of a new detector-stabilized spectral irradiance source
+- language: en
+  script:
+  - Latn
+  content: "<p>The design of a new detector-stabilized spectral irradiance source
     is presented, together with an evaluation of its performance. This new source
     consists of a tungsten-halogen lamp that is current-controlled using feedback
     from an array of filtered photodiodes. The bandpass and central wavelength of
@@ -83,39 +75,31 @@ abstract:
     independently of its associated control electronics for calibration purposes.
     The performance of the lamp indicates ageing rates of better than 2 × 10<sup>−5</sup>
     h<sup>−1</sup>, across the ultraviolet-A (UV-A) and visible spectral regions.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The NPL detector-stabilized irradiance source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The NPL detector-stabilized irradiance source
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '473'
     reference_to: '476'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

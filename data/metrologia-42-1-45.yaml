@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia42145
-title:
-- content: Measurement of sensitivity level pressure corrections for LS2P laboratory
-    standard microphones
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1 45
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of sensitivity level pressure corrections for LS2P laboratory
+    standard microphones
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1/006
+docidentifier:
+- content: Metrologia 42 1 45
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1/006
+- content: 10.1088/0026-1394/42/1/006
   type: doi
 date:
 - type: published
-  value: '2005-01-27'
+  at: '2005-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lixue Wu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustical Standards, Institute for National Measurement Standards,
             National Research Council Canada, Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: George S K Wong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustical Standards, Institute for National Measurement Standards,
             National Research Council Canada, Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Hanes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustical Standards, Institute for National Measurement Standards,
             National Research Council Canada, Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Won-Suk Ohm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustical Standards, Institute for National Measurement Standards,
             National Research Council Canada, Ottawa, Ontario, K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2005-01-27'
 abstract:
-- content: "<p>The corrections for the influence of atmospheric pressure on the sensitivity
+- language: en
+  script:
+  - Latn
+  content: "<p>The corrections for the influence of atmospheric pressure on the sensitivity
     levels of laboratory standard microphones vary with frequency. The sensitivity
     level pressure corrections for Brüel and Kjær 4180 and G.R.A.S. 40AG laboratory
     standard microphones were measured. Over the barometric pressure range from 94 kPa
@@ -95,55 +85,44 @@ abstract:
     standard microphones changed by 0.05 dB at 1 kHz and 0.12 dB at 20 kHz, respectively.
     Empirical equations for sensitivity level pressure corrections for the above microphones
     are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of sensitivity level pressure corrections for LS2P laboratory
+    - language: en
+      script: Latn
+      content: Measurement of sensitivity level pressure corrections for LS2P laboratory
         standard microphones
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-01-27'
+      at: '2005-01-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of sensitivity level pressure corrections for LS2P laboratory
+    - language: en
+      script: Latn
+      content: Measurement of sensitivity level pressure corrections for LS2P laboratory
         standard microphones
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-02-01'
+      at: '2005-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +133,6 @@ extent:
     reference_from: '45'
     reference_to: '48'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

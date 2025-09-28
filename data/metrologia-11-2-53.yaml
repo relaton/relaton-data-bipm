@@ -1,133 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11253
-title:
-- content: Détermination absolue de la teneur en deutérium d'une eau lourde, mesure
-    de sa masse volumique Calcul de la masse volumique de la variété isotopiquement
-    pure D<sub>2</sub><sup>16</sup>O dans les conditions de l'expérience
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 53
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Détermination absolue de la teneur en deutérium d'une eau lourde, mesure
+    de sa masse volumique Calcul de la masse volumique de la variété isotopiquement
+    pure D<sub>2</sub> <sup>16</sup>O dans les conditions de l'expérience
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/002
+docidentifier:
+- content: Metrologia 11 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/002
+- content: 10.1088/0026-1394/11/2/002
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ceccaldi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DRA/SRIRMa, C.E.N. Saclay, B.P. n<sup>o</sup> 2, F-91190 Gif s/Yvette,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Girard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Menaché
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Océanographique, 195 rue St Jacques, F-75005 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Riedinger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: DRA/SRIRMa, C.E.N. Saclay, B.P. n<sup>o</sup> 2, F-91190 Gif s/Yvette,
             France
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>The absolute density of two heavy water samples rich in deuterium (with
+- language: en
+  script:
+  - Latn
+  content: "<p>The absolute density of two heavy water samples rich in deuterium (with
     a grade higher than 99.9%) was determined with the hydrostatic method. The exact
     isotopic composition of this water (hydrogen and oxygen isotops) was very carefully
     studied. A theoretical estimate allowed to get the absolute density value of isotopically
     pure D<sub>2</sub><sup>16</sup>O. This value was found to be 1104.750 kg m<sup>-3</sup>
-    at t<sub>68</sub> = 22.3° C and under the pressure of one atmosphere.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    at <italic>t</italic><sub>68</sub> = 22.3° C and under the pressure of one atmosphere.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Détermination absolue de la teneur en deutérium d'une eau lourde, mesure
+    - language: fr
+      script: Latn
+      content: Détermination absolue de la teneur en deutérium d'une eau lourde, mesure
         de sa masse volumique Calcul de la masse volumique de la variété isotopiquement
-        pure D<sub>2</sub><sup>16</sup>O dans les conditions de l'expérience
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
+        pure D<sub>2</sub> <sup>16</sup>O dans les conditions de l'expérience
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +120,6 @@ extent:
     reference_from: '53'
     reference_to: '65'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

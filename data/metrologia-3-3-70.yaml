@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3370
-title:
-- content: Thallium Beam Frequency Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 3 3 70
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thallium Beam Frequency Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/3/004
+docidentifier:
+- content: Metrologia 3 3 70
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/3/004
+- content: 10.1088/0026-1394/3/3/004
   type: doi
 date:
 - type: published
-  value: '1967-07-01'
+  at: '1967-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard F Lacey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hewlett-Packard Company, Frequency and Time Division - East, Beverly,
             Massachusetts
-  role:
-  - type: author
-revdate: '1967-07-01'
 abstract:
-- content: "<p>The principle, design, and performance of thallium beam frequency standards
+- language: en
+  script:
+  - Latn
+  content: "<p>The principle, design, and performance of thallium beam frequency standards
     are described. Recent measurements of the Tl<sup>205</sup> hyperfine structure
     separation are given. The values, obtained with different frequency standards,
     are near 21, 310, 833, 946 Hz in the A. 1 time scale. The range covered is 7 parts
@@ -52,39 +48,31 @@ abstract:
     or long term stability of better than the order of a part in 10<sup>13</sup>,
     is wanted without need for measuring, or elaborately controlling, the C-field
     in the atomic beam tube.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thallium Beam Frequency Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thallium Beam Frequency Standards
     date:
     - type: ppub
-      value: '1967-07-01'
+      at: '1967-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '70'
     reference_to: '78'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

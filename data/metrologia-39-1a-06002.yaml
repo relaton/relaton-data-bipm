@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia391A06002
-title:
-- content: |-
-    BIPM comparison BIPM.RI(II)-K1.Ba-140 of activity
-    measurements of the radionuclide<sup>140</sup>Ba
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1A/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1A/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1A 06002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: |-
+    BIPM comparison BIPM.RI(II)-K1.Ba-140 of activity
+    measurements of the radionuclide  <sup>140</sup>Ba
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1A/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1A/8
+docidentifier:
+- content: Metrologia 39 1A 06002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1A/8
+- content: 10.1088/0026-1394/39/1A/8
   type: doi
 date:
 - type: published
-  value: '2002-01-01'
+  at: '2002-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ratel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil, F-92312, Sèvres
             Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil, F-92312, Sèvres
             Cedex, France
-  role:
-  - type: author
-revdate: '2002-01-01'
 abstract:
-- content: |-
-    <p>In 1996, the Bureau National de Métrologie-Laboratoire National Henri Becquerel (BNM-LNHB,
-    France), submitted two samples of known activity of<sup>140</sup>Ba to the International Reference System (SIR) for activity comparison at the Bureau International des Poids et Mesures. The value of the activity submitted to the SIR was about 3.2 MBq. The result of this comparison has been approved by Section II of the Consultative Committee for Ionizing Radiation (CCRI(II)), comparison identifier BIPM.RI(II)-K1.Ba-140.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In 1996, the Bureau National de Métrologie-Laboratoire National Henri Becquerel (BNM-LNHB,
+    France), submitted two samples of known activity of  <sup>140</sup>Ba to the International Reference System (SIR) for activity comparison at the Bureau International des Poids et Mesures. The value of the activity submitted to the SIR was about 3.2 MBq. The result of this comparison has been approved by Section II of the Consultative Committee for Ionizing Radiation (CCRI(II)), comparison identifier BIPM.RI(II)-K1.Ba-140.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         BIPM comparison BIPM.RI(II)-K1.Ba-140 of activity
-        measurements of the radionuclide<sup>140</sup>Ba
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+        measurements of the radionuclide  <sup>140</sup>Ba
     date:
     - type: ppub
-      value: '2002-01-01'
+      at: '2002-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '06002'
     reference_to: '06002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

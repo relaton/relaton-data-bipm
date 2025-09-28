@@ -1,127 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446464
-title:
-- content: Assessment of measurement uncertainty via observation equations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 464
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Assessment of measurement uncertainty via observation equations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/005
+docidentifier:
+- content: Metrologia 44 6 464
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/005
+- content: 10.1088/0026-1394/44/6/005
   type: doi
 date:
 - type: published
-  value: '2007-11-07'
+  at: '2007-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, Information Technology Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, Information Technology Laboratory,
             National Institute of Standards and Technology, US Department of Commerce,
             Gaithersburg, MD, USA
-  role:
-  - type: author
-revdate: '2007-11-07'
 abstract:
-- content: "<p>According to the Guide to the Expression of Uncertainty in Measurement
-    (GUM) (1995, Geneva, Switzerland: International Organization for Standardization
-    (ISO)), the uncertainty in an estimate of the value of a measurand is assessed
-    by propagating the uncertainty in estimates of values of input quantities, based
-    on a measurement equation that expresses the former value as a known function
-    of the latter values. However, in measurement situations where some of the input
-    quantities in turn depend on the measurand, this approach is circuitous and ultimately
-    impracticable.</p><p>An alternative approach starts from the observation equation,
-    which relates the experimental data to the measurand: this allows a uniform treatment
-    of the most diverse metrological problems, and, once it is used in the context
-    of Bayesian inference, also facilitates the exploitation of any information that
-    may pre-exist about the measurand, alongside the information that fresh experimental
-    data provide about it.</p><p>The widest applicability of the observation equation
-    approach is illustrated with detailed examples concerning the lifetime of mechanical
-    parts, the measurement of mass, the calibration of a non-linear model in biochemistry
-    and the estimation of a consensus value for arsenic concentration in a sample
-    measured by multiple laboratories.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>According to the <italic toggle="yes">Guide to the Expression of Uncertainty in Measurement</italic> (GUM) (1995, Geneva, Switzerland: International Organization for Standardization (ISO)), the uncertainty in an estimate of the value of a measurand is assessed by propagating the uncertainty in estimates of values of input quantities, based on a <italic toggle="yes">measurement equation</italic> that expresses the former value as a known function of the latter values. However, in measurement situations where some of the input quantities in turn depend on the measurand, this approach is circuitous and ultimately impracticable.</p>
+    <p>An alternative approach starts from the <italic toggle="yes">observation equation</italic>, which relates the experimental data to the measurand: this allows a uniform treatment of the most diverse metrological problems, and, once it is used in the context of Bayesian inference, also facilitates the exploitation of any information that may pre-exist about the measurand, alongside the information that fresh experimental data provide about it.</p>
+    <p>The widest applicability of the observation equation approach is illustrated with detailed examples concerning the lifetime of mechanical parts, the measurement of mass, the calibration of a non-linear model in biochemistry and the estimation of a consensus value for arsenic concentration in a sample measured by multiple laboratories.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Assessment of measurement uncertainty via observation equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Assessment of measurement uncertainty via observation equations
     date:
     - type: epub
-      value: '2007-11-07'
+      at: '2007-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Assessment of measurement uncertainty via observation equations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Assessment of measurement uncertainty via observation equations
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +102,6 @@ extent:
     reference_from: '464'
     reference_to: '475'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

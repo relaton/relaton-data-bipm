@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: CCQM-REC-2007-01
-title:
-- content: On the possible redefinition of the mole and the kilogram
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Sur les éventuelles redéfinitions de la mole et du kilogramme
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccqm/13-2007/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccqm/13-2007/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-13.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-13.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071059/CCQM13.pdf/784e0ba3-f1cd-f824-17cf-dbae52eb1c97
-  type: pdf
 type: proceedings
-docid:
-- id: CCQM REC 1 (2007)
-  type: BIPM
-  primary: true
-- id: CCQM REC 1 (2007, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCQM REC 1 (2007, F)
+  content: On the possible redefinition of the mole and the kilogram
+- language: fr
+  script: Latn
+  content: Sur les éventuelles redéfinitions de la mole et du kilogramme
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccqm/13-2007/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccqm/13-2007/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-13.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-13.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071059/CCQM13.pdf/784e0ba3-f1cd-f824-17cf-dbae52eb1c97
+docidentifier:
+- content: CCQM REC 1 (2007)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCQM Recommendation 1 (2007)
+  content: CCQM REC 1 (2007, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCQM REC 1 (2007, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCQM Recommendation 1 (2007)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 1 du CCQM (2007)
+  content: Recommandation 1 du CCQM (2007)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCQM Recommendation 1 (2007) / Recommandation 1 du CCQM (2007)
+- content: CCQM Recommendation 1 (2007) / Recommandation 1 du CCQM (2007)
   type: BIPM-long
 docnumber: CCQM REC 1 (2007)
 date:
 - type: published
-  value: '2007-04-20'
+  at: '2007-04-20'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2007-04-20'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -94,8 +79,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '1'

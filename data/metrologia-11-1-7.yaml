@@ -1,49 +1,46 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1117
-title:
-- content: Methods of Linearizing the Output of a Photoelectric Microscope
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 1 7
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Methods of Linearizing the Output of a Photoelectric Microscope
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/1/003
+docidentifier:
+- content: Metrologia 11 1 7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/1/003
+- content: 10.1088/0026-1394/11/1/003
   type: doi
 date:
 - type: published
-  value: '1975-01-01'
+  at: '1975-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P E Ciddor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory (Formerly National Standards Laboratory),
             CSIRO, University Grounds, City Road, Chippendale, NSW 2008, Australia
-  role:
-  - type: author
-revdate: '1975-01-01'
 abstract:
-- content: "<p>The electrical output of most direct-reading photoelectric microscopes
+- language: en
+  script:
+  - Latn
+  content: <p>The electrical output of most direct-reading photoelectric microscopes
     is a non-linear function of the offset of the line from the fiducial position.
-    In an earlier paper (1971 Metrologia 7, 135–142) the author proposed the use of
+    In an earlier paper (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/7/4/001">1971
+    Metrologia <bold>7</bold>, 135–142</ext-link>) the author proposed the use of
     a triangular scanning waveform to overcome this defect. In this paper, two other
     methods of linearization are developed. One method gives exact linearization for
     certain types of microscope, but not for the NSL instrument. The second method
@@ -53,40 +50,32 @@ abstract:
     more difficult problem because of its dependence on the width of the line being
     scanned. Departures from linearity of less than 0.02 μm over a range of 5 μm can
     be achieved without loss of sensitivity. An additional benefit is the almost complete
-    elimination of the variation of sensitivity with line width.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    elimination of the variation of sensitivity with line width.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Methods of Linearizing the Output of a Photoelectric Microscope
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Methods of Linearizing the Output of a Photoelectric Microscope
     date:
     - type: ppub
-      value: '1975-01-01'
+      at: '1975-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +86,6 @@ extent:
     reference_from: '7'
     reference_to: '10'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

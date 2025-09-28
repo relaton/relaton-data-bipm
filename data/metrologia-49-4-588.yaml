@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494588
-title:
-- content: Combined covariance reductions for Kalman filter composite clocks
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/588
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/588
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 588
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Combined covariance reductions for Kalman filter composite clocks
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/588
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/588
+docidentifier:
+- content: Metrologia 49 4 588
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/588
+- content: 10.1088/0026-1394/49/4/588
   type: doi
 date:
 - type: published
-  value: '2012-07-26'
+  at: '2012-07-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Matthias Suess
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oberpfaffenhoffen, Muenchener Strasse 20, Germany
         name:
         - content: German Aerospace Center
-        contact:
-        - address:
-            formatted_address: Oberpfaffenhoffen, Muenchener Strasse 20, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Charles A Greenhall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 4800 Oak Grove Dr., MS 298, Pasadena, CA 91109, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: Jet Propulsion Laboratory
-        contact:
-        - address:
-            formatted_address: 4800 Oak Grove Dr., MS 298, Pasadena, CA 91109, USA
-  role:
-  - type: author
-revdate: '2012-07-26'
+        - name:
+          - language: en
+            script: Latn
+            content: Jet Propulsion Laboratory
 abstract:
-- content: Abstract<p>The impact of combining two covariance matrix reduction methods
-    on the resulting Kalman filter timescale estimates and covariances is addressed.
-    The Brown and Greenhall reduction operations commute, and the combination of both
-    reductions gives the same Kalman filter estimates as the Greenhall reduction alone.
-    The benefit of combining both methods is that the Greenhall reduced covariances
-    are further reduced in the positive semi-definite sense. A numerical example demonstrates
-    the combined reduction by calculating the trace of the original and reduced covariance
-    matrices. It is pointed out that the corrected clock offsets can follow the system
-    time offset with different precisions, but the mutual disagreements of the corrected
-    time offsets (called synchronization error) can be identical.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The impact of combining two covariance matrix reduction methods on the resulting Kalman filter timescale estimates and covariances is addressed. The Brown and Greenhall reduction operations commute, and the combination of both reductions gives the same Kalman filter estimates as the Greenhall reduction alone. The benefit of combining both methods is that the Greenhall reduced covariances are further reduced in the positive semi-definite sense. A numerical example demonstrates the combined reduction by calculating the trace of the original and reduced covariance matrices. It is pointed out that the corrected clock offsets can follow the system time offset with different precisions, but the mutual disagreements of the corrected time offsets (called synchronization error) can be identical.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combined covariance reductions for Kalman filter composite clocks
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Combined covariance reductions for Kalman filter composite clocks
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combined covariance reductions for Kalman filter composite clocks
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Combined covariance reductions for Kalman filter composite clocks
     date:
     - type: epub
-      value: '2012-07-26'
+      at: '2012-07-26'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '588'
     reference_to: '596'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

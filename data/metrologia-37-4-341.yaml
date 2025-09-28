@@ -1,119 +1,104 @@
 ---
-schema-version: v1.2.9
-id: Metrologia374341
-title:
-- content: Bilateral comparison of 1 Ω, 10 kΩ and 100 MΩ resistance standards between
-    the PTB and the UME
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/4/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/4/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 4 341
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bilateral comparison of 1 Ω, 10 kΩ and 100 MΩ resistance standards between
+    the PTB and the UME
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/4/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/4/12
+docidentifier:
+- content: Metrologia 37 4 341
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/4/12
+- content: 10.1088/0026-1394/37/4/12
   type: doi
 date:
 - type: published
-  value: '2000-08-01'
+  at: '2000-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Atesalp Orhan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Sakarya
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Schumacher
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: UME, PTB
-  role:
-  - type: author
-revdate: '2000-08-01'
 abstract:
-- content: "<p>In order to evaluate the agreement between the Physikalisch-Technische
+- language: en
+  script:
+  - Latn
+  content: "<p>In order to evaluate the agreement between the Physikalisch-Technische
     Bundesanstalt (PTB, Germany) and the Ulusal Metroloji Enstitüsü (TÜBTAK-UME, Turkey)
     and to establish a firm basis for traceability, a bilateral comparison has been
     carried out using 1 Ω, 10 kΩ and 100 MΩ resistors. Measurements obtained by the
     PTB, based on their quantum Hall resistance standard (QHRS), differ from the UME
-    results by 46 nΩ/Ω (standard uncertainty u = 0.19 µΩ/Ω) at the 1 Ω level, and
-    by 3.0 nΩ/Ω (u = 0.25 µΩ/Ω) at the 10 kΩ level. The 100 MΩ resistors were compared
-    using both a UME-constructed Wheatstone bridge and a commercial bridge. Measurement
-    results obtained with the Wheatstone bridge show better agreement with those of
-    the PTB, within 0.34 µΩ/Ω (u = 8.7 µΩ/Ω), than the results obtained with the commercial
-    bridge, within 3.6 µΩ/Ω (u = 5.1 µΩ/Ω).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    results by 46 nΩ/Ω (standard uncertainty <italic>u</italic> = 0.19 µΩ/Ω) at the
+    1 Ω level, and by 3.0 nΩ/Ω (<italic>u</italic> = 0.25 µΩ/Ω) at the 10 kΩ level.
+    The 100 MΩ resistors were compared using both a UME-constructed Wheatstone bridge
+    and a commercial bridge. Measurement results obtained with the Wheatstone bridge
+    show better agreement with those of the PTB, within 0.34 µΩ/Ω (<italic>u</italic>
+    = 8.7 µΩ/Ω), than the results obtained with the commercial bridge, within 3.6
+    µΩ/Ω (<italic>u</italic> = 5.1 µΩ/Ω).</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bilateral comparison of 1 Ω, 10 kΩ and 100 MΩ resistance standards
+    - language: en
+      script: Latn
+      content: Bilateral comparison of 1 Ω, 10 kΩ and 100 MΩ resistance standards
         between the PTB and the UME
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-08-01'
+      at: '2000-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +109,6 @@ extent:
     reference_from: '341'
     reference_to: '344'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

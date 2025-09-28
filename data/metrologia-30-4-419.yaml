@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304419
-title:
-- content: Partial Coherence and Practical Radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/038
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/038
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 419
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Partial Coherence and Practical Radiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/038
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/038
+docidentifier:
+- content: Metrologia 30 4 419
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/038
+- content: 10.1088/0026-1394/30/4/038
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Gardner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, PO Box 218, Lindfield, NSW 2070,
             Australia
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>A review is presented of recent claims on the effects of partial coherence
+- language: en
+  script:
+  - Latn
+  content: "<p>A review is presented of recent claims on the effects of partial coherence
     in radiometric measurements, particularly in relation to spectral irradiance intercomparisons.
     It is shown that for practical sources typically used in radiometric laboratories,
     effects claimed to be due to partial coherence are equivalent to those of diffraction
@@ -50,39 +46,31 @@ abstract:
     corrections in radiometry. Estimates of the importance of coherence may be made
     from comparison of coherence dimensions with aperture sizes; where small apertures
     are used, coherence theory may be required to superimpose correlated fields.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Partial Coherence and Practical Radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Partial Coherence and Practical Radiometry
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '419'
     reference_to: '423'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

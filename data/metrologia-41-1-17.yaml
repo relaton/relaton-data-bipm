@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia41117
-title:
-- content: Review of methods for time interval measurements with picosecond resolution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Review of methods for time interval measurements with picosecond resolution
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/004
+docidentifier:
+- content: Metrologia 41 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/004
+- content: 10.1088/0026-1394/41/1/004
   type: doi
 date:
 - type: published
-  value: '2003-12-10'
+  at: '2003-12-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Józef Kalisz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Military University of Technology, Kaliskiego 2, 00-908 Warsaw,
             Poland
-  role:
-  - type: author
-revdate: '2003-12-10'
 abstract:
-- content: "<p>This paper is a review of methods and techniques used for precise measurement
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper is a review of methods and techniques used for precise measurement
     of time intervals (TIs) or precise conversion of TIs to digital data. The following
     methods are described: the counter method and averaging, time stretching, time-to-amplitude
     conversion followed by analogue-to-digital conversion, the Vernier method, conversion
@@ -50,53 +46,42 @@ abstract:
     of TIs, including designs with phase-locked loop and delay-locked loop circuits.
     This review is illustrated by design examples and contains a comprehensive list
     of references.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Review of methods for time interval measurements with picosecond resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Review of methods for time interval measurements with picosecond resolution
     date:
     - type: epub
-      value: '2003-12-10'
+      at: '2003-12-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Review of methods for time interval measurements with picosecond resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Review of methods for time interval measurements with picosecond resolution
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: '17'
     reference_to: '32'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

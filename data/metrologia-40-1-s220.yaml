@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S220
-title:
-- content: Characterization of filter radiometers with a wavelength-tunable laser
-    source
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/351
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/351
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S220
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Characterization of filter radiometers with a wavelength-tunable laser
+    source
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/351
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/351
+docidentifier:
+- content: Metrologia 40 1 S220
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/351
+- content: 10.1088/0026-1394/40/1/351
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Noorma
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Toivanen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Thermo Labsystems, PL 208 Helsinki, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Manoocheri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Results of filter radiometer characterization with a wavelength-tunable
+- language: en
+  script:
+  - Latn
+  content: "<p>Results of filter radiometer characterization with a wavelength-tunable
     Ti : sapphire laser in the wavelength band around 900 nm are presented. The effect
     of interference between the reflections from filter surfaces in the case of coherent
     laser light was studied and reduced with a special filter design with antireflection
@@ -95,55 +85,44 @@ abstract:
     and test results indicate that filter radiometers can be characterized with a
     relative standard uncertainty of 9×10<sup>−4</sup> using the scanning method.
     The results agree well with more conventional monochromator-based measurements.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of filter radiometers with a wavelength-tunable laser
+    - language: en
+      script: Latn
+      content: Characterization of filter radiometers with a wavelength-tunable laser
         source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of filter radiometers with a wavelength-tunable laser
+    - language: en
+      script: Latn
+      content: Characterization of filter radiometers with a wavelength-tunable laser
         source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +133,6 @@ extent:
     reference_from: S220
     reference_to: S223
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

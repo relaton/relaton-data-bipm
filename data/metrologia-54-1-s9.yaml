@@ -1,182 +1,141 @@
 ---
-schema-version: v1.2.9
-id: Metrologia541S9
-title:
-- content: An improved non-contact thermometer and hygrometer with rapid response
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa54c6
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa54c6
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 1 S9
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An improved non-contact thermometer and hygrometer with rapid response
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa54c6
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa54c6
+docidentifier:
+- content: Metrologia 54 1 S9
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa54c6
+- content: 10.1088/1681-7575/aa54c6
   type: doi
 date:
 - type: published
-  value: '2017-01-25'
+  at: '2017-01-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Underwood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Gardiner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Finlayson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Bell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M de Podesta
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2017-01-25'
 abstract:
-- content: Abstract<p>Previously (Underwood et al 2015 Meteorol. Appl. 22 830) we
-    reported first tests of a device capable of simultaneous, non-contact, temperature
-    and humidity (NCTAH) measurements in air. The device used an acoustic thermometer
-    and a tuneable diode laser absorption spectrometer (TDLAS), a combination which
-    should be capable of an extremely rapid response to changes in humidity as it
-    does not require moisture in a solid-state matrix to equilibrate with the surrounding
-    air. In this paper we report recent developments of the instrument focussed on
-    reducing its response time so that it can be used as a reference instrument for
-    assessing the response time of conventional humidity sensors. In addition, the
-    interdependence of the temperature and humidity estimates is now accounted for
-    in real-time using an iterative procedure, which eliminates the need for data
-    post-processing.</p><p>The TDLAS measures water molecule number density based
-    on the transmission of an infrared beam (approximate wavelength 1360 nm) through
-    a 0.6 m path length. The acoustic thermometer is based around a fixed-path acoustic
-    interferometer. The improved NCTAH device now produces estimates of the water
-    molecule number density every 20 ms and the temperature output displays an RC
-    filter-like response, with a time constant of approximately 30 ms.</p><p>The instrument
-    has been tested in a climatic chamber through a temperature range of  −40 °C to  +40
-    °C and a dew point range of  −43 °C to  +38 °C, at atmospheric pressure, comparing
-    the instrument readings with those from a calibrated hygrometer and four platinum
-    resistance thermometers. In steady-state conditions, the instrument readings are
-    in good agreement with the conventional sensors, with temperature differences
-    less than 1 °C (repeatability 0.1 °C), and humidity differences mostly within
-    5% of mixing ratio. Under transient conditions, we demonstrate how the instrument
-    can be used to evaluate the response times of conventional sensors.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Previously (Underwood <italic>et al</italic> 2015 <italic>Meteorol. Appl</italic>. <ext-link ext-link-type="doi" xlink:href="https://doi.org/10.1002/met.1513" xlink:type="simple"><bold>22</bold></ext-link> <ext-link ext-link-type="doi" xlink:href="https://doi.org/10.1002/met.1513" xlink:type="simple">830</ext-link>) we reported first tests of a device capable of simultaneous, non-contact, temperature and humidity (NCTAH) measurements in air. The device used an acoustic thermometer and a tuneable diode laser absorption spectrometer (TDLAS), a combination which should be capable of an extremely rapid response to changes in humidity as it does not require moisture in a solid-state matrix to equilibrate with the surrounding air. In this paper we report recent developments of the instrument focussed on reducing its response time so that it can be used as a reference instrument for assessing the response time of conventional humidity sensors. In addition, the interdependence of the temperature and humidity estimates is now accounted for in real-time using an iterative procedure, which eliminates the need for data post-processing.</p>
+    <p>The TDLAS measures water molecule number density based on the transmission of an infrared beam (approximate wavelength 1360 nm) through a 0.6 m path length. The acoustic thermometer is based around a fixed-path acoustic interferometer. The improved NCTAH device now produces estimates of the water molecule number density every 20 ms and the temperature output displays an RC filter-like response, with a time constant of approximately 30 ms.</p>
+    <p>The instrument has been tested in a climatic chamber through a temperature range of  −40 °C to  +40 °C and a dew point range of  −43 °C to  +38 °C, at atmospheric pressure, comparing the instrument readings with those from a calibrated hygrometer and four platinum resistance thermometers. In steady-state conditions, the instrument readings are in good agreement with the conventional sensors, with temperature differences less than 1 °C (repeatability 0.1 °C), and humidity differences mostly within 5% of mixing ratio. Under transient conditions, we demonstrate how the instrument can be used to evaluate the response times of conventional sensors.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An improved non-contact thermometer and hygrometer with rapid response
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An improved non-contact thermometer and hygrometer with rapid response
     date:
     - type: ppub
-      value: '2017-02-01'
+      at: '2017-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An improved non-contact thermometer and hygrometer with rapid response
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An improved non-contact thermometer and hygrometer with rapid response
     date:
     - type: epub
-      value: '2017-01-25'
+      at: '2017-01-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -187,6 +146,6 @@ extent:
     reference_from: S9
     reference_to: S15
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

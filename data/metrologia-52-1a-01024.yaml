@@ -1,110 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521A01024
-title:
-- content: Final Report Key Comparison COOMET.EM.BIPM-K10.b Comparison of the 10 V
-    Josephson Voltage Standards COOMET 542/RU/11
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1A/01024
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1A/01024
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1A 01024
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final Report Key Comparison COOMET.EM.BIPM-K10.b Comparison of the 10 V
+    Josephson Voltage Standards COOMET 542/RU/11
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1A/01024
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1A/01024
+docidentifier:
+- content: Metrologia 52 1A 01024
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1A/01024
+- content: 10.1088/0026-1394/52/1A/01024
   type: doi
 date:
 - type: published
-  value: '2015-01-01'
+  at: '2015-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A S Katkov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology (VNIIM), Moskovsky pr.,
             19, 190005 St. Petersburg, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P A Chernyaev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: RUP Belarussian State Institute of Metrology (BelGIM), Starovilensky
             tract 93, 220053 Minsk, Belarus
-  role:
-  - type: author
-revdate: '2015-01-01'
 abstract:
-- content: "<p> The 10 V Josephson voltage standard of BelGIM was compared with the
-    similar standard of VNIIM in August-November 2014 in accordance with the option
-    B of the BIPM.EM-K10.b comparison protocol. The standard of VNIIM based upon the
-    Josephson effect was used as a transfer standard to measure the output voltage
-    by BelGIM. The final results are in very good agreement with the reference value
-    supplied by the BIPM voltage standard: the relative voltage difference was 6·10<sup>-12</sup>
-    at the combined relative standard uncertainty of 2.8·10<sup>-10</sup> for the
-    nominal voltage of 10 V.</p><p>Main text</p><p>To reach the main text of this
-    paper, click on Final Report. Note that this text is that which appears in Appendix
-    B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has
-    been peer-reviewed and approved for publication by the CCEM, according to the
-    provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p> The 10 V Josephson voltage standard of BelGIM was compared with the similar standard of VNIIM in August-November 2014 in accordance with the option B of the BIPM.EM-K10.b comparison protocol. The standard of VNIIM based upon the Josephson effect was used as a transfer standard to measure the output voltage by BelGIM. The final results are in very good agreement with the reference value supplied by the BIPM voltage standard: the relative voltage difference was 6·10<sup>-12</sup> at the combined relative standard uncertainty of 2.8·10<sup>-10</sup> for the nominal voltage of 10 V.</p>
+    <p><bold>Main text</bold></p>
+    <p>To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM//BIPM.EM-K10/COOMET.EM.BIPM-K10b_Final_report.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final Report Key Comparison COOMET.EM.BIPM-K10.b Comparison of the
+    - language: en
+      script: Latn
+      content: Final Report Key Comparison COOMET.EM.BIPM-K10.b Comparison of the
         10 V Josephson Voltage Standards COOMET 542/RU/11
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-01-01'
+      at: '2015-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +94,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia474363
-title:
-- content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 4 363
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/4/003
+docidentifier:
+- content: Metrologia 47 4 363
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/4/003
+- content: 10.1088/0026-1394/47/4/003
   type: doi
 date:
 - type: published
-  value: '2010-06-02'
+  at: '2010-06-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Krzysztof Szymaniec
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sang Eon Park
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giuseppe Marra
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Witold Chałupczak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, TW11 0LW,
             UK
-  role:
-  - type: author
-revdate: '2010-06-02'
 abstract:
-- content: "<p>An accuracy evaluation of the caesium fountain NPL-CsF2 as a primary
+- language: en
+  script:
+  - Latn
+  content: "<p>An accuracy evaluation of the caesium fountain NPL-CsF2 as a primary
     frequency standard is reported. The device operates with a simple one-stage magneto-optical
     trap as the source of cold atoms. Both the uncertainty in and magnitude of the
     cold collision frequency shift are reduced by taking advantage of the dependence
@@ -101,55 +91,47 @@ abstract:
     the effective fractional frequency instability to 5.4 × 10<sup>−13</sup> at 1 s;
     consequently the averaging time required for the type A uncertainty level to match
     that of the type B is 20 days.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
     date:
     - type: epub
-      value: '2010-06-02'
+      at: '2010-06-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: First accuracy evaluation of the NPL-CsF2 primary frequency standard
     date:
     - type: ppub
-      value: '2010-08-01'
+      at: '2010-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +142,6 @@ extent:
     reference_from: '363'
     reference_to: '376'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

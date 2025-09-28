@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366551
-title:
-- content: Measurement of pressure differences between various positions in a vacuum
-    chamber where pressure is generated dynamically
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/13
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 551
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of pressure differences between various positions in a vacuum
+    chamber where pressure is generated dynamically
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/13
+docidentifier:
+- content: Metrologia 36 6 551
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/13
+- content: 10.1088/0026-1394/36/6/13
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Repa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Charles Univ. Prague, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Cespiro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Charles Univ. Prague, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Peksa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Charles Univ. Prague, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Gronych
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Charles Univ. Prague, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tesar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Charles Univ. Prague, CMI
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>The pressure differences between the positions for gauge connection
+- language: en
+  script:
+  - Latn
+  content: "<p>The pressure differences between the positions for gauge connection
     in a chamber for gauge comparison were measured and evaluated in two ways: (a)
     by the mutual interchange of two ionization gauges at the positions; and (b) by
     readings of one ionization gauge at various positions and of a spinning rotor
@@ -107,40 +95,32 @@ abstract:
     Those differences are specific to the given apparatus, they depend on its adjustment,
     the geometry and some other parameters. The two methods are suitable for checking
     and adjusting the apparatus.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of pressure differences between various positions in a
+    - language: en
+      script: Latn
+      content: Measurement of pressure differences between various positions in a
         vacuum chamber where pressure is generated dynamically
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +131,6 @@ extent:
     reference_from: '551'
     reference_to: '554'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

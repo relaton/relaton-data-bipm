@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425L35
-title:
-- content: A useful reflection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/L03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/L03
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 L35
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A useful reflection
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/L03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/L03
+docidentifier:
+- content: Metrologia 42 5 L35
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/L03
+- content: 10.1088/0026-1394/42/5/L03
   type: doi
 date:
 - type: published
-  value: '2005-09-07'
+  at: '2005-09-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Douglas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Steele
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B M Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council, Canada
-  role:
-  - type: author
-revdate: '2005-09-07'
 abstract:
-- content: "<p>We discuss a simple, practical transformation between the probability
+- language: en
+  script:
+  - Latn
+  content: "<p>We discuss a simple, practical transformation between the probability
     density function (PDF) of the measurand and the associated PDF of the process
     for producing measurement results, both of which are used in metrology. This transformation
     is a reflection through the reported value and captures the essential reversal
@@ -95,53 +85,42 @@ abstract:
     the measurand and measurement-results perspectives, identifying cases where the
     choice of perspective should not matter and helping to treat the exceptional cases,
     involving PDF asymmetry, where it can matter.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A useful reflection
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A useful reflection
     date:
     - type: epub
-      value: '2005-09-07'
+      at: '2005-09-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A useful reflection
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A useful reflection
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -152,6 +131,6 @@ extent:
     reference_from: L35
     reference_to: L39
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

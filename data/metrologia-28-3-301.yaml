@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283301
-title:
-- content: Implications of Space Shuttle Flight on the Calibration of Instruments
-    Observing Atmospheric Ozone and the Solar Irradiance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/039
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/039
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 301
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Implications of Space Shuttle Flight on the Calibration of Instruments
+    Observing Atmospheric Ozone and the Solar Irradiance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/039
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/039
+docidentifier:
+- content: Metrologia 28 3 301
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/039
+- content: 10.1088/0026-1394/28/3/039
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Hilsenrath
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Cebula
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ST Systems Corporation, 4400 Forbes Blvd., Lanham, MD 20706, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Caffrey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: International Development and Energy Assoc., Inc., 14440 Cherry
             Lane Court, Laurel, MD 20707, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Hynes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: International Development and Energy Assoc., Inc., 14440 Cherry
             Lane Court, Laurel, MD 20707, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>Accurate calibration of remote-sensing instruments has become increasingly
+- language: en
+  script:
+  - Latn
+  content: "<p>Accurate calibration of remote-sensing instruments has become increasingly
     more important for studying long-term changes in our environment. Changes in atmospheric
     ozone are of great concern and have been observed from satellites for over a decade.
     Despite this record, long-term trends in ozone remain uncertain, primarily due
@@ -100,40 +90,32 @@ abstract:
     laboratory calibrations, field calibration checks, and inflight calibration checks.
     As a result of the flight, the instrument experienced a 1% to 2% change in sensitivity
     in the wavelengths used for measuring ozone.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Implications of Space Shuttle Flight on the Calibration of Instruments
+    - language: en
+      script: Latn
+      content: Implications of Space Shuttle Flight on the Calibration of Instruments
         Observing Atmospheric Ozone and the Solar Irradiance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +126,6 @@ extent:
     reference_from: '301'
     reference_to: '304'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

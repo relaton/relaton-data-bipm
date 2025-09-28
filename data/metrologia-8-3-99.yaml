@@ -1,77 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia8399
+type: article
+schema_version: v1.4.1
 title:
-- content: 'Fundamental Metrology: Present State and Recent Progress in some Important
+- language: en
+  script: Latn
+  content: 'Fundamental Metrology: Present State and Recent Progress in some Important
     Fields of Fundamental Metrology, and Functions of Consultative Committees of the
     International Committee of Weights and Measures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/3/004
-  type: doi
-type: article
-docid:
-- id: Metrologia 8 3 99
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/3/004
+docidentifier:
+- content: Metrologia 8 3 99
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/3/004
+- content: 10.1088/0026-1394/8/3/004
   type: doi
 date:
 - type: published
-  value: '1972-07-01'
+  at: '1972-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Terrien
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Director, International Bureau of Weights and Measures, Sèvres,
             France
-  role:
-  - type: author
-revdate: '1972-07-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Fundamental Metrology: Present State and Recent Progress in some Important
+    - language: en
+      script: Latn
+      content: 'Fundamental Metrology: Present State and Recent Progress in some Important
         Fields of Fundamental Metrology, and Functions of Consultative Committees
         of the International Committee of Weights and Measures'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1972-07-01'
+      at: '1972-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -82,6 +72,6 @@ extent:
     reference_from: '99'
     reference_to: '108'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

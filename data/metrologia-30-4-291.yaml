@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304291
-title:
-- content: Present State of the PTB Primary Standard for Radiant Power Based on Cryogenic
-    Radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/014
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/014
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 291
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Present State of the PTB Primary Standard for Radiant Power Based on Cryogenic
+    Radiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/014
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/014
+docidentifier:
+- content: Metrologia 30 4 291
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/014
+- content: 10.1088/0026-1394/30/4/014
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Postfach 3345, D-38023 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Postfach 3345, D-38023 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The PTB primary standards for radiant power in Braunschweig are the
+- language: en
+  script:
+  - Latn
+  content: "<p>The PTB primary standards for radiant power in Braunschweig are the
     German national standard for detector calibrations within the spectral range of
     200 nm to 2,5 μm. This paper presents the progress in development and optimization
     of a high accuracy measurement facility using a cryogenic radiometer as the primary
     standard. The following features are highlighted: method of dynamic power substitution;
     temperature dependence of the absorptance of the cavity; error reduction by distance-error-free
     calibration transfer; and concept of window-correction-free transfer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Present State of the PTB Primary Standard for Radiant Power Based on
+    - language: en
+      script: Latn
+      content: Present State of the PTB Primary Standard for Radiant Power Based on
         Cryogenic Radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '291'
     reference_to: '296'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

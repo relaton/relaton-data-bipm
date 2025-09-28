@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1937-39
-title:
-- content: 39th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 39<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/39-1937
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/39-1937
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/75008476/CIPM1937.pdf/d50847a4-8666-53db-99fd-9a6719b6df67
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-39.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-39.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 39th Meeting (1937)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 39th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 39<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/39-1937
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/39-1937
+- type: pdf
+  content: https://www.bipm.org/documents/20126/75008476/CIPM1937.pdf/d50847a4-8666-53db-99fd-9a6719b6df67
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-39.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-39.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 39th Meeting (1937)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 39<sup>e</sup> réunion (1937)
+  content: CIPM 39<sup>e</sup> réunion (1937)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 39th Meeting (1937) / CIPM 39<sup>e</sup> réunion (1937)
+- content: CIPM 39th Meeting (1937) / CIPM 39<sup>e</sup> réunion (1937)
   type: BIPM
   primary: true
 docnumber: CIPM 39th Meeting (1937)
 date:
 - type: published
-  value: '1937-06-29'
+  at: '1937-06-29'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1937-06-29'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '39'

@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326661
-title:
-- content: Solar ultraviolet spectral-irradiance observations from the SUSIM-UARS
-    experiment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/53
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/53
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 661
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Solar ultraviolet spectral-irradiance observations from the SUSIM-UARS
+    experiment
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/53
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/53
+docidentifier:
+- content: Metrologia 32 6 661
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/53
+- content: 10.1088/0026-1394/32/6/53
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G E Brueckner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Naval Res. Lab., Interferometrics Inc., Computational Phys. Inc.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L E Floyd
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Naval Res. Lab., Interferometrics Inc., Computational Phys. Inc.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P A Lund
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Naval Res. Lab., Interferometrics Inc., Computational Phys. Inc.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D K Prinz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Naval Res. Lab., Interferometrics Inc., Computational Phys. Inc.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M E VanHoosier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Naval Res. Lab., Interferometrics Inc., Computational Phys. Inc.
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>The Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) instrument
+- language: en
+  script:
+  - Latn
+  content: "<p>The Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) instrument
     on board the Upper Atmosphere Research Satellite (UARS) has measured solar ultraviolet
     spectral-irradiance values since October 1991. The calibration and tracking methods
     are described. The intensity values have a precision of 1% at wavelengths longer
@@ -107,40 +95,32 @@ abstract:
     solar-cycle component at all wavelengths, which seems to be independent of the
     rotational modulation. The variability in the integrated UV from 110 nm to 300
     nm amounts to 33% of the variability in the total solar irradiance.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar ultraviolet spectral-irradiance observations from the SUSIM-UARS
+    - language: en
+      script: Latn
+      content: Solar ultraviolet spectral-irradiance observations from the SUSIM-UARS
         experiment
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +131,6 @@ extent:
     reference_from: '661'
     reference_to: '665'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

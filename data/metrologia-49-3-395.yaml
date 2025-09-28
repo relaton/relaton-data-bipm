@@ -1,125 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493395
-title:
-- content: The multivariate normal mean—sensitivity of its objective Bayesian estimates
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/395
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/395
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 395
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The multivariate normal mean—sensitivity of its objective Bayesian estimates
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/395
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/395
+docidentifier:
+- content: Metrologia 49 3 395
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/395
+- content: 10.1088/0026-1394/49/3/395
   type: doi
 date:
 - type: published
-  value: '2012-04-24'
+  at: '2012-04-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Katy Klauenberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10587 Berlin, Germany
         name:
         - content: Abbestr. 2-12
         subdivision:
-        - content: Physikalisch-Technische Bundesanstalt (PTB
-        contact:
-        - address:
-            formatted_address: 10587 Berlin, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Physikalisch-Technische Bundesanstalt (PTB
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10587 Berlin, Germany
         name:
         - content: Abbestr. 2-12
         subdivision:
-        - content: Physikalisch-Technische Bundesanstalt (PTB
-        contact:
-        - address:
-            formatted_address: 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2012-04-24'
+        - name:
+          - language: en
+            script: Latn
+            content: Physikalisch-Technische Bundesanstalt (PTB
 abstract:
-- content: Abstract<p>The multivariate Gaussian model is frequently applied in metrology
-    and many other fields. Notably, the recent Supplement 2 to the GUM (an extension
-    of GUM and GUM S1 to multivariate problems) makes extensive use of multivariate
-    normal distributions. Frequently, the mean and the covariance of this distribution
-    have to be estimated from observations. If no additional knowledge is available
-    in these situations, a non-informative prior distribution has to be specified
-    for a Bayesian estimation.</p><p>Since many paradigms exist according to which
-    a non-informative prior distribution can be chosen, we will identify the influence
-    that selected priors have on the marginal posterior and on the measurement uncertainty
-    of the multivariate normal expectation. Neither the distribution itself nor its
-    parameters are robust to standard choices of non-informative prior distributions
-    for small and medium-sized samples. The length of posterior credible intervals
-    may differ by a factor of two or more.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The multivariate Gaussian model is frequently applied in metrology and many other fields. Notably, the recent Supplement 2 to the GUM (an extension of GUM and GUM S1 to multivariate problems) makes extensive use of multivariate normal distributions. Frequently, the mean and the covariance of this distribution have to be estimated from observations. If no additional knowledge is available in these situations, a non-informative prior distribution has to be specified for a Bayesian estimation.</p>
+    <p>Since many paradigms exist according to which a non-informative prior distribution can be chosen, we will identify the influence that selected priors have on the marginal posterior and on the measurement uncertainty of the multivariate normal expectation. Neither the distribution itself nor its parameters are robust to standard choices of non-informative prior distributions for small and medium-sized samples. The length of posterior credible intervals may differ by a factor of two or more.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The multivariate normal mean—sensitivity of its objective Bayesian
+    - script: Latn
+      content: The multivariate normal mean—sensitivity of its objective Bayesian
         estimates
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The multivariate normal mean—sensitivity of its objective Bayesian
+    - script: Latn
+      content: The multivariate normal mean—sensitivity of its objective Bayesian
         estimates
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-04-24'
+      at: '2012-04-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +115,6 @@ extent:
     reference_from: '395'
     reference_to: '400'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

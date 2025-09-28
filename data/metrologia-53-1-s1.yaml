@@ -1,230 +1,185 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S1
-title:
-- content: A multi-thermogram-based Bayesian model for the determination of the thermal
-    diffusivity of a material
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S1
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A multi-thermogram-based Bayesian model for the determination of the thermal
+    diffusivity of a material
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S1
+docidentifier:
+- content: Metrologia 53 1 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S1
+- content: 10.1088/0026-1394/53/1/S1
   type: doi
 date:
 - type: published
-  value: '2015-12-16'
+  at: '2015-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alexandre Allard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicolas Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Géraldine Ebrard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bruno Hay
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
-        contact:
-        - address:
-            formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Louise Wright
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Denis Rochais
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: BP 16, 37260 Monts, France
         name:
         - content: Commissariat à l’Energie Atomique et aux Energies Alternatives—Le
             Ripault
-        contact:
-        - address:
-            formatted_address: BP 16, 37260 Monts, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jeremie Mattout
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lyon, France
         name:
         - content: Institut National de la Santé et de la Recherche Médicale
-        contact:
-        - address:
-            formatted_address: Lyon, France
-  role:
-  - type: author
-revdate: '2015-12-16'
 abstract:
-- content: Abstract<p>The determination of thermal diffusivity is at the heart of
-    modern materials characterisation. The evaluation of the associated uncertainty
-    is difficult because the determination is performed in an indirect way, in the
-    sense that the thermal diffusivity cannot be measured directly. The well-known
-    GUM uncertainty framework does not provide a reliable evaluation of measurement
-    uncertainty for such inverse problems, because in that framework the underlying
-    measurement model is supposed to be a direct relationship between the measurand
-    (the quantity intended to be measured) and the input quantities on which the measurand
-    depends. This paper is concerned with the development of a Bayesian approach to
-    evaluate the measurement uncertainty associated with thermal diffusivity. A Bayesian
-    model is first developed for a single thermogram and is then extended to the case
-    of several thermograms obtained under repeatability and reproducibility conditions.
-    This multi-thermogram based model is able to take into consideration a large set
-    of influencing quantities that occur during the measurements and yields a more
-    reliable uncertainty evaluation than the one obtained from a single thermogram.
-    Different aspects of the Bayesian model are discussed, including the sensitivity
-    to the choice of the prior distribution, the Metropolis–Hastings algorithm used
-    for the inference and the convergence of the Markov chains.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The determination of thermal diffusivity is at the heart of modern materials characterisation. The evaluation of the associated uncertainty is difficult because the determination is performed in an indirect way, in the sense that the thermal diffusivity cannot be measured directly. The well-known GUM uncertainty framework does not provide a reliable evaluation of measurement uncertainty for such inverse problems, because in that framework the underlying measurement model is supposed to be a direct relationship between the measurand (the quantity intended to be measured) and the input quantities on which the measurand depends. This paper is concerned with the development of a Bayesian approach to evaluate the measurement uncertainty associated with thermal diffusivity. A Bayesian model is first developed for a single thermogram and is then extended to the case of several thermograms obtained under repeatability and reproducibility conditions. This multi-thermogram based model is able to take into consideration a large set of influencing quantities that occur during the measurements and yields a more reliable uncertainty evaluation than the one obtained from a single thermogram. Different aspects of the Bayesian model are discussed, including the sensitivity to the choice of the prior distribution, the Metropolis–Hastings algorithm used for the inference and the convergence of the Markov chains.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A multi-thermogram-based Bayesian model for the determination of the
+    - script: Latn
+      content: A multi-thermogram-based Bayesian model for the determination of the
         thermal diffusivity of a material
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A multi-thermogram-based Bayesian model for the determination of the
+    - script: Latn
+      content: A multi-thermogram-based Bayesian model for the determination of the
         thermal diffusivity of a material
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-12-16'
+      at: '2015-12-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -235,6 +190,6 @@ extent:
     reference_from: S1
     reference_to: S9
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

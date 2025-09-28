@@ -1,174 +1,137 @@
 ---
-schema-version: v1.2.9
-id: Metrologia55111
-title:
-- content: Study of the GPS inter-frequency calibration of timing receivers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa9b5b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa9b5b
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 11
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Study of the GPS inter-frequency calibration of timing receivers
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa9b5b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa9b5b
+docidentifier:
+- content: Metrologia 55 1 11
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa9b5b
+- content: 10.1088/1681-7575/aa9b5b
   type: doi
 date:
 - type: published
-  value: '2017-12-12'
+  at: '2017-12-12'
 contributor:
-- person:
-    name:
-      completename:
-        content: P Defraigne
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: Brussels, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
-        content: W Huang
-        language:
-        - en
-        script:
-        - Latn
+        language: en
+        script: Latn
+        content: P Defraigne
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, Belgium
         name:
         - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: Brussels, Belgium
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
+        content: W Huang
+    affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, Belgium
+        name:
+        - content: Royal Observatory of Belgium
+    - organization:
+        address:
+        - formatted_address: Torino, Italy
         name:
         - content: Now at Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Bertrand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, Belgium
         name:
         - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: Brussels, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Rovera
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: UPMC University Paris 06, Paris, France
         name:
         - content: Sorbonne Universités
         subdivision:
-        - content: LNE-SYRTE, Observatoire de Paris PSL Research University, CNRS
-        contact:
-        - address:
-            formatted_address: UPMC University Paris 06, Paris, France
-  role:
-  - type: author
-revdate: '2017-12-12'
+        - name:
+          - language: en
+            script: Latn
+            content: LNE-SYRTE, Observatoire de Paris PSL Research University, CNRS
 abstract:
-- content: Abstract<p>When calibrating Global Positioning System (GPS) stations dedicated
-    to timing, the hardware delays of P1 and P2, the P(Y)-codes on frequencies L1
-    and L2, are determined separately. In the international atomic time (TAI) network
-    the GPS stations of the time laboratories are calibrated relatively against reference
-    stations. This paper aims at determining the consistency between the P1 and P2
-    hardware delays (called dP1 and dP2) of these reference stations, and to look
-    at the stability of the inter-signal hardware delays dP1–dP2 of all the stations
-    in the network. The method consists of determining the dP1–dP2 directly from the
-    GPS pseudorange measurements corrected for the frequency-dependent antenna phase
-    center and the frequency-dependent ionosphere corrections, and then to compare
-    these computed dP1–dP2 to the calibrated values.</p><p>Our results show that the
-    differences between the computed and calibrated dP1–dP2 are well inside the expected
-    combined uncertainty of the two quantities. Furthermore, the consistency between
-    the calibrated time transfer solution obtained from either single-frequency P1
-    or dual-frequency P3 for reference laboratories is shown to be about 1.0 ns, well
-    inside the 2.1 ns uB uncertainty of a time transfer link based on GPS P3 or Precise
-    Point Positioning. This demonstrates the good consistency between the P1 and P2
-    hardware delays of the reference stations used for calibration in the TAI network.</p><p>The
-    long-term stability of the inter-signal hardware delays is also analysed from
-    the computed dP1–dP2. It is shown that only variations larger than 2 ns can be
-    detected for a particular station, while variations of 200 ps can be detected
-    when differentiating the results between two stations. Finally, we also show that
-    in the differential calibration process as used in the TAI network, using the
-    same antenna phase center or using different positions for L1 and L2 signals gives
-    maximum differences of 200 ps on the hardware delays of the separate codes P1
-    and P2; however, the final impact on the P3 combination is less than 10 ps.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>When calibrating Global Positioning System (GPS) stations dedicated to timing, the hardware delays of <italic>P</italic>1 and <italic>P</italic>2, the <italic>P</italic>(<italic>Y</italic>)-codes on frequencies <italic>L</italic>1 and <italic>L</italic>2, are determined separately. In the international atomic time (TAI) network the GPS stations of the time laboratories are calibrated relatively against reference stations. This paper aims at determining the consistency between the <italic>P</italic>1 and <italic>P</italic>2 hardware delays (called d<italic>P</italic>1 and d<italic>P</italic>2) of these reference stations, and to look at the stability of the inter-signal hardware delays d<italic>P</italic>1–d<italic>P</italic>2 of all the stations in the network. The method consists of determining the d<italic>P</italic>1–d<italic>P</italic>2 directly from the GPS pseudorange measurements corrected for the frequency-dependent antenna phase center and the frequency-dependent ionosphere corrections, and then to compare these computed d<italic>P</italic>1–d<italic>P</italic>2 to the calibrated values.</p>
+    <p>Our results show that the differences between the computed and calibrated d<italic>P</italic>1–d<italic>P</italic>2 are well inside the expected combined uncertainty of the two quantities. Furthermore, the consistency between the calibrated time transfer solution obtained from either single-frequency <italic>P</italic>1 or dual-frequency <italic>P</italic>3 for reference laboratories is shown to be about 1.0 ns, well inside the 2.1 ns uB uncertainty of a time transfer link based on GPS <italic>P</italic>3 or Precise Point Positioning. This demonstrates the good consistency between the <italic>P</italic>1 and <italic>P</italic>2 hardware delays of the reference stations used for calibration in the TAI network.</p>
+    <p>The long-term stability of the inter-signal hardware delays is also analysed from the computed d<italic>P</italic>1–d<italic>P</italic>2. It is shown that only variations larger than 2 ns can be detected for a particular station, while variations of 200 ps can be detected when differentiating the results between two stations. Finally, we also show that in the differential calibration process as used in the TAI network, using the same antenna phase center or using different positions for <italic>L</italic>1 and <italic>L</italic>2 signals gives maximum differences of 200 ps on the hardware delays of the separate codes <italic>P</italic>1 and <italic>P</italic>2; however, the final impact on the <italic>P</italic>3 combination is less than 10 ps.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Study of the GPS inter-frequency calibration of timing receivers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Study of the GPS inter-frequency calibration of timing receivers
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Study of the GPS inter-frequency calibration of timing receivers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Study of the GPS inter-frequency calibration of timing receivers
     date:
     - type: epub
-      value: '2017-12-12'
+      at: '2017-12-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -179,6 +142,6 @@ extent:
     reference_from: '11'
     reference_to: '19'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

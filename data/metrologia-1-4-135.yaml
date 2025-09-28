@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14135
-title:
-- content: Nuclear Quadrupole Resonance Thermometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/1/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/1/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 1 4 135
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Nuclear Quadrupole Resonance Thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/1/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/1/4/001
+docidentifier:
+- content: Metrologia 1 4 135
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/1/4/001
+- content: 10.1088/0026-1394/1/4/001
   type: doi
 date:
 - type: published
-  value: '1965-10-01'
+  at: '1965-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacques Vanier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Varian associates, Beverly, Mass. 01915, USA
-  role:
-  - type: author
-revdate: '1965-10-01'
 abstract:
-- content: "<p>The technique of Nuclear Quadrupole Resonance thermometry is described.
+- language: en
+  script:
+  - Latn
+  content: "<p>The technique of Nuclear Quadrupole Resonance thermometry is described.
     It is shown that the N.Q.R. thermometer exhibits unique properties of sensitivity,
     range, and reproducibility that are all desirable qualities for a temperature
     standard. The response to temperature is a unique characteristic of the working
@@ -55,39 +51,31 @@ abstract:
     this technique a sensitivity of ± 0.0002 °K is expected. In line with these results,
     evaluation of a thermometer based on the temperature dependence of the nuclear
     magnetic resonance frequency in antiferromagnetic salts is made.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1965'
+- from: '1965'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nuclear Quadrupole Resonance Thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Nuclear Quadrupole Resonance Thermometry
     date:
     - type: ppub
-      value: '1965-10-01'
+      at: '1965-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '135'
     reference_to: '140'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

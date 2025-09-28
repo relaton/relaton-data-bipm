@@ -1,108 +1,94 @@
 ---
-schema-version: v1.2.9
-id: Metrologia264257
+type: article
+schema_version: v1.4.1
 title:
-- content: Comparison of the<sup>127</sup>I<sub>2</sub> Stabilized He-Ne Lasers at
+- language: en
+  script: Latn
+  content: Comparison of the <sup>127</sup>I<sub>2</sub> Stabilized He-Ne Lasers at
     633 nm Wavelength of the National Research Laboratory of Metrology of Japan and
     the Bureau International des Poids et Mesures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/4/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/4/007
-  type: doi
-type: article
-docid:
-- id: Metrologia 26 4 257
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/4/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/4/007
+docidentifier:
+- content: Metrologia 26 4 257
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/4/007
+- content: 10.1088/0026-1394/26/4/007
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Iwasaki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology (NRLM), 1-4, Umezone
             1-Chome, Tsukuba, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J -M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92312 Sevres Cedex, France
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>The results of an international comparison of iodine-stabilized He-Ne
+- language: en
+  script:
+  - Latn
+  content: "<p>The results of an international comparison of iodine-stabilized He-Ne
     lasers at 633 nm, made by beat-frequency techniques, between the NRLM (Japan)
     and the BIPM are presented. During two weeks the frequency of the two lasers NRLM1
     and BIPM4 were compared twice a day. The mean frequency difference was determined
-    to be Δf = [0.9 ± 2.6] kHz, corresponding to a relative frequency difference of
-    [2 ± 5] · 10<sup>-12</sup>. Parameters which affected the frequency of the lasers
-    such as modulation width, iodine pressure and laser power were also investigated.
-    As the laser BIPM4 was compared with the laser BIPM2 at the BIPM before and after
-    the travel to the NRLM, we can link our results to the previous international
-    comparisons in which the BIPM has participated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    to be Δ<italic>f</italic> = [0.9 ± 2.6] kHz, corresponding to a relative frequency
+    difference of [2 ± 5] · 10<sup>-12</sup>. Parameters which affected the frequency
+    of the lasers such as modulation width, iodine pressure and laser power were also
+    investigated. As the laser BIPM4 was compared with the laser BIPM2 at the BIPM
+    before and after the travel to the NRLM, we can link our results to the previous
+    international comparisons in which the BIPM has participated.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the<sup>127</sup>I<sub>2</sub> Stabilized He-Ne Lasers
+    - language: en
+      script: Latn
+      content: Comparison of the <sup>127</sup>I<sub>2</sub> Stabilized He-Ne Lasers
         at 633 nm Wavelength of the National Research Laboratory of Metrology of Japan
         and the Bureau International des Poids et Mesures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +99,6 @@ extent:
     reference_from: '257'
     reference_to: '261'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

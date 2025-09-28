@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354523
-title:
-- content: New technique for linearity correction of bolometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/54
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/54
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 523
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New technique for linearity correction of bolometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/54
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/54
+docidentifier:
+- content: Metrologia 35 4 523
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/54
+- content: 10.1088/0026-1394/35/4/54
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Makai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hungarian Acad. Sci., OMH
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Andor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hungarian Acad. Sci., OMH
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A low-temperature, composite silicon bolometer was tested for use as
+- language: en
+  script:
+  - Latn
+  content: "<p>A low-temperature, composite silicon bolometer was tested for use as
     a highly sensitive infrared detector in spectrometric setups. The sensitivity
     of the detector was calculated as a function of the cryogenic temperature, the
     continuous background, and chopped-signal radiation. Based on this result, a new
@@ -73,39 +67,31 @@ abstract:
     even with unstable reference temperature or environmental factors. The same setup
     was used to determine the frequency response of the bolometer. The results show
     good agreement with the calculated value of sensitivity as a function of frequency.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New technique for linearity correction of bolometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New technique for linearity correction of bolometers
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +102,6 @@ extent:
     reference_from: '523'
     reference_to: '527'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

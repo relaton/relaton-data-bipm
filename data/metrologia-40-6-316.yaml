@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia406316
-title:
-- content: Requirements of weighing in legal metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/6/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/6/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 6 316
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Requirements of weighing in legal metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/6/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/6/004
+docidentifier:
+- content: Metrologia 40 6 316
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/6/004
+- content: 10.1088/0026-1394/40/6/004
   type: doi
 date:
 - type: published
-  value: '2003-11-27'
+  at: '2003-11-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Håkan Källgren
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute, SP Swedish National Testing & Research
             Institute, Box 857, SE-50115 Borås, Sweden
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Leslie Pendrill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute, SP Swedish National Testing & Research
             Institute, Box 857, SE-50115 Borås, Sweden
-  role:
-  - type: author
-revdate: '2003-11-27'
 abstract:
-- content: "<p>A review is given of recent developments in the formulation of requirements
+- language: en
+  script:
+  - Latn
+  content: "<p>A review is given of recent developments in the formulation of requirements
     of weighing where such measurements are performed in society and industry with
     legal implications such as safety, fair trade and environmental considerations.
     Traditional legal metrology in the area of weights and measures has been developed
@@ -79,53 +73,42 @@ abstract:
     and legal metrology initiated in the area of weights may act as a model and stimulate
     similar developments in other areas of metrology, particularly where requirements
     are generic (for instance uncertainty and conformity) or analogous.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Requirements of weighing in legal metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Requirements of weighing in legal metrology
     date:
     - type: epub
-      value: '2003-11-27'
+      at: '2003-11-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Requirements of weighing in legal metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Requirements of weighing in legal metrology
     date:
     - type: ppub
-      value: '2003-12-01'
+      at: '2003-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +119,6 @@ extent:
     reference_from: '316'
     reference_to: '323'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

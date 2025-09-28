@@ -1,116 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia431L1
-title:
-- content: The relation between the E<sub>n</sub> values including covariance and
-    the ‘exclusive’ E<sub>n</sub> statistic
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/N01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/N01
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The relation between the <italic>E</italic><sub><italic>n</italic></sub>
+    values including covariance and the ‘exclusive’ <italic>E</italic><sub><italic>n</italic></sub>
+    statistic
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/N01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/N01
+docidentifier:
+- content: Metrologia 43 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/N01
+- content: 10.1088/0026-1394/43/1/N01
   type: doi
 date:
 - type: published
-  value: '2005-11-18'
+  at: '2005-11-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adriana Hornikova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2005-11-18'
 abstract:
-- content: "<p>In this short communication we compare E<sub>n</sub> values taking
-    into account the covariance with the corresponding ‘exclusive’ statistic in an
-    interlaboratory study framework. The conclusion from this analysis is that there
-    are no differences between the E<sub>n</sub> values accounting for covariance
-    and the corresponding ‘exclusive’ statistics.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>In this short communication we compare <italic>E</italic><sub><italic>n</italic></sub>
+    values taking into account the covariance with the corresponding ‘exclusive’ statistic
+    in an interlaboratory study framework. The conclusion from this analysis is that
+    there are no differences between the <italic>E</italic><sub><italic>n</italic></sub>
+    values accounting for covariance and the corresponding ‘exclusive’ statistics.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The relation between the E<sub>n</sub> values including covariance
-        and the ‘exclusive’ E<sub>n</sub> statistic
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: The relation between the <italic>E</italic><sub><italic>n</italic></sub>
+        values including covariance and the ‘exclusive’ <italic>E</italic><sub><italic>n</italic></sub>
+        statistic
     date:
     - type: epub
-      value: '2005-11-18'
+      at: '2005-11-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The relation between the E<sub>n</sub> values including covariance
-        and the ‘exclusive’ E<sub>n</sub> statistic
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: The relation between the <italic>E</italic><sub><italic>n</italic></sub>
+        values including covariance and the ‘exclusive’ <italic>E</italic><sub><italic>n</italic></sub>
+        statistic
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +107,6 @@ extent:
     reference_from: L1
     reference_to: L2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

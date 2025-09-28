@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia443177
-title:
-- content: Practical considerations in the verification of personal sound exposure
-    meters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 3 177
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Practical considerations in the verification of personal sound exposure
+    meters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/3/003
+docidentifier:
+- content: Metrologia 44 3 177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/3/003
+- content: 10.1088/0026-1394/44/3/003
   type: doi
 date:
 - type: published
-  value: '2007-04-20'
+  at: '2007-04-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G de Arcas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instrumentation and Applied Acoustics Research Group of the Universidad
             Politécnica de Madrid, Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M López
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instrumentation and Applied Acoustics Research Group of the Universidad
             Politécnica de Madrid, Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ruiz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instrumentation and Applied Acoustics Research Group of the Universidad
             Politécnica de Madrid, Madrid, Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Recuero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instrumentation and Applied Acoustics Research Group of the Universidad
             Politécnica de Madrid, Madrid, Spain
-  role:
-  - type: author
-revdate: '2007-04-20'
 abstract:
-- content: "<p>This paper analyses the problems that appear when calibration or verification
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper analyses the problems that appear when calibration or verification
     of personal sound exposure meters is done following the recommendations of IEC
     61252. The tests recommended in the standard to verify the characteristics of
     such instruments are discussed and alternative procedures are proposed to solve
@@ -96,55 +86,44 @@ abstract:
     uncertainty. The use of procedures based on measurement modes that are not dependent
     on integration times, such as when measuring sound pressure level, is recommended
     whenever possible.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Practical considerations in the verification of personal sound exposure
+    - language: en
+      script: Latn
+      content: Practical considerations in the verification of personal sound exposure
         meters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-04-20'
+      at: '2007-04-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Practical considerations in the verification of personal sound exposure
+    - language: en
+      script: Latn
+      content: Practical considerations in the verification of personal sound exposure
         meters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-06-01'
+      at: '2007-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -155,6 +134,6 @@ extent:
     reference_from: '177'
     reference_to: '181'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

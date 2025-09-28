@@ -1,120 +1,104 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11289
-title:
-- content: Wavelength Measurements of the Iodine Stabilized Helium-Neon Laser
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 89
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Wavelength Measurements of the Iodine Stabilized Helium-Neon Laser
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/007
+docidentifier:
+- content: Metrologia 11 2 89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/007
+- content: 10.1088/0026-1394/11/2/007
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Wallard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Sèvres France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Teddington, Middlesex, Great Britain and Bureau International des
             Poids et Mesures, Sèvres France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hamon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Teddington, Middlesex, Great Britain and Bureau International des
             Poids et Mesures, Sèvres France
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>This paper compares measurements of the wavelength of an NPL constructed
-    iodine stabilized laser, made in terms of the<sup>86</sup>Kr primary standard
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper compares measurements of the wavelength of an NPL constructed
+    iodine stabilized laser, made in terms of the <sup>86</sup>Kr primary standard
     which were carried out at the BIPM, with an earlier measurement at NPL. The result
-    of the BIPM measurements for the i component of<sup>127</sup>I<sub>2</sub> is
+    of the BIPM measurements for the i component of <sup>127</sup>I<sub>2</sub> is
     λ (<sup>127</sup>I<sub>2</sub>, i) = [632991 399.7 ± 0.2] fm and differs by only
     0.7 fm (1 × 10<sup>-9</sup>) from the NPL result made on the same laser. The results
-    provide an illustration of the reproducibility of the<sup>86</sup>Kr standard
+    provide an illustration of the reproducibility of the <sup>86</sup>Kr standard
     which is now considered to be of the order of 4 × 10<sup>-9</sup>, and also illustrate
     the ability of the two laboratories with their different measurement techniques
     to perform high precision wavelength measurement. Some preliminary beat frequency
     measurements of the frequency reproducibility of BIPM and NPL lasers are also
     reported.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wavelength Measurements of the Iodine Stabilized Helium-Neon Laser
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Wavelength Measurements of the Iodine Stabilized Helium-Neon Laser
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +109,6 @@ extent:
     reference_from: '89'
     reference_to: '95'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

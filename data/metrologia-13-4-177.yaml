@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia134177
-title:
-- content: Differences between the IPTS-68 and Thermodynamic Temperature above 0°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 13 4 177
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Differences between the IPTS-68 and Thermodynamic Temperature above 0°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/4/004
+docidentifier:
+- content: Metrologia 13 4 177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/4/004
+- content: 10.1088/0026-1394/13/4/004
   type: doi
 date:
 - type: published
-  value: '1977-10-01'
+  at: '1977-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -39,16 +35,14 @@ contributor:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L A Guildner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -56,16 +50,14 @@ contributor:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -73,38 +65,32 @@ contributor:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunsweig, Germany
-  role:
-  - type: author
-revdate: '1977-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Differences between the IPTS-68 and Thermodynamic Temperature above
+    - language: en
+      script: Latn
+      content: Differences between the IPTS-68 and Thermodynamic Temperature above
         0°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1977-10-01'
+      at: '1977-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +101,6 @@ extent:
     reference_from: '177'
     reference_to: '178'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

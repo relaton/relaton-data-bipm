@@ -1,139 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia592025002
-title:
-- content: Effects of rotation errors on goniometric measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac438e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac438e
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 2 025002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Effects of rotation errors on goniometric measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac438e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac438e
+docidentifier:
+- content: Metrologia 59 2 025002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac438e
+- content: 10.1088/1681-7575/ac438e
   type: doi
 date:
 - type: published
-  value: '2022-02-28'
+  at: '2022-02-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Molloy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Koo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
         name:
         - content: Measurement Standards Laboratory of New Zealand
-        contact:
-        - address:
-            formatted_address: 69 Gracefield Rd, Lower Hutt 5010, New Zealand
-  role:
-  - type: author
-revdate: '2022-02-28'
 abstract:
-- content: Abstract<p>Goniometric measurements are essential for the determination
-    of many optical quantities, and quantifying the effects of errors in the rotation
-    axes on these quantities is a complex task. In this paper, we show how a measurement
-    model for a four-axis goniometric system can be developed to allow the effects
-    of alignment and rotation errors to be included in the uncertainty of the measurement.
-    We use three different computational methods to propagate the uncertainties due
-    to several error sources through the model to the rotation angles and then to
-    the measurement of bidirectional reflectance and integrated diffuse reflectance,
-    a task that would otherwise be intractable. While all three methods give the same
-    result, the GTC Python package is the simplest and intrinsically provides a full
-    uncertainty budget, including all correlations between measurement parameters.
-    We then demonstrate how the development of a measurement model and the use of
-    GTC has improved our understanding of the system. As a consequence, taking advantage
-    of negative correlations between measurements in different geometries allows us
-    to minimise the total uncertainty in integrated diffuse reflectance, lowering
-    the standard uncertainty from 0.0029 to 0.0015.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Goniometric measurements are essential for the determination of many optical quantities, and quantifying the effects of errors in the rotation axes on these quantities is a complex task. In this paper, we show how a measurement model for a four-axis goniometric system can be developed to allow the effects of alignment and rotation errors to be included in the uncertainty of the measurement. We use three different computational methods to propagate the uncertainties due to several error sources through the model to the rotation angles and then to the measurement of bidirectional reflectance and integrated diffuse reflectance, a task that would otherwise be intractable. While all three methods give the same result, the GTC Python package is the simplest and intrinsically provides a full uncertainty budget, including all correlations between measurement parameters. We then demonstrate how the development of a measurement model and the use of GTC has improved our understanding of the system. As a consequence, taking advantage of negative correlations between measurements in different geometries allows us to minimise the total uncertainty in integrated diffuse reflectance, lowering the standard uncertainty from 0.0029 to 0.0015.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effects of rotation errors on goniometric measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Effects of rotation errors on goniometric measurements
     date:
     - type: ppub
-      value: '2022-04-01'
+      at: '2022-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effects of rotation errors on goniometric measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Effects of rotation errors on goniometric measurements
     date:
     - type: epub
-      value: '2022-02-28'
+      at: '2022-02-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +113,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

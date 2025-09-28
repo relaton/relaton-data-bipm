@@ -1,115 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S10
-title:
-- content: Bayesian regression versus application of least squares—an example
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S10
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S10
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian regression versus application of least squares—an example
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S10
+docidentifier:
+- content: Metrologia 53 1 S10
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S10
+- content: 10.1088/0026-1394/53/1/S10
   type: doi
 date:
 - type: published
-  value: '2015-12-16'
+  at: '2015-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt Abbestr.2-12
-        contact:
-        - address:
-            formatted_address: 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gerd Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt Abbestr.2-12
-        contact:
-        - address:
-            formatted_address: 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2015-12-16'
 abstract:
-- content: Abstract<p>Regression is an important task in metrology and least-squares
-    methods are often applied in this context. Bayesian inference provides an alternative
-    that can take into account available prior knowledge. We illustrate similarities
-    and differences of the two approaches in terms of a particular nonlinear regression
-    problem. The impact of prior knowledge utilized in the Bayesian regression depends
-    on the amount of information contained in the data, and by considering data sets
-    with different signal-to-noise ratios the relevance of the employed prior knowledge
-    for the results is investigated. In addition, properties of the two approaches
-    are explored in the context of the particular example.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Regression is an important task in metrology and least-squares methods are often applied in this context. Bayesian inference provides an alternative that can take into account available prior knowledge. We illustrate similarities and differences of the two approaches in terms of a particular nonlinear regression problem. The impact of prior knowledge utilized in the Bayesian regression depends on the amount of information contained in the data, and by considering data sets with different signal-to-noise ratios the relevance of the employed prior knowledge for the results is investigated. In addition, properties of the two approaches are explored in the context of the particular example.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian regression versus application of least squares—an example
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian regression versus application of least squares—an example
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian regression versus application of least squares—an example
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian regression versus application of least squares—an example
     date:
     - type: epub
-      value: '2015-12-16'
+      at: '2015-12-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +102,6 @@ extent:
     reference_from: S10
     reference_to: S16
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

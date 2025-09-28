@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354685
-title:
-- content: Assessment of degradation of VIRGO radiometers on board SOHO
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/78
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/78
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 685
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Assessment of degradation of VIRGO radiometers on board SOHO
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/78
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/78
+docidentifier:
+- content: Metrologia 35 4 685
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/78
+- content: 10.1088/0026-1394/35/4/78
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Anklin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC, IRMB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC, IRMB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Finsterle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC, IRMB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D A Crommelynck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC, IRMB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Dewitte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC, IRMB
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The determination of the total solar irradiance (TSI) from the SOHO/VIRGO
+- language: en
+  script:
+  - Latn
+  content: "<p>The determination of the total solar irradiance (TSI) from the SOHO/VIRGO
     experiment is made by first correcting the time series for all a priori known
     influences, and then correcting the data for instrumental degradation, using the
     back-up instruments PMO6-VB and DIARAD-R. The long-term behaviour of PMO6-VA shows
@@ -106,39 +94,31 @@ abstract:
     an early exponential decrease of 405 days and an 1/e amplitude of 65 × 10<sup>-6</sup>.
     After correcting PMO6- VA and DIARAD-L for their degradation, the VIRGO TSI shows
     a minimum around July 1996 and has been increasing since then by about 0.4 W m<sup>-2</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Assessment of degradation of VIRGO radiometers on board SOHO
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Assessment of degradation of VIRGO radiometers on board SOHO
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +129,6 @@ extent:
     reference_from: '685'
     reference_to: '688'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

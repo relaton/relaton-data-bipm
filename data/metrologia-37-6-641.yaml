@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia376641
-title:
-- content: 'Uncertainty calculations for the preparation of primary gas mixtures.
-    Part 1: Gravimetry'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/6/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/6/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 6 641
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Uncertainty calculations for the preparation of primary gas mixtures.
+    Part 1: Gravimetry'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/6/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/6/1
+docidentifier:
+- content: Metrologia 37 6 641
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/6/1
+- content: 10.1088/0026-1394/37/6/1
   type: doi
 date:
 - type: published
-  value: '2000-12-01'
+  at: '2000-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Alink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A M H van der Veen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi
-  role:
-  - type: author
-revdate: '2000-12-01'
 abstract:
-- content: "<p>A generic method for the preparation of primary gas mixtures is described.
+- language: en
+  script:
+  - Latn
+  content: "<p>A generic method for the preparation of primary gas mixtures is described.
     This description forms the basis for a detailed analysis of all sources of uncertainty.
     Expressions are derived for the combined standard uncertainty in a single weighing
     cycle as well as for a transferred mass of gas. The expressions are rigorous,
@@ -66,40 +60,32 @@ abstract:
     The model can be simplified by assessing the covariance between results of weighing
     cycles, as it can be demonstrated that this covariance will never become significant
     compared with the uncertainty in the result of a weighing.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty calculations for the preparation of primary gas mixtures.
+    - language: en
+      script: Latn
+      content: 'Uncertainty calculations for the preparation of primary gas mixtures.
         Part 1: Gravimetry'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-12-01'
+      at: '2000-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '641'
     reference_to: '650'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

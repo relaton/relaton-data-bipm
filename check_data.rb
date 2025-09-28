@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'yaml'
-require 'relaton_bipm'
+require 'relaton/bipm'
 
 #
 # Compare elements of source and destination
@@ -76,19 +75,15 @@ def print_msg(messages, indent = '') # rubocop:disable Metrics/MethodLength, Met
   end
 end
 
-def fix_doctype(hash)
-  hash["doctype"] &&= { "type" => hash["doctype"] }
-end
-
 path = ARGV.first || 'static/**/*.{yaml,yml}'
 
 errors = false
 Dir[path].each do |f|
-  yaml = YAML.load_file(f)
-  fix_doctype yaml
-  hash = RelatonBipm::HashConverter.hash_to_bib yaml
-  item = RelatonBipm::BipmBibliographicItem.new(**hash)
-  if (messages = compare(yaml, item.to_hash))&.any?
+  yaml = File.read(f, encoding: 'utf-8')
+  hash1 = YAML.safe_load yaml
+  item = Relaton::Bipm::Item.from_yaml yaml
+  hash2 = YAML.safe_load item.to_yaml
+  if (messages = compare(hash1, hash2))&.any?
     errors = true
     puts "Parsing #{f} failed. Parsed content doesn't match to source."
     print_msg messages

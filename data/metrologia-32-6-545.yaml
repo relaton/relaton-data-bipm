@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326545
-title:
-- content: 'PTB primary standard for optical radiant power: transfer-optimized facility
-    in the clean-room centre'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/29
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/29
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 545
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'PTB primary standard for optical radiant power: transfer-optimized facility
+    in the clean-room centre'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/29
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/29
+docidentifier:
+- content: Metrologia 32 6 545
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/29
+- content: 10.1088/0026-1394/32/6/29
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>The new clean-room centre of the Physikalisch-Technische Bundesanstalt
+- language: en
+  script:
+  - Latn
+  content: "<p>The new clean-room centre of the Physikalisch-Technische Bundesanstalt
     (PTB) provides the best environment for measurements of the highest accuracy.
     One part is specifically designed for radiometric measurements. It contains the
     PTB primary standard facility for radiant power. This facility is developed at
@@ -66,40 +60,32 @@ abstract:
     Ar<sup>+</sup> laser and a Ti:sapphire laser covers the spectral range 360 nm
     to 1090 nm. The new facility is described and a new method of transmittance measurement
     of the Brewster-angle window without disassembly of the window is presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'PTB primary standard for optical radiant power: transfer-optimized
+    - language: en
+      script: Latn
+      content: 'PTB primary standard for optical radiant power: transfer-optimized
         facility in the clean-room centre'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '545'
     reference_to: '549'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,133 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia45111
-title:
-- content: Reducing photodiode reflectance by Brewster-angle operation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reducing photodiode reflectance by Brewster-angle operation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/1/002
+docidentifier:
+- content: Metrologia 45 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/1/002
+- content: 10.1088/0026-1394/45/1/002
   type: doi
 date:
 - type: published
-  value: '2007-12-18'
+  at: '2007-12-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Meelis Sildoja
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (TKK) and Centre for Metrology and Accreditation (MIKES), PO Box 3000,
             FI-02015 TKK, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Farshid Manoocheri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (TKK) and Centre for Metrology and Accreditation (MIKES), PO Box 3000,
             FI-02015 TKK, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erkki Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (TKK) and Centre for Metrology and Accreditation (MIKES), PO Box 3000,
             FI-02015 TKK, Finland
-  role:
-  - type: author
-revdate: '2007-12-18'
 abstract:
-- content: "<p>Methods for reducing reflectance losses at multiple wavelengths with
+- language: en
+  script:
+  - Latn
+  content: "<p>Methods for reducing reflectance losses at multiple wavelengths with
     a silicon photodiode detector are described. Using thick oxide layer and Brewster-angle
     operation it is shown that specular reflectance losses can be theoretically decreased
     below 1 ppm (part per million) in a simple measurement arrangement. Additionally,
     a detector structure is presented which can be used to reduce the measurement
     uncertainties due to diffuse reflectance below 1 ppm, even if the total diffuse
     reflectance losses from a plain photodiode would be two orders of magnitude larger.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reducing photodiode reflectance by Brewster-angle operation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reducing photodiode reflectance by Brewster-angle operation
     date:
     - type: epub
-      value: '2007-12-18'
+      at: '2007-12-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reducing photodiode reflectance by Brewster-angle operation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reducing photodiode reflectance by Brewster-angle operation
     date:
     - type: ppub
-      value: '2008-02-01'
+      at: '2008-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +119,6 @@ extent:
     reference_from: '11'
     reference_to: '15'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia333265
-title:
-- content: Isotopic composition of water used for triple point of water cells
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/3/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/3/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 3 265
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Isotopic composition of water used for triple point of water cells
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/3/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/3/9
+docidentifier:
+- content: Metrologia 33 3 265
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/3/9
+- content: 10.1088/0026-1394/33/3/9
   type: doi
 date:
 - type: published
-  value: '1996-06-01'
+  at: '1996-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J V Nicholas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T D Dransfield
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
-  - type: author
-revdate: '1996-06-01'
 abstract:
-- content: "<p>Measurements of the isotopic composition of water used in the production
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurements of the isotopic composition of water used in the production
     of triple point of water cells show that state-of-the-art triple point realizations
     must consider corrections and uncertainties due to variations in the isotopic
     composition of water. Triple point cell production processes yield cells with
@@ -77,39 +69,31 @@ abstract:
     point leads to a fundamental uncertainty in the definition of the kelvin of around
     14 µK because of the equilibrium isotope fractionation between the ice and liquid
     water in the triple point cell.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Isotopic composition of water used for triple point of water cells
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Isotopic composition of water used for triple point of water cells
     date:
     - type: ppub
-      value: '1996-06-01'
+      at: '1996-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +104,6 @@ extent:
     reference_from: '265'
     reference_to: '267'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

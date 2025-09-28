@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia32151
-title:
-- content: Two-way time transfer experiment via the Horizon satellite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 1 51
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Two-way time transfer experiment via the Horizon satellite
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/1/006
+docidentifier:
+- content: Metrologia 32 1 51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/1/006
+- content: 10.1088/0026-1394/32/1/006
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E L Gurevich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Applied Astronomy, Russian Academy of Sciences, Zdanovskaya
             8, 197042 St Petersburg, Russian Federation
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>Two-way time transfer via satellite is one of the most precise methods
+- language: en
+  script:
+  - Latn
+  content: "<p>Two-way time transfer via satellite is one of the most precise methods
     of time synchronization. This method makes it possible to obtain 0,1 nanosecond
     precision and decrease systematic error to the nanosecond level. The two-way time
     transfer system designed in Russia and the results of experiments are described.
     The experiments consist of two-way time transfer via satellite, ground station
     delay measurements and a relativity effect calculation. The results of two-way
     time transfer are compared with GLONASS data.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Two-way time transfer experiment via the Horizon satellite
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Two-way time transfer experiment via the Horizon satellite
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '51'
     reference_to: '53'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

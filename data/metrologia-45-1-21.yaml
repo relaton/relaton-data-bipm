@@ -1,136 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia45121
-title:
-- content: Simple uncertainty evaluation method for an interferometric flatness measurement
-    machine using a calibrated test flat
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 1 21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Simple uncertainty evaluation method for an interferometric flatness measurement
+    machine using a calibrated test flat
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/1/004
+docidentifier:
+- content: Metrologia 45 1 21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/1/004
+- content: 10.1088/0026-1394/45/1/004
   type: doi
 date:
 - type: published
-  value: '2007-12-18'
+  at: '2007-12-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Youichi Bitou
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Advanced Industrial Science and Technology
             (AIST), AIST Tsukuba Central 3, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563,
             Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Toshiyuki Takatsuji
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Advanced Industrial Science and Technology
             (AIST), AIST Tsukuba Central 3, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563,
             Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kensei Ehara
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Advanced Industrial Science and Technology
             (AIST), AIST Tsukuba Central 3, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8563,
             Japan
-  role:
-  - type: author
-revdate: '2007-12-18'
 abstract:
-- content: "<p>A simple method of evaluating the measurement capability of a practical
+- language: en
+  script:
+  - Latn
+  content: "<p>A simple method of evaluating the measurement capability of a practical
     Fizeau-type flatness measurement machine is proposed. In this method, by measuring
     only the peak-to-valley (PV) value of a calibrated test flat, the measurement
     capability of the flatness measurement machine for the PV value is evaluated while
     maintaining the traceability of the measurement. A simple approximate equation
     for estimating the measurement capability of the flatness measurement machine
     is presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simple uncertainty evaluation method for an interferometric flatness
+    - language: en
+      script: Latn
+      content: Simple uncertainty evaluation method for an interferometric flatness
         measurement machine using a calibrated test flat
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-12-18'
+      at: '2007-12-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Simple uncertainty evaluation method for an interferometric flatness
+    - language: en
+      script: Latn
+      content: Simple uncertainty evaluation method for an interferometric flatness
         measurement machine using a calibrated test flat
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2008-02-01'
+      at: '2008-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: '21'
     reference_to: '26'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,163 +1,139 @@
 ---
-schema-version: v1.2.9
-id: Metrologia512S5
-title:
-- content: A determination of Planck's constant using the NRC watt balance
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/51/2/S5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/2/S5
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 2 S5
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A determination of Planck's constant using the NRC watt balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/2/S5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/2/S5
+docidentifier:
+- content: Metrologia 51 2 S5
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/2/S5
+- content: 10.1088/0026-1394/51/2/S5
   type: doi
 date:
 - type: published
-  value: '2014-03-31'
+  at: '2014-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Sanchez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B M Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Green
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J O Liard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Inglis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, Ontario K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2014-03-31'
 abstract:
-- content: Abstract<p>We have measured Planck's constant and have obtained a value
-    of 6.626 070 34(12) × 10<sup>−34</sup> J s. To our knowledge this measurement
-    of h has the lowest uncertainty reported to date. This result has been obtained
-    from measurements of four masses of different material and nominal values varying
-    from 1 kg to 250 g. The experimental procedures and the measurement uncertainties
-    are described in detail.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We have measured Planck's constant and have obtained a value of 6.626 070 34(12) × 10<sup>−34</sup> J s. To our knowledge this measurement of <italic>h</italic> has the lowest uncertainty reported to date. This result has been obtained from measurements of four masses of different material and nominal values varying from 1 kg to 250 g. The experimental procedures and the measurement uncertainties are described in detail.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A determination of Planck's constant using the NRC watt balance
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: A determination of Planck's constant using the NRC watt balance
     date:
     - type: ppub
-      value: '2014-04-01'
+      at: '2014-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A determination of Planck's constant using the NRC watt balance
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: A determination of Planck's constant using the NRC watt balance
     date:
     - type: epub
-      value: '2014-03-31'
+      at: '2014-03-31'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -168,6 +144,6 @@ extent:
     reference_from: S5
     reference_to: S14
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

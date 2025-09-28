@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375485
-title:
-- content: Quantum efficiencies of gold and copper photocathodes in the VUV and X-ray
-    range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/31
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/31
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 485
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quantum efficiencies of gold and copper photocathodes in the VUV and X-ray
+    range
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/31
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/31
+docidentifier:
+- content: Metrologia 37 5 485
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/31
+- content: 10.1088/0026-1394/37/5/31
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Henneken
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Scholze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Krumrey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ulm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The quantum efficiency, η, of gold and copper photocathodes has been
+- language: en
+  script:
+  - Latn
+  content: "<p>The quantum efficiency, η, of gold and copper photocathodes has been
     measured in the photon-energy range from 50 eV to 10 keV. The experiments were
     performed with monochromatized synchrotron radiation at the radiometry laboratories
     of the Physikalisch-Technische Bundesanstalt (PTB) at the electron storage rings
@@ -93,43 +83,36 @@ abstract:
     chamber. The quantum efficiency of cleaned gold and copper was found to be reproducible
     within 2 parts in 10<sup>2</sup> to 3 parts in 10<sup>2</sup>. A simple model
     assumes to be proportional to the product of absorption coefficient, μ, and photon
-    energy, hν. The relative course of the absorption coefficient was also measured
-    with relative standard uncertainties below 0.04. As proportionality was only locally
-    fulfilled, a more sophisticated model for quantum efficiency was developed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    energy, <italic>h</italic>ν. The relative course of the absorption coefficient
+    was also measured with relative standard uncertainties below 0.04. As proportionality
+    was only locally fulfilled, a more sophisticated model for quantum efficiency
+    was developed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantum efficiencies of gold and copper photocathodes in the VUV and
+    - language: en
+      script: Latn
+      content: Quantum efficiencies of gold and copper photocathodes in the VUV and
         X-ray range
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +123,6 @@ extent:
     reference_from: '485'
     reference_to: '488'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

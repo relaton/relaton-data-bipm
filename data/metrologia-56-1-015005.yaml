@@ -1,172 +1,146 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015005
-title:
-- content: The absolute salinity of seawater and its measurands
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaea92
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaea92
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015005
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The absolute salinity of seawater and its measurands
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaea92
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaea92
+docidentifier:
+- content: Metrologia 56 1 015005
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaea92
+- content: 10.1088/1681-7575/aaea92
   type: doi
 date:
 - type: published
-  value: '2018-11-30'
+  at: '2018-11-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marc Le Menn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brest, France
         name:
         - content: French Hydrographic and Oceanographic Service (Shom)
         subdivision:
-        - content: Metrology and Chemical Oceanography Department
-        contact:
-        - address:
-            formatted_address: Brest, France
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology and Chemical Oceanography Department
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paolo Alberto Giuliano Albo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Simona Lago
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raffaella Romeo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fernando Sparasci
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Laboratoire commun de métrologie, La Plaine Saint-Denis,
+            France
         name:
         - content: CNAM-INM
-        contact:
-        - address:
-            formatted_address: Laboratoire commun de métrologie, La Plaine Saint-Denis,
-              France
-  role:
-  - type: author
-revdate: '2018-11-30'
 abstract:
-- content: Abstract<p>Salinity is an essential quantity to calculate many of the physical
-    properties of oceans, but it is also a quantity hard to define considering the
-    complexity of this material in its bio-geo-chemical composition and the imperfections
-    of the existing measurement techniques. The TEOS-10 gives several definitions
-    to the notion of absolute salinity, usable in the function of the properties to
-    study, but they are based on the concept of a constant elemental composition of
-    seawater, so that, if its major inorganic components are well known, its real
-    composition varies in time and space and its determination is still a challenge.</p><p>Most
-    salinity calculations are based on conductivity measurements. This publication
-    reviews other techniques which are used or could be used to assess the absolute
-    salinity of seawater and questions the measurand of these techniques and the possibility
-    to redefine the concept of salinity from physical properties.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Salinity is an essential quantity to calculate many of the physical properties of oceans, but it is also a quantity hard to define considering the complexity of this material in its bio-geo-chemical composition and the imperfections of the existing measurement techniques. The TEOS-10 gives several definitions to the notion of absolute salinity, usable in the function of the properties to study, but they are based on the concept of a constant elemental composition of seawater, so that, if its major inorganic components are well known, its real composition varies in time and space and its determination is still a challenge.</p>
+    <p>Most salinity calculations are based on conductivity measurements. This publication reviews other techniques which are used or could be used to assess the absolute salinity of seawater and questions the measurand of these techniques and the possibility to redefine the concept of salinity from physical properties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The absolute salinity of seawater and its measurands
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The absolute salinity of seawater and its measurands
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The absolute salinity of seawater and its measurands
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The absolute salinity of seawater and its measurands
     date:
     - type: epub
-      value: '2018-11-30'
+      at: '2018-11-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -174,6 +148,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

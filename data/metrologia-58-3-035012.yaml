@@ -1,138 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia583035012
-title:
-- content: Empirical decomposition and error propagation of medium-term instabilities
-    in half-life determinations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abf7df
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abf7df
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 3 035012
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Empirical decomposition and error propagation of medium-term instabilities
+    in half-life determinations
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abf7df
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abf7df
+docidentifier:
+- content: Metrologia 58 3 035012
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abf7df
+- content: 10.1088/1681-7575/abf7df
   type: doi
 date:
 - type: published
-  value: '2021-05-18'
+  at: '2021-05-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Geel, Belgium
         name:
         - content: Joint Research Centre (JRC)
         subdivision:
-        - content: European Commission
-        contact:
-        - address:
-            formatted_address: Geel, Belgium
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Pelczar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Geel, Belgium
         name:
         - content: Joint Research Centre (JRC)
         subdivision:
-        - content: European Commission
-        contact:
-        - address:
-            formatted_address: Geel, Belgium
-  role:
-  - type: author
-revdate: '2021-05-18'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission
 abstract:
-- content: Abstract<p>A least-squares fit of exponential functions to a measured radioactive
-    decay rate curve provides an estimate of the half-life and its statistical uncertainty
-    in the assumption that all deviations from the theoretical curve are purely of
-    a random nature. The result may be biased and the error underestimated as soon
-    as the experiment suffers instabilities that exceed the duration of individual
-    measurements. Contrary to long-term systematic errors, medium-frequency cyclic
-    perturbations may be observable as autocorrelated structures in the residuals.
-    In this work, an empirical decomposition algorithm is used to separate medium-frequency
-    effects from the random statistical component in the fit residuals, such that
-    custom error propagation factors can be calculated. A theoretical study of error
-    propagation is made for sine and square wave perturbations. The empirical decomposition
-    method is demonstrated on a synthetic spectrum, a time series of solar neutrino
-    detection rates, and two experimental decay curves of<sup>134</sup>Cs measured
-    in an ionisation chamber.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A least-squares fit of exponential functions to a measured radioactive decay rate curve provides an estimate of the half-life and its statistical uncertainty in the assumption that all deviations from the theoretical curve are purely of a random nature. The result may be biased and the error underestimated as soon as the experiment suffers instabilities that exceed the duration of individual measurements. Contrary to long-term systematic errors, medium-frequency cyclic perturbations may be observable as autocorrelated structures in the residuals. In this work, an empirical decomposition algorithm is used to separate medium-frequency effects from the random statistical component in the fit residuals, such that custom error propagation factors can be calculated. A theoretical study of error propagation is made for sine and square wave perturbations. The empirical decomposition method is demonstrated on a synthetic spectrum, a time series of solar neutrino detection rates, and two experimental decay curves of <sup>134</sup>Cs measured in an ionisation chamber.</p>
 copyright:
-- owner:
-  - name:
-    - content: The Author
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: The Author
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Empirical decomposition and error propagation of medium-term instabilities
+    - script: Latn
+      content: Empirical decomposition and error propagation of medium-term instabilities
         in half-life determinations
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-06-01'
+      at: '2021-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Empirical decomposition and error propagation of medium-term instabilities
+    - script: Latn
+      content: Empirical decomposition and error propagation of medium-term instabilities
         in half-life determinations
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-05-18'
+      at: '2021-05-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Empirical decomposition and error propagation of medium-term instabilities
+    - script: Latn
+      content: Empirical decomposition and error propagation of medium-term instabilities
         in half-life determinations
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2021-05-18'
+      at: '2021-05-18'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +118,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

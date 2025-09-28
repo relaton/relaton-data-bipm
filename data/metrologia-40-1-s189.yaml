@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S189
-title:
-- content: Irradiance measurements without explicit diffraction corrections
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/343
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/343
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S189
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Irradiance measurements without explicit diffraction corrections
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/343
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/343
+docidentifier:
+- content: Metrologia 40 1 S189
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/343
+- content: 10.1088/0026-1394/40/1/343
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J G Suarez-Romero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro Nacional de Metrología, Km 4.5 Carretera a Los Cués, Municipio
             del Marqués CP 76241, Querétaro, Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Tepichín-Rodríguez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Nacional de Astrofísica, Óptica y Electrónica Erro 1,
             Tonantzintla, Puebla, Mexico
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Absolute irradiance (and radiance) measurements are normally carried
+- language: en
+  script:
+  - Latn
+  content: "<p>Absolute irradiance (and radiance) measurements are normally carried
     out with a radiometric bench consisting of two field apertures and a photodetector.
     Irradiance measurements are taken considering rectilinear propagation and are
     normally corrected from diffraction effects. In this work we treat irradiance
@@ -66,53 +60,42 @@ abstract:
     This wave propagation allows us to calculate an instrument constant of the optical
     system, which for this case can be treated as a constant correction in irradiance
     as a function of distance. We show experimental results that verify our proposal.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Irradiance measurements without explicit diffraction corrections
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Irradiance measurements without explicit diffraction corrections
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Irradiance measurements without explicit diffraction corrections
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Irradiance measurements without explicit diffraction corrections
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: S189
     reference_to: S191
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

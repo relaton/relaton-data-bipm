@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S43
-title:
-- content: The PTB primary clocks CS1 and CS2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S06
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S43
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The PTB primary clocks CS1 and CS2
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S06
+docidentifier:
+- content: Metrologia 42 3 S43
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S06
+- content: 10.1088/0026-1394/42/3/S06
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andreas Bauch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>The primary clocks CS1 and CS2 have been developed and operated by
+- language: en
+  script:
+  - Latn
+  content: "<p>The primary clocks CS1 and CS2 have been developed and operated by
     the Physikalisch-Technische Bundesanstalt, Braunschweig, Germany. By their contributions
     to the definition of the scale unit of International Atomic Time they have provided
     access to the realization of the SI second over decades with exceptional accuracy.
     They have stood out against other primary clocks by the novelty of their design
     concept, their robustness of construction and last but not the least by their
     almost continuous operation for many years. Their properties have changed with
-    time, but during the last 7 years their uncertainty, u<sub>B</sub>, has been estimated
-    as 8 × 10<sup>−15</sup> (CS1) and 12 × 10<sup>−15</sup> (CS2). Comparisons with
-    PTB's cold-atom frequency standard CSF1 (u<sub>B</sub> = 1 × 10<sup>−15</sup>)
-    over 3.5 years revealed that CS2 and CSF1 agreed well within the uncertainty u<sub>B</sub>(CS2),
-    whereas CS1 frequency deviates slightly more from CSF1 than u<sub>B</sub>(CS1).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    time, but during the last 7 years their uncertainty, <italic>u</italic><sub>B</sub>,
+    has been estimated as 8 × 10<sup>−15</sup> (CS1) and 12 × 10<sup>−15</sup> (CS2).
+    Comparisons with PTB's cold-atom frequency standard CSF1 (<italic>u</italic><sub>B</sub>
+    = 1 × 10<sup>−15</sup>) over 3.5 years revealed that CS2 and CSF1 agreed well
+    within the uncertainty <italic>u</italic><sub>B</sub>(CS2), whereas CS1 frequency
+    deviates slightly more from CSF1 than <italic>u</italic><sub>B</sub>(CS1).</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The PTB primary clocks CS1 and CS2
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The PTB primary clocks CS1 and CS2
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The PTB primary clocks CS1 and CS2
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The PTB primary clocks CS1 and CS2
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: S43
     reference_to: S54
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

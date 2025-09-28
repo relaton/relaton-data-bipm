@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S75
-title:
-- content: Measurement of the volume of weights using an acoustic volumeter and the
-    reliability of such measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S08
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S08
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the volume of weights using an acoustic volumeter and the
+    reliability of such measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S08
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S08
+docidentifier:
+- content: Metrologia 41 2 S75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S08
+- content: 10.1088/0026-1394/41/2/S08
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Kobata
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan (NMIJ), AIST, AIST Tsukuba
             Central 3, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ueki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan (NMIJ), AIST, AIST Tsukuba
             Central 3, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Ooiwa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan (NMIJ), AIST, AIST Tsukuba
             Central 3, Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Ishii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Science Laboratory, Kawasaki, Kanagawa, Japan
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>For the precise measurement of the mass of a weight, buoyancy correction
+- language: en
+  script:
+  - Latn
+  content: "<p>For the precise measurement of the mass of a weight, buoyancy correction
     of air for the volume of a weight is necessary. Although hydrostatic weighing
     is the most accurate method currently used in determining volume, it is a relatively
     complicated process requiring the weight to be wetted in a reference fluid. Since
@@ -103,55 +93,44 @@ abstract:
     evaluated with a relative uncertainty below the order of 1 × 10<sup>−3</sup>.
     From the measurement results, it was shown that the use of an acoustic volumeter
     is effective for the measurement of the volume of weights.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the volume of weights using an acoustic volumeter and
+    - language: en
+      script: Latn
+      content: Measurement of the volume of weights using an acoustic volumeter and
         the reliability of such measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the volume of weights using an acoustic volumeter and
+    - language: en
+      script: Latn
+      content: Measurement of the volume of weights using an acoustic volumeter and
         the reliability of such measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -162,6 +141,6 @@ extent:
     reference_from: S75
     reference_to: S83
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

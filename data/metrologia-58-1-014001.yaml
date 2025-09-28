@@ -1,151 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581014001
-title:
-- content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
-    models
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abb065
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abb065
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 014001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
+    models
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abb065
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abb065
+docidentifier:
+- content: Metrologia 58 1 014001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abb065
+- content: 10.1088/1681-7575/abb065
   type: doi
 date:
 - type: published
-  value: '2020-12-17'
+  at: '2020-12-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Demeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 29 avenue Roger Hennequin, 78197 Trappes Cedex, Paris,
+            France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: 29 avenue Roger Hennequin, 78197 Trappes Cedex, Paris,
-              France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 29 avenue Roger Hennequin, 78197 Trappes Cedex, Paris,
+            France
         name:
         - content: Laboratoire National de Métrologie et d’Essais
-        contact:
-        - address:
-            formatted_address: 29 avenue Roger Hennequin, 78197 Trappes Cedex, Paris,
-              France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2020-12-17'
 abstract:
-- content: Abstract<p>In this paper we provide guidance on a Bayesian uncertainty
-    evaluation for a large class of GUM measurement models covering linear and non-linear
-    models. Bayesian analysis takes advantage of useful prior knowledge on the measurand,
-    which is often available from a metrologist’s genuine expertise and opinion, or
-    from previous experiments and which is neither taken into account by the GUM nor
-    by its Supplement 1. For the considered class of measurement models, we establish
-    the equivalence with the related statistical models and derive analytical expressions
-    of the posterior distribution for an appropriate family of prior distributions,
-    which allows one to gain insight into the result of the Bayesian uncertainty evaluation.
-    We extend this work to the formulation of arbitrary prior distributions for the
-    measurand and provide some guidance to set hyperparameter values within a class
-    of priors based on elicitation techniques, so that the resulting priors reflect
-    the prior knowledge. Posterior distributions are calculated by Markov Chain Monte
-    Carlo methods. We apply the Bayesian uncertainty evaluation to the mass calibration
-    example of Supplement 1 and compare our results with those obtained by the GUM
-    and its Supplement 1. In order to study the impact of the choice of method for
-    this example, we carry out a sensitivity analysis of the results with respect
-    to the choice of prior. We show a virtually strong effect of the prior distribution
-    which results in reduced uncertainty estimates for a small number of observations.
-    When using noninformative priors, we obtain results comparable to those achieved
-    by GUM-S1. Python code is made available that enables a Bayesian uncertainty evaluation
-    also in other applications covered by the considered class of GUM measurement
-    models.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In this paper we provide guidance on a Bayesian uncertainty evaluation for a large class of GUM measurement models covering linear and non-linear models. Bayesian analysis takes advantage of useful prior knowledge on the measurand, which is often available from a metrologist’s genuine expertise and opinion, or from previous experiments and which is neither taken into account by the GUM nor by its Supplement 1. For the considered class of measurement models, we establish the equivalence with the related statistical models and derive analytical expressions of the posterior distribution for an appropriate family of prior distributions, which allows one to gain insight into the result of the Bayesian uncertainty evaluation. We extend this work to the formulation of arbitrary prior distributions for the measurand and provide some guidance to set hyperparameter values within a class of priors based on elicitation techniques, so that the resulting priors reflect the prior knowledge. Posterior distributions are calculated by Markov Chain Monte Carlo methods. We apply the Bayesian uncertainty evaluation to the mass calibration example of Supplement 1 and compare our results with those obtained by the GUM and its Supplement 1. In order to study the impact of the choice of method for this example, we carry out a sensitivity analysis of the results with respect to the choice of prior. We show a virtually strong effect of the prior distribution which results in reduced uncertainty estimates for a small number of observations. When using noninformative priors, we obtain results comparable to those achieved by GUM-S1. Python code is made available that enables a Bayesian uncertainty evaluation also in other applications covered by the considered class of GUM measurement models.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
+    - script: Latn
+      content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
         models
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
+    - script: Latn
+      content: Guidance on Bayesian uncertainty evaluation for a class of GUM measurement
         models
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-12-17'
+      at: '2020-12-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +118,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

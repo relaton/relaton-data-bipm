@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326491
-title:
-- content: The radiation entrance window of pn junction detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/17
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 491
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The radiation entrance window of pn junction detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/17
+docidentifier:
+- content: Metrologia 32 6 491
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/17
+- content: 10.1088/0026-1394/32/6/17
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Hartmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Inst., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Lechner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Inst., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Strüder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Inst., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Scholze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Inst., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ulm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Max Planck Inst., PTB
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>The performance of high-resolution, fully depleted silicon detectors
+- language: en
+  script:
+  - Latn
+  content: "<p>The performance of high-resolution, fully depleted silicon detectors
     at low photon energies has been found to be dominated by incomplete charge collection
     due to the pn junction entrance window. Two alternative experimental methods to
     characterize this behaviour have been investigated by using monochromatized synchrotron
@@ -106,39 +94,31 @@ abstract:
     in the single photon counting mode. Both methods are discussed and compared with
     a theoretical model including a microscopic description of the photoelectric absorption
     and a charge-collection probability function.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The radiation entrance window of pn junction detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The radiation entrance window of pn junction detectors
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +129,6 @@ extent:
     reference_from: '491'
     reference_to: '494'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

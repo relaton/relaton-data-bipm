@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia12387
-title:
-- content: An Investigation of the β - γ Transition in Oxygen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 3 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Investigation of the β - γ Transition in Oxygen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/3/001
+docidentifier:
+- content: Metrologia 12 3 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/3/001
+- content: 10.1088/0026-1394/12/3/001
   type: doi
 date:
 - type: published
-  value: '1976-07-01'
+  at: '1976-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J A Cowan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -39,76 +35,64 @@ contributor:
     - organization:
         name:
         - content: University of Waterloo, Ontario, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2008
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R G Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2008
-  role:
-  - type: author
-revdate: '1976-07-01'
 abstract:
-- content: "<p>The β-γ transition in oxygen has been realized with a reproducibility
+- language: en
+  script:
+  - Latn
+  content: "<p>The β-γ transition in oxygen has been realized with a reproducibility
     of ±0.2 mK. The cryostat and techniques used to produce sharp and reproducible
     transitions are described. The results suggest that the β-γ transition may be
     used to provide a further reference temperature below 100 K on the International
     Practical Temperature Scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Investigation of the β - γ Transition in Oxygen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Investigation of the β - γ Transition in Oxygen
     date:
     - type: ppub
-      value: '1976-07-01'
+      at: '1976-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '87'
     reference_to: '91'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,92 +1,77 @@
 ---
-schema-version: v1.2.9
 id: CCT-REC-2005-02
-title:
-- content: New determinations of thermodynamic temperature and the Boltzmann constant
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Nouvelles déterminations de la température thermodynamique et de la constante
-    de Boltzmann
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cct/23-2005/resolution-2
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cct/23-2005/resolution-2
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cct/meetings-en/meeting-23.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cct/meetings-fr/meeting-23.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071118/CCT23.pdf/f5b539cb-c674-cece-8983-c7dba78eb9aa
-  type: pdf
 type: proceedings
-docid:
-- id: CCT REC 2 (2005)
-  type: BIPM
-  primary: true
-- id: CCT REC 2 (2005, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCT REC 2 (2005, F)
+  content: New determinations of thermodynamic temperature and the Boltzmann constant
+- language: fr
+  script: Latn
+  content: Nouvelles déterminations de la température thermodynamique et de la constante
+    de Boltzmann
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/cct/23-2005/resolution-2
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/cct/23-2005/resolution-2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cct/meetings-en/meeting-23.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cct/meetings-fr/meeting-23.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071118/CCT23.pdf/f5b539cb-c674-cece-8983-c7dba78eb9aa
+docidentifier:
+- content: CCT REC 2 (2005)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCT Recommendation 2 (2005)
+  content: CCT REC 2 (2005, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCT REC 2 (2005, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCT Recommendation 2 (2005)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CCT (2005)
+  content: Recommandation 2 du CCT (2005)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCT Recommendation 2 (2005) / Recommandation 2 du CCT (2005)
+- content: CCT Recommendation 2 (2005) / Recommandation 2 du CCT (2005)
   type: BIPM-long
 docnumber: CCT REC 2 (2005)
 date:
 - type: published
-  value: '2005-06-10'
+  at: '2005-06-10'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2005-06-10'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -95,8 +80,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia33119
-title:
-- content: A tabulation of calculations of the hyperfine structure in<sup>127</sup>I<sub>2</sub>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/33/1/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/1/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 1 19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A tabulation of calculations of the hyperfine structure in <sup>127</sup>I<sub>2</sub>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/1/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/1/3
+docidentifier:
+- content: Metrologia 33 1 19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/1/3
+- content: 10.1088/0026-1394/33/1/3
   type: doi
 date:
 - type: published
-  value: '1996-02-01'
+  at: '1996-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Razet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Picard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-INM, BIPM
-  role:
-  - type: author
-revdate: '1996-02-01'
 abstract:
-- content: "<p>A tabulation of calculations, made by different groups, of the hyperfine
-    structure and hyperfine constants of various ro-vibrational transitions in the
-    B-X system of<sup>127</sup>I<sub>2</sub> is presented. Constants are listed for
-    the following radiations: 502 nm, 515 nm, 532 nm, 543 nm, 576 nm, 589 nm, 605
-    nm, 612 nm, 633 nm, 640 nm, 657 nm and 793 nm; 1,28 µm and 1,34 µm.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A tabulation of calculations, made by different groups, of the hyperfine
+    structure and hyperfine constants of various ro-vibrational transitions in the
+    B-X system of <sup>127</sup>I<sub>2</sub> is presented. Constants are listed for
+    the following radiations: 502 nm, 515 nm, 532 nm, 543 nm, 576 nm, 589 nm, 605
+    nm, 612 nm, 633 nm, 640 nm, 657 nm and 793 nm; 1,28 µm and 1,34 µm.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A tabulation of calculations of the hyperfine structure in<sup>127</sup>I<sub>2</sub>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: A tabulation of calculations of the hyperfine structure in <sup>127</sup>I<sub>2</sub>
     date:
     - type: ppub
-      value: '1996-02-01'
+      at: '1996-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +88,6 @@ extent:
     reference_from: '19'
     reference_to: '27'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

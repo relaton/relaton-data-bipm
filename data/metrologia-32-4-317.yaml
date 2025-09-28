@@ -1,73 +1,63 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324317
-title:
-- content: 'Summary report: Realization of aluminium and silver freezing points'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/10
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 317
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Summary report: Realization of aluminium and silver freezing points'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/10
+docidentifier:
+- content: Metrologia 32 4 317
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/10
+- content: 10.1088/0026-1394/32/4/10
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M V Chattle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Teddington, Middlesex TW11
             0LW, United Kingdom
-  role:
-  - type: author
-revdate: '1995-08-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Summary report: Realization of aluminium and silver freezing points'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Summary report: Realization of aluminium and silver freezing points'
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -78,6 +68,6 @@ extent:
     reference_from: '317'
     reference_to: '318'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

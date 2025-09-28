@@ -1,99 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A01007
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     CCEM.RF-K1d.W (GT-RF/97-3): Measurement techniques and results of an intercomparison
     for RF power in R 900 at frequencies of 75 GHz and 94 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/01007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/01007
-  type: doi
-type: article
-docid:
-- id: Metrologia 40 1A 01007
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/01007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/01007
+docidentifier:
+- content: Metrologia 40 1A 01007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/01007
+- content: 10.1088/0026-1394/40/1A/01007
   type: doi
 date:
 - type: published
-  value: '2003-01-01'
+  at: '2003-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joanna Beaumont
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Geoff Orford
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2003-01-01'
 abstract:
-- content: |-
+- language: en
+  script:
+  - Latn
+  content: |-
     <p>A measurement comparison of effective efficiency has been carried out between four national metrology laboratories in waveguide R 900 at 75 GHz and 94 GHz. The original identification of the intercomparison was GT-RF/97/3 but was subsequently renumbered as
     CCEM.RF-K1d.W. One waveguide thermistor mount has been measured. The following four
     national laboratories of metrology participated: NPL (United Kingdom), BNM-LCIE
     (France), NIST (United States of America), PTB (Germany). The NPL acted as the pilot laboratory for the comparison. Good agreement between the values provided has been observed. It can be noted from tables 2 to 5
     of Appendix A that the degrees of equivalence for all the values reported, with respect to the
     reference value and between pairs of laboratories, are less than their associated uncertainty,
-    at a level of confidence of 95%.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report.
-    Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the
+    at a level of confidence of 95%.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K1/CCEM.RF-K1.d.W.pdf ">Final Report</ext-link>.
+    Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the
     provisions of the Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         CCEM.RF-K1d.W (GT-RF/97-3): Measurement techniques and results of an intercomparison
         for RF power in R 900 at frequencies of 75 GHz and 94 GHz
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-01-01'
+      at: '2003-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +92,6 @@ extent:
     reference_from: '01007'
     reference_to: '01007'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

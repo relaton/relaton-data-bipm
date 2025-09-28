@@ -1,79 +1,64 @@
 ---
-schema-version: v1.2.9
 id: CCAUV-2008-6
-title:
-- content: 6th meeting of the CCAUV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 6<sup>e</sup> réunion du CCAUV
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/cc/ccauv/6-2008
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccauv/6-2008
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccauv/meetings-en/meeting-6.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccauv/meetings-fr/meeting-6.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CCAUV 6th Meeting (2008)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 6th meeting of the CCAUV
+- language: fr
+  script: Latn
+  content: 6<sup>e</sup> réunion du CCAUV
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccauv/6-2008
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccauv/6-2008
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccauv/meetings-en/meeting-6.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccauv/meetings-fr/meeting-6.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CCAUV 6th Meeting (2008)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CCAUV 6<sup>e</sup> réunion (2008)
+  content: CCAUV 6<sup>e</sup> réunion (2008)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CCAUV 6th Meeting (2008) / CCAUV 6<sup>e</sup> réunion (2008)
+- content: CCAUV 6th Meeting (2008) / CCAUV 6<sup>e</sup> réunion (2008)
   type: BIPM
   primary: true
 docnumber: CCAUV 6th Meeting (2008)
 date:
 - type: published
-  value: '2008-10-10'
+  at: '2008-10-10'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2008-10-10'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -82,8 +67,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '6'

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S178
-title:
-- content: The use of a Monte Carlo method for evaluating uncertainty and expanded
-    uncertainty
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S178
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The use of a Monte Carlo method for evaluating uncertainty and expanded
+    uncertainty
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S03
+docidentifier:
+- content: Metrologia 43 4 S178
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S03
+- content: 10.1088/0026-1394/43/4/S03
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernd R L Siebert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>The Guide to the Expression of Uncertainty in Measurement (GUM) is
-    the internationally accepted master document for the evaluation of uncertainty.
+- language: en
+  script:
+  - Latn
+  content: "<p>The <italic>Guide to the Expression of Uncertainty in Measurement</italic>
+    (GUM) is the internationally accepted master document for the evaluation of uncertainty.
     It contains a procedure that is suitable for many, but not all, uncertainty evaluation
     problems met in practice. This procedure constitutes an approximation to the general
     solution of the Markov formula, which infers the probability density function
@@ -68,55 +62,44 @@ abstract:
     validating the results obtained using the method. The paper provides guidance
     on optimizing the approach, identifies some pitfalls and indicates means for validating
     the results.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The use of a Monte Carlo method for evaluating uncertainty and expanded
+    - language: en
+      script: Latn
+      content: The use of a Monte Carlo method for evaluating uncertainty and expanded
         uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The use of a Monte Carlo method for evaluating uncertainty and expanded
+    - language: en
+      script: Latn
+      content: The use of a Monte Carlo method for evaluating uncertainty and expanded
         uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +110,6 @@ extent:
     reference_from: S178
     reference_to: S188
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

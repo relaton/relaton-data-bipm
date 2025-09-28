@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia451A02001
-title:
-- content: 'Final report on CCPR-S1: Spectral radiance 220 nm to 2500 nm'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/1A/02001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/1A/02001
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 1A 02001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on CCPR-S1: Spectral radiance 220 nm to 2500 nm'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/1A/02001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/1A/02001
+docidentifier:
+- content: Metrologia 45 1A 02001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/1A/02001
+- content: 10.1088/0026-1394/45/1A/02001
   type: doi
 date:
 - type: published
-  value: '2008-01-01'
+  at: '2008-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Boris Khlevnoy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VNIIOFI, Ozernaya 46, 119361 Moscow, Russia
-  role:
-  - type: author
-revdate: '2008-01-01'
 abstract:
-- content: |-
-    <p>The Spectral Radiance Comparison for the wavelength range from 220 nm to 2500 nm was initialized by CCPR in 1997 as a supplementary comparison with the identification CCPR-S1 and completed in 2008. Five NMIs took part in the comparison: BNM/INM (France), NIST (USA), NRC (Canada), PTB (Germany) and VNIIOFI (Russia). VNIIOFI was the pilot laboratory. Tungsten strip lamps were used as transfer standards. A star scheme was used with the sequence: Participant–Pilot–Participant. The report presents the descriptions of measuring facilities, procedures and uncertainties of all participants as well as the results of the comparison. The data sets were analysed in accordance with the Guidelines for CIPM Key Comparisons. Excluding a few wavelengths all participants agree with each other within ±1.5%. The disagreement decreases down to approximately ±1.0% when two unstable lamps are excluded from the analysis.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCPR, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The Spectral Radiance Comparison for the wavelength range from 220 nm to 2500 nm was initialized by CCPR in 1997 as a supplementary comparison with the identification CCPR-S1 and completed in 2008. Five NMIs took part in the comparison: BNM/INM (France), NIST (USA), NRC (Canada), PTB (Germany) and VNIIOFI (Russia). VNIIOFI was the pilot laboratory. Tungsten strip lamps were used as transfer standards. A star scheme was used with the sequence: Participant–Pilot–Participant. The report presents the descriptions of measuring facilities, procedures and uncertainties of all participants as well as the results of the comparison. The data sets were analysed in accordance with the Guidelines for CIPM Key Comparisons. Excluding a few wavelengths all participants agree with each other within ±1.5%. The disagreement decreases down to approximately ±1.0% when two unstable lamps are excluded from the analysis.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/PR/S1/CCPR-S1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCPR, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on CCPR-S1: Spectral radiance 220 nm to 2500 nm'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final report on CCPR-S1: Spectral radiance 220 nm to 2500 nm'
     date:
     - type: ppub
-      value: '2008-01-01'
+      at: '2008-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +76,6 @@ extent:
     reference_from: '02001'
     reference_to: '02001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

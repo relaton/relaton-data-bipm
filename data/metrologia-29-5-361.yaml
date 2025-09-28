@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia295361
-title:
-- content: International Comparison of Iodine Cells
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/5/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/5/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 5 361
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Iodine Cells
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/5/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/5/006
+docidentifier:
+- content: Metrologia 29 5 361
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/5/006
+- content: 10.1088/0026-1394/29/5/006
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Picard-Fredin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>Results of an international comparison of iodine absorption cells organized
+- language: en
+  script:
+  - Latn
+  content: "<p>Results of an international comparison of iodine absorption cells organized
     by the BIPM are reported. Ten of the thirteen member laboratories of the Comité
     Consultatif pour la Définition du Mètre (CCDM) participated. Two experimental
     methods were used to estimate the purity of the iodine in the cells: first, the
@@ -80,43 +72,35 @@ abstract:
     reference lasers and, second, direct measurements of iodine purity by a laser-induced
     fluorescence method were made at λ = 502 nm. Of the thirty-nine cells investigated,
     more than half are pure enough to realize a frequency reproducibility to within
-    10 kHz (2 parts in 10<sup>11</sup> in relative terms). A contamination of<sup>129</sup>I<sub>2</sub>
-    has been observed in certain cells containing<sup>127</sup>I<sub>2</sub>. The
+    10 kHz (2 parts in 10<sup>11</sup> in relative terms). A contamination of <sup>129</sup>I<sub>2</sub>
+    has been observed in certain cells containing <sup>127</sup>I<sub>2</sub>. The
     comparison confirms that observed frequency shifts of the hyperfine components
     in iodine are strongly linked to impurities in the iodine cells.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Iodine Cells
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International Comparison of Iodine Cells
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +111,6 @@ extent:
     reference_from: '361'
     reference_to: '367'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

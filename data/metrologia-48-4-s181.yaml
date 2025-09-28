@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S181
-title:
-- content: Solar time, legal time, time in use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S08
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S08
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S181
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Solar time, legal time, time in use
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S08
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S08
+docidentifier:
+- content: Metrologia 48 4 S181
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S08
+- content: 10.1088/0026-1394/48/4/S08
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernard Guinot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Observatoire de Paris, 61 avenue de l'Observatoire, F-75014 Paris,
             France
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>The International Conference held in 1884 at Washington defined a universal
+- language: en
+  script:
+  - Latn
+  content: "<p>The International Conference held in 1884 at Washington defined a universal
     time as the mean solar time at the Greenwich meridian (GMT). Now, the Universal
     Time, version UT1, is strictly defined as proportional to the angle of rotation
     of the Earth in space. In this evolution, the departure of UT1 from GMT does not
     exceed one or two seconds. This is quite negligible when compared with the departure
     between the solar time and the legal time of citizens, which may exceed two hours
     without raising protests.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar time, legal time, time in use
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Solar time, legal time, time in use
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Solar time, legal time, time in use
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Solar time, legal time, time in use
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +95,6 @@ extent:
     reference_from: S181
     reference_to: S185
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

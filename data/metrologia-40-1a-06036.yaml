@@ -1,85 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A06036
-title:
-- content: Degrees of equivalence for the key comparison BIPM.RI(I)-K3 between national
-    primary standards for medium-energy x-rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/06036
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/06036
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1A 06036
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Degrees of equivalence for the key comparison BIPM.RI(I)-K3 between national
+    primary standards for medium-energy x-rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/06036
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/06036
+docidentifier:
+- content: Metrologia 40 1A 06036
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/06036
+- content: 10.1088/0026-1394/40/1A/06036
   type: doi
 date:
 - type: published
-  value: '2003-01-01'
+  at: '2003-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             92312 Sèvres cedex, France
-  role:
-  - type: author
-revdate: '2003-01-01'
 abstract:
-- content: |-
-    <p>Results are presented of comparisons of ten national primary standards for air kerma with the BIPM primary standard over the range of x-radiation qualities from 100 kV to 250 kV. For each radiation quality, the results are analysed in terms of the degree of equivalence, D<sub>i</sub>, of each national standard i with respect to the key comparison reference value. The degrees of equivalence, D<sub>ij</sub>, between each pairing of national standards i and j are also evaluated. These data form the basis of the matrices and graphs of results entered in the BIPM key comparison database for comparison BIPM.RI(I)-K3.</p><p>Main text.
-    To reach the main text of this paper, click on Summary Report.
-    Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The summary report has been peer-reviewed and approved for publication by the Consultative Committee for Ionizing Radiation (CCRI), according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Results are presented of comparisons of ten national primary standards for air kerma with the BIPM primary standard over the range of x-radiation qualities from 100 kV to 250 kV. For each radiation quality, the results are analysed in terms of the degree of equivalence,  <italic>D<sub>i</sub></italic>, of each national standard  <italic>i</italic> with respect to the key comparison reference value. The degrees of equivalence,  <italic>D<sub>ij</sub></italic>, between each pairing of national standards  <italic>i</italic> and  <italic>j</italic> are also evaluated. These data form the basis of the matrices and graphs of results entered in the BIPM key comparison database for comparison BIPM.RI(I)-K3.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/RI/BIPM.RI(I)/BIPM.RI(I)-K3.pdf ">Summary Report</ext-link>.
+    Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The summary report has been peer-reviewed and approved for publication by the Consultative Committee for Ionizing Radiation (CCRI), according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Degrees of equivalence for the key comparison BIPM.RI(I)-K3 between
+    - language: en
+      script: Latn
+      content: Degrees of equivalence for the key comparison BIPM.RI(I)-K3 between
         national primary standards for medium-energy x-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-01-01'
+      at: '2003-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +80,6 @@ extent:
     reference_from: '06036'
     reference_to: '06036'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,53 +1,49 @@
 ---
-schema-version: v1.2.9
-id: Metrologia422129
-title:
-- content: Global representation of the fine structure constant and its variation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 2 129
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Global representation of the fine structure constant and its variation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/2/007
+docidentifier:
+- content: Metrologia 42 2 129
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/2/007
+- content: 10.1088/0026-1394/42/2/007
   type: doi
 date:
 - type: published
-  value: '2005-03-09'
+  at: '2005-03-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael E Tobar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Frequency Standards and Metrology Research Group, School of Physics,
             M013, University of Western Australia Crawley, 6009, WA, Australia
-  role:
-  - type: author
-revdate: '2005-03-09'
 abstract:
-- content: "<p>The fine structure constant, α, is shown to be proportional to the
+- language: en
+  script:
+  - Latn
+  content: "<p>The fine structure constant, α, is shown to be proportional to the
     ratio of the quanta of electric and magnetic force associated with the electron.
     This provides a new representation, which is global across all unit systems. Consequently,
     a variation in α was shown to occur due to a differential change in the fraction
-    of the quanta of electric and magnetic force, while a variation in ℏc was shown
-    to manifest due to the common mode change. The representation is discussed with
-    respect to the running of the fine structure constant at high energies (small
+    of the quanta of electric and magnetic force, while a variation in ℏ<italic>c</italic>
+    was shown to manifest due to the common mode change. The representation is discussed
+    with respect to the running of the fine structure constant at high energies (small
     distances), and a putative temporal drift. It is shown that the running of the
     fine structure constant is due to equal components of electric screening (polarization
     of vacuum) and magnetic anti-screening (magnetization of vacuum), which cause
@@ -56,53 +52,42 @@ abstract:
     magnetic flux quanta’ as well as the ‘bare electric charge’. With regard to temporal
     drift, it is confirmed that it is impossible to determine which fundamental constant
     is varying if α varies.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Global representation of the fine structure constant and its variation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Global representation of the fine structure constant and its variation
     date:
     - type: epub
-      value: '2005-03-09'
+      at: '2005-03-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Global representation of the fine structure constant and its variation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Global representation of the fine structure constant and its variation
     date:
     - type: ppub
-      value: '2005-04-01'
+      at: '2005-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +98,6 @@ extent:
     reference_from: '129'
     reference_to: '133'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

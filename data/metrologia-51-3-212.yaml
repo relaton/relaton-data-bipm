@@ -1,114 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia513212
-title:
-- content: Distortion effects in primary calibration of low-frequency accelerometers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/3/212
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/3/212
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 3 212
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Distortion effects in primary calibration of low-frequency accelerometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/3/212
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/3/212
+docidentifier:
+- content: Metrologia 51 3 212
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/3/212
+- content: 10.1088/0026-1394/51/3/212
   type: doi
 date:
 - type: published
-  value: '2014-05-13'
+  at: '2014-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D A Scott
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 264, Lindfield NSW, Australia
         name:
         - content: National Measurement Institute
-        contact:
-        - address:
-            formatted_address: PO Box 264, Lindfield NSW, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Dickinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 264, Lindfield NSW, Australia
         name:
         - content: National Measurement Institute
-        contact:
-        - address:
-            formatted_address: PO Box 264, Lindfield NSW, Australia
-  role:
-  - type: author
-revdate: '2014-05-13'
 abstract:
-- content: 'Abstract<p>According to ISO 16063-11 (1999), at frequencies below 1600 Hz
-    primary calibration of accelerometers may employ two methods: fringe counting
-    or sine approximation. During a recent intercomparison (APMP.AUV.V-S1) small but
-    systematic differences were found between the results obtained by using these
-    two methods, and by the use of different amplifier modes to drive the shaker at
-    frequencies between 0.5 Hz and 20 Hz. The influences of distortion and noise on
-    the two methods are explored. The results and a discussion of the differences
-    are presented in this paper.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>According to ISO 16063-11 (1999), at frequencies below 1600 Hz primary calibration of accelerometers may employ two methods: fringe counting or sine approximation. During a recent intercomparison (APMP.AUV.V-S1) small but systematic differences were found between the results obtained by using these two methods, and by the use of different amplifier modes to drive the shaker at frequencies between 0.5 Hz and 20 Hz. The influences of distortion and noise on the two methods are explored. The results and a discussion of the differences are presented in this paper.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Distortion effects in primary calibration of low-frequency accelerometers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Distortion effects in primary calibration of low-frequency accelerometers
     date:
     - type: ppub
-      value: '2014-06-01'
+      at: '2014-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Distortion effects in primary calibration of low-frequency accelerometers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Distortion effects in primary calibration of low-frequency accelerometers
     date:
     - type: epub
-      value: '2014-05-13'
+      at: '2014-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +102,6 @@ extent:
     reference_from: '212'
     reference_to: '224'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

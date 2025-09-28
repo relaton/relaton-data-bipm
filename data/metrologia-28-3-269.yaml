@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283269
-title:
-- content: Report on an H-F Type Cavity Radiometer after Six Years Exposure in Space
-    Aboard the LDEF Satellite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/033
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/033
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 269
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report on an H-F Type Cavity Radiometer after Six Years Exposure in Space
+    Aboard the LDEF Satellite
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/033
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/033
+docidentifier:
+- content: Metrologia 28 3 269
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/033
+- content: 10.1088/0026-1394/28/3/033
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J R Hickey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: The Eppley Laboratory Inc., Newport, RI 02840, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Frieden
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: The Eppley Laboratory Inc., Newport, RI 02840, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D J Brinker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA Lewis Research Center, Cleveland, Ohio 44135, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A cavity radiometer of the H-F type was included as the total irradiance
+- language: en
+  script:
+  - Latn
+  content: "<p>A cavity radiometer of the H-F type was included as the total irradiance
     monitor of the Advanced Photovoltaic Experiment (APEX) aboard the Long Duration
     Exposure Facility (LDEF) satellite. This is the same type of cavity radiometer
     which has returned data from Nimbus-7 for almost twelve years. The LDEF was retrieved
@@ -84,40 +76,32 @@ abstract:
     by an on-board data system (no telemetry) for the period from 7 April 1984 to
     16 March 1985. Digital flight data from which solar pointing and irradiance information
     can be calculated has recently become available.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report on an H-F Type Cavity Radiometer after Six Years Exposure in
+    - language: en
+      script: Latn
+      content: Report on an H-F Type Cavity Radiometer after Six Years Exposure in
         Space Aboard the LDEF Satellite
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +112,6 @@ extent:
     reference_from: '269'
     reference_to: '273'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

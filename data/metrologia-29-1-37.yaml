@@ -1,110 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia29137
-title:
-- content: Direct Measurements of the Dielectric Virial Coefficients of<sup>4</sup>He
-    between 3 K and 18 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/29/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 1 37
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Direct Measurements of the Dielectric Virial Coefficients of <sup>4</sup>He
+    between 3 K and 18 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/1/006
+docidentifier:
+- content: Metrologia 29 1 37
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/1/006
+- content: 10.1088/0026-1394/29/1/006
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Admiralty Research Establishment, Portsdown, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Gugan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: H. H. Wills Physics Laboratory, Royal Fort, Bristol BS8 1TL, UK
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>The second and third dielectric virial coefficients of<sup>4</sup>He
+- language: en
+  script:
+  - Latn
+  content: "<p>The second and third dielectric virial coefficients of <sup>4</sup>He
     have been measured by the symmetrical gas-expansion technique of Buckingham, Cole
     and Sutter for six isotherms between 3,00 K and 17,68 K. The effects of helium
     adsorption are important, and are considered in detail. No temperature dependence
-    of the second coefficient is seen at a level of δb=±0,008 cm<sup>3</sup> mol<sup>-1</sup>,
-    and average values of the second and third coefficients are b = 0,006 (10) cm<sup>3</sup>
-    mol<sup>-1</sup> and c = -5 (4) cm<sup>6</sup> mol<sup>-2</sup>, respectively.
-    The uncertainty for b is relatively large because it has a systematic dependence
-    on c: reanalysis of all the existing data shows that a more probable value of
-    the third coefficient is c = -2 (1) cm<sup>6</sup> mol<sup>-2</sup>, which when
-    combined with our data gives b (3 K - 18 K) = -0,001 (4) cm<sup>-3</sup> mol<sup>-1</sup>.
-    The very small value suggests that theoretical calculations of the excess polarizability
-    of the helium diatom need to be reconsidered. The small value and the small uncertainty
-    of b indicate that future work to improve experimental values of the second density
-    virial coefficient of<sup>4</sup>He for this temperature range may without ambiguity
+    of the second coefficient is seen at a level of δ<italic>b</italic>=±0,008 cm<sup>3</sup>
+    mol<sup>-1</sup>, and average values of the second and third coefficients are
+    <italic>b</italic> = 0,006 (10) cm<sup>3</sup> mol<sup>-1</sup> and <italic>c</italic>
+    = -5 (4) cm<sup>6</sup> mol<sup>-2</sup>, respectively. The uncertainty for <italic>b</italic>
+    is relatively large because it has a systematic dependence on <italic>c</italic>:
+    reanalysis of all the existing data shows that a more probable value of the third
+    coefficient is <italic>c</italic> = -2 (1) cm<sup>6</sup> mol<sup>-2</sup>, which
+    when combined with our data gives <italic>b</italic> (3 K - 18 K) = -0,001 (4)
+    cm<sup>-3</sup> mol<sup>-1</sup>. The very small value suggests that theoretical
+    calculations of the excess polarizability of the helium diatom need to be reconsidered.
+    The small value and the small uncertainty of <italic>b</italic> indicate that
+    future work to improve experimental values of the second <italic>density</italic>
+    virial coefficient of <sup>4</sup>He for this temperature range may without ambiguity
     make use of the methods of dielectric constant gas thermometry.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Direct Measurements of the Dielectric Virial Coefficients of<sup>4</sup>He
+    - language: en
+      script: Latn
+      content: Direct Measurements of the Dielectric Virial Coefficients of <sup>4</sup>He
         between 3 K and 18 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +103,6 @@ extent:
     reference_from: '37'
     reference_to: '57'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

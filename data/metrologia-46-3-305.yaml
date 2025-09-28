@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463305
-title:
-- content: Combination of TWSTFT and GNSS for accurate UTC time transfer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/019
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/019
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 305
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Combination of TWSTFT and GNSS for accurate UTC time transfer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/019
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/019
+docidentifier:
+- content: Metrologia 46 3 305
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/019
+- content: 10.1088/0026-1394/46/3/019
   type: doi
 date:
 - type: published
-  value: '2009-04-27'
+  at: '2009-04-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Jiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2009-04-27'
 abstract:
-- content: "<p>The international UTC/TAI time and frequency transfer network is based
+- language: en
+  script:
+  - Latn
+  content: "<p>The international UTC/TAI time and frequency transfer network is based
     on two independent space techniques: Two-Way Satellite Time and Frequency Transfer
     (TWSTFT) and Global Navigation Satellite System (GNSS). The network is highly
     redundant. In fact, 28% of the national time laboratories, which contribute 88%
@@ -67,53 +61,42 @@ abstract:
     and robustness. We focus on the combination of two BIPM routine products, TWSTFT
     and GPS PPP (time transfer using the precise point positioning technique), but
     the proposed method can be used for any carrier phase-based GNSS product.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combination of TWSTFT and GNSS for accurate UTC time transfer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Combination of TWSTFT and GNSS for accurate UTC time transfer
     date:
     - type: epub
-      value: '2009-04-27'
+      at: '2009-04-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combination of TWSTFT and GNSS for accurate UTC time transfer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Combination of TWSTFT and GNSS for accurate UTC time transfer
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +107,6 @@ extent:
     reference_from: '305'
     reference_to: '314'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

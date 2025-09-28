@@ -1,130 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015013
-title:
-- content: Experimental identification and correction of the leakage flow effects
-    in a clearance-sealed piston prover
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf5b3
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf5b3
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015013
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Experimental identification and correction of the leakage flow effects
+    in a clearance-sealed piston prover
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf5b3
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf5b3
+docidentifier:
+- content: Metrologia 56 1 015013
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf5b3
+- content: 10.1088/1681-7575/aaf5b3
   type: doi
 date:
 - type: published
-  value: '2018-12-21'
+  at: '2018-12-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bobovnik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Laboratory of Measurements in Process Engineering, Aškerčeva
+            6, SI-1000 Ljubljana, Slovenia
         name:
         - content: University of Ljubljana
         subdivision:
-        - content: Faculty of Mechanical Engineering
-        contact:
-        - address:
-            formatted_address: Laboratory of Measurements in Process Engineering,
-              Aškerčeva 6, SI-1000 Ljubljana, Slovenia
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Faculty of Mechanical Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Kutin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Laboratory of Measurements in Process Engineering, Aškerčeva
+            6, SI-1000 Ljubljana, Slovenia
         name:
         - content: University of Ljubljana
         subdivision:
-        - content: Faculty of Mechanical Engineering
-        contact:
-        - address:
-            formatted_address: Laboratory of Measurements in Process Engineering,
-              Aškerčeva 6, SI-1000 Ljubljana, Slovenia
-  role:
-  - type: author
-revdate: '2018-12-21'
+        - name:
+          - language: en
+            script: Latn
+            content: Faculty of Mechanical Engineering
 abstract:
-- content: 'Abstract<p>The leakage flow rate represents an important input quantity
-    in the measurement model for the gas flow rate in a clearance-sealed piston prover,
-    especially when measuring small flow rates. This study deals with the experimental
-    identification of leakage flow effects. The following influences were examined:
-    the flow rate supplied to the piston prover, the inclination of the flow cell,
-    the type of gas and the temperature of the gas. The leakage flow rate was measured
-    during the typical operation of the piston prover using the dynamic summation
-    method. The tests were carried out in a climate chamber to ensure stable and homogenous
-    temperature conditions. It is demonstrated that the leakage flow rate is significantly
-    affected by the piston prover’s inclination and the viscosity of the gas, which
-    depends mainly on the type and the temperature of the gas. Based on the experimental
-    findings that confirm the leakage flow rate is inversely proportional to the gas
-    viscosity, a correction model was proposed. The uncertainty analysis shows that
-    reproducibility is the most important component in the combined uncertainty of
-    the leakage flow rate.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The leakage flow rate represents an important input quantity in the measurement model for the gas flow rate in a clearance-sealed piston prover, especially when measuring small flow rates. This study deals with the experimental identification of leakage flow effects. The following influences were examined: the flow rate supplied to the piston prover, the inclination of the flow cell, the type of gas and the temperature of the gas. The leakage flow rate was measured during the typical operation of the piston prover using the dynamic summation method. The tests were carried out in a climate chamber to ensure stable and homogenous temperature conditions. It is demonstrated that the leakage flow rate is significantly affected by the piston prover’s inclination and the viscosity of the gas, which depends mainly on the type and the temperature of the gas. Based on the experimental findings that confirm the leakage flow rate is inversely proportional to the gas viscosity, a correction model was proposed. The uncertainty analysis shows that reproducibility is the most important component in the combined uncertainty of the leakage flow rate.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Experimental identification and correction of the leakage flow effects
+    - script: Latn
+      content: Experimental identification and correction of the leakage flow effects
         in a clearance-sealed piston prover
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Experimental identification and correction of the leakage flow effects
+    - script: Latn
+      content: Experimental identification and correction of the leakage flow effects
         in a clearance-sealed piston prover
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-12-21'
+      at: '2018-12-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +114,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

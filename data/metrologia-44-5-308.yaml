@@ -1,107 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445308
-title:
-- content: Aggregating measurement data influenced by common effects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 308
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Aggregating measurement data influenced by common effects
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/007
+docidentifier:
+- content: Metrologia 44 5 308
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/007
+- content: 10.1088/0026-1394/44/5/007
   type: doi
 date:
 - type: published
-  value: '2007-09-12'
+  at: '2007-09-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M A Collett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Esward
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J A Sousa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratório Regional de Engenharia Civil, 9000-264 Funchal, Madeira,
             Portugal
-  role:
-  - type: author
-revdate: '2007-09-12'
 abstract:
-- content: "<p>The requirement to aggregate measurement data, in the case where each
+- language: en
+  script:
+  - Latn
+  content: "<p>The requirement to aggregate measurement data, in the case where each
     measured value corresponds to nominally the same quantity, is important throughout
     metrology. Correlation associated with measured values is shown to arise in a
     number of measurement problems, with examples taken from the areas of interlaboratory
@@ -115,53 +103,42 @@ abstract:
     three measurement problems are given, concerned with an interlaboratory comparison
     of noise in a coaxial line, the calibration of a thermometer and the analysis
     of data arising from a wireless sensor network.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Aggregating measurement data influenced by common effects
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Aggregating measurement data influenced by common effects
     date:
     - type: epub
-      value: '2007-09-12'
+      at: '2007-09-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Aggregating measurement data influenced by common effects
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Aggregating measurement data influenced by common effects
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -172,6 +149,6 @@ extent:
     reference_from: '308'
     reference_to: '318'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

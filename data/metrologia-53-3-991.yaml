@@ -1,103 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia533991
-title:
-- content: On the units radian and cycle for the quantity plane angle
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/991
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/991
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 991
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the units radian and cycle for the quantity plane angle
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/991
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/991
+docidentifier:
+- content: Metrologia 53 3 991
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/991
+- content: 10.1088/0026-1394/53/3/991
   type: doi
 date:
 - type: published
-  value: '2016-06-01'
+  at: '2016-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian Mills
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Reading RG6 6AD, UK
         name:
         - content: University of Reading
         subdivision:
-        - content: School of Chemistry
-        contact:
-        - address:
-            formatted_address: Reading RG6 6AD, UK
-  role:
-  - type: author
-revdate: '2016-06-01'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Chemistry
 abstract:
-- content: Abstract<p>This paper is concerned with the names and symbols for quantities
-    used to describe oscillatory motion such as for a harmonic oscillator, and the
-    units to be used for the quantity plane angle and phase angle for an oscillator,
-    and related quantities. I draw attention to the need to carefully distinguish
-    the names and symbols for quantities from the names and symbols for their numerical
-    values in any application, and the significance of including units such as radian
-    and cycle for the quantity plane angle. The familiar equations for a harmonic
-    oscillator such as ω  =  2πν, and the relation ħ  =  h/2π for the Planck constant,
-    are shown to hold only if the symbols are taken to represent the dimensionless
-    numerical values of the quantities concerned in particular units, rather than
-    the actual values which are not dimensionless as generally used in the equations
-    of physics. Alternative ways of handling these quantities and units are discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper is concerned with the names and symbols for quantities used to describe oscillatory motion such as for a harmonic oscillator, and the units to be used for the quantity plane angle and phase angle for an oscillator, and related quantities. I draw attention to the need to carefully distinguish the names and symbols for quantities from the names and symbols for their numerical values in any application, and the significance of including units such as radian and cycle for the quantity plane angle. The familiar equations for a harmonic oscillator such as <italic>ω</italic>  =  2<italic>πν</italic>, and the relation <italic>ħ</italic>  =  <italic>h</italic>/2<italic>π</italic> for the Planck constant, are shown to hold only if the symbols are taken to represent the dimensionless numerical values of the quantities concerned in particular units, rather than the actual values which are not dimensionless as generally used in the equations of physics. Alternative ways of handling these quantities and units are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the units radian and cycle for the quantity plane angle
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the units radian and cycle for the quantity plane angle
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the units radian and cycle for the quantity plane angle
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the units radian and cycle for the quantity plane angle
     date:
     - type: epub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +93,6 @@ extent:
     reference_from: '991'
     reference_to: '997'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

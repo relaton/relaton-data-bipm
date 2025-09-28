@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304271
-title:
-- content: A Comparative Study of Solar Total Irradiance Measured by Active-cavity
-    Radiometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 271
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Comparative Study of Solar Total Irradiance Measured by Active-cavity
+    Radiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/010
+docidentifier:
+- content: Metrologia 30 4 271
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/010
+- content: 10.1088/0026-1394/30/4/010
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Mecherikunnel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA/Goddard Space Flight Center, Laboratory for Terrestrial Physics,
             Greenbelt, MD 20771, USA
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>This paper presents the results from a comparative study of solar total
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper presents the results from a comparative study of solar total
     irradiance data from the Earth Radiation Budget Experiment (ERBE) on board the
     Earth Radiation Budget Satellite (ERBS), and the Solar Maximum Mission Active
     Cavity Radiometer Irradiance Monitor-1 (SMM/ACRIM), for the overlap period 25
@@ -57,40 +53,32 @@ abstract:
     the increase in solar activity, but breaks down for low solar activity periods.
     Independent studies of ERBS/ERBE and Nimbus-7/ERB; SMM/ACRIM and Nimbus-7/ERB
     also show high correlation between the data sets during high solar activity periods.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Comparative Study of Solar Total Irradiance Measured by Active-cavity
+    - language: en
+      script: Latn
+      content: A Comparative Study of Solar Total Irradiance Measured by Active-cavity
         Radiometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +89,6 @@ extent:
     reference_from: '271'
     reference_to: '273'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

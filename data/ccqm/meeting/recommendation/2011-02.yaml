@@ -1,93 +1,78 @@
 ---
-schema-version: v1.2.9
 id: CCQM-REC-2011-02
-title:
-- content: On the need to support established measurement techniques essential to
-    metrology in inorganic chemistry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Sur la nécessité de soutenir les techniques de mesure existantes indispensables
-    à la métrologie en chimie inorganique
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccqm/17-2011/resolution-2
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccqm/17-2011/resolution-2
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-17.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-17.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071059/CCQM17.pdf/a57eda5a-a565-e4b9-5c67-cab64b5dab62
-  type: pdf
 type: proceedings
-docid:
-- id: CCQM REC 2 (2011)
-  type: BIPM
-  primary: true
-- id: CCQM REC 2 (2011, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCQM REC 2 (2011, F)
+  content: On the need to support established measurement techniques essential to
+    metrology in inorganic chemistry
+- language: fr
+  script: Latn
+  content: Sur la nécessité de soutenir les techniques de mesure existantes indispensables
+    à la métrologie en chimie inorganique
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccqm/17-2011/resolution-2
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccqm/17-2011/resolution-2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-17.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-17.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071059/CCQM17.pdf/a57eda5a-a565-e4b9-5c67-cab64b5dab62
+docidentifier:
+- content: CCQM REC 2 (2011)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCQM Recommendation 2 (2011)
+  content: CCQM REC 2 (2011, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCQM REC 2 (2011, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCQM Recommendation 2 (2011)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CCQM (2011)
+  content: Recommandation 2 du CCQM (2011)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCQM Recommendation 2 (2011) / Recommandation 2 du CCQM (2011)
+- content: CCQM Recommendation 2 (2011) / Recommandation 2 du CCQM (2011)
   type: BIPM-long
 docnumber: CCQM REC 2 (2011)
 date:
 - type: published
-  value: '2011-04-15'
+  at: '2011-04-15'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2011-04-15'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -96,8 +81,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

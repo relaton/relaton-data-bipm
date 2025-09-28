@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia114165
-title:
-- content: An Experimental Determination of the Maximum Spectral Luminous Efficacy
-    of Radiation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 4 165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Experimental Determination of the Maximum Spectral Luminous Efficacy
+    of Radiation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/4/004
+docidentifier:
+- content: Metrologia 11 4 165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/4/004
+- content: 10.1088/0026-1394/11/4/004
   type: doi
 date:
 - type: published
-  value: '1975-10-01'
+  at: '1975-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Katsuyama
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrotechnical Laboratory, Tokyo, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Kikuchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrotechnical Laboratory, Tokyo, Japan
-  role:
-  - type: author
-revdate: '1975-10-01'
 abstract:
-- content: <p>An experimental determination of the maximum spectral luminous efficacy
+- language: en
+  script:
+  - Latn
+  content: <p>An experimental determination of the maximum spectral luminous efficacy
     of radiation has been made. The method uses luminous intensity standard lamps
     calibrated in "World mean candela 1952", thermopiles calibrated by absolute radiometers
     of electrical substitution type and filters of which the spectral transmittance
     is approximately proportional to the relative spectral luminous efficiency. An
     average value of 683 lm/W has been obtained, and the result is compared with that
     obtained at the NPL.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Experimental Determination of the Maximum Spectral Luminous Efficacy
+    - language: en
+      script: Latn
+      content: An Experimental Determination of the Maximum Spectral Luminous Efficacy
         of Radiation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1975-10-01'
+      at: '1975-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '165'
     reference_to: '168'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

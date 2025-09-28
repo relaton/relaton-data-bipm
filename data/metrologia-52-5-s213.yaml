@@ -1,102 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525S213
-title:
-- content: The Boltzmann constant and the new kelvin
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/S213
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/S213
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 S213
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The Boltzmann constant and the new kelvin
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/S213
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/S213
+docidentifier:
+- content: Metrologia 52 5 S213
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/S213
+- content: 10.1088/0026-1394/52/5/S213
   type: doi
 date:
 - type: published
-  value: '2015-08-19'
+  at: '2015-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: of New Zealand PO Box 31310, Lower Hutt 5040, New Zealand
         name:
         - content: Measurement Standards Laboratory
-        contact:
-        - address:
-            formatted_address: of New Zealand PO Box 31310, Lower Hutt 5040, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 2-12, DE-10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt Abbestraße
-        contact:
-        - address:
-            formatted_address: 2-12, DE-10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2015-08-19'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Boltzmann constant and the new kelvin
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The Boltzmann constant and the new kelvin
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Boltzmann constant and the new kelvin
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The Boltzmann constant and the new kelvin
     date:
     - type: epub
-      value: '2015-08-19'
+      at: '2015-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +96,6 @@ extent:
     reference_from: S213
     reference_to: S216
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

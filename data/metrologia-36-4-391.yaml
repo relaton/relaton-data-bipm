@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia364391
-title:
-- content: Comparison of results of calibrating the magnitude of the sensitivity of
-    accelerometers by laser interferometry and reciprocity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/4/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/4/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 4 391
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of results of calibrating the magnitude of the sensitivity of
+    accelerometers by laser interferometry and reciprocity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/4/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/4/19
+docidentifier:
+- content: Metrologia 36 4 391
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/4/19
+- content: 10.1088/0026-1394/36/4/19
   type: doi
 date:
 - type: published
-  value: '1999-08-01'
+  at: '1999-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Payne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D J Evans
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1999-08-01'
 abstract:
-- content: "<p>The development of a new electrodynamic shaker permits the calibration
+- language: en
+  script:
+  - Latn
+  content: "<p>The development of a new electrodynamic shaker permits the calibration
     of accelerometers by two independent and absolute methods using the same shaker.
     Minimizing the uncertainty in the calibration of accelerometers by the reciprocity
     method requires minimization of the cross-axis component of the induced motion,
@@ -70,40 +64,32 @@ abstract:
     attach a secondary source of vibration located external to the moving element.
     This paper presents a comparison of calibration results obtained using the two
     methods and describes the shaker and calibration systems.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of results of calibrating the magnitude of the sensitivity
+    - language: en
+      script: Latn
+      content: Comparison of results of calibrating the magnitude of the sensitivity
         of accelerometers by laser interferometry and reciprocity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-08-01'
+      at: '1999-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '391'
     reference_to: '394'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

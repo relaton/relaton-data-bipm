@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia464S224
-title:
-- content: Absolute stellar photometry on moderate-resolution FPA images
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/4/S17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/4/S17
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 4 S224
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute stellar photometry on moderate-resolution FPA images
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/4/S17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/4/S17
+docidentifier:
+- content: Metrologia 46 4 S224
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/4/S17
+- content: 10.1088/0026-1394/46/4/S17
   type: doi
 date:
 - type: published
-  value: '2009-06-02'
+  at: '2009-06-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas C Stone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: US Geological Survey, 2255 N Gemini Dr., Flagstaff, AZ 86001, USA
-  role:
-  - type: author
-revdate: '2009-06-02'
 abstract:
-- content: "<p>An extensive database of star (and Moon) images has been collected
+- language: en
+  script:
+  - Latn
+  content: "<p>An extensive database of star (and Moon) images has been collected
     by the ground-based RObotic Lunar Observatory (ROLO) as part of the US Geological
     Survey program for lunar calibration. The stellar data are used to derive nightly
     atmospheric corrections for the observations from extinction measurements, and
@@ -52,53 +48,42 @@ abstract:
     is consistency in discriminating the star core signal from the off-axis point
     spread function. The analysis and processing methods applied to the ROLO stellar
     image database are described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute stellar photometry on moderate-resolution FPA images
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute stellar photometry on moderate-resolution FPA images
     date:
     - type: epub
-      value: '2009-06-02'
+      at: '2009-06-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute stellar photometry on moderate-resolution FPA images
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute stellar photometry on moderate-resolution FPA images
     date:
     - type: ppub
-      value: '2009-08-01'
+      at: '2009-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: S224
     reference_to: S227
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

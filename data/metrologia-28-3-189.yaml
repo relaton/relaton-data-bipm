@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283189
-title:
-- content: Cryogenic Microbolometers as Detectors in the VUV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/016
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/016
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 189
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cryogenic Microbolometers as Detectors in the VUV
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/016
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/016
+docidentifier:
+- content: Metrologia 28 3 189
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/016
+- content: 10.1088/0026-1394/28/3/016
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Ahr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, D-1000
             Berlin 10, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Tegeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestrasse 2-12, D-1000
             Berlin 10, Germany
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>For detector calibration in the VUV spectral range, electrical substitution
+- language: en
+  script:
+  - Latn
+  content: "<p>For detector calibration in the VUV spectral range, electrical substitution
     radiometers with low uncertainty for radiation powers between 10 nW and 1 μW are
     being developed. The microbolometers utilize the low thermal capacitance of sapphire
     plates at the temperature of liquid helium. On the back side of the plate with
@@ -64,39 +58,31 @@ abstract:
     the calibration is achieved with an electrical heater. First measurements in the
     spectral range around 1 keV show satisfactory agreement with the results from
     a self-calibration technique of a Si photodiode.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Cryogenic Microbolometers as Detectors in the VUV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Cryogenic Microbolometers as Detectors in the VUV
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '189'
     reference_to: '192'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

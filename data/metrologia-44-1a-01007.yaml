@@ -1,93 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A01007
-title:
-- content: 'Report on Comparison EUROMET.EM-S14 (EUROMET Project 495): Measurements
-    up to 100 kV DC'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/01007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/01007
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 01007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Report on Comparison EUROMET.EM-S14 (EUROMET Project 495): Measurements
+    up to 100 kV DC'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/01007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/01007
+docidentifier:
+- content: Metrologia 44 1A 01007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/01007
+- content: 10.1088/0026-1394/44/1A/01007
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: "<p>The report describes the results of a comparison of measurement methods
-    of the scale factor of high voltage dividers at voltages up to 100 kV. Eight laboratories
-    took part in the comparison. The measurements were carried out in the period between
-    September 1999 and March 2001. The travelling standard was a resistive divider
-    composed of wire wound resistors. Measurements were carried out at voltages of
-    10 kV, 50 kV and 100 kV for scale factors of 100 000, 10 000 and 1000. Some laboratories
-    also made measurements at an optional scale factor of 50 000. For the scale factor
-    of 1000 measurements were also made at 1 kV. In general the measurements made
-    by the participants were in agreement.</p><p>Main text. To reach the main text
-    of this paper, click on Final Report. Note that this text is that which appears
-    in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final
-    report has been peer-reviewed and approved for publication by EUROMET, according
-    to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The report describes the results of a comparison of measurement methods of the  scale factor of high voltage dividers at voltages up to 100 kV. Eight laboratories took part in the comparison. The measurements were carried out in the period between September 1999 and March 2001. The travelling standard was a resistive divider composed of wire wound resistors. Measurements were carried out at voltages of 10 kV, 50 kV and 100 kV for scale factors of 100 000, 10 000 and 1000. Some laboratories also made measurements at an optional scale factor of 50 000. For the scale factor of 1000 measurements were also made at 1 kV. In general the measurements made by the participants were in agreement.</p>
+    <p><bold>Main text.</bold> To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/S14/EUROMET.EM-S14.pdf ">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by EUROMET, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Report on Comparison EUROMET.EM-S14 (EUROMET Project 495): Measurements
+    - language: en
+      script: Latn
+      content: 'Report on Comparison EUROMET.EM-S14 (EUROMET Project 495): Measurements
         up to 100 kV DC'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +77,6 @@ extent:
     reference_from: '01007'
     reference_to: '01007'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

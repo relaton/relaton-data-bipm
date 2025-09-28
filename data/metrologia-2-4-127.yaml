@@ -1,111 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia24127
-title:
-- content: Acoustical Thermometer and the National Bureau of Standards Provisional
-    Temperature Scale 2–20 (1965)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 4 127
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Acoustical Thermometer and the National Bureau of Standards Provisional
+    Temperature Scale 2–20 (1965)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/4/001
+docidentifier:
+- content: Metrologia 2 4 127
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/4/001
+- content: 10.1088/0026-1394/2/4/001
   type: doi
 date:
 - type: published
-  value: '1966-10-01'
+  at: '1966-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Harmon Plumb
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Basic Standards, National Bureau of Standards, Washington,
             DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: George Cataland
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for Basic Standards, National Bureau of Standards, Washington,
             DC, USA
-  role:
-  - type: author
-revdate: '1966-10-01'
 abstract:
-- content: "<p>An acoustical thermometer has been developed at the National Bureau
-    of Standards to determine values of temperature that approximate the Thermodynamic
-    Temperature Scale. The instrument, called an ultrasonic interferometer in acoustical
-    literature, has been used to determine isotherms of the speed of sound in helium
-    gas as a function of pressure. Each isotherm has been extrapolated to zero pressure
-    to approximate the condition of an ideal gas; from the resulting intercepts, values
-    of temperature were calculated.</p><p>The instrument and its operation are described
-    and the data isotherms, which have been determined at approximately every degree
-    from 2° - 20 °K, are listed. The isotherm data have been treated both graphically
-    and by electronic computer analysis (by the method of least squares) to yield
-    values of temperature that are the basis for a new temperature scale – NBS Provisional
-    Scale 2 - 20 (1965). When the scale is compared with other existing scales, T<sub>58</sub>
-    and NBS (1955), in regions of overlap, the agreement with NBS (1955) is excellent
-    but noticable departures from T<sub>58</sub> - the helium-4 vapor pressure scale
-    - are indicated.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>An acoustical thermometer has been developed at the National Bureau of Standards to determine values of temperature that approximate the Thermodynamic Temperature Scale. The instrument, called an ultrasonic interferometer in acoustical literature, has been used to determine isotherms of the speed of sound in helium gas as a function of pressure. Each isotherm has been extrapolated to zero pressure to approximate the condition of an ideal gas; from the resulting intercepts, values of temperature were calculated.</p>
+    <p>The instrument and its operation are described and the data isotherms, which have been determined at approximately every degree from 2° - 20 °K, are listed. The isotherm data have been treated both graphically and by electronic computer analysis (by the method of least squares) to yield values of temperature that are the basis for a new temperature scale – NBS Provisional Scale 2 - 20 (1965). When the scale is compared with other existing scales, T<sub>58</sub> and NBS (1955), in regions of overlap, the agreement with NBS (1955) is excellent but noticable departures from T<sub>58</sub> - the helium-4 vapor pressure scale - are indicated.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Acoustical Thermometer and the National Bureau of Standards Provisional
+    - language: en
+      script: Latn
+      content: Acoustical Thermometer and the National Bureau of Standards Provisional
         Temperature Scale 2–20 (1965)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1966-10-01'
+      at: '1966-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +90,6 @@ extent:
     reference_from: '127'
     reference_to: '139'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

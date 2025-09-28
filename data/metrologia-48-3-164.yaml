@@ -1,143 +1,125 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483164
-title:
-- content: Spectrometer bandwidth correction for generalized bandpass functions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 164
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spectrometer bandwidth correction for generalized bandpass functions
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/010
+docidentifier:
+- content: Metrologia 48 3 164
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/010
+- content: 10.1088/0026-1394/48/3/010
   type: doi
 date:
 - type: published
-  value: '2011-04-06'
+  at: '2011-04-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Emma R Woolliams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Réjean Baribeau
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council Canada, Institute for National Measurement
             Standards, Ottawa, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Agnieszka Bialek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-04-06'
 abstract:
-- content: "<p>The bandpass of spectrometers can cause appreciable errors when making
+- language: en
+  script:
+  - Latn
+  content: "<p>The bandpass of spectrometers can cause appreciable errors when making
     radiometric measurements. This paper describes a practical method for correcting
     a set of equispaced measured values provided by a spectrometer with a finite bandwidth,
     an arbitrary bandpass function and at an arbitrary wavelength step. The paper
     reviews the limits of the approach for real spectra in the presence of measurement
     noise and suggests ways of reducing the effect of noise.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectrometer bandwidth correction for generalized bandpass functions
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectrometer bandwidth correction for generalized bandpass functions
     date:
     - type: epub
-      value: '2011-04-06'
+      at: '2011-04-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectrometer bandwidth correction for generalized bandpass functions
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectrometer bandwidth correction for generalized bandpass functions
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +130,6 @@ extent:
     reference_from: '164'
     reference_to: '172'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

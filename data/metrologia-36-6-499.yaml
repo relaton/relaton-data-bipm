@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366499
-title:
-- content: The HG5 laser interferometer mercury manometer of the IMGC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 499
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The HG5 laser interferometer mercury manometer of the IMGC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/3
+docidentifier:
+- content: Metrologia 36 6 499
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/3
+- content: 10.1088/0026-1394/36/6/3
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Alasia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Birello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Capelli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Cignolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Sardi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC-CNR
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: '<p>Mercury manometers have been designed and constructed at the Istituto
+- language: en
+  script:
+  - Latn
+  content: '<p>Mercury manometers have been designed and constructed at the Istituto
     di Metrologia "G. Colonnetti" (IMGC) since 1986, their main characteristic being
     the adoption of cube-corner reflectors, carried by lightweight floats, to reflect
     the beams of a laser interferometer that measures the vertical separation between
@@ -109,39 +97,31 @@ abstract:
     of a novel design allowing the direct reflection of laser beams on mercury menisci.
     The uncertainty budget and the equations giving the HG5 standard uncertainties
     (43 mPa to 314 mPa) under all conditions are included.</p>'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The HG5 laser interferometer mercury manometer of the IMGC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The HG5 laser interferometer mercury manometer of the IMGC
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -152,6 +132,6 @@ extent:
     reference_from: '499'
     reference_to: '503'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

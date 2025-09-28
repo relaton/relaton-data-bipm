@@ -1,108 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia305479
-title:
-- content: Estimating the Instabilities of N Clocks by Measuring Differences of their
-    Readings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/30/5/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/5/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 5 479
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Estimating the Instabilities of <italic>N</italic> Clocks by Measuring
+    Differences of their Readings
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/5/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/5/003
+docidentifier:
+- content: Metrologia 30 5 479
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/5/003
+- content: 10.1088/0026-1394/30/5/003
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale Galileo Ferraris, Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Premoli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Dip. di Elettrotecnica, Elettronica ed Informatica, Università
             di Trieste, Via A. Valerio 10, 34127 Trieste, Italy
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>The estimation of individual instabilities of N clocks, when only differences
-    of clock readings are available, is examined without any a priori assumption about
-    the lack of correlation between clocks. The instability of the N clocks is described
-    by the N × N covariance matrix R but only the (N - 1) × (N - 1) covariance matrix
-    S of the differences referred to the N-th clock may be estimated directly from
-    measurements. The estimation of R from S is not unique but the solution domain
-    is limited by the positive definiteness of R. The features of this domain are
-    analysed and the conditions for the validity of the uncorrelation hypothesis are
-    established. The modifications of the solution domain, when the number N of compared
-    clocks increases, is examined showing that each added clock can reduce the domain
-    and therefore the arbitrariness in estimating R. Examples with some experimental
-    data illustrate the capabilities of this approach.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The estimation of individual instabilities of <italic>N</italic> clocks,
+    when only differences of clock readings are available, is examined without any
+    a priori assumption about the lack of correlation between clocks. The instability
+    of the <italic>N</italic> clocks is described by the <italic>N × N</italic> covariance
+    matrix <italic>R</italic> but only the (<italic>N</italic> - 1) × (<italic>N</italic>
+    - 1) covariance matrix <italic>S</italic> of the differences referred to the <italic>N</italic>-th
+    clock may be estimated directly from measurements. The estimation of <italic>R</italic>
+    from <italic>S</italic> is not unique but the solution domain is limited by the
+    positive definiteness of <italic>R</italic>. The features of this domain are analysed
+    and the conditions for the validity of the uncorrelation hypothesis are established.
+    The modifications of the solution domain, when the number <italic>N</italic> of
+    compared clocks increases, is examined showing that each added clock can reduce
+    the domain and therefore the arbitrariness in estimating <italic>R</italic>. Examples
+    with some experimental data illustrate the capabilities of this approach.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimating the Instabilities of N Clocks by Measuring Differences of
-        their Readings
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Estimating the Instabilities of <italic>N</italic> Clocks by Measuring
+        Differences of their Readings
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +101,6 @@ extent:
     reference_from: '479'
     reference_to: '486'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

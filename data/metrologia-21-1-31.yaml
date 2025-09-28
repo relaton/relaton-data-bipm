@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia21131
-title:
-- content: Measurement of the Difference between IPTS-68 and Thermodynamic Temperature
-    in the Range 457 °C to 630 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 1 31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the Difference between IPTS-68 and Thermodynamic Temperature
+    in the Range 457 °C to 630 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/1/007
+docidentifier:
+- content: Metrologia 21 1 31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/1/007
+- content: 10.1088/0026-1394/21/1/007
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P B Coates
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Electrical Science, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Andrews
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M V Chattle
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>This paper describes the measurement of the difference between the
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes the measurement of the difference between the
     International Practical Temperature Scale (IPTS-68) and thermodynamic temperature
     in the range 457 °C-630 °C using the NPL photon-counting pyrometer. This instrument
     operates at sufficiently low radiance temperatures to allow the gas thermometry
@@ -80,40 +72,32 @@ abstract:
     be extended upwards. The results agree well with the recent measurements of Jung
     (1984). Their implications with respect to the differences at still higher temperatures
     are discussed briefly.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the Difference between IPTS-68 and Thermodynamic Temperature
+    - language: en
+      script: Latn
+      content: Measurement of the Difference between IPTS-68 and Thermodynamic Temperature
         in the Range 457 °C to 630 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '31'
     reference_to: '35'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

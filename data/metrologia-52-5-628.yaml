@@ -1,119 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525628
-title:
-- content: Least-squares analysis of clock frequency comparison data to deduce optimized
-    frequency and frequency ratio values
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/628
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/628
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 628
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Least-squares analysis of clock frequency comparison data to deduce optimized
+    frequency and frequency ratio values
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/628
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/628
+docidentifier:
+- content: Metrologia 52 5 628
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/628
+- content: 10.1088/0026-1394/52/5/628
   type: doi
 date:
 - type: published
-  value: '2015-08-21'
+  at: '2015-08-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H S Margolis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Gill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2015-08-21'
 abstract:
-- content: Abstract<p>A method is presented for analysing over-determined sets of
-    clock frequency comparison data involving standards based on a number of different
-    reference transitions. This least-squares adjustment procedure, which is based
-    on the method used by CODATA to derive a self-consistent set of values for the
-    fundamental physical constants, can be used to derive optimized values for the
-    frequency ratios of all possible pairs of reference transitions. It is demonstrated
-    to reproduce the frequency values recommended by the International Committee for
-    Weights and Measures, when using the same input data used to derive those values.
-    The effects of including more recently published data in the evaluation is discussed
-    and the importance of accounting for correlations between the input data is emphasised.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A method is presented for analysing over-determined sets of clock frequency comparison data involving standards based on a number of different reference transitions. This least-squares adjustment procedure, which is based on the method used by CODATA to derive a self-consistent set of values for the fundamental physical constants, can be used to derive optimized values for the frequency ratios of all possible pairs of reference transitions. It is demonstrated to reproduce the frequency values recommended by the International Committee for Weights and Measures, when using the same input data used to derive those values. The effects of including more recently published data in the evaluation is discussed and the importance of accounting for correlations between the input data is emphasised.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Least-squares analysis of clock frequency comparison data to deduce
+    - script: Latn
+      content: Least-squares analysis of clock frequency comparison data to deduce
         optimized frequency and frequency ratio values
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Least-squares analysis of clock frequency comparison data to deduce
+    - script: Latn
+      content: Least-squares analysis of clock frequency comparison data to deduce
         optimized frequency and frequency ratio values
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-08-21'
+      at: '2015-08-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +105,6 @@ extent:
     reference_from: '628'
     reference_to: '634'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

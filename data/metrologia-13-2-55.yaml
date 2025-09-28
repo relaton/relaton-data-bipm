@@ -1,63 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia13255
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     International Directory of Calibration
     Services in the Field of Photometry and
     Radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/2/001
-  type: doi
-type: article
-docid:
-- id: Metrologia 13 2 55
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/2/001
+docidentifier:
+- content: Metrologia 13 2 55
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/2/001
+- content: 10.1088/0026-1394/13/2/001
   type: doi
 date:
 - type: published
-  value: '1977-04-01'
-revdate: '1977-04-01'
+  at: '1977-04-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         International Directory of Calibration
         Services in the Field of Photometry and
         Radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1977-04-01'
+      at: '1977-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -68,6 +60,6 @@ extent:
     reference_from: '55'
     reference_to: '55'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

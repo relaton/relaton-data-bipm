@@ -1,191 +1,164 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525654
-title:
-- content: Optomechanical reference accelerometer
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/654
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/654
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 654
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Optomechanical reference accelerometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/654
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/654
+docidentifier:
+- content: Metrologia 52 5 654
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/654
+- content: 10.1088/0026-1394/52/5/654
   type: doi
 date:
 - type: published
-  value: '2015-09-08'
+  at: '2015-09-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Gerberding
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
     - organization:
+        address:
+        - formatted_address: College Park, MD 20742, USA
         name:
         - content: Joint Quantum Institute, University of Maryland
-        contact:
-        - address:
-            formatted_address: College Park, MD 20742, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Guzmán Cervantes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
     - organization:
+        address:
+        - formatted_address: College Park, MD 20742, USA
         name:
         - content: Joint Quantum Institute, University of Maryland
-        contact:
-        - address:
-            formatted_address: College Park, MD 20742, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Melcher
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J R Pratt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Taylor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
     - organization:
+        address:
+        - formatted_address: College Park, MD 20742, USA
         name:
         - content: Joint Quantum Institute, University of Maryland
-        contact:
-        - address:
-            formatted_address: College Park, MD 20742, USA
     - organization:
+        address:
+        - formatted_address: College Park, MD 20742, USA
         name:
         - content: University of Maryland
         subdivision:
-        - content: Joint Center for Quantum Information and Computer Science
-        contact:
-        - address:
-            formatted_address: College Park, MD 20742, USA
-  role:
-  - type: author
-revdate: '2015-09-08'
+        - name:
+          - language: en
+            script: Latn
+            content: Joint Center for Quantum Information and Computer Science
 abstract:
-- content: Abstract<p>We present an optomechanical accelerometer with high dynamic
-    range, high bandwidth and readout noise levels below 7.8&#x00D7;10&#x2212;5 >
-    m s<sup>−2</sup>/Hz >. The straightforward assembly and low cost of our device
-    makes it a prime candidate for on-site reference calibrations and autonomous navigation.
-    We present experimental data taken with a vacuum sealed, portable prototype and
-    deduce the achieved bias stability and the accuracy of the sensitivity. Additionally,
-    we present a comprehensive model of the device physics that we use to analyze
-    the fundamental noise sources and accuracy limitations of such devices.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We present an optomechanical accelerometer with high dynamic range, high bandwidth and readout noise levels below <inline-formula><tex-math><?CDATA $7.8\times {{10}^{-5}} $ ></tex-math><?MML <mml:math><mml:mstyle displaystyle='false'><mml:mn>7.8</mml:mn><mml:mo>&#x00D7;</mml:mo><mml:mstyle displaystyle='false'><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:mstyle></mml:math> ><inline-graphic xlink:href="met517684ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> m s<sup>−2</sup>/<inline-formula><tex-math><?CDATA $\sqrt{\text{Hz}} $ ></tex-math><?MML <mml:math><mml:mstyle displaystyle='false'><mml:msqrt><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">z</mml:mi></mml:mrow></mml:msqrt></mml:mstyle></mml:math> ><inline-graphic xlink:href="met517684ieqn002.gif" xlink:type="simple"></inline-graphic></inline-formula>. The straightforward assembly and low cost of our device makes it a prime candidate for on-site reference calibrations and autonomous navigation. We present experimental data taken with a vacuum sealed, portable prototype and deduce the achieved bias stability and the accuracy of the sensitivity. Additionally, we present a comprehensive model of the device physics that we use to analyze the fundamental noise sources and accuracy limitations of such devices.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optomechanical reference accelerometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Optomechanical reference accelerometer
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optomechanical reference accelerometer
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Optomechanical reference accelerometer
     date:
     - type: epub
-      value: '2015-09-08'
+      at: '2015-09-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -196,6 +169,6 @@ extent:
     reference_from: '654'
     reference_to: '665'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

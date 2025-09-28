@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia413132
-title:
-- content: Combining information from interlaboratory evaluations using a random effects
-    model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 3 132
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Combining information from interlaboratory evaluations using a random effects
+    model
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/3/004
+docidentifier:
+- content: Metrologia 41 3 132
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/3/004
+- content: 10.1088/0026-1394/41/3/004
   type: doi
 date:
 - type: published
-  value: '2004-02-20'
+  at: '2004-02-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raghu N Kacker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD
             20899-8910, USA
-  role:
-  - type: author
-revdate: '2004-02-20'
 abstract:
-- content: "<p>This paper compares leading methods for combining information from
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper compares leading methods for combining information from
     interlaboratory evaluations of a common measurand through a random effects model
     of classical statistics. The leading methods are those of Cochran, Paule and Mandel,
     and DerSimonian and Laird. We show that all three methods are special cases of
@@ -57,55 +53,44 @@ abstract:
     model. We compare the other three methods relative to the method of Paule and
     Mandel. The two-step method approximates the optimal method of Paule and Mandel
     better than the earlier methods of Cochran, and DerSimonian and Laird.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combining information from interlaboratory evaluations using a random
+    - language: en
+      script: Latn
+      content: Combining information from interlaboratory evaluations using a random
         effects model
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-02-20'
+      at: '2004-02-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Combining information from interlaboratory evaluations using a random
+    - language: en
+      script: Latn
+      content: Combining information from interlaboratory evaluations using a random
         effects model
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-06-01'
+      at: '2004-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +101,6 @@ extent:
     reference_from: '132'
     reference_to: '136'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

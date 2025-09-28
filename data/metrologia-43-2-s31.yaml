@@ -1,113 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S31
-title:
-- content: NIST reference cryogenic radiometer designed for versatile performance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S31
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: NIST reference cryogenic radiometer designed for versatile performance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S07
+docidentifier:
+- content: Metrologia 43 2 S31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S07
+- content: 10.1088/0026-1394/43/2/S07
   type: doi
 date:
 - type: published
-  value: '2006-03-23'
+  at: '2006-03-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Houston
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Rice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
-  - type: author
-revdate: '2006-03-23'
 abstract:
-- content: "<p>We describe the concept of modularity and versatility in the construction
+- language: en
+  script:
+  - Latn
+  content: "<p>We describe the concept of modularity and versatility in the construction
     of a new cryogenic radiometer developed at the National Institute of Standards
     and Technology. We address the benefits of the modular design in the construction
     and development and discuss some of the device characterizations and results of
     a cryogenic radiometer intercomparison.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST reference cryogenic radiometer designed for versatile performance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: NIST reference cryogenic radiometer designed for versatile performance
     date:
     - type: epub
-      value: '2006-03-23'
+      at: '2006-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST reference cryogenic radiometer designed for versatile performance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: NIST reference cryogenic radiometer designed for versatile performance
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +101,6 @@ extent:
     reference_from: S31
     reference_to: S35
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

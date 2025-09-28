@@ -1,125 +1,104 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532S74
-title:
-- content: Bayesian conformity assessment in presence of systematic measurement errors
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/S74
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/S74
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 S74
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian conformity assessment in presence of systematic measurement errors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/S74
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/S74
+docidentifier:
+- content: Metrologia 53 2 S74
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/S74
+- content: 10.1088/0026-1394/53/2/S74
   type: doi
 date:
 - type: published
-  value: '2016-03-09'
+  at: '2016-03-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Carlo Carobbi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 50139 Firenze, Italy
         name:
         - content: Università degli Studi di Firenze
         subdivision:
-        - content: Department of Information Engineering
-        contact:
-        - address:
-            formatted_address: 50139 Firenze, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Information Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Francesca Pennecchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2016-03-09'
 abstract:
-- content: Abstract<p>Conformity assessment of the distribution of the values of a
-    quantity is investigated by using a Bayesian approach. The effect of systematic,
-    non-negligible measurement errors is taken into account. The analysis is general,
-    in the sense that the probability distribution of the quantity can be of any kind,
-    that is even different from the ubiquitous normal distribution, and the measurement
-    model function, linking the measurand with the observable and non-observable influence
-    quantities, can be non-linear. Further, any joint probability density function
-    can be used to model the available knowledge about the systematic errors. It is
-    demonstrated that the result of the Bayesian analysis here developed reduces to
-    the standard result (obtained through a frequentistic approach) when the systematic
-    measurement errors are negligible. A consolidated frequentistic extension of such
-    standard result, aimed at including the effect of a systematic measurement error,
-    is directly compared with the Bayesian result, whose superiority is demonstrated.
-    Application of the results here obtained to the derivation of the operating characteristic
-    curves used for sampling plans for inspection by variables is also introduced.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Conformity assessment of the distribution of the values of a quantity is investigated by using a Bayesian approach. The effect of systematic, non-negligible measurement errors is taken into account. The analysis is general, in the sense that the probability distribution of the quantity can be of any kind, that is even different from the ubiquitous normal distribution, and the measurement model function, linking the measurand with the observable and non-observable influence quantities, can be non-linear. Further, any joint probability density function can be used to model the available knowledge about the systematic errors. It is demonstrated that the result of the Bayesian analysis here developed reduces to the standard result (obtained through a frequentistic approach) when the systematic measurement errors are negligible. A consolidated frequentistic extension of such standard result, aimed at including the effect of a systematic measurement error, is directly compared with the Bayesian result, whose superiority is demonstrated. Application of the results here obtained to the derivation of the operating characteristic curves used for sampling plans for inspection by variables is also introduced.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian conformity assessment in presence of systematic measurement
+    - script: Latn
+      content: Bayesian conformity assessment in presence of systematic measurement
         errors
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian conformity assessment in presence of systematic measurement
+    - script: Latn
+      content: Bayesian conformity assessment in presence of systematic measurement
         errors
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-03-09'
+      at: '2016-03-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +109,6 @@ extent:
     reference_from: S74
     reference_to: S80
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia413173
-title:
-- content: On the propagation of uncertainty in complex-valued quantities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/3/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/3/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 3 173
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the propagation of uncertainty in complex-valued quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/3/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/3/010
+docidentifier:
+- content: Metrologia 41 3 173
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/3/010
+- content: 10.1088/0026-1394/41/3/010
   type: doi
 date:
 - type: published
-  value: '2004-04-07'
+  at: '2004-04-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2004-04-07'
 abstract:
-- content: "<p>This paper explores a recent suggestion to use a bivariate form of
-    the Gaussian ‘error propagation law’ to propagate uncertainty in the measurement
-    of complex-valued quantities (Ridler N M and Salter M J 2002 Metrologia 39 295–302).
-    Several alterative formulations of the law are discussed in which the contributions
-    from individual input terms are more explicit. The calculation of complex-valued
-    sensitivity coefficients is discussed and a matrix generalization of the notion
-    of a ‘component of uncertainty’ in a measurement result is introduced. A form
-    of a ‘chain rule’ is given for the propagation of uncertainty when several intermediate
-    equations are involved.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>This paper explores a recent suggestion to use a bivariate form of the
+    Gaussian ‘error propagation law’ to propagate uncertainty in the measurement of
+    complex-valued quantities (Ridler N M and Salter M J 2002 <ext-link ext-link-type="uri"
+    xlink:href="https://doi.org/10.1088/0026-1394/39/3/6"><italic>Metrologia</italic>
+    <bold>39</bold> 295–302</ext-link>). Several alterative formulations of the law
+    are discussed in which the contributions from individual input terms are more
+    explicit. The calculation of complex-valued sensitivity coefficients is discussed
+    and a matrix generalization of the notion of a ‘component of uncertainty’ in a
+    measurement result is introduced. A form of a ‘chain rule’ is given for the propagation
+    of uncertainty when several intermediate equations are involved.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the propagation of uncertainty in complex-valued quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the propagation of uncertainty in complex-valued quantities
     date:
     - type: epub
-      value: '2004-04-07'
+      at: '2004-04-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the propagation of uncertainty in complex-valued quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the propagation of uncertainty in complex-valued quantities
     date:
     - type: ppub
-      value: '2004-06-01'
+      at: '2004-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '173'
     reference_to: '177'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

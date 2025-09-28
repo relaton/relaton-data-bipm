@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3411
-title:
-- content: 'The Comité Consultatif pour la Quantité de Matière: a brief review of
-    its origin and present activities'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Comité Consultatif pour la Quantité de Matière: a brief review of
+    its origin and present activities'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/1
+docidentifier:
+- content: Metrologia 34 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/1
+- content: 10.1088/0026-1394/34/1/1
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kaarls
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMi-VSL, BIPM
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>International traceability to the SI is increasingly demanded for measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>International traceability to the SI is increasingly demanded for measurements
     in chemistry. These concern measurements made not only for industrial chemical
     manufacturing but also for checking the safety of a wide range of food and agricultural
     products, for environmental protection, for medicine, as well as for a multitude
@@ -66,40 +60,32 @@ abstract:
     the meaning of traceability for measurements in chemistry and the organization
     of some key international comparisons designed to test the procedures drawn up
     to guide them. Plans for future work are described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Comité Consultatif pour la Quantité de Matière: a brief review
+    - language: en
+      script: Latn
+      content: 'The Comité Consultatif pour la Quantité de Matière: a brief review
         of its origin and present activities'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '1'
     reference_to: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

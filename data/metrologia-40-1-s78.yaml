@@ -1,122 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S78
-title:
-- content: Calibration of the total irradiance monitor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/317
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/317
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S78
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of the total irradiance monitor
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/317
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/317
+docidentifier:
+- content: Metrologia 40 1 S78
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/317
+- content: 10.1088/0026-1394/40/1/317
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G M Lawrence
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Kopp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rottman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Harder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Loui
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory for Atmospheric and Space Physics, University of Colorado,
             Boulder, CO 80309-0590, USA
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>Launching on the SORCE (SOlar Radiation and Climate Experiment), the
+- language: en
+  script:
+  - Latn
+  content: "<p>Launching on the SORCE (SOlar Radiation and Climate Experiment), the
     total irradiance monitor (TIM) will measure the total solar irradiance to a relative
     standard uncertainty of 10<sup>−4</sup> and a noise level of 2×10<sup>−6</sup>
     each 400 s. Because of the outstanding brightness, uniformity, stability and collimation
@@ -129,53 +115,42 @@ abstract:
     measure the cavity reflection losses versus wavelength using laser scans. We have
     verified methods for measuring, in flight, the servo gain, cavity reflection changes
     and shutter-modulated infrared offset (dark signal).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of the total irradiance monitor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of the total irradiance monitor
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of the total irradiance monitor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of the total irradiance monitor
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -186,6 +161,6 @@ extent:
     reference_from: S78
     reference_to: S80
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

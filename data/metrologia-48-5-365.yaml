@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485365
-title:
-- content: Transfer of the UK absorbed dose primary standard for photon beams from
-    the research linac to the clinical linac at NPL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 365
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Transfer of the UK absorbed dose primary standard for photon beams from
+    the research linac to the clinical linac at NPL
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/018
+docidentifier:
+- content: Metrologia 48 5 365
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/018
+- content: 10.1088/0026-1394/48/5/018
   type: doi
 date:
 - type: published
-  value: '2011-09-05'
+  at: '2011-09-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J A D Pearce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Radiation Dosimetry Group, National Physical Laboratory, Teddington,
             Middlesex, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R Shipley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Radiation Dosimetry Group, National Physical Laboratory, Teddington,
             Middlesex, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Duane
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Radiation Dosimetry Group, National Physical Laboratory, Teddington,
             Middlesex, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-09-05'
 abstract:
-- content: "<p>An Elekta Synergy clinical linac facility is now in routine use at
+- language: en
+  script:
+  - Latn
+  content: "<p>An Elekta Synergy clinical linac facility is now in routine use at
     the National Physical Laboratory (NPL). For the purpose of therapy-level dosimetry,
     this has replaced the NPL research linac, which is over 40 years old, and in which
     the NPL absorbed dose primary standard for high-energy photons was established.
@@ -82,62 +74,55 @@ abstract:
     produced by the Elekta Synergy linac. Reference standard ionization chambers have
     been calibrated in terms of absorbed dose to graphite and this calibration has
     been converted to one in terms of absorbed dose to water. The results have been
-    combined with the calibration in<sup>60</sup>Co γ-rays to obtain measured values
-    for the quality-dependent correction, k<sub>Q</sub>, for these reference standard
-    chambers used in the Elekta beams. The resulting data are consistent with the
-    interpolated k<sub>Q</sub> to within 0.4%, which is less than the combined standard
-    uncertainty of k<sub>Q</sub>, 0.56%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    combined with the calibration in <sup>60</sup>Co γ-rays to obtain measured values
+    for the quality-dependent correction, <italic>k</italic><sub>Q</sub>, for these
+    reference standard chambers used in the Elekta beams. The resulting data are consistent
+    with the interpolated <italic>k</italic><sub>Q</sub> to within 0.4%, which is
+    less than the combined standard uncertainty of <italic>k</italic><sub>Q</sub>,
+    0.56%.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Transfer of the UK absorbed dose primary standard for photon beams
+    - language: en
+      script: Latn
+      content: Transfer of the UK absorbed dose primary standard for photon beams
         from the research linac to the clinical linac at NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-09-05'
+      at: '2011-09-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Transfer of the UK absorbed dose primary standard for photon beams
+    - language: en
+      script: Latn
+      content: Transfer of the UK absorbed dose primary standard for photon beams
         from the research linac to the clinical linac at NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +133,6 @@ extent:
     reference_from: '365'
     reference_to: '374'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

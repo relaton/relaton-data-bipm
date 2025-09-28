@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia334289
-title:
-- content: Luigi Crovini 1937-1995
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/4/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/4/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 4 289
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Luigi Crovini 1937-1995
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/4/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/4/1
+docidentifier:
+- content: Metrologia 33 4 289
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/4/1
+- content: 10.1088/0026-1394/33/4/1
   type: doi
 date:
 - type: published
-  value: '1996-08-01'
+  at: '1996-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Preston-Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CCT, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CCT, BIPM
-  role:
-  - type: author
-revdate: '1996-08-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Luigi Crovini 1937-1995
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Luigi Crovini 1937-1995
     date:
     - type: ppub
-      value: '1996-08-01'
+      at: '1996-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '289'
     reference_to: '289'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

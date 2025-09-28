@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354587
-title:
-- content: Evaluation of uncertainties in fundamental radiometric measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/63
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/63
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 587
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evaluation of uncertainties in fundamental radiometric measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/63
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/63
+docidentifier:
+- content: Metrologia 35 4 587
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/63
+- content: 10.1088/0026-1394/35/4/63
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B K Tsai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B C Johnson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The uncertainty of measurements is critical in furthering the development
+- language: en
+  script:
+  - Latn
+  content: "<p>The uncertainty of measurements is critical in furthering the development
     of radiometric science and acquiring an increased understanding of its principles.
     Proper analysis of measurement uncertainties provides an indication of how well
     the measurements have been made, and also helps assess the results of comparisons.
@@ -62,39 +56,31 @@ abstract:
     the International System of Units. Three examples in the field of radiometry are
     presented for evaluation. Employing statistical theorems, the combined standard
     uncertainty of the signal integral or the temperature is derived.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of uncertainties in fundamental radiometric measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evaluation of uncertainties in fundamental radiometric measurements
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '587'
     reference_to: '593'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

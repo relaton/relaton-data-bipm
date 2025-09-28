@@ -1,86 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia8242
-title:
-- content: Influence of Beam Path Length in Standard Free Air Chambers on the Photon
-    Scatter Correction in Low Energy X-Radiation Measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 2 42
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Influence of Beam Path Length in Standard Free Air Chambers on the Photon
+    Scatter Correction in Low Energy X-Radiation Measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/2/002
+docidentifier:
+- content: Metrologia 8 2 42
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/2/002
+- content: 10.1088/0026-1394/8/2/002
   type: doi
 date:
 - type: published
-  value: '1972-04-01'
+  at: '1972-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Somerwil
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Rijks Instituut voor de Volksgezondheid, Bilthoven, The Netherlands
-  role:
-  - type: author
-revdate: '1972-04-01'
 abstract:
-- content: "<p>During intercomparison of standard free air chambers at the Bureau
-    International des Poids et Mesures small but systematic differences were found
-    between two types of chambers, having substantially different internal beam path
-    lengths.</p><p>An experiment was performed to investigate which influence these
-    differences could have upon the correction factor K<sub>sc</sub> to be applied
-    for the radiation scattered inside these chambers.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>During intercomparison of standard free air chambers at the Bureau International des Poids et Mesures small but systematic differences were found between two types of chambers, having substantially different internal beam path lengths.</p>
+    <p>An experiment was performed to investigate which influence these differences could have upon the correction factor <italic>K</italic><sub>sc</sub> to be applied for the radiation scattered inside these chambers.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Influence of Beam Path Length in Standard Free Air Chambers on the
+    - language: en
+      script: Latn
+      content: Influence of Beam Path Length in Standard Free Air Chambers on the
         Photon Scatter Correction in Low Energy X-Radiation Measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1972-04-01'
+      at: '1972-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +76,6 @@ extent:
     reference_from: '42'
     reference_to: '46'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

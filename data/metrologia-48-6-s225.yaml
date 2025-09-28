@@ -1,132 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S225
-title:
-- content: What is neutron metrology and why is it needed?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S01
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S225
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: What is neutron metrology and why is it needed?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S01
+docidentifier:
+- content: Metrologia 48 6 S225
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S01
+- content: 10.1088/0026-1394/48/6/S01
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D J Thomas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Teddington, Middlesex TW11
             0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Nolte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), D-38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Gressier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut de Radioprotection et de Sûreté Nucléaire (IRSN), F-13115
             Saint-Paul-lez-Durance, France
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>In some branches of metrology the quantity, or quantities, to be measured
+- language: en
+  script:
+  - Latn
+  content: "<p>In some branches of metrology the quantity, or quantities, to be measured
     and the requirements for standards of this quantity, or these quantities, are
     clear-cut, although the accuracies required may not always be obvious. Good examples
     are time, length and mass. The quantities measured in neutron metrology and the
     requirements and uses of these quantities are less well known. This paper lays
     the foundation for subsequent more detailed discussions of the problems and issues
     faced by national metrology institutes when developing and providing standards.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: What is neutron metrology and why is it needed?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: What is neutron metrology and why is it needed?
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: What is neutron metrology and why is it needed?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: What is neutron metrology and why is it needed?
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +121,6 @@ extent:
     reference_from: S225
     reference_to: S238
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

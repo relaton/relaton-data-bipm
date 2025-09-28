@@ -1,81 +1,66 @@
 ---
-schema-version: v1.2.9
 id: JCRB-2021-44
-title:
-- content: 44th meeting of the JCRB (online)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 44<sup>e</sup> réunion du JCRB (en ligne)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/44-2021
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/44-2021
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/60679358/KCDB_Report_to_JCRB_Sep21.pdf/a3eeaf50-8bd4-f5a7-9b69-85cbcf177aee
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-44.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-44.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB 44th Meeting (2021)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 44th meeting of the JCRB (online)
+- language: fr
+  script: Latn
+  content: 44<sup>e</sup> réunion du JCRB (en ligne)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/44-2021
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/44-2021
+- type: pdf
+  content: https://www.bipm.org/documents/20126/60679358/KCDB_Report_to_JCRB_Sep21.pdf/a3eeaf50-8bd4-f5a7-9b69-85cbcf177aee
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-44.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-44.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: JCRB 44th Meeting (2021)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: JCRB 44<sup>e</sup> réunion (2021)
+  content: JCRB 44<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: JCRB 44th Meeting (2021) / JCRB 44<sup>e</sup> réunion (2021)
+- content: JCRB 44th Meeting (2021) / JCRB 44<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
 docnumber: JCRB 44th Meeting (2021)
 date:
 - type: published
-  value: '2021-09-16'
+  at: '2021-09-16'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2021-09-16'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -84,8 +69,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '44'

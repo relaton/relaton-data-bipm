@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia20249
-title:
-- content: International Intercomparison of d + T Neutron Fluence and Energy Using
-    Niobium and Zirconium Activation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 2 49
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Intercomparison of d + T Neutron Fluence and Energy Using
+    Niobium and Zirconium Activation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/2/003
+docidentifier:
+- content: Metrologia 20 2 49
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/2/003
+- content: 10.1088/0026-1394/20/2/003
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V E Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science and Acoustics, National Physical
             Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>The fluences and energies of d + T neutron fields of standardizing
+- language: en
+  script:
+  - Latn
+  content: "<p>The fluences and energies of d + T neutron fields of standardizing
     laboratories in nine countries have been intercompared by the activation of niobium
     and zirconium samples, with the subsequent measurement of induced activities at
     NPL. The niobium specific activities are compared with the fluences as determined
@@ -50,40 +46,32 @@ abstract:
     compared with the mean neutron energies as calculated or determined by the participants.
     The agreement is generally satisfactory and the uncertainty contribution due to
     the transfer method has insignificant effect on the overall accuracy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Intercomparison of d + T Neutron Fluence and Energy Using
+    - language: en
+      script: Latn
+      content: International Intercomparison of d + T Neutron Fluence and Energy Using
         Niobium and Zirconium Activation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '49'
     reference_to: '53'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

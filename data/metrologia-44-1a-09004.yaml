@@ -1,95 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A09004
-title:
-- content: Final report on the key comparison EUROMET.AUV.A-K3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/09004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/09004
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 09004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on the key comparison EUROMET.AUV.A-K3
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/09004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/09004
+docidentifier:
+- content: Metrologia 44 1A 09004
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/09004
+- content: 10.1088/0026-1394/44/1A/09004
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Knud Rasmussen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Primary Laboratory for Acoustics, Kgs. Lyngby, Denmark
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Claudio Guglielmone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRiM, Strada delle Cacce 91, Torino, Italy
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>The need for a comparison of laboratory standard microphones type LS2aP was agreed during the EUROMET TC AUV 'Sound in air' SC and contact persons meeting in Warsaw, held in May 2002. The goal of the comparison is to complement on a regional scale the CCAUV.A-K3 comparison, in order to be able to demonstrate the equivalence of acoustical pressure standards of European NMIs. The EUROMET TC AUV presented a project No 674 for the comparison and it was agreed that IEN would be the pilot laboratory with technical assistance given by DPLA. A Technical Protocol was distributed in September 2003 and measurements started in November 2003. Draft A was prepared in January 2005 and finally approved in May 2005 at the TC AUV EUROMET meeting in Torino. The CCAUV approved this final report and the degrees of equivalence in September 2006.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The need for a comparison of laboratory standard microphones type LS2aP was agreed during the EUROMET TC AUV 'Sound in air' SC and contact persons meeting in Warsaw, held in May 2002. The goal of the comparison is to complement on a regional scale the  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/43/1A/09001/">CCAUV.A-K3</ext-link> comparison, in order to be able to demonstrate the equivalence of acoustical pressure standards of European NMIs.  The EUROMET TC AUV presented a project No 674 for the comparison and it was agreed that IEN would be the pilot laboratory with technical assistance given by DPLA. A Technical Protocol was distributed in September 2003 and measurements started in November 2003. Draft A was prepared in January 2005 and finally approved in May 2005 at the TC AUV EUROMET meeting in Torino. The CCAUV approved this final report and the degrees of equivalence in September 2006.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K3/EUROMET.AUV.A-K3.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on the key comparison EUROMET.AUV.A-K3
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on the key comparison EUROMET.AUV.A-K3
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: '09004'
     reference_to: '09004'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S186
-title:
-- content: Time scales, their users, and leap seconds
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S186
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Time scales, their users, and leap seconds
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S09
+docidentifier:
+- content: Metrologia 48 4 S186
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S09
+- content: 10.1088/0026-1394/48/4/S09
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kenneth Seidelmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: University of Virginia, Department of Astronomy, PO Box 400325,
             Charlottesville, VA 22904-4325, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John H Seago
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Graphics, Inc., 220 Valley Creek Blvd, Exton, PA 19341-2380,
             USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>Numerous time scales exist to address specific user requirements. Accurate
+- language: en
+  script:
+  - Latn
+  content: "<p>Numerous time scales exist to address specific user requirements. Accurate
     dynamical time scales (barycentric, geocentric and terrestrial) have been developed
     based on the theory of relativity. A family of time scales has been developed
     based on the rotation of the Earth that includes Universal Time (specifically
@@ -68,55 +62,47 @@ abstract:
     development of the time scales, the status of the leap-second issue, and user
     considerations and perspectives are discussed. A description of some more recent
     applications for time usage is included.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time scales, their users, and leap seconds
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Time scales, their users, and leap seconds
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time scales, their users, and leap seconds
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Time scales, their users, and leap seconds
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +113,6 @@ extent:
     reference_from: S186
     reference_to: S194
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

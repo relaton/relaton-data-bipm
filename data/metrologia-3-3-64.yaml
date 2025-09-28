@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3364
-title:
-- content: Progress in Measurements in Acoustics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 3 3 64
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Progress in Measurements in Acoustics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/3/003
+docidentifier:
+- content: Metrologia 3 3 64
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/3/003
+- content: 10.1088/0026-1394/3/3/003
   type: doi
 date:
 - type: published
-  value: '1967-07-01'
+  at: '1967-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G J Thiessen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Applied Physics Division, National Research Council, Ottawa, Ontario,
             Canada
-  role:
-  - type: author
-revdate: '1967-07-01'
 abstract:
-- content: "<p>Although the speed of sound in air was measured with reasonable accuracy
+- language: en
+  script:
+  - Latn
+  content: "<p>Although the speed of sound in air was measured with reasonable accuracy
     about the middle of the 17th century, intensity measurements did not properly
     begin until Rayleigh, in 1882, published his experiments with what came to be
     called the Rayleigh disc. The accuracy remained relatively low (about 10%) until
@@ -55,39 +51,31 @@ abstract:
     etc.), or even where a human subject is involved in only a passive role, the errors
     of measurement are still very great being of the order of 10<sup>-1</sup> or often
     greater.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Progress in Measurements in Acoustics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Progress in Measurements in Acoustics
     date:
     - type: ppub
-      value: '1967-07-01'
+      at: '1967-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '64'
     reference_to: '69'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

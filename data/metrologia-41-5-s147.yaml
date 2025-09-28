@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia415S147
-title:
-- content: Automated electric charge measurements of fluid microdrops using the Millikan
-    method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/5/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/5/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 5 S147
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automated electric charge measurements of fluid microdrops using the Millikan
+    method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/5/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/5/S05
+docidentifier:
+- content: Metrologia 41 5 S147
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/5/S05
+- content: 10.1088/0026-1394/41/5/S05
   type: doi
 date:
 - type: published
-  value: '2004-09-16'
+  at: '2004-09-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eric R Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Stanford Linear Accelerator Center, 2575 Sand Hill Road, Menlo
             Park, CA 94025, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Valerie Halyo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Stanford Linear Accelerator Center, 2575 Sand Hill Road, Menlo
             Park, CA 94025, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Irwin T Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Stanford Linear Accelerator Center, 2575 Sand Hill Road, Menlo
             Park, CA 94025, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martin L Perl
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Stanford Linear Accelerator Center, 2575 Sand Hill Road, Menlo
             Park, CA 94025, USA
-  role:
-  - type: author
-revdate: '2004-09-16'
 abstract:
-- content: "<p>Automated measurements of the electric charge of fluid microdrops precise
+- language: en
+  script:
+  - Latn
+  content: "<p>Automated measurements of the electric charge of fluid microdrops precise
     to up to 0.016 of an electron charge have been made using machine-vision systems
     to observe the motion of fluid microdrops in air under the influence of an oscillating
     electric field. The fluid drop diameters have ranged from 7 µm to 25 µm with smaller
@@ -96,55 +86,44 @@ abstract:
     particles have measured the charges of tens of millions of fluid microdrops using
     piezoelectrically driven drop-on-demand inkjet-like droplet ejectors as fluid
     drop sources.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automated electric charge measurements of fluid microdrops using the
+    - language: en
+      script: Latn
+      content: Automated electric charge measurements of fluid microdrops using the
         Millikan method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-09-16'
+      at: '2004-09-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automated electric charge measurements of fluid microdrops using the
+    - language: en
+      script: Latn
+      content: Automated electric charge measurements of fluid microdrops using the
         Millikan method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-10-01'
+      at: '2004-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -155,6 +134,6 @@ extent:
     reference_from: S147
     reference_to: S158
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

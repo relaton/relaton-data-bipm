@@ -1,67 +1,63 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433287
-title:
-- content: A methodology for obtaining on-orbit SI-traceable spectral radiance measurements
-    in the thermal infrared
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 287
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A methodology for obtaining on-orbit SI-traceable spectral radiance measurements
+    in the thermal infrared
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/011
+docidentifier:
+- content: Metrologia 43 3 287
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/011
+- content: 10.1088/0026-1394/43/3/011
   type: doi
 date:
 - type: published
-  value: '2006-05-30'
+  at: '2006-05-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John A Dykema
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Engineering and Applied Sciences, Harvard University,
             12 Oxford Street, Cambridge, MA 02138, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James G Anderson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Engineering and Applied Sciences, Harvard University,
             12 Oxford Street, Cambridge, MA 02138, USA
-  role:
-  - type: author
-revdate: '2006-05-30'
 abstract:
-- content: "<p>A methodology to achieve spectral thermal radiance measurements from
+- language: en
+  script:
+  - Latn
+  content: "<p>A methodology to achieve spectral thermal radiance measurements from
     space with demonstrable on-orbit traceability to the International System of Units
     (SI) is described. This technique results in measurements of infrared spectral
-    radiance, with spectral index \n in cm<sup>−1</sup>, with a relative combined
-    uncertainty \n of 0.0015 (k = 1) for the average mid-infrared radiance emitted
+    radiance \n<inline-graphic xlink:href=\"metro223087in001.gif\"></inline-graphic>,
+    with spectral index \n<inline-graphic xlink:href=\"metro223087in002.gif\"></inline-graphic>
+    in cm<sup>−1</sup>, with a relative combined uncertainty \n<inline-graphic xlink:href=\"metro223087in003.gif\"></inline-graphic>
+    of 0.0015 (<italic>k</italic> = 1) for the average mid-infrared radiance emitted
     by the Earth. This combined uncertainty, expressed in brightness temperature units,
     is equivalent to ±0.1 K at 250 K at 750 cm<sup>−1</sup>. This measurement goal
     is achieved by utilizing a new method for infrared scale realization combined
@@ -81,55 +77,44 @@ abstract:
     under development for deployment on a small satellite. The measurement record
     resulting from the methodology described here meets the observational requirements
     for climate monitoring and climate model testing and improvement.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A methodology for obtaining on-orbit SI-traceable spectral radiance
+    - language: en
+      script: Latn
+      content: A methodology for obtaining on-orbit SI-traceable spectral radiance
         measurements in the thermal infrared
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-05-30'
+      at: '2006-05-30'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A methodology for obtaining on-orbit SI-traceable spectral radiance
+    - language: en
+      script: Latn
+      content: A methodology for obtaining on-orbit SI-traceable spectral radiance
         measurements in the thermal infrared
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +125,6 @@ extent:
     reference_from: '287'
     reference_to: '293'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

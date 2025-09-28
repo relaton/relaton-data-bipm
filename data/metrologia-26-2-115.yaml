@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia262115
-title:
-- content: The Effective Measurement Height of Free-fall Absolute Gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Effective Measurement Height of Free-fall Absolute Gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/005
+docidentifier:
+- content: Metrologia 26 2 115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/005
+- content: 10.1088/0026-1394/26/2/005
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M Niebauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,11 +37,11 @@ contributor:
     - organization:
         name:
         - content: Max Planck Institut für Quantenoptik, D-8046 Garching, FRG
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>A general technique for estimating the effect of modelling errors on
+- language: en
+  script:
+  - Latn
+  content: "<p>A general technique for estimating the effect of modelling errors on
     linear least-squares problems is discussed and applied to the specific example
     of determining the systematic effect of the vertical gravity gradient on free-fall
     absolute gravity measurements. The effective measurement height of an absolute
@@ -54,39 +50,31 @@ abstract:
     initial velocity. The true measurement height is also sensitive to the number
     of points used and the distribution of the points selected for the least-squares
     solution.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Effective Measurement Height of Free-fall Absolute Gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Effective Measurement Height of Free-fall Absolute Gravimeters
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '115'
     reference_to: '118'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

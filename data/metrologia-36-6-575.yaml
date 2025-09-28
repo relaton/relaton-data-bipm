@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366575
-title:
-- content: Feasibility of directly measuring piston-cylinder distortion
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/18
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/18
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 575
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Feasibility of directly measuring piston-cylinder distortion
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/18
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/18
+docidentifier:
+- content: Metrologia 36 6 575
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/18
+- content: 10.1088/0026-1394/36/6/18
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Idowu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: <p>Piston-cylinder pressure balances are widely used as pressure standards.
+- language: en
+  script:
+  - Latn
+  content: <p>Piston-cylinder pressure balances are widely used as pressure standards.
     Under pressure the clearance between the piston and cylinder increases by an amount
     that varies along the piston-cylinder engagement length. Recently, finite element
     techniques have been specifically tailored to model this piston-cylinder distortion
@@ -50,45 +46,37 @@ abstract:
     study a number of novel ways are considered in which the distortion (or lateral
     displacement) of piston-cylinders might be measured as they are pressurized. For
     such data to be of value in refining and confirming the validity of finite element
-    models, an uncertainty of about 4 nm (k = 2) is required in the physical measurement
-    of the piston-cylinder distortion. Techniques considered range from discrete sensing
-    of changes in the piston-cylinder gap, such as embedded capacitive, inductive
-    or fibre-guided interferometric probes, to full-field sensing such as optical
-    interferometry, X-ray or optical thin-film measurements and frustrated total internal
-    reflection.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    models, an uncertainty of about 4 nm (<italic>k</italic> = 2) is required in the
+    physical measurement of the piston-cylinder distortion. Techniques considered
+    range from discrete sensing of changes in the piston-cylinder gap, such as embedded
+    capacitive, inductive or fibre-guided interferometric probes, to full-field sensing
+    such as optical interferometry, X-ray or optical thin-film measurements and frustrated
+    total internal reflection.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Feasibility of directly measuring piston-cylinder distortion
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Feasibility of directly measuring piston-cylinder distortion
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -99,6 +87,6 @@ extent:
     reference_from: '575'
     reference_to: '578'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

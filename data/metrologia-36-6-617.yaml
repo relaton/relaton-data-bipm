@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366617
-title:
-- content: Measurement performance of high-accuracy low-pressure transducers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/26
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/26
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 617
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement performance of high-accuracy low-pressure transducers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/26
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/26
+docidentifier:
+- content: Metrologia 36 6 617
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/26
+- content: 10.1088/0026-1394/36/6/26
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A P Miiller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>A systematic study of measurement performance is described for several
+- language: en
+  script:
+  - Latn
+  content: "<p>A systematic study of measurement performance is described for several
     different types of transducer including capacitance diaphragm gauges (CDGs), quartz
     Bourdon gauges (QBGs), quartz resonant gauges (QRGs), and two types of MEMS (MicroElectroMechanical
     Systems) sensors - piezoresistive silicon gauges (PSGs) and resonant silicon gauges
@@ -54,39 +50,31 @@ abstract:
     RSGs have the best long-term stability, with average calibration shifts of the
     order of 1 part in 10<sup>4</sup> per year, one to two orders of magnitude smaller
     than those observed for CDGs.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement performance of high-accuracy low-pressure transducers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Measurement performance of high-accuracy low-pressure transducers
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '617'
     reference_to: '621'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

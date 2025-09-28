@@ -1,191 +1,153 @@
 ---
-schema-version: v1.2.9
-id: Metrologia515503
-title:
-- content: 'Time transfer by laser link (T2L2): characterization and calibration of
-    the flight instrument'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/5/503
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/5/503
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 5 503
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Time transfer by laser link (T2L2): characterization and calibration of
+    the flight instrument'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/5/503
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/5/503
+docidentifier:
+- content: Metrologia 51 5 503
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/5/503
+- content: 10.1088/0026-1394/51/5/503
   type: doi
 date:
 - type: published
-  value: '2014-08-19'
+  at: '2014-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Samain
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 2130 route de l'Observatoire, 06460 Caussols, France
         name:
         - content: GeoAzur—Observatoire de la Côte d'Azur
-        contact:
-        - address:
-            formatted_address: 2130 route de l'Observatoire, 06460 Caussols, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Vrancken
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oberpfaffenhofen, 82234 Weßling, Germany
         name:
         - content: DLR—German Aerospace Center
-        contact:
-        - address:
-            formatted_address: Oberpfaffenhofen, 82234 Weßling, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Guillemot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 18 av Edouard Belin, 31400 Toulouse, France
         name:
         - content: CNES—French Space Agency
-        contact:
-        - address:
-            formatted_address: 18 av Edouard Belin, 31400 Toulouse, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Fridelance
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 8 Allée Bellevue, Saint Vallier de Thiey, France
         name:
         - content: Phusipus Intégration
-        contact:
-        - address:
-            formatted_address: 8 Allée Bellevue, Saint Vallier de Thiey, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Exertier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 2130 route de l'Observatoire, 06460 Caussols, France
         name:
         - content: GeoAzur—Observatoire de la Côte d'Azur
-        contact:
-        - address:
-            formatted_address: 2130 route de l'Observatoire, 06460 Caussols, France
-  role:
-  - type: author
-revdate: '2014-08-19'
 abstract:
-- content: Abstract<p>The T2L2 project (time transfer by laser link) allows for the
-    synchronization of remote ultra-stable clocks over intercontinental distances
-    (Fridelance et al 1997 Exp. Astron. 7, Samain and Fridelance 1998 Metrologia 35
-    151–9). The principle is derived from satellite laser ranging technology with
-    dedicated space equipment designed to record arrival times of laser pulses at
-    the satellite. The space segment has been launched in June 2008 as a passenger
-    experiment on the ocean altimetry satellite Jason 2. T2L2 had been specified to
-    yield a time stability of better than 1 ps over 1000 s integration time and an
-    accuracy of better than 100 ps. This level of performance requires a rigorous
-    data processing which can be performed only with a comprehensive calibration model
-    of the whole instrumentation. For this purpose, several experimental measurements
-    have been performed before and during the integration phase of the T2L2 space
-    instrument. This instrument model is one of the cornerstones of the data reduction
-    process which is carried out to translate the raw information to a usable picosecond
-    time transfer. After providing a global synopsis of the T2L2 space instrument,
-    the paper gives a description of the experimental setup for the instrument characterization.
-    It then details the different contributions within the calibration model and concludes
-    with an applied example of a space to ground time transfer.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The T2L2 project (time transfer by laser link) allows for the synchronization of remote ultra-stable clocks over intercontinental distances (Fridelance <italic>et al</italic> 1997 <italic>Exp. Astron.</italic> <bold>7</bold>, Samain and Fridelance 1998 <italic>Metrologia</italic> <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/0026-1394/35/3/3" xlink:type="simple"><bold>35</bold> 151–9</ext-link>). The principle is derived from satellite laser ranging technology with dedicated space equipment designed to record arrival times of laser pulses at the satellite. The space segment has been launched in June 2008 as a passenger experiment on the ocean altimetry satellite Jason 2. T2L2 had been specified to yield a time stability of better than 1 ps over 1000 s integration time and an accuracy of better than 100 ps. This level of performance requires a rigorous data processing which can be performed only with a comprehensive calibration model of the whole instrumentation. For this purpose, several experimental measurements have been performed before and during the integration phase of the T2L2 space instrument. This instrument model is one of the cornerstones of the data reduction process which is carried out to translate the raw information to a usable picosecond time transfer. After providing a global synopsis of the T2L2 space instrument, the paper gives a description of the experimental setup for the instrument characterization. It then details the different contributions within the calibration model and concludes with an applied example of a space to ground time transfer.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Time transfer by laser link (T2L2): characterization and calibration
+    - script: Latn
+      content: 'Time transfer by laser link (T2L2): characterization and calibration
         of the flight instrument'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-10-01'
+      at: '2014-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Time transfer by laser link (T2L2): characterization and calibration
+    - script: Latn
+      content: 'Time transfer by laser link (T2L2): characterization and calibration
         of the flight instrument'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-08-19'
+      at: '2014-08-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Time transfer by laser link (T2L2): characterization and calibration
+    - script: Latn
+      content: 'Time transfer by laser link (T2L2): characterization and calibration
         of the flight instrument'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2014-08-19'
+      at: '2014-08-19'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -196,6 +158,6 @@ extent:
     reference_from: '503'
     reference_to: '515'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

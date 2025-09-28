@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia12281
-title:
-- content: Is the Present Realization of the Absolute Ampere in Error?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 2 81
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Is the Present Realization of the Absolute Ampere in Error?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/2/007
+docidentifier:
+- content: Metrologia 12 2 81
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/2/007
+- content: 10.1088/0026-1394/12/2/007
   type: doi
 date:
 - type: published
-  value: '1976-04-01'
+  at: '1976-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B N Taylor
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electricity Division, National Bureau of Standards, Washington,
             DC 20234, USA
-  role:
-  - type: author
-revdate: '1976-04-01'
 abstract:
-- content: "<p>Using the results of recent experimental determinations of several
+- language: en
+  script:
+  - Latn
+  content: "<p>Using the results of recent experimental determinations of several
     different fundamental physical constants, highly accurate, indirect values for
     the ratio of the as-maintained ampere to absolute ampere may be obtained. A comparison
     of these indirect values with the results of direct determinations based on force
     balances and with the presently accepted best value indicates that both of the
     latter may be in error.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Is the Present Realization of the Absolute Ampere in Error?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Is the Present Realization of the Absolute Ampere in Error?
     date:
     - type: ppub
-      value: '1976-04-01'
+      at: '1976-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '81'
     reference_to: '83'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

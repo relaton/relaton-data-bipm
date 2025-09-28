@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia25129
-title:
-- content: The NPL Radiometric Realization of the Candela
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 1 29
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The NPL Radiometric Realization of the Candela
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/1/006
+docidentifier:
+- content: Metrologia 25 1 29
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/1/006
+- content: 10.1088/0026-1394/25/1/006
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M Goodman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P J Key
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>A radiometric realization of the S.I. base unit of photometry, the
+- language: en
+  script:
+  - Latn
+  content: "<p>A radiometric realization of the S.I. base unit of photometry, the
     candela, as performed at the National Physical Laboratory, is described and the
     results compared with the scale established at NPL in 1937 and disseminated since
     1948. The realization has been carried out in accordance with the radiometrically
@@ -66,39 +60,31 @@ abstract:
     of the siliconphotodiode photometers developed for this project is demonstrated,
     together with characteristics of the two types of lamp employed for preserving
     the results of the realization and methods for improving their alignment and reproducibility.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The NPL Radiometric Realization of the Candela
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The NPL Radiometric Realization of the Candela
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '29'
     reference_to: '40'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,125 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia594045011
-title:
-- content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
-    of triple-point-of-water cells
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac7bc1
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac7bc1
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 4 045011
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
+    of triple-point-of-water cells
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac7bc1
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac7bc1
+docidentifier:
+- content: Metrologia 59 4 045011
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac7bc1
+- content: 10.1088/1681-7575/ac7bc1
   type: doi
 date:
 - type: published
-  value: '2022-07-15'
+  at: '2022-07-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Peruzzi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Canada
         name:
         - content: National Research Council of Canada
         subdivision:
-        - content: Metrology Research Center
-        contact:
-        - address:
-            formatted_address: Ottawa, Canada
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Center
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sergey Dedyulin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Canada
         name:
         - content: National Research Council of Canada
         subdivision:
-        - content: Metrology Research Center
-        contact:
-        - address:
-            formatted_address: Ottawa, Canada
-  role:
-  - type: author
-revdate: '2022-07-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Center
 abstract:
-- content: 'Abstract<p>This paper describes the NRC measurement set-up and the preparatory
-    work for the CCT-K7.2021 key comparison (KC) of triple-point-of-water (TPW) cells.
-    The preparatory work at NRC (charged with piloting the KC) included a comprehensive
-    testing of the measurement set-up, the definition of the new NRC national standard
-    for the TPW temperature, and the evaluation of the uncertainty budgets relevant
-    for this KC. The new NRC TPW national standard is composed of an ensemble of ten
-    fused silica TPW cells, characterized in both their isotopic composition and impurity
-    content. Three uncertainty budgets were evaluated, corresponding to three different
-    cases involved in the measurements at the pilot laboratory: (a) the temperature
-    difference between two TPW cells, which amounted to 26 μK (k = 2), (b) the temperature
-    difference between a TPW cell and NRC national reference, which amounted to 35
-    μK (k = 2) and (c) the temperature difference between a comparison participant’s
-    transfer cell and the comparison reference, composed of the average of two NRC
-    national reference cells, which amounted to 19 μK (k = 2).</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper describes the NRC measurement set-up and the preparatory work for the CCT-K7.2021 key comparison (KC) of triple-point-of-water (TPW) cells. The preparatory work at NRC (charged with piloting the KC) included a comprehensive testing of the measurement set-up, the definition of the new NRC national standard for the TPW temperature, and the evaluation of the uncertainty budgets relevant for this KC. The new NRC TPW national standard is composed of an ensemble of ten fused silica TPW cells, characterized in both their isotopic composition and impurity content. Three uncertainty budgets were evaluated, corresponding to three different cases involved in the measurements at the pilot laboratory: (a) the temperature difference between two TPW cells, which amounted to 26 μK (<italic toggle="yes">k</italic> = 2), (b) the temperature difference between a TPW cell and NRC national reference, which amounted to 35 μK (<italic toggle="yes">k</italic> = 2) and (c) the temperature difference between a comparison participant’s transfer cell and the comparison reference, composed of the average of two NRC national reference cells, which amounted to 19 μK (<italic toggle="yes">k</italic> = 2).</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
+    - script: Latn
+      content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
         of triple-point-of-water cells
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-08-01'
+      at: '2022-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
+    - script: Latn
+      content: NRC measurement set-up and preparatory work for CCT-K7.2021 key comparison
         of triple-point-of-water cells
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-07-15'
+      at: '2022-07-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +107,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

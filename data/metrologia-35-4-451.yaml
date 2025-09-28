@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354451
-title:
-- content: Nonlinearity of the quantum efficiency of Si reflection trap detectors
-    at 633 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/41
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/41
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 451
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Nonlinearity of the quantum efficiency of Si reflection trap detectors
+    at 633 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/41
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/41
+docidentifier:
+- content: Metrologia 35 4 451
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/41
+- content: 10.1088/0026-1394/35/4/41
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, VNIIOFI, SP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Morozova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, VNIIOFI, SP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Liedquist
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, VNIIOFI, SP
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, VNIIOFI, SP
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>Trap detectors are useful transfer standards well-suited to modern
+- language: en
+  script:
+  - Latn
+  content: "<p>Trap detectors are useful transfer standards well-suited to modern
     absolute radiometry. A potential problem with them is that cryogenic radiometers
     allow only small-diameter laser beams to enter the absorber cavity. This can significantly
     increase nonlinearity effects of the trap detectors even at radiant power levels
@@ -92,40 +82,32 @@ abstract:
     available QED100 and QED200, and constructed traps using Hamamatsu S1227-1010BN
     and S1337-1010BN photodiodes. The quantum efficiency was investigated as a function
     of radiant power as well as of the bias voltage and beam diameter.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nonlinearity of the quantum efficiency of Si reflection trap detectors
+    - language: en
+      script: Latn
+      content: Nonlinearity of the quantum efficiency of Si reflection trap detectors
         at 633 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +118,6 @@ extent:
     reference_from: '451'
     reference_to: '454'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

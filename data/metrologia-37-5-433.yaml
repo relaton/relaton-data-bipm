@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375433
-title:
-- content: An electrically substituted bolometer as a transfer-standard detector
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 433
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An electrically substituted bolometer as a transfer-standard detector
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/19
+docidentifier:
+- content: Metrologia 37 5 433
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/19
+- content: 10.1088/0026-1394/37/5/19
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Rice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>An electrically substituted bolometer (ESB) has been developed at the
+- language: en
+  script:
+  - Latn
+  content: "<p>An electrically substituted bolometer (ESB) has been developed at the
     National Institute of Standards and Technology (NIST) to serve as a portable transfer-standard
     detector over the wavelength range 200 nm to 20 µm. The ESB is designed to provide
     a direct transfer of the optical power scale from the NIST High Accuracy Cryogenic
@@ -57,39 +53,31 @@ abstract:
     the HACR. Because of its low noise, linearity over a wide dynamic range, and the
     spectral and spatial flatness of its response, the ESB is finding other applications
     beyond that which motivated its development.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An electrically substituted bolometer as a transfer-standard detector
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An electrically substituted bolometer as a transfer-standard detector
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: '433'
     reference_to: '436'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia405249
-title:
-- content: Titrimetry at a metrological level
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/5/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/5/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 5 249
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Titrimetry at a metrological level
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/5/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/5/006
+docidentifier:
+- content: Metrologia 40 5 249
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/5/006
+- content: 10.1088/0026-1394/40/5/006
   type: doi
 date:
 - type: published
-  value: '2003-09-11'
+  at: '2003-09-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Helene Felber
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Swiss Federal Laboratories for Materials Testing and Research (EMPA),
             Lerchenfeldstrasse 5, CH-9014 St Gallen, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sergio Rezzonico
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Swiss Federal Laboratories for Materials Testing and Research (EMPA),
             Lerchenfeldstrasse 5, CH-9014 St Gallen, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michal Máriássy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Slovak Institute of Metrology (SMÚ), Karloveska 63, SK-84255 Bratislava,
             Slovakia
-  role:
-  - type: author
-revdate: '2003-09-11'
 abstract:
-- content: "<p>In the 1990s the CCQM (Comité consultatif pour la quantité de la matière)
+- language: en
+  script:
+  - Latn
+  content: "<p>In the 1990s the CCQM (Comité consultatif pour la quantité de la matière)
     defined the term ‘primary method’. It also identified some methods that are considered
     to be primary. One of these methods is titrimetry. In this paper, the principle
     of titrimetry and two practical examples performed at the highest metrological
@@ -79,53 +71,42 @@ abstract:
     titrimetry is a very powerful method leading to highly accurate results when performed
     correctly, and does not depend on whether the classical metrological approach
     or a new experimental design using modern laboratory technology is applied.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Titrimetry at a metrological level
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Titrimetry at a metrological level
     date:
     - type: epub
-      value: '2003-09-11'
+      at: '2003-09-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Titrimetry at a metrological level
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Titrimetry at a metrological level
     date:
     - type: ppub
-      value: '2003-10-01'
+      at: '2003-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +117,6 @@ extent:
     reference_from: '249'
     reference_to: '254'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia4278
-title:
-- content: International Comparison of Standards of Mutual Inductance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/4/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/4/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 4 2 78
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International Comparison of Standards of Mutual Inductance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/4/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/4/2/004
+docidentifier:
+- content: Metrologia 4 2 78
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/4/2/004
+- content: 10.1088/0026-1394/4/2/004
   type: doi
 date:
 - type: published
-  value: '1968-04-01'
+  at: '1968-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A F Dunn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G H Rayner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Electrical Science, National Physical Laboratory, Teddington,
             UK
-  role:
-  - type: author
-revdate: '1968-04-01'
 abstract:
-- content: <p>The National Research Council (Canada) and the National Physical Laboratory
+- language: en
+  script:
+  - Latn
+  content: <p>The National Research Council (Canada) and the National Physical Laboratory
     (UK) have each obtained the units of reactance and resistance from the metre and
     second by the use of similar Campbell standards of mutual inductance. A direct
     comparison of the units of inductance derived in the two laboratories has been
@@ -67,39 +61,31 @@ abstract:
     the trend today in national laboratories is to substitute calculated capacitance
     for calculated inductance as the primary basis for the units of reactance and
     resistance.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1968'
+- from: '1968'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International Comparison of Standards of Mutual Inductance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International Comparison of Standards of Mutual Inductance
     date:
     - type: ppub
-      value: '1968-04-01'
+      at: '1968-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '78'
     reference_to: '80'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

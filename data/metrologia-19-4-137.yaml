@@ -1,109 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia194137
-title:
-- content: Investigation of a Hydrostatic Weighing Method for a 1 kg Mass Comparator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 4 137
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Investigation of a Hydrostatic Weighing Method for a 1 kg Mass Comparator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/4/002
+docidentifier:
+- content: Metrologia 19 4 137
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/4/002
+- content: 10.1088/0026-1394/19/4/002
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Probst
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-3300
             Braunschweig, Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Kochsiek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-3300
             Braunschweig, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>A mass comparator for the comparison of 1 kg weights was built according
-    to a hydrostatic weighing principle, where the buoyancy in a liquid serves to
-    compensate the force due to gravity. In accordance with the method known for hydrometers
-    or areometers, the immersion depth of a float is measured as a function of the
-    force due to gravity, using a laser interferometer. The substitution principle
-    can thus be quite simply realized at constant load.</p><p>An essential advantage
-    of this weighing method compared with the mechanical beam balance results from
-    the frictionless and vibration-resistant bearing of the float in the liquid. For
-    achieving a high accuracy with this technique, two prerequisites were important:
-    the reduction of the influence of temperature by adapting the coefficients of
-    expansion of buoyant body and liquid to each other, and the improvement of the
-    wetting property of the liquid by adding a surfactant. The accuracy was further
-    improved by the use of an electromagnetic feedback control to keep the immersion
-    depth constant. By this method, a relative standard deviation of the weighings
-    of better than 5 × 10<sup>-9</sup> could be achieved.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A mass comparator for the comparison of 1 kg weights was built according to a hydrostatic weighing principle, where the buoyancy in a liquid serves to compensate the force due to gravity. In accordance with the method known for hydrometers or areometers, the immersion depth of a float is measured as a function of the force due to gravity, using a laser interferometer. The substitution principle can thus be quite simply realized at constant load.</p>
+    <p>An essential advantage of this weighing method compared with the mechanical beam balance results from the frictionless and vibration-resistant bearing of the float in the liquid. For achieving a high accuracy with this technique, two prerequisites were important: the reduction of the influence of temperature by adapting the coefficients of expansion of buoyant body and liquid to each other, and the improvement of the wetting property of the liquid by adding a surfactant. The accuracy was further improved by the use of an electromagnetic feedback control to keep the immersion depth constant. By this method, a relative standard deviation of the weighings of better than 5 × 10<sup>-9</sup> could be achieved.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Investigation of a Hydrostatic Weighing Method for a 1 kg Mass Comparator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Investigation of a Hydrostatic Weighing Method for a 1 kg Mass Comparator
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +88,6 @@ extent:
     reference_from: '137'
     reference_to: '146'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

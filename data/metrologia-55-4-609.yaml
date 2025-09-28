@@ -1,102 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia554609
-title:
-- content: 'Dynamic phase shift within a falling glass cube is negligible: comment
-    on ‘Relativistic theory of the falling retroreflector gravimeter’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aac442
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aac442
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 4 609
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Dynamic phase shift within a falling glass cube is negligible: comment
+    on ‘Relativistic theory of the falling retroreflector gravimeter’'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aac442
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aac442
+docidentifier:
+- content: Metrologia 55 4 609
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aac442
+- content: 10.1088/1681-7575/aac442
   type: doi
 date:
 - type: published
-  value: '2018-07-20'
+  at: '2018-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sergiy Svitlov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Schneiderberg 50, 30167 Hanover, Germany
         name:
         - content: Leibniz Universität Hannover
         subdivision:
-        - content: Institute of Geodesy
-        contact:
-        - address:
-            formatted_address: Schneiderberg 50, 30167 Hanover, Germany
-  role:
-  - type: author
-revdate: '2018-07-20'
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Geodesy
 abstract:
-- content: Abstract<p>A recent paper (Ashby 2018 Metrologia 55 1) provides a rigorous
-    relativistic treatment of the laser interferometer with a free-falling cube retroreflector.
-    When considering the phase shift due to the light propagation within the glass
-    cube, the associated effect was found to be 6.8 µGal. The constant phase shift
-    was misinterpreted in the data analysis, producing a pseudo effect. We show that
-    the time-dependent phase shift within the glass cube causes a negligible bias
-    of the computed gravity acceleration and analyze the misconceptions that afforded
-    a different conclusion.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A recent paper (Ashby 2018 <italic>Metrologia</italic> <bold>55</bold> 1) provides a rigorous relativistic treatment of the laser interferometer with a free-falling cube retroreflector. When considering the phase shift due to the light propagation within the glass cube, the associated effect was found to be 6.8 µGal. The constant phase shift was misinterpreted in the data analysis, producing a pseudo effect. We show that the time-dependent phase shift within the glass cube causes a negligible bias of the computed gravity acceleration and analyze the misconceptions that afforded a different conclusion.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Dynamic phase shift within a falling glass cube is negligible: comment
+    - script: Latn
+      content: 'Dynamic phase shift within a falling glass cube is negligible: comment
         on ‘Relativistic theory of the falling retroreflector gravimeter’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-08-01'
+      at: '2018-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Dynamic phase shift within a falling glass cube is negligible: comment
+    - script: Latn
+      content: 'Dynamic phase shift within a falling glass cube is negligible: comment
         on ‘Relativistic theory of the falling retroreflector gravimeter’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-07-20'
+      at: '2018-07-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +96,6 @@ extent:
     reference_from: '609'
     reference_to: '613'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

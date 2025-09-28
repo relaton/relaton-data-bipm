@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: CCQM-REC-2006-01
-title:
-- content: On metrology in chemistry and biotechnology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Métrologie en chimie et en biotechnologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccqm/12-2006/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccqm/12-2006/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-12.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-12.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071059/CCQM12.pdf/408fc903-1e11-df6c-c363-9375b75418d0
-  type: pdf
 type: proceedings
-docid:
-- id: CCQM REC 1 (2006)
-  type: BIPM
-  primary: true
-- id: CCQM REC 1 (2006, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCQM REC 1 (2006, F)
+  content: On metrology in chemistry and biotechnology
+- language: fr
+  script: Latn
+  content: Métrologie en chimie et en biotechnologie
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccqm/12-2006/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccqm/12-2006/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-12.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-12.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071059/CCQM12.pdf/408fc903-1e11-df6c-c363-9375b75418d0
+docidentifier:
+- content: CCQM REC 1 (2006)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCQM Recommendation 1 (2006)
+  content: CCQM REC 1 (2006, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCQM REC 1 (2006, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCQM Recommendation 1 (2006)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 1 du CCQM (2006)
+  content: Recommandation 1 du CCQM (2006)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCQM Recommendation 1 (2006) / Recommandation 1 du CCQM (2006)
+- content: CCQM Recommendation 1 (2006) / Recommandation 1 du CCQM (2006)
   type: BIPM-long
 docnumber: CCQM REC 1 (2006)
 date:
 - type: published
-  value: '2006-04-07'
+  at: '2006-04-07'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2006-04-07'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -94,8 +79,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '1'

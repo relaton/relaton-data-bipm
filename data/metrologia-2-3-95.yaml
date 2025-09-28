@@ -1,136 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2395
-title:
-- content: Use of a Laser for Length Measurement by Fringe Counting
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 3 95
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Use of a Laser for Length Measurement by Fringe Counting
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/3/001
+docidentifier:
+- content: Metrologia 2 3 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/3/001
+- content: 10.1088/0026-1394/2/3/001
   type: doi
 date:
 - type: published
-  value: '1966-07-01'
+  at: '1966-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K E Gillilland
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Institute for Basic Standards, Washington,
             DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H D Cook
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Institute for Basic Standards, Washington,
             DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Mielenz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Institute for Basic Standards, Washington,
             DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Stephens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Institute for Basic Standards, Washington,
             DC, USA
-  role:
-  - type: author
-revdate: '1966-07-01'
 abstract:
-- content: "<p>The use of a He-Ne laser as a light source improved the precision of
-    an automatic fringe counting interferometer which previously used a Hg<sup>198</sup>
-    source and extended its usefulness to the full one-meter limit of its carriage
-    travel.</p><p>The laser wavelength was first determined by comparison of the fringes
-    counted over a 91-mm length with both the laser and a Hg<sup>198</sup> source
-    of known wavelength.</p><p>A one-meter line standard was calibrated by counting
-    laser fringes. All measured decimeter interval lengths agreed with the assigned
-    values within the mutual limits of uncertainty, the largest discrepancy being
-    less than 0.5 μm.</p><p>The result obtained for the total length of the line standard
-    agreed with the assigned length of the line standard to 7 parts in 10<sup>8</sup>.</p><p>The
-    laser-illuminated fringe-counting interferometer is now in routine calibration
-    service.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The use of a He-Ne laser as a light source improved the precision of an automatic fringe counting interferometer which previously used a Hg<sup>198</sup> source and extended its usefulness to the full one-meter limit of its carriage travel.</p>
+    <p>The laser wavelength was first determined by comparison of the fringes counted over a 91-mm length with both the laser and a Hg<sup>198</sup> source of known wavelength.</p>
+    <p>A one-meter line standard was calibrated by counting laser fringes. All measured decimeter interval lengths agreed with the assigned values within the mutual limits of uncertainty, the largest discrepancy being less than 0.5 μm.</p>
+    <p>The result obtained for the total length of the line standard agreed with the assigned length of the line standard to 7 parts in 10<sup>8</sup>.</p>
+    <p>The laser-illuminated fringe-counting interferometer is now in routine calibration service.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Use of a Laser for Length Measurement by Fringe Counting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Use of a Laser for Length Measurement by Fringe Counting
     date:
     - type: ppub
-      value: '1966-07-01'
+      at: '1966-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +117,6 @@ extent:
     reference_from: '95'
     reference_to: '98'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

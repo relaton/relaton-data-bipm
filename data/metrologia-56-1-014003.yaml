@@ -1,189 +1,178 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561014003
-title:
-- content: Real-time state estimation and feedback control of an oscillating qubit
-    via self-fulfilling prophecy (SFP)
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf7ad
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf7ad
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 014003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Real-time state estimation and feedback control of an oscillating qubit
+    via <italic>self-fulfilling prophecy</italic> (SFP)
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf7ad
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf7ad
+docidentifier:
+- content: Metrologia 56 1 014003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf7ad
+- content: 10.1088/1681-7575/aaf7ad
   type: doi
 date:
 - type: published
-  value: '2019-01-18'
+  at: '2019-01-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pieter J W du Toit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pretoria, South Africa
         name:
         - content: University of Pretoria
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Pretoria, South Africa
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
     - organization:
+        address:
+        - formatted_address: Pretoria, South Africa
         name:
         - content: National Metrology Institute of South Africa
-        contact:
-        - address:
-            formatted_address: Pretoria, South Africa
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shaun C Burd
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO, United States of America
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Ion Storage Group
-        contact:
-        - address:
-            formatted_address: Boulder, CO, United States of America
+        - name:
+          - language: en
+            script: Latn
+            content: Ion Storage Group
     - organization:
+        address:
+        - formatted_address: Boulder, CO, United States of America
         name:
         - content: University of Colorado Boulder
-        contact:
-        - address:
-            formatted_address: Boulder, CO, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas Konrad
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Durban, South Africa
         name:
         - content: University of Kwa-Zulu Natal
         subdivision:
-        - content: School of Physics
-        contact:
-        - address:
-            formatted_address: Durban, South Africa
+        - name:
+          - language: en
+            script: Latn
+            content: School of Physics
     - organization:
+        address:
+        - formatted_address: Durban, South Africa
         name:
         - content: University of KwaZulu-Natal Node
         subdivision:
-        - content: National Institute of Theoretical Physics
-        contact:
-        - address:
-            formatted_address: Durban, South Africa
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: National Institute of Theoretical Physics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hermann Uys
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pretoria, South Africa
         name:
         - content: Council for Scientific and Industrial Research
         subdivision:
-        - content: National Laser Centre
-        contact:
-        - address:
-            formatted_address: Pretoria, South Africa
+        - name:
+          - language: en
+            script: Latn
+            content: National Laser Centre
     - organization:
+        address:
+        - formatted_address: Stellenbosch, South Africa
         name:
         - content: Stellenbosch University
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Stellenbosch, South Africa
-  role:
-  - type: author
-revdate: '2019-01-18'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 abstract:
-- content: Abstract<p>We present protocols for feedback control and stabilization
-    of a single qubit undergoing Rabi oscillations. Using a hybrid quantum-classical
-    Bayesian estimation technique we simulate monitoring of the dynamical parameter
-    (Rabi frequency) of the governing Hamiltonian in real-time. We numerically demonstrate
-    feedback control of the system parameter using a classical proportional-integral
-    feedback control scheme and show that by implementing a unitary reversal of the
-    back-action of the weak measurement the loop response time is dramatically reduced.
-    This reversal is chosen by assuming the system is already executing the targeted
-    dynamics, an approach called self-fulfilling prophecy. In addition, self-fulfilling
-    prophecy reduces measurement induced noise, leading to stabilized dynamics.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We present protocols for feedback control and stabilization of a single qubit undergoing Rabi oscillations. Using a hybrid quantum-classical Bayesian estimation technique we simulate monitoring of the dynamical parameter (Rabi frequency) of the governing Hamiltonian in real-time. We numerically demonstrate feedback control of the system parameter using a classical proportional-integral feedback control scheme and show that by implementing a unitary reversal of the back-action of the weak measurement the loop response time is dramatically reduced. This reversal is chosen by assuming the system is already executing the targeted dynamics, an approach called <italic>self-fulfilling prophecy</italic>. In addition, <italic>self-fulfilling prophecy</italic> reduces measurement induced noise, leading to stabilized dynamics.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Real-time state estimation and feedback control of an oscillating qubit
-        via self-fulfilling prophecy (SFP)
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Real-time state estimation and feedback control of an oscillating qubit
+        via <italic>self-fulfilling prophecy</italic> (SFP)
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Real-time state estimation and feedback control of an oscillating qubit
-        via self-fulfilling prophecy (SFP)
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Real-time state estimation and feedback control of an oscillating qubit
+        via <italic>self-fulfilling prophecy</italic> (SFP)
     date:
     - type: epub
-      value: '2019-01-18'
+      at: '2019-01-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -191,6 +180,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

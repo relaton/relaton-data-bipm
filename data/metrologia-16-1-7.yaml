@@ -1,81 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1617
-title:
-- content: Temperature Dependence of the Hydrogen Maser Wall Shift in the Temperature
-    Range 295-395 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 1 7
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Temperature Dependence of the Hydrogen Maser Wall Shift in the Temperature
+    Range 295-395 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/1/003
+docidentifier:
+- content: Metrologia 16 1 7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/1/003
+- content: 10.1088/0026-1394/16/1/003
   type: doi
 date:
 - type: published
-  value: '1980-01-01'
+  at: '1980-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique, associe à l'Universite Paris-Sud,
             Equipe de Recherche du CNRS, Bat. 221, Universite Paris-Sud, 91405 Orsay,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Desaintfuscien
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique, associe à l'Universite Paris-Sud,
             Equipe de Recherche du CNRS, Bat. 221, Universite Paris-Sud, 91405 Orsay,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Audoin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire de l'Horloge Atomique, associe à l'Universite Paris-Sud,
             Equipe de Recherche du CNRS, Bat. 221, Universite Paris-Sud, 91405 Orsay,
             France
-  role:
-  - type: author
-revdate: '1980-01-01'
 abstract:
-- content: "<p>Possible ways to improve the hydrogen maser accuracy are stated. Use
+- language: en
+  script:
+  - Latn
+  content: "<p>Possible ways to improve the hydrogen maser accuracy are stated. Use
     of a special bulb, made of quartz, allowing simulation of two different mean diameters
     is proposed. It is experimentally proved that it allows one to achieve very good
     operating conditions in the temperature range 300-395 K. Measurement, with this
@@ -85,43 +77,35 @@ abstract:
     phase shift per collisions occurs at a temperature of 385 K. Good precision of
     wall shift measurements made with the special bulb, in the temperature range 300-360
     K allowed one to achieve an accuracy of 6 × 10<sup>-13</sup> and to determine
-    the unperturbed hydrogen hyperfine transition frequency f<sub>H</sub> with a precision
-    of 7 × 10<sup>-13</sup>. The result is f<sub>H</sub> = 1420405 751.773 ± 0.001
-    Hz.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    the unperturbed hydrogen hyperfine transition frequency <italic>f</italic><sub>H</sub>
+    with a precision of 7 × 10<sup>-13</sup>. The result is <italic>f</italic><sub>H</sub>
+    = 1420405 751.773 ± 0.001 Hz.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Temperature Dependence of the Hydrogen Maser Wall Shift in the Temperature
+    - language: en
+      script: Latn
+      content: Temperature Dependence of the Hydrogen Maser Wall Shift in the Temperature
         Range 295-395 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-01-01'
+      at: '1980-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +116,6 @@ extent:
     reference_from: '7'
     reference_to: '14'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

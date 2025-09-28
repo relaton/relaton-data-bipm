@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375559
-title:
-- content: Area correction in the calibration of detectors for ultraviolet radiation
-    measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/49
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/49
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 559
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Area correction in the calibration of detectors for ultraviolet radiation
+    measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/49
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/49
+docidentifier:
+- content: Metrologia 37 5 559
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/49
+- content: 10.1088/0026-1394/37/5/49
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Xu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: X Huang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The effects on the calibration uncertainties of industrial ultraviolet
+- language: en
+  script:
+  - Latn
+  content: "<p>The effects on the calibration uncertainties of industrial ultraviolet
     radiometers of spatial non-uniformity in the irradiance beam and detector response
     are studied both theoretically and experimentally. The results show that an error
     of a few parts in 10<sup>2</sup> or more could easily arise from the non-uniformity
@@ -77,40 +69,32 @@ abstract:
     head differs significantly from that of a standard meter head. This error can
     be removed effectively by an area-correction technique based on a charge-coupled-device
     (CCD) camera.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Area correction in the calibration of detectors for ultraviolet radiation
+    - language: en
+      script: Latn
+      content: Area correction in the calibration of detectors for ultraviolet radiation
         measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +105,6 @@ extent:
     reference_from: '559'
     reference_to: '562'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

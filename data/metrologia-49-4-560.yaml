@@ -1,133 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494560
-title:
-- content: Self-attraction effect and correction on three absolute gravimeters
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/560
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/560
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 560
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Self-attraction effect and correction on three absolute gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/560
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/560
+docidentifier:
+- content: Metrologia 49 4 560
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/560
+- content: 10.1088/0026-1394/49/4/560
   type: doi
 date:
 - type: published
-  value: '2012-07-05'
+  at: '2012-07-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Biolcati
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica INRIM
-        contact:
-        - address:
-            formatted_address: Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Svitlov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Erlangen, Germany
         name:
         - content: University of Erlangen-Nuremberg
         subdivision:
-        - content: Institute of Optics, Information and Photonics
-        contact:
-        - address:
-            formatted_address: Erlangen, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Optics, Information and Photonics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Germak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica INRIM
-        contact:
-        - address:
-            formatted_address: Turin, Italy
-  role:
-  - type: author
-revdate: '2012-07-05'
 abstract:
-- content: 'Abstract<p>The perturbations of the gravitational field due to the mass
-    distribution of an absolute gravimeter have been studied. The so-called self-attraction
-    effect (SAE) is crucial for the measurement accuracy, especially for International
-    Comparisons, and for the uncertainty budget evaluation. Three instruments have
-    been analysed: MPG-2, FG5-238 and IMGC-02. The SAE has been calculated using a
-    numerical method based on finite element method simulation. The modelled effect
-    has been treated as an additional vertical gravity gradient. The self-attraction
-    correction (SAC) to be applied to the computed g value is of the order of 1 × 10<sup>−8</sup> m s<sup>−2</sup>.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The perturbations of the gravitational field due to the mass distribution of an absolute gravimeter have been studied. The so-called self-attraction effect (SAE) is crucial for the measurement accuracy, especially for International Comparisons, and for the uncertainty budget evaluation. Three instruments have been analysed: MPG-2, FG5-238 and IMGC-02. The SAE has been calculated using a numerical method based on finite element method simulation. The modelled effect has been treated as an additional vertical gravity gradient. The self-attraction correction (SAC) to be applied to the computed <italic>g</italic> value is of the order of 1 × 10<sup>−8</sup> m s<sup>−2</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Self-attraction effect and correction on three absolute gravimeters
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Self-attraction effect and correction on three absolute gravimeters
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Self-attraction effect and correction on three absolute gravimeters
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Self-attraction effect and correction on three absolute gravimeters
     date:
     - type: epub
-      value: '2012-07-05'
+      at: '2012-07-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +121,6 @@ extent:
     reference_from: '560'
     reference_to: '566'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

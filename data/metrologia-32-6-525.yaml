@@ -1,105 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326525
-title:
-- content: Detector calibration in the wavelength region 10 nm to 100 nm based on
-    a windowless rare gas ionization chamber
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/26
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/26
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 525
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Detector calibration in the wavelength region 10 nm to 100 nm based on
+    a windowless rare gas ionization chamber
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/26
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/26
+docidentifier:
+- content: Metrologia 32 6 525
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/26
+- content: 10.1088/0026-1394/32/6/26
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Saito
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Electrotechnical Laboratory (ETL), 1-1-4
             Umezono, Tsukuba-shi, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Onuki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Electrotechnical Laboratory (ETL), 1-1-4
             Umezono, Tsukuba-shi, Ibaraki 305, Japan
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>A detector calibration facility based on a rare gas ionization chamber
+- language: en
+  script:
+  - Latn
+  content: "<p>A detector calibration facility based on a rare gas ionization chamber
     has been built at the Electrotechnical Laboratory, Japan. We have realized a windowless
     system by applying strong differential pumping, which features no spectral limitation
     and easy gas handling. In the auto-ionization region near the xenon absorption
     edge, photon flux was found to be underestimated and this limited the maximum
     available wavelength to 92 nm. The uncertainty (1σ) for a Si photodiode calibration
     was estimated to be within ±9% in the wavelength range 10 nm to 92 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detector calibration in the wavelength region 10 nm to 100 nm based
+    - language: en
+      script: Latn
+      content: Detector calibration in the wavelength region 10 nm to 100 nm based
         on a windowless rare gas ionization chamber
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '525'
     reference_to: '529'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

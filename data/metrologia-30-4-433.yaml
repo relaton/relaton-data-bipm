@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304433
-title:
-- content: Standard of Specular Reflectance at Glancing Incidence for the Infrared
-    Region
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/040
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/040
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 433
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Standard of Specular Reflectance at Glancing Incidence for the Infrared
+    Region
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/040
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/040
+docidentifier:
+- content: Metrologia 30 4 433
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/040
+- content: 10.1088/0026-1394/30/4/040
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Gupta
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Infrared Standard Section, National Physical Laboratory, Dr K S
             Krishnan Road, New Delhi 110012, India
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S P Varma
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Infrared Standard Section, National Physical Laboratory, Dr K S
             Krishnan Road, New Delhi 110012, India
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The performance of high power carbon dioxide and free electron lasers
+- language: en
+  script:
+  - Latn
+  content: "<p>The performance of high power carbon dioxide and free electron lasers
     depends upon the quality of mirrors used in them. A precise characterization of
     mirrors is required, and this is achieved by employing reference standards. Standards
     for the calibration of reflectance scale for the infrared region are not available.
@@ -66,40 +60,32 @@ abstract:
     region. Whereas aluminium and gold mirrors have been used as high reflectance
     value standards, single and double surface polished silicon and germanium have
     been employed as standards at low reflectance values.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Standard of Specular Reflectance at Glancing Incidence for the Infrared
+    - language: en
+      script: Latn
+      content: Standard of Specular Reflectance at Glancing Incidence for the Infrared
         Region
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '433'
     reference_to: '438'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

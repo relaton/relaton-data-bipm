@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466693
-title:
-- content: Real-time formation of a time scale using GPS carrier-phase time transfer
-    network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 693
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Real-time formation of a time scale using GPS carrier-phase time transfer
+    network
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/012
+docidentifier:
+- content: Metrologia 46 6 693
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/012
+- content: 10.1088/0026-1394/46/6/012
   type: doi
 date:
 - type: published
-  value: '2009-11-19'
+  at: '2009-11-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seung-Woo Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physical Metrology, Korea Research Institute of Standards
             and Science (KRISS), 1 Doryong-dong, Yuseong-gu, Daejeon 305-340, Korea
-  role:
-  - type: author
-revdate: '2009-11-19'
 abstract:
-- content: "<p>This paper presents a prototype real-time clock ensemble system that
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper presents a prototype real-time clock ensemble system that
     utilizes a Kalman filter-based ensemble algorithm to combine remote clocks linked
     via a real-time GPS carrier-phase time transfer network. The calculated ensemble
     clock is realized by the use of an optimal control technique, where emphasis is
@@ -52,55 +48,44 @@ abstract:
     on local realizations of UTC from four timing laboratories, and the frequency
     stability of the real-time ensemble time scale as well as its realizations are
     assessed with reference to UTC.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Real-time formation of a time scale using GPS carrier-phase time transfer
+    - language: en
+      script: Latn
+      content: Real-time formation of a time scale using GPS carrier-phase time transfer
         network
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-11-19'
+      at: '2009-11-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Real-time formation of a time scale using GPS carrier-phase time transfer
+    - language: en
+      script: Latn
+      content: Real-time formation of a time scale using GPS carrier-phase time transfer
         network
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: '693'
     reference_to: '703'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

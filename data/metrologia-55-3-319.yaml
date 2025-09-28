@@ -1,142 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553319
-title:
-- content: A new magnet design for future Kibble balances
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aab2ea
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aab2ea
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 319
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A new magnet design for future Kibble balances
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aab2ea
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aab2ea
+docidentifier:
+- content: Metrologia 55 3 319
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aab2ea
+- content: 10.1088/1681-7575/aab2ea
   type: doi
 date:
 - type: published
-  value: '2018-04-04'
+  at: '2018-04-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shisong Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 92310 Sèvres, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: 92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 92310 Sèvres, France
         name:
         - content: Bureau International des Poids et Mesures (BIPM)
-        contact:
-        - address:
-            formatted_address: 92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephan Schlamminger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
     - organization:
+        address:
+        - formatted_address: 93053 Regensburg, Germany
         name:
         - content: Ostbayerische Technische Hochschule (OTH) Regensburg
-        contact:
-        - address:
-            formatted_address: 93053 Regensburg, Germany
-  role:
-  - type: author
-revdate: '2018-04-04'
 abstract:
-- content: Abstract<p>We propose a new permanent magnet system for Kibble balance
-    experiments, which combines advantages of the magnet designs invented by the National
-    Physical Laboratory (NPL) and by the Bureau International des Poids et Mesures
-    (BIPM). The goal of the proposed magnet system is to minimize the coil-current
-    effect and to optimize the shielding at the same time. In the proposed design,
-    a permanent magnet system with two gaps, each housing a coil, is employed to minimize
-    the coil current effect, by reducing the linear coil-current dependence reported
-    for the single air gap design by at least one order of magnitude. Both air gaps
-    of the magnet are completely surrounded by high-permeability material, and hence
-    the coils are shielded from outside magnetic fields and no magnetic field leaks
-    outside of the magnet system. An example of the new magnet system is given and
-    the analysis shows that the magnetic field in the air gap can be optimized to
-    meet the requirement to be used in Kibble balances.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We propose a new permanent magnet system for Kibble balance experiments, which combines advantages of the magnet designs invented by the National Physical Laboratory (NPL) and by the Bureau International des Poids et Mesures (BIPM). The goal of the proposed magnet system is to minimize the coil-current effect and to optimize the shielding at the same time. In the proposed design, a permanent magnet system with two gaps, each housing a coil, is employed to minimize the coil current effect, by reducing the linear coil-current dependence reported for the single air gap design by at least one order of magnitude. Both air gaps of the magnet are completely surrounded by high-permeability material, and hence the coils are shielded from outside magnetic fields and no magnetic field leaks outside of the magnet system. An example of the new magnet system is given and the analysis shows that the magnetic field in the air gap can be optimized to meet the requirement to be used in Kibble balances.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new magnet design for future Kibble balances
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A new magnet design for future Kibble balances
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new magnet design for future Kibble balances
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A new magnet design for future Kibble balances
     date:
     - type: epub
-      value: '2018-04-04'
+      at: '2018-04-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -147,6 +121,6 @@ extent:
     reference_from: '319'
     reference_to: '325'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,85 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia392125
-title:
-- content: Dr Terry Quinn, Director of the BIPM, elected a Fellow of the Royal Society
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/2/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/2/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 2 125
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dr Terry Quinn, Director of the BIPM, elected a Fellow of the Royal Society
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/2/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/2/1
+docidentifier:
+- content: Metrologia 39 2 125
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/2/1
+- content: 10.1088/0026-1394/39/2/1
   type: doi
 date:
 - type: published
-  value: '2002-04-01'
+  at: '2002-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P W Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
-  - type: author
-revdate: '2002-04-01'
 abstract:
-- content: |-
-    <p>On 13 May 2002 Dr Terry Quinn, Director of the BIPM, was elected a Fellow of the Royal Society. The citation for his award reads as follows:</p><p>
-    “Dr Quinn is a world authority in metrology, the science of measurement. He has made outstanding contributions to radiometry, thermometry, the measurement of mass, and the measurement of the gravitational constant and other fundamental constants. As director of the BIPM he has greatly increased international recognition of the importance of the role of accurate measurement in today's world.”</p><p>
-    The Royal Society is the foremost scientific academy in the UK. It was founded by King Charles II in 1660 and has now some 1300 of the world's top
-    scientists as Fellows. Former Fellows and Presidents include all the great names of British science, such as Newton, Hooke, Maxwell, Bragg, Huxley and many more men and women of distinction.</p><p>
-    Fellowship of the Royal Society is the highest and most prestigious honour for a UK scientist. I am sure that the metrology community worldwide will join with me in offering Terry our warmest congratulations on this well-deserved achievement, the recognition of which is also an acknowledgement of the significant role metrology plays in our society.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>On 13 May 2002 Dr Terry Quinn, Director of the BIPM, was elected a Fellow of the Royal Society. The citation for his award reads as follows:</p>
+    <p>
+    “Dr Quinn is a world authority in metrology, the science of measurement. He has made outstanding contributions to radiometry, thermometry, the measurement of mass, and the measurement of the gravitational constant and other fundamental constants. As director of the BIPM he has greatly increased international recognition of the importance of the role of accurate measurement in today's world.”</p>
+    <p>
+    The Royal Society is the foremost scientific academy in the UK. It was founded by King Charles II in 1660 and has now some 1300 of the world's top
+    scientists as Fellows. Former Fellows and Presidents include all the great names of British science, such as Newton, Hooke, Maxwell, Bragg, Huxley and many more men and women of distinction.</p>
+    <p>
+    Fellowship of the Royal Society is the highest and most prestigious honour for a UK scientist. I am sure that the metrology community worldwide will join with me in offering Terry our warmest congratulations on this well-deserved achievement, the recognition of which is also an acknowledgement of the significant role metrology plays in our society.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Dr Terry Quinn, Director of the BIPM, elected a Fellow of the Royal
+    - language: en
+      script: Latn
+      content: Dr Terry Quinn, Director of the BIPM, elected a Fellow of the Royal
         Society
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-04-01'
+      at: '2002-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +81,6 @@ extent:
     reference_from: '125'
     reference_to: '125'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

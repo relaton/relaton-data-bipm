@@ -1,107 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia391123
-title:
-- content: Accuracy evaluation of the primary frequency standard NIST-7
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1 123
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accuracy evaluation of the primary frequency standard NIST-7
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1/19
+docidentifier:
+- content: Metrologia 39 1 123
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/19
+- content: 10.1088/0026-1394/39/1/19
   type: doi
 date:
 - type: published
-  value: '2002-02-01'
+  at: '2002-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J H Shirley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W D Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Drullinger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2002-02-01'
 abstract:
-- content: "<p>Erratum to Metrologia, 2001, 38, 427-458.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Erratum to <italic>Metrologia</italic>, 2001, <bold>38</bold>, 427-458.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy evaluation of the primary frequency standard NIST-7
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Accuracy evaluation of the primary frequency standard NIST-7
     date:
     - type: ppub
-      value: '2002-02-01'
+      at: '2002-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +96,6 @@ extent:
     reference_from: '123'
     reference_to: '123'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

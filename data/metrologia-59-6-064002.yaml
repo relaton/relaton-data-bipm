@@ -1,178 +1,151 @@
 ---
-schema-version: v1.2.9
-id: Metrologia596064002
-title:
-- content: Generating and measuring pico-radian angles
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac9736
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac9736
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 6 064002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Generating and measuring pico-radian angles
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac9736
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac9736
+docidentifier:
+- content: Metrologia 59 6 064002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac9736
+- content: 10.1088/1681-7575/ac9736
   type: doi
 date:
 - type: published
-  value: '2022-12-01'
+  at: '2022-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Simon G Alcock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
         name:
         - content: Harwell Science and Innovation Campus
         subdivision:
-        - content: Diamond Light Source Ltd
-        contact:
-        - address:
-            formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Diamond Light Source Ltd
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew Yacoot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, United
-              Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rabia Ince
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
         name:
         - content: Harwell Science and Innovation Campus
         subdivision:
-        - content: Diamond Light Source Ltd
-        contact:
-        - address:
-            formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Diamond Light Source Ltd
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hiten Patel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
         name:
         - content: Harwell Science and Innovation Campus
         subdivision:
-        - content: Diamond Light Source Ltd
-        contact:
-        - address:
-            formatted_address: Didcot, Oxfordshire, OX11 0DE, United Kingdom
-  role:
-  - type: author
-revdate: '2022-12-01'
+        - name:
+          - language: en
+            script: Latn
+            content: Diamond Light Source Ltd
 abstract:
-- content: 'Abstract<p>The angular performance of a nano-angle generator (NANGO) developed
-    at Diamond Light Source has been characterised using a dual-beam laser interferometer
-    designed and built at the National Physical Laboratory (NPL). NANGO is a flexure-based,
-    piezo actuated device which generates milli- to sub-nano-radian angles for the
-    calibration of metrology instruments used to test the quality of synchrotron x-ray
-    mirrors and angular nano-positioning stages at Diamond. The NPL interferometer
-    provides traceability for small angle measurements made by NANGO. An uncertainty
-    budget has been developed for measurements over a 50 nanoradian range. In closed-loop,
-    using feedback from the NANGO’s angle encoder, for the first time we show that
-    1 nanoradian steps made by NANGO are measurable by an external metrology device.
-    The 200 kHz acquisition rate of the NPL angle interferometer also reveals new
-    dynamic information about NANGO’s angular motion. The NPL interferometer demonstrates
-    that NANGO in open-loop can make: distinct steps of 500 picoradians; sinusoidal
-    oscillations at 0.4 Hz with an amplitude of 125 picoradians; or 1 nanoradian oscillations
-    at 40 Hz. Traceability to the SI though National Metrology Institute instrumentation
-    for NANGO will provide enhanced accuracy for a wide range of angle metrology applications
-    at Diamond, including inputs to deterministic polishing techniques for the creation
-    of next-generation x-ray mirrors and dynamic characterisation of nano-positioning
-    stages.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The angular performance of a nano-angle generator (NANGO) developed at Diamond Light Source has been characterised using a dual-beam laser interferometer designed and built at the National Physical Laboratory (NPL). NANGO is a flexure-based, piezo actuated device which generates milli- to sub-nano-radian angles for the calibration of metrology instruments used to test the quality of synchrotron x-ray mirrors and angular nano-positioning stages at Diamond. The NPL interferometer provides traceability for small angle measurements made by NANGO. An uncertainty budget has been developed for measurements over a 50 nanoradian range. In closed-loop, using feedback from the NANGO’s angle encoder, for the first time we show that 1 nanoradian steps made by NANGO are measurable by an external metrology device. The 200 kHz acquisition rate of the NPL angle interferometer also reveals new dynamic information about NANGO’s angular motion. The NPL interferometer demonstrates that NANGO in open-loop can make: distinct steps of 500 picoradians; sinusoidal oscillations at 0.4 Hz with an amplitude of 125 picoradians; or 1 nanoradian oscillations at 40 Hz. Traceability to the SI though National Metrology Institute instrumentation for NANGO will provide enhanced accuracy for a wide range of angle metrology applications at Diamond, including inputs to deterministic polishing techniques for the creation of next-generation x-ray mirrors and dynamic characterisation of nano-positioning stages.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Generating and measuring pico-radian angles
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Generating and measuring pico-radian angles
     date:
     - type: ppub
-      value: '2022-12-01'
+      at: '2022-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Generating and measuring pico-radian angles
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Generating and measuring pico-radian angles
     date:
     - type: epub
-      value: '2023-01-05'
+      at: '2023-01-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Generating and measuring pico-radian angles
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Generating and measuring pico-radian angles
     date:
     - type: open-access
-      value: '2022-12-22'
+      at: '2022-12-22'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -180,6 +153,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

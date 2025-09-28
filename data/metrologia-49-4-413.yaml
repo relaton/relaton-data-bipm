@@ -1,143 +1,129 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494413
-title:
-- content: Accuracy assessment of the two-sample zero-crossing detection in a sinusoidal
-    signal
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/413
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/413
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 413
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Accuracy assessment of the two-sample zero-crossing detection in a sinusoidal
+    signal
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/413
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/413
+docidentifier:
+- content: Metrologia 49 4 413
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/413
+- content: 10.1088/0026-1394/49/4/413
   type: doi
 date:
 - type: published
-  value: '2012-05-16'
+  at: '2012-05-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Svitlov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 91058, Germany
         name:
         - content: University Erlangen-Nuremberg
         subdivision:
-        - content: Institute of Optics, Information and Photonics
-        contact:
-        - address:
-            formatted_address: 91058, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Optics, Information and Photonics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Rothleitner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: L-1359, Luxembourg
         name:
         - content: University of Luxembourg
         subdivision:
-        - content: Faculty of Science, Technology and Communication
-        contact:
-        - address:
-            formatted_address: L-1359, Luxembourg
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Faculty of Science, Technology and Communication
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L J Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People's Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Joint Institute of Measurement Science
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People's Republic of China
-  role:
-  - type: author
-revdate: '2012-05-16'
+        - name:
+          - language: en
+            script: Latn
+            content: Joint Institute of Measurement Science
 abstract:
-- content: Abstract<p>The accuracy of a two-sample zero-crossing detection method
-    is assessed by analytical uncertainty propagation and is verified in numerical
-    simulations. Approximated expressions are given to evaluate uncertainty components
-    due to linear interpolation, quantization, white noise and time jitter. The combined
-    standard uncertainty of a detected zero phase is expressed as a function of the
-    signal frequency, power of external noise and parameters of the digitizer used.
-    The evaluation of the uncertainty of the measurand, derived from several detected
-    zero-crossings, is illustrated with applications in frequency, displacement and
-    free-fall acceleration measurements. The reported results can be used for uncertainty
-    analysis and parameter optimization of a measurement system or a procedure, involving
-    processing of sinusoidal signals.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The accuracy of a two-sample zero-crossing detection method is assessed by analytical uncertainty propagation and is verified in numerical simulations. Approximated expressions are given to evaluate uncertainty components due to linear interpolation, quantization, white noise and time jitter. The combined standard uncertainty of a detected zero phase is expressed as a function of the signal frequency, power of external noise and parameters of the digitizer used. The evaluation of the uncertainty of the measurand, derived from several detected zero-crossings, is illustrated with applications in frequency, displacement and free-fall acceleration measurements. The reported results can be used for uncertainty analysis and parameter optimization of a measurement system or a procedure, involving processing of sinusoidal signals.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy assessment of the two-sample zero-crossing detection in a
+    - script: Latn
+      content: Accuracy assessment of the two-sample zero-crossing detection in a
         sinusoidal signal
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accuracy assessment of the two-sample zero-crossing detection in a
+    - script: Latn
+      content: Accuracy assessment of the two-sample zero-crossing detection in a
         sinusoidal signal
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-05-16'
+      at: '2012-05-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +134,6 @@ extent:
     reference_from: '413'
     reference_to: '424'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

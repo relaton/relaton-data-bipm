@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia7265
-title:
-- content: Absolute Measurements of α-ray Energies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/7/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 2 65
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Absolute Measurements of α-ray Energies
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/2/005
+docidentifier:
+- content: Metrologia 7 2 65
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/2/005
+- content: 10.1088/0026-1394/7/2/005
   type: doi
 date:
 - type: published
-  value: '1971-04-01'
+  at: '1971-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Grennberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Rytz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Sèvres, France
-  role:
-  - type: author
-revdate: '1971-04-01'
 abstract:
-- content: "<p>New absolute energy measurements of α-particles from 20 natural and
+- language: en
+  script:
+  - Latn
+  content: "<p>New absolute energy measurements of α-particles from 20 natural and
     artificial emitters are reported, some of which are first absolute values. The
     uniform field 180° magnetic spectrograph is described in detail. Accurate length
     and field measurements and line shape extrapolations have been given special attention.
     A detailed error analysis is presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute Measurements of α-ray Energies
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Absolute Measurements of α-ray Energies
     date:
     - type: ppub
-      value: '1971-04-01'
+      at: '1971-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +88,6 @@ extent:
     reference_from: '65'
     reference_to: '77'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

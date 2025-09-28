@@ -1,76 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia34130
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     A major step towards a redefinition of the second,
     the unit of time of the International System of Units
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/4/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/4/007
-  type: doi
-type: article
-docid:
-- id: Metrologia 3 4 130
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/4/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/4/007
+docidentifier:
+- content: Metrologia 3 4 130
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/4/007
+- content: 10.1088/0026-1394/3/4/007
   type: doi
 date:
 - type: published
-  value: '1967-10-01'
+  at: '1967-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Terrien
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, 92-Sèvres France
-  role:
-  - type: author
-revdate: '1967-10-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         A major step towards a redefinition of the second,
         the unit of time of the International System of Units
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1967-10-01'
+      at: '1967-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -81,6 +71,6 @@ extent:
     reference_from: '130'
     reference_to: '130'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

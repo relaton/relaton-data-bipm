@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283261
-title:
-- content: The ScaRaB Earth Radiation Budget Scanning Radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/031
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/031
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 261
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The ScaRaB Earth Radiation Budget Scanning Radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/031
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/031
+docidentifier:
+- content: Metrologia 28 3 261
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/031
+- content: 10.1088/0026-1394/28/3/031
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Monge
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNRS, Laboratoire de Météorologie Dynamique, École Polytechnique.
             F-91128 Palaiseau Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kandel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNRS, Laboratoire de Météorologie Dynamique, École Polytechnique.
             F-91128 Palaiseau Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L A Pakhomov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPO "PLANETA", State Committee for Hydrometeorology and Control
             of the Natural Environment, Ulitsa Bolshevistskaïa 7, Moscow 123376, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Adasko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: All-Union Science-Research Institute of Electromechanics, Khoromny
             Tupic 4, Moscow 107817, USSR
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>In order to ensure that Earth Radiation Budget measurement from space
+- language: en
+  script:
+  - Latn
+  content: "<p>In order to ensure that Earth Radiation Budget measurement from space
     continues through the 1990s, France, Germany and the USSR are developing a Scanning
     Radiometer for Radiation Balance (ScaRaB) to be flown on a series of METEOR-3
     Soviet polar orbiting weather satellites. The instrument described in this paper
@@ -99,39 +89,31 @@ abstract:
     of the 0,2 μm to 50 μm channel on solar diffusers and lamps. Hemispherical choppers
     associated with pyroelectric detectors ensure a high immunity to low frequency
     noise and thermal transients.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The ScaRaB Earth Radiation Budget Scanning Radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The ScaRaB Earth Radiation Budget Scanning Radiometer
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +124,6 @@ extent:
     reference_from: '261'
     reference_to: '264'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

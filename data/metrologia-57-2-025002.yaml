@@ -1,156 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia572025002
-title:
-- content: Linking mass measured by the quartz crystal microbalance to the SI
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab54a5
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab54a5
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 2 025002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Linking mass measured by the quartz crystal microbalance to the SI
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab54a5
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab54a5
+docidentifier:
+- content: Metrologia 57 2 025002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab54a5
+- content: 10.1088/1681-7575/ab54a5
   type: doi
 date:
 - type: published
-  value: '2020-02-12'
+  at: '2020-02-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Stambaugh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Shakeel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: University Road, Belfast, BT7 1NN, Northern Ireland,
+            United Kingdom
         name:
         - content: Queens University Belfast
-        contact:
-        - address:
-            formatted_address: University Road, Belfast, BT7 1NN, Northern Ireland,
-              United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Litorja
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J M Pomeroy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
-  role:
-  - type: author
-revdate: '2020-02-12'
 abstract:
-- content: Abstract<p>Despite ubiquitous implementation of the quartz crystal microbalance
-    (QCM) for measuring thin film thickness throughout industry and academia, a direct
-    link to the SI (International System of Units) does not exist. Confidence in QCM
-    measurements relies on over a half-a-century of academic and industrial research
-    used to understand the resonant frequency change due to loading mass onto a quartz
-    crystal. Here, we use before and after gravimetric mass measurements, linked directly
-    to the SI, to measure mass change. A custom vacuum metal deposition system is
-    used to deposit gold films of various masses onto a series of quartz crystals
-    while the mass dependent frequency change is monitored in real time. The gravimetric
-    (known) mass changes are compared to three analytical methods (frequency, time
-    and energy) used to convert resonant frequency shifts to mass changes, none of
-    which rely on the material properties of the deposited material. Additionally,
-    we evaluate the reversible and irreversible contributions to mass change from
-    the loading into, and removal from, the vacuum environment. We find the energy-based
-    method for frequency to mass conversion has the best accuracy over the longest
-    range, at 0.36 % to  &gt;1 mg. Only for mass changes below 100 are deviations  &gt;2 %
-    observed. A complete uncertainty budget is provided.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Despite ubiquitous implementation of the quartz crystal microbalance (QCM) for measuring thin film thickness throughout industry and academia, a direct link to the SI (International System of Units) does not exist. Confidence in QCM measurements relies on over a half-a-century of academic and industrial research used to understand the resonant frequency change due to loading mass onto a quartz crystal. Here, we use before and after gravimetric mass measurements, linked directly to the SI, to measure mass change. A custom vacuum metal deposition system is used to deposit gold films of various masses onto a series of quartz crystals while the mass dependent frequency change is monitored in real time. The gravimetric (known) mass changes are compared to three analytical methods (frequency, time and energy) used to convert resonant frequency shifts to mass changes, none of which rely on the material properties of the deposited material. Additionally, we evaluate the reversible and irreversible contributions to mass change from the loading into, and removal from, the vacuum environment. We find the energy-based method for frequency to mass conversion has the best accuracy over the longest range, at 0.36 % to  &gt;1 mg. Only for mass changes below 100 <inline-formula><inline-graphic xlink:href="metab54a5ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> are deviations  &gt;2 % observed. A complete uncertainty budget is provided.</p>
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linking mass measured by the quartz crystal microbalance to the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Linking mass measured by the quartz crystal microbalance to the SI
     date:
     - type: ppub
-      value: '2020-04-01'
+      at: '2020-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Linking mass measured by the quartz crystal microbalance to the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Linking mass measured by the quartz crystal microbalance to the SI
     date:
     - type: epub
-      value: '2020-02-12'
+      at: '2020-02-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -158,6 +123,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

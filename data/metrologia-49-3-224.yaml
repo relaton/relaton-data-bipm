@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493224
-title:
-- content: Traceable periodic force calibration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/224
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/224
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 224
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Traceable periodic force calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/224
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/224
+docidentifier:
+- content: Metrologia 49 3 224
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/224
+- content: 10.1088/0026-1394/49/3/224
   type: doi
 date:
 - type: published
-  value: '2012-03-12'
+  at: '2012-03-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Schlegel
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Kieckenap
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Glöckner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Buß
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Kumme
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '2012-03-12'
 abstract:
-- content: "<p>A procedure for dynamic force calibration using sinusoidal excitations
+- language: en
+  script:
+  - Latn
+  content: "<p>A procedure for dynamic force calibration using sinusoidal excitations
     of force transducers is described. The method is based on a sinusoidal excitation
     of force transducers equipped with an additional top mass excited with an electrodynamic
     shaker system. The acting dynamic force can in this way be determined according
@@ -110,55 +98,47 @@ abstract:
     followed by a presentation of the traceability of the measured quantities involved
     and their uncertainties. The paper finishes with an example calibration of a 25 kN
     strain gauge force transducer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable periodic force calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Traceable periodic force calibration
     date:
     - type: epub
-      value: '2012-03-12'
+      at: '2012-03-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable periodic force calibration
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Traceable periodic force calibration
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -169,6 +149,6 @@ extent:
     reference_from: '224'
     reference_to: '235'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

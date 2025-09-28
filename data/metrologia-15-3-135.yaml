@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia153135
-title:
-- content: The Suitability of Tungsten Strip Lamps as Secondary Standard Sources below
-    1064°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 3 135
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Suitability of Tungsten Strip Lamps as Secondary Standard Sources below
+    1064°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/3/004
+docidentifier:
+- content: Metrologia 15 3 135
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/3/004
+- content: 10.1088/0026-1394/15/3/004
   type: doi
 date:
 - type: published
-  value: '1979-07-01'
+  at: '1979-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T P Jones
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tapping
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Laboratory, CSIRO, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1979-07-01'
 abstract:
-- content: "<p>High-stability tungsten strip lamps are assessed as a means of maintaining
+- language: en
+  script:
+  - Latn
+  content: "<p>High-stability tungsten strip lamps are assessed as a means of maintaining
     the International Practical Temperature Scale below 1064.43°C. The variation of
     spectral radiance temperature with changes in the lamps and their environment
     is discussed. Factors necessary to correct the spectral radiance temperature for
@@ -66,40 +60,32 @@ abstract:
     0.015°C at 1064°C and 0.045°C at 770°C (99% confidence limits). These results
     indicate that the platinum resistance thermometer appears to be a better alternative
     means of maintaining temperature scales in the range considered.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Suitability of Tungsten Strip Lamps as Secondary Standard Sources
+    - language: en
+      script: Latn
+      content: The Suitability of Tungsten Strip Lamps as Secondary Standard Sources
         below 1064°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1979-07-01'
+      at: '1979-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '135'
     reference_to: '141'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

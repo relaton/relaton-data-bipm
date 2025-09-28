@@ -1,95 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia431A09001
-title:
-- content: Final report on the key comparison CCAUV.A-K3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1A/09001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1A/09001
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1A 09001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on the key comparison CCAUV.A-K3
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1A/09001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1A/09001
+docidentifier:
+- content: Metrologia 43 1A 09001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1A/09001
+- content: 10.1088/0026-1394/43/1A/09001
   type: doi
 date:
 - type: published
-  value: '2006-01-01'
+  at: '2006-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vicente Cutanda Henríquez
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro Nacional de Metrología, Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Knud Rasmussen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Danish Primary Laboratory for Acoustics, Denmark
-  role:
-  - type: author
-revdate: '2006-01-01'
 abstract:
-- content: |-
-    <p>This is the final report for key comparison CCAUV.A-K3 on the sensitivity calibration of laboratory standard microphones in the frequency range from 31.5 Hz to 31.5 kHz. Fifteen national measurement laboratories took part in this key comparison and the Centro Nacional de Metrología (CENAM), Mexico, piloted the project with the assistance of the Danish Primary Laboratory for Acoustics (DPLA), Denmark. Four travelling standard microphones were circulated to the participants in two loops linked through the measurements of the CENAM and the DPLA. The participants' results in the form of sensitivity measurements (dB re 1 V/Pa) and full uncertainty budgets were collected throughout the project. Reference values for all four standard microphones have been calculated using a linear least squares minimization method. The differences between measurements and references have been averaged to obtain the degrees of equivalence per laboratory and interlaboratory. The deviations are all below 0.1 dB, except at 31.5 kHz. A frequency of 1000 Hz has been chosen to illustrate the degrees of equivalence. In all cases, the deviation is smaller than the associated uncertainty.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This is the final report for key comparison CCAUV.A-K3 on the sensitivity calibration of laboratory standard microphones in the frequency range from 31.5 Hz to 31.5 kHz. Fifteen national measurement laboratories took part in this key comparison and the Centro Nacional de Metrología (CENAM), Mexico, piloted the project with the assistance of the Danish Primary Laboratory for Acoustics (DPLA), Denmark. Four travelling standard microphones were circulated to the participants in two loops linked through the measurements of the CENAM and the DPLA. The participants' results in the form of sensitivity measurements (dB re 1 V/Pa) and full uncertainty budgets were collected throughout the project. Reference values for all four standard microphones have been calculated using a linear least squares minimization method. The differences between measurements and references have been averaged to obtain the degrees of equivalence per laboratory and interlaboratory. The deviations are all below 0.1 dB, except at 31.5 kHz. A frequency of 1000 Hz has been chosen to illustrate the degrees of equivalence. In all cases, the deviation is smaller than the associated uncertainty.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K3/CCAUV.A-K3.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on the key comparison CCAUV.A-K3
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on the key comparison CCAUV.A-K3
     date:
     - type: ppub
-      value: '2006-01-01'
+      at: '2006-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: '09001'
     reference_to: '09001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

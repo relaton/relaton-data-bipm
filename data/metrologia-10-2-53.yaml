@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10253
-title:
-- content: Spectroradiometric Measurement of Metal Halide Lamps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 2 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spectroradiometric Measurement of Metal Halide Lamps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/2/003
+docidentifier:
+- content: Metrologia 10 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/2/003
+- content: 10.1088/0026-1394/10/2/003
   type: doi
 date:
 - type: published
-  value: '1974-04-01'
+  at: '1974-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C J Kok
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Research Laboratory, South African Council for
             Scientific and Industrial Research, PO Box 395, Pretoria, Republic of
             South Africa
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Hengstberger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Research Laboratory, South African Council for
             Scientific and Industrial Research, PO Box 395, Pretoria, Republic of
             South Africa
-  role:
-  - type: author
-revdate: '1974-04-01'
 abstract:
-- content: "<p>The spectral irradiances of three 400 W metal halide lamps were measured
+- language: en
+  script:
+  - Latn
+  content: "<p>The spectral irradiances of three 400 W metal halide lamps were measured
     on two different spectrophotometers. The first system had a grating monochromator
     with reciprocal linear dispersion of 0.8 nm/mm and the second a double monochromator
     with quartz prisms. The latter instrument had a reciprocal linear dispersion of
@@ -72,39 +66,31 @@ abstract:
     at 5 nm intervals on the prism instrument yielded derived results, e.g. chromaticities
     and correlated color temperatures, in fair agreement with those obtained with
     the grating instrument only if great care was taken in selection of slitwidths.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectroradiometric Measurement of Metal Halide Lamps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectroradiometric Measurement of Metal Halide Lamps
     date:
     - type: ppub
-      value: '1974-04-01'
+      at: '1974-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +101,6 @@ extent:
     reference_from: '53'
     reference_to: '59'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia323209
-title:
-- content: Calibration of gravimeters with the VRR 8601 calibration platform
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 3 209
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of gravimeters with the VRR 8601 calibration platform
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/3/009
+docidentifier:
+- content: Metrologia 32 3 209
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/3/009
+- content: 10.1088/0026-1394/32/3/009
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Van Ruymbeke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Observatoire Royal de Belgique, 3, avenue Circulaire, 1180 Brussels,
             Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Somerhausen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Observatoire Royal de Belgique, 3, avenue Circulaire, 1180 Brussels,
             Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Grammatica
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Observatoire Royal de Belgique, 3, avenue Circulaire, 1180 Brussels,
             Belgium
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>At the 1994 International Comparison of Absolute Gravimeters in Sèvres,
+- language: en
+  script:
+  - Latn
+  content: "<p>At the 1994 International Comparison of Absolute Gravimeters in Sèvres,
     a platform oscillating vertically with a sinusoidal motion was used to produce
     defined accelerations which were applied to gravimeters for their calibration.
     Gravimeters equipped with different types of feedback systems were compared. This
@@ -79,39 +71,31 @@ abstract:
     and a calibration obtained by this platform method, gave tidal factors for the
     Bureau International des Poids et Mesures (BIPM). Comments on previous recordings
     are included.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of gravimeters with the VRR 8601 calibration platform
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of gravimeters with the VRR 8601 calibration platform
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '209'
     reference_to: '216'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

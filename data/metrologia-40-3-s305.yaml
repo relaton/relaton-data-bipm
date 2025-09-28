@@ -1,106 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S305
-title:
-- content: Atomic clock models using fractionally integrated noise processes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/309
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/309
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S305
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Atomic clock models using fractionally integrated noise processes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/309
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/309
+docidentifier:
+- content: Metrologia 40 3 S305
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/309
+- content: 10.1088/0026-1394/40/3/309
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lara S Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: US Naval Observatory Alternate Master Clock, Schriever AFB, CO
             80912, USA
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>The existence of power-law noise structures in the measurements of
-    atomic clocks has been well documented in the literature. Each of these power-law
-    noises exhibits a spectral density proportional to 1/f<sup>α</sup> at low frequencies.
-    There is, however, another class of noise, termed fractionally integrated or long-memory
-    noise, which too possesses spectral densities of this form. These fractionally
-    integrated noises are analysed and applied to atomic timescales in this research.
-    An alternative atomic clock model is developed and validated via simulation and
-    live data tests. Estimators of clock rate and drift which account for the long-memory
-    noise structures are derived and shown to produce both superior estimates of rate
-    and drift and superior reports of the variability of these estimates. Estimation
-    strategies which account for the autocovariance structures characteristic of fractionally
-    integrated noise are also found to yield more powerful tests of hypotheses than
-    do the short-memory techniques historically employed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The existence of power-law noise structures in the measurements of
+    atomic clocks has been well documented in the literature. Each of these power-law
+    noises exhibits a spectral density proportional to 1/<italic>f</italic><sup>α</sup>
+    at low frequencies. There is, however, another class of noise, termed fractionally
+    integrated or long-memory noise, which too possesses spectral densities of this
+    form. These fractionally integrated noises are analysed and applied to atomic
+    timescales in this research. An alternative atomic clock model is developed and
+    validated via simulation and live data tests. Estimators of clock rate and drift
+    which account for the long-memory noise structures are derived and shown to produce
+    both superior estimates of rate and drift and superior reports of the variability
+    of these estimates. Estimation strategies which account for the autocovariance
+    structures characteristic of fractionally integrated noise are also found to yield
+    more powerful tests of hypotheses than do the short-memory techniques historically
+    employed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic clock models using fractionally integrated noise processes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic clock models using fractionally integrated noise processes
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic clock models using fractionally integrated noise processes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic clock models using fractionally integrated noise processes
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: S305
     reference_to: S311
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

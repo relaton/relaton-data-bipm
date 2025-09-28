@@ -1,116 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S51
-title:
-- content: The uncertainty of the half-life
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S51
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S51
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S51
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The uncertainty of the half-life
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S51
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S51
+docidentifier:
+- content: Metrologia 52 3 S51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S51
+- content: 10.1088/0026-1394/52/3/S51
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Retieseweg 111, B-2440 Geel, Belgium
         name:
         - content: Joint Research Centre, Institute for Reference Materials and Measurements
         subdivision:
-        - content: European Commission
-        contact:
-        - address:
-            formatted_address: Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission
 abstract:
-- content: Abstract<p>Half-life measurements of radionuclides are undeservedly perceived
-    as ‘easy’ and the experimental uncertainties are commonly underestimated. Data
-    evaluators, scanning the literature, are faced with bad documentation, lack of
-    traceability, incomplete uncertainty budgets and discrepant results. Poor control
-    of uncertainties has its implications for the end-user community, varying from
-    limitations to the accuracy and reliability of nuclear-based analytical techniques
-    to the fundamental question whether half-lives are invariable or not. This paper
-    addresses some issues from the viewpoints of the user community and of the decay
-    data provider. It addresses the propagation of the uncertainty of the half-life
-    in activity measurements and discusses different types of half-life measurements,
-    typical parameters influencing their uncertainty, a tool to propagate the uncertainties
-    and suggestions for a more complete reporting style. Problems and solutions are
-    illustrated with striking examples from literature.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>Half-life measurements of radionuclides are undeservedly perceived as ‘easy’ and the experimental uncertainties are commonly underestimated. Data evaluators, scanning the literature, are faced with bad documentation, lack of traceability, incomplete uncertainty budgets and discrepant results. Poor control of uncertainties has its implications for the end-user community, varying from limitations to the accuracy and reliability of nuclear-based analytical techniques to the fundamental question whether half-lives are invariable or not. This paper addresses some issues from the viewpoints of the user community and of the decay data provider. It addresses the propagation of the uncertainty of the half-life in activity measurements and discusses different types of half-life measurements, typical parameters influencing their uncertainty, a tool to propagate the uncertainties and suggestions for a more complete reporting style. Problems and solutions are illustrated with striking examples from literature.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of the half-life
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of the half-life
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of the half-life
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of the half-life
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty of the half-life
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The uncertainty of the half-life
     date:
     - type: open-access
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +104,6 @@ extent:
     reference_from: S51
     reference_to: S65
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

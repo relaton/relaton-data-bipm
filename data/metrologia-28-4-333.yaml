@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia284333
-title:
-- content: Measurements of the Absolute Density of Mercury in the ASMW
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 4 333
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurements of the Absolute Density of Mercury in the ASMW
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/4/005
+docidentifier:
+- content: Metrologia 28 4 333
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/4/005
+- content: 10.1088/0026-1394/28/4/005
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Adametz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Amt für Standardisierung, Meβwesen und Warenprüfung, Fürstenwalder
             Damm 388, Berlin 1162, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Wloka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Amt für Standardisierung, Meβwesen und Warenprüfung, Fürstenwalder
             Damm 388, Berlin 1162, Germany
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The method and the devices used for absolute density measurements of
+- language: en
+  script:
+  - Latn
+  content: "<p>The method and the devices used for absolute density measurements of
     mercury in the ASMW are described briefly. Measurements have been made recently
     on three mercury samples: these results are presented, discussed and compared
     with those obtained previously at the ASMW on two different samples and with the
     results of absolute density measurements carried out in other metrological institutes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurements of the Absolute Density of Mercury in the ASMW
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Measurements of the Absolute Density of Mercury in the ASMW
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '333'
     reference_to: '337'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia263167
-title:
-- content: A Study of the Realization of the Melting and Freezing Points of Silver
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 3 167
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Study of the Realization of the Melting and Freezing Points of Silver
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/3/002
+docidentifier:
+- content: Metrologia 26 3 167
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/3/002
+- content: 10.1088/0026-1394/26/3/002
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Division of Physics, Ottawa,
             Ontario, Canada, K1A OR6
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>Freezing and melting behaviour of our silver sample was studied using
+- language: en
+  script:
+  - Latn
+  content: "<p>Freezing and melting behaviour of our silver sample was studied using
     conventional procedures and also using conditions that were nearly adiabatic in
     order to obtain an equilibrium melting curve. The results indicate that the freezing
     point of a silver sample of six-9s purity is reproducible well within one millikelvin,
@@ -49,39 +45,31 @@ abstract:
     range from 10% liquid to the liquidus point is about 28 mK, and the freezing point
     obtained following a supercool can be one to several mK below the liquidus point,
     depending upon the freezing technique used.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Study of the Realization of the Melting and Freezing Points of Silver
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Study of the Realization of the Melting and Freezing Points of Silver
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '167'
     reference_to: '174'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

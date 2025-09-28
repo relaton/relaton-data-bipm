@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553446
-title:
-- content: 'No correction for the light propagation within the cube: comment on ‘Relativistic
-    theory of the falling retroreflector gravimeter’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aab9c6
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aab9c6
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 446
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'No correction for the light propagation within the cube: comment on ‘Relativistic
+    theory of the falling retroreflector gravimeter’'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aab9c6
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aab9c6
+docidentifier:
+- content: Metrologia 55 3 446
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aab9c6
+- content: 10.1088/1681-7575/aab9c6
   type: doi
 date:
 - type: published
-  value: '2018-05-30'
+  at: '2018-05-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V D Nagornyi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: One Penn Plaza, New York, NY 10019, United States of
+            America
         name:
         - content: WSP USA Inc.
-        contact:
-        - address:
-            formatted_address: One Penn Plaza, New York, NY 10019, United States of
-              America
-  role:
-  - type: author
-revdate: '2018-05-30'
 abstract:
-- content: Abstract<p>Although the equation of motion developed in the paper (Ashby
-    2018 Metrologia 55 1) depends on the parameters of the falling cube, such as the
-    depth and refraction index, the parameters are only associated with powers of
-    time no greater than one, and so do not affect the acceleration. The paper’s correction
-    due to light propagation within the cube is therefore not supported by the equation
-    of motion, and was probably caused by omissions in the data analysis. The ‘speed
-    of light’ component of the acceleration that follows from the equation agrees
-    with the results obtained by other authors.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Although the equation of motion developed in the paper (Ashby 2018 <italic>Metrologia</italic> <bold>55</bold> 1) depends on the parameters of the falling cube, such as the depth and refraction index, the parameters are only associated with powers of time no greater than one, and so do not affect the acceleration. The paper’s correction due to light propagation within the cube is therefore not supported by the equation of motion, and was probably caused by omissions in the data analysis. The ‘speed of light’ component of the acceleration that follows from the equation agrees with the results obtained by other authors.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'No correction for the light propagation within the cube: comment on
+    - script: Latn
+      content: 'No correction for the light propagation within the cube: comment on
         ‘Relativistic theory of the falling retroreflector gravimeter’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'No correction for the light propagation within the cube: comment on
+    - script: Latn
+      content: 'No correction for the light propagation within the cube: comment on
         ‘Relativistic theory of the falling retroreflector gravimeter’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-05-30'
+      at: '2018-05-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '446'
     reference_to: '447'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

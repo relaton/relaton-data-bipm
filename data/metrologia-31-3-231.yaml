@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia313231
-title:
-- content: Fabrication and Sphericity Measurements of Single-crystal Silicon Spheres
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 3 231
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fabrication and Sphericity Measurements of Single-crystal Silicon Spheres
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/3/009
+docidentifier:
+- content: Metrologia 31 3 231
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/3/009
+- content: 10.1088/0026-1394/31/3/009
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J Leistner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, PO Box 218, Lindfield, NSW 2070,
             Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W J Giardini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, PO Box 218, Lindfield, NSW 2070,
             Australia
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>The ultimate roundness achievable on a 90 mm diameter sphere (ball)
+- language: en
+  script:
+  - Latn
+  content: "<p>The ultimate roundness achievable on a 90 mm diameter sphere (ball)
     made from single-crystal silicon depends largely on the mechanics of the grinding
     and polishing process. Paramount is the uniformity of contact between the ball
     and lap while grinding or polishing in a totally random way. It is also necessary
@@ -75,39 +69,31 @@ abstract:
     resulting in very clear views of the cubic symmetries arising from the fabrication
     processes and the physical properties of the silicon. After polishing, the ball
     errors based on a fitted LSS are reduced to less than ± 30 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fabrication and Sphericity Measurements of Single-crystal Silicon Spheres
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Fabrication and Sphericity Measurements of Single-crystal Silicon Spheres
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +104,6 @@ extent:
     reference_from: '231'
     reference_to: '243'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375587
-title:
-- content: Light measurements of high-luminance LEDs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/55
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/55
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 587
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Light measurements of high-luminance LEDs
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/55
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/55
+docidentifier:
+- content: Metrologia 37 5 587
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/55
+- content: 10.1088/0026-1394/37/5/55
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R Agaphonov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Corvette Light Corp.-Moscow, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V S Ivanov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Corvette Light Corp.-Moscow, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Sapritsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Corvette Light Corp.-Moscow, VNIIOFI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R I Stolyarevskaya
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Corvette Light Corp.-Moscow, VNIIOFI
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The achievements of modern optoelectronics have resulted in the widespread
+- language: en
+  script:
+  - Latn
+  content: "<p>The achievements of modern optoelectronics have resulted in the widespread
     use of light-emitting diodes (LEDs) in products designed to visualize information,
     especially in light devices for use in road-safety systems. These developments
     highlight the importance of metrological support for measurements of the photometric
@@ -91,39 +81,31 @@ abstract:
     The high-luminance LEDs were manufactured to a unique design using planar technology.
     The results of the study demonstrate the stability of the metrological characteristics
     of the LED-based standard source.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Light measurements of high-luminance LEDs
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Light measurements of high-luminance LEDs
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +116,6 @@ extent:
     reference_from: '587'
     reference_to: '590'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

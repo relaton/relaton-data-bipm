@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304207
-title:
-- content: An Anecdotal Review of NASA Earth Observing Satellite Remote Sensors and
-    Radiometric Calibration Methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 207
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Anecdotal Review of NASA Earth Observing Satellite Remote Sensors and
+    Radiometric Calibration Methods
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/001
+docidentifier:
+- content: Metrologia 30 4 207
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/001
+- content: 10.1088/0026-1394/30/4/001
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Nithianandam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hughes STX Corporation, 4400 Forbes Boulevard, Lanham, MD 20706,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B W Guenther
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Code 925, NASA/Goddard Space Flight Center, Greenbelt, MD 20771,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L J Allison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 11816 Kemp Mill Road, Silver Spring, MD 20902, USA
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>An anecdotal history of the evolution of satellite remote sensors for
+- language: en
+  script:
+  - Latn
+  content: "<p>An anecdotal history of the evolution of satellite remote sensors for
     making Earth observations in the infrared, visible and ultraviolet spectral regions
     during the past three decades at the National Aeronautics and Space Administration
     (NASA) is presented together with an intercomparison of the earlier scanning remote
@@ -79,40 +71,32 @@ abstract:
     Observing System (EOS) project. Developments in the pre-launch and in-flight radiometric
     calibration systems and techniques for these satellite remote scanners, sounders
     and television imagers are highlighted.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Anecdotal Review of NASA Earth Observing Satellite Remote Sensors
+    - language: en
+      script: Latn
+      content: An Anecdotal Review of NASA Earth Observing Satellite Remote Sensors
         and Radiometric Calibration Methods
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '207'
     reference_to: '212'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

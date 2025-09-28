@@ -1,124 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia502170
-title:
-- content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/2/170
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/2/170
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 2 170
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/2/170
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/2/170
+docidentifier:
+- content: Metrologia 50 2 170
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/2/170
+- content: 10.1088/0026-1394/50/2/170
   type: doi
 date:
 - type: published
-  value: '2013-04-01'
+  at: '2013-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Jackett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R G Barham
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2013-04-01'
 abstract:
-- content: Abstract<p>The calibration of laboratory standard microphones by the pressure
-    reciprocity method, as specified in IEC 61094-2, is used throughout the world
-    as the basis for primary measurement standards for sound pressure. While the method
-    has long been used to determine the magnitude of the pressure sensitivity of the
-    microphone, the phase sensitivity has until recently been overlooked, and is notable
-    by its absence in BIPM's database of CMCs. A new BIPM key comparison is therefore
-    addressing this by including phase calibration within its scope, and is the incentive
-    for a systematic evaluation of the associated measurement uncertainty. The analysis
-    presented is based on the requirements of IEC 61094-2 and makes use of modelling
-    and experimentation to determine uncertainty in phase pressure sensitivity for
-    type LS1 and type LS2 microphones. Linearity of phase measurement and stray capacitance
-    are the dominant electrical components, both acting independently of frequency.
-    The most significant acoustic components are the uncertainty in thermal diffusivity
-    at low frequencies and microphone parameter uncertainty at high frequencies. Measurement
-    repeatability is below the level of the type B evaluation for most of the frequency
-    range, but at low frequencies it dominates for both microphone types. For both
-    types of microphone the overall measurement uncertainty is estimated to be below
-    0.5° over the central frequency range.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The calibration of laboratory standard microphones by the pressure reciprocity method, as specified in IEC 61094-2, is used throughout the world as the basis for primary measurement standards for sound pressure. While the method has long been used to determine the magnitude of the pressure sensitivity of the microphone, the phase sensitivity has until recently been overlooked, and is notable by its absence in BIPM's database of CMCs. A new BIPM key comparison is therefore addressing this by including phase calibration within its scope, and is the incentive for a systematic evaluation of the associated measurement uncertainty. The analysis presented is based on the requirements of IEC 61094-2 and makes use of modelling and experimentation to determine uncertainty in phase pressure sensitivity for type LS1 and type LS2 microphones. Linearity of phase measurement and stray capacitance are the dominant electrical components, both acting independently of frequency. The most significant acoustic components are the uncertainty in thermal diffusivity at low frequencies and microphone parameter uncertainty at high frequencies. Measurement repeatability is below the level of the type B evaluation for most of the frequency range, but at low frequencies it dominates for both microphone types. For both types of microphone the overall measurement uncertainty is estimated to be below 0.5° over the central frequency range.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
     date:
     - type: ppub
-      value: '2013-04-01'
+      at: '2013-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Phase sensitivity uncertainty in microphone pressure reciprocity calibration
     date:
     - type: epub
-      value: '2013-04-02'
+      at: '2013-04-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +102,6 @@ extent:
     reference_from: '170'
     reference_to: '179'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

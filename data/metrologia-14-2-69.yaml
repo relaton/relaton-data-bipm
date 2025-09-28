@@ -1,102 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14269
-title:
-- content: Noise Thermometry in the Range 630-962°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/14/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/14/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 14 2 69
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Noise Thermometry in the Range 630-962°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/14/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/14/2/004
+docidentifier:
+- content: Metrologia 14 2 69
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/14/2/004
+- content: 10.1088/0026-1394/14/2/004
   type: doi
 date:
 - type: published
-  value: '1978-04-01'
+  at: '1978-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Crovini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Actis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Torino, Italy
-  role:
-  - type: author
-revdate: '1978-04-01'
 abstract:
-- content: "<p>A noise thermometer has been developed at IMGC and has been used to
-    realize the Thermodynamic Scale (TS). Differences between TS, as realized at IMGC,
-    and the IPTS-68 were determined in the range 630-962°C and the results are presented.</p><p>The
-    discussion of results primarily deals with the factors introducing measurement
-    uncertainties and with the comparison of noise thermometer results with those
-    of recent radiation thermometry and gas thermometry experiments.</p><p>Data fitting
-    provides the TS versus IPTS-68 differences as a continuous function of the Celsius
-    temperature in the range 630-1064°C. For this, data from monochromatic pyrometry
-    experiments are taken into account in order to cover the range from the freezing
-    point of silver to the freezing point of gold.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A noise thermometer has been developed at IMGC and has been used to realize the Thermodynamic Scale (TS). Differences between TS, as realized at IMGC, and the IPTS-68 were determined in the range 630-962°C and the results are presented.</p>
+    <p>The discussion of results primarily deals with the factors introducing measurement uncertainties and with the comparison of noise thermometer results with those of recent radiation thermometry and gas thermometry experiments.</p>
+    <p>Data fitting provides the TS versus IPTS-68 differences as a continuous function of the Celsius temperature in the range 630-1064°C. For this, data from monochromatic pyrometry experiments are taken into account in order to cover the range from the freezing point of silver to the freezing point of gold.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1978'
+- from: '1978'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Noise Thermometry in the Range 630-962°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Noise Thermometry in the Range 630-962°C
     date:
     - type: ppub
-      value: '1978-04-01'
+      at: '1978-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +87,6 @@ extent:
     reference_from: '69'
     reference_to: '78'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,179 +1,149 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S46
-title:
-- content: Evaluation of uncertainty in the adjustment of fundamental constants
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S46
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S46
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S46
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Evaluation of uncertainty in the adjustment of fundamental constants
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S46
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S46
+docidentifier:
+- content: Metrologia 53 1 S46
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S46
+- content: 10.1088/0026-1394/53/1/S46
   type: doi
 date:
 - type: published
-  value: '2016-01-27'
+  at: '2016-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olha Bodnar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Joachim Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-l2, l0587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: US Department of Commerce
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: US Department of Commerce
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: US Department of Commerce
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2016-01-27'
+        - name:
+          - language: en
+            script: Latn
+            content: US Department of Commerce
 abstract:
-- content: Abstract<p>Combining multiple measurement results for the same quantity
-    is an important task in metrology and in many other areas. Examples include the
-    determination of fundamental constants, the calculation of reference values in
-    interlaboratory comparisons, or the meta-analysis of clinical studies. However,
-    neither the GUM nor its supplements give any guidance for this task. Various approaches
-    are applied such as weighted least-squares in conjunction with the Birge ratio
-    or random effects models. While the former approach, which is based on a location-scale
-    model, is particularly popular in metrology, the latter represents a standard
-    tool used in statistics for meta-analysis. We investigate the reliability and
-    robustness of the location-scale model and the random effects model with particular
-    focus on resulting coverage or credible intervals. The interval estimates are
-    obtained by adopting a Bayesian point of view in conjunction with a non-informative
-    prior that is determined by a currently favored principle for selecting non-informative
-    priors. Both approaches are compared by applying them to simulated data as well
-    as to data for the Planck constant and the Newtonian constant of gravitation.
-    Our results suggest that the proposed Bayesian inference based on the random effects
-    model is more reliable and less sensitive to model misspecifications than the
-    approach based on the location-scale model.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Combining multiple measurement results for the same quantity is an important task in metrology and in many other areas. Examples include the determination of fundamental constants, the calculation of reference values in interlaboratory comparisons, or the meta-analysis of clinical studies. However, neither the GUM nor its supplements give any guidance for this task. Various approaches are applied such as weighted least-squares in conjunction with the Birge ratio or random effects models. While the former approach, which is based on a location-scale model, is particularly popular in metrology, the latter represents a standard tool used in statistics for meta-analysis. We investigate the reliability and robustness of the location-scale model and the random effects model with particular focus on resulting coverage or credible intervals. The interval estimates are obtained by adopting a Bayesian point of view in conjunction with a non-informative prior that is determined by a currently favored principle for selecting non-informative priors. Both approaches are compared by applying them to simulated data as well as to data for the Planck constant and the Newtonian constant of gravitation. Our results suggest that the proposed Bayesian inference based on the random effects model is more reliable and less sensitive to model misspecifications than the approach based on the location-scale model.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of uncertainty in the adjustment of fundamental constants
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluation of uncertainty in the adjustment of fundamental constants
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of uncertainty in the adjustment of fundamental constants
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Evaluation of uncertainty in the adjustment of fundamental constants
     date:
     - type: epub
-      value: '2016-01-27'
+      at: '2016-01-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -184,6 +154,6 @@ extent:
     reference_from: S46
     reference_to: S54
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

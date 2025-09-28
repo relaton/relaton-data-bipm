@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia30255
-title:
-- content: Physiological Units in the SI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 2 55
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Physiological Units in the SI
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/2/001
+docidentifier:
+- content: Metrologia 30 2 55
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/2/001
+- content: 10.1088/0026-1394/30/2/001
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R A Nelson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -40,26 +36,24 @@ contributor:
         name:
         - content: Present address, W L Pritchard & Co., Inc., 7315 Wisconsin Avenue,
             Bethesda, Maryland 20814, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Ruby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Oregon Graduate Institute of Science and Technology, Beaverton,
             Oregon 97006, USA
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: <p>A modified system of SI units is described that includes a new category
+- language: en
+  script:
+  - Latn
+  content: <p>A modified system of SI units is described that includes a new category
     of "physiological units". In this system, physiological units are a special class
     of derived units that are defined with respect to specified reference stimuli
     for the purpose of calibrating the nominal human response to external physical
@@ -68,39 +62,31 @@ abstract:
     in the modified SI the candela is classified as a physiological derived unit instead
     of as a base unit and the definition of the sievert is revised to include specification
     of the reference radiation.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Physiological Units in the SI
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Physiological Units in the SI
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: '55'
     reference_to: '60'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

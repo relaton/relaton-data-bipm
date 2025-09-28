@@ -1,149 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia543S16
-title:
-- content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
-    analysis methods using detector response factor calibration'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa6404
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa6404
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 3 S16
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
+    analysis methods using detector response factor calibration'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa6404
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa6404
+docidentifier:
+- content: Metrologia 54 3 S16
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa6404
+- content: 10.1088/1681-7575/aa6404
   type: doi
 date:
 - type: published
-  value: '2017-04-19'
+  at: '2017-04-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Blaza Toman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michael A Nelson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mary Bedner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
-  - type: author
-revdate: '2017-04-19'
 abstract:
-- content: Abstract<p>Chemical measurement methods are designed to promote accurate
-    knowledge of a measurand or system. As such, these methods often allow elicitation
-    of latent sources of variability and correlation in experimental data. They typically
-    implement measurement equations that support quantification of effects associated
-    with calibration standards and other known or observed parametric variables. Additionally,
-    multiple samples and calibrants are usually analyzed to assess accuracy of the
-    measurement procedure and repeatability by the analyst. Thus, a realistic assessment
-    of uncertainty for most chemical measurement methods is not purely bottom-up (based
-    on the measurement equation) or top-down (based on the experimental design), but
-    inherently contains elements of both. Confidence in results must be rigorously
-    evaluated for the sources of variability in all of the bottom-up and top-down
-    elements. This type of analysis presents unique challenges due to various statistical
-    correlations among the outputs of measurement equations. One approach is to use
-    a Bayesian hierarchical (BH) model which is intrinsically rigorous, thus making
-    it a straightforward method for use with complex experimental designs, particularly
-    when correlations among data are numerous and difficult to elucidate or explicitly
-    quantify. In simpler cases, careful analysis using GUM Supplement 1 (MC) methods
-    augmented with random effects meta analysis yields similar results to a full BH
-    model analysis. In this article we describe both approaches to rigorous uncertainty
-    evaluation using as examples measurements of 25-hydroxyvitamin D<sub>3</sub> in
-    solution reference materials via liquid chromatography with UV absorbance detection
-    (LC-UV) and liquid chromatography mass spectrometric detection using isotope dilution
-    (LC-IDMS).</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Chemical measurement methods are designed to promote accurate knowledge of a measurand or system. As such, these methods often allow elicitation of latent sources of variability and correlation in experimental data. They typically implement measurement equations that support quantification of effects associated with calibration standards and other known or observed parametric variables. Additionally, multiple samples and calibrants are usually analyzed to assess accuracy of the measurement procedure and repeatability by the analyst. Thus, a realistic assessment of uncertainty for most chemical measurement methods is not purely bottom-up (based on the measurement equation) or top-down (based on the experimental design), but inherently contains elements of both. Confidence in results must be rigorously evaluated for the sources of variability in all of the bottom-up and top-down elements. This type of analysis presents unique challenges due to various statistical correlations among the outputs of measurement equations. One approach is to use a Bayesian hierarchical (BH) model which is intrinsically rigorous, thus making it a straightforward method for use with complex experimental designs, particularly when correlations among data are numerous and difficult to elucidate or explicitly quantify. In simpler cases, careful analysis using GUM Supplement 1 (MC) methods augmented with random effects meta analysis yields similar results to a full BH model analysis. In this article we describe both approaches to rigorous uncertainty evaluation using as examples measurements of 25-hydroxyvitamin D<sub>3</sub> in solution reference materials via liquid chromatography with UV absorbance detection (LC-UV) and liquid chromatography mass spectrometric detection using isotope dilution (LC-IDMS).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
+    - script: Latn
+      content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
         analysis methods using detector response factor calibration'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-06-01'
+      at: '2017-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
+    - script: Latn
+      content: 'Rigorous evaluation of chemical measurement uncertainty: liquid chromatographic
         analysis methods using detector response factor calibration'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-04-19'
+      at: '2017-04-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +119,6 @@ extent:
     reference_from: S16
     reference_to: S28
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

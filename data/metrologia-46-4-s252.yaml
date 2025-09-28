@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia464S252
-title:
-- content: The impact of cooling on CCD-based camera systems in the field of image
-    luminance measuring devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/4/S23
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/4/S23
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 4 S252
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The impact of cooling on CCD-based camera systems in the field of image
+    luminance measuring devices
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/4/S23
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/4/S23
+docidentifier:
+- content: Metrologia 46 4 S252
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/4/S23
+- content: 10.1088/0026-1394/46/4/S23
   type: doi
 date:
 - type: published
-  value: '2009-06-02'
+  at: '2009-06-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Udo Krüger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: TechnoTeam Bildverarbeitung GmbH, Ilmenau, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Franz Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: TechnoTeam Bildverarbeitung GmbH, Ilmenau, Germany
-  role:
-  - type: author
-revdate: '2009-06-02'
 abstract:
-- content: "<p>From general statements made about the cooling of the CCD sensor within
+- language: en
+  script:
+  - Latn
+  content: "<p>From general statements made about the cooling of the CCD sensor within
     image luminance measuring devices (ILMD), one tends to conclude that cooling has
     an important effect on the luminance measurement results. However, this general
     statement is not valid. Based on a detailed model for the properties and the operation
@@ -67,55 +61,44 @@ abstract:
     uncertainty associated with the luminance measurement results. Normally, one can
     compensate for the little drawbacks of non-cooled systems by selecting the most
     appropriate measuring algorithms.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The impact of cooling on CCD-based camera systems in the field of image
+    - language: en
+      script: Latn
+      content: The impact of cooling on CCD-based camera systems in the field of image
         luminance measuring devices
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-06-02'
+      at: '2009-06-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The impact of cooling on CCD-based camera systems in the field of image
+    - language: en
+      script: Latn
+      content: The impact of cooling on CCD-based camera systems in the field of image
         luminance measuring devices
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-08-01'
+      at: '2009-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +109,6 @@ extent:
     reference_from: S252
     reference_to: S259
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

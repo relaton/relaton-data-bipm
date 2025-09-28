@@ -1,100 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S249
-title:
-- content: Recent advances in time and frequency measurement at NTSC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/303
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/303
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S249
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Recent advances in time and frequency measurement at NTSC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/303
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/303
+docidentifier:
+- content: Metrologia 40 3 S249
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/303
+- content: 10.1088/0026-1394/40/3/303
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shaowu Dong
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Time Service Center, Chinese Academy of Sciences, PO Box
             18, Lintong, Shaanxi 710600, People's Republic of China
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>The National Time Service Center (NTSC), Chinese Academy of Sciences,
+- language: en
+  script:
+  - Latn
+  content: "<p>The National Time Service Center (NTSC), Chinese Academy of Sciences,
     is responsible for the maintenance and development of the Chinese national timescale,
     UTC(NTSC). The main responsibilities include maintenance of UTC(NTSC), UTC(JATC)
     and the BPL long-wave and the BPM short-wave time transmission station. In this
     paper, we will mainly introduce recent advances in time and frequency measurement
     at NTSC, including the establishment of a local timescale, international time
     comparison and various time dissemination services in operation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Recent advances in time and frequency measurement at NTSC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Recent advances in time and frequency measurement at NTSC
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Recent advances in time and frequency measurement at NTSC
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Recent advances in time and frequency measurement at NTSC
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +90,6 @@ extent:
     reference_from: S249
     reference_to: S251
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

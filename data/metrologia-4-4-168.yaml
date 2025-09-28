@@ -1,92 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia44168
-title:
-- content: On a New Method of Pressure Calibration up to 10000 Bars
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/4/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/4/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 4 4 168
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On a New Method of Pressure Calibration up to 10000 Bars
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/4/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/4/4/005
+docidentifier:
+- content: Metrologia 4 4 168
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/4/4/005
+- content: 10.1088/0026-1394/4/4/005
   type: doi
 date:
 - type: published
-  value: '1968-10-01'
+  at: '1968-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Yasunami
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of High Pressures, Kobe Steel, Ltd., Kobe, Japan
-  role:
-  - type: author
-revdate: '1968-10-01'
 abstract:
-- content: "<p>Since the research by Amagat, a number of works have been reported
-    on the pressure calibration methods with a freepiston gage, by which pressures
-    were always measured under a dynamic balancing state.</p><p>The purpose of this
-    research is to develop a new method of pressure calibration with no leak and no
-    friction under a static balancing state, which enables us to obtain the best possible
-    accuracy with easy operations. For this purpose a lever-type controlled-clearance
-    piston gage has newly been designed and manufactured, taking account of such considerations
-    as adoption of a piston of large diameter (11.3 mm), detection of leak and friction,
-    and measurement of temperature at an effective area position.</p><p>The following
-    is a summary of the experimental results of this apparatus. A state of no leak
-    and no friction is easily produced with an application of the external pressure
-    calculated theoretically. The apparatus can be kept in this state for hours together
-    with the slightest temperature rise at the effective area part. It is recognized
-    that estimated limits of uncertainty of this apparatus is less than ± 1.5 × 10<sup>-4</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Since the research by Amagat, a number of works have been reported on the pressure calibration methods with a freepiston gage, by which pressures were always measured under a dynamic balancing state.</p>
+    <p>The purpose of this research is to develop a new method of pressure calibration with no leak and no friction under a static balancing state, which enables us to obtain the best possible accuracy with easy operations. For this purpose a lever-type controlled-clearance piston gage has newly been designed and manufactured, taking account of such considerations as adoption of a piston of large diameter (11.3 mm), detection of leak and friction, and measurement of temperature at an effective area position.</p>
+    <p>The following is a summary of the experimental results of this apparatus. A state of no leak and no friction is easily produced with an application of the external pressure calculated theoretically. The apparatus can be kept in this state for hours together with the slightest temperature rise at the effective area part. It is recognized that estimated limits of uncertainty of this apparatus is less than ± 1.5 × 10<sup>-4</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1968'
+- from: '1968'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On a New Method of Pressure Calibration up to 10000 Bars
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On a New Method of Pressure Calibration up to 10000 Bars
     date:
     - type: ppub
-      value: '1968-10-01'
+      at: '1968-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +75,6 @@ extent:
     reference_from: '168'
     reference_to: '177'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

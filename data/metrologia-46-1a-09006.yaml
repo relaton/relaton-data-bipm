@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461A09006
-title:
-- content: Final technical report for key comparison CCAUV.A-K2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1A/09006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1A/09006
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1A 09006
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final technical report for key comparison CCAUV.A-K2
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1A/09006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1A/09006
+docidentifier:
+- content: Metrologia 46 1A 09006
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1A/09006
+- content: 10.1088/0026-1394/46/1A/09006
   type: doi
 date:
 - type: published
-  value: '2009-01-01'
+  at: '2009-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Merita Sinojmeri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustics Laboratory, 1160, Arltgasse 35, Vienna, Austria
-  role:
-  - type: author
-revdate: '2009-01-01'
 abstract:
-- content: |-
-    <p>A low-frequency, acoustics key comparison has been conducted by the CCAUV for the first time. There were nine participants from three different regional metrology organizations, which will enable regional comparisons to be linked to this CIPM key comparison. The measurements have been analysed, a key comparison reference value evaluated and the results are presented together with their degrees of equivalence in the format compatible with publication in the BIPM key comparison database. There is reasonable agreement between all the results, within the stated uncertainties, and consistency has been demonstrated between these results and those of the CCAUV.A-K1 comparison.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A low-frequency, acoustics key comparison has been conducted by the CCAUV for the first time. There were nine participants from three different regional metrology organizations, which will enable regional comparisons to be linked to this CIPM key comparison. The measurements have been analysed, a key comparison reference value evaluated and the results are presented together with their degrees of equivalence in the format compatible with publication in the BIPM key comparison database. There is reasonable agreement between all the results, within the stated uncertainties, and consistency has been demonstrated between these results and those of the  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/40/1A/09002/">CCAUV.A-K1</ext-link> comparison.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K2/CCAUV.A-K2.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final technical report for key comparison CCAUV.A-K2
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final technical report for key comparison CCAUV.A-K2
     date:
     - type: ppub
-      value: '2009-01-01'
+      at: '2009-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +76,6 @@ extent:
     reference_from: '09006'
     reference_to: '09006'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,83 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia431A08015
-title:
-- content: 'Key comparison CCQM-K19 on pH: final report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1A/08015
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1A/08015
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1A 08015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Key comparison CCQM-K19 on pH: final report'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1A/08015
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1A/08015
+docidentifier:
+- content: Metrologia 43 1A 08015
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1A/08015
+- content: 10.1088/0026-1394/43/1A/08015
   type: doi
 date:
 - type: published
-  value: '2006-01-01'
+  at: '2006-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petra Spitzer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Bundesallee 100, 38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2006-01-01'
 abstract:
-- content: |-
-    <p>The key comparison CCQM-K19 was carried out to demonstrate the capability of the interested national metrology institutes to measure the pH value of an unknown borate buffer by a primary method. The buffer of nominal pH ~ 9.17 was measured at 15 °C, 25 °C and 37 °C. The pilot study CCQM-P82 was performed in parallel in order to allow interested laboratories, mainly newcomers in this field, to compare their capabilities to the more advanced NMI using the same batch of sample.</p><p>The comparison was an activity of the Electrochemical Working Group (EAWG) of the CCQM and was coordinated by the Physikalisch-Technische Bundesanstalt, Germany.</p><p>All participants applied the primary method for pH [1]. The result for the unknown buffer solution is the acidity function at zero chloride molality, pa<sup>0</sup>.</p><p>Good agreement of the results was observed for the majorities of participants. The Key Comparison Reference Value (KCRV) was agreed upon during the EAWG meeting in Berlin in October 2005 as the median of the reported results. Accordingly the Statements of Equivalence were calculated.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the
-    CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The key comparison CCQM-K19 was carried out to demonstrate the capability of the interested national metrology institutes to measure the pH value of an unknown borate buffer by a primary method. The buffer of nominal pH ~ 9.17 was measured at 15 °C, 25 °C and 37 °C. The pilot study CCQM-P82 was performed in parallel in order to allow interested laboratories, mainly newcomers in this field, to compare their capabilities to the more advanced NMI using the same batch of sample.</p>
+    <p>The comparison was an activity of the Electrochemical Working Group (EAWG) of the CCQM and was coordinated by the Physikalisch-Technische Bundesanstalt, Germany.</p>
+    <p>All participants applied the primary method for pH [1]. The result for the unknown buffer solution is the acidity function at zero chloride molality, p<italic>a</italic><sup>0</sup>.</p>
+    <p>Good agreement of the results was observed for the majorities of participants. The Key Comparison Reference Value (KCRV) was agreed upon during the EAWG meeting in Berlin in October 2005 as the median of the reported results. Accordingly the Statements of Equivalence were calculated.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/QM/K19/CCQM-K19.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the
+    CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Key comparison CCQM-K19 on pH: final report'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Key comparison CCQM-K19 on pH: final report'
     date:
     - type: ppub
-      value: '2006-01-01'
+      at: '2006-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +81,6 @@ extent:
     reference_from: '08015'
     reference_to: '08015'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

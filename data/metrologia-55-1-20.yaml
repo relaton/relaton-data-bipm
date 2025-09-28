@@ -1,143 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia55120
-title:
-- content: Robust Bayesian linear regression with application to an analysis of the
-    CODATA values for the Planck constant
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa98aa
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa98aa
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 20
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Robust Bayesian linear regression with application to an analysis of the
+    CODATA values for the Planck constant
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa98aa
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa98aa
+docidentifier:
+- content: Metrologia 55 1 20
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa98aa
+- content: 10.1088/1681-7575/aa98aa
   type: doi
 date:
 - type: published
-  value: '2017-12-12'
+  at: '2017-12-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gerd Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Olha Bodnar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2017-12-12'
 abstract:
-- content: 'Abstract<p>Weighted least-squares estimation is commonly applied in metrology
-    to fit models to measurements that are accompanied with quoted uncertainties.
-    The weights are chosen in dependence on the quoted uncertainties. However, when
-    data and model are inconsistent in view of the quoted uncertainties, this procedure
-    does not yield adequate results.</p><p>When it can be assumed that all uncertainties
-    ought to be rescaled by a common factor, weighted least-squares estimation may
-    still be used, provided that a simple correction of the uncertainty obtained for
-    the estimated model is applied. We show that these uncertainties and credible
-    intervals are robust, as they do not rely on the assumption of a Gaussian distribution
-    of the data. Hence, common software for weighted least-squares estimation may
-    still safely be employed in such a case, followed by a simple modification of
-    the uncertainties obtained by that software. We also provide means of checking
-    the assumptions of such an approach.</p><p>The Bayesian regression procedure is
-    applied to analyze the CODATA values for the Planck constant published over the
-    past decades in terms of three different models: a constant model, a straight
-    line model and a spline model. Our results indicate that the CODATA values may
-    not have yet stabilized.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Weighted least-squares estimation is commonly applied in metrology to fit models to measurements that are accompanied with quoted uncertainties. The weights are chosen in dependence on the quoted uncertainties. However, when data and model are inconsistent in view of the quoted uncertainties, this procedure does not yield adequate results.</p>
+    <p>When it can be assumed that all uncertainties ought to be rescaled by a common factor, weighted least-squares estimation may still be used, provided that a simple correction of the uncertainty obtained for the estimated model is applied. We show that these uncertainties and credible intervals are robust, as they do not rely on the assumption of a Gaussian distribution of the data. Hence, common software for weighted least-squares estimation may still safely be employed in such a case, followed by a simple modification of the uncertainties obtained by that software. We also provide means of checking the assumptions of such an approach.</p>
+    <p>The Bayesian regression procedure is applied to analyze the CODATA values for the Planck constant published over the past decades in terms of three different models: a constant model, a straight line model and a spline model. Our results indicate that the CODATA values may not have yet stabilized.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Robust Bayesian linear regression with application to an analysis of
+    - script: Latn
+      content: Robust Bayesian linear regression with application to an analysis of
         the CODATA values for the Planck constant
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Robust Bayesian linear regression with application to an analysis of
+    - script: Latn
+      content: Robust Bayesian linear regression with application to an analysis of
         the CODATA values for the Planck constant
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-12-12'
+      at: '2017-12-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -148,6 +121,6 @@ extent:
     reference_from: '20'
     reference_to: '28'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

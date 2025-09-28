@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia413122
-title:
-- content: On the analysis of measurement comparisons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 3 122
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the analysis of measurement comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/3/003
+docidentifier:
+- content: Metrologia 41 3 122
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/3/003
+- content: 10.1088/0026-1394/41/3/003
   type: doi
 date:
 - type: published
-  value: '2004-02-20'
+  at: '2004-02-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory, IRL, PO Box 31310, Lower Hutt,
             New Zealand
-  role:
-  - type: author
-revdate: '2004-02-20'
 abstract:
-- content: "<p>The method of constrained least squares is applied to the determination
+- language: en
+  script:
+  - Latn
+  content: "<p>The method of constrained least squares is applied to the determination
     of laboratory bias and degrees of equivalence in the analysis of measurement comparisons.
     The analysis assumes a measurement model with unknown values for all travelling
     artefacts and laboratory biases. Least-squares fitting applied to this model yields
@@ -57,53 +53,42 @@ abstract:
     multiple artefacts of varying attributes, circulated amongst multiple overlapping
     comparison loops, laboratories that provide an arbitrary number of measurements
     of one or more of the artefacts, and spectral dependence of laboratory bias.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the analysis of measurement comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the analysis of measurement comparisons
     date:
     - type: epub
-      value: '2004-02-20'
+      at: '2004-02-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the analysis of measurement comparisons
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the analysis of measurement comparisons
     date:
     - type: ppub
-      value: '2004-06-01'
+      at: '2004-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +99,6 @@ extent:
     reference_from: '122'
     reference_to: '131'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S312
-title:
-- content: The characterization of regular but unevenly spaced TWSTFT data using second-difference
-    statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/310
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/310
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S312
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The characterization of regular but unevenly spaced TWSTFT data using second-difference
+    statistics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/310
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/310
+docidentifier:
+- content: Metrologia 40 3 S312
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/310
+- content: 10.1088/0026-1394/40/3/310
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J A Davis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P M Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S L Shemar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington, Middlesex,
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>A family of second-difference statistics has been designed for use
+- language: en
+  script:
+  - Latn
+  content: "<p>A family of second-difference statistics has been designed for use
     on regular but unevenly spaced two-way satellite time and frequency transfer (TWSTFT)
     time series. The characteristics of these new statistics are compared with those
     of the Allan variance (AVAR) and modified Allan variance (MVAR). The new statistics
@@ -95,55 +85,44 @@ abstract:
     with estimates of these quantities based on an interpolated time series. Confidence
     interval determination is discussed. The application of the new variances to TWSTFT
     and geodetic GPS time transfer data is presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The characterization of regular but unevenly spaced TWSTFT data using
+    - language: en
+      script: Latn
+      content: The characterization of regular but unevenly spaced TWSTFT data using
         second-difference statistics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The characterization of regular but unevenly spaced TWSTFT data using
+    - language: en
+      script: Latn
+      content: The characterization of regular but unevenly spaced TWSTFT data using
         second-difference statistics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +133,6 @@ extent:
     reference_from: S312
     reference_to: S318
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

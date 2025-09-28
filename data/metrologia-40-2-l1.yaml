@@ -1,115 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia402L1
-title:
-- content: Evaluating degrees of equivalence using 'exclusive' statistics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/40/2/101
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/2/101
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 2 L1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evaluating degrees of equivalence using 'exclusive' statistics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/2/101
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/2/101
+docidentifier:
+- content: Metrologia 40 2 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/2/101
+- content: 10.1088/0026-1394/40/2/101
   type: doi
 date:
 - type: published
-  value: '2003-04-01'
+  at: '2003-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J T Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2003-04-01'
 abstract:
-- content: "<p>It has recently been suggested (Steele A G, Wood B M and Douglas R
-    J 2001 Metrologia 38 483–8) that it is desirable to use an approach termed `exclusive
-    statistics' to remove any correlation between the results of a laboratory and
-    the estimated Key Comparison Reference Value (KCRV). In this communication, simple
-    and general formulae are derived for the results of exclusive statistics. These
-    show that whilst there is some benefit to be gained from exclusive statistics
-    in the calculation of degrees of equivalence between individual laboratories and
-    the KCRV, it is not suitable for the calculation of degrees of equivalence between
-    pairs of laboratories.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>It has recently been suggested (Steele A G, Wood B M and Douglas R
+    J 2001 <italic>Metrologia</italic> <bold>38</bold> 483–8) that it is desirable
+    to use an approach termed `exclusive statistics' to remove any correlation between
+    the results of a laboratory and the estimated Key Comparison Reference Value (KCRV).
+    In this communication, simple and general formulae are derived for the results
+    of exclusive statistics. These show that whilst there is some benefit to be gained
+    from exclusive statistics in the calculation of degrees of equivalence between
+    individual laboratories and the KCRV, it is not suitable for the calculation of
+    degrees of equivalence between pairs of laboratories.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating degrees of equivalence using 'exclusive' statistics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Evaluating degrees of equivalence using 'exclusive' statistics
     date:
     - type: epub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluating degrees of equivalence using 'exclusive' statistics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Evaluating degrees of equivalence using 'exclusive' statistics
     date:
     - type: ppub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +103,6 @@ extent:
     reference_from: L1
     reference_to: L2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

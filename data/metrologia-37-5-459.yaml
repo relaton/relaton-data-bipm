@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375459
-title:
-- content: Radiometric calibration of charge-coupled-device video cameras
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/25
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/25
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 459
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiometric calibration of charge-coupled-device video cameras
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/25
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/25
+docidentifier:
+- content: Metrologia 37 5 459
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/25
+- content: 10.1088/0026-1394/37/5/25
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Campos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IFA-CSIC
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: <p>Charge-coupled-device (CCD) video cameras have become very important
+- language: en
+  script:
+  - Latn
+  content: <p>Charge-coupled-device (CCD) video cameras have become very important
     tools in the field of "image science", not only for their good performance as
     optical cameras but also for their ability to obtain radiometric readings of pixels.
     This paper reviews calibration procedures for these cameras, concentrating on
     the radiometric rather than other optical aspects, and proposes new calibration
     methods as a way of reducing the uncertainty of measurements made with these cameras.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometric calibration of charge-coupled-device video cameras
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiometric calibration of charge-coupled-device video cameras
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '459'
     reference_to: '464'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

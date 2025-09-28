@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia336539
-title:
-- content: International comparison of high-accuracy roundness measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/6/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/6/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 6 539
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International comparison of high-accuracy roundness measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/6/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/6/3
+docidentifier:
+- content: Metrologia 33 6 539
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/6/3
+- content: 10.1088/0026-1394/33/6/3
   type: doi
 date:
 - type: published
-  value: '1996-12-01'
+  at: '1996-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Frennberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SP, IMGC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Sacconi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SP, IMGC
-  role:
-  - type: author
-revdate: '1996-12-01'
 abstract:
-- content: "<p>An international comparison of roundness measurements at the highest
+- language: en
+  script:
+  - Latn
+  content: "<p>An international comparison of roundness measurements at the highest
     level of accuracy has been carried out between eight European laboratories. Three
     roundness standards with different designs and roundness deviations were measured.
     One standard was a commercially available type, two standards were developed for
     the purpose of this comparison. The agreement between the laboratories was within
     ±20 nm for the standard with the smallest roundness deviation. The comparison
     was sponsored by the Commission of the European Communities.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International comparison of high-accuracy roundness measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International comparison of high-accuracy roundness measurements
     date:
     - type: ppub
-      value: '1996-12-01'
+      at: '1996-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '539'
     reference_to: '544'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

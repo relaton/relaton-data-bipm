@@ -1,172 +1,139 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5011
-title:
-- content: The self-attraction correction for the FG5X absolute gravity meter
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 1 1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The self-attraction correction for the FG5X absolute gravity meter
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1/1
+docidentifier:
+- content: Metrologia 50 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1/1
+- content: 10.1088/0026-1394/50/1/1
   type: doi
 date:
 - type: published
-  value: '2012-12-04'
+  at: '2012-12-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M Niebauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ryan Billson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aaron Schiel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Derek van Westrum
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fred Klopping
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
         name:
         - content: Micro-g LaCoste Inc.
-        contact:
-        - address:
-            formatted_address: 1401 Horizon Avenue, Lafayette, CO 80026, USA
-  role:
-  - type: author
-revdate: '2012-12-04'
 abstract:
-- content: Abstract<p>The gravitational attraction of the body of a gravity meter
-    upon its own proof mass is sometimes called the self-attraction. The self-attraction
-    is a source of systematic error for absolute measurements of g, the acceleration
-    of an object due to Earth's gravity. While the effect is typically small—of the
-    order of one part per billion of the Earth's gravitational attraction—it is significant
-    at the current level of accuracy of absolute gravity meters. In the past, a self-attraction
-    correction for the FG5 gravity meter has been estimated by considering a rather
-    coarse description of the instrument using simple geometrical shapes (spheres
-    and cylinders). This paper describes a more complete calculation using a CAD-based
-    digitized model of the newest FG5X instrument. We have also included the attraction
-    of the co-moving drag-free chamber as well as the self-attraction of the counterweights
-    used in the FG5X to reduce recoil. The results are also applicable to older style
-    FG5 instruments with a fibre-optic interferometer base. The correction found with
-    this new approach agrees with previous estimates but is now based upon a more
-    complete and accurate model.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The gravitational attraction of the body of a gravity meter upon its own proof mass is sometimes called the self-attraction. The self-attraction is a source of systematic error for absolute measurements of <italic>g</italic>, the acceleration of an object due to Earth's gravity. While the effect is typically small—of the order of one part per billion of the Earth's gravitational attraction—it is significant at the current level of accuracy of absolute gravity meters. In the past, a self-attraction correction for the FG5 gravity meter has been estimated by considering a rather coarse description of the instrument using simple geometrical shapes (spheres and cylinders). This paper describes a more complete calculation using a CAD-based digitized model of the newest FG5X instrument. We have also included the attraction of the co-moving drag-free chamber as well as the self-attraction of the counterweights used in the FG5X to reduce recoil. The results are also applicable to older style FG5 instruments with a fibre-optic interferometer base. The correction found with this new approach agrees with previous estimates but is now based upon a more complete and accurate model.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The self-attraction correction for the FG5X absolute gravity meter
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The self-attraction correction for the FG5X absolute gravity meter
     date:
     - type: ppub
-      value: '2013-02-01'
+      at: '2013-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The self-attraction correction for the FG5X absolute gravity meter
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The self-attraction correction for the FG5X absolute gravity meter
     date:
     - type: epub
-      value: '2012-12-04'
+      at: '2012-12-04'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -177,6 +144,6 @@ extent:
     reference_from: '1'
     reference_to: '8'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

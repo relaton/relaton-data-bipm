@@ -1,92 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia273117
-title:
-- content: Electron and Fine-Structure Constant
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 3 117
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electron and Fine-Structure Constant
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/3/002
+docidentifier:
+- content: Metrologia 27 3 117
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/3/002
+- content: 10.1088/0026-1394/27/3/002
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Schönfeld
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Amt für Standardisierung, Meßwesen und Warenprüfung der DDR (ASMW),
             Fachabteilung Ionisierende Strahlung, Fürstenwalder Damm 388, DDR-1162
             Berlin, German Democratic Republic
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Electromagnetic contributions to the observed rest mass m<sub>o</sub>
+- language: en
+  script:
+  - Latn
+  content: "<p>Electromagnetic contributions to the observed rest mass <italic>m</italic><sub>o</sub>
     of the electron are calculated based on a wave picture of the macroscopically
     resting electron. The polarization of the vacuum is included in the calculation,
     assuming the permeability and permittivity of the vacuum, outside the electron,
     to depend on the distance to the electron. An analysis of the inner energy transport
     of the electron yields for the fine-structure constant α the relation α<sup>-1</sup>
-    = π<sup>4</sup> √2 (m<sub>m</sub>/m<sub>o</sub>), where m<sub>m</sub> is the mechanical
-    part of m<sub>o</sub>. With the value calculated for m<sub>o</sub>/m<sub>m</sub>,
+    = π<sup>4</sup> √2 (<italic>m</italic><sub>m</sub>/<italic>m</italic><sub>o</sub>),
+    where <italic>m</italic><sub>m</sub> is the mechanical part of <italic>m</italic><sub>o</sub>.
+    With the value calculated for <italic>m</italic><sub>o</sub>/<italic>m</italic><sub>m</sub>,
     an improved theoretical value for α is deduced. The new result α<sup>-1</sup>
     = 137,0360266(8) is compared with the results of experimental determinations.
     It is found to be in agreement with Samuel's computation of the anomalous magnetic
     moment of the electron, but to disagree with that of Kinoshita.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Electron and Fine-Structure Constant
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Electron and Fine-Structure Constant
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +86,6 @@ extent:
     reference_from: '117'
     reference_to: '125'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia274245
-title:
-- content: The Density of Mercury
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/4/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/4/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 4 245
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Density of Mercury
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/4/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/4/008
+docidentifier:
+- content: Metrologia 27 4 245
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/4/008
+- content: 10.1088/0026-1394/27/4/008
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Ambrose
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Chemistry, University College London, 20 Gordon Street,
             London WC1H OAJ, UK
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Mercury is used as a manometric fluid and as a confining fluid in thermodynamic
+- language: en
+  script:
+  - Latn
+  content: "<p>Mercury is used as a manometric fluid and as a confining fluid in thermodynamic
     investigations, for which purposes its density and the dependence of its density
     on temperature must be known. The values are affected by changes in the temperature
     scale and have been recalculated on ITS-90.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Density of Mercury
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Density of Mercury
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '245'
     reference_to: '247'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

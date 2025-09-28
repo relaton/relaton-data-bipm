@@ -1,220 +1,190 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532805
-title:
-- content: An analytical algorithm for 3D magnetic field mapping of a watt balance
-    magnet
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/805
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/805
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 805
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An analytical algorithm for 3D magnetic field mapping of a watt balance
+    magnet
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/805
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/805
+docidentifier:
+- content: Metrologia 53 2 805
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/805
+- content: 10.1088/0026-1394/53/2/805
   type: doi
 date:
 - type: published
-  value: '2016-02-10'
+  at: '2016-02-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhuang Fu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People’s Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Department of Electrical Engineering
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People’s Republic of China
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering
     - organization:
+        address:
+        - formatted_address: Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhonghua Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhengkun Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wei Zhao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People’s Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Department of Electrical Engineering
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bing Han
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yunfeng Lu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shisong Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People’s Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Department of Electrical Engineering
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People’s Republic of China
-  role:
-  - type: author
-revdate: '2016-02-10'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering
 abstract:
-- content: Abstract<p>A yoke-based permanent magnet, which has been employed in many
-    watt balances at national metrology institutes, is supposed to generate strong
-    and uniform magnetic field in an air gap in the radial direction. However, in
-    reality the fringe effect due to the finite height of the air gap will introduce
-    an undesired vertical magnetic component to the air gap, which should either be
-    measured or modeled towards some optimizations of the watt balance. A recent publication,
-    i.e. Li et al (2015 Metrologia 52 445), presented a full field mapping method,
-    which in theory will supply useful information for profile characterization and
-    misalignment analysis. This article is an additional material of Li et al (2015
-    Metrologia 52 445), which develops a different analytical algorithm to represent
-    the 3D magnetic field of a watt balance magnet based on only one measurement for
-    the radial magnetic flux density along the vertical direction, B<sub>r</sub>(z).
-    The new algorithm is based on the electromagnetic nature of the magnet, which
-    has a much better accuracy.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A yoke-based permanent magnet, which has been employed in many watt balances at national metrology institutes, is supposed to generate strong and uniform magnetic field in an air gap in the radial direction. However, in reality the fringe effect due to the finite height of the air gap will introduce an undesired vertical magnetic component to the air gap, which should either be measured or modeled towards some optimizations of the watt balance. A recent publication, i.e. Li <italic>et al</italic> (2015 <italic>Metrologia</italic> <bold>52</bold> 445), presented a full field mapping method, which in theory will supply useful information for profile characterization and misalignment analysis. This article is an additional material of Li <italic>et al</italic> (2015 <italic>Metrologia</italic> <bold>52</bold> 445), which develops a different analytical algorithm to represent the 3D magnetic field of a watt balance magnet based on only one measurement for the radial magnetic flux density along the vertical direction, <italic>B</italic><sub><italic>r</italic></sub>(<italic>z</italic>). The new algorithm is based on the electromagnetic nature of the magnet, which has a much better accuracy.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An analytical algorithm for 3D magnetic field mapping of a watt balance
+    - script: Latn
+      content: An analytical algorithm for 3D magnetic field mapping of a watt balance
         magnet
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An analytical algorithm for 3D magnetic field mapping of a watt balance
+    - script: Latn
+      content: An analytical algorithm for 3D magnetic field mapping of a watt balance
         magnet
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-02-10'
+      at: '2016-02-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -225,6 +195,6 @@ extent:
     reference_from: '805'
     reference_to: '816'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

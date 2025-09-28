@@ -1,151 +1,122 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465489
-title:
-- content: Primary phase calibration of laser-vibrometers with a single laser source
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 489
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Primary phase calibration of laser-vibrometers with a single laser source
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/013
+docidentifier:
+- content: Metrologia 46 5 489
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/013
+- content: 10.1088/0026-1394/46/5/013
   type: doi
 date:
 - type: published
-  value: '2009-07-16'
+  at: '2009-07-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Blume
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Täubner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Göbel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Th Bruns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '2009-07-16'
 abstract:
-- content: "<p>A set-up for the calibration of a heterodyne laser-vibrometer is described.
-    By a distinctive optical set-up it is possible to use the laser of the device
-    under test as the single source for the calibration device. In this way many difficulties
-    of the optical adjustment usually encountered in set-ups for laser-vibrometer
-    calibration are avoided and exceptionally low measurement uncertainties are achieved.</p><p>This
-    article describes the set-up for the case of a commercially available device which
-    is additionally modified to provide the means for primary traceability. The measurement
-    results are discussed for the analogue output usually used in industrial applications
-    as well as for the output of the photodetector signal, which is used if the device
-    is part of a primary calibration system. Special attention is given to the provisions
-    necessary to achieve low measurement uncertainties.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A set-up for the calibration of a heterodyne laser-vibrometer is described. By a distinctive optical set-up it is possible to use the laser of the device under test as the single source for the calibration device. In this way many difficulties of the optical adjustment usually encountered in set-ups for laser-vibrometer calibration are avoided and exceptionally low measurement uncertainties are achieved.</p>
+    <p>This article describes the set-up for the case of a commercially available device which is additionally modified to provide the means for primary traceability. The measurement results are discussed for the analogue output usually used in industrial applications as well as for the output of the photodetector signal, which is used if the device is part of a primary calibration system. Special attention is given to the provisions necessary to achieve low measurement uncertainties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary phase calibration of laser-vibrometers with a single laser
+    - language: en
+      script: Latn
+      content: Primary phase calibration of laser-vibrometers with a single laser
         source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-07-16'
+      at: '2009-07-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary phase calibration of laser-vibrometers with a single laser
+    - language: en
+      script: Latn
+      content: Primary phase calibration of laser-vibrometers with a single laser
         source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +127,6 @@ extent:
     reference_from: '489'
     reference_to: '495'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

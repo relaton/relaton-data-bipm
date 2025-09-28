@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2123
-title:
-- content: Measurement of Radioactive Disintegration Rate by the Coincidence Method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 1 23
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of Radioactive Disintegration Rate by the Coincidence Method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/1/006
+docidentifier:
+- content: Metrologia 2 1 23
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/1/006
+- content: 10.1088/0026-1394/2/1/006
   type: doi
 date:
 - type: published
-  value: '1966-01-01'
+  at: '1966-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A P Baerg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1966-01-01'
 abstract:
-- content: "<p>The principles of radioactive disintegration rate measurement by the
+- language: en
+  script:
+  - Latn
+  content: "<p>The principles of radioactive disintegration rate measurement by the
     coincidence method are reviewed. It is shown that the basic equations for complex
     decay can be translated into formulae suitable for deducing absolute rates from
     observed counting data without requiring any knowledge of the decay scheme constants.
     The formulae are generally valid for β–γ emitters under conditions attainable
     in practical 4πβ–γ coincidence systems. Currently used techniques and various
     factors which influence the accuracy of measurement are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of Radioactive Disintegration Rate by the Coincidence Method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Measurement of Radioactive Disintegration Rate by the Coincidence Method
     date:
     - type: ppub
-      value: '1966-01-01'
+      at: '1966-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '23'
     reference_to: '32'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

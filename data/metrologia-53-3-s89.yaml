@@ -1,144 +1,131 @@
 ---
-schema-version: v1.2.9
-id: Metrologia533S89
-title:
-- content: Detecting atomic clock frequency trends using an optimal stopping method
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/S89
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/S89
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 S89
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Detecting atomic clock frequency trends using an optimal stopping method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/S89
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/S89
+docidentifier:
+- content: Metrologia 53 3 S89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/S89
+- content: 10.1088/0026-1394/53/3/S89
   type: doi
 date:
 - type: published
-  value: '2016-05-20'
+  at: '2016-05-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Zucca
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Via Carlo Alberto 10, 10123 Turin, Italy
         name:
         - content: University of Torino
         subdivision:
-        - content: Department of Mathematics ‘G. Peano
-        contact:
-        - address:
-            formatted_address: Via Carlo Alberto 10, 10123 Turin, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mathematics ‘G. Peano
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Peskir
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oxford Road, Manchester M13 9PL, UK
         name:
         - content: The University of Manchester
         subdivision:
-        - content: School of Mathematics
-        contact:
-        - address:
-            formatted_address: Oxford Road, Manchester M13 9PL, UK
-  role:
-  - type: author
-revdate: '2016-05-20'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Mathematics
 abstract:
-- content: Abstract<p>We consider the problem of rapid detection of anomalies in atomic
-    clocks. We assume that the clock error evolution can be modeled by a Wiener process
-    with a drift changing from 0 to μ≠0 at some random unobservable time θ and we
-    approach the problem by applying the quickest detection method. We describe the
-    scope and the limits of the method and we apply it to clock experimental data.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We consider the problem of rapid detection of anomalies in atomic clocks. We assume that the clock error evolution can be modeled by a Wiener process with a drift changing from 0 to <inline-formula><tex-math><?CDATA ${\rm{\mu}}\ne 0$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:mi mathvariant="normal">μ</mml:mi><mml:mo>≠</mml:mo><mml:mn>0</mml:mn></mml:mstyle></mml:math><inline-graphic xlink:href="metaa1df6ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> at some random unobservable time <italic>θ</italic> and we approach the problem by applying the quickest detection method. We describe the scope and the limits of the method and we apply it to clock experimental data.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detecting atomic clock frequency trends using an optimal stopping method
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Detecting atomic clock frequency trends using an optimal stopping method
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detecting atomic clock frequency trends using an optimal stopping method
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Detecting atomic clock frequency trends using an optimal stopping method
     date:
     - type: epub
-      value: '2016-05-20'
+      at: '2016-05-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Detecting atomic clock frequency trends using an optimal stopping method
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Detecting atomic clock frequency trends using an optimal stopping method
     date:
     - type: open-access
-      value: '2016-05-20'
+      at: '2016-05-20'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +136,6 @@ extent:
     reference_from: S89
     reference_to: S95
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia12257
-title:
-- content: Über den Einfluß der Beugung auf die interferentielle Längenmessung
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 2 57
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Über den Einfluß der Beugung auf die interferentielle Längenmessung
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/2/003
+docidentifier:
+- content: Metrologia 12 2 57
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/2/003
+- content: 10.1088/0026-1394/12/2/003
   type: doi
 date:
 - type: published
-  value: '1976-04-01'
+  at: '1976-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Dorenwendt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Bundesrepublik
             Deutschland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Bönsch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Bundesrepublik
             Deutschland
-  role:
-  - type: author
-revdate: '1976-04-01'
 abstract:
-- content: "<p>In interferometry ideal plane or spherical waves are supposed to propagate
+- language: en
+  script:
+  - Latn
+  content: "<p>In interferometry ideal plane or spherical waves are supposed to propagate
     between the reflecting surfaces. Diffraction effects however, due to the finite
     diameter of the beams, cause distortions of the wavefronts, changing fringe position
     and contrast of the interference pattern. Corrections for length measurements
@@ -65,39 +59,31 @@ abstract:
     determined by a precision length measurement in a Michelson interferometer with
     a beam diameter of 25 mm and a path difference of 400 mm a correction of Δλ/λ
     = 5.10<sup>-9</sup> was found.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Über den Einfluß der Beugung auf die interferentielle Längenmessung
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
+    - language: de
+      script: Latn
+      content: Über den Einfluß der Beugung auf die interferentielle Längenmessung
     date:
     - type: ppub
-      value: '1976-04-01'
+      at: '1976-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: '57'
     reference_to: '60'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

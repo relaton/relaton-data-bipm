@@ -1,95 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia494L17
-title:
-- content: On the structure of the New SI definitions of base units
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/4/L17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/4/L17
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 4 L17
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the structure of the New SI definitions of base units
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/4/L17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/4/L17
+docidentifier:
+- content: Metrologia 49 4 L17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/4/L17
+- content: 10.1088/0026-1394/49/4/L17
   type: doi
 date:
 - type: published
-  value: '2012-06-27'
+  at: '2012-06-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W T Chyla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 22, 00-975 Warszawa 12, Poland
         name:
         - content: Applied Science Enterprise
-        contact:
-        - address:
-            formatted_address: PO Box 22, 00-975 Warszawa 12, Poland
-  role:
-  - type: author
-revdate: '2012-06-27'
 abstract:
-- content: Abstract<p>This letter examines the structure of draft definitions of the
-    New SI base units, which are posted on the BIPM website. It is argued that the
-    new definitions of base units should be free from references to derived units
-    and should not comprise conditional phrases; names of base units should be clearly
-    distinguished from their symbols. To alleviate the identified problems, relevant
-    modifications of the draft definitions are proposed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This letter examines the structure of draft definitions of the New SI base units, which are posted on the BIPM website. It is argued that the new definitions of base units should be free from references to derived units and should not comprise conditional phrases; names of base units should be clearly distinguished from their symbols. To alleviate the identified problems, relevant modifications of the draft definitions are proposed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the structure of the New SI definitions of base units
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the structure of the New SI definitions of base units
     date:
     - type: ppub
-      value: '2012-08-01'
+      at: '2012-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the structure of the New SI definitions of base units
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On the structure of the New SI definitions of base units
     date:
     - type: epub
-      value: '2012-06-27'
+      at: '2012-06-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: L17
     reference_to: L19
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

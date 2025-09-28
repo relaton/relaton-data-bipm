@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia262127
-title:
-- content: An Interferometric Method to Measure Oscillatory Displacements, 2 nm -
-    255 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 127
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Interferometric Method to Measure Oscillatory Displacements, 2 nm -
+    255 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/007
+docidentifier:
+- content: Metrologia 26 2 127
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/007
+- content: 10.1088/0026-1394/26/2/007
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N H Clark
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>A method is described for measuring oscillatory displacements in the
+- language: en
+  script:
+  - Latn
+  content: "<p>A method is described for measuring oscillatory displacements in the
     range 2 nm to 255 nm, using a laser interferometer. The reference mirror is moved
     at a constant velocity, modulating the photoelectric signal at 130 Hz. The modulated
     signal is digitally sampled over a prescribed interval, and a Fast Fourier Transform
@@ -52,40 +48,32 @@ abstract:
     of accelerometers at high frequencies. The latter is shown to have accuracy comparable
     to that of methods which establish discrete amplitudes by reference to zeros of
     Bessel functions.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Interferometric Method to Measure Oscillatory Displacements, 2 nm
+    - language: en
+      script: Latn
+      content: An Interferometric Method to Measure Oscillatory Displacements, 2 nm
         - 255 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '127'
     reference_to: '131'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

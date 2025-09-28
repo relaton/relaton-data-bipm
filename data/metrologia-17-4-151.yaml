@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia174151
-title:
-- content: Report on the Second International Conference on Precision Measurement
-    and Fundamental Constants
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 4 151
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report on the Second International Conference on Precision Measurement
+    and Fundamental Constants
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/4/005
+docidentifier:
+- content: Metrologia 17 4 151
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/4/005
+- content: 10.1088/0026-1394/17/4/005
   type: doi
 date:
 - type: published
-  value: '1981-10-01'
+  at: '1981-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B W Petley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1981-10-01'
 abstract:
-- content: "<p>This is a report on the second International Conference on Precision
+- language: en
+  script:
+  - Latn
+  content: "<p>This is a report on the second International Conference on Precision
     Measurement and Fundamental Constants which was held at the National Bureau of
     Standards, Gaithersburg, Maryland, USA, June 8-12, 1981. The bulk of the report
     is devoted to a summary by topic of the major aspects of the Conference. It also
     includes a brief discussion of the organizational details including the Conference
     sponsors, and the publication of the Conference Proceedings.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report on the Second International Conference on Precision Measurement
+    - language: en
+      script: Latn
+      content: Report on the Second International Conference on Precision Measurement
         and Fundamental Constants
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1981-10-01'
+      at: '1981-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '151'
     reference_to: '155'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia374269
-title:
-- content: Cryogenic radiometer facility of the CENAM and first international comparison
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/4/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/4/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 4 269
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Cryogenic radiometer facility of the CENAM and first international comparison
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/4/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/4/1
+docidentifier:
+- content: Metrologia 37 4 269
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/4/1
+- content: 10.1088/0026-1394/37/4/1
   type: doi
 date:
 - type: published
-  value: '2000-08-01'
+  at: '2000-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J G Suarez Romero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Galvan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CENAM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Schmid
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CENAM
-  role:
-  - type: author
-revdate: '2000-08-01'
 abstract:
-- content: "<p>A new modern cryogenic radiometer facility has recently been installed
+- language: en
+  script:
+  - Latn
+  content: "<p>A new modern cryogenic radiometer facility has recently been installed
     at the Centro National de Metrologia (CENAM), Querétaro, Mexico. The radiometer
     head is a CryoRad II (CRI Inc., Boston, USA). In a specially designed laboratory
     with clean-room atmosphere, the facility is now ready for calibrations of detectors
@@ -110,40 +98,32 @@ abstract:
     showed a relative difference of 7 × 10<sup>-5</sup> or even less. The PTB calibrations
     are based on a modified LaseRad II (CRI) radiometer that has been compared with
     cryogenic radiometers of other types and from other national metrology institutes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Cryogenic radiometer facility of the CENAM and first international
+    - language: en
+      script: Latn
+      content: Cryogenic radiometer facility of the CENAM and first international
         comparison
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-08-01'
+      at: '2000-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +134,6 @@ extent:
     reference_from: '269'
     reference_to: '271'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

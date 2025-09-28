@@ -1,204 +1,167 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015002
-title:
-- content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
-    application guidance'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaeeba
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaeeba
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
+    application guidance'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaeeba
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaeeba
+docidentifier:
+- content: Metrologia 56 1 015002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaeeba
+- content: 10.1088/1681-7575/aaeeba
   type: doi
 date:
 - type: published
-  value: '2018-11-30'
+  at: '2018-11-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Trevor Esward
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sascha Eichstädt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas Bruns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Davis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington TW11 0LW, United Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2018-11-30'
 abstract:
-- content: Abstract<p>Recently several European National Measurement Institutes have
-    established traceable calibration methods for dynamic mechanical quantities, e.g.
-    dynamic force, torque and pressure. However, the use in industry and elsewhere
-    of dynamic calibration information provided on certificates is not straightforward.
-    Typically it is necessary to employ deconvolution techniques to obtain estimates
-    of measurands, and the deconvolution method itself and the associated algorithms
-    are sources of uncertainty that must be included in uncertainty budgets. There
-    is a need for practical guidance for end users on how to use the newly-available
-    dynamic calibration information. To this end we set out an approach to the evaluation
-    of uncertainties associated with dynamic measurements that we believe covers the
-    most relevant cases. The methods have been embodied in publicly-available software
-    and we show how they can be used to tackle some example problems. We believe that
-    the methods lead to more reliable estimates of the relevant measurands and their
-    associated uncertainties.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Recently several European National Measurement Institutes have established traceable calibration methods for dynamic mechanical quantities, e.g. dynamic force, torque and pressure. However, the use in industry and elsewhere of dynamic calibration information provided on certificates is not straightforward. Typically it is necessary to employ deconvolution techniques to obtain estimates of measurands, and the deconvolution method itself and the associated algorithms are sources of uncertainty that must be included in uncertainty budgets. There is a need for practical guidance for end users on how to use the newly-available dynamic calibration information. To this end we set out an approach to the evaluation of uncertainties associated with dynamic measurements that we believe covers the most relevant cases. The methods have been embodied in publicly-available software and we show how they can be used to tackle some example problems. We believe that the methods lead to more reliable estimates of the relevant measurands and their associated uncertainties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
+    - script: Latn
+      content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
         application guidance'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
+    - script: Latn
+      content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
         application guidance'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-11-30'
+      at: '2018-11-30'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
+    - script: Latn
+      content: 'Estimating dynamic mechanical quantities and their associated uncertainties:
         application guidance'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2018-11-30'
+      at: '2018-11-30'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -206,6 +169,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

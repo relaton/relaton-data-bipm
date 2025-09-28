@@ -1,59 +1,51 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324330
-title:
-- content: ICRM'97, Biennial conference, 19-23 May 1997, National Institute of Standards
-    and Technology, Gaithersburg, Maryland, USA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 330
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: ICRM'97, Biennial conference, 19-23 May 1997, National Institute of Standards
+    and Technology, Gaithersburg, Maryland, USA
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/19
+docidentifier:
+- content: Metrologia 32 4 330
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/19
+- content: 10.1088/0026-1394/32/4/19
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
-revdate: '1995-08-01'
+  at: '1995-08-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: ICRM'97, Biennial conference, 19-23 May 1997, National Institute of
+    - language: en
+      script: Latn
+      content: ICRM'97, Biennial conference, 19-23 May 1997, National Institute of
         Standards and Technology, Gaithersburg, Maryland, USA
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -64,6 +56,6 @@ extent:
     reference_from: '330'
     reference_to: '330'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

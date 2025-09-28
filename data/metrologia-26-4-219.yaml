@@ -1,68 +1,60 @@
 ---
-schema-version: v1.2.9
-id: Metrologia264219
-title:
-- content: Non-Linear Analysis of the Elastic Behaviour of a Translation Device for
-    X-Ray Interferometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 4 219
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Non-Linear Analysis of the Elastic Behaviour of a Translation Device for
+    X-Ray Interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/4/002
+docidentifier:
+- content: Metrologia 26 4 219
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/4/002
+- content: 10.1088/0026-1394/26/4/002
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", strada delle Cacce 73, I-10135
             Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Vattaneo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Fisica Generale "A Avogadro", Università di Torino,
             v. P. Giuria 1, I-10125 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Zosi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -72,11 +64,11 @@ contributor:
         name:
         - content: Istituto di Fisica Generale "A Avogadro", Università di Torino,
             v. P. Giuria 1, I-10125 Torino, Italy
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>A tridimensional, non-linear, finite-element analysis, supplementing
+- language: en
+  script:
+  - Latn
+  content: "<p>A tridimensional, non-linear, finite-element analysis, supplementing
     a previous bidimensional linear analysis, was applied to characterize the performance
     of a zerodur translation device for X-ray fringe scanning. The effects of errors
     deriving from machining tolerances or of parasitic force components are taken
@@ -84,40 +76,32 @@ abstract:
     reduced to less than 1 nrad over a displacement of 120 μm, obtained with a driving
     force of about 1 N. Each point of the upper platform moves in the vertical plane
     along an almost circular trajectory.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Non-Linear Analysis of the Elastic Behaviour of a Translation Device
+    - language: en
+      script: Latn
+      content: Non-Linear Analysis of the Elastic Behaviour of a Translation Device
         for X-Ray Interferometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +112,6 @@ extent:
     reference_from: '219'
     reference_to: '227'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

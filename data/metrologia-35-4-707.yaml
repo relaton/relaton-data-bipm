@@ -1,116 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354707
-title:
-- content: 'Solar spectral irradiance measurements: visible to near-infrared regions'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/82
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/82
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 707
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Solar spectral irradiance measurements: visible to near-infrared regions'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/82
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/82
+docidentifier:
+- content: Metrologia 35 4 707
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/82
+- content: 10.1088/0026-1394/35/4/82
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rottman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mount
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Lawrence
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Harder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Tournois
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Colorado, Washington State Univ., Univ. Paris XI
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>A spaceborne spectral irradiance monitor (SIM) is being developed at
+- language: en
+  script:
+  - Latn
+  content: "<p>A spaceborne spectral irradiance monitor (SIM) is being developed at
     the Laboratory for Atmospheric and Space Physics, University of Colorado, to measure
     solar spectral irradiance and its variation for the NASA Earth Observing System
     (EOS) SOLar STellar Irradiance Comparison Experiment (SOLSTICE). The SIM consists
@@ -127,39 +113,31 @@ abstract:
     light to the other spectrometer. Visible and infrared photodiodes on a flip-arm
     measure the ratio of the beam into and out of the prism, thus measuring the prism
     transmission as a function of wavelength.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Solar spectral irradiance measurements: visible to near-infrared regions'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Solar spectral irradiance measurements: visible to near-infrared regions'
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +148,6 @@ extent:
     reference_from: '707'
     reference_to: '712'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

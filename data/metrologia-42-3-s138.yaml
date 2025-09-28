@@ -1,51 +1,45 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S138
-title:
-- content: 'Relativistic theory for time comparisons: a review'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S14
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S14
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S138
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Relativistic theory for time comparisons: a review'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S14
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S14
+docidentifier:
+- content: Metrologia 42 3 S138
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S14
+- content: 10.1088/0026-1394/42/3/S14
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gérard Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Wolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -54,11 +48,11 @@ contributor:
         name:
         - content: SYRTE, Observatoire de Paris, 61 av. de l'Observatoire, F-75014
             Paris, France
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>Soon after the advent of atomic clocks 50 years ago, their unprecedented
+- language: en
+  script:
+  - Latn
+  content: "<p>Soon after the advent of atomic clocks 50 years ago, their unprecedented
     uncertainties and their widespread use required that the definition of time scales
     and clock comparison procedures be considered rigorously within the theoretical
     framework of general relativity. We review the present procedures and show that
@@ -66,53 +60,42 @@ abstract:
     transfer techniques. Accounting for the expected improvements in clock and time
     transfer technology, we investigate some possible implications in relation to
     the relativistic models.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Relativistic theory for time comparisons: a review'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Relativistic theory for time comparisons: a review'
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Relativistic theory for time comparisons: a review'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Relativistic theory for time comparisons: a review'
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: S138
     reference_to: S144
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

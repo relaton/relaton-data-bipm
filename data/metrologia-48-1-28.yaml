@@ -1,39 +1,35 @@
 ---
-schema-version: v1.2.9
-id: Metrologia48128
+type: article
+schema_version: v1.4.1
 title:
-- content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and the
+- language: en
+  script: Latn
+  content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and the
     GWR-C026 superconducting gravimeter in Strasbourg (France) using a 300-day time
     series
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/1/003
-  type: doi
-type: article
-docid:
-- id: Metrologia 48 1 28
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/1/003
+docidentifier:
+- content: Metrologia 48 1 28
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/1/003
+- content: 10.1088/0026-1394/48/1/003
   type: doi
 date:
 - type: published
-  value: '2011-01-11'
+  at: '2011-01-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Riccardi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -43,41 +39,37 @@ contributor:
         name:
         - content: Institut de Physique du Globe de Strasbourg, UMR 7516 CNRS/UdS,
             5 rue René Descartes, 67084 Strasbourg-Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Rosat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut de Physique du Globe de Strasbourg, UMR 7516 CNRS/UdS,
             5 rue René Descartes, 67084 Strasbourg-Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hinderer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut de Physique du Globe de Strasbourg, UMR 7516 CNRS/UdS,
             5 rue René Descartes, 67084 Strasbourg-Cedex, France
-  role:
-  - type: author
-revdate: '2011-01-11'
 abstract:
-- content: "<p>We report on the results of a comparative analysis carried out on more
+- language: en
+  script:
+  - Latn
+  content: "<p>We report on the results of a comparative analysis carried out on more
     than ten months of co-located records collected at the J9 gravity station in Strasbourg
     (France) with a new generation spring gravimeter, the Micro-g LaCoste, Inc. gPhone-054
     and the GWR-C026 superconducting gravimeter (SG-C026). The gPhone is essentially
@@ -102,59 +94,51 @@ abstract:
     at periods ranging from 1 h to 6 h, the gPhone-054 is about 3 times noisier than
     the SG-C026 but performs slightly better than the Scintrex CG5 in terms of noise
     level and precision.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and
+    - language: en
+      script: Latn
+      content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and
         the GWR-C026 superconducting gravimeter in Strasbourg (France) using a 300-day
         time series
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-01-11'
+      at: '2011-01-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and
+    - language: en
+      script: Latn
+      content: Comparison of the Micro-g LaCoste gPhone-054 spring gravimeter and
         the GWR-C026 superconducting gravimeter in Strasbourg (France) using a 300-day
         time series
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-02-01'
+      at: '2011-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -165,6 +149,6 @@ extent:
     reference_from: '28'
     reference_to: '39'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

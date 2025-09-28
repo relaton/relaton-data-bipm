@@ -1,99 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia84129
-title:
-- content: A New NPL Determination of 2e/h
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/8/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 4 129
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A New NPL Determination of 2<italic>e/h</italic>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/4/001
+docidentifier:
+- content: Metrologia 8 4 129
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/4/001
+- content: 10.1088/0026-1394/8/4/001
   type: doi
 date:
 - type: published
-  value: '1972-10-01'
+  at: '1972-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Gallop
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B W Petley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1972-10-01'
 abstract:
-- content: "<p>The lastest NPL determinations of 2e/h using the ac Josephson effect
-    are reported, with emphasis on the improvements made over earlier measurements.
-    The precision of the experiment is such that it should be regarded as a means
-    of monitoring the national maintained voltage standard. The value of 2e/h obtained
-    most recently, in April 1972, is 483,594.00 (±0.10) GHz/V<sub>NPL</sub>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The lastest NPL determinations of 2<italic>e/h</italic> using the ac
+    Josephson effect are reported, with emphasis on the improvements made over earlier
+    measurements. The precision of the experiment is such that it should be regarded
+    as a means of monitoring the national maintained voltage standard. The value of
+    2<italic>e/h</italic> obtained most recently, in April 1972, is 483,594.00 (±0.10)
+    GHz/V<sub>NPL</sub>.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A New NPL Determination of 2e/h
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: A New NPL Determination of 2<italic>e/h</italic>
     date:
     - type: ppub
-      value: '1972-10-01'
+      at: '1972-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +91,6 @@ extent:
     reference_from: '129'
     reference_to: '132'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

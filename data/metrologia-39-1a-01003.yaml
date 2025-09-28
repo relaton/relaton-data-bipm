@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia391A01003
-title:
-- content: Final report on key comparison CCEM-K4 of 10 pF capacitance standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1A/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1A/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1A 01003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison CCEM-K4 of 10 pF capacitance standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1A/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1A/3
+docidentifier:
+- content: Metrologia 39 1A 01003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1A/3
+- content: 10.1088/0026-1394/39/1A/3
   type: doi
 date:
 - type: published
-  value: '2002-01-01'
+  at: '2002-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A-M Jeffery
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electronics and Electrical Engineering Laboratory, National Institute
             of Standards and Technology (NIST), 100 Bureau Drive, MS 8112, Gaithersburg,
             MD 20899-8112, USA
-  role:
-  - type: author
-revdate: '2002-01-01'
 abstract:
-- content: |-
-    <p>Comparison of electrical standards must be carried out periodically between national metrology
-    institutes (NMIs) to establish the relationship between their practical electrical units. This report describes a key comparison between the practical capacitance units of ten NMIs from four regional metrology organizations (APMP, COOMET, EUROMET, SIM), and of the Bureau International des Poids et Mesures, organized from 1996 to 1998 by the Consultative Committee for Electricity and Magnetism (CCEM). As pilot laboratory, the National Institute of Standards and Technology was responsible for providing and preparing the standards as well as for collecting and analysing the data and preparing the draft reports. Although there were a few differences between capacitance units, for the majority of participants the results show agreement within the 95 % confidence level.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Comparison of electrical standards must be carried out periodically between national metrology
+    institutes (NMIs) to establish the relationship between their practical electrical units. This report describes a key comparison between the practical capacitance units of ten NMIs from four regional metrology organizations (APMP, COOMET, EUROMET, SIM), and of the Bureau International des Poids et Mesures, organized from 1996 to 1998 by the Consultative Committee for Electricity and Magnetism (CCEM). As pilot laboratory, the National Institute of Standards and Technology was responsible for providing and preparing the standards as well as for collecting and analysing the data and preparing the draft reports. Although there were a few differences between capacitance units, for the majority of participants the results show agreement within the 95 % confidence level.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison CCEM-K4 of 10 pF capacitance standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison CCEM-K4 of 10 pF capacitance standards
     date:
     - type: ppub
-      value: '2002-01-01'
+      at: '2002-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '01003'
     reference_to: '01003'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,115 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia544610
-title:
-- content: Comment on ‘Development of a primary standard for absorbed dose from unsealed
-    radionuclide solutions’
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa78c7
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa78c7
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 4 610
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comment on ‘Development of a primary standard for absorbed dose from unsealed
+    radionuclide solutions’
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa78c7
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa78c7
+docidentifier:
+- content: Metrologia 54 4 610
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa78c7
+- content: 10.1088/1681-7575/aa78c7
   type: doi
 date:
 - type: published
-  value: '2017-07-27'
+  at: '2017-07-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C K Ross
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2017-07-27'
 abstract:
-- content: 'Abstract<p>The authors of a recent paper (Billas et al 2016 Metrologia
-    53 1259–71) describe the development of a primary standard for the absorbed dose
-    in an aqueous solution containing the radionuclide<sup>90</sup>Y. By positioning
-    a thin-window extrapolation chamber near the surface of the solution they determine
-    the absorbed dose in the air cavity. Using Monte Carlo calculations and knowledge
-    of the<sup>90</sup>Y β-ray spectrum they relate the absorbed dose in air to that
-    in the aqueous solution. I point out that there is no need to develop a new standard
-    for this problem because knowledge of the activity of the radionuclide, combined
-    with its decay characteristics, is adequate to establish a primary standard for
-    the absorbed dose in water. Furthermore, the uncertainty using this approach is
-    significantly smaller than that achieved using the authors’ technique. Results
-    from Monte Carlo calculations are reported that: (1) determine the minimum phantom
-    size required to establish charged particle equilibrium; (2) show that the authors
-    have neglected bremsstrahlung losses from the phantom; (3) show why the authors’
-    results are very sensitive to the air gap between the solution and the window
-    of the ionization chamber. Finally, I consider the problem of calibrating secondary
-    detectors against the primary standard.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The authors of a recent paper (Billas <italic>et al</italic> 2016 <italic>Metrologia</italic> <bold>53</bold> 1259–71) describe the development of a primary standard for the absorbed dose in an aqueous solution containing the radionuclide <sup>90</sup>Y. By positioning a thin-window extrapolation chamber near the surface of the solution they determine the absorbed dose in the air cavity. Using Monte Carlo calculations and knowledge of the <sup>90</sup>Y <italic>β</italic>-ray spectrum they relate the absorbed dose in air to that in the aqueous solution. I point out that there is no need to develop a new standard for this problem because knowledge of the activity of the radionuclide, combined with its decay characteristics, is adequate to establish a primary standard for the absorbed dose in water. Furthermore, the uncertainty using this approach is significantly smaller than that achieved using the authors’ technique. Results from Monte Carlo calculations are reported that: (1) determine the minimum phantom size required to establish charged particle equilibrium; (2) show that the authors have neglected bremsstrahlung losses from the phantom; (3) show why the authors’ results are very sensitive to the air gap between the solution and the window of the ionization chamber. Finally, I consider the problem of calibrating secondary detectors against the primary standard.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Development of a primary standard for absorbed dose from
+    - script: Latn
+      content: Comment on ‘Development of a primary standard for absorbed dose from
         unsealed radionuclide solutions’
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-08-01'
+      at: '2017-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Development of a primary standard for absorbed dose from
+    - script: Latn
+      content: Comment on ‘Development of a primary standard for absorbed dose from
         unsealed radionuclide solutions’
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-07-27'
+      at: '2017-07-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Development of a primary standard for absorbed dose from
+    - script: Latn
+      content: Comment on ‘Development of a primary standard for absorbed dose from
         unsealed radionuclide solutions’
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2017-07-27'
+      at: '2017-07-27'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +96,6 @@ extent:
     reference_from: '610'
     reference_to: '614'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

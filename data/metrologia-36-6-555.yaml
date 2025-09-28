@@ -1,130 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366555
-title:
-- content: Evaluation of the conductance of the orifice of the new CNR-IMGC dynamic
-    expander
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/14
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/14
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 555
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evaluation of the conductance of the orifice of the new CNR-IMGC dynamic
+    expander
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/14
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/14
+docidentifier:
+- content: Metrologia 36 6 555
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/14
+- content: 10.1088/0026-1394/36/6/14
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Niewinski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Szwemin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Calcatelli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Bergoglio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., IMGC-CNR
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: <p>Different methods, based both on analytical considerations and on the
-    Monte Carlo evaluation, were applied to the calculation of the correction factor,
-    K, of the conductance of the orifice of the new Istituto di Metrologia "G. Colonnetti"
-    (CNR-IMGC) dynamic system. The results are compared and the uncertainty with which
-    K is determined is discussed. The data from the McCulloh method and from Monte
-    Carlo simulations are compared. The latter method, while taking into account the
-    conductance of all the geometrical parts, offers the possibility of evaluating
-    the uncertainty without any approximation.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>Different methods, based both on analytical considerations and on the
+    Monte Carlo evaluation, were applied to the calculation of the correction factor,
+    <italic>K</italic>, of the conductance of the orifice of the new Istituto di Metrologia
+    "G. Colonnetti" (CNR-IMGC) dynamic system. The results are compared and the uncertainty
+    with which <italic>K</italic> is determined is discussed. The data from the McCulloh
+    method and from Monte Carlo simulations are compared. The latter method, while
+    taking into account the conductance of all the geometrical parts, offers the possibility
+    of evaluating the uncertainty without any approximation.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of the conductance of the orifice of the new CNR-IMGC dynamic
+    - language: en
+      script: Latn
+      content: Evaluation of the conductance of the orifice of the new CNR-IMGC dynamic
         expander
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +117,6 @@ extent:
     reference_from: '555'
     reference_to: '559'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,115 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia526L31
-title:
-- content: Proper calculation of a modulation half cycle from the Allan deviation
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/6/L31
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/6/L31
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 6 L31
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Proper calculation of a modulation half cycle from the Allan deviation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/6/L31
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/6/L31
+docidentifier:
+- content: Metrologia 52 6 L31
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/6/L31
+- content: 10.1088/0026-1394/52/6/L31
   type: doi
 date:
 - type: published
-  value: '2015-11-05'
+  at: '2015-11-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Cantwell G Carson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pittsburgh, USA
         name:
         - content: National Energy Technology Laboratory
-        contact:
-        - address:
-            formatted_address: Pittsburgh, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Igor V Haljasmaa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pittsburgh, USA
         name:
         - content: National Energy Technology Laboratory
-        contact:
-        - address:
-            formatted_address: Pittsburgh, USA
-  role:
-  - type: author
-revdate: '2015-11-05'
 abstract:
-- content: Abstract<p>The Allan deviation is commonly used to determine the long term
-    stability and precision of oscillators or otherwise continuous measurements. When
-    periodic, fixed frequency modulation is present, it has been previously stated
-    that the resulting peak in the estimate coincides with the half cycle of the modulation
-    period. However, this peak is located at ~74.2% of the actual half cycle. In this
-    work, we provide a generalized derivation of the modulation half cycle time constant
-    from the Allan deviation estimate. Furthermore, the peak locations for the Hadamard,
-    Modified Allan, and time deviations are shown to be approximately 84.2, 61.0,
-    and 84.2%, respectively of the modulation half cycle time constants.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The Allan deviation is commonly used to determine the long term stability and precision of oscillators or otherwise continuous measurements. When periodic, fixed frequency modulation is present, it has been previously stated that the resulting peak in the estimate coincides with the half cycle of the modulation period. However, this peak is located at ~74.2% of the actual half cycle. In this work, we provide a generalized derivation of the modulation half cycle time constant from the Allan deviation estimate. Furthermore, the peak locations for the Hadamard, Modified Allan, and time deviations are shown to be approximately 84.2, 61.0, and 84.2%, respectively of the modulation half cycle time constants.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proper calculation of a modulation half cycle from the Allan deviation
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Proper calculation of a modulation half cycle from the Allan deviation
     date:
     - type: ppub
-      value: '2015-12-01'
+      at: '2015-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proper calculation of a modulation half cycle from the Allan deviation
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Proper calculation of a modulation half cycle from the Allan deviation
     date:
     - type: epub
-      value: '2015-11-05'
+      at: '2015-11-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +102,6 @@ extent:
     reference_from: L31
     reference_to: L33
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,144 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S191
-title:
-- content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
-    metrology
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S191
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S191
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S191
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
+    metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S191
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S191
+docidentifier:
+- content: Metrologia 52 3 S191
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S191
+- content: 10.1088/0026-1394/52/3/S191
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: François O Bochud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lausanne University Hospital, Rue du Grand-Pré 1, CH-1007
+            Lausanne, Switzerland
         name:
         - content: Institute of Radiation Physics
-        contact:
-        - address:
-            formatted_address: Lausanne University Hospital, Rue du Grand-Pré 1, CH-1007
-              Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Pascal Laedermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lausanne University Hospital, Rue du Grand-Pré 1, CH-1007
+            Lausanne, Switzerland
         name:
         - content: Institute of Radiation Physics
-        contact:
-        - address:
-            formatted_address: Lausanne University Hospital, Rue du Grand-Pré 1, CH-1007
-              Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Octavian Sima
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bucharest-Magurele, PO Box MG-11, RO-077125, Romania
         name:
         - content: University of Bucharest
         subdivision:
-        - content: Physics Department
-        contact:
-        - address:
-            formatted_address: Bucharest-Magurele, PO Box MG-11, RO-077125, Romania
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: Physics Department
 abstract:
-- content: Abstract<p>In radionuclide metrology, Monte Carlo (MC) simulation is widely
-    used to compute parameters associated with primary measurements or calibration
-    factors. Although MC methods are used to estimate uncertainties, the uncertainty
-    associated with radiation transport in MC calculations is usually difficult to
-    estimate. Counting statistics is the most obvious component of MC uncertainty
-    and has to be checked carefully, particularly when variance reduction is used.
-    However, in most cases fluctuations associated with counting statistics can be
-    reduced using sufficient computing power. Cross-section data have intrinsic uncertainties
-    that induce correlations when apparently independent codes are compared. Their
-    effect on the uncertainty of the estimated parameter is difficult to determine
-    and varies widely from case to case. Finally, the most significant uncertainty
-    component for radionuclide applications is usually that associated with the detector
-    geometry. Recent 2D and 3D x-ray imaging tools may be utilized, but comparison
-    with experimental data as well as adjustments of parameters are usually inevitable.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In radionuclide metrology, Monte Carlo (MC) simulation is widely used to compute parameters associated with primary measurements or calibration factors. Although MC methods are used to estimate uncertainties, the uncertainty associated with radiation transport in MC calculations is usually difficult to estimate. Counting statistics is the most obvious component of MC uncertainty and has to be checked carefully, particularly when variance reduction is used. However, in most cases fluctuations associated with counting statistics can be reduced using sufficient computing power. Cross-section data have intrinsic uncertainties that induce correlations when apparently independent codes are compared. Their effect on the uncertainty of the estimated parameter is difficult to determine and varies widely from case to case. Finally, the most significant uncertainty component for radionuclide applications is usually that associated with the detector geometry. Recent 2D and 3D x-ray imaging tools may be utilized, but comparison with experimental data as well as adjustments of parameters are usually inevitable.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
+    - script: Latn
+      content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
         metrology
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
+    - script: Latn
+      content: Uncertainty associated with Monte Carlo radiation transport in radionuclide
         metrology
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +126,6 @@ extent:
     reference_from: S191
     reference_to: S199
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,123 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia544S83
-title:
-- content: Traceable calibration and demonstration of a portable dynamic force transfer
-    standard
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa75da
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa75da
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 4 S83
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Traceable calibration and demonstration of a portable dynamic force transfer
+    standard
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa75da
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa75da
+docidentifier:
+- content: Metrologia 54 4 S83
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa75da
+- content: 10.1088/1681-7575/aa75da
   type: doi
 date:
 - type: published
-  value: '2017-07-18'
+  at: '2017-07-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicholas Vlajic
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: The National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ako Chijioke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: The National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
-  - type: author
-revdate: '2017-07-18'
 abstract:
-- content: Abstract<p>In general, the dynamic sensitivity of a force transducer depends
-    upon the mechanical system in which it is used. This dependence serves as motivation
-    to develop a dynamic force transfer standard, which can be used to calibrate an
-    application transducer in situ. In this work, we SI-traceably calibrate a hand-held
-    force transducer, namely an impact hammer, by using a mass suspended from a thin
-    line which is cut to produce a known dynamic force in the form of a step function.
-    We show that this instrument is a promising candidate as a transfer standard,
-    since its dynamic response has small variance between different users. This calibrated
-    transfer standard is then used to calibrate a secondary force transducer in an
-    example application setting. The combined standard uncertainty (k  =  2) in the
-    calibration of the transfer standard was determined to be 2.1% or less, up to
-    a bandwidth of 5 kHz. The combined standard uncertainty (k  =  2) in the performed
-    transfer calibration was less than 4%, up to 3 kHz. An advantage of the transfer
-    calibration framework presented here, is that the transfer standard can be used
-    to transfer SI-traceable calibrations without the use of any SI-traceable voltage
-    metrology instrumentation.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In general, the dynamic sensitivity of a force transducer depends upon the mechanical system in which it is used. This dependence serves as motivation to develop a dynamic force transfer standard, which can be used to calibrate an application transducer <italic>in situ</italic>. In this work, we SI-traceably calibrate a hand-held force transducer, namely an impact hammer, by using a mass suspended from a thin line which is cut to produce a known dynamic force in the form of a step function. We show that this instrument is a promising candidate as a transfer standard, since its dynamic response has small variance between different users. This calibrated transfer standard is then used to calibrate a secondary force transducer in an example application setting. The combined standard uncertainty (<italic>k</italic>  =  2) in the calibration of the transfer standard was determined to be 2.1% or less, up to a bandwidth of 5 kHz. The combined standard uncertainty (<italic>k</italic>  =  2) in the performed transfer calibration was less than 4%, up to 3 kHz. An advantage of the transfer calibration framework presented here, is that the transfer standard can be used to transfer SI-traceable calibrations without the use of any SI-traceable voltage metrology instrumentation.</p>
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable calibration and demonstration of a portable dynamic force
+    - script: Latn
+      content: Traceable calibration and demonstration of a portable dynamic force
         transfer standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-08-01'
+      at: '2017-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Traceable calibration and demonstration of a portable dynamic force
+    - script: Latn
+      content: Traceable calibration and demonstration of a portable dynamic force
         transfer standard
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-07-18'
+      at: '2017-07-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +100,6 @@ extent:
     reference_from: S83
     reference_to: S98
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

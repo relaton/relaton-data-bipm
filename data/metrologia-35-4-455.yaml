@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354455
-title:
-- content: Reflectance dependencies of silicon trap detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/42
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/42
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 455
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reflectance dependencies of silicon trap detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/42
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/42
+docidentifier:
+- content: Metrologia 35 4 455
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/42
+- content: 10.1088/0026-1394/35/4/42
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Campos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Corredera
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Pons
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Corróns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Fontecha
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIC
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>This work analyses the reflectance of silicon photodiodes as a function
+- language: en
+  script:
+  - Latn
+  content: "<p>This work analyses the reflectance of silicon photodiodes as a function
     of incident beam polarization, angles of incidence and acceptance, and thickness
     of the passivating layer. The contributions of these effects to the polarization
     sensitivity of real trap devices are considered. An analytical model is used to
@@ -104,39 +92,31 @@ abstract:
     and traps constructed from different types of silicon photodiode. The results
     show that sensitivity to polarization should be considered when high-accuracy
     measurements are required.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reflectance dependencies of silicon trap detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reflectance dependencies of silicon trap detectors
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -147,6 +127,6 @@ extent:
     reference_from: '455'
     reference_to: '460'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

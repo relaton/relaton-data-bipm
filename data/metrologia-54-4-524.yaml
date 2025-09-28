@@ -1,202 +1,177 @@
 ---
-schema-version: v1.2.9
-id: Metrologia544524
-title:
-- content: Method for estimating effects of unknown correlations in spectral irradiance
-    data on uncertainties of spectrally integrated colorimetric quantities
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa7b39
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa7b39
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 4 524
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Method for estimating effects of unknown correlations in spectral irradiance
+    data on uncertainties of spectrally integrated colorimetric quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa7b39
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa7b39
+docidentifier:
+- content: Metrologia 54 4 524
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa7b39
+- content: 10.1088/1681-7575/aa7b39
   type: doi
 date:
 - type: published
-  value: '2017-07-18'
+  at: '2017-07-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petri Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 15500, 00076 Aalto, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: PO Box 15500, 00076 Aalto, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Anna Vaskuri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 15500, 00076 Aalto, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: PO Box 15500, 00076 Aalto, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Henrik Mäntynen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 15500, 00076 Aalto, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: PO Box 15500, 00076 Aalto, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nikke Mikkonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 15500, 00076 Aalto, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: PO Box 15500, 00076 Aalto, Finland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erkki Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 15500, 00076 Aalto, Finland
         name:
         - content: Aalto University
         subdivision:
-        - content: Metrology Research Institute
-        contact:
-        - address:
-            formatted_address: PO Box 15500, 00076 Aalto, Finland
+        - name:
+          - language: en
+            script: Latn
+            content: Metrology Research Institute
     - organization:
+        address:
+        - formatted_address: PO Box 1000, 02044 VTT, Finland
         name:
         - content: VTT Technical Research Centre of Finland Ltd
         subdivision:
-        - content: MIKES Metrology
-        contact:
-        - address:
-            formatted_address: PO Box 1000, 02044 VTT, Finland
-  role:
-  - type: author
-revdate: '2017-07-18'
+        - name:
+          - language: en
+            script: Latn
+            content: MIKES Metrology
 abstract:
-- content: Abstract<p>Spectral irradiance data are often used to calculate colorimetric
-    properties, such as color coordinates and color temperatures of light sources
-    by integration. The spectral data may contain unknown correlations that should
-    be accounted for in the uncertainty estimation. We propose a new method for estimating
-    uncertainties in such cases. The method goes through all possible scenarios of
-    deviations using Monte Carlo analysis. Varying spectral error functions are produced
-    by combining spectral base functions, and the distorted spectra are used to calculate
-    the colorimetric quantities. Standard deviations of the colorimetric quantities
-    at different scenarios give uncertainties assuming no correlations, uncertainties
-    assuming full correlation, and uncertainties for an unfavorable case of unknown
-    correlations, which turn out to be a significant source of uncertainty. With 1%
-    standard uncertainty in spectral irradiance, the expanded uncertainty of the correlated
-    color temperature of a source corresponding to the CIE Standard Illuminant A may
-    reach as high as 37.2 K in unfavorable conditions, when calculations assuming
-    full correlation give zero uncertainty, and calculations assuming no correlations
-    yield the expanded uncertainties of 5.6 K and 12.1 K, with wavelength steps of
-    1 nm and 5 nm used in spectral integrations, respectively. We also show that there
-    is an absolute limit of 60.2 K in the error of the correlated color temperature
-    for Standard Illuminant A when assuming 1% standard uncertainty in the spectral
-    irradiance. A comparison of our uncorrelated uncertainties with those obtained
-    using analytical methods by other research groups shows good agreement. We re-estimated
-    the uncertainties for the colorimetric properties of our 1 kW photometric standard
-    lamps using the new method. The revised uncertainty of color temperature is a
-    factor of 2.5 higher than the uncertainty assuming no correlations.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Spectral irradiance data are often used to calculate colorimetric properties, such as color coordinates and color temperatures of light sources by integration. The spectral data may contain unknown correlations that should be accounted for in the uncertainty estimation. We propose a new method for estimating uncertainties in such cases. The method goes through all possible scenarios of deviations using Monte Carlo analysis. Varying spectral error functions are produced by combining spectral base functions, and the distorted spectra are used to calculate the colorimetric quantities. Standard deviations of the colorimetric quantities at different scenarios give uncertainties assuming no correlations, uncertainties assuming full correlation, and uncertainties for an unfavorable case of unknown correlations, which turn out to be a significant source of uncertainty. With 1% standard uncertainty in spectral irradiance, the expanded uncertainty of the correlated color temperature of a source corresponding to the CIE Standard Illuminant A may reach as high as 37.2 K in unfavorable conditions, when calculations assuming full correlation give zero uncertainty, and calculations assuming no correlations yield the expanded uncertainties of 5.6 K and 12.1 K, with wavelength steps of 1 nm and 5 nm used in spectral integrations, respectively. We also show that there is an absolute limit of 60.2 K in the error of the correlated color temperature for Standard Illuminant A when assuming 1% standard uncertainty in the spectral irradiance. A comparison of our uncorrelated uncertainties with those obtained using analytical methods by other research groups shows good agreement. We re-estimated the uncertainties for the colorimetric properties of our 1 kW photometric standard lamps using the new method. The revised uncertainty of color temperature is a factor of 2.5 higher than the uncertainty assuming no correlations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Method for estimating effects of unknown correlations in spectral irradiance
+    - script: Latn
+      content: Method for estimating effects of unknown correlations in spectral irradiance
         data on uncertainties of spectrally integrated colorimetric quantities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2017-08-01'
+      at: '2017-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Method for estimating effects of unknown correlations in spectral irradiance
+    - script: Latn
+      content: Method for estimating effects of unknown correlations in spectral irradiance
         data on uncertainties of spectrally integrated colorimetric quantities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2017-07-18'
+      at: '2017-07-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -207,6 +182,6 @@ extent:
     reference_from: '524'
     reference_to: '534'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

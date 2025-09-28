@@ -1,102 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27117
-title:
-- content: Calibration of the Multiples of the Unit of Mass
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 1 17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of the Multiples of the Unit of Mass
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/1/004
+docidentifier:
+- content: Metrologia 27 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/1/004
+- content: 10.1088/0026-1394/27/1/004
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mihailov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Consumer and Corporate Affairs Canada, Legal Metrology
             Branch, 207 Queen Street, Ottawa, Ontario K1A 0C9, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Romanowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Consumer and Corporate Affairs Canada, Legal Metrology
             Branch, 207 Queen Street, Ottawa, Ontario K1A 0C9, Canada
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Accurate mass determination of multiples of a unit may be attained
+- language: en
+  script:
+  - Latn
+  content: "<p>Accurate mass determination of multiples of a unit may be attained
     by employing design matrices which lead to orthogonal systems of normal equations.
     The ratio which exists between the highest mass of the set and the standard (unit)
     is utilized to circumvent the condition which states that the orthogonality of
     a system can be realized only if the highest mass is the defining standard. The
     basic principle of this operation is briefly mentioned in the article `Systematic
     Search for Orthogonal Systems, in the Calibration of Submultiples and Multiples
-    of the Unit of Mass', 1980 Metrologia 16 51-54.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of the Unit of Mass', 1980 <italic>Metrologia</italic> <bold>16</bold> 51-54.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of the Multiples of the Unit of Mass
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of the Multiples of the Unit of Mass
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '17'
     reference_to: '18'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

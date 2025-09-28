@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404184
-title:
-- content: Time transfer to TAI using geodetic receivers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/307
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/307
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 184
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Time transfer to TAI using geodetic receivers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/307
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/307
+docidentifier:
+- content: Metrologia 40 4 184
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/307
+- content: 10.1088/0026-1394/40/4/307
   type: doi
 date:
 - type: published
-  value: '2003-06-25'
+  at: '2003-06-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Defraigne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Royal Observatory of Belgium, Avenue Circulaire, 3, B-1180 Brussels,
             Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             92312 Sèvres, France
-  role:
-  - type: author
-revdate: '2003-06-25'
 abstract:
-- content: "<p>The classical time transfer method used to realize International Atomic
+- language: en
+  script:
+  - Latn
+  content: "<p>The classical time transfer method used to realize International Atomic
     Time (TAI) is based on the common view technique, with GPS observations collected
     by C/A code receivers. The resulting clock offsets between the laboratory clock
     and GPS time are obtained from a fixed procedure defined by the Consultative Committee
@@ -80,53 +74,42 @@ abstract:
     results. The corrections associated with tidal station displacement are also investigated,
     and the results indicate that they do not significantly improve the results at
     the present level of precision.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time transfer to TAI using geodetic receivers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Time transfer to TAI using geodetic receivers
     date:
     - type: epub
-      value: '2003-06-25'
+      at: '2003-06-25'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Time transfer to TAI using geodetic receivers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Time transfer to TAI using geodetic receivers
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +120,6 @@ extent:
     reference_from: '184'
     reference_to: '188'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

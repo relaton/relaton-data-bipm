@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia23145
-title:
-- content: An Improved He-Ne Laser at λ = 612 nm, Stabilized by Means of an External
-    Absorption Cell
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/23/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/23/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 23 1 45
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Improved He-Ne Laser at λ = 612 nm, Stabilized by Means of an External
+    Absorption Cell
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/23/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/23/1/006
+docidentifier:
+- content: Metrologia 23 1 45
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/23/1/006
+- content: 10.1088/0026-1394/23/1/006
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>A He-Ne laser at λ = 612 nm, stabilized to saturated absorption features
-    of<sup>127</sup>I<sub>2</sub> in an external cell [and with no cell inside the
+- language: en
+  script:
+  - Latn
+  content: "<p>A He-Ne laser at λ = 612 nm, stabilized to saturated absorption features
+    of <sup>127</sup>I<sub>2</sub> in an external cell [and with no cell inside the
     laser cavity] is presented. The successive-2-sample deviation for an averaging
     time of 10 s is not larger than 0.15 kHz or 3 × 10<sup>-13</sup> of the laser
     frequency. The uncertainty of the laser frequency due to variations of the laser
@@ -52,40 +48,32 @@ abstract:
     the reproducibility and of technical or physical perturbations. Linewidth and
     asymmetry of the peaks have been studied, and the frequency differences of 9 hyperfine
     components have been determined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Improved He-Ne Laser at λ = 612 nm, Stabilized by Means of an External
+    - language: en
+      script: Latn
+      content: An Improved He-Ne Laser at λ = 612 nm, Stabilized by Means of an External
         Absorption Cell
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '45'
     reference_to: '53'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

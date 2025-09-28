@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia26287
-title:
-- content: Diffraction Effects in Optical Interferometers Illuminated by Laser Sources
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Diffraction Effects in Optical Interferometers Illuminated by Laser Sources
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/002
+docidentifier:
+- content: Metrologia 26 2 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/002
+- content: 10.1088/0026-1394/26/2/002
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", str. delle Cacce, 73, I-10125
             Torino, Italy
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>In optical interferometers illuminated by laser sources the shift of
+- language: en
+  script:
+  - Latn
+  content: "<p>In optical interferometers illuminated by laser sources the shift of
     the phase and changes in the curvature of the wave fronts lead to systematic errors,
     to which there must be added the error caused by misalignments. In the study described
     in the present article, the interference pattern was obtained from the actual
@@ -49,40 +45,32 @@ abstract:
     interferometer. With reference to plane-wave illumination, the excess of the period
     of the output signal was obtained in a closed form in the case of small misalignment
     and negligible difference between the optical paths.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Diffraction Effects in Optical Interferometers Illuminated by Laser
+    - language: en
+      script: Latn
+      content: Diffraction Effects in Optical Interferometers Illuminated by Laser
         Sources
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '87'
     reference_to: '93'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

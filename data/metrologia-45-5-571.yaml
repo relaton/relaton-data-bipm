@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia455571
-title:
-- content: Optimal FIR filtering of the clock time errors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/5/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/5/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 5 571
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Optimal FIR filtering of the clock time errors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/5/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/5/011
+docidentifier:
+- content: Metrologia 45 5 571
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/5/011
+- content: 10.1088/0026-1394/45/5/011
   type: doi
 date:
 - type: published
-  value: '2008-09-23'
+  at: '2008-09-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuriy S Shmaliy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Mechanical, Electrical & Electronic Engineering (FIMEE),
             Guanajuato University, Ctra. Salamanca-Valle, 3.5+1.8km, Palo-Blanco,
             Gto. 36885, Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Oscar Ibarra-Manzano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Mechanical, Electrical & Electronic Engineering (FIMEE),
             Guanajuato University, Ctra. Salamanca-Valle, 3.5+1.8km, Palo-Blanco,
             Gto. 36885, Mexico
-  role:
-  - type: author
-revdate: '2008-09-23'
 abstract:
-- content: "<p>This paper discusses optimal finite impulse response (FIR) filtering
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper discusses optimal finite impulse response (FIR) filtering
     of the clock first state known as the time interval error. An exact optimal FIR
     filter gain is derived assuming arbitrary, zero-mean and jointly independent sources
     of noise in the clock and in the measurement. The gain is simplified for large
@@ -67,53 +61,42 @@ abstract:
     does not depend on noise components in the model and in the measurement and turns
     out to be equal to the earlier studied unbiased FIR filter gain. A polynomial
     representation of the gain is also discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optimal FIR filtering of the clock time errors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Optimal FIR filtering of the clock time errors
     date:
     - type: epub
-      value: '2008-09-23'
+      at: '2008-09-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optimal FIR filtering of the clock time errors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Optimal FIR filtering of the clock time errors
     date:
     - type: ppub
-      value: '2008-10-01'
+      at: '2008-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +107,6 @@ extent:
     reference_from: '571'
     reference_to: '576'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

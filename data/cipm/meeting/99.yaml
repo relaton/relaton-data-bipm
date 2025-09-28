@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-2010-99
-title:
-- content: 99th meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 99<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/99-2010
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/99-2010
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/34468656/CIPM2010-EN.pdf/6b2b20be-939a-0088-91f9-ad47927b5fbe
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-99.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-99.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 99th Meeting (2010)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 99th meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 99<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/99-2010
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/99-2010
+- type: pdf
+  content: https://www.bipm.org/documents/20126/34468656/CIPM2010-EN.pdf/6b2b20be-939a-0088-91f9-ad47927b5fbe
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-99.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-99.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 99th Meeting (2010)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 99<sup>e</sup> réunion (2010)
+  content: CIPM 99<sup>e</sup> réunion (2010)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 99th Meeting (2010) / CIPM 99<sup>e</sup> réunion (2010)
+- content: CIPM 99th Meeting (2010) / CIPM 99<sup>e</sup> réunion (2010)
   type: BIPM
   primary: true
 docnumber: CIPM 99th Meeting (2010)
 date:
 - type: published
-  value: '2010-10-15'
+  at: '2010-10-15'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2010-10-15'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '99'

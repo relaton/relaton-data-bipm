@@ -1,126 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia505499
-title:
-- content: Congruence of two Kalman filter composite clocks
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/5/499
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/5/499
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 5 499
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Congruence of two Kalman filter composite clocks
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/5/499
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/5/499
+docidentifier:
+- content: Metrologia 50 5 499
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/5/499
+- content: 10.1088/0026-1394/50/5/499
   type: doi
 date:
 - type: published
-  value: '2013-09-20'
+  at: '2013-09-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Matthias Suess
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Oberpfaffenhoffen, Muenchener Strasse 20, Germany
         name:
         - content: German Aerospace Center
-        contact:
-        - address:
-            formatted_address: Oberpfaffenhoffen, Muenchener Strasse 20, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Charles A Greenhall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 4800 Oak Grove Dr., MS 298, Pasadena, CA 91109, USA
         name:
         - content: California Institute of Technology
         subdivision:
-        - content: Jet Propulsion Laboratory
-        contact:
-        - address:
-            formatted_address: 4800 Oak Grove Dr., MS 298, Pasadena, CA 91109, USA
-  role:
-  - type: author
-revdate: '2013-09-20'
+        - name:
+          - language: en
+            script: Latn
+            content: Jet Propulsion Laboratory
 abstract:
-- content: 'Abstract<p>This paper compares the estimation results of two composite
-    clock algorithms based on Kalman filtering of measured clock differences: the
-    original Jones–Tryon algorithm and Greenhall''s covariance-reduction modification.
-    The theory is carried out for a general clock model that includes the model introduced
-    by Davis et al: the sum of the three-state linear model and a set of Markov processes
-    used to approximate flicker-frequency noise. Since measurement noise is allowed,
-    at each measurement time the corrected clock offsets (the difference between the
-    clock offsets and their estimates) do not coincide but form a set of values, different
-    for the two algorithms. The core result is that these two sets are congruent,
-    that is, they differ by a common scalar shift. As a function of time the value
-    of the shift behaves as a random walk. Moreover, the two Kalman filters have the
-    same measurement residuals. Therefore, any detector algorithm that uses the measurement
-    residuals is not impacted by the covariance reduction. The congruency holds for
-    time-varying measurement matrices. Therefore, the result is applicable to the
-    measurement setup of laboratories as well as that of a Global Navigation Satellite
-    System with varying visibilities of satellite clocks at ground stations. These
-    results are illustrated by a simulated ensemble of three caesium clocks and two
-    active hydrogen masers, measured against one of the masers.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This paper compares the estimation results of two composite clock algorithms based on Kalman filtering of measured clock differences: the original Jones–Tryon algorithm and Greenhall's covariance-reduction modification. The theory is carried out for a general clock model that includes the model introduced by Davis <italic>et al</italic>: the sum of the three-state linear model and a set of Markov processes used to approximate flicker-frequency noise. Since measurement noise is allowed, at each measurement time the corrected clock offsets (the difference between the clock offsets and their estimates) do not coincide but form a set of values, different for the two algorithms. The core result is that these two sets are congruent, that is, they differ by a common scalar shift. As a function of time the value of the shift behaves as a random walk. Moreover, the two Kalman filters have the same measurement residuals. Therefore, any detector algorithm that uses the measurement residuals is not impacted by the covariance reduction. The congruency holds for time-varying measurement matrices. Therefore, the result is applicable to the measurement setup of laboratories as well as that of a Global Navigation Satellite System with varying visibilities of satellite clocks at ground stations. These results are illustrated by a simulated ensemble of three caesium clocks and two active hydrogen masers, measured against one of the masers.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Congruence of two Kalman filter composite clocks
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Congruence of two Kalman filter composite clocks
     date:
     - type: ppub
-      value: '2013-10-01'
+      at: '2013-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Congruence of two Kalman filter composite clocks
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Congruence of two Kalman filter composite clocks
     date:
     - type: epub
-      value: '2013-09-20'
+      at: '2013-09-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +107,6 @@ extent:
     reference_from: '499'
     reference_to: '508'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

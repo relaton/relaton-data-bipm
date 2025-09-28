@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S1
-title:
-- content: Application of the CIPM MRA to radionuclide metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S01
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Application of the CIPM MRA to radionuclide metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S01
+docidentifier:
+- content: Metrologia 44 4 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S01
+- content: 10.1088/0026-1394/44/4/S01
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lisa R Karam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ionizing Radiation Division, Physics Laboratory, National Institute
             of Standards and Technology, 100 Bureau Drive, MS 8460, Gaithersburg,
             MD 20899-8460, USA
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The adoption of the Mutual Recognition Arrangement by the CIPM in 1999
+- language: en
+  script:
+  - Latn
+  content: "<p>The adoption of the Mutual Recognition Arrangement by the CIPM in 1999
     had an almost immediate affect on the approach national measurement laboratories
     took in the measurement of radioactivity and how their abilities in radionuclide
     metrology were relayed to customers and stakeholders. In order to meet the need
@@ -50,53 +46,42 @@ abstract:
     capabilities, radionuclide measurement laboratories have taken an accelerated
     track to international comparisons and expanding quality systems, leading to a
     more rigorous approach to radionuclide metrology.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Application of the CIPM MRA to radionuclide metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Application of the CIPM MRA to radionuclide metrology
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Application of the CIPM MRA to radionuclide metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Application of the CIPM MRA to radionuclide metrology
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: S1
     reference_to: S6
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

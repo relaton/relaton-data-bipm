@@ -1,84 +1,76 @@
 ---
-schema-version: v1.2.9
-id: Metrologia481A01008
-title:
-- content: 'Final report on EUROMET comparison EUROMET.EM-K3: a 10 mH inductance standard
-    at 1 kHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/1A/01008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/1A/01008
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 1A 01008
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on EUROMET comparison EUROMET.EM-K3: a 10 mH inductance standard
+    at 1 kHz'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/1A/01008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/1A/01008
+docidentifier:
+- content: Metrologia 48 1A 01008
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/1A/01008
+- content: 10.1088/0026-1394/48/1A/01008
   type: doi
 date:
 - type: published
-  value: '2011-01-01'
+  at: '2011-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Axel Kölling
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Bundesallee 100, D-38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2011-01-01'
 abstract:
-- content: |-
-    <p>A EUROMET trilateral comparison of a 10 mH inductance standard at a frequency of 1 kHz took place in 2006. The participants were PTB (Germany), INM (Romania) and NCM (Bulgaria)—NCM is now BIM, Bulgarian Institute of Metrology.</p><p>The result of PTB was taken as the comparison reference value because the uncertainty of the PTB result was about ten times smaller than the other two. Although the methods of measurement differed in all participating laboratories, an agreement within the respective limits of uncertainty could be achieved by all participants.</p><p>The participation of PTB made it possible to have a link to the key comparison CCEM-K3. The results of each participant are thus also referred to the key comparison reference value stated in the CCEM-K3 final report.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A EUROMET trilateral comparison of a 10 mH inductance standard at a frequency of 1 kHz took place in 2006. The participants were PTB (Germany), INM (Romania) and NCM (Bulgaria)—NCM is now BIM, Bulgarian Institute of Metrology.</p>
+    <p>The result of PTB was taken as the comparison reference value because the uncertainty of the PTB result was about ten times smaller than the other two. Although the methods of measurement differed in all participating laboratories, an agreement within the respective limits of uncertainty could be achieved by all participants.</p>
+    <p>The participation of PTB made it possible to have a link to the key comparison CCEM-K3. The results of each participant are thus also referred to the key comparison reference value stated in the CCEM-K3 final report.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K3/EUROMET.EM-K3.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on EUROMET comparison EUROMET.EM-K3: a 10 mH inductance
+    - language: en
+      script: Latn
+      content: 'Final report on EUROMET comparison EUROMET.EM-K3: a 10 mH inductance
         standard at 1 kHz'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-01-01'
+      at: '2011-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +81,6 @@ extent:
     reference_from: '01008'
     reference_to: '01008'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375493
-title:
-- content: Difference in silicon photodiode response between collimated and divergent
-    beams
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/33
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/33
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 493
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Difference in silicon photodiode response between collimated and divergent
+    beams
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/33
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/33
+docidentifier:
+- content: Metrologia 37 5 493
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/33
+- content: 10.1088/0026-1394/37/5/33
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Saito
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ETL
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Onuki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ETL
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>A theoretical model, whose validity was confirmed experimentally, has
+- language: en
+  script:
+  - Latn
+  content: "<p>A theoretical model, whose validity was confirmed experimentally, has
     been used to investigate the polarization properties of silicon photodiodes as
     functions of the angle of incidence with wavelengths ranging from 10 nm to 800
     nm. From this, spectral differences in the responses of silicon photodiodes between
@@ -69,40 +63,32 @@ abstract:
     increase reaches a maximum of 7.5 % at 163 nm. Similar results for a Si photodiode
     coated with an 8 nm oxide layer and a divergent beam with Gaussian angular distribution
     were also obtained.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Difference in silicon photodiode response between collimated and divergent
+    - language: en
+      script: Latn
+      content: Difference in silicon photodiode response between collimated and divergent
         beams
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +99,6 @@ extent:
     reference_from: '493'
     reference_to: '496'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

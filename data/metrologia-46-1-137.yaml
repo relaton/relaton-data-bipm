@@ -1,80 +1,68 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461137
-title:
-- content: News from the BIPM—2008
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1/M01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1/M01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1 137
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: News from the BIPM—2008
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1/M01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1/M01
+docidentifier:
+- content: Metrologia 46 1 137
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1/M01
+- content: 10.1088/0026-1394/46/1/M01
   type: doi
 date:
 - type: published
-  value: '2009-02-01'
+  at: '2009-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew Wallard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Director, Bureau International des Poids et Mesures (BIPM), Sèvres,
             France
-  role:
-  - type: author
-revdate: '2009-02-01'
 abstract:
-- content: "<p>The full text of the news is given in the PDF file.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The full text of the news is given in the PDF file.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: News from the BIPM—2008
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: News from the BIPM—2008
     date:
     - type: ppub
-      value: '2009-02-01'
+      at: '2009-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -85,6 +73,6 @@ extent:
     reference_from: '137'
     reference_to: '143'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

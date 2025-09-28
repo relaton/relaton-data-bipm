@@ -1,98 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia325389
-title:
-- content: Pressure coefficients of 1 Ω Thomas-type resistance standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/5/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/5/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 5 389
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pressure coefficients of 1 Ω Thomas-type resistance standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/5/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/5/7
+docidentifier:
+- content: Metrologia 32 5 389
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/5/7
+- content: 10.1088/0026-1394/32/5/7
   type: doi
 date:
 - type: published
-  value: '1995-10-01'
+  at: '1995-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Karlsson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMAS/JV
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Sørsdal
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NMAS/JV
-  role:
-  - type: author
-revdate: '1995-10-01'
 abstract:
-- content: "<p>The pressure coefficients of six 1 Ω Thomas-type resistance standards
+- language: en
+  script:
+  - Latn
+  content: "<p>The pressure coefficients of six 1 Ω Thomas-type resistance standards
     have been measured at the Norwegian Metrology and Accreditation Service (Justervesenet
     - JV). The typical value is 2 nΩ/hPa with a combined standard uncertainty of 0,05
     nΩ/hPa. To minimize temperature effects, the experiment was carried out at a temperature
     near the peak value of each resistor, 26,8 °C. This will also be the new JV maintenance
     temperature for 1 Ω Thomas resistance standards in the future.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pressure coefficients of 1 Ω Thomas-type resistance standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Pressure coefficients of 1 Ω Thomas-type resistance standards
     date:
     - type: ppub
-      value: '1995-10-01'
+      at: '1995-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +89,6 @@ extent:
     reference_from: '389'
     reference_to: '391'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

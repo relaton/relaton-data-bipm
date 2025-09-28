@@ -1,60 +1,59 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5235
-title:
-- content: The International Practical Temperature Scale of 1968
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 2 35
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The International Practical Temperature Scale of 1968
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/2/001
+docidentifier:
+- content: Metrologia 5 2 35
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/2/001
+- content: 10.1088/0026-1394/5/2/001
   type: doi
 date:
 - type: published
-  value: '1969-04-01'
+  at: '1969-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Comité International des Poids et Mesures
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '1969-04-01'
 abstract:
-- content: |-
+- language: en
+  script:
+  - Latn
+  content: |-
     <p>The Comité International des Poids et Mesures (CIPM) at
     its meeting in October 1968 agreed to adopt the International
     Practical Temperature Scale of 1968 (IPTS-68) in accordance
     with the decision of the 13<sup>e</sup> Conférence Générale des Poids
     et Mesures, Resolution 8, of October 1967. This resolution gave
     the CIPM permission to introduce a new Scale to replace the
-    existing IPTS-48 as soon as the Comité Consultatif de Thermométrie (CCT) made its recommendations.</p><p>There were two important reasons for revising the IPTS-48.
+    existing IPTS-48 as soon as the Comité Consultatif de Thermométrie (CCT) made its recommendations.</p>
+    <p>There were two important reasons for revising the IPTS-48.
     The first of these was the need to extend the Scale to lower
     temperatures to achieve a unification of the existing national
     scales in the region 10 K–90 K. Secondly the Scale had not
     been revised significantly over the range from −183 °C to
-    1063 °C since its inception in 1927, and modern gas thermometer measurements showed that the Scale gave values considerably different from thermodynamic temperatures.</p><p>The CCT agreed on the basic data and methods of interpolation for a new definition of the IPTS at its 8th meeting
+    1063 °C since its inception in 1927, and modern gas thermometer measurements showed that the Scale gave values considerably different from thermodynamic temperatures.</p>
+    <p>The CCT agreed on the basic data and methods of interpolation for a new definition of the IPTS at its 8th meeting
     held in Washington and Ottawa in September 1967. Provision
     was made to extend the Scale down to 13.81 K, the triple point
     of equilibrium hydrogen, and for the use of the best known
-    values of thermodynamic temperatures. The value of c<sub>2</sub> used
+    values of thermodynamic temperatures. The value of  <italic>c</italic><sub>2</sub> used
     in the Planck equation was also revised as a result of a better
-    knowledge of the values of fundamental physical constants.</p><p>The CCT appointed a small sub-committee to prepare a text
+    knowledge of the values of fundamental physical constants.</p>
+    <p>The CCT appointed a small sub-committee to prepare a text
     of the definition of the IPTS-68 in accordance with its recommendations, with instructions to resolve some points of detail.
     The final draft of the English text, which is reproduced below,
     received the approval of all members of the CCT before it was
@@ -62,39 +61,31 @@ abstract:
     the French text which was prepared by the Bureau International des Poids et Mesures from the English text, and is
     published as an annexe to Comptes rendus des séances de la
     Treizième Conférence Générale des Poids et Mesures.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The International Practical Temperature Scale of 1968
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The International Practical Temperature Scale of 1968
     date:
     - type: ppub
-      value: '1969-04-01'
+      at: '1969-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +96,6 @@ extent:
     reference_from: '35'
     reference_to: '44'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

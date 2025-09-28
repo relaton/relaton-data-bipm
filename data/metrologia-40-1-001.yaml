@@ -1,93 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401001
-title:
-- content: Editorial
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Editorial
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/001
+docidentifier:
+- content: Metrologia 40 1 001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/001
+- content: 10.1088/0026-1394/40/1/001
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P W Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
-        - content: ''
-  role:
-  - type: author
-revdate: '2003-02-01'
+        - {}
 abstract:
-- content: "<p>In partnership with Institute of Physics Publishing (IOPP), \n Metrologia
+- language: en
+  script:
+  - Latn
+  content: "<p>In partnership with Institute of Physics Publishing (IOPP), \n <italic>Metrologia</italic>
     embarks on a new phase of its development with \nthe publication of volume 40.
     This first issue publishes the \nproceedings of the NEWRAD 2002 conference. In
     the past, \nNEWRAD special issues have typically taken of the order of \nfifteen
     months or so from the time of the meeting to appear in \nprint. The fact that
     in this case the time to publication is less \nthan nine months is testimony to
     one of the many advantages \nthat IOPP can bring to the publication of the journal,
-    and in \nthe future even shorter times are envisaged.</p><p>Readers will notice
+    and in \nthe future even shorter times are envisaged.</p>\n<p>Readers will notice
     that the composition of the Editorial \nBoard has changed. I should like to take
     this opportunity to \nthank the outgoing members of the Board for the valuable
     \ninput they have provided over the years, generously \ncontributing their time
     and expertise for the advancement of \nthe journal. At the same time I extend
     a welcome to the new \nmembers, confident in the expectation that they will use
-    their \nwide knowledge and experience to ensure that the high \nstandards of Metrologia
+    their \nwide knowledge and experience to ensure that the high \nstandards of  <italic>Metrologia</italic>
     are maintained.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Editorial
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Editorial
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

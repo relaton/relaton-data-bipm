@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366547
-title:
-- content: New apparatus for measuring the density of mercury
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 547
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New apparatus for measuring the density of mercury
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/12
+docidentifier:
+- content: Metrologia 36 6 547
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/12
+- content: 10.1088/0026-1394/36/6/12
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bettin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Krumscheid
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>A new apparatus is being set up for measuring the density of mercury
+- language: en
+  script:
+  - Latn
+  content: "<p>A new apparatus is being set up for measuring the density of mercury
     at 20 °C with a relative uncertainty of 0.5 × 10<sup>-6</sup> by hydrostatic weighing
     of a sinker of known volume and mass. Two small sinkers of about 50 cm<sup>3</sup>
     were calibrated by hydrostatic comparison with silicon density standards. Thus,
@@ -68,39 +62,31 @@ abstract:
     will be performed for the gravitation experiment of Zurich University using 1
     m<sup>3</sup> of mercury, and for mercury samples used in primary pressure standards.
     Design and results of first tests of the hydrostatic weighing apparatus are reported.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New apparatus for measuring the density of mercury
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New apparatus for measuring the density of mercury
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +97,6 @@ extent:
     reference_from: '547'
     reference_to: '550'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,98 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia491A03002
-title:
-- content: International comparison of platinum resistance thermometers between Chile
-    and Ecuador
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1A/03002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1A/03002
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1A 03002
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International comparison of platinum resistance thermometers between Chile
+    and Ecuador
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1A/03002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1A/03002
+docidentifier:
+- content: Metrologia 49 1A 03002
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1A/03002
+- content: 10.1088/0026-1394/49/1A/03002
   type: doi
 date:
 - type: published
-  value: '2012-01-01'
+  at: '2012-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Araya
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Laboratory of Temperature of Chile, CESMEC, Santiago,
             Chile
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Almeida
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ecuadorian Standardization Institute, INEN, Quito, Ecuador
-  role:
-  - type: author
-revdate: '2012-01-01'
 abstract:
-- content: |-
-    <p>An international bilateral comparison of platinum resistance thermometers was performed between the National Metrology Institutes of Chile (LCPNT-CESMEC) and the Ecuadorian Standardization Institute of Ecuador (INEN), both represented by their National Laboratories of Temperature. This comparison was carried out in the range from −39 °C up to 232 °C. The final results obtained by each laboratory showed to be equivalent (En &lt; 1) over the measured temperature range.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report (as of 23 November 2012 this link is suppressed pending correction to the report). Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by SIM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>An international bilateral comparison of platinum resistance thermometers was performed between the National Metrology Institutes of Chile (LCPNT-CESMEC) and the Ecuadorian Standardization Institute of Ecuador (INEN), both represented by their National Laboratories of Temperature. This comparison was carried out in the range from −39 °C up to 232 °C. The final results obtained by each laboratory showed to be equivalent (En &lt; 1) over the measured temperature range.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on   Final Report (<italic>as of 23 November 2012 this link is suppressed pending correction to the report</italic>). Note that this text is that which appears in Appendix B of the BIPM key comparison database   <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by SIM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International comparison of platinum resistance thermometers between
+    - language: en
+      script: Latn
+      content: International comparison of platinum resistance thermometers between
         Chile and Ecuador
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-01-01'
+      at: '2012-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +91,6 @@ extent:
     reference_from: '03002'
     reference_to: '03002'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

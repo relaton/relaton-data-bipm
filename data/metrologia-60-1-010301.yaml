@@ -1,121 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia601010301
-title:
-- content: Editorial for the Metrologia Focus Issue on Length Metrology
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/acb05b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/acb05b
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 1 010301
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Editorial for the <italic toggle="yes">Metrologia</italic> Focus Issue
+    on Length Metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/acb05b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/acb05b
+docidentifier:
+- content: Metrologia 60 1 010301
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/acb05b
+- content: 10.1088/1681-7575/acb05b
   type: doi
 date:
 - type: published
-  value: '2023-01-18'
+  at: '2023-01-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew J Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
-              Kingdom
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew Yacoot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
+            Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex TW11 0LW, United
-              Kingdom
-  role:
-  - type: author
-revdate: '2023-01-18'
 abstract:
-- content: Abstract<p>This Focus Issue of Metrologia was instigated by the Consultative
-    Committee for Length’s Working Group on Strategic Planning when it met online
-    in 2020 during the COVID-19 pandemic. Submission of articles started closely thereafter
-    and was closed in September 2022. Covering a wide range of topics, the issue shows
-    that despite the Coronavirus pandemic disrupting laboratory work, length metrology
-    researchers have continued to deliver cutting edge research. The revised definition
-    of the metre and its Mise en Pratique, both published in 2019, have stimulated
-    further research and opened additional opportunities for developing length metrology
-    capabilities. Articles related to the new Mise en Pratique are included in the
-    issue, together with a range of articles demonstrating the breadth and ingenuity
-    of current leading edge research in length metrology. A final paper indicates
-    how metrology, with length used as an example, may be enhanced by a transition
-    to a digital framework for realising the SI.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This Focus Issue of <italic toggle="yes">Metrologia</italic> was instigated by the Consultative Committee for Length’s Working Group on Strategic Planning when it met online in 2020 during the COVID-19 pandemic. Submission of articles started closely thereafter and was closed in September 2022. Covering a wide range of topics, the issue shows that despite the Coronavirus pandemic disrupting laboratory work, length metrology researchers have continued to deliver cutting edge research. The revised definition of the metre and its <italic toggle="yes">Mise en Pratique</italic>, both published in 2019, have stimulated further research and opened additional opportunities for developing length metrology capabilities. Articles related to the new <italic toggle="yes">Mise en Pratique</italic> are included in the issue, together with a range of articles demonstrating the breadth and ingenuity of current leading edge research in length metrology. A final paper indicates how metrology, with length used as an example, may be enhanced by a transition to a digital framework for realising the SI.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Editorial for the Metrologia Focus Issue on Length Metrology
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Editorial for the <italic toggle="yes">Metrologia</italic> Focus Issue
+        on Length Metrology
     date:
     - type: ppub
-      value: '2023-02-01'
+      at: '2023-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Editorial for the Metrologia Focus Issue on Length Metrology
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Editorial for the <italic toggle="yes">Metrologia</italic> Focus Issue
+        on Length Metrology
     date:
     - type: epub
-      value: '2023-01-18'
+      at: '2023-01-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +104,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

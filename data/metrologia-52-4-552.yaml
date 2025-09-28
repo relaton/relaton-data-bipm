@@ -1,136 +1,115 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524552
-title:
-- content: Relativistic corrections for time and frequency transfer in optical fibres
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/552
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/552
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 552
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Relativistic corrections for time and frequency transfer in optical fibres
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/552
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/552
+docidentifier:
+- content: Metrologia 52 4 552
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/552
+- content: 10.1088/0026-1394/52/4/552
   type: doi
 date:
 - type: published
-  value: '2015-07-16'
+  at: '2015-07-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Geršl
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Okružní 31, 63800 Brno, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: Okružní 31, 63800 Brno, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Delva
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS UMR8630, UPMC, LNE, 61 avenue
+            de l’Observatoire, F-75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS UMR8630, UPMC, LNE, 61
-              avenue de l’Observatoire, F-75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Wolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS UMR8630, UPMC, LNE, 61 avenue
+            de l’Observatoire, F-75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS UMR8630, UPMC, LNE, 61
-              avenue de l’Observatoire, F-75014 Paris, France
-  role:
-  - type: author
-revdate: '2015-07-16'
 abstract:
-- content: Abstract<p>We derive relativistic corrections for one-way and two-way time
-    and frequency transfer over optical fibres neglecting no terms that exceed 1 ps
-    in time and 10<sup>−18</sup> in fractional frequency, and estimate their magnitude
-    in typical fibre links. We also provide estimates of the uncertainties in the
-    evaluation of the relativistic corrections due to imperfect knowledge of parameters
-    like the coordinates of the fibre and stations, Earth rotation, or thermal effects
-    of the fibre index and length. The links between Teddington(UK) and Paris(F) as
-    well as Braunschweig(D) and Paris(F), that are currently under construction, are
-    studied as specific examples.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We derive relativistic corrections for one-way and two-way time and frequency transfer over optical fibres neglecting no terms that exceed 1 ps in time and 10<sup>−18</sup> in fractional frequency, and estimate their magnitude in typical fibre links. We also provide estimates of the uncertainties in the evaluation of the relativistic corrections due to imperfect knowledge of parameters like the coordinates of the fibre and stations, Earth rotation, or thermal effects of the fibre index and length. The links between Teddington(UK) and Paris(F) as well as Braunschweig(D) and Paris(F), that are currently under construction, are studied as specific examples.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relativistic corrections for time and frequency transfer in optical
+    - script: Latn
+      content: Relativistic corrections for time and frequency transfer in optical
         fibres
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relativistic corrections for time and frequency transfer in optical
+    - script: Latn
+      content: Relativistic corrections for time and frequency transfer in optical
         fibres
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-07-16'
+      at: '2015-07-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +120,6 @@ extent:
     reference_from: '552'
     reference_to: '564'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

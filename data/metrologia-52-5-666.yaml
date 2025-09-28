@@ -1,171 +1,141 @@
 ---
-schema-version: v1.2.9
-id: Metrologia525666
-title:
-- content: A detailed comparison of two continuous GPS carrier-phase time transfer
-    techniques
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/5/666
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/5/666
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 5 666
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A detailed comparison of two continuous GPS carrier-phase time transfer
+    techniques
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/5/666
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/5/666
+docidentifier:
+- content: Metrologia 52 5 666
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/5/666
+- content: 10.1088/0026-1394/52/5/666
   type: doi
 date:
 - type: published
-  value: '2015-09-08'
+  at: '2015-09-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jian Yao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO, 80302, USA
         name:
         - content: National Institute of Standards and Technology and University of
             Colorado
         subdivision:
-        - content: Time and Frequency Division and JILA
-        contact:
-        - address:
-            formatted_address: Boulder, CO, 80302, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Time and Frequency Division and JILA
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ivan Skakun
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Central Research Institute of Machine Building, Korolyov
+            City, Russia
         name:
         - content: PNT Information and Analysis Center
-        contact:
-        - address:
-            formatted_address: Central Research Institute of Machine Building, Korolyov
-              City, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhiheng Jiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312, Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312, Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Judah Levine
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO, 80302, USA
         name:
         - content: National Institute of Standards and Technology and University of
             Colorado
         subdivision:
-        - content: Time and Frequency Division and JILA
-        contact:
-        - address:
-            formatted_address: Boulder, CO, 80302, USA
-  role:
-  - type: author
-revdate: '2015-09-08'
+        - name:
+          - language: en
+            script: Latn
+            content: Time and Frequency Division and JILA
 abstract:
-- content: 'Abstract<p>Global positioning system (GPS) carrier-phase time transfer,
-    as a widely accepted high-precision time transfer method, frequently shows a data-batch
-    boundary discontinuity of up to 1 ns, because of the inconsistency of the phase
-    ambiguities between two consecutive data batches. To eliminate the data-batch
-    boundary discontinuity, several techniques have been proposed in recent years.
-    The question is how much the solutions of these techniques differ from each other
-    and how well the solutions are faithful to clocks. To answer these questions,
-    this paper chooses two techniques to study: revised RINEX-shift (RRS) technique
-    [, ], and phase integer common-view (Phase-CV) technique []. This paper shows
-    that the time deviation of the difference between the two techniques is below
-    100 ps, for an averaging time of less than 10 d. Especially, for an averaging
-    time of less than 1 d, the time deviation is less than 30 ps. We also find that
-    both RRS and Phase-CV match TWSTFT (two-way satellite time and frequency transfer)
-    and TWOTFT (two-way optical-fiber time and frequency transfer) quite well. Especially,
-    the difference between RRS/Phase-CV and TWOTFT is less than  ±0.25 ns for more
-    than 20 d, for a baseline of 268 km. These results show that both RRS and Phase-CV
-    agree very well, and they are both faithful to clocks. However, this is based
-    on the assumption that there is no obvious change in the GPS receiver reference
-    time. When there is a sudden change in the reference time, Phase-CV cannot follow
-    the time change. In contrast, RRS still follows the time change and represents
-    the clock well.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Global positioning system (GPS) carrier-phase time transfer, as a widely accepted high-precision time transfer method, frequently shows a data-batch boundary discontinuity of up to 1 ns, because of the inconsistency of the phase ambiguities between two consecutive data batches. To eliminate the data-batch boundary discontinuity, several techniques have been proposed in recent years. The question is how much the solutions of these techniques differ from each other and how well the solutions are faithful to clocks. To answer these questions, this paper chooses two techniques to study: revised RINEX-shift (RRS) technique [, ], and phase integer common-view (Phase-CV) technique []. This paper shows that the time deviation of the difference between the two techniques is below 100 ps, for an averaging time of less than 10 d. Especially, for an averaging time of less than 1 d, the time deviation is less than 30 ps. We also find that both RRS and Phase-CV match TWSTFT (two-way satellite time and frequency transfer) and TWOTFT (two-way optical-fiber time and frequency transfer) quite well. Especially, the difference between RRS/Phase-CV and TWOTFT is less than  ±0.25 ns for more than 20 d, for a baseline of 268 km. These results show that both RRS and Phase-CV agree very well, and they are both faithful to clocks. However, this is based on the assumption that there is no obvious change in the GPS receiver reference time. When there is a sudden change in the reference time, Phase-CV cannot follow the time change. In contrast, RRS still follows the time change and represents the clock well.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A detailed comparison of two continuous GPS carrier-phase time transfer
+    - script: Latn
+      content: A detailed comparison of two continuous GPS carrier-phase time transfer
         techniques
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-10-01'
+      at: '2015-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A detailed comparison of two continuous GPS carrier-phase time transfer
+    - script: Latn
+      content: A detailed comparison of two continuous GPS carrier-phase time transfer
         techniques
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-09-08'
+      at: '2015-09-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -176,6 +146,6 @@ extent:
     reference_from: '666'
     reference_to: '676'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,126 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532S65
-title:
-- content: Examples of S1 coverage intervals with very good and very bad long-run
-    success rate
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/S65
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/S65
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 S65
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Examples of S1 coverage intervals with very good and very bad long-run
+    success rate
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/S65
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/S65
+docidentifier:
+- content: Metrologia 53 2 S65
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/S65
+- content: 10.1088/0026-1394/53/2/S65
   type: doi
 date:
 - type: published
-  value: '2016-03-09'
+  at: '2016-03-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicola Giaquinto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Via E Orabona 4 I-70125, Bari, Italy
         name:
         - content: Politecnico di Bari
         subdivision:
-        - content: Department of Electrical and Information Engineering (DEI
-        contact:
-        - address:
-            formatted_address: Via E Orabona 4 I-70125, Bari, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical and Information Engineering (DEI
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Laura Fabbiano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Via E Orabona 4 I-70125, Bari, Italy
         name:
         - content: Politecnico di Bari
         subdivision:
-        - content: Department of Mechanics, Mathematics and Management (DMMM
-        contact:
-        - address:
-            formatted_address: Via E Orabona 4 I-70125, Bari, Italy
-  role:
-  - type: author
-revdate: '2016-03-09'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mechanics, Mathematics and Management (DMMM
 abstract:
-- content: 'Abstract<p>The paper illustrates, by means of selected examples, the merits
-    and the limits of the method for computing coverage intervals described in the
-    Supplement 1 to the GUM. The assessment of coverage intervals is done by evaluating
-    their long-run success rate. Three pairs of examples are presented, relative to
-    three different ways of generating incomplete knowledge about quantities: toss
-    of dice, presence of additive noise, quantization. In all the pairs of examples,
-    the first one results in a coverage interval with a long-run success rate equal
-    to the coverage probability (set to 95%); the second one, instead, yields an interval
-    with a success rate near to zero. The paper shows that the propagation mechanism
-    of the Supplement 1, while working well in certain special cases, yields unacceptable
-    results in others, and that the problematic issues cannot be neglected. The conclusion
-    is that, if a Bayesian approach to uncertainty evaluation is adopted, the propagation
-    is a particularly delicate issue.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The paper illustrates, by means of selected examples, the merits and the limits of the method for computing coverage intervals described in the Supplement 1 to the GUM. The assessment of coverage intervals is done by evaluating their long-run success rate. Three pairs of examples are presented, relative to three different ways of generating incomplete knowledge about quantities: toss of dice, presence of additive noise, quantization. In all the pairs of examples, the first one results in a coverage interval with a long-run success rate equal to the coverage probability (set to 95%); the second one, instead, yields an interval with a success rate near to zero. The paper shows that the propagation mechanism of the Supplement 1, while working well in certain special cases, yields unacceptable results in others, and that the problematic issues cannot be neglected. The conclusion is that, if a Bayesian approach to uncertainty evaluation is adopted, the propagation is a particularly delicate issue.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Examples of S1 coverage intervals with very good and very bad long-run
+    - script: Latn
+      content: Examples of S1 coverage intervals with very good and very bad long-run
         success rate
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Examples of S1 coverage intervals with very good and very bad long-run
+    - script: Latn
+      content: Examples of S1 coverage intervals with very good and very bad long-run
         success rate
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-03-09'
+      at: '2016-03-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +115,6 @@ extent:
     reference_from: S65
     reference_to: S73
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,106 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia553450
-title:
-- content: 'Corrigendum: The measurement of sparkle (2015 Metrologia 52 2)'
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/aabebf
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aabebf
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 3 450
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Corrigendum: The measurement of sparkle (2015 <italic>Metrologia</italic>
+    <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/2/317"
+    xlink:type="simple"><bold>52</bold> 2</ext-link>)'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aabebf
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aabebf
+docidentifier:
+- content: Metrologia 55 3 450
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aabebf
+- content: 10.1088/1681-7575/aabebf
   type: doi
 date:
 - type: published
-  value: '2018-05-30'
+  at: '2018-05-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Ferrero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: IO, CSIC), C/Serrano 121, 28006 Madrid, Spain
         name:
         - content: Agencia Estatal CSIC
         subdivision:
-        - content: Instituto de Óptica ‘Daza de Valdés
-        contact:
-        - address:
-            formatted_address: IO, CSIC), C/Serrano 121, 28006 Madrid, Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Instituto de Óptica ‘Daza de Valdés
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Bayón
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: IO, CSIC), C/Serrano 121, 28006 Madrid, Spain
         name:
         - content: Agencia Estatal CSIC
         subdivision:
-        - content: Instituto de Óptica ‘Daza de Valdés
-        contact:
-        - address:
-            formatted_address: IO, CSIC), C/Serrano 121, 28006 Madrid, Spain
-  role:
-  - type: author
-revdate: '2018-05-30'
+        - name:
+          - language: en
+            script: Latn
+            content: Instituto de Óptica ‘Daza de Valdés
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: The measurement of sparkle (2015 Metrologia 52 2)'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Corrigendum: The measurement of sparkle (2015 <italic>Metrologia</italic>
+        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/2/317"
+        xlink:type="simple"><bold>52</bold> 2</ext-link>)'
     date:
     - type: ppub
-      value: '2018-06-01'
+      at: '2018-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: The measurement of sparkle (2015 Metrologia 52 2)'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Corrigendum: The measurement of sparkle (2015 <italic>Metrologia</italic>
+        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/2/317"
+        xlink:type="simple"><bold>52</bold> 2</ext-link>)'
     date:
     - type: epub
-      value: '2018-05-30'
+      at: '2018-05-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +112,6 @@ extent:
     reference_from: '450'
     reference_to: '450'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,118 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia565055009
-title:
-- content: On a definition of the SI second with a set of optical clock transitions
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab3a82
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab3a82
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 5 055009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On a definition of the SI second with a set of optical clock transitions
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab3a82
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab3a82
+docidentifier:
+- content: Metrologia 56 5 055009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab3a82
+- content: 10.1088/1681-7575/ab3a82
   type: doi
 date:
 - type: published
-  value: '2019-09-16'
+  at: '2019-09-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jérôme Lodewyck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CNRS, Sorbonne Université, 61 avenue de l’Observatoire,
+            F-75014 Paris, France
         name:
         - content: Université PSL
         subdivision:
-        - content: LNE–SYRTE, Observatoire de Paris
-        contact:
-        - address:
-            formatted_address: CNRS, Sorbonne Université, 61 avenue de l’Observatoire,
-              F-75014 Paris, France
-  role:
-  - type: author
-revdate: '2019-09-16'
+        - name:
+          - language: en
+            script: Latn
+            content: LNE–SYRTE, Observatoire de Paris
 abstract:
-- content: Abstract<p>The current SI second based on the atomic hyperfine transition
-    in the ground state of<sup>133</sup>Cs is expected to be replaced by a new definition
-    based on optical frequency standards, whose estimated uncertainty has now been
-    established two orders of magnitude lower than the accuracy of the best Cs primary
-    standards. However, such a redefinition of the second is hindered by the fact
-    that many atomic species are potential contenders to become the new primary frequency
-    standard. In this paper, we propose to resolve this issue by defining a composite
-    frequency unit based on the weighted geometric mean of the individual frequencies
-    of different atomic transitions. This unit has the property to be realisable with
-    any single clock whose transition composes the unit, provided that at least a
-    few frequency ratios are available, with an accuracy that marginally differs from
-    the nominal clock uncertainty. We show that the unit can be updated as the performances
-    of the contributing transitions evolve, without incurring a drift on the unit
-    itself.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The current SI second based on the atomic hyperfine transition in the ground state of <sup>133</sup>Cs is expected to be replaced by a new definition based on optical frequency standards, whose estimated uncertainty has now been established two orders of magnitude lower than the accuracy of the best Cs primary standards. However, such a redefinition of the second is hindered by the fact that many atomic species are potential contenders to become the new primary frequency standard. In this paper, we propose to resolve this issue by defining a composite frequency unit based on the weighted geometric mean of the individual frequencies of different atomic transitions. This unit has the property to be realisable with any single clock whose transition composes the unit, provided that at least a few frequency ratios are available, with an accuracy that marginally differs from the nominal clock uncertainty. We show that the unit can be updated as the performances of the contributing transitions evolve, without incurring a drift on the unit itself.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On a definition of the SI second with a set of optical clock transitions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On a definition of the SI second with a set of optical clock transitions
     date:
     - type: ppub
-      value: '2019-10-01'
+      at: '2019-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On a definition of the SI second with a set of optical clock transitions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On a definition of the SI second with a set of optical clock transitions
     date:
     - type: epub
-      value: '2019-09-16'
+      at: '2019-09-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On a definition of the SI second with a set of optical clock transitions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: On a definition of the SI second with a set of optical clock transitions
     date:
     - type: open-access
-      value: '2019-09-16'
+      at: '2019-09-16'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +101,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

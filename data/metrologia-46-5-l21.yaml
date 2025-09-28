@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465L21
-title:
-- content: Re-evaluation of the BIPM international standards for air kerma in x-rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/N01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/N01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 L21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Re-evaluation of the BIPM international standards for air kerma in x-rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/N01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/N01
+docidentifier:
+- content: Metrologia 46 5 L21
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/N01
+- content: 10.1088/0026-1394/46/5/N01
   type: doi
 date:
 - type: published
-  value: '2009-09-17'
+  at: '2009-09-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Cecilia Kessler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Penelope J Allisy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2009-09-17'
 abstract:
-- content: "<p>A re-evaluation of the BIPM standards for air kerma in low- and medium-energy
+- language: en
+  script:
+  - Latn
+  content: "<p>A re-evaluation of the BIPM standards for air kerma in low- and medium-energy
     x-rays has been made. The changes to the air-kerma rate determination arise from
     three sources: (i) the results of Monte Carlo calculations of diaphragm correction
     factors for the standards, (ii) a measurement of the effect of scatter from the
@@ -79,55 +71,44 @@ abstract:
     the medium-energy standard. Scatter from the diaphragm support explains a long-standing
     trend observed in the results of international comparisons for medium-energy x-rays.
     The new standards were implemented on 1 September 2009.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Re-evaluation of the BIPM international standards for air kerma in
+    - language: en
+      script: Latn
+      content: Re-evaluation of the BIPM international standards for air kerma in
         x-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-09-17'
+      at: '2009-09-17'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Re-evaluation of the BIPM international standards for air kerma in
+    - language: en
+      script: Latn
+      content: Re-evaluation of the BIPM international standards for air kerma in
         x-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +119,6 @@ extent:
     reference_from: L21
     reference_to: L23
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

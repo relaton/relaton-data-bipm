@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326535
-title:
-- content: Radiometry with cryogenic radiometers and semiconductor photodiodes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/28
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/28
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 535
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiometry with cryogenic radiometers and semiconductor photodiodes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/28
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/28
+docidentifier:
+- content: Metrologia 32 6 535
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/28
+- content: 10.1088/0026-1394/32/6/28
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NPL
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>The paper reviews some of the advances in optical radiation measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper reviews some of the advances in optical radiation measurements
     made over the last twenty years, particularly through the use of cryogenic radiometers
     and solid-state detector transfer standards. The way in which base scales of many
     optical radiation measurements are linked and the prospects for a further improvement
     in accuracy, particularly by the measurement of sources using well-characterized
     filter radiometers, are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiometry with cryogenic radiometers and semiconductor photodiodes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiometry with cryogenic radiometers and semiconductor photodiodes
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '535'
     reference_to: '543'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,127 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585055003
-title:
-- content: Remote time and frequency calibration with holdover traceability from a
-    new treatment of non-white noise in rubidium clocks
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac0f31
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac0f31
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 055003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Remote time and frequency calibration with holdover traceability from a
+    new treatment of non-white noise in rubidium clocks
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac0f31
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac0f31
+docidentifier:
+- content: Metrologia 58 5 055003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac0f31
+- content: 10.1088/1681-7575/ac0f31
   type: doi
 date:
 - type: published
-  value: '2021-07-27'
+  at: '2021-07-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rob Douglas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: André Charboneau
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marina Gertsvolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2021-07-27'
 abstract:
-- content: |-
-    Abstract<p>A new method of uncertainty analysis for non-white noise is presented and used to evaluate traceable holdover capabilities of a new NRC system for time and frequency dissemination to remote rubidium-cell (Rb) clocks. As in many similar systems, these remote clocks are disciplined to track UTC using the Global Positioning System and the common view time transfer method. When disciplining data is unavailable, we extend traceability into this holdover period with evaluations of uncertainty from the measurements of the Rb clock’s non-white noise: modelled, matched, and simply presented as a time dependent dispersion in Monte Carlo simulations. This leads to improved simplicity, reliability and economy for the new method, with a post processed standard uncertainty down to 6 ns when disciplined, with a holdover period of t seconds introducing an uncertainty component of 1.82 × 10<sup>−3</sup>
-     t nanoseconds (combined standard uncertainty of 160 ns for a 24 h holdover).</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A new method of uncertainty analysis for non-white noise is presented and used to evaluate traceable holdover capabilities of a new NRC system for time and frequency dissemination to remote rubidium-cell (Rb) clocks. As in many similar systems, these remote clocks are disciplined to track UTC using the Global Positioning System and the common view time transfer method. When disciplining data is unavailable, we extend traceability into this holdover period with evaluations of uncertainty from the measurements of the Rb clock’s non-white noise: modelled, matched, and simply presented as a time dependent dispersion in Monte Carlo simulations. This leads to improved simplicity, reliability and economy for the new method, with a post processed standard uncertainty down to 6 ns when disciplined, with a holdover period of <italic toggle="yes">t</italic> seconds introducing an uncertainty component of 1.82 × 10<sup>−3</sup>
+                   <italic toggle="yes">t</italic> nanoseconds (combined standard uncertainty of 160 ns for a 24 h holdover).</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Remote time and frequency calibration with holdover traceability from
+    - script: Latn
+      content: Remote time and frequency calibration with holdover traceability from
         a new treatment of non-white noise in rubidium clocks
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Remote time and frequency calibration with holdover traceability from
+    - script: Latn
+      content: Remote time and frequency calibration with holdover traceability from
         a new treatment of non-white noise in rubidium clocks
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-07-27'
+      at: '2021-07-27'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +112,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

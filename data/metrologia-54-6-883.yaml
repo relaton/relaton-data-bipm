@@ -1,129 +1,127 @@
 ---
-schema-version: v1.2.9
-id: Metrologia546883
-title:
-- content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 Metrologia
-    52 S123–45)'
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/aa853b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa853b
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 6 883
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 <italic>Metrologia</italic>
+    <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/3/s123"
+    xlink:type="simple"><bold>52</bold> S123–45</ext-link>)'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa853b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa853b
+docidentifier:
+- content: Metrologia 54 6 883
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa853b
+- content: 10.1088/1681-7575/aa853b
   type: doi
 date:
 - type: published
-  value: '2017-11-15'
+  at: '2017-11-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M C Lépy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bât. 602, PC 111, CEA-Saclay 91191 Gif-sur-Yvette cedex,
+            France
         name:
         - content: Laboratoire National Henri Becquerel
         subdivision:
-        - content: CEA, LIST
-        contact:
-        - address:
-            formatted_address: Bât. 602, PC 111, CEA-Saclay 91191 Gif-sur-Yvette cedex,
-              France
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: CEA, LIST
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Pearce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, United Kingdom
         name:
         - content: NPL
         subdivision:
-        - content: Radioactivity Group
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, United Kingdom
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Radioactivity Group
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O Sima
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bucharest-Magurele, 077125, Romania
         name:
         - content: University of Bucharest
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Bucharest-Magurele, 077125, Romania
-  role:
-  - type: author
-revdate: '2017-11-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 Metrologia
-        52 S123–45)'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 <italic>Metrologia</italic>
+        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/3/s123"
+        xlink:type="simple"><bold>52</bold> S123–45</ext-link>)'
     date:
     - type: ppub
-      value: '2017-12-01'
+      at: '2017-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 Metrologia
-        52 S123–45)'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Corrigendum: Uncertainties in gamma-ray spectrometry (2015 <italic>Metrologia</italic>
+        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/52/3/s123"
+        xlink:type="simple"><bold>52</bold> S123–45</ext-link>)'
     date:
     - type: epub
-      value: '2017-11-15'
+      at: '2017-11-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +132,6 @@ extent:
     reference_from: '883'
     reference_to: '883'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

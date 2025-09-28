@@ -1,115 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532S55
-title:
-- content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/S55
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/S55
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 S55
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/S55
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/S55
+docidentifier:
+- content: Metrologia 53 2 S55
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/S55
+- content: 10.1088/0026-1394/53/2/S55
   type: doi
 date:
 - type: published
-  value: '2016-02-02'
+  at: '2016-02-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Retieseweg 111, B-2440 Geel, Belgium
         name:
         - content: Institute for Reference Materials and Measurements
         subdivision:
-        - content: European Commission, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2016-02-02'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission, Joint Research Centre
 abstract:
-- content: Abstract<p>It could be argued that activity measurements of radioactive
-    substances should be under statistical control, considering that the measurand
-    is unambiguously defined, the radioactive decay processes are theoretically well
-    understood and the measurement function can be derived from physical principles.
-    However, comparisons invariably show a level of discrepancy among activity standardisation
-    results that exceeds expectation from uncertainty evaluations. Also decay characteristics
-    of radionuclides determined from different experiments show unexpected inconsistencies.
-    Arguably, the problem lies mainly in incomplete uncertainty assessment. Of the
-    various reasons leading to incomplete uncertainty assessment, from human failure
-    to limitations to the state-of-the-art knowledge, a selection of cases is discussed
-    in which imperfections in the modelling of the measurement process can lead to
-    unexpectedly large underestimations of uncertainty.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>It could be argued that activity measurements of radioactive substances should be under statistical control, considering that the measurand is unambiguously defined, the radioactive decay processes are theoretically well understood and the measurement function can be derived from physical principles. However, comparisons invariably show a level of discrepancy among activity standardisation results that exceeds expectation from uncertainty evaluations. Also decay characteristics of radionuclides determined from different experiments show unexpected inconsistencies. Arguably, the problem lies mainly in incomplete uncertainty assessment. Of the various reasons leading to incomplete uncertainty assessment, from human failure to limitations to the state-of-the-art knowledge, a selection of cases is discussed in which imperfections in the modelling of the measurement process can lead to unexpectedly large underestimations of uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
     date:
     - type: epub
-      value: '2016-02-02'
+      at: '2016-02-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'When the model doesn’t cover reality: examples from radionuclide metrology'
     date:
     - type: open-access
-      value: '2016-02-02'
+      at: '2016-02-02'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +103,6 @@ extent:
     reference_from: S55
     reference_to: '64'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

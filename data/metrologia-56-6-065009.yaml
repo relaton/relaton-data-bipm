@@ -1,107 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia566065009
-title:
-- content: On the status of plane and solid angles in the International System of
-    Units (SI)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab3fbf
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab3fbf
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 6 065009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the status of plane and solid angles in the International System of
+    Units (SI)
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab3fbf
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab3fbf
+docidentifier:
+- content: Metrologia 56 6 065009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab3fbf
+- content: 10.1088/1681-7575/ab3fbf
   type: doi
 date:
 - type: published
-  value: '2019-11-07'
+  at: '2019-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M I Kalinin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 46 Ozernaya Str., 119361 Moscow, Russia
         name:
         - content: Russian Research Institute for Metrological Service
-        contact:
-        - address:
-            formatted_address: 46 Ozernaya Str., 119361 Moscow, Russia
-  role:
-  - type: author
-revdate: '2019-11-07'
 abstract:
-- content: Abstract<p>The article analyzes the arguments that have become the basis
-    for the 1980 CIPM recommendations declaring plane and solid angles as dimensionless
-    derived quantities. This decision was the result of an incorrect interpretation
-    of mathematical relationships that connect the ratio of two lengths with the plane
-    angle, and the ratio of area to square of length with the solid angle. The analysis
-    of these relationships, presented in the article, showed that they determine neither
-    the dimensions of the angles nor their units, but only the numerical values of
-    the angles expressed in radians and steradians. It is shown that the series expansions
-    of trigonometric functions sometimes used to prove the dimensionless character
-    of the plane angle is also incorrect because in this case the trigonometric functions
-    of two different types, independent of each other, are offen confused. It is established
-    that the plane angle is an independent quantity and therefore should be assigned
-    to the base quantities and its unit, the radian, should be added to the base SI
-    units. It is shown that the solid angle is the derived quantity of a plane angle.
-    Its unit, the steradian, is a coherent derived unit equal to the square radian.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The article analyzes the arguments that have become the basis for the 1980 CIPM recommendations declaring plane and solid angles as dimensionless derived quantities. This decision was the result of an incorrect interpretation of mathematical relationships that connect the ratio of two lengths with the plane angle, and the ratio of area to square of length with the solid angle. The analysis of these relationships, presented in the article, showed that they determine neither the dimensions of the angles nor their units, but only the numerical values of the angles expressed in radians and steradians. It is shown that the series expansions of trigonometric functions sometimes used to prove the dimensionless character of the plane angle is also incorrect because in this case the trigonometric functions of two different types, independent of each other, are offen confused. It is established that the plane angle is an independent quantity and therefore should be assigned to the base quantities and its unit, the radian, should be added to the base SI units. It is shown that the solid angle is the derived quantity of a plane angle. Its unit, the steradian, is a coherent derived unit equal to the square radian.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the status of plane and solid angles in the International System
+    - script: Latn
+      content: On the status of plane and solid angles in the International System
         of Units (SI)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-12-01'
+      at: '2019-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the status of plane and solid angles in the International System
+    - script: Latn
+      content: On the status of plane and solid angles in the International System
         of Units (SI)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-11-07'
+      at: '2019-11-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +88,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354279
-title:
-- content: Improvements to the German national primary standard of radiant power above
-    200 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 279
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improvements to the German national primary standard of radiant power above
+    200 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/11
+docidentifier:
+- content: Metrologia 35 4 279
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/11
+- content: 10.1088/0026-1394/35/4/11
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Hofer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Pawlak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Metzdorf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>The set of cryogenic radiometers in the Physikalisch-Technische Bundesanstalt
+- language: en
+  script:
+  - Latn
+  content: "<p>The set of cryogenic radiometers in the Physikalisch-Technische Bundesanstalt
     (PTB) at Braunschweig was recently completed by the addition of a modified LaseRad
     II radiometer. The advantages of the improved facility for measurement of optical
     radiant power are described. The paper outlines the radiometric calibration chain
@@ -93,40 +83,32 @@ abstract:
     radiometers and an internal comparison are summarized. The results demonstrate
     the degree of international equivalence at the lowest level of uncertainty available.
     The international agreement is within 2 × 10<sup>-4</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improvements to the German national primary standard of radiant power
+    - language: en
+      script: Latn
+      content: Improvements to the German national primary standard of radiant power
         above 200 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '279'
     reference_to: '282'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

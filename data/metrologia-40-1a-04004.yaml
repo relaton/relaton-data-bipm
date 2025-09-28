@@ -1,82 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401A04004
-title:
-- content: 'CCL-K2: Long gauge block measurement by interferometry: Final Report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1A/04004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1A/04004
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1A 04004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'CCL-K2: Long gauge block measurement by interferometry: Final Report'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1A/04004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1A/04004
+docidentifier:
+- content: Metrologia 40 1A 04004
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1A/04004
+- content: 10.1088/0026-1394/40/1A/04004
   type: doi
 date:
 - type: published
-  value: '2003-01-01'
+  at: '2003-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2003-01-01'
 abstract:
-- content: |-
-    <p>The results of the CCL key comparison on long gauge block measurement by interferometry (CCL-K2) are reported. The comparison involved the measurement, by 12 participating laboratories, of four steel gauge blocks ranging from 175 mm to 900 mm in length using techniques based on interferometry. The results are in good agreement—out of the 43 results contributing to the analysis, 40 are in agreement (within their k = 2 uncertainties) with the weighted mean values, and, of these, 31 results are in agreement with the weighted mean values within their standard uncertainties. The spread of results for deviation from nominal length is 200 nm with the majority of the results spanning a range of just ±50 nm either side of the weighted mean values. The results of this key comparison will contribute to the Mutual Recognition Arrangement and will be used to link with results from similar regional comparisons.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The results of the CCL key comparison on long gauge block measurement by interferometry (CCL-K2) are reported. The comparison involved the measurement, by 12 participating laboratories, of four steel gauge blocks ranging from 175 mm to 900 mm in length using techniques based on interferometry. The results are in good agreement—out of the 43 results contributing to the analysis, 40 are in agreement (within their  <italic>k</italic> = 2 uncertainties) with the weighted mean values, and, of these, 31 results are in agreement with the weighted mean values within their standard uncertainties. The spread of results for deviation from nominal length is 200 nm with the majority of the results spanning a range of just ±50 nm either side of the weighted mean values. The results of this key comparison will contribute to the Mutual Recognition Arrangement and will be used to link with results from similar regional comparisons.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/L/K2/CCL-K2.pdf ">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'CCL-K2: Long gauge block measurement by interferometry: Final Report'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'CCL-K2: Long gauge block measurement by interferometry: Final Report'
     date:
     - type: ppub
-      value: '2003-01-01'
+      at: '2003-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +77,6 @@ extent:
     reference_from: '04004'
     reference_to: '04004'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

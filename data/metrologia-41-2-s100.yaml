@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S100
-title:
-- content: Automatic alignment method for calibration of hydrometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S11
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S100
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automatic alignment method for calibration of hydrometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S11
+docidentifier:
+- content: Metrologia 41 2 S100
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S11
+- content: 10.1088/0026-1394/41/2/S11
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y J Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass and Force Group, Korea Research Institute of Standards and
             Science (KRISS), PO Box 102, Yusong, Daejon 305-600, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K H Chang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass and Force Group, Korea Research Institute of Standards and
             Science (KRISS), PO Box 102, Yusong, Daejon 305-600, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Chon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Planning and Survey Laboratory, Department of Civil Engineering,
             University of Tokyo, 7-3-1, Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Y Oh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: School of Mechanical and Aerospace System Engineering, MRC, Chon
             Buk National University, 664-14, 1 ga, Duckjin-Dong, Duckjin-Gu, Jeonju,
             Chonbuk 561-756, Korea
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>This paper presents a new method to automatically align specific scale-marks
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper presents a new method to automatically align specific scale-marks
     for the calibration of hydrometers. A hydrometer calibration system adopting the
     new method consists of a vision system, a stepping motor, and software to control
     the system. The vision system is composed of a CCD camera and a frame grabber,
@@ -100,53 +90,42 @@ abstract:
     hydrometer. The performance of the proposed method is illustrated by comparing
     the calibration results using the automatic alignment method with those obtained
     using the manual method.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automatic alignment method for calibration of hydrometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Automatic alignment method for calibration of hydrometers
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automatic alignment method for calibration of hydrometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Automatic alignment method for calibration of hydrometers
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -157,6 +136,6 @@ extent:
     reference_from: S100
     reference_to: S104
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

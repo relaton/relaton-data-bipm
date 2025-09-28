@@ -1,193 +1,167 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532881
-title:
-- content: Stability improvement of an operational two-way satellite time and frequency
-    transfer system
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/881
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/881
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 881
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Stability improvement of an operational two-way satellite time and frequency
+    transfer system
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/881
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/881
+docidentifier:
+- content: Metrologia 53 2 881
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/881
+- content: 10.1088/0026-1394/53/2/881
   type: doi
 date:
 - type: published
-  value: '2016-03-31'
+  at: '2016-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yi-Jiun Huang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Taipei, Taiwan
         name:
         - content: National Taiwan University
         subdivision:
-        - content: Graduate Institute of Communication Engineering
-        contact:
-        - address:
-            formatted_address: Taipei, Taiwan
+        - name:
+          - language: en
+            script: Latn
+            content: Graduate Institute of Communication Engineering
     - organization:
+        address:
+        - formatted_address: Taoyuan, Taiwan
         name:
         - content: Chunghwa Telecom Co., Ltd.
         subdivision:
-        - content: Telecommunication Laboratories
-        contact:
-        - address:
-            formatted_address: Taoyuan, Taiwan
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Telecommunication Laboratories
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Miho Fujieda
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tokyo, Japan
         name:
         - content: National Institute of Information and Communications Technology
-        contact:
-        - address:
-            formatted_address: Tokyo, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hiroshi Takiguchi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tokyo, Japan
         name:
         - content: National Institute of Information and Communications Technology
-        contact:
-        - address:
-            formatted_address: Tokyo, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wen-Hung Tseng
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Taoyuan, Taiwan
         name:
         - content: Chunghwa Telecom Co., Ltd.
         subdivision:
-        - content: Telecommunication Laboratories
-        contact:
-        - address:
-            formatted_address: Taoyuan, Taiwan
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Telecommunication Laboratories
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hen-Wai Tsao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Taipei, Taiwan
         name:
         - content: National Taiwan University
         subdivision:
-        - content: Graduate Institute of Communication Engineering
-        contact:
-        - address:
-            formatted_address: Taipei, Taiwan
-  role:
-  - type: author
-revdate: '2016-03-31'
+        - name:
+          - language: en
+            script: Latn
+            content: Graduate Institute of Communication Engineering
 abstract:
-- content: Abstract<p>To keep national time accurately coherent with coordinated universal
-    time, many national metrology institutes (NMIs) use two-way satellite time and
-    frequency transfer (TWSTFT) to continuously measure the time difference with other
-    NMIs over an international baseline. Some NMIs have ultra-stable clocks with stability
-    better than 10<sup>−16</sup>. However, current operational TWSTFT can only provide
-    frequency uncertainty of 10<sup>−15</sup> and time uncertainty of 1 ns, which
-    is inadequate. The uncertainty is dominated by the short-term stability and the
-    diurnals, i.e. the measurement variation with a period of one day. The aim of
-    this work is to improve the stability of operational TWSTFT systems without additional
-    transmission, bandwidth or increase in signal power. A software-defined receiver
-    (SDR) comprising a high-resolution correlator and successive interference cancellation
-    associated with open-loop configuration as the TWSTFT receiver reduces the time
-    deviation from 140 ps to 73 ps at averaging time of 1 h, and occasionally suppresses
-    diurnals. To study the source of the diurnals, TWSTFT is performed using a 2  ×  2
-    earth station (ES) array. Consequently, some ESs sensitive to temperature variation
-    are identified, and the diurnals are significantly reduced by employing insensitive
-    ESs. Hence, the operational TWSTFT using the proposed SDR with insensitive ESs
-    achieves time deviation to 41 ps at 1 h, and 80 ps for averaging times from 1 h
-    to 20 h.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>To keep national time accurately coherent with coordinated universal time, many national metrology institutes (NMIs) use two-way satellite time and frequency transfer (TWSTFT) to continuously measure the time difference with other NMIs over an international baseline. Some NMIs have ultra-stable clocks with stability better than 10<sup>−16</sup>. However, current operational TWSTFT can only provide frequency uncertainty of 10<sup>−15</sup> and time uncertainty of 1 ns, which is inadequate. The uncertainty is dominated by the short-term stability and the diurnals, i.e. the measurement variation with a period of one day. The aim of this work is to improve the stability of operational TWSTFT systems without additional transmission, bandwidth or increase in signal power. A software-defined receiver (SDR) comprising a high-resolution correlator and successive interference cancellation associated with open-loop configuration as the TWSTFT receiver reduces the time deviation from 140 ps to 73 ps at averaging time of 1 h, and occasionally suppresses diurnals. To study the source of the diurnals, TWSTFT is performed using a 2  ×  2 earth station (ES) array. Consequently, some ESs sensitive to temperature variation are identified, and the diurnals are significantly reduced by employing insensitive ESs. Hence, the operational TWSTFT using the proposed SDR with insensitive ESs achieves time deviation to 41 ps at 1 h, and 80 ps for averaging times from 1 h to 20 h.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stability improvement of an operational two-way satellite time and
+    - script: Latn
+      content: Stability improvement of an operational two-way satellite time and
         frequency transfer system
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Stability improvement of an operational two-way satellite time and
+    - script: Latn
+      content: Stability improvement of an operational two-way satellite time and
         frequency transfer system
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-03-31'
+      at: '2016-03-31'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -198,6 +172,6 @@ extent:
     reference_from: '881'
     reference_to: '890'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,51 +1,45 @@
 ---
-schema-version: v1.2.9
-id: Metrologia104123
-title:
-- content: Calibration of a Set of Masses in Terms of One Mass Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 4 123
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of a Set of Masses in Terms of One Mass Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/4/002
+docidentifier:
+- content: Metrologia 10 4 123
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/4/002
+- content: 10.1088/0026-1394/10/4/002
   type: doi
 date:
 - type: published
-  value: '1974-10-01'
+  at: '1974-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D B Prowse
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Materials Research Laboratories, Maribyrnong, Victoria, 3032 Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A R Anderson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -53,11 +47,11 @@ contributor:
     - organization:
         name:
         - content: 20 Hudson Street, Moone Ponds, Victoria, 3039, Australia
-  role:
-  - type: author
-revdate: '1974-10-01'
 abstract:
-- content: "<p>The principles for designing a calibration scheme for a set of mass
+- language: en
+  script:
+  - Latn
+  content: "<p>The principles for designing a calibration scheme for a set of mass
     standards are discussed. On these principles, a particular scheme has been chosen
     as being convenient and reasonably efficient; it is pointed out that although
     it has not been possible to decide whether the selected scheme is optimum, it
@@ -66,39 +60,31 @@ abstract:
     Materials Research Laboratories 1 kg standard is known, to 1.6 in 10<sup>8</sup>
     for the 1 g mass; such a decrease in accuracy is shown to be a property of all
     such schemes.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of a Set of Masses in Terms of One Mass Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of a Set of Masses in Terms of One Mass Standard
     date:
     - type: ppub
-      value: '1974-10-01'
+      at: '1974-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '123'
     reference_to: '128'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

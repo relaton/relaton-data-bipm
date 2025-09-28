@@ -1,193 +1,156 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015010
-title:
-- content: Absolute calibration of GNSS timing stations and its applicability to real
-    signals
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf2bc
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf2bc
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Absolute calibration of GNSS timing stations and its applicability to real
+    signals
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf2bc
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf2bc
+docidentifier:
+- content: Metrologia 56 1 015010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf2bc
+- content: 10.1088/1681-7575/aaf2bc
   type: doi
 date:
 - type: published
-  value: '2018-12-14'
+  at: '2018-12-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Esteban Garbin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
         name:
         - content: GMV
-        contact:
-        - address:
-            formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pascale Defraigne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, Belgium
         name:
         - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: Brussels, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Piotr Krystek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
         name:
         - content: GMV
-        contact:
-        - address:
-            formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ricardo Piriz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
         name:
         - content: GMV
-        contact:
-        - address:
-            formatted_address: Tres Cantos, Madrid, Spain/Warsaw, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bruno Bertrand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, Belgium
         name:
         - content: Royal Observatory of Belgium
-        contact:
-        - address:
-            formatted_address: Brussels, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pierre Waller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: ESTEC, Noordwijk, The Netherlands
         name:
         - content: ESA
-        contact:
-        - address:
-            formatted_address: ESTEC, Noordwijk, The Netherlands
-  role:
-  - type: author
-revdate: '2018-12-14'
 abstract:
-- content: Abstract<p>This paper details techniques for the absolute calibration of
-    receiver chains as used in timing reference stations. The delays experienced by
-    the GNSS signals in all elements of the receiving chain (antenna, receiver and
-    cable) are each measured individually and with careful consideration regarding
-    the uncertainty level assigned to them. Two different receiving chains based on
-    different equipment units, were absolutely calibrated for GPS and Galileo signals.
-    The calibration process and the uncertainty evaluation were then validated through
-    the relative comparison in common clock setup in different real environments.
-    The validation results show that some additional uncertainty has to be considered
-    when the absolute calibration results are transferred to real signals, due to
-    the real environment and to the difference between the chip shapes of the simulated
-    signals and of the true signals coming from the satellites. The final 1  −  σ
-    uncertainties are below 1.1 ns for all the GPS and Galileo signals, except 1.8
-    ns for GPS C/A. The satellite group delays are also determined from the calibrated
-    stations. An agreement at the ns level is found between the so-determined satellite
-    group delays and the values provided by the system operators.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper details techniques for the absolute calibration of receiver chains as used in timing reference stations. The delays experienced by the GNSS signals in all elements of the receiving chain (antenna, receiver and cable) are each measured individually and with careful consideration regarding the uncertainty level assigned to them. Two different receiving chains based on different equipment units, were absolutely calibrated for GPS and Galileo signals. The calibration process and the uncertainty evaluation were then validated through the relative comparison in common clock setup in different real environments. The validation results show that some additional uncertainty has to be considered when the absolute calibration results are transferred to real signals, due to the real environment and to the difference between the chip shapes of the simulated signals and of the true signals coming from the satellites. The final 1  −  <italic>σ</italic> uncertainties are below 1.1 ns for all the GPS and Galileo signals, except 1.8 ns for GPS C/A. The satellite group delays are also determined from the calibrated stations. An agreement at the ns level is found between the so-determined satellite group delays and the values provided by the system operators.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute calibration of GNSS timing stations and its applicability
+    - script: Latn
+      content: Absolute calibration of GNSS timing stations and its applicability
         to real signals
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Absolute calibration of GNSS timing stations and its applicability
+    - script: Latn
+      content: Absolute calibration of GNSS timing stations and its applicability
         to real signals
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-12-14'
+      at: '2018-12-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -195,6 +158,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

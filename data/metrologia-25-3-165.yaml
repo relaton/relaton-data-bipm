@@ -1,52 +1,46 @@
 ---
-schema-version: v1.2.9
-id: Metrologia253165
-title:
-- content: 'Accurate Acoustic Thermometry I: The Triple Point of Gallium'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 3 165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Accurate Acoustic Thermometry I: The Triple Point of Gallium'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/3/006
+docidentifier:
+- content: Metrologia 25 3 165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/3/006
+- content: 10.1088/0026-1394/25/3/006
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R Moldover
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Thermophysics Division, National Bureau of Standards, Gaithersburg,
             MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P M Trusler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -56,59 +50,52 @@ contributor:
         name:
         - content: Department of Chemistry, University College London, 20 Gordon Street,
             London WC1H OAJ, UK
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>The speed of sound in argon has been accurately measured in the pressure
-    range 25-380 kPa at the temperature of the triple point of gallium (T<sub>g</sub>)
-    and at 340 kPa at the temperature of the triple point of water (T<sub>t</sub>).
-    The results are combined with previously published thermodynamic and transport
-    property data to obtain T<sub>g</sub> = (302.9169 ± 0.0005) K on the thermodynamic
-    scale. Among recent determinations of T<sub>68</sub> (the temperature on IPTS-68)
-    at the gallium triple point, those with the smallest measurement uncertainty fall
-    in the range 302.923 71 to 302.923 98 K. We conclude that T-T<sub>68</sub> = (-6.9
-    ± 0.5) mK near 303 K, in agreement with results obtained from other primary thermometers.
-    The speed of sound was measured with a spherical resonator. The volume and thermal
-    expansion of the resonator were determined by weighing the mercury required to
-    fill it at T<sub>t</sub> and T<sub>g</sub>. The largest part of the standard error
-    in the present determination of T<sub>g</sub> is systematic. It results from imperfect
-    knowledge of the thermal expansion of mercury between T<sub>t</sub> and T<sub>g</sub>.
-    Smaller parts of the error result from imperfections in the measurement of the
-    temperature of the resonator and of the resonance frequencies.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The speed of sound in argon has been accurately measured in the pressure
+    range 25-380 kPa at the temperature of the triple point of gallium (<italic>T</italic><sub>g</sub>)
+    and at 340 kPa at the temperature of the triple point of water (<italic>T</italic><sub>t</sub>).
+    The results are combined with previously published thermodynamic and transport
+    property data to obtain <italic>T</italic><sub>g</sub> = (302.9169 ± 0.0005) K
+    on the thermodynamic scale. Among recent determinations of <italic>T</italic><sub>68</sub>
+    (the temperature on IPTS-68) at the gallium triple point, those with the smallest
+    measurement uncertainty fall in the range 302.923 71 to 302.923 98 K. We conclude
+    that <italic>T-T</italic><sub>68</sub> = (-6.9 ± 0.5) mK near 303 K, in agreement
+    with results obtained from other primary thermometers. The speed of sound was
+    measured with a spherical resonator. The volume and thermal expansion of the resonator
+    were determined by weighing the mercury required to fill it at <italic>T</italic><sub>t</sub>
+    and <italic>T</italic><sub>g</sub>. The largest part of the standard error in
+    the present determination of <italic>T</italic><sub>g</sub> is systematic. It
+    results from imperfect knowledge of the thermal expansion of mercury between <italic>T</italic><sub>t</sub>
+    and <italic>T</italic><sub>g</sub>. Smaller parts of the error result from imperfections
+    in the measurement of the temperature of the resonator and of the resonance frequencies.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Accurate Acoustic Thermometry I: The Triple Point of Gallium'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Accurate Acoustic Thermometry I: The Triple Point of Gallium'
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +106,6 @@ extent:
     reference_from: '165'
     reference_to: '187'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

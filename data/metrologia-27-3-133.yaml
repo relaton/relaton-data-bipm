@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia273133
-title:
-- content: Accelerometer Calibration by Dynamic Position Measurement Using Heterodyne
-    Laser Interferometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 3 133
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accelerometer Calibration by Dynamic Position Measurement Using Heterodyne
+    Laser Interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/3/004
+docidentifier:
+- content: Metrologia 27 3 133
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/3/004
+- content: 10.1088/0026-1394/27/3/004
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Sutton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics and Engineering Laboratory, Department of Scientific and
             Industrial Research, PO Box 31313, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>A new approach to accelerometer calibration is presented which is applicable
+- language: en
+  script:
+  - Latn
+  content: "<p>A new approach to accelerometer calibration is presented which is applicable
     to frequencies from 1 mHz to above 25 kHz and to amplitudes from 1 nm to above
     10 m. Heterodyne laser interferometry is used to measure dynamically the position
     of the vibrating accelerometer as a function of phase angle through the vibration
@@ -54,40 +50,32 @@ abstract:
     One implementation of this approach is described and shown to be capable of calibrating
     accelerometers in the frequency range 5 Hz to 5 kHz with a least uncertainty in
     amplitude of ±0,01 nm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accelerometer Calibration by Dynamic Position Measurement Using Heterodyne
+    - language: en
+      script: Latn
+      content: Accelerometer Calibration by Dynamic Position Measurement Using Heterodyne
         Laser Interferometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '133'
     reference_to: '138'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

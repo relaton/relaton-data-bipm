@@ -1,67 +1,59 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493169
-title:
-- content: Estimating the standard uncertainty contribution of the straight-line fit
-    algorithm used to determine the position and the width of a graduation line
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/169
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/169
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 169
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Estimating the standard uncertainty contribution of the straight-line fit
+    algorithm used to determine the position and the width of a graduation line
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/169
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/169
+docidentifier:
+- content: Metrologia 49 3 169
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/169
+- content: 10.1088/0026-1394/49/3/169
   type: doi
 date:
 - type: published
-  value: '2012-01-27'
+  at: '2012-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Köning
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Karol Karovič
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Measurement Science, Slovak Academy of Sciences, Bratislava,
             Slovakia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gejza Wimmer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -75,89 +67,80 @@ contributor:
         name:
         - content: Institute of Mathematics and Statistics, Masaryk University, Brno,
             Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Viktor Witkovský
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Measurement Science, Slovak Academy of Sciences, Bratislava,
             Slovakia
-  role:
-  - type: author
-revdate: '2012-01-27'
 abstract:
-- content: "<p>We propose an implementation of the straight-line fit algorithm to
-    evaluate data obtained as part of measurements of line structures, e.g. a grating
-    line, which allows us to determine, at a conventional threshold value, the coordinates
+- language: en
+  script:
+  - Latn
+  content: <p>We propose an implementation of the straight-line fit algorithm to evaluate
+    data obtained as part of measurements of line structures, e.g. a grating line,
+    which allows us to determine, at a conventional threshold value, the coordinates
     of the edges, the position and the width of its photometric profile as well as
     the related standard uncertainty contribution. These are derived for the (1 −
     α)100% confidence intervals with α ∊ [0, 1]. The implementation is demonstrated
-    using data obtained by the PTB Nanometer Comparator (Fluegge and Köning 2001 Proc.
-    SPIE 4401 275–83). The investigation revealed that large parts of the uncertainty
+    using data obtained by the PTB Nanometer Comparator (Fluegge and Köning 2001 <italic>Proc.
+    SPIE</italic> <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1117/12.445631"><bold>4401</bold>
+    275–83</ext-link>). The investigation revealed that large parts of the uncertainty
     of the position and the width of the line are due to the choice of the fit interval
     and the uncertainty of the determination of the minimum and maximum level of the
-    photoelectric signal of the line.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    photoelectric signal of the line.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimating the standard uncertainty contribution of the straight-line
+    - language: en
+      script: Latn
+      content: Estimating the standard uncertainty contribution of the straight-line
         fit algorithm used to determine the position and the width of a graduation
         line
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-01-27'
+      at: '2012-01-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Estimating the standard uncertainty contribution of the straight-line
+    - language: en
+      script: Latn
+      content: Estimating the standard uncertainty contribution of the straight-line
         fit algorithm used to determine the position and the width of a graduation
         line
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -168,6 +151,6 @@ extent:
     reference_from: '169'
     reference_to: '179'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

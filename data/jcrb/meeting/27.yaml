@@ -1,81 +1,66 @@
 ---
-schema-version: v1.2.9
 id: JCRB-2011-27
-title:
-- content: 27th meeting of the JCRB (Vienna, Austria)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 27<sup>e</sup> réunion du JCRB (Vienne, Autriche)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/27-2011
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/27-2011
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/41049960/JCRB27.pdf/9d168727-338b-b3ea-f71d-4bceec2f53e2
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-27.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-27.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB 27th Meeting (2011)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 27th meeting of the JCRB (Vienna, Austria)
+- language: fr
+  script: Latn
+  content: 27<sup>e</sup> réunion du JCRB (Vienne, Autriche)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/27-2011
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/27-2011
+- type: pdf
+  content: https://www.bipm.org/documents/20126/41049960/JCRB27.pdf/9d168727-338b-b3ea-f71d-4bceec2f53e2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-27.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-27.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: JCRB 27th Meeting (2011)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: JCRB 27<sup>e</sup> réunion (2011)
+  content: JCRB 27<sup>e</sup> réunion (2011)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: JCRB 27th Meeting (2011) / JCRB 27<sup>e</sup> réunion (2011)
+- content: JCRB 27th Meeting (2011) / JCRB 27<sup>e</sup> réunion (2011)
   type: BIPM
   primary: true
 docnumber: JCRB 27th Meeting (2011)
 date:
 - type: published
-  value: '2011-09-15'
+  at: '2011-09-15'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2011-09-15'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -84,8 +69,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '27'

@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375403
-title:
-- content: 'Radiometric standards in space: the next step'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 403
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Radiometric standards in space: the next step'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/12
+docidentifier:
+- content: Metrologia 37 5 403
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/12
+- content: 10.1088/0026-1394/37/5/12
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D B Pollock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Alabama-Huntsville, FTI, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T L Murdock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Alabama-Huntsville, FTI, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R U Datla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Alabama-Huntsville, FTI, NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Thompson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Alabama-Huntsville, FTI, NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The lack of accurate calibration sources is preventing current sensor
+- language: en
+  script:
+  - Latn
+  content: "<p>The lack of accurate calibration sources is preventing current sensor
     technology from achieving the minimum possible uncertainty levels in remote-sensing
     radiometric measurements. This has been established in a recent study undertaken
     at the National Institute of Standards and Technology (NIST) following the identification
@@ -99,39 +89,31 @@ abstract:
     with SI-traceable standards maintained in ground laboratories. Other suitable
     radiometric standards on the ISS could also establish the Moon, the stars and
     various ground sites as calibration sources.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Radiometric standards in space: the next step'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Radiometric standards in space: the next step'
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +124,6 @@ extent:
     reference_from: '403'
     reference_to: '406'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

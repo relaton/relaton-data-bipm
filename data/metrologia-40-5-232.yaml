@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia405232
-title:
-- content: 'ITS-90: the instability of the Al point'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/5/304
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/5/304
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 5 232
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'ITS-90: the instability of the Al point'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/5/304
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/5/304
+docidentifier:
+- content: Metrologia 40 5 232
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/5/304
+- content: 10.1088/0026-1394/40/5/304
   type: doi
 date:
 - type: published
-  value: '2003-09-02'
+  at: '2003-09-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council of Canada, Ottawa, Ontario, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '2003-09-02'
 abstract:
-- content: "<p>Experiments, described below, revealed certain shortcomings of the
+- language: en
+  script:
+  - Latn
+  content: "<p>Experiments, described below, revealed certain shortcomings of the
     current definition of the Al point: pressure in sealed type Al cells made of quartz
     was observed prior to their sealing and was found to steadily decrease. Consequently,
     the realized Al points using sealed quartz cells are in a state of drift. In addition,
@@ -52,53 +48,42 @@ abstract:
     the Al point by 1 or 2 mK. However, sealed quartz triple point cells remained
     stable at their initial value indefinitely. Thus, the triple point of Al is a
     more reliable fixed point than the defining Al freezing point itself.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'ITS-90: the instability of the Al point'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'ITS-90: the instability of the Al point'
     date:
     - type: epub
-      value: '2003-09-02'
+      at: '2003-09-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'ITS-90: the instability of the Al point'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'ITS-90: the instability of the Al point'
     date:
     - type: ppub
-      value: '2003-10-01'
+      at: '2003-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: '232'
     reference_to: '234'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

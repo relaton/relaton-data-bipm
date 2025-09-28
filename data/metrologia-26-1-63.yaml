@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia26163
-title:
-- content: Technical Guidelines for Reliable Measurements of the Quantized Hall Resistance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 1 63
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Technical Guidelines for Reliable Measurements of the Quantized Hall Resistance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/1/005
+docidentifier:
+- content: Metrologia 26 1 63
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/1/005
+- content: 10.1088/0026-1394/26/1/005
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Delahaye
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Measures (BIPM), Pavillon de
             Breteuil, F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>This paper describes the main tests and precautions that guarantee
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes the main tests and precautions that guarantee
     both reproducible and accurate results in the use of the quantum Hall effect as
     a means to establish a reference standard of resistance having a relative uncertainty
     of a few parts in 10<sup>8</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Technical Guidelines for Reliable Measurements of the Quantized Hall
+    - language: en
+      script: Latn
+      content: Technical Guidelines for Reliable Measurements of the Quantized Hall
         Resistance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '63'
     reference_to: '68'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

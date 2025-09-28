@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia4911
-title:
-- content: Matrix method analysis of quantum Hall effect device connections
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Matrix method analysis of quantum Hall effect device connections
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/001
+docidentifier:
+- content: Metrologia 49 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/001
+- content: 10.1088/0026-1394/49/1/001
   type: doi
 date:
 - type: published
-  value: '2011-11-07'
+  at: '2011-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ortolano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,26 +37,24 @@ contributor:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Strada delle Cacce,
             91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Callegaro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica, Strada delle Cacce,
             91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2011-11-07'
 abstract:
-- content: "<p>The modelling of electrical connections of single, or several, multiterminal
+- language: en
+  script:
+  - Latn
+  content: "<p>The modelling of electrical connections of single, or several, multiterminal
     quantum Hall effect (QHE) devices is relevant for electrical metrology: it is
     known, in fact, that certain particular connections allow (i) the realization
     of multiples or fractions of the quantized resistance, or (ii) the rejection of
@@ -69,58 +63,50 @@ abstract:
     of the QHE: however, the numerical or analytical solution of electrical networks
     including these equivalent circuits can be difficult. In this paper, we introduce
     a method of analysis based on the representation of a QHE device by means of the
-    indefinite admittance matrix: external connections are then represented with another
-    matrix, easily written by inspection. Some examples, including the solution of
-    double- and triple-series connections, are shown.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>indefinite admittance matrix</italic>: external connections are then represented
+    with another matrix, easily written by inspection. Some examples, including the
+    solution of double- and triple-series connections, are shown.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Matrix method analysis of quantum Hall effect device connections
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Matrix method analysis of quantum Hall effect device connections
     date:
     - type: epub
-      value: '2011-11-07'
+      at: '2011-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Matrix method analysis of quantum Hall effect device connections
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Matrix method analysis of quantum Hall effect device connections
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +117,6 @@ extent:
     reference_from: '1'
     reference_to: '7'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

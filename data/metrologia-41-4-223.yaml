@@ -1,139 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia414223
-title:
-- content: Consistency tests for key comparison data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 4 223
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Consistency tests for key comparison data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/4/001
+docidentifier:
+- content: Metrologia 41 4 223
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/4/001
+- content: 10.1088/0026-1394/41/4/001
   type: doi
 date:
 - type: published
-  value: '2004-05-07'
+  at: '2004-05-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hari K Iyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Statistics, Colorado State University, Fort Collins,
             CO 80523, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Boulder, CO 80305, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D F Vecchia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Boulder, CO 80305, USA
-  role:
-  - type: author
-revdate: '2004-05-07'
 abstract:
-- content: "<p>Results of International Key Comparisons of National Measurement Standards
-    provide the technical basis for the Mutual Recognition Arrangement (MRA) formulated
-    by Le Comité International des Poids et Mesures (CIPM). With many key comparisons
-    already completed and a number of new key comparison experiments currently under
-    way, we now have a better understanding of the statistical issues that need to
-    be addressed for successfully analysing data from key comparisons and making proper
-    interpretations of the results. There is clearly a need for a systematic approach
-    to statistical analyses of key comparison data that can be implemented routinely
-    by all participating laboratories.</p><p>The determination of a key comparison
-    reference value (KCRV) and its associated uncertainty and the degrees of equivalence
-    are the central tasks in the evaluation of key comparison data. A satisfactory
-    definition of a KCRV, however, is based on the assumption that all laboratories
-    are estimating the same unknown quantity of the common circulating artefact, that
-    is, the results from the different laboratories are mutually consistent. In this
-    paper, we compare a number of statistical procedures for testing the consistency
-    assumption.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Results of International Key Comparisons of National Measurement Standards provide the technical basis for the Mutual Recognition Arrangement (MRA) formulated by Le Comité International des Poids et Mesures (CIPM). With many key comparisons already completed and a number of new key comparison experiments currently under way, we now have a better understanding of the statistical issues that need to be addressed for successfully analysing data from key comparisons and making proper interpretations of the results. There is clearly a need for a systematic approach to statistical analyses of key comparison data that can be implemented routinely by all participating laboratories.</p>
+    <p>The determination of a key comparison reference value (KCRV) and its associated uncertainty and the degrees of equivalence are the central tasks in the evaluation of key comparison data. A satisfactory definition of a KCRV, however, is based on the assumption that all laboratories are estimating the same unknown quantity of the common circulating artefact, that is, the results from the different laboratories are mutually consistent. In this paper, we compare a number of statistical procedures for testing the consistency assumption.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Consistency tests for key comparison data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Consistency tests for key comparison data
     date:
     - type: epub
-      value: '2004-05-07'
+      at: '2004-05-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Consistency tests for key comparison data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Consistency tests for key comparison data
     date:
     - type: ppub
-      value: '2004-08-01'
+      at: '2004-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +112,6 @@ extent:
     reference_from: '223'
     reference_to: '230'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

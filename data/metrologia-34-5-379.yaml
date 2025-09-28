@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia345379
-title:
-- content: Clock prediction and characterization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/5/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/5/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 5 379
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Clock prediction and characterization
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/5/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/5/1
+docidentifier:
+- content: Metrologia 34 5 379
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/5/1
+- content: 10.1088/0026-1394/34/5/1
   type: doi
 date:
 - type: published
-  value: '1997-10-01'
+  at: '1997-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Lepek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Newton Metrology Ltd
-  role:
-  - type: author
-revdate: '1997-10-01'
 abstract:
-- content: <p>In this paper we describe the application of linear predictors to the
+- language: en
+  script:
+  - Latn
+  content: <p>In this paper we describe the application of linear predictors to the
     metrology of clocks, to time-scale generation and to the characterization of clocks
     in terms of their predictability. The ideas are general and can be applied to
     other fields of metrology in which very precise measurement techniques are used
@@ -50,39 +46,31 @@ abstract:
     need not be linear. However, in the case of clocks, linear predictors are optimal
     or close to optimal for the prediction of clock instablilities modelled by the
     "oscillator noise model" superimposed on frequency drifts and accelerations.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Clock prediction and characterization
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Clock prediction and characterization
     date:
     - type: ppub
-      value: '1997-10-01'
+      at: '1997-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '379'
     reference_to: '386'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

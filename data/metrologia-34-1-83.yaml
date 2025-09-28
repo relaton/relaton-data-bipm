@@ -1,119 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia34183
-title:
-- content: A combination of gas chromatography, combustion, and<sup>13</sup>C/<sup>12</sup>C
-    isotope dilution mass spectrometry (GC/C/IDMS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/12
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A combination of gas chromatography, combustion, and <sup>13</sup>C/<sup>12</sup>C
+    isotope dilution mass spectrometry (GC/C/IDMS)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/12
+docidentifier:
+- content: Metrologia 34 1 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/12
+- content: 10.1088/0026-1394/34/1/12
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Dube
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Henrion
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Richter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>A new method is presented for amount-of-substance measurements in organic
+- language: en
+  script:
+  - Latn
+  content: "<p>A new method is presented for amount-of-substance measurements in organic
     chemistry using isotope dilution mass spectrometry in combination with gas chromatography.
     Its main feature is the conversion of analyte and spike, after the chromatographic
     separation, into carbon dioxide which is subjected to the isotope ratio measurement.
-    This modification is used because the techniques of n(<sup>13</sup>C)/n(<sup>12</sup>C)
+    This modification is used because the techniques of <italic>n</italic>(<sup>13</sup>C)/<italic>n</italic>(<sup>12</sup>C)
     ratio measurements in CO<sub>2</sub> are very well developed so that high accuracy
     in results is achieved. As carbon dioxide is used for the isotope ratio measurement,
-    it is necessary to use<sup>13</sup>C-labelled organic compounds as spikes. From
+    it is necessary to use <sup>13</sup>C-labelled organic compounds as spikes. From
     the results of a model analysis it is reasonable to expect that the new GC/C/IDMS
     method is capable of providing measurement results with a higher accuracy than
     has been possible up to now.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A combination of gas chromatography, combustion, and<sup>13</sup>C/<sup>12</sup>C
+    - language: en
+      script: Latn
+      content: A combination of gas chromatography, combustion, and <sup>13</sup>C/<sup>12</sup>C
         isotope dilution mass spectrometry (GC/C/IDMS)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '83'
     reference_to: '86'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

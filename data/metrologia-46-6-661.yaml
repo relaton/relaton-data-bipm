@@ -1,107 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466661
-title:
-- content: Fiducial inference applied to uncertainty estimation when identical readings
-    are obtained under low instrument resolution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 661
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fiducial inference applied to uncertainty estimation when identical readings
+    are obtained under low instrument resolution
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/008
+docidentifier:
+- content: Metrologia 46 6 661
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/008
+- content: 10.1088/0026-1394/46/6/008
   type: doi
 date:
 - type: published
-  value: '2009-10-26'
+  at: '2009-10-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R B Frenkel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Institute, Australia, Bradfield Road, West
             Lindfield, NSW 2070, Australia
-  role:
-  - type: author
-revdate: '2009-10-26'
 abstract:
-- content: "<p>When identical readings are independently obtained under low instrument
-    resolution d, so that a reading x implies an actual value between x − (d/2) and
-    x + (d/2), the method of fiducial inference yields the result that the commonly
-    assumed standard uncertainty \n applies only to the case where the input standard
-    deviation is known to be very low, ≈ 0.03d or less. The standard uncertainty \n
-    is the standard deviation of a rectangular distribution whose base is of length
-    d. If there is little knowledge of the input standard deviation, the standard
-    uncertainty is closer to. The standard uncertainty \n is the standard deviation
-    of a symmetrical (isosceles) triangular distribution whose base is of length d.
-    This latter standard uncertainty increases above \n as the number of identical
-    independent readings decreases.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>When identical readings are independently obtained under low instrument
+    resolution <italic>d</italic>, so that a reading <italic>x</italic> implies an
+    actual value between <italic>x</italic> − (<italic>d</italic>/2) and <italic>x</italic>
+    + (<italic>d</italic>/2), the method of fiducial inference yields the result that
+    the commonly assumed standard uncertainty \n<inline-graphic xlink:href=\"metro321106in001.gif\"></inline-graphic>
+    applies only to the case where the input standard deviation is known to be very
+    low, ≈ 0.03<italic>d</italic> or less. The standard uncertainty \n<inline-graphic
+    xlink:href=\"metro321106in002.gif\"></inline-graphic> is the standard deviation
+    of a rectangular distribution whose base is of length <italic>d</italic>. If there
+    is little knowledge of the input standard deviation, the standard uncertainty
+    is closer to \n<inline-graphic xlink:href=\"metro321106in003.gif\"></inline-graphic>.
+    The standard uncertainty \n<inline-graphic xlink:href=\"metro321106in004.gif\"></inline-graphic>
+    is the standard deviation of a symmetrical (isosceles) triangular distribution
+    whose base is of length <italic>d</italic>. This latter standard uncertainty increases
+    above \n<inline-graphic xlink:href=\"metro321106in004.gif\"></inline-graphic>
+    as the number of identical independent readings decreases.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fiducial inference applied to uncertainty estimation when identical
+    - language: en
+      script: Latn
+      content: Fiducial inference applied to uncertainty estimation when identical
         readings are obtained under low instrument resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2009-10-26'
+      at: '2009-10-26'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fiducial inference applied to uncertainty estimation when identical
+    - language: en
+      script: Latn
+      content: Fiducial inference applied to uncertainty estimation when identical
         readings are obtained under low instrument resolution
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +102,6 @@ extent:
     reference_from: '661'
     reference_to: '667'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433195
-title:
-- content: The uncertainty associated with the weighted mean of measurement data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 195
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The uncertainty associated with the weighted mean of measurement data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/002
+docidentifier:
+- content: Metrologia 43 3 195
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/002
+- content: 10.1088/0026-1394/43/3/002
   type: doi
 date:
 - type: published
-  value: '2006-02-28'
+  at: '2006-02-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistical Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2006-02-28'
 abstract:
-- content: "<p>Weighted mean has been used to combine means from several sets of measurements,
+- language: en
+  script:
+  - Latn
+  content: "<p>Weighted mean has been used to combine means from several sets of measurements,
     which are either from different laboratories or based on different measurement
     methods. It is also often used in key comparisons and other inter-laboratory comparisons.
     However, the traditional estimator of the variance of the weighted mean underestimates
@@ -51,53 +47,42 @@ abstract:
     are not based on statistical analysis of data cannot be ignored. In the later
     part of this paper, the results are extended to the general case with both Type
     A and Type B uncertainty components being presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty associated with the weighted mean of measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The uncertainty associated with the weighted mean of measurement data
     date:
     - type: epub
-      value: '2006-02-28'
+      at: '2006-02-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The uncertainty associated with the weighted mean of measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The uncertainty associated with the weighted mean of measurement data
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +93,6 @@ extent:
     reference_from: '195'
     reference_to: '204'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

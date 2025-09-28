@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28279
-title:
-- content: 'Comparateur d''étalons de masse: une étude expérimentale des coefficients
-    de corrélation des paramètres mesurés'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/28/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 2 79
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: 'Comparateur d''étalons de masse: une étude expérimentale des coefficients
+    de corrélation des paramètres mesurés'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/2/004
+docidentifier:
+- content: Metrologia 28 2 79
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/2/004
+- content: 10.1088/0026-1394/28/2/004
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Pinot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut National de Métrologie CNAM. 292, rue Saint-Martin, 75141
             Paris, France
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>The mass comparator for primary standards of the INM is a high level
+- language: en
+  script:
+  - Latn
+  content: "<p>The mass comparator for primary standards of the INM is a high level
     metrological set. Recently, its balance has been put into a thermally isolated
     and airtight chamber and this has led us to engage in an experimental study concerning
     the independence of the measured parameters. This study has revealed that the
     independence hypothesis must be rejected. The different correlation coefficients
     have been determined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Comparateur d''étalons de masse: une étude expérimentale des coefficients
+    - language: fr
+      script: Latn
+      content: 'Comparateur d''étalons de masse: une étude expérimentale des coefficients
         de corrélation des paramètres mesurés'
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '79'
     reference_to: '84'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

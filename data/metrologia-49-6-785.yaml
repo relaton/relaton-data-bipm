@@ -1,209 +1,187 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496785
-title:
-- content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II. Experimental
-    and numerical validation'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/785
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/785
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 785
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II. Experimental
+    and numerical validation'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/785
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/785
+docidentifier:
+- content: Metrologia 49 6 785
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/785
+- content: 10.1088/0026-1394/49/6/785
   type: doi
 date:
 - type: published
-  value: '2012-11-07'
+  at: '2012-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Agustín Bravo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
         name:
         - content: Universidad Politécnica de Madrid
         subdivision:
-        - content: Grupo de Investigación en Instrumentación y Acústica Aplicada
-        contact:
-        - address:
-            formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Grupo de Investigación en Instrumentación y Acústica Aplicada
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Barham
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Acoustics and Ionising Radiation Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, UK
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Acoustics and Ionising Radiation Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mariano Ruiz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
         name:
         - content: Universidad Politécnica de Madrid
         subdivision:
-        - content: Grupo de Investigación en Instrumentación y Acústica Aplicada
-        contact:
-        - address:
-            formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Grupo de Investigación en Instrumentación y Acústica Aplicada
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Juan Manuel López
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
         name:
         - content: Universidad Politécnica de Madrid
         subdivision:
-        - content: Grupo de Investigación en Instrumentación y Acústica Aplicada
-        contact:
-        - address:
-            formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Grupo de Investigación en Instrumentación y Acústica Aplicada
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Guillermo De Arcas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
         name:
         - content: Universidad Politécnica de Madrid
         subdivision:
-        - content: Grupo de Investigación en Instrumentación y Acústica Aplicada
-        contact:
-        - address:
-            formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Grupo de Investigación en Instrumentación y Acústica Aplicada
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jesus Alonso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
         name:
         - content: Universidad Politécnica de Madrid
         subdivision:
-        - content: Grupo de Investigación en Instrumentación y Acústica Aplicada
-        contact:
-        - address:
-            formatted_address: Ctra., Valencia Km-7, Madrid, 28031, Spain
-  role:
-  - type: author
-revdate: '2012-11-07'
+        - name:
+          - language: en
+            script: Latn
+            content: Grupo de Investigación en Instrumentación y Acústica Aplicada
 abstract:
-- content: Abstract<p>In part I, the feasibility of using three-dimensional (3D) finite
-    elements (FEs) to model the acoustic behaviour of the IEC 60318-1 artificial ear
-    was studied and the numerical approach compared with classical lumped elements
-    modelling. It was shown that by using a more complex acoustic model that took
-    account of thermo-viscous effects, geometric shapes and dimensions, it was possible
-    to develop a realistic model. This model then had clear advantages in comparison
-    with the models based on equivalent circuits using lumped parameters. In fact
-    results from FE modelling produce a better understanding about the physical phenomena
-    produced inside ear simulator couplers, facilitating spatial and temporal visualization
-    of the sound fields produced.</p><p>The objective of this study (part II) is to
-    extend the investigation by validating the numerical calculations against measurements
-    on an ear simulator conforming to IEC 60318-1. For this purpose, an appropriate
-    commercially available device is taken and a complete 3D FE model developed for
-    it. The numerical model is based on key dimensional data obtained with a non-destructive
-    x-ray inspection technique. Measurements of the acoustic transfer impedance have
-    been carried out on the same device at a national measurement institute using
-    the method embodied in IEC 60318-1. Having accounted for the actual device dimensions,
-    the thermo-viscous effects inside narrow slots and holes and environmental conditions,
-    the results of the numerical modelling were found to be in good agreement with
-    the measured values.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>In part I, the feasibility of using three-dimensional (3D) finite elements (FEs) to model the acoustic behaviour of the IEC 60318-1 artificial ear was studied and the numerical approach compared with classical lumped elements modelling. It was shown that by using a more complex acoustic model that took account of thermo-viscous effects, geometric shapes and dimensions, it was possible to develop a realistic model. This model then had clear advantages in comparison with the models based on equivalent circuits using lumped parameters. In fact results from FE modelling produce a better understanding about the physical phenomena produced inside ear simulator couplers, facilitating spatial and temporal visualization of the sound fields produced.</p>
+    <p>The objective of this study (part II) is to extend the investigation by validating the numerical calculations against measurements on an ear simulator conforming to IEC 60318-1. For this purpose, an appropriate commercially available device is taken and a complete 3D FE model developed for it. The numerical model is based on key dimensional data obtained with a non-destructive x-ray inspection technique. Measurements of the acoustic transfer impedance have been carried out on the same device at a national measurement institute using the method embodied in IEC 60318-1. Having accounted for the actual device dimensions, the thermo-viscous effects inside narrow slots and holes and environmental conditions, the results of the numerical modelling were found to be in good agreement with the measured values.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II.
+    - script: Latn
+      content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II.
         Experimental and numerical validation'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II.
+    - script: Latn
+      content: 'A new 3D finite element model of the IEC 60318-1 artificial ear: II.
         Experimental and numerical validation'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-11-07'
+      at: '2012-11-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -214,6 +192,6 @@ extent:
     reference_from: '785'
     reference_to: '802'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

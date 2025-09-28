@@ -1,112 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia274211
-title:
-- content: 'An Analysis of the ITS-90 Relations for the Non-Ideality of<sup>3</sup>He
-    and<sup>4</sup>He: Recommended Relations Based on a New Interatomic Potential
-    for Helium'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/27/4/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/4/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 4 211
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'An Analysis of the ITS-90 Relations for the Non-Ideality of <sup>3</sup>He
+    and <sup>4</sup>He: Recommended Relations Based on a New Interatomic Potential
+    for Helium'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/4/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/4/005
+docidentifier:
+- content: Metrologia 27 4 211
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/4/005
+- content: 10.1088/0026-1394/27/4/005
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R A Aziz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, University of Waterloo, Waterloo, Ontario
             N2L 3G1, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J Slaman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, University of Waterloo, Waterloo, Ontario
             N2L 3G1, Canada
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>Quantum calculations for the second virial coefficients of<sup>3</sup>He
-    and<sup>4</sup>He based on an interatomic potential have been refined to the point
-    where the accuracy of the calculations is at level which is an order of magnitude
-    better than the experimental error associated with the measured virials. A new
-    accurate potential has been constructed for the ground state of He<sub>2</sub>
-    and new relations for the non-ideality of<sup>3</sup>He and<sup>4</sup>He based
-    on this potential are recommended. These relations, which are more physically
-    based, appear preferable to those proposed for the International Temperature Scale
-    of 1990 (ITS-90). For<sup>4</sup>He the suggested relation for the second virial
-    coefficients is almost identical with the corresponding relation of the ITS-90
-    scale in the region of applicability (3-25 K) but is more realistic below that
-    range. The suggested relation for<sup>3</sup>He second virial coefficients agrees
-    more closely with the experimental data (1,47 to 20,1 K) after a correction has
-    been made for the presence of third virial coefficients.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Quantum calculations for the second virial coefficients of <sup>3</sup>He
+    and <sup>4</sup>He based on an interatomic potential have been refined to the
+    point where the accuracy of the calculations is at level which is an order of
+    magnitude better than the experimental error associated with the measured virials.
+    A new accurate potential has been constructed for the ground state of He<sub>2</sub>
+    and new relations for the non-ideality of <sup>3</sup>He and <sup>4</sup>He based
+    on this potential are recommended. These relations, which are more physically
+    based, appear preferable to those proposed for the International Temperature Scale
+    of 1990 (ITS-90). For <sup>4</sup>He the suggested relation for the second virial
+    coefficients is almost identical with the corresponding relation of the ITS-90
+    scale in the region of applicability (3-25 K) but is more realistic below that
+    range. The suggested relation for <sup>3</sup>He second virial coefficients agrees
+    more closely with the experimental data (1,47 to 20,1 K) after a correction has
+    been made for the presence of third virial coefficients.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'An Analysis of the ITS-90 Relations for the Non-Ideality of<sup>3</sup>He
-        and<sup>4</sup>He: Recommended Relations Based on a New Interatomic Potential
+    - language: en
+      script: Latn
+      content: 'An Analysis of the ITS-90 Relations for the Non-Ideality of <sup>3</sup>He
+        and <sup>4</sup>He: Recommended Relations Based on a New Interatomic Potential
         for Helium'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '211'
     reference_to: '219'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia395435
-title:
-- content: Atomic clocks and inertial sensors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/5/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/5/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 5 435
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Atomic clocks and inertial sensors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/5/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/5/5
+docidentifier:
+- content: Metrologia 39 5 435
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/5/5
+- content: 10.1088/0026-1394/39/5/5
   type: doi
 date:
 - type: published
-  value: '2002-10-01'
+  at: '2002-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch J Bordé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -46,46 +42,38 @@ contributor:
         name:
         - content: Bureau National de Métrologie, 1 Rue Gaston Boissier, 75015 Paris,
             France
-  role:
-  - type: author
-revdate: '2002-10-01'
 abstract:
-- content: |-
-    <p>We show that the language of atom interferometry provides a unified picture for microwave and optical
-    atomic clocks as well as for gravito-inertial sensors. The sensitivity and accuracy of these devices is now such that a new theoretical framework common to all these interferometers is required that includes: (a) a fully quantum mechanical treatment of the atomic motion in free space and in the presence of a gravitational field (most cold-atom interferometric devices use atoms in ``free fall'' in a fountain geometry); (b) an account of simultaneous actions of gravitational and electromagnetic fields in the interaction zones; (c) a second quantization of the matter fields to take into account their fermionic or bosonic character in order to discuss the role of coherent sources and their noise properties; (d) a covariant treatment including spin to evaluate general relativistic effects. A theoretical description of atomic clocks revisited along these lines is presented, using both an exact propagator of atom waves in gravito-inertial fields and a covariant Dirac equation in the presence of weak gravitational fields. Using this framework, recoil effects, spin-related effects, beam curvature effects, the sensitivity to gravito-inertial fields and the influence of the coherence of the atom source are discussed in the context of present and future atomic clocks and gravito-inertial sensors.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>We show that the language of atom interferometry provides a unified picture for microwave and optical
+    atomic clocks as well as for gravito-inertial sensors. The sensitivity and accuracy of these devices is now such that a new theoretical framework common to all these interferometers is required that includes: (a) a fully quantum mechanical treatment of the atomic motion in free space and in the presence of a gravitational field (most cold-atom interferometric devices use atoms in ``free fall'' in a fountain geometry); (b) an account of simultaneous actions of gravitational and electromagnetic fields in the interaction zones; (c) a second quantization of the matter fields to take into account their fermionic or bosonic character in order to discuss the role of coherent sources and their noise properties; (d) a covariant treatment including spin to evaluate general relativistic effects. A theoretical description of atomic clocks revisited along these lines is presented, using both an exact propagator of atom waves in gravito-inertial fields and a covariant Dirac equation in the presence of weak gravitational fields. Using this framework, recoil effects, spin-related effects, beam curvature effects, the sensitivity to gravito-inertial fields and the influence of the coherence of the atom source are discussed in the context of present and future atomic clocks and gravito-inertial sensors.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic clocks and inertial sensors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic clocks and inertial sensors
     date:
     - type: ppub
-      value: '2002-10-01'
+      at: '2002-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '435'
     reference_to: '463'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

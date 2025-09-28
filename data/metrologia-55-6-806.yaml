@@ -1,107 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia556806
-title:
-- content: On the treatment of uncertainty in experimentally measured frequency response
-    functions
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aadeeb
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aadeeb
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 6 806
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the treatment of uncertainty in experimentally measured frequency response
+    functions
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aadeeb
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aadeeb
+docidentifier:
+- content: Metrologia 55 6 806
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aadeeb
+- content: 10.1088/1681-7575/aadeeb
   type: doi
 date:
 - type: published
-  value: '2018-10-19'
+  at: '2018-10-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W R Meggitt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Greater Manchester, M5 4WT, United Kingdom
         name:
         - content: University of Salford
         subdivision:
-        - content: Acoustics Research Centre
-        contact:
-        - address:
-            formatted_address: Greater Manchester, M5 4WT, United Kingdom
-  role:
-  - type: author
-revdate: '2018-10-19'
+        - name:
+          - language: en
+            script: Latn
+            content: Acoustics Research Centre
 abstract:
-- content: Abstract<p>Frequency response functions (FRFs) are routinely used within
-    experimental structural dynamics, among other fields. The uncertainty associated
-    with their measurement is typically modelled on the simplified assumption that
-    additive uncorrelated noise is present. This treatment of FRF uncertainty is questioned
-    here by demonstrating that the notion of operator uncertainty (i.e. the uncertainty
-    due to inconsistent force excitation) introduces a correlation between measured
-    FRFs which is not accounted for under the assumption of additive noise. The origin
-    of this correlation is illustrated and its experimental presence verified. The
-    importance of this correlation on the propagation of uncertainty is subsequently
-    investigated as part of a numerical and experimental case study, where its influence
-    on the inversion of an uncertain FRF matrix is considered. It is shown that the
-    neglect of such correlations can lead to large errors in uncertainty estimates,
-    for example in dynamic sub-structuring and the solution of inverse problems.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Frequency response functions (FRFs) are routinely used within experimental structural dynamics, among other fields. The uncertainty associated with their measurement is typically modelled on the simplified assumption that additive uncorrelated noise is present. This treatment of FRF uncertainty is questioned here by demonstrating that the notion of operator uncertainty (i.e. the uncertainty due to inconsistent force excitation) introduces a correlation between measured FRFs which is not accounted for under the assumption of additive noise. The origin of this correlation is illustrated and its experimental presence verified. The importance of this correlation on the propagation of uncertainty is subsequently investigated as part of a numerical and experimental case study, where its influence on the inversion of an uncertain FRF matrix is considered. It is shown that the neglect of such correlations can lead to large errors in uncertainty estimates, for example in dynamic sub-structuring and the solution of inverse problems.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the treatment of uncertainty in experimentally measured frequency
+    - script: Latn
+      content: On the treatment of uncertainty in experimentally measured frequency
         response functions
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-12-01'
+      at: '2018-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the treatment of uncertainty in experimentally measured frequency
+    - script: Latn
+      content: On the treatment of uncertainty in experimentally measured frequency
         response functions
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-10-19'
+      at: '2018-10-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +96,6 @@ extent:
     reference_from: '806'
     reference_to: '818'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

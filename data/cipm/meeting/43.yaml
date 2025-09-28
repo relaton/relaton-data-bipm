@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1950-43
-title:
-- content: 43rd meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 43<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/43-1950
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/43-1950
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/71755187/CIPM1950.pdf/e2ae0cc0-7e98-0653-dfe2-4b8964ea73f1
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-43.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-43.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 43rd Meeting (1950)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 43rd meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 43<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/43-1950
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/43-1950
+- type: pdf
+  content: https://www.bipm.org/documents/20126/71755187/CIPM1950.pdf/e2ae0cc0-7e98-0653-dfe2-4b8964ea73f1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-43.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-43.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 43rd Meeting (1950)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 43<sup>e</sup> réunion (1950)
+  content: CIPM 43<sup>e</sup> réunion (1950)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 43rd Meeting (1950) / CIPM 43<sup>e</sup> réunion (1950)
+- content: CIPM 43rd Meeting (1950) / CIPM 43<sup>e</sup> réunion (1950)
   type: BIPM
   primary: true
 docnumber: CIPM 43rd Meeting (1950)
 date:
 - type: published
-  value: '1950-06-13'
+  at: '1950-06-13'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1950-06-13'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '43'

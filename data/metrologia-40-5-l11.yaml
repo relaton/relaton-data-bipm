@@ -1,103 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia405L11
-title:
-- content: Alternative representation of degradation corrections to space-based measurements
-    of total solar irradiance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/5/L02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/5/L02
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 5 L11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Alternative representation of degradation corrections to space-based measurements
+    of total solar irradiance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/5/L02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/5/L02
+docidentifier:
+- content: Metrologia 40 5 L11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/5/L02
+- content: 10.1088/0026-1394/40/5/L02
   type: doi
 date:
 - type: published
-  value: '2003-09-26'
+  at: '2003-09-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A D O Bawagan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ottawa-Carleton Chemistry Institute, Carleton University, Ottawa,
             Ontario K1S 5B6, Canada
-  role:
-  - type: author
-revdate: '2003-09-26'
 abstract:
-- content: "<p>Degradation corrections to solar irradiance measurements in space along
-    with a postulated ‘hyperbolic’ fitting formula were recently reported (Fröhlich
-    2003 Metrologia 40 S60–5). A simpler, alternative formula based on broadband synchrotron
-    exposure experiments on polymeric mixtures is presented. The alternative formula
-    is shown to be similar to the hyperbolic function in the high photon dose limit.
-    These results complement and reinforce the physical validity of the previously
-    reported degradation corrections.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>Degradation corrections to solar irradiance measurements in space along
+    with a postulated ‘hyperbolic’ fitting formula were recently reported (Fröhlich
+    <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/40/1/314">2003
+    <italic>Metrologia</italic> <bold>40</bold> S60–5</ext-link>). A simpler, alternative
+    formula based on broadband synchrotron exposure experiments on polymeric mixtures
+    is presented. The alternative formula is shown to be similar to the hyperbolic
+    function in the high photon dose limit. These results complement and reinforce
+    the physical validity of the previously reported degradation corrections.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Alternative representation of degradation corrections to space-based
+    - language: en
+      script: Latn
+      content: Alternative representation of degradation corrections to space-based
         measurements of total solar irradiance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2003-09-26'
+      at: '2003-09-26'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Alternative representation of degradation corrections to space-based
+    - language: en
+      script: Latn
+      content: Alternative representation of degradation corrections to space-based
         measurements of total solar irradiance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2003-10-01'
+      at: '2003-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +94,6 @@ extent:
     reference_from: L11
     reference_to: L12
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,112 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361346
-title:
-- content: The Allan variance in the presence of a compound Poisson process modelling
-    clock frequency jumps
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1346
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1346
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1346
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The Allan variance in the presence of a compound Poisson process modelling
+    clock frequency jumps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1346
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1346
+docidentifier:
+- content: Metrologia 53 6 1346
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1346
+- content: 10.1088/0026-1394/53/6/1346
   type: doi
 date:
 - type: published
-  value: '2016-11-11'
+  at: '2016-11-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Valerio Formichella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
     - organization:
+        address:
+        - formatted_address: Corso Duca degli Abruzzi, 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: Corso Duca degli Abruzzi, 24, 10129 Torino, Italy
-  role:
-  - type: author
-revdate: '2016-11-11'
 abstract:
-- content: Abstract<p>Atomic clocks can be affected by frequency jumps occurring at
-    random times and with a random amplitude. The frequency jumps degrade the clock
-    stability and this is captured by the Allan variance. In this work we assume that
-    the random jumps can be modelled by a compound Poisson process, independent of
-    the other stochastic and deterministic processes affecting the clock stability.
-    Then, we derive the analytical expression of the Allan variance of a jumping clock.
-    We find that the analytical Allan variance does not depend on the actual shape
-    of the jumps amplitude distribution, but only on its first and second moments,
-    and its final form is the same as for a clock with a random walk of frequency
-    and a frequency drift. We conclude that the Allan variance cannot distinguish
-    between a compound Poisson process and a Wiener process, hence it may not be sufficient
-    to correctly identify the fundamental noise processes affecting a clock. The result
-    is general and applicable to any oscillator, whose frequency is affected by a
-    jump process with the described statistics.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Atomic clocks can be affected by frequency jumps occurring at random times and with a random amplitude. The frequency jumps degrade the clock stability and this is captured by the Allan variance. In this work we assume that the random jumps can be modelled by a compound Poisson process, independent of the other stochastic and deterministic processes affecting the clock stability. Then, we derive the analytical expression of the Allan variance of a jumping clock. We find that the analytical Allan variance does not depend on the actual shape of the jumps amplitude distribution, but only on its first and second moments, and its final form is the same as for a clock with a random walk of frequency and a frequency drift. We conclude that the Allan variance cannot distinguish between a compound Poisson process and a Wiener process, hence it may not be sufficient to correctly identify the fundamental noise processes affecting a clock. The result is general and applicable to any oscillator, whose frequency is affected by a jump process with the described statistics.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Allan variance in the presence of a compound Poisson process modelling
+    - script: Latn
+      content: The Allan variance in the presence of a compound Poisson process modelling
         clock frequency jumps
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Allan variance in the presence of a compound Poisson process modelling
+    - script: Latn
+      content: The Allan variance in the presence of a compound Poisson process modelling
         clock frequency jumps
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-11-11'
+      at: '2016-11-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +96,6 @@ extent:
     reference_from: '1346'
     reference_to: '1353'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

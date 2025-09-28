@@ -1,149 +1,125 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521121
-title:
-- content: Extended S-parameters for imperfect test ports
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/121
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/121
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 121
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Extended S-parameters for imperfect test ports
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/121
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/121
+docidentifier:
+- content: Metrologia 52 1 121
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/121
+- content: 10.1088/0026-1394/52/1/121
   type: doi
 date:
 - type: published
-  value: '2015-01-19'
+  at: '2015-01-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hoffmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Wollensack
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ruefenacht
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Zeier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
-  - type: author
-revdate: '2015-01-19'
 abstract:
-- content: Abstract<p>Reflection and transmission of microwaves in coaxial devices
-    are usually described by S-parameters. The current definition of S-parameters
-    requires that the reference plane is in a section of ideal wave guide. Due to
-    this, tremendous effort is necessary to facilitate the dissemination of standards,
-    for the comparison of measurement values and for cascading devices. These processes
-    can be simplified by extending the definition of S-parameters to reference planes
-    in sections of non-ideal wave guide, e.g. in connectors. Extended S-parameters
-    can be approximated with conventional simulation programs. Practical experiments
-    show that extended S-parameters can be compared and cascaded without effort.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Reflection and transmission of microwaves in coaxial devices are usually described by S-parameters. The current definition of S-parameters requires that the reference plane is in a section of ideal wave guide. Due to this, tremendous effort is necessary to facilitate the dissemination of standards, for the comparison of measurement values and for cascading devices. These processes can be simplified by extending the definition of S-parameters to reference planes in sections of non-ideal wave guide, e.g. in connectors. Extended S-parameters can be approximated with conventional simulation programs. Practical experiments show that extended S-parameters can be compared and cascaded without effort.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Extended S-parameters for imperfect test ports
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Extended S-parameters for imperfect test ports
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Extended S-parameters for imperfect test ports
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Extended S-parameters for imperfect test ports
     date:
     - type: epub
-      value: '2015-01-19'
+      at: '2015-01-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +130,6 @@ extent:
     reference_from: '121'
     reference_to: '129'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,73 +1,63 @@
 ---
-schema-version: v1.2.9
-id: Metrologia23111
-title:
-- content: The Measurement of Brightness and Color
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 3 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Measurement of Brightness and Color
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/3/004
+docidentifier:
+- content: Metrologia 2 3 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/3/004
+- content: 10.1088/0026-1394/2/3/004
   type: doi
 date:
 - type: published
-  value: '1966-07-01'
+  at: '1966-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Günter Wyszecki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1966-07-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Measurement of Brightness and Color
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Measurement of Brightness and Color
     date:
     - type: ppub
-      value: '1966-07-01'
+      at: '1966-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -78,6 +68,6 @@ extent:
     reference_from: '111'
     reference_to: '125'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

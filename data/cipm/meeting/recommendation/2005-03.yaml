@@ -1,113 +1,91 @@
 ---
-schema-version: v1.2.9
 id: CIPM-REC-2005-03
-title:
-- content: Revision of the <i>Mise en pratique</i> list of recommended radiations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Révision de la liste des radiations recommandées pour la mise en pratique
-    de la définition du mètre
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/94-2005/resolution-3
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-3
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-94.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-94.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17315032/CIPM94.pdf.zip/ab888502-d10a-1104-1926-62931e1c5f22
-  type: pdf
 type: proceedings
-docid:
-- id: CIPM REC 3 (2005)
-  type: BIPM
-  primary: true
-- id: CIPM REC 3 (2005, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM REC 3 (2005, F)
+  content: Revision of the <i>Mise en pratique</i> list of recommended radiations
+- language: fr
+  script: Latn
+  content: Révision de la liste des radiations recommandées pour la mise en pratique
+    de la définition du mètre
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/94-2005/resolution-3
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-3
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-94.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-94.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17315032/CIPM94.pdf.zip/ab888502-d10a-1104-1926-62931e1c5f22
+docidentifier:
+- content: CIPM REC 3 (2005)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Recommendation 3 (2005)
+  content: CIPM REC 3 (2005, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM REC 3 (2005, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Recommendation 3 (2005)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 3 du CIPM (2005)
+  content: Recommandation 3 du CIPM (2005)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Recommendation 3 (2005) / Recommandation 3 du CIPM (2005)
+- content: CIPM Recommendation 3 (2005) / Recommandation 3 du CIPM (2005)
   type: BIPM-long
 docnumber: CIPM REC 3 (2005)
 date:
 - type: published
-  value: '2005-10-07'
+  at: '2005-10-07'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2005-10-07'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -116,8 +94,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '3'

@@ -1,108 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5361295
-title:
-- content: A hierarchical model for the analysis of inter-laboratory comparison data
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/6/1295
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/6/1295
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 6 1295
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A hierarchical model for the analysis of inter-laboratory comparison data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/6/1295
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/6/1295
+docidentifier:
+- content: Metrologia 53 6 1295
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/6/1295
+- content: 10.1088/0026-1394/53/6/1295
   type: doi
 date:
 - type: published
-  value: '2016-11-02'
+  at: '2016-11-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alistair B Forbes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-11-02'
 abstract:
-- content: Abstract<p>This paper discusses the analysis of inter-laboratory comparison
-    (ILC) data where there may be some doubt about the validity of the uncertainty
-    statements. We develop a hierarchical model that treats the stated uncertainties
-    as estimates of parameters representing the variances associated with the reported
-    values of the measurand. The degree of belief in these estimates is modelled by
-    an additional set of constants that can also be treated as parameters in the model.
-    The hierarchical model is motivated by the analysis of repeated measurements drawn
-    from a Gaussian distribution with unknown variance and represents a natural extension
-    of the model underlying standard approaches to the analysis of ILC data based
-    on a weighted least squares approach. Using Bayesian inference, the model provides
-    a natural mechanism for updating the input distributions associated with the values
-    reported by the participating laboratories based on the information available
-    from all the participants. Importantly, the shapes of the input distributions
-    are adjusted, not just their standard deviations. The distribution for the measurand
-    is derived in terms of t-distributions and can be calculated using simple numerical
-    quadrature schemes. The approach is illustrated on a number of data sets available
-    in the literature.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper discusses the analysis of inter-laboratory comparison (ILC) data where there may be some doubt about the validity of the uncertainty statements. We develop a hierarchical model that treats the stated uncertainties as estimates of parameters representing the variances associated with the reported values of the measurand. The degree of belief in these estimates is modelled by an additional set of constants that can also be treated as parameters in the model. The hierarchical model is motivated by the analysis of repeated measurements drawn from a Gaussian distribution with unknown variance and represents a natural extension of the model underlying standard approaches to the analysis of ILC data based on a weighted least squares approach. Using Bayesian inference, the model provides a natural mechanism for updating the input distributions associated with the values reported by the participating laboratories based on the information available from all the participants. Importantly, the shapes of the input distributions are adjusted, not just their standard deviations. The distribution for the measurand is derived in terms of <italic>t</italic>-distributions and can be calculated using simple numerical quadrature schemes. The approach is illustrated on a number of data sets available in the literature.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A hierarchical model for the analysis of inter-laboratory comparison
+    - script: Latn
+      content: A hierarchical model for the analysis of inter-laboratory comparison
         data
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-12-01'
+      at: '2016-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A hierarchical model for the analysis of inter-laboratory comparison
+    - script: Latn
+      content: A hierarchical model for the analysis of inter-laboratory comparison
         data
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-11-02'
+      at: '2016-11-02'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +90,6 @@ extent:
     reference_from: '1295'
     reference_to: '1305'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

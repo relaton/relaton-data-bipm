@@ -1,73 +1,63 @@
 ---
-schema-version: v1.2.9
-id: Metrologia332187
-title:
-- content: 'Final report: Thermal expansion measurement of gauge blocks'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/2/11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/2/11
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 2 187
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report: Thermal expansion measurement of gauge blocks'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/2/11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/2/11
+docidentifier:
+- content: Metrologia 33 2 187
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/2/11
+- content: 10.1088/0026-1394/33/2/11
   type: doi
 date:
 - type: published
-  value: '1996-04-01'
+  at: '1996-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Thalmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Swiss Federal Office of Metrology (OFMET), Lindenweg 50, CH-3084
             Wabern, Switzerland
-  role:
-  - type: author
-revdate: '1996-04-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report: Thermal expansion measurement of gauge blocks'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final report: Thermal expansion measurement of gauge blocks'
     date:
     - type: ppub
-      value: '1996-04-01'
+      at: '1996-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -78,6 +68,6 @@ extent:
     reference_from: '187'
     reference_to: '188'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

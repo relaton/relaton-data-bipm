@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304321
-title:
-- content: Improved Near-Infrared Detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/019
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/019
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 321
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improved Near-Infrared Detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/019
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/019
+docidentifier:
+- content: Metrologia 30 4 321
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/019
+- content: 10.1088/0026-1394/30/4/019
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, TW110LW, UK
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The paper describes the properties of a new large area InGaAs photodiode
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper describes the properties of a new large area InGaAs photodiode
     with near unity internal quantum efficiency. Measurements of linearity, spatial
     uniformity and dark current of the photodiodes are presented and compared with
     measurements on germanium photodiodes. The paper also describes the performance
@@ -49,39 +45,31 @@ abstract:
     shows how it has a calculable responsivity from 980 nm to 1 640 nm. It also describes
     how such a detector can be used as a sensor for a fibre-optic power meter with
     an uncertainty of around 0,1%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved Near-Infrared Detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improved Near-Infrared Detectors
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '321'
     reference_to: '325'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

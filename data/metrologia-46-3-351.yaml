@@ -1,107 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463351
-title:
-- content: An application of uncertain numbers in radio frequency power measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/025
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/025
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 351
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An application of <italic>uncertain numbers</italic> in radio frequency
+    power measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/025
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/025
+docidentifier:
+- content: Metrologia 46 3 351
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/025
+- content: 10.1088/0026-1394/46/3/025
   type: doi
 date:
 - type: published
-  value: '2009-05-22'
+  at: '2009-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2009-05-22'
 abstract:
-- content: "<p>The uncertain-numbers method (Hall B D 2006 Metrologia 43 L56–61) is
-    an alternative computational procedure to the Law of Propagation of Uncertainty
-    (LPU) described in the Guide to the Expression of Uncertainty in Measurement.
-    One advantage of the method is that data processing can be carried out in an arbitrary
-    series of steps and much of the mathematical analysis normally associated with
-    the LPU can be automated by software. This has applications for measuring systems,
-    which are modular in design and use internal data processing to apply corrections
-    to raw data. Several scenarios involving radio frequency power measurements are
-    used to illustrate the new method in this context. The scenarios show something
-    of the difficulty inherent in calculating uncertainty for modern measurement systems
-    and in particular highlight the occurrence of systematic errors arising from internal
-    instrument correction factors. Such errors introduce correlation to a series of
-    measurements and must be handled with care when functions of results, such as
-    means, differences and ratios, are required.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>The uncertain-numbers method (Hall B D <ext-link ext-link-type="uri"
+    xlink:href="https://doi.org/10.1088/0026-1394/43/6/N07">2006 <italic>Metrologia</italic>
+    <bold>43</bold> L56–61</ext-link>) is an alternative computational procedure to
+    the Law of Propagation of Uncertainty (LPU) described in the <italic>Guide to
+    the Expression of Uncertainty in Measurement</italic>. One advantage of the method
+    is that data processing can be carried out in an arbitrary series of steps and
+    much of the mathematical analysis normally associated with the LPU can be automated
+    by software. This has applications for measuring systems, which are modular in
+    design and use internal data processing to apply corrections to raw data. Several
+    scenarios involving radio frequency power measurements are used to illustrate
+    the new method in this context. The scenarios show something of the difficulty
+    inherent in calculating uncertainty for modern measurement systems and in particular
+    highlight the occurrence of systematic errors arising from internal instrument
+    correction factors. Such errors introduce correlation to a series of measurements
+    and must be handled with care when functions of results, such as means, differences
+    and ratios, are required.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An application of uncertain numbers in radio frequency power measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: An application of <italic>uncertain numbers</italic> in radio frequency
+        power measurement
     date:
     - type: epub
-      value: '2009-05-22'
+      at: '2009-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: An application of uncertain numbers in radio frequency power measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: An application of <italic>uncertain numbers</italic> in radio frequency
+        power measurement
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +102,6 @@ extent:
     reference_from: '351'
     reference_to: '358'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

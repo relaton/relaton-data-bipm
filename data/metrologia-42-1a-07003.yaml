@@ -1,95 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia421A07003
-title:
-- content: 'Final Report: CCM.M-K3 comparison / 50 kg mass'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1A/07003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1A/07003
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1A 07003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final Report: CCM.M-K3 comparison / 50 kg mass'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1A/07003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1A/07003
+docidentifier:
+- content: Metrologia 42 1A 07003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1A/07003
+- content: 10.1088/0026-1394/42/1A/07003
   type: doi
 date:
 - type: published
-  value: '2005-01-01'
+  at: '2005-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Gosset
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Madec
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LNE, 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
-  - type: author
-revdate: '2005-01-01'
 abstract:
-- content: |-
-    <p>The CCM.M-K3 comparison is based on a decision taken by the 'Comité Consultatif pour la Masse et les Grandeurs Apparentées' (CCM) during its 7th session in May 1999. The comparison is piloted by the BNM-LNE, organized in three petals (petal 1, 2 and 3), and uses two 50 kg travelling standards. Fourteen laboratories calibrated one of the travelling standards between March 2001 and February 2002. The key comparison reference value accepted by the participants is the median of the corrected laboratory results. The degree of equivalence of each laboratory with respect to the reference value and the degree of equivalence between two laboratories have been calculated. These terms and their expanded uncertainties are given in matrix form. A graphical presentation is also shown.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The CCM.M-K3 comparison is based on a decision taken by the 'Comité Consultatif pour la Masse et les Grandeurs Apparentées' (CCM) during its 7th session in May 1999. The comparison is piloted by the BNM-LNE, organized in three petals (petal 1, 2 and 3), and uses two 50 kg travelling standards. Fourteen laboratories calibrated one of the travelling standards between March 2001 and February 2002. The key comparison reference value accepted by the participants is the median of the corrected laboratory results. The degree of equivalence of each laboratory with respect to the reference value and the degree of equivalence between two laboratories have been calculated. These terms and their expanded uncertainties are given in matrix form. A graphical presentation is also shown.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/M-K3/CCM.M-K3.pdf ">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final Report: CCM.M-K3 comparison / 50 kg mass'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final Report: CCM.M-K3 comparison / 50 kg mass'
     date:
     - type: ppub
-      value: '2005-01-01'
+      at: '2005-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -100,6 +88,6 @@ extent:
     reference_from: '07003'
     reference_to: '07003'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

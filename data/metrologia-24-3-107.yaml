@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia243107
-title:
-- content: The Triple-point Temperature of Pure Equilibrium Deuterium
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 3 107
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Triple-point Temperature of Pure Equilibrium Deuterium
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/3/002
+docidentifier:
+- content: Metrologia 24 3 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/3/002
+- content: 10.1088/0026-1394/24/3/002
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G T McConville
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Monsanto Research Corporation, Mound Laboratory, Miamisburg, Ohio,
             USA
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>A study specifically intended to measure the triple-point temperature
+- language: en
+  script:
+  - Latn
+  content: "<p>A study specifically intended to measure the triple-point temperature
     of both n-D<sub>2</sub> and e-D<sub>2</sub> containing a volume fraction of HD
     not higher than 0.0001 has been completed. It was performed by measuring samples
     of gas in metal sealed cells. The cells, after being checked for a non-increasing
@@ -74,39 +68,31 @@ abstract:
     for these triple points are (18.723<sub>2</sub> ± 0.001) K and (18.688<sub>8</sub>
     ± 0.001) K respectively; e-D<sub>2</sub> can be used as a first-quality temperature
     reference point.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Triple-point Temperature of Pure Equilibrium Deuterium
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Triple-point Temperature of Pure Equilibrium Deuterium
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '107'
     reference_to: '120'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

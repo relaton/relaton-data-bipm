@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia25267
-title:
-- content: Present Understanding of the Quantum Hall Effect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 2 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Present Understanding of the Quantum Hall Effect
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/2/002
+docidentifier:
+- content: Metrologia 25 2 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/2/002
+- content: 10.1088/0026-1394/25/2/002
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Bliek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-3300
             Braunschweig, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Starting from a simplified model calculation, typical of the way in
+- language: en
+  script:
+  - Latn
+  content: "<p>Starting from a simplified model calculation, typical of the way in
     which magnetoquantum effects were discussed before they became of interest for
     precision metrology, a survey is made of the problems encountered in developing
     a quantitative theory of the quantum Hall effect in real systems. Several possible
     lines of thought are described, together with some results and some hitherto unanswered
     questions. Finally, it is shown how suitable experiments contribute to a better
     insight into the nature of the quantum Hall effect.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Present Understanding of the Quantum Hall Effect
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Present Understanding of the Quantum Hall Effect
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '67'
     reference_to: '72'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

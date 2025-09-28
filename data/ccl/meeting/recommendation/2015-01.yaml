@@ -1,91 +1,76 @@
 ---
-schema-version: v1.2.9
 id: CCL-REC-2015-01
-title:
-- content: Updates to the list of standard frequencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Updates to the list of standard frequencies
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/ccl/16-2015/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccl/16-2015/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-16.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-16.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2070984/CCL16.pdf/d32b69b0-c1c5-0796-f995-4c9b102145b6
-  type: pdf
 type: proceedings
-docid:
-- id: CCL REC 1 (2015)
-  type: BIPM
-  primary: true
-- id: CCL REC 1 (2015, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCL REC 1 (2015, F)
+  content: Updates to the list of standard frequencies
+- language: fr
+  script: Latn
+  content: Updates to the list of standard frequencies
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccl/16-2015/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccl/16-2015/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-en/meeting-16.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccl/meetings-fr/meeting-16.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2070984/CCL16.pdf/d32b69b0-c1c5-0796-f995-4c9b102145b6
+docidentifier:
+- content: CCL REC 1 (2015)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCL Recommendation 1 (2015)
+  content: CCL REC 1 (2015, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCL REC 1 (2015, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCL Recommendation 1 (2015)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 1 du CCL (2015)
+  content: Recommandation 1 du CCL (2015)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCL Recommendation 1 (2015) / Recommandation 1 du CCL (2015)
+- content: CCL Recommendation 1 (2015) / Recommandation 1 du CCL (2015)
   type: BIPM-long
 docnumber: CCL REC 1 (2015)
 date:
 - type: published
-  value: '2015-09-24'
+  at: '2015-09-24'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2015-09-24'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -94,8 +79,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '1'

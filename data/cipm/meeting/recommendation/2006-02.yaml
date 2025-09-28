@@ -1,114 +1,92 @@
 ---
-schema-version: v1.2.9
 id: CIPM-REC-2006-02
-title:
-- content: Coordination of the development of advanced time and frequency transfer
-    techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Coordination de la mise au point de techniques avancées de comparaison
-    de temps et de fréquences
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/95-2006/resolution-2
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/95-2006/resolution-2
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-95.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-95.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17315032/CIPM95.pdf.zip/e58fcb97-69f8-008b-050b-378d5f0d8a77
-  type: pdf
 type: proceedings
-docid:
-- id: CIPM REC 2 (2006)
-  type: BIPM
-  primary: true
-- id: CIPM REC 2 (2006, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM REC 2 (2006, F)
+  content: Coordination of the development of advanced time and frequency transfer
+    techniques
+- language: fr
+  script: Latn
+  content: Coordination de la mise au point de techniques avancées de comparaison
+    de temps et de fréquences
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/95-2006/resolution-2
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/95-2006/resolution-2
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-95.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-95.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17315032/CIPM95.pdf.zip/e58fcb97-69f8-008b-050b-378d5f0d8a77
+docidentifier:
+- content: CIPM REC 2 (2006)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Recommendation 2 (2006)
+  content: CIPM REC 2 (2006, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM REC 2 (2006, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Recommendation 2 (2006)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CIPM (2006)
+  content: Recommandation 2 du CIPM (2006)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Recommendation 2 (2006) / Recommandation 2 du CIPM (2006)
+- content: CIPM Recommendation 2 (2006) / Recommandation 2 du CIPM (2006)
   type: BIPM-long
 docnumber: CIPM REC 2 (2006)
 date:
 - type: published
-  value: '2006-10-13'
+  at: '2006-10-13'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2006-10-13'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -117,8 +95,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

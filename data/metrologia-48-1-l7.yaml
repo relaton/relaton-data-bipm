@@ -1,123 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia481L7
-title:
-- content: Reassessment of a calibration model by Bayesian reference analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/1/L02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/1/L02
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 1 L7
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Reassessment of a calibration model by Bayesian reference analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/1/L02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/1/L02
+docidentifier:
+- content: Metrologia 48 1 L7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/1/L02
+- content: 10.1088/0026-1394/48/1/L02
   type: doi
 date:
 - type: published
-  value: '2011-01-11'
+  at: '2011-01-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dieter Grientschnig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Chemical Laboratories, Böhler Edelstahl, Mariazeller Str. 25, 8605
             Kapfenberg, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicu na Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2011-01-11'
 abstract:
-- content: "<p>The Bayesian analysis of a simple calibration model is reconsidered.
-    Observed values are at hand that conform to a Gaussian probability distribution
-    of unknown standard deviation S. The mean of this distribution is given by a polynomial
-    function of the measurand Y. For the coefficients P of this polynomial a state-of-knowledge
-    distribution is available, whereas no prior information about Y and S exists.
-    A conditional reference prior for (Y, S) given P is derived. It shows no functional
-    dependence on the measurand in the case that the calibration function is linear,
-    but depends non-trivially on the measurand otherwise. This prior is compared with
-    other priors that have been used in the literature to analyse the same calibration
-    model. It leads to a different posterior distribution than the application of
-    Supplement 1 to the ‘Guide to the Expression of Uncertainty in Measurement’. An
-    example illustrates differences of results founded on the various non-informative
-    priors.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The Bayesian analysis of a simple calibration model is reconsidered.
+    Observed values are at hand that conform to a Gaussian probability distribution
+    of unknown standard deviation <italic>S</italic>. The mean of this distribution
+    is given by a polynomial function of the measurand <italic>Y</italic>. For the
+    coefficients <bold><italic>P</italic></bold> of this polynomial a state-of-knowledge
+    distribution is available, whereas no prior information about <italic>Y</italic>
+    and <italic>S</italic> exists. A conditional reference prior for (<italic>Y</italic>,
+    <italic>S</italic>) given <bold><italic>P</italic></bold> is derived. It shows
+    no functional dependence on the measurand in the case that the calibration function
+    is linear, but depends non-trivially on the measurand otherwise. This prior is
+    compared with other priors that have been used in the literature to analyse the
+    same calibration model. It leads to a different posterior distribution than the
+    application of Supplement 1 to the ‘<italic>Guide to the Expression of Uncertainty
+    in Measurement</italic>’. An example illustrates differences of results founded
+    on the various non-informative priors.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reassessment of a calibration model by Bayesian reference analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reassessment of a calibration model by Bayesian reference analysis
     date:
     - type: epub
-      value: '2011-01-11'
+      at: '2011-01-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Reassessment of a calibration model by Bayesian reference analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Reassessment of a calibration model by Bayesian reference analysis
     date:
     - type: ppub
-      value: '2011-02-01'
+      at: '2011-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +116,6 @@ extent:
     reference_from: L7
     reference_to: L11
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,106 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia575053001
-title:
-- content: 'Angles in the SI: treating the radian as an independent, unhidden unit
-    does not require the redefinition of the term ‘frequency’ or the unit hertz'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab931e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab931e
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 5 053001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Angles in the SI: treating the radian as an independent, unhidden unit
+    does not require the redefinition of the term ‘frequency’ or the unit hertz'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab931e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab931e
+docidentifier:
+- content: Metrologia 57 5 053001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab931e
+- content: 10.1088/1681-7575/ab931e
   type: doi
 date:
 - type: published
-  value: '2020-08-19'
+  at: '2020-08-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul Quincey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2020-08-19'
 abstract:
-- content: Abstract<p>Some recent papers have argued that frequency should have the
-    dimensions of angle/time, with the consequences that 1 Hz = 2π rad s<sup>−1</sup>
-    instead of 1 s<sup>−1</sup>, and also that ν = ω and h = ħ. This letter puts the
-    case that this argument redefines the quantity ‘frequency’ and then draws conclusions
-    from equations that rely on the standard definition being used. The problems that
-    this redefinition is designed to address arise from the widespread unstated adoption
-    of the Radian Convention, which treats the radian as a dimensionless quantity
-    equal to the number 1, in effect making the radian a ‘hidden’ unit. This convention
-    is currently ‘built-in’ to the SI, when it should be separable from it. The unhelpful
-    status of angles in the SI can be remedied with minimal disruption by (1) changing
-    the definition of the radian from ‘a radian equals 1 m m<sup>−1</sup>’ to e.g.
-    ‘a right angle equals π/2 radians’, and (2) acknowledging that the adoption of
-    the Radian Convention is acceptable, when made explicit. The standard definitions
-    of ‘frequency’ and the hertz should remain unchanged.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Some recent papers have argued that frequency should have the dimensions of angle/time, with the consequences that 1 Hz = 2π rad s<sup>−1</sup> instead of 1 s<sup>−1</sup>, and also that <italic>ν</italic> = <italic>ω</italic> and <italic>h</italic> = <italic>ħ</italic>. This letter puts the case that this argument redefines the quantity ‘frequency’ and then draws conclusions from equations that rely on the standard definition being used. The problems that this redefinition is designed to address arise from the widespread unstated adoption of the Radian Convention, which treats the radian as a dimensionless quantity equal to the number 1, in effect making the radian a ‘hidden’ unit. This convention is currently ‘built-in’ to the SI, when it should be separable from it. The unhelpful status of angles in the SI can be remedied with minimal disruption by (1) changing the definition of the radian from ‘a radian equals 1 m m<sup>−1</sup>’ to e.g. ‘a right angle equals π/2 radians’, and (2) acknowledging that the adoption of the Radian Convention is acceptable, when made explicit. The standard definitions of ‘frequency’ and the hertz should remain unchanged.</p>
 copyright:
-- owner:
-  - name:
-    - content: Crown copyright
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Crown copyright
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Angles in the SI: treating the radian as an independent, unhidden
+    - script: Latn
+      content: 'Angles in the SI: treating the radian as an independent, unhidden
         unit does not require the redefinition of the term ‘frequency’ or the unit
         hertz'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-10-01'
+      at: '2020-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Angles in the SI: treating the radian as an independent, unhidden
+    - script: Latn
+      content: 'Angles in the SI: treating the radian as an independent, unhidden
         unit does not require the redefinition of the term ‘frequency’ or the unit
         hertz'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-08-19'
+      at: '2020-08-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +85,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

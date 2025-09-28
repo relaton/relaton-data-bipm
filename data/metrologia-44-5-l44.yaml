@@ -1,122 +1,108 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445L44
-title:
-- content: Gravitational redshift at INRIM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/N03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/N03
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 L44
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gravitational redshift at INRIM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/N03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/N03
+docidentifier:
+- content: Metrologia 44 5 L44
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/N03
+- content: 10.1088/0026-1394/44/5/N03
   type: doi
 date:
 - type: published
-  value: '2007-09-21'
+  at: '2007-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Calonico
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Cina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Politecnico di Torino, corso Duca degli Abruzzi 24, 10129 Torino,
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I H Bendea
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Politecnico di Torino, corso Duca degli Abruzzi 24, 10129 Torino,
             Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Levi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Lorini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Godone
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Strada delle
             Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2007-09-21'
 abstract:
-- content: "<p>The gravitational redshift is one of the main biases in the comparison
+- language: en
+  script:
+  - Latn
+  content: "<p>The gravitational redshift is one of the main biases in the comparison
     of primary frequency standards; even if it is not a limit for the present accuracy
     of the microwave frequency standards such as Cs beam or fountain clocks, it could
     be a challenge for the forthcoming generation of atomic optical clocks. In this
@@ -126,53 +112,42 @@ abstract:
     is based on GPS/levelling measurements and on the use of both a local and a global
     model for the Earth Geoid; the main limitation to the accuracy is given by the
     Geoid reference potential itself.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gravitational redshift at INRIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gravitational redshift at INRIM
     date:
     - type: epub
-      value: '2007-09-21'
+      at: '2007-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gravitational redshift at INRIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gravitational redshift at INRIM
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -183,6 +158,6 @@ extent:
     reference_from: L44
     reference_to: L48
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

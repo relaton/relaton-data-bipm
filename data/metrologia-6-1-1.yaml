@@ -1,125 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia611
-title:
-- content: An Accurate Mercury Manometer for the NBS Gas Thermometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Accurate Mercury Manometer for the NBS Gas Thermometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/1/002
+docidentifier:
+- content: Metrologia 6 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/1/002
+- content: 10.1088/0026-1394/6/1/002
   type: doi
 date:
 - type: published
-  value: '1970-01-01'
+  at: '1970-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L A Guildner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H F Stimson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Edsinger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R L Anderson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC, USA
-  role:
-  - type: author
-revdate: '1970-01-01'
 abstract:
-- content: "<p>A mercury manometer using capacitance sensing of meniscus positions
+- language: en
+  script:
+  - Latn
+  content: "<p>A mercury manometer using capacitance sensing of meniscus positions
     has been refined to give an accuracy within 2 parts in 10<sup>6</sup> of the pressure
     in the range from 1 × 10<sup>4</sup> to 1.3 × 10<sup>5</sup> N/m<sup>2</sup>.
     The determination of pressure ratios is accurate within 1.5 parts in 10<sup>6</sup>
     for pressures in the same range.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Accurate Mercury Manometer for the NBS Gas Thermometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Accurate Mercury Manometer for the NBS Gas Thermometer
     date:
     - type: ppub
-      value: '1970-01-01'
+      at: '1970-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +112,6 @@ extent:
     reference_from: '1'
     reference_to: '18'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

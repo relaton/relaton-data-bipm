@@ -1,193 +1,158 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581014003
-title:
-- content: On the influence of inlet perturbations on slug dynamics in horizontal
-    multiphase flow—a computational study
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abd1c9
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abd1c9
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 014003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the influence of inlet perturbations on slug dynamics in horizontal
+    multiphase flow—a computational study
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abd1c9
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abd1c9
+docidentifier:
+- content: Metrologia 58 1 014003
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abd1c9
+- content: 10.1088/1681-7575/abd1c9
   type: doi
 date:
 - type: published
-  value: '2021-01-21'
+  at: '2021-01-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Schmelter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Knotek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Okruzni 31, 638 00 Brno, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: Okruzni 31, 638 00 Brno, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Olbrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
     - organization:
+        address:
+        - formatted_address: Müller-Breslau-Straße 8, 10623 Berlin, Germany
         name:
         - content: Technische Universität Berlin
         subdivision:
-        - content: Institute of Fluid Dynamics and Technical Acoustics
-        contact:
-        - address:
-            formatted_address: Müller-Breslau-Straße 8, 10623 Berlin, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Fluid Dynamics and Technical Acoustics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Fiebach
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Bär
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Abbestraße 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2021-01-21'
 abstract:
-- content: Abstract<p>When multiphase flows are modeled numerically, complex geometrical
-    and operational features of the experiments, such as the phase mixing section,
-    are often not resolved in detail. Rather simplified boundary conditions are prescribed,
-    which usually cause less irregular dynamics in the system than present in reality.
-    In this paper, a perturbation that randomly disturbs the secondary components
-    of the velocity vector at the inlet is proposed in order to capture the experimentally
-    observed instabilities at the interface between the phases. This in particular
-    enhances the formation of slugs in the pipe. Different amplitudes of the perturbation
-    are investigated. One observes that, the higher the perturbation amplitude, the
-    earlier the slugs occur. On the other hand, sufficiently far away from the inlet,
-    the flow pattern shows the same dynamics for different perturbation amplitudes.
-    Hence, no specific frequency is imposed by the prescribed perturbation. The simulation
-    results are validated by comparison with liquid level data from a corresponding
-    experiment.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>When multiphase flows are modeled numerically, complex geometrical and operational features of the experiments, such as the phase mixing section, are often not resolved in detail. Rather simplified boundary conditions are prescribed, which usually cause less irregular dynamics in the system than present in reality. In this paper, a perturbation that randomly disturbs the secondary components of the velocity vector at the inlet is proposed in order to capture the experimentally observed instabilities at the interface between the phases. This in particular enhances the formation of slugs in the pipe. Different amplitudes of the perturbation are investigated. One observes that, the higher the perturbation amplitude, the earlier the slugs occur. On the other hand, sufficiently far away from the inlet, the flow pattern shows the same dynamics for different perturbation amplitudes. Hence, no specific frequency is imposed by the prescribed perturbation. The simulation results are validated by comparison with liquid level data from a corresponding experiment.</p>
 copyright:
-- owner:
-  - name:
-    - content: The Author
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: The Author
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the influence of inlet perturbations on slug dynamics in horizontal
+    - script: Latn
+      content: On the influence of inlet perturbations on slug dynamics in horizontal
         multiphase flow—a computational study
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the influence of inlet perturbations on slug dynamics in horizontal
+    - script: Latn
+      content: On the influence of inlet perturbations on slug dynamics in horizontal
         multiphase flow—a computational study
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-01-21'
+      at: '2021-01-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the influence of inlet perturbations on slug dynamics in horizontal
+    - script: Latn
+      content: On the influence of inlet perturbations on slug dynamics in horizontal
         multiphase flow—a computational study
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2021-01-21'
+      at: '2021-01-21'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -195,6 +160,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

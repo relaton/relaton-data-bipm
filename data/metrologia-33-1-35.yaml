@@ -1,82 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia33135
-title:
-- content: Quantities describing compositions of mixtures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/1/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/1/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 1 35
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quantities describing compositions of mixtures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/1/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/1/5
+docidentifier:
+- content: Metrologia 33 1 35
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/1/5
+- content: 10.1088/0026-1394/33/1/5
   type: doi
 date:
 - type: published
-  value: '1996-02-01'
+  at: '1996-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Cvitas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ruder Boskovic Inst.
-  role:
-  - type: author
-revdate: '1996-02-01'
 abstract:
-- content: "<p>The quantities used for expressing the composition of mixtures are
+- language: en
+  script:
+  - Latn
+  content: "<p>The quantities used for expressing the composition of mixtures are
     described and classified into five groups: ratios, fractions, concentrations,
     molality and contents. The international recommendations are compared with current
     practice where discrepancies are common.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quantities describing compositions of mixtures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Quantities describing compositions of mixtures
     date:
     - type: ppub
-      value: '1996-02-01'
+      at: '1996-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +75,6 @@ extent:
     reference_from: '35'
     reference_to: '39'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

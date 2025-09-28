@@ -1,154 +1,120 @@
 ---
-schema-version: v1.2.9
-id: Metrologia452211
-title:
-- content: Analysis of key comparison data and laboratory biases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/2/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/2/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 2 211
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analysis of key comparison data and laboratory biases
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/2/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/2/010
+docidentifier:
+- content: Metrologia 45 2 211
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/2/010
+- content: 10.1088/0026-1394/45/2/010
   type: doi
 date:
 - type: published
-  value: '2008-03-20'
+  at: '2008-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Chunovkina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D I Mendeleyev Institute for Metrology, 19, Moskovsky pr., St Petersburg,
             Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2008-03-20'
 abstract:
-- content: "<p>The analysis of key comparison data is at the focus of metrology-related
-    research and many papers have been published on this issue in recent years. Typically,
-    the approaches make use of quoted combined uncertainties. We propose an approach
-    which is based on more detailed uncertainty information. We assume that each of
-    the participating laboratories has knowledge about the precision of its measurements
-    and, in addition, provides a probability density function (PDF) which encodes
-    its assessment on the size of its bias. Only the case of a single stable travelling
-    standard is considered.</p><p>The analysis starts with a consistency test of the
-    data and the PDFs provided by the participating laboratories. If this test is
-    passed, a probabilistic approach based on a bias model is applied in order to
-    merge the information of all participants. PDFs for the value of the travelling
-    standard and, in particular, for the biases of the participating laboratories
-    are derived. Explicit results are given for Gaussian PDFs. It is shown that the
-    proposed use of detailed uncertainty information results in improved estimates
-    of the biases. In particular for those laboratories expecting to have a large
-    bias, the uncertainty about their biases can thereby be reduced significantly.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The analysis of key comparison data is at the focus of metrology-related research and many papers have been published on this issue in recent years. Typically, the approaches make use of quoted combined uncertainties. We propose an approach which is based on more detailed uncertainty information. We assume that each of the participating laboratories has knowledge about the precision of its measurements and, in addition, provides a probability density function (PDF) which encodes its assessment on the size of its bias. Only the case of a single stable travelling standard is considered.</p>
+    <p>The analysis starts with a consistency test of the data and the PDFs provided by the participating laboratories. If this test is passed, a probabilistic approach based on a bias model is applied in order to merge the information of all participants. PDFs for the value of the travelling standard and, in particular, for the biases of the participating laboratories are derived. Explicit results are given for Gaussian PDFs. It is shown that the proposed use of detailed uncertainty information results in improved estimates of the biases. In particular for those laboratories expecting to have a large bias, the uncertainty about their biases can thereby be reduced significantly.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis of key comparison data and laboratory biases
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analysis of key comparison data and laboratory biases
     date:
     - type: epub
-      value: '2008-03-20'
+      at: '2008-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis of key comparison data and laboratory biases
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Analysis of key comparison data and laboratory biases
     date:
     - type: ppub
-      value: '2008-04-01'
+      at: '2008-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -159,6 +125,6 @@ extent:
     reference_from: '211'
     reference_to: '216'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

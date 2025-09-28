@@ -1,124 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia50120
-title:
-- content: Thermodynamic temperature measurements of the melting temperatures of Co–C,
-    Pt–C and Re–C fixed points at NRC
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1/20
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1/20
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 1 20
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Thermodynamic temperature measurements of the melting temperatures of Co–C,
+    Pt–C and Re–C fixed points at NRC
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1/20
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1/20
+docidentifier:
+- content: Metrologia 50 1 20
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1/20
+- content: 10.1088/0026-1394/50/1/20
   type: doi
 date:
 - type: published
-  value: '2012-12-19'
+  at: '2012-12-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A D W Todd
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, ON, K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, ON, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D J Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 1200 Montreal Road, Ottawa, ON, K1A 0R6, Canada
         name:
         - content: National Research Council
-        contact:
-        - address:
-            formatted_address: 1200 Montreal Road, Ottawa, ON, K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2012-12-19'
 abstract:
-- content: 'Abstract<p>This paper outlines measurements made at the National Research
-    Council Canada (NRC) of the thermodynamic melting temperatures of Co–C, Pt–C and
-    Re–C fixed points that have been part of the high-temperature fixed-point research
-    plan of Working Group 5 of the Consultative Committee for Thermometry (CCT-WG5)
-    to assign melting temperatures to those fixed points. This document will outline
-    the equipment used, describe the scheme used to calibrate a pyrometer with traceability
-    to a cryogenic electrical substitution radiometer, and detail the method of measuring
-    the fixed points. It will then report the uncertainties in the measurements and
-    the results. A brief description of the improvements that we plan to implement
-    to the scheme to reduce the uncertainties for future measurements will be given.
-    The thermodynamic temperatures determined for the three fixed points are: 1597.776 K
-    with an expanded uncertainty of 0.36 K, 2011.390 K with an expanded uncertainty
-    of 0.55 K, and 2748.056 K with an expanded uncertainty of 0.95 K, for the Co–C,
-    Pt–C and Re–C fixed points, respectively (all expanded uncertainties assume a
-    95% confidence interval and a Gaussian distribution).</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This paper outlines measurements made at the National Research Council Canada (NRC) of the thermodynamic melting temperatures of Co–C, Pt–C and Re–C fixed points that have been part of the high-temperature fixed-point research plan of Working Group 5 of the Consultative Committee for Thermometry (CCT-WG5) to assign melting temperatures to those fixed points. This document will outline the equipment used, describe the scheme used to calibrate a pyrometer with traceability to a cryogenic electrical substitution radiometer, and detail the method of measuring the fixed points. It will then report the uncertainties in the measurements and the results. A brief description of the improvements that we plan to implement to the scheme to reduce the uncertainties for future measurements will be given. The thermodynamic temperatures determined for the three fixed points are: 1597.776 K with an expanded uncertainty of 0.36 K, 2011.390 K with an expanded uncertainty of 0.55 K, and 2748.056 K with an expanded uncertainty of 0.95 K, for the Co–C, Pt–C and Re–C fixed points, respectively (all expanded uncertainties assume a 95% confidence interval and a Gaussian distribution).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermodynamic temperature measurements of the melting temperatures
+    - script: Latn
+      content: Thermodynamic temperature measurements of the melting temperatures
         of Co–C, Pt–C and Re–C fixed points at NRC
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-02-01'
+      at: '2013-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermodynamic temperature measurements of the melting temperatures
+    - script: Latn
+      content: Thermodynamic temperature measurements of the melting temperatures
         of Co–C, Pt–C and Re–C fixed points at NRC
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-12-19'
+      at: '2012-12-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +105,6 @@ extent:
     reference_from: '20'
     reference_to: '26'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

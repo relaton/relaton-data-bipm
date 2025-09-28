@@ -1,159 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493401
-title:
-- content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
-    in dynamic measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/401
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/401
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 401
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
+    in dynamic measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/401
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/401
+docidentifier:
+- content: Metrologia 49 3 401
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/401
+- content: 10.1088/0026-1394/49/3/401
   type: doi
 date:
 - type: published
-  value: '2012-04-24'
+  at: '2012-04-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Eichstädt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Link
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2012-04-24'
 abstract:
-- content: Abstract<p>Measurement of quantities having time-dependent values such
-    as force, acceleration or pressure is a topic of growing importance in metrology.
-    The application of the Guide to the Expression of Uncertainty in Measurement (GUM)
-    and its Supplements to the evaluation of uncertainty for such quantities is challenging.
-    We address the efficient implementation of the Monte Carlo method described in
-    GUM Supplements 1 and 2 for this task. The starting point is a time-domain observation
-    equation. The steps of deriving a corresponding measurement model, the assignment
-    of probability distributions to the input quantities in the model, and the propagation
-    of the distributions through the model are all considered. A direct implementation
-    of a Monte Carlo method can be intractable on many computers since the storage
-    requirement of the method can be large compared with the available computer memory.
-    Two memory-efficient alternatives to the direct implementation are proposed. One
-    approach is based on applying updating formulae for calculating means, variances
-    and point-wise histograms. The second approach is based on evaluating the measurement
-    model sequentially in time. A simulated example is used to compare the performance
-    of the direct and alternative procedures.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Measurement of quantities having time-dependent values such as force, acceleration or pressure is a topic of growing importance in metrology. The application of the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) and its Supplements to the evaluation of uncertainty for such quantities is challenging. We address the efficient implementation of the Monte Carlo method described in GUM Supplements 1 and 2 for this task. The starting point is a time-domain observation equation. The steps of deriving a corresponding measurement model, the assignment of probability distributions to the input quantities in the model, and the propagation of the distributions through the model are all considered. A direct implementation of a Monte Carlo method can be intractable on many computers since the storage requirement of the method can be large compared with the available computer memory. Two memory-efficient alternatives to the direct implementation are proposed. One approach is based on applying updating formulae for calculating means, variances and point-wise histograms. The second approach is based on evaluating the measurement model sequentially in time. A simulated example is used to compare the performance of the direct and alternative procedures.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
+    - script: Latn
+      content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
         in dynamic measurements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
+    - script: Latn
+      content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
         in dynamic measurements
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-04-24'
+      at: '2012-04-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -164,6 +133,6 @@ extent:
     reference_from: '401'
     reference_to: '410'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

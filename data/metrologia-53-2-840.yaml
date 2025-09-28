@@ -1,105 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia532840
-title:
-- content: The range of options for handling plane angle and solid angle within a
-    system of units
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/2/840
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/2/840
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 2 840
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The range of options for handling plane angle and solid angle within a
+    system of units
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/2/840
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/2/840
+docidentifier:
+- content: Metrologia 53 2 840
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/2/840
+- content: 10.1088/0026-1394/53/2/840
   type: doi
 date:
 - type: published
-  value: '2016-02-15'
+  at: '2016-02-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul Quincey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
         subdivision:
-        - content: Environment Division
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2016-02-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Environment Division
 abstract:
-- content: Abstract<p>The radian and steradian are unusual units within the SI, originally
-    belonging to their own category of ‘supplementary units’, with this status being
-    changed to dimensionless ‘derived units’ in 1995. Recent papers have suggested
-    that angles could be handled in two different ways within the SI, both differing
-    from the present system. The purpose of this paper is to provide a framework for
-    putting such suggestions into context, outlining the range of options that is
-    available, together with the advantages and disadvantages of these options.</p><p>Although
-    less rigorously logical than some alternatives, the present SI approach is generally
-    supported, but with some changes to the SI brochure to make the position clearer,
-    in particular with regard to the designation of the radian and steradian as derived
-    units.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The radian and steradian are unusual units within the SI, originally belonging to their own category of ‘supplementary units’, with this status being changed to dimensionless ‘derived units’ in 1995. Recent papers have suggested that angles could be handled in two different ways within the SI, both differing from the present system. The purpose of this paper is to provide a framework for putting such suggestions into context, outlining the range of options that is available, together with the advantages and disadvantages of these options.</p>
+    <p>Although less rigorously logical than some alternatives, the present SI approach is generally supported, but with some changes to the SI brochure to make the position clearer, in particular with regard to the designation of the radian and steradian as derived units.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The range of options for handling plane angle and solid angle within
+    - script: Latn
+      content: The range of options for handling plane angle and solid angle within
         a system of units
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-04-01'
+      at: '2016-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The range of options for handling plane angle and solid angle within
+    - script: Latn
+      content: The range of options for handling plane angle and solid angle within
         a system of units
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-02-15'
+      at: '2016-02-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +97,6 @@ extent:
     reference_from: '840'
     reference_to: '845'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

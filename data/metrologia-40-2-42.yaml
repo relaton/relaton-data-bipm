@@ -1,120 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia40242
-title:
-- content: Error analysis in the evaluation of measurement uncertainty
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/2/307
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/2/307
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 2 42
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Error analysis in the evaluation of measurement uncertainty
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/2/307
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/2/307
+docidentifier:
+- content: Metrologia 40 2 42
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/2/307
+- content: 10.1088/0026-1394/40/2/307
   type: doi
 date:
 - type: published
-  value: '2003-04-01'
+  at: '2003-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adriaan M H van der Veen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Nederlands Meetinstituut, Schoemakerstraat 97, 2628 VK Delft, The
             Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Queens Road, Teddington TW11 0LW
             UK
-  role:
-  - type: author
-revdate: '2003-04-01'
 abstract:
-- content: "<p>The role of statistical error modelling as a tool in the evaluation
-    of measurement uncertainty is discussed. The discussion is limited to the use
-    of error modelling as a vehicle to evaluate measurement uncertainty in agreement
-    with the Guide to the Expression of Uncertainty in Measurement. The discussion
-    is based on practical experience gained in developing models for evaluating measurement
-    uncertainty both in calibration and in testing. Until now, it has not been widely
-    recognized that the development of uncertainty models may benefit from the use
-    of classical error analysis techniques. The problems in modelling measurements
-    are such that, based on current practice, this activity is a profession with its
-    own merits and peculiarities. An application of error modelling is given by showing
-    how the performance of laboratories can be assessed in linked interlaboratory
-    comparisons.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The role of statistical error modelling as a tool in the evaluation
+    of measurement uncertainty is discussed. The discussion is limited to the use
+    of error modelling as a vehicle to evaluate measurement uncertainty in agreement
+    with the <italic>Guide to the Expression of Uncertainty in Measurement</italic>.
+    The discussion is based on practical experience gained in developing models for
+    evaluating measurement uncertainty both in calibration and in testing. Until now,
+    it has not been widely recognized that the development of uncertainty models may
+    benefit from the use of classical error analysis techniques. The problems in modelling
+    measurements are such that, based on current practice, this activity is a profession
+    with its own merits and peculiarities. An application of error modelling is given
+    by showing how the performance of laboratories can be assessed in linked interlaboratory
+    comparisons.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error analysis in the evaluation of measurement uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Error analysis in the evaluation of measurement uncertainty
     date:
     - type: epub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error analysis in the evaluation of measurement uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Error analysis in the evaluation of measurement uncertainty
     date:
     - type: ppub
-      value: '2003-04-01'
+      at: '2003-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +108,6 @@ extent:
     reference_from: '42'
     reference_to: '50'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia41141
-title:
-- content: Interpolation errors for radiation thermometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1 41
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Interpolation errors for radiation thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1/006
+docidentifier:
+- content: Metrologia 41 1 41
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1/006
+- content: 10.1088/0026-1394/41/1/006
   type: doi
 date:
 - type: published
-  value: '2003-12-10'
+  at: '2003-12-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Saunders
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Rod White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, PO Box 31-310,
             Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2003-12-10'
 abstract:
-- content: "<p>An analysis is presented that allows the interpolation errors to be
+- language: en
+  script:
+  - Latn
+  content: "<p>An analysis is presented that allows the interpolation errors to be
     determined for radiation thermometers calibrated through the use of interpolation
     equations. For a given spectral responsivity shape, the errors depend only on
     the mean wavelength and relative bandwidth of the spectral responsivity, and on
@@ -66,53 +60,42 @@ abstract:
     a given application so that the interpolation error can be rendered negligible.
     The analysis is demonstrated by evaluating the interpolation errors for the widely
     used Wien and Planck versions of the Sakuma–Hattori interpolation equation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Interpolation errors for radiation thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Interpolation errors for radiation thermometry
     date:
     - type: epub
-      value: '2003-12-10'
+      at: '2003-12-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Interpolation errors for radiation thermometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Interpolation errors for radiation thermometry
     date:
     - type: ppub
-      value: '2004-02-01'
+      at: '2004-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: '41'
     reference_to: '46'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

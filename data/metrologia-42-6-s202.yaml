@@ -1,119 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S202
+type: article
+schema_version: v1.4.1
 title:
-- content: Calculation of the distortion coefficient and associated uncertainty of
+- language: en
+  script: Latn
+  content: Calculation of the distortion coefficient and associated uncertainty of
     PTB and LNE 1 GPa pressure balances using finite element analysis—EUROMET project
     463
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S12
-  type: doi
-type: article
-docid:
-- id: Metrologia 42 6 S202
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S12
+docidentifier:
+- content: Metrologia 42 6 S202
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S12
+- content: 10.1088/0026-1394/42/6/S12
   type: doi
 date:
 - type: published
-  value: '2005-11-09'
+  at: '2005-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wladimir Sabuga
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gianfranco Molinar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia ‘G Colonnetti’, Consiglio Nazionale delle
             Ricerche (IMGC-CNR), now I.N.RI.M., Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giorgio Buonanno
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Università di Cassino (UNICAS), Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Trevor Esward
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thierry Rabault
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais (LNE), Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Levent Yagmur
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ulusal Metroloji Enstitüsü (UME), Gebze/Kocaeli, Turkey
-  role:
-  - type: author
-revdate: '2005-11-09'
 abstract:
-- content: "<p>Results for pressure distortion coefficients (λ) obtained by five national
+- language: en
+  script:
+  - Latn
+  content: "<p>Results for pressure distortion coefficients (λ) obtained by five national
     metrology institutes with finite element methods (FEM) for PTB and LNE 1 GPa piston–cylinder
     units are presented. For the PTB unit they demonstrate good agreement of the FEM
     and the experimental distortion coefficients but rather large differences in the
@@ -121,57 +107,46 @@ abstract:
     reasons for differences between the theoretical real-gap and experimental λ obtained
     for the LNE unit require further clarification. The uncertainty of the gap geometry
     is identified as the main uncertainty source.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calculation of the distortion coefficient and associated uncertainty
+    - language: en
+      script: Latn
+      content: Calculation of the distortion coefficient and associated uncertainty
         of PTB and LNE 1 GPa pressure balances using finite element analysis—EUROMET
         project 463
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-09'
+      at: '2005-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calculation of the distortion coefficient and associated uncertainty
+    - language: en
+      script: Latn
+      content: Calculation of the distortion coefficient and associated uncertainty
         of PTB and LNE 1 GPa pressure balances using finite element analysis—EUROMET
         project 463
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -182,6 +157,6 @@ extent:
     reference_from: S202
     reference_to: S206
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

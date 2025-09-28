@@ -1,171 +1,138 @@
 ---
-schema-version: v1.2.9
-id: Metrologia565055006
-title:
-- content: On the determination of vertical gravity gradients by corner-cube absolute
-    gravimeters
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab32fb
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab32fb
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 5 055006
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the determination of vertical gravity gradients by corner-cube absolute
+    gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab32fb
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab32fb
+docidentifier:
+- content: Metrologia 56 5 055006
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab32fb
+- content: 10.1088/1681-7575/ab32fb
   type: doi
 date:
 - type: published
-  value: '2019-08-09'
+  at: '2019-08-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vojtech Pálinkáš
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 25165 Ondřejov 244, Czech Republic
         name:
         - content: Geodetic Observatory Pecný
         subdivision:
-        - content: Research Institute of Geodesy, Topography and Cartography
-        contact:
-        - address:
-            formatted_address: 25165 Ondřejov 244, Czech Republic
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Research Institute of Geodesy, Topography and Cartography
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petr Křen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Okružní 31, 63800 Brno, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: Okružní 31, 63800 Brno, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Miloš Vaľko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 25165 Ondřejov 244, Czech Republic
         name:
         - content: Geodetic Observatory Pecný
         subdivision:
-        - content: Research Institute of Geodesy, Topography and Cartography
-        contact:
-        - address:
-            formatted_address: 25165 Ondřejov 244, Czech Republic
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Research Institute of Geodesy, Topography and Cartography
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pavel Mašika
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Okružní 31, 63800 Brno, Czech Republic
         name:
         - content: Czech Metrology Institute
-        contact:
-        - address:
-            formatted_address: Okružní 31, 63800 Brno, Czech Republic
-  role:
-  - type: author
-revdate: '2019-08-09'
 abstract:
-- content: Abstract<p>This paper describes a new approach for the determination of
-    vertical gravity gradients (VGGs) from the measurements of corner-cube absolute
-    gravimeters based on laser interferometry. The new approach has been obtained
-    by the modification of the equation for linear least squares solution used in
-    the determination of the g-values. It enables one to establish a clear mathematical
-    relation between the gravity residuals and the VGG estimates. As it is shown,
-    in the determination of gradients with an accuracy approaching 10 µGal m<sup>−1</sup>
-    (1 µGal  =  1  ×  10<sup>−8</sup> m s<sup>−2</sup>), it is necessary to correct
-    directly the measured quantities (time and distance pairs) for ‘known’, or sufficiently
-    well modelled, perturbations as e.g. self-attraction or cable effects. Generally,
-    if the gradients are determined from the data of absolute gravimeters, systematic
-    low frequency perturbation in the residuals have to be analysed carefully. In
-    this way, hidden perturbations in the residuals can be identified, which might
-    be important also for the correct estimation of the g-values and associated uncertainties.
-    This is shown on the example of a parasitic wave detected in the residuals of
-    the FG5X-251 gravimeter, reaching a period of about 0.13 m and amplitudes up to
-    40 pm. Finally, we compare the gravity gradients determined by the new approach
-    with a more accurate method using relative gravimeters. This comparison shows
-    that the gradient estimates from the FG5X-251 absolute gravimeter are biased by
-    about 10 µGal m<sup>−1</sup> and reach reproducibility of 14 µGal m<sup>−1</sup>.
-    The effort to determine VGGs from absolute gravimeters enhanced the analyses of
-    the measured data, identified still existing artefacts in the gravity residuals,
-    the explanation of which should lead to improvements in the measurement model
-    in order to obtain more accurate estimates of the g-values, VGGs and their uncertainties.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper describes a new approach for the determination of vertical gravity gradients (VGGs) from the measurements of corner-cube absolute gravimeters based on laser interferometry. The new approach has been obtained by the modification of the equation for linear least squares solution used in the determination of the <italic>g</italic>-values. It enables one to establish a clear mathematical relation between the gravity residuals and the VGG estimates. As it is shown, in the determination of gradients with an accuracy approaching 10 µGal m<sup>−1</sup> (1 µGal  =  1  ×  10<sup>−8</sup> m s<sup>−2</sup>), it is necessary to correct directly the measured quantities (time and distance pairs) for ‘known’, or sufficiently well modelled, perturbations as e.g. self-attraction or cable effects. Generally, if the gradients are determined from the data of absolute gravimeters, systematic low frequency perturbation in the residuals have to be analysed carefully. In this way, hidden perturbations in the residuals can be identified, which might be important also for the correct estimation of the <italic>g</italic>-values and associated uncertainties. This is shown on the example of a parasitic wave detected in the residuals of the FG5X-251 gravimeter, reaching a period of about 0.13 m and amplitudes up to 40 pm. Finally, we compare the gravity gradients determined by the new approach with a more accurate method using relative gravimeters. This comparison shows that the gradient estimates from the FG5X-251 absolute gravimeter are biased by about 10 µGal m<sup>−1</sup> and reach reproducibility of 14 µGal m<sup>−1</sup>. The effort to determine VGGs from absolute gravimeters enhanced the analyses of the measured data, identified still existing artefacts in the gravity residuals, the explanation of which should lead to improvements in the measurement model in order to obtain more accurate estimates of the <italic>g</italic>-values, VGGs and their uncertainties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the determination of vertical gravity gradients by corner-cube absolute
+    - script: Latn
+      content: On the determination of vertical gravity gradients by corner-cube absolute
         gravimeters
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-10-01'
+      at: '2019-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the determination of vertical gravity gradients by corner-cube absolute
+    - script: Latn
+      content: On the determination of vertical gravity gradients by corner-cube absolute
         gravimeters
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-08-09'
+      at: '2019-08-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -173,6 +140,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

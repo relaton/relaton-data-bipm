@@ -1,135 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522214
-title:
-- content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/214
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/214
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 214
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/214
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/214
+docidentifier:
+- content: Metrologia 52 2 214
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/214
+- content: 10.1088/0026-1394/52/2/214
   type: doi
 date:
 - type: published
-  value: '2015-02-09'
+  at: '2015-02-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Melis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Cittadella Universitaria, 09042 Monserrato (Ca, Italy
         name:
         - content: University of Cagliari
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Cittadella Universitaria, 09042 Monserrato (Ca, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Colombo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Cittadella Universitaria, 09042 Monserrato (Ca, Italy
         name:
         - content: University of Cagliari
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Cittadella Universitaria, 09042 Monserrato (Ca, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Str. delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2015-02-09'
 abstract:
-- content: Abstract<p>The measurement of the Avogadro constant by counting Si atoms
-    is based on the assumption that Si balls of about 94 mm diameter have a perfect
-    crystal structure up to the outermost atom layers. This is not the case because
-    of the surface relaxation and reconstruction, the possible presence of an amorphous
-    layer, and the oxidation process due to the interaction with the ambient. This
-    paper gives the results of density functional calculations of the strain components
-    orthogonal to crystal surface in a number of configurations likely found in real
-    samples.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The measurement of the Avogadro constant by counting Si atoms is based on the assumption that Si balls of about 94 mm diameter have a perfect crystal structure up to the outermost atom layers. This is not the case because of the surface relaxation and reconstruction, the possible presence of an amorphous layer, and the oxidation process due to the interaction with the ambient. This paper gives the results of density functional calculations of the strain components orthogonal to crystal surface in a number of configurations likely found in real samples.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Lattice strain at c-Si surfaces: a density functional theory calculation'
     date:
     - type: epub
-      value: '2015-02-09'
+      at: '2015-02-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +126,6 @@ extent:
     reference_from: '214'
     reference_to: '221'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

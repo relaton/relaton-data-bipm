@@ -1,52 +1,46 @@
 ---
-schema-version: v1.2.9
-id: Metrologia423S20
-title:
-- content: Atomic time-keeping from 1955 to the present
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/3/S04
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/3/S04
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 3 S20
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Atomic time-keeping from 1955 to the present
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/3/S04
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/3/S04
+docidentifier:
+- content: Metrologia 42 3 S20
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/3/S04
+- content: 10.1088/0026-1394/42/3/S04
   type: doi
 date:
 - type: published
-  value: '2005-06-01'
+  at: '2005-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bernard Guinot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Observatoire de Paris—Associated astronomers, 61, Av. de l'Observatoire,
             75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Elisa Felicitas Arias
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -56,64 +50,53 @@ contributor:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             92310 Sèvres, France
-  role:
-  - type: author
-revdate: '2005-06-01'
 abstract:
-- content: "<p>This paper summarizes the creation and technical evolution of atomic
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper summarizes the creation and technical evolution of atomic
     time scales, recalling the parallel development of their acceptance and the remaining
     problems. We consider a consequence of the accuracy of time measurement, i.e.
     the entry of Einstein's general relativity into metrology and its applications.
     We give some details about the method of calculation and the characteristics of
     International Atomic Time, and we show how it is disseminated at the ultimate
     level of precision.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic time-keeping from 1955 to the present
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic time-keeping from 1955 to the present
     date:
     - type: epub
-      value: '2005-06-07'
+      at: '2005-06-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Atomic time-keeping from 1955 to the present
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Atomic time-keeping from 1955 to the present
     date:
     - type: ppub
-      value: '2005-06-01'
+      at: '2005-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +107,6 @@ extent:
     reference_from: S20
     reference_to: S30
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366623
-title:
-- content: New approach to corrections for thermal transpiration effects in capacitance
-    diaphragm gauges
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/27
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/27
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 623
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New approach to corrections for thermal transpiration effects in capacitance
+    diaphragm gauges
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/27
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/27
+docidentifier:
+- content: Metrologia 36 6 623
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/27
+- content: 10.1088/0026-1394/36/6/27
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Setina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. metals technol. Ljubljana
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>The sensors of capacitance diaphragm gauges (CDGs) are customarily
+- language: en
+  script:
+  - Latn
+  content: "<p>The sensors of capacitance diaphragm gauges (CDGs) are customarily
     kept at a stable elevated temperature. This greatly improves the zero stability
     but also introduces non-linearities at pressures below 100 Pa due to thermal transpiration.
     The effect of thermal transpiration has been measured for three CDG transducers
@@ -52,40 +48,32 @@ abstract:
     transpiration correction when the test gas is changed. A universal expression
     for the thermal transpiration correction as a function of normalized pressure
     was determined.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New approach to corrections for thermal transpiration effects in capacitance
+    - language: en
+      script: Latn
+      content: New approach to corrections for thermal transpiration effects in capacitance
         diaphragm gauges
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '623'
     reference_to: '626'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

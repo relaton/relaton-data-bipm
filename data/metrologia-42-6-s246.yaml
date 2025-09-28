@@ -1,117 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S246
-title:
-- content: Calculation of the pressure distortion coefficient and uncertainty budget
-    of the BNM/LNE 200 MPa national standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S23
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S23
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S246
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calculation of the pressure distortion coefficient and uncertainty budget
+    of the BNM/LNE 200 MPa national standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S23
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S23
+docidentifier:
+- content: Metrologia 42 6 S246
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S23
+- content: 10.1088/0026-1394/42/6/S23
   type: doi
 date:
 - type: published
-  value: '2005-11-28'
+  at: '2005-11-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thierry Rabault
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE, 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Claude Legras
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE, 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
-  role:
-  - type: author
-revdate: '2005-11-28'
 abstract:
-- content: "<p>The LNE participated in the two EUROMET Projects No 256 and 463, the
-    scopes of which were the calculation of the pressure distortion coefficient of
-    identified pressure standards. The second project was also related to the uncertainty
-    estimation of the values arising from the finite element analysis (FEA) used to
-    perform the calculations.</p><p>Two standards of the LNE were proposed to participate
-    in these projects. A full uncertainty budget for the pressure distortion coefficient
-    (λ), in the 200 MPa range, determined by the FEA, is given and compared with former
-    investigations.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The LNE participated in the two EUROMET Projects No 256 and 463, the scopes of which were the calculation of the pressure distortion coefficient of identified pressure standards. The second project was also related to the uncertainty estimation of the values arising from the finite element analysis (FEA) used to perform the calculations.</p>
+    <p>Two standards of the LNE were proposed to participate in these projects. A full uncertainty budget for the pressure distortion coefficient (λ), in the 200 MPa range, determined by the FEA, is given and compared with former investigations.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calculation of the pressure distortion coefficient and uncertainty
+    - language: en
+      script: Latn
+      content: Calculation of the pressure distortion coefficient and uncertainty
         budget of the BNM/LNE 200 MPa national standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-28'
+      at: '2005-11-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calculation of the pressure distortion coefficient and uncertainty
+    - language: en
+      script: Latn
+      content: Calculation of the pressure distortion coefficient and uncertainty
         budget of the BNM/LNE 200 MPa national standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +100,6 @@ extent:
     reference_from: S246
     reference_to: S249
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

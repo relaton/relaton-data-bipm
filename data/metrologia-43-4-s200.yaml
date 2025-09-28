@@ -1,126 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S200
-title:
-- content: Systematic approach to the modelling of measurements for uncertainty evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S06
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S200
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systematic approach to the modelling of measurements for uncertainty evaluation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S06
+docidentifier:
+- content: Metrologia 43 4 S200
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S06
+- content: 10.1088/0026-1394/43/4/S06
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K D Sommer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Landesamt für Mess- und Eichwesen Thüringen (LMET), Ilmenau, 98693,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B R L Siebert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>Modern evaluation of measurement uncertainty is based on both the knowledge
+- language: en
+  script:
+  - Latn
+  content: <p>Modern evaluation of measurement uncertainty is based on both the knowledge
     about the measurement process and the (input) quantities which influence the result
     of measurement. The knowledge about the input quantities is represented by means
     of appropriate probability density functions (pdfs), whereas the knowledge about
     the measurement process is expressed by a so-called model equation which reflects
     the interrelation between the measurand and the input quantities. The assignment
     of a pdf for a quantity is based on sound theory but there is no theory on modelling.
-    Neither the Guide to the Expression of Uncertainty in Measurement nor other relevant
-    uncertainty documents provide any guidance on systematic modelling. This paper
-    proposes a systematic and versatile modelling concept that has evolved from the
-    idea of the classical measuring chain. From this concept, a systematic procedure
-    for modelling of measurements has been derived which is structured into five fundamental
-    work steps and requires three types of standard modelling components. The concept
-    utilizes only a few generic model structures which are strongly related to the
-    method of measurement employed. These generic model structures can easily be tailored
-    to any particular measurement task. The paper provides the theoretical reasoning
-    for this concept and derives practical procedures for its application.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    Neither the <italic toggle="yes">Guide to the Expression of Uncertainty in Measurement</italic>
+    nor other relevant uncertainty documents provide any guidance on systematic modelling.
+    This paper proposes a systematic and versatile modelling concept that has evolved
+    from the idea of the classical measuring chain. From this concept, a systematic
+    procedure for modelling of measurements has been derived which is structured into
+    five fundamental work steps and requires three types of standard modelling components.
+    The concept utilizes only a few generic model structures which are strongly related
+    to the method of measurement employed. These generic model structures can easily
+    be tailored to any particular measurement task. The paper provides the theoretical
+    reasoning for this concept and derives practical procedures for its application.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Systematic approach to the modelling of measurements for uncertainty
+    - language: en
+      script: Latn
+      content: Systematic approach to the modelling of measurements for uncertainty
         evaluation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Systematic approach to the modelling of measurements for uncertainty
+    - language: en
+      script: Latn
+      content: Systematic approach to the modelling of measurements for uncertainty
         evaluation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +114,6 @@ extent:
     reference_from: S200
     reference_to: S210
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

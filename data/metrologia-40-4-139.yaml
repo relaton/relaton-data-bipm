@@ -1,129 +1,110 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404139
-title:
-- content: Automation of a 1960s Hilger gauge block interferometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/301
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/301
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 139
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automation of a 1960s Hilger gauge block interferometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/301
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/301
+docidentifier:
+- content: Metrologia 40 4 139
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/301
+- content: 10.1088/0026-1394/40/4/301
   type: doi
 date:
 - type: published
-  value: '2003-06-13'
+  at: '2003-06-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E F Howick
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, Industrial Research
             Limited, PO Box 31-310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L R Watkins
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, The University of Auckland, Private Bag
             2019, Auckland 1, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S M Tan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, The University of Auckland, Private Bag
             2019, Auckland 1, New Zealand
-  role:
-  - type: author
-revdate: '2003-06-13'
 abstract:
-- content: "<p>This paper describes improvements to a Hilger gauge block interferometer,
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes improvements to a Hilger gauge block interferometer,
     including a fibre optic feed for a traceable laser radiation, use of a CCD camera
     for computer-controlled acquisition of fringe images and automatic analysis of
     the fringe image to obtain the fringe fraction. The gauge measuring process is
     now automated, computer-controlled, more accurate and significantly faster and
     easier to operate than the original design.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automation of a 1960s Hilger gauge block interferometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Automation of a 1960s Hilger gauge block interferometer
     date:
     - type: epub
-      value: '2003-06-13'
+      at: '2003-06-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automation of a 1960s Hilger gauge block interferometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Automation of a 1960s Hilger gauge block interferometer
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +115,6 @@ extent:
     reference_from: '139'
     reference_to: '145'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

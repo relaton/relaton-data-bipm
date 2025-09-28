@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S239
-title:
-- content: 'Pressure balance elastic distortion: experiment versus theory'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S21
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S21
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S239
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Pressure balance elastic distortion: experiment versus theory'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S21
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S21
+docidentifier:
+- content: Metrologia 42 6 S239
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S21
+- content: 10.1088/0026-1394/42/6/S21
   type: doi
 date:
 - type: published
-  value: '2005-11-28'
+  at: '2005-11-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P Fitzgerald
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standard Laboratory of New Zealand, Industrial Research
             Ltd, PO Box 31310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Sutton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standard Laboratory of New Zealand, Industrial Research
             Ltd, PO Box 31310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2005-11-28'
 abstract:
-- content: "<p>A high resolution gauge is used to determine the change in effective
+- language: en
+  script:
+  - Latn
+  content: "<p>A high resolution gauge is used to determine the change in effective
     area of a 250 MPa piston–cylinder unit as a function of jacket pressure. These
     changes are compared with values calculated using a finite element method. The
     results of the comparison revealed that the jacket pressure seals were applying
@@ -65,53 +59,42 @@ abstract:
     were made after modifying the jacket seal mounting. The new results showed reasonable
     agreement at low operating pressures but large disagreement between theory and
     experiment as the operating pressure approached 250 MPa.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Pressure balance elastic distortion: experiment versus theory'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Pressure balance elastic distortion: experiment versus theory'
     date:
     - type: epub
-      value: '2005-11-28'
+      at: '2005-11-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Pressure balance elastic distortion: experiment versus theory'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Pressure balance elastic distortion: experiment versus theory'
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +105,6 @@ extent:
     reference_from: S239
     reference_to: S241
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

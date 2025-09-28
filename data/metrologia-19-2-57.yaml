@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19257
-title:
-- content: The Effect of Dissolved Air on the Density of Water
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/2/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/2/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 2 57
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Effect of Dissolved Air on the Density of Water
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/2/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/2/002
+docidentifier:
+- content: Metrologia 19 2 57
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/2/002
+- content: 10.1088/0026-1394/19/2/002
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Bignell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>An experiment to measure the change in density of water which has been
-    saturated with air is described and the results given. The 80 points taken in
-    the range 4°C to 20°C have been fitted to the equation Δρ = -4.612 + 0.106 t with
-    density in 10<sup>-3</sup> kg m<sup>-3</sup> and t in °C, and confidence limits
-    have been given. Other results are discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>An experiment to measure the change in density of water which has been
+    saturated with air is described and the results given. The 80 points taken in
+    the range 4°C to 20°C have been fitted to the equation Δρ = -4.612 + 0.106 <italic>t</italic>
+    with density in 10<sup>-3</sup> kg m<sup>-3</sup> and <italic>t</italic> in °C,
+    and confidence limits have been given. Other results are discussed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Effect of Dissolved Air on the Density of Water
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Effect of Dissolved Air on the Density of Water
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '57'
     reference_to: '59'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

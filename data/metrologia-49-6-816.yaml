@@ -1,151 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496816
-title:
-- content: A study on the frequency–temperature coefficient of a microwave cavity
-    in a passive hydrogen maser
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/816
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/816
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 816
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A study on the frequency–temperature coefficient of a microwave cavity
+    in a passive hydrogen maser
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/816
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/816
+docidentifier:
+- content: Metrologia 49 6 816
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/816
+- content: 10.1088/0026-1394/49/6/816
   type: doi
 date:
 - type: published
-  value: '2012-11-21'
+  at: '2012-11-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Haibo Chen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100854, People's Republic of China
         name:
         - content: Beijing Institute of Radio Metrology and Measurement
-        contact:
-        - address:
-            formatted_address: Beijing 100854, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jing Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100854, People's Republic of China
         name:
         - content: Beijing Institute of Radio Metrology and Measurement
-        contact:
-        - address:
-            formatted_address: Beijing 100854, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yaxuan Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100854, People's Republic of China
         name:
         - content: Beijing Institute of Radio Metrology and Measurement
-        contact:
-        - address:
-            formatted_address: Beijing 100854, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Lianshan Gao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100854, People's Republic of China
         name:
         - content: Beijing Institute of Radio Metrology and Measurement
-        contact:
-        - address:
-            formatted_address: Beijing 100854, People's Republic of China
-  role:
-  - type: author
-revdate: '2012-11-21'
 abstract:
-- content: Abstract<p>A frequency–temperature coefficient (FTC) model for a magnetron
-    cavity used in a passive hydrogen maser is proposed. The influences of the thermal
-    expansion coefficient of the vane, strut and wall of the microwave cavity on the
-    FTC are analysed. The results show that the FTC of the magnetron cavity can be
-    reduced to a few hertz by choosing vanes and struts with proper expansion coefficients.
-    A low-FTC cavity is fabricated according to the model. Experiments show that the
-    FTC is reduced from −30 kHz K<sup>−1</sup> to 2.59 kHz K<sup>−1</sup> without
-    using a quartz storage bulb.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>A frequency–temperature coefficient (FTC) model for a magnetron cavity used in a passive hydrogen maser is proposed. The influences of the thermal expansion coefficient of the vane, strut and wall of the microwave cavity on the FTC are analysed. The results show that the FTC of the magnetron cavity can be reduced to a few hertz by choosing vanes and struts with proper expansion coefficients. A low-FTC cavity is fabricated according to the model. Experiments show that the FTC is reduced from −30 kHz K<sup>−1</sup> to 2.59 kHz K<sup>−1</sup> without using a quartz storage bulb.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A study on the frequency–temperature coefficient of a microwave cavity
+    - script: Latn
+      content: A study on the frequency–temperature coefficient of a microwave cavity
         in a passive hydrogen maser
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A study on the frequency–temperature coefficient of a microwave cavity
+    - script: Latn
+      content: A study on the frequency–temperature coefficient of a microwave cavity
         in a passive hydrogen maser
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-11-21'
+      at: '2012-11-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +133,6 @@ extent:
     reference_from: '816'
     reference_to: '820'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

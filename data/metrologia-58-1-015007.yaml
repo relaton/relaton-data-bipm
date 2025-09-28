@@ -1,136 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015007
-title:
-- content: A dynamic gravimetric standard for liquid flow measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abc410
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abc410
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015007
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A dynamic gravimetric standard for liquid flow measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abc410
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abc410
+docidentifier:
+- content: Metrologia 58 1 015007
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abc410
+- content: 10.1088/1681-7575/abc410
   type: doi
 date:
 - type: published
-  value: '2021-01-07'
+  at: '2021-01-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Saba
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Malengo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Santiano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2021-01-07'
 abstract:
-- content: Abstract<p>An improved primary method for the calibration of liquid flow
-    meters based on dynamic weighing has been adopted at the Istituto Nazionale di
-    Ricerca Metrologica. Compared to the other dynamic methods currently in use, based
-    on submerged liquid jet flows, the proposed method has the advantage of not requiring
-    the correction for the hydrostatic buoyancy force exerted on the immersed tube.
-    This is possible since the immersion depth of the tube is held constant during
-    the dynamic weighing process, entailing, consequently, a constant back pressure
-    at the outlet section of the immersed tube and a more stable liquid meniscus at
-    the tube outer surface, which both improve the accuracy of measurement. Although
-    at present the proposed apparatus has been tested in the range between 10 kg h<sup>−1</sup>
-    and 60 kg h<sup>−1</sup>, this improved dynamic method would be particularly suitable
-    for lower flow rate as well. The results have shown that relative uncertainties
-    of the order of 0.01% can be obtained.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>An improved primary method for the calibration of liquid flow meters based on dynamic weighing has been adopted at the Istituto Nazionale di Ricerca Metrologica. Compared to the other dynamic methods currently in use, based on submerged liquid jet flows, the proposed method has the advantage of not requiring the correction for the hydrostatic buoyancy force exerted on the immersed tube. This is possible since the immersion depth of the tube is held constant during the dynamic weighing process, entailing, consequently, a constant back pressure at the outlet section of the immersed tube and a more stable liquid meniscus at the tube outer surface, which both improve the accuracy of measurement. Although at present the proposed apparatus has been tested in the range between 10 kg h<sup>−1</sup> and 60 kg h<sup>−1</sup>, this improved dynamic method would be particularly suitable for lower flow rate as well. The results have shown that relative uncertainties of the order of 0.01% can be obtained.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A dynamic gravimetric standard for liquid flow measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A dynamic gravimetric standard for liquid flow measurements
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A dynamic gravimetric standard for liquid flow measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A dynamic gravimetric standard for liquid flow measurements
     date:
     - type: epub
-      value: '2021-01-07'
+      at: '2021-01-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +113,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

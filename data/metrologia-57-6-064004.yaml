@@ -1,167 +1,170 @@
 ---
-schema-version: v1.2.9
-id: Metrologia576064004
-title:
-- content: Bayesian inference for heterogeneity in meta-analysis
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abb064
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abb064
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 6 064004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bayesian inference for heterogeneity in meta-analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abb064
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abb064
+docidentifier:
+- content: Metrologia 57 6 064004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abb064
+- content: 10.1088/1681-7575/abb064
   type: doi
 date:
 - type: published
-  value: '2020-10-30'
+  at: '2020-10-30'
 contributor:
-- person:
-    name:
-      completename:
-        content: Olha Bodnar
-        language:
-        - en
-        script:
-        - Latn
-    affiliation:
-    - organization:
-        name:
-        - content: Örebro University
-        subdivision:
-        - content: Unit of Statistics, School of Business
-        contact:
-        - address:
-            formatted_address: rebro, Sweden
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
-        content: Rebecca Nalule Muhumuza
-        language:
-        - en
-        script:
-        - Latn
+        language: en
+        script: Latn
+        content: Olha Bodnar
     affiliation:
     - organization:
+        address:
+        - formatted_address: rebro, Sweden
         name:
         - content: Örebro University
         subdivision:
-        - content: Unit of Statistics, School of Business
-        contact:
-        - address:
-            formatted_address: rebro, Sweden
+        - name:
+          - language: en
+            script: Latn
+            content: Unit of Statistics, School of Business
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
+        content: Rebecca Nalule Muhumuza
+    affiliation:
     - organization:
+        address:
+        - formatted_address: rebro, Sweden
+        name:
+        - content: Örebro University
+        subdivision:
+        - name:
+          - language: en
+            script: Latn
+            content: Unit of Statistics, School of Business
+    - organization:
+        address:
+        - formatted_address: Box 236, Tororo, Uganda
         name:
         - content: Busitema University
         subdivision:
-        - content: Department of Mathematics
-        contact:
-        - address:
-            formatted_address: Box 236, Tororo, Uganda
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mathematics
     - organization:
+        address:
+        - formatted_address: Box 7062 Kampala, Uganda
         name:
         - content: Makerere University
         subdivision:
-        - content: Department of Mathematics
-        contact:
-        - address:
-            formatted_address: Box 7062 Kampala, Uganda
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mathematics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Box 7062 Kampala, Uganda
         name:
         - content: Makerere University
         subdivision:
-        - content: Department of Mathematics
-        contact:
-        - address:
-            formatted_address: Box 7062 Kampala, Uganda
-  role:
-  - type: author
-revdate: '2020-10-30'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mathematics
 abstract:
-- content: "Abstract<p>A generalized marginal random effects model is described that
-    enables exact Bayesian inference using either the Jeffreys or Berger-Bernardo
-    non-informative prior distributions without the need for Markov Chain Monte Carlo
-    sampling, requiring only numerical integrations. This contribution focuses on
-    inference for the heterogeneity parameter, often called “dark uncertainty” and
-    denoted τ in this contribution. The proposed models are used for consensus building
-    in meta-analyses of measurement results for the Newtonian constant of gravitation,
-    G, and for the effectiveness of anti-retroviral pre-exposure prophylaxis in preventing
-    HIV infection.</p><p>The estimates of τ that seventeen alternative different methods
-    produce, including those that we propose, were also compared. The relative impact
-    (gauged in terms of the ratio of the range of estimates to their median) that
-    model choice had on the estimate of τ was very substantial: 79 % for G and 87 %
-    for HIV prophylaxis. For G, the estimates of τ ranged from \n0.0009×10−10m3kg−1s−2
-    to \n0.0013×10−10m3kg−1s−2. For Truvada they ranged from 0.49 to 0.92.</p><p>Since
-    the estimate of τ impacts the quality of the estimate of the measurand substantially,
-    we recommend the Bayesian approaches to estimate τ because they take the whole
-    posterior distribution of τ into account, hence the corresponding uncertainty,
-    rather than using a single value and pretending that it is known with certainty.</p><p>In
-    the case of the measurement results for G, we found that the model with Student’s
-    t random effects and the Jeffreys prior provides the best fit, while for the Truvada
-    data the normal marginal random effects model, also with Jeffreys prior, produces
-    an estimate of τ closest to classical estimators like DerSimonian-Laird, but offers
-    the advantage of recognizing and propagating the uncertainty associated with τ,
-    which the classical procedures ignore.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: "\n<title>Abstract</title>\n<p>A generalized marginal random effects model
+    is described that enables exact Bayesian inference using either the Jeffreys or
+    Berger-Bernardo non-informative prior distributions without the need for Markov
+    Chain Monte Carlo sampling, requiring only numerical integrations. This contribution
+    focuses on inference for the heterogeneity parameter, often called “dark uncertainty”
+    and denoted <italic>τ</italic> in this contribution. The proposed models are used
+    for consensus building in meta-analyses of measurement results for the Newtonian
+    constant of gravitation, <italic>G</italic>, and for the effectiveness of anti-retroviral
+    pre-exposure prophylaxis in preventing HIV infection.</p>\n<p>The estimates of
+    <italic>τ</italic> that seventeen alternative different methods produce, including
+    those that we propose, were also compared. The relative impact (gauged in terms
+    of the ratio of the range of estimates to their median) that model choice had
+    on the estimate of <italic>τ</italic> was very substantial: 79 % for <italic>G</italic>
+    and 87 % for HIV prophylaxis. For <italic>G</italic>, the estimates of <italic>τ</italic>
+    ranged from <inline-formula><tex-math><?CDATA ${0.0009 \\times 10^{-10}m^{3}kg^{-1}s^{-2}}$></tex-math>\n<mml:math
+    overflow=\"scroll\"><mml:mrow><mml:mn>0.0009</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>m</mml:mi><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mi>k</mml:mi><mml:msup><mml:mi>g</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>s</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic
+    xlink:href=\"metabb064ieqn1.gif\" xlink:type=\"simple\"></inline-graphic></inline-formula>
+    to <inline-formula><tex-math><?CDATA ${0.0013 \\times 10^{-10}m^{3}kg^{-1}s^{-2}}$></tex-math>\n<mml:math
+    overflow=\"scroll\"><mml:mrow><mml:mn>0.0013</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>m</mml:mi><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mi>k</mml:mi><mml:msup><mml:mi>g</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>s</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic
+    xlink:href=\"metabb064ieqn2.gif\" xlink:type=\"simple\"></inline-graphic></inline-formula>.
+    For <italic>Truvada</italic> they ranged from 0.49 to 0.92.</p>\n<p>Since the
+    estimate of <italic>τ</italic> impacts the quality of the estimate of the measurand
+    substantially, we recommend the Bayesian approaches to estimate <italic>τ</italic>
+    because they take the whole posterior distribution of <italic>τ</italic> into
+    account, hence the corresponding uncertainty, rather than using a single value
+    and pretending that it is known with certainty.</p>\n<p>In the case of the measurement
+    results for <italic>G</italic>, we found that the model with Student’s <italic>t</italic>
+    random effects and the Jeffreys prior provides the best fit, while for the <italic>Truvada</italic>
+    data the normal marginal random effects model, also with Jeffreys prior, produces
+    an estimate of <italic>τ</italic> closest to classical estimators like DerSimonian-Laird,
+    but offers the advantage of recognizing and propagating the uncertainty associated
+    with <italic>τ</italic>, which the classical procedures ignore.</p> "
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian inference for heterogeneity in meta-analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian inference for heterogeneity in meta-analysis
     date:
     - type: ppub
-      value: '2020-12-01'
+      at: '2020-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian inference for heterogeneity in meta-analysis
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bayesian inference for heterogeneity in meta-analysis
     date:
     - type: epub
-      value: '2020-10-30'
+      at: '2020-10-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -169,6 +172,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

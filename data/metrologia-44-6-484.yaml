@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446484
-title:
-- content: 'An assessment of relativistic effects for low Earth orbiters: the GRACE
-    satellites'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 484
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'An assessment of relativistic effects for low Earth orbiters: the GRACE
+    satellites'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/007
+docidentifier:
+- content: Metrologia 44 6 484
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/007
+- content: 10.1088/0026-1394/44/6/007
   type: doi
 date:
 - type: published
-  value: '2007-11-07'
+  at: '2007-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kristine M Larson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Aerospace Engineering Sciences, University of Colorado,
             Boulder, CO, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Neil Ashby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time & Frequency Division, NIST, Boulder, CO, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christine Hackman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Earth Orientation Department, US Naval Observatory, Washington
             DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Willy Bertiger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Radiometric Tracking Group, Jet Propulsion Laboratory, Pasadena,
             CA, USA
-  role:
-  - type: author
-revdate: '2007-11-07'
 abstract:
-- content: "<p>The GRACE mission consists of two identical satellites orbiting the
+- language: en
+  script:
+  - Latn
+  content: "<p>The GRACE mission consists of two identical satellites orbiting the
     Earth at an altitude of ∼500 km. Dual-frequency carrier-phase Global Positioning
     System (GPS) receivers are flying on both satellites. They are used for precise
     orbit determination and to time-tag the K-band ranging system used to measure
@@ -95,61 +85,51 @@ abstract:
     oscillator stability. Because of the high quality of both the GPS receivers and
     the oscillators, relativistic effects in the GRACE GPS data can be examined. An
     expression is developed for relativistic effects that explicitly includes the
-    effects of the Earth's oblateness (J<sub>2</sub>). Use of this expression significantly
-    reduces the twice per orbital period energy in the GRACE clock solutions, indicating
-    that the effect of J<sub>2</sub> can be significant and should be modeled for
-    satellite clocks in low Earth orbit. After relativistic effects have been removed,
-    both GRACE USOs show large (2 ns to 3 ns) once per orbital period signatures that
-    correlate with voltage variations on the spacecraft.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    effects of the Earth's oblateness (<italic>J</italic><sub>2</sub>). Use of this
+    expression significantly reduces the twice per orbital period energy in the GRACE
+    clock solutions, indicating that the effect of <italic>J</italic><sub>2</sub>
+    can be significant and should be modeled for satellite clocks in low Earth orbit.
+    After relativistic effects have been removed, both GRACE USOs show large (2 ns
+    to 3 ns) once per orbital period signatures that correlate with voltage variations
+    on the spacecraft.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'An assessment of relativistic effects for low Earth orbiters: the
+    - language: en
+      script: Latn
+      content: 'An assessment of relativistic effects for low Earth orbiters: the
         GRACE satellites'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-11-07'
+      at: '2007-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'An assessment of relativistic effects for low Earth orbiters: the
+    - language: en
+      script: Latn
+      content: 'An assessment of relativistic effects for low Earth orbiters: the
         GRACE satellites'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +140,6 @@ extent:
     reference_from: '484'
     reference_to: '490'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

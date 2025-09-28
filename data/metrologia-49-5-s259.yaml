@@ -1,107 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia495S259
-title:
-- content: 'High-intensity therapeutic ultrasound: metrological requirements versus
-    clinical usage'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/5/S259
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/5/S259
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 5 S259
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'High-intensity therapeutic ultrasound: metrological requirements versus
+    clinical usage'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/5/S259
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/5/S259
+docidentifier:
+- content: Metrologia 49 5 S259
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/5/S259
+- content: 10.1088/0026-1394/49/5/S259
   type: doi
 date:
 - type: published
-  value: '2012-08-10'
+  at: '2012-08-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-F Aubry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 10 rue Vauquelin, 75231 Paris Cedex 05, France
         name:
         - content: Université Paris VII
         subdivision:
-        - content: Institut Langevin, ESPCI ParisTech, CNRS UMR 7587, INSERM U979
-        contact:
-        - address:
-            formatted_address: 10 rue Vauquelin, 75231 Paris Cedex 05, France
-  role:
-  - type: author
-revdate: '2012-08-10'
+        - name:
+          - language: en
+            script: Latn
+            content: Institut Langevin, ESPCI ParisTech, CNRS UMR 7587, INSERM U979
 abstract:
-- content: Abstract<p>High-intensity therapeutic ultrasound (HITU) is an appealing
-    non-invasive, non-ionizing therapeutic modality with a wide range of tissue interactions
-    ranging from transient permeabilization of cell membranes to thermal ablation.
-    The ability to guide and monitor the treatment with an associated ultrasonic or
-    magnetic resonance imaging device has resulted in a dramatic rise in the clinical
-    use of therapeutic ultrasound in the past two decades. Nevertheless, the range
-    of clinical applications and the number of patients treated has grown at a much
-    higher pace than the definition of standards. In this paper the metrological requirements
-    of the therapeutic beams are reviewed and are compared with the current clinical
-    use of image-guided HITU mostly based on a practical approach. Liver therapy,
-    a particularly challenging clinical application, is discussed to highlight the
-    differences between some complex clinical situations and the experimental conditions
-    of the metrological characterization of ultrasonic transducers.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>High-intensity therapeutic ultrasound (HITU) is an appealing non-invasive, non-ionizing therapeutic modality with a wide range of tissue interactions ranging from transient permeabilization of cell membranes to thermal ablation. The ability to guide and monitor the treatment with an associated ultrasonic or magnetic resonance imaging device has resulted in a dramatic rise in the clinical use of therapeutic ultrasound in the past two decades. Nevertheless, the range of clinical applications and the number of patients treated has grown at a much higher pace than the definition of standards. In this paper the metrological requirements of the therapeutic beams are reviewed and are compared with the current clinical use of image-guided HITU mostly based on a practical approach. Liver therapy, a particularly challenging clinical application, is discussed to highlight the differences between some complex clinical situations and the experimental conditions of the metrological characterization of ultrasonic transducers.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'High-intensity therapeutic ultrasound: metrological requirements versus
+    - script: Latn
+      content: 'High-intensity therapeutic ultrasound: metrological requirements versus
         clinical usage'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-10-01'
+      at: '2012-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'High-intensity therapeutic ultrasound: metrological requirements versus
+    - script: Latn
+      content: 'High-intensity therapeutic ultrasound: metrological requirements versus
         clinical usage'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-08-10'
+      at: '2012-08-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +96,6 @@ extent:
     reference_from: S259
     reference_to: S266
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

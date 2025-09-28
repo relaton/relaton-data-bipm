@@ -1,102 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466616
-title:
-- content: On the meaning of coverage probabilities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 616
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the meaning of coverage probabilities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/002
+docidentifier:
+- content: Metrologia 46 6 616
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/002
+- content: 10.1088/0026-1394/46/6/002
   type: doi
 date:
 - type: published
-  value: '2009-10-07'
+  at: '2009-10-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2009-10-07'
 abstract:
-- content: "<p>It has been argued that the probability associated with a coverage
-    interval calculated following the procedure proposed in Supplement 1 to the GUM
-    should be about equal to the proportion of independent intervals reckoned over
-    time that contain the measurand (Willink 2006 Metrologia 43 L39–42, Hall 2008
-    Metrologia 45 L5–8, Possolo et al 2009 Metrologia 46 L1–7). The opposite point
-    of view maintains that a coverage probability can only be interpreted as the degree
-    of belief in the quoted interval containing the unknown value of the measurand
-    (Lira 2008 Metrologia 45 L21–3). In this paper, two simple examples are presented
-    to reinforce the latter interpretation.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>It has been argued that the probability associated with a coverage interval
+    calculated following the procedure proposed in Supplement 1 to the GUM should
+    be about equal to the proportion of independent intervals reckoned over time that
+    contain the measurand (Willink <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/43/6/N02">2006
+    <italic>Metrologia</italic> <bold>43</bold> L39–42</ext-link>, Hall <ext-link
+    ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/45/2/N01">2008
+    <italic>Metrologia</italic> <bold>45</bold> L5–8</ext-link>, Possolo <italic>et
+    al</italic> <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/46/1/N01">2009
+    <italic>Metrologia</italic> <bold>46</bold> L1–7</ext-link>). The opposite point
+    of view maintains that a coverage probability can only be interpreted as the degree
+    of belief in the quoted interval containing the unknown value of the measurand
+    (Lira <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/45/4/N02">2008
+    <italic>Metrologia</italic> <bold>45</bold> L21–3</ext-link>). In this paper,
+    two simple examples are presented to reinforce the latter interpretation.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the meaning of coverage probabilities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the meaning of coverage probabilities
     date:
     - type: epub
-      value: '2009-10-07'
+      at: '2009-10-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the meaning of coverage probabilities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the meaning of coverage probabilities
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +97,6 @@ extent:
     reference_from: '616'
     reference_to: '618'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

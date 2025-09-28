@@ -1,115 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia572023001
-title:
-- content: 'Evolution of the International System of Units: considering the challenge
-    of user adoption'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab6cd7
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab6cd7
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 2 023001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Evolution of the International System of Units: considering the challenge
+    of user adoption'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab6cd7
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab6cd7
+docidentifier:
+- content: Metrologia 57 2 023001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab6cd7
+- content: 10.1088/1681-7575/ab6cd7
   type: doi
 date:
 - type: published
-  value: '2020-03-30'
+  at: '2020-03-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard J C Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Environment Department, Teddington TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Environment Department, Teddington TW11 0LW, United
-              Kingdom
-  role:
-  - type: author
-revdate: '2020-03-30'
 abstract:
-- content: Abstract<p>This discussion considers the challenge of making amendments
-    to the International System of Units (SI) in terms of the varying levels of adoption
-    of these amendments by users of the SI. It categorises possible amendments along
-    two scales. First, whether these are changes or additions to the SI; and second
-    whether these amendments are optional or compulsory. Where amendments fall on
-    these two scales gives an indication of whether they are low-risk or high-risk
-    actions, in terms of their likely adoption by users of the SI and the confusion
-    that lack of adoption might cause. Proposed amendments to the SI of current interest
-    are considered with respect to this framework.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This discussion considers the challenge of making amendments to the International System of Units (SI) in terms of the varying levels of adoption of these amendments by users of the SI. It categorises possible amendments along two scales. First, whether these are changes or additions to the SI; and second whether these amendments are optional or compulsory. Where amendments fall on these two scales gives an indication of whether they are low-risk or high-risk actions, in terms of their likely adoption by users of the SI and the confusion that lack of adoption might cause. Proposed amendments to the SI of current interest are considered with respect to this framework.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Evolution of the International System of Units: considering the challenge
+    - script: Latn
+      content: 'Evolution of the International System of Units: considering the challenge
         of user adoption'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2020-04-01'
+      at: '2020-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Evolution of the International System of Units: considering the challenge
+    - script: Latn
+      content: 'Evolution of the International System of Units: considering the challenge
         of user adoption'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2020-03-30'
+      at: '2020-03-30'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Evolution of the International System of Units: considering the challenge
+    - script: Latn
+      content: 'Evolution of the International System of Units: considering the challenge
         of user adoption'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2020-03-30'
+      at: '2020-03-30'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +99,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

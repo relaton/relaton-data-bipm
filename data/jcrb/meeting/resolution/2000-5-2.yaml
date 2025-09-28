@@ -1,89 +1,74 @@
 ---
-schema-version: v1.2.9
 id: JCRB-RES-2000-5-2
-title:
-- content: Resolution JCRB/5-2 ()
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Résolution JCRB/5-2 ()
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/jc/jcrb/5-2000
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcrb/5-2000
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-5.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-5.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCRB RES 5-2 (2000)
-  type: BIPM
-  primary: true
-- id: JCRB RES 5-2 (2000, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: JCRB RES 5-2 (2000, F)
+  content: Resolution JCRB/5-2 ()
+- language: fr
+  script: Latn
+  content: Résolution JCRB/5-2 ()
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcrb/5-2000
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcrb/5-2000
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-en/meeting-5.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcrb/meetings-fr/meeting-5.yml
+docidentifier:
+- content: JCRB RES 5-2 (2000)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: JCRB Resolution 5-2 (2000)
+  content: JCRB RES 5-2 (2000, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: JCRB RES 5-2 (2000, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: JCRB Resolution 5-2 (2000)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Résolution JCRB/5-2 (2000)
+  content: Résolution JCRB/5-2 (2000)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: JCRB Resolution 5-2 (2000) / Résolution JCRB/5-2 (2000)
+- content: JCRB Resolution 5-2 (2000) / Résolution JCRB/5-2 (2000)
   type: BIPM-long
 docnumber: JCRB RES 5-2 (2000)
 date:
 - type: published
-  value: '2000-10-13'
+  at: '2000-10-13'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2000-10-13'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -92,8 +77,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: resolution
+    content: resolution
   structuredidentifier:
     docnumber: 5-2

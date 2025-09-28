@@ -1,113 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia582025004
-title:
-- content: A critical review of the common thermocouple reference functions
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abdd9a
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abdd9a
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 2 025004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A critical review of the common thermocouple reference functions
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abdd9a
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abdd9a
+docidentifier:
+- content: Metrologia 58 2 025004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abdd9a
+- content: 10.1088/1681-7575/abdd9a
   type: doi
 date:
 - type: published
-  value: '2021-02-15'
+  at: '2021-02-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Emile Webster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31310, Lower Hutt 5040, New Zealand
         name:
         - content: Measurement Standards Laboratory
-        contact:
-        - address:
-            formatted_address: PO Box 31310, Lower Hutt 5040, New Zealand
-  role:
-  - type: author
-revdate: '2021-02-15'
 abstract:
-- content: Abstract<p>The use of thermocouples in many present-day applications can
-    often occur with little consideration as to the inherited historical burden of
-    the reference functions the thermocouples must meet. For base-metal thermocouples,
-    the reference functions are specified by equations relating temperature to electro-motive-force
-    and not by alloy composition. Most of the common thermocouples contain at least
-    one alloyed thermoelement, the bulk of which are now known to be inherently unstable
-    above 200 °C. As manufacturing technologies change, along with the material feedstock
-    from which thermocouples are made, modern thermocouples can frequently give measurements
-    that deviate significantly from the ASTM and IEC standards. This study first reviews
-    the development of the thermocouple alloys and historical conditions under which
-    the reference functions were derived and contrasts this with modern thermocouple
-    alloys and new testing methods. From this comparison, it is shown that users of
-    modern base-metal thermocouples need to be extremely cautious when anticipating
-    likely behaviour, with even short exposures to modest temperatures revealing a
-    myriad of manufacturer-dependent instabilities. Minor variations in composition
-    are shown to strongly influence reversible crystallographic ordering effects in
-    addition to passivation behaviour at high temperatures, in some instances leading
-    to catastrophic failure. It is also shown that the initial anneal state given
-    by the manufacturer has a significant effect on the stability and hence, drift
-    rate, with inadequate anneal leading to unnecessarily large drift rates at less
-    than 200 °C. Lastly, this review looks at recent attempts to develop more-stable
-    thermocouples, based on state-of-the-art techniques able to identify specific
-    causes of instability in many of the historic thermocouple alloys and demonstrates
-    how these new thermocouples might better serve the end user’s needs.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The use of thermocouples in many present-day applications can often occur with little consideration as to the inherited historical burden of the reference functions the thermocouples must meet. For base-metal thermocouples, the reference functions are specified by equations relating temperature to <italic toggle="yes">electro-motive-force</italic> and not by alloy composition. Most of the common thermocouples contain at least one alloyed thermoelement, the bulk of which are now known to be inherently unstable above 200 °C. As manufacturing technologies change, along with the material feedstock from which thermocouples are made, modern thermocouples can frequently give measurements that deviate significantly from the ASTM and IEC standards. This study first reviews the development of the thermocouple alloys and historical conditions under which the reference functions were derived and contrasts this with modern thermocouple alloys and new testing methods. From this comparison, it is shown that users of modern base-metal thermocouples need to be extremely cautious when anticipating likely behaviour, with even short exposures to modest temperatures revealing a myriad of manufacturer-dependent instabilities. Minor variations in composition are shown to strongly influence reversible crystallographic ordering effects in addition to passivation behaviour at high temperatures, in some instances leading to catastrophic failure. It is also shown that the initial anneal state given by the manufacturer has a significant effect on the stability and hence, drift rate, with inadequate anneal leading to unnecessarily large drift rates at less than 200 °C. Lastly, this review looks at recent attempts to develop more-stable thermocouples, based on state-of-the-art techniques able to identify specific causes of instability in many of the historic thermocouple alloys and demonstrates how these new thermocouples might better serve the end user’s needs.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A critical review of the common thermocouple reference functions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A critical review of the common thermocouple reference functions
     date:
     - type: ppub
-      value: '2021-04-01'
+      at: '2021-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A critical review of the common thermocouple reference functions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A critical review of the common thermocouple reference functions
     date:
     - type: epub
-      value: '2021-02-15'
+      at: '2021-02-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -115,6 +85,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

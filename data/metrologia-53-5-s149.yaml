@@ -1,131 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia535S149
-title:
-- content: Towards a new GUM—an update
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/5/S149
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/5/S149
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 5 S149
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Towards a new GUM—an update
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/5/S149
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/5/S149
+docidentifier:
+- content: Metrologia 53 5 S149
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/5/S149
+- content: 10.1088/0026-1394/53/5/S149
   type: doi
 date:
 - type: published
-  value: '2016-08-17'
+  at: '2016-08-17'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Torino, Italy
         name:
         - content: INRIM
-        contact:
-        - address:
-            formatted_address: Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Carine Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sèvres, France
         name:
         - content: BIPM
-        contact:
-        - address:
-            formatted_address: Sèvres, France
-  role:
-  - type: author
-revdate: '2016-08-17'
 abstract:
-- content: Abstract<p>The contents of the current edition, JCGM 100:2008, of the Guide
-    to the Expression of Uncertainty in Measurement (GUM) and its Supplements are
-    reviewed and remarks made concerning a proposed revision of the GUM. A committee
-    draft of the revision was circulated to member organizations of the Joint Committee
-    for Guides in Metrology (JCGM) and all national metrology institutes in December
-    2014. The motivation for the proposed changes is given and reactions to the committee
-    draft are summarized. Some of the contents of this paper are solely an expression
-    by the authors and do not constitute an official statement by the JCGM.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The contents of the current edition, JCGM 100:2008, of the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) and its Supplements are reviewed and remarks made concerning a proposed revision of the GUM. A committee draft of the revision was circulated to member organizations of the Joint Committee for Guides in Metrology (JCGM) and all national metrology institutes in December 2014. The motivation for the proposed changes is given and reactions to the committee draft are summarized. Some of the contents of this paper are solely an expression by the authors and do not constitute an official statement by the JCGM.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a new GUM—an update
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Towards a new GUM—an update
     date:
     - type: ppub
-      value: '2016-10-01'
+      at: '2016-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Towards a new GUM—an update
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Towards a new GUM—an update
     date:
     - type: epub
-      value: '2016-08-17'
+      at: '2016-08-17'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +116,6 @@ extent:
     reference_from: S149
     reference_to: S159
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

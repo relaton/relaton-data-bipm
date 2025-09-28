@@ -1,104 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496706
-title:
-- content: Frequency-domain analysis of absolute gravimeters
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/706
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/706
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 706
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Frequency-domain analysis of absolute gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/706
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/706
+docidentifier:
+- content: Metrologia 49 6 706
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/706
+- content: 10.1088/0026-1394/49/6/706
   type: doi
 date:
 - type: published
-  value: '2012-10-15'
+  at: '2012-10-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Svitlov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Germany
         name:
         - content: University of Erlangen-Nuremberg
         subdivision:
-        - content: Institute of Optics, Information and Photonics
-        contact:
-        - address:
-            formatted_address: Germany
-  role:
-  - type: author
-revdate: '2012-10-15'
+        - name:
+          - language: en
+            script: Latn
+            content: Institute of Optics, Information and Photonics
 abstract:
-- content: Abstract<p>An absolute gravimeter is analysed as a linear time-invariant
-    system in the frequency domain. Frequency responses of absolute gravimeters are
-    derived analytically based on the propagation of the complex exponential signal
-    through their linear measurement functions. Depending on the model of motion and
-    the number of time–distance coordinates, an absolute gravimeter is considered
-    as a second-order (three-level scheme) or third-order (multiple-level scheme)
-    low-pass filter. It is shown that the behaviour of an atom absolute gravimeter
-    in the frequency domain corresponds to that of the three-level corner-cube absolute
-    gravimeter. Theoretical results are applied for evaluation of random and systematic
-    measurement errors and optimization of an experiment. The developed theory agrees
-    with known results of an absolute gravimeter analysis in the time and frequency
-    domains and can be used for measurement uncertainty analyses, building of vibration-isolation
-    systems and synthesis of digital filtering algorithms.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>An absolute gravimeter is analysed as a linear time-invariant system in the frequency domain. Frequency responses of absolute gravimeters are derived analytically based on the propagation of the complex exponential signal through their linear measurement functions. Depending on the model of motion and the number of time–distance coordinates, an absolute gravimeter is considered as a second-order (three-level scheme) or third-order (multiple-level scheme) low-pass filter. It is shown that the behaviour of an atom absolute gravimeter in the frequency domain corresponds to that of the three-level corner-cube absolute gravimeter. Theoretical results are applied for evaluation of random and systematic measurement errors and optimization of an experiment. The developed theory agrees with known results of an absolute gravimeter analysis in the time and frequency domains and can be used for measurement uncertainty analyses, building of vibration-isolation systems and synthesis of digital filtering algorithms.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency-domain analysis of absolute gravimeters
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Frequency-domain analysis of absolute gravimeters
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency-domain analysis of absolute gravimeters
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Frequency-domain analysis of absolute gravimeters
     date:
     - type: epub
-      value: '2012-10-15'
+      at: '2012-10-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +93,6 @@ extent:
     reference_from: '706'
     reference_to: '726'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

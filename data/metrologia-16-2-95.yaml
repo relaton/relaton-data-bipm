@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16295
-title:
-- content: 'Points Triples de l''Argon et du Méthane: Utilisation de Cellules Scellées'
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/16/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 2 95
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: 'Points Triples de l''Argon et du Méthane: Utilisation de Cellules Scellées'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/2/005
+docidentifier:
+- content: Metrologia 16 2 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/2/005
+- content: 10.1088/0026-1394/16/2/005
   type: doi
 date:
 - type: published
-  value: '1980-04-01'
+  at: '1980-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bonhoure
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Pello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1980-04-01'
 abstract:
-- content: "<p>Sealed cells built with a stainless steel envelope and filled with
+- language: en
+  script:
+  - Latn
+  content: "<p>Sealed cells built with a stainless steel envelope and filled with
     argon or methane have been studied. Results obtained at the triple point show
     that sealed cells provide very good thermometric fixed points, easy to transport
     from one laboratory to another. With the attributed value of the triple point
     of argon as the reference (83.798 K in IPTS-68), the temperature of the triple
     point of methane is 90.685 6 K ± 0.2 mK.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Points Triples de l''Argon et du Méthane: Utilisation de Cellules
+    - language: fr
+      script: Latn
+      content: 'Points Triples de l''Argon et du Méthane: Utilisation de Cellules
         Scellées'
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1980-04-01'
+      at: '1980-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '95'
     reference_to: '99'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

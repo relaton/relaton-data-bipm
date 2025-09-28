@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia34119
-title:
-- content: Toward a revival of classical analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/1/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/1/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 1 19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Toward a revival of classical analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/1/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/1/4
+docidentifier:
+- content: Metrologia 34 1 19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/1/4
+- content: 10.1088/0026-1394/34/1/4
   type: doi
 date:
 - type: published
-  value: '1997-02-01'
+  at: '1997-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Beck II
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1997-02-01'
 abstract:
-- content: "<p>Among the analytical methods used to determine chemical composition,
+- language: en
+  script:
+  - Latn
+  content: "<p>Among the analytical methods used to determine chemical composition,
     there are two special methods based on reaction chemistry. These are gravimetry
     and titrimetry, and taken together they are called classical analysis. They are
     special because they lead directly to independent values of chemical quantities
@@ -59,39 +55,31 @@ abstract:
     issues and scientists connected with the development of classical analysis. A
     case is made for a revival of the use of classical analysis in chemical metrology,
     together with some suggestions as to how such a revival might be implemented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Toward a revival of classical analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Toward a revival of classical analysis
     date:
     - type: ppub
-      value: '1997-02-01'
+      at: '1997-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +90,6 @@ extent:
     reference_from: '19'
     reference_to: '30'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

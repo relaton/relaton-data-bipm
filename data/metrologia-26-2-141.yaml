@@ -1,86 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia262141
-title:
-- content: Are the Independent Atomic Time Scales Worthy of Interest?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/2/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/2/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 2 141
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Are the Independent Atomic Time Scales Worthy of Interest?
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/2/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/2/009
+docidentifier:
+- content: Metrologia 26 2 141
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/2/009
+- content: 10.1088/0026-1394/26/2/009
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Granveaud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Primaire du Temps et des Fréquences, Observatoire de
             Paris, 61, av. de l'Observatoire, F-75014 Paris, France
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>International atomic time references, TAI and UTC, are computed by
-    the BIPM from the data of atomic clocks running in various laboratories; they
-    are made available to the time/frequency community and to the potential users.
-    Furthermore, by mid-1988, 15 independent atomic time scales had been established
-    by the laboratories with their own data.</p><p>From the user's point of view,
-    it is worth wondering whether these independent time scales possess specific qualities
-    with respect to the international references.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>International atomic time references, TAI and UTC, are computed by the BIPM from the data of atomic clocks running in various laboratories; they are made available to the time/frequency community and to the potential users. Furthermore, by mid-1988, 15 independent atomic time scales had been established by the laboratories with their own data.</p>
+    <p>From the user's point of view, it is worth wondering whether these independent time scales possess specific qualities with respect to the international references.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Are the Independent Atomic Time Scales Worthy of Interest?
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Are the Independent Atomic Time Scales Worthy of Interest?
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +75,6 @@ extent:
     reference_from: '141'
     reference_to: '146'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

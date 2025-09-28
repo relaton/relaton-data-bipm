@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia344297
-title:
-- content: 'International comparisons of He-Ne lasers stabilized with<sup>127</sup>I<sub>2</sub>
-    at λ = 633 nm (July 1993 to September 1995). Part I: General'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/34/4/1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/4/1
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 4 297
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'International comparisons of He-Ne lasers stabilized with <sup>127</sup>I<sub>2</sub>
+    at λ = 633 nm (July 1993 to September 1995). Part I: General'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/4/1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/4/1
+docidentifier:
+- content: Metrologia 34 4 297
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/4/1
+- content: 10.1088/0026-1394/34/4/1
   type: doi
 date:
 - type: published
-  value: '1997-08-01'
+  at: '1997-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-M Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Chartier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM
-  role:
-  - type: author
-revdate: '1997-08-01'
 abstract:
-- content: "<p>After the adoption of the new mise en pratique of the definition of
+- language: en
+  script:
+  - Latn
+  content: "<p>After the adoption of the new mise en pratique of the definition of
     the metre in 1992, a wide-ranging programme of laser comparisons at lambda 633
     nm, the most used of the recommended wavelengths, was carried out involving national
     laboratories and the Bureau International des Poids et Mesures (BIPM). During
@@ -68,40 +62,32 @@ abstract:
     malfunction, the frequency differences between the lasers being compared lay inside
     the standard uncertainty (2,5 parts in 10<sup>11</sup>) given in the mise en pratique,
     once the lasers had been adjusted to have the recommended parameter values.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'International comparisons of He-Ne lasers stabilized with<sup>127</sup>I<sub>2</sub>
+    - language: en
+      script: Latn
+      content: 'International comparisons of He-Ne lasers stabilized with <sup>127</sup>I<sub>2</sub>
         at λ = 633 nm (July 1993 to September 1995). Part I: General'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1997-08-01'
+      at: '1997-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +98,6 @@ extent:
     reference_from: '297'
     reference_to: '300'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

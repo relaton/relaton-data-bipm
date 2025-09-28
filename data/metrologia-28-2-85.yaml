@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia28285
-title:
-- content: Set-up of Mass Scales above 1 kg Illustrated by the Example of a 5 t Mass
-    Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 2 85
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Set-up of Mass Scales above 1 kg Illustrated by the Example of a 5 t Mass
+    Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/2/005
+docidentifier:
+- content: Metrologia 28 2 85
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/2/005
+- content: 10.1088/0026-1394/28/2/005
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Debler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100. W-3300
             Braunschweig. Germany
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>To an ever increasing extent, weighing instruments for the determination
+- language: en
+  script:
+  - Latn
+  content: "<p>To an ever increasing extent, weighing instruments for the determination
     of masses of more than 50 kg are designed as high-accuracy weighing instruments
     of accuracy class II rather than as medium accuracy weighing instruments of accuracy
     class III. Consequently, the masses required for testing must meet higher accuracy
@@ -53,40 +49,32 @@ abstract:
     3 × 10<sup>-7</sup> and 1,5 × 10<sup>-7</sup>. With their aid, deadweights of
     up to 50 kN for force standard machines can be determined with relative uncertainties
     of 4 × 10<sup>-7</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Set-up of Mass Scales above 1 kg Illustrated by the Example of a 5
+    - language: en
+      script: Latn
+      content: Set-up of Mass Scales above 1 kg Illustrated by the Example of a 5
         t Mass Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '85'
     reference_to: '94'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

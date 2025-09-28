@@ -1,117 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1511
-title:
-- content: Appraisal of Interpolation Instruments for the International Practical
-    Temperature Scale from 630.74 to 1064.43°C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/1/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/1/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Appraisal of Interpolation Instruments for the International Practical
+    Temperature Scale from 630.74 to 1064.43°C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/1/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/1/001
+docidentifier:
+- content: Metrologia 15 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/1/001
+- content: 10.1088/0026-1394/15/1/001
   type: doi
 date:
 - type: published
-  value: '1979-01-01'
+  at: '1979-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L A Guildner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Temperature Section, Heat Division, National Bureau of Standards,
             Institute for Basic Standards, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H J Kostkowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Optical Radiation Section, Optical Physics Division, National Bureau
             of Standards, Institute for Basic Standards, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Evans
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Temperature Section, Heat Division, National Bureau of Standards,
             Institute for Basic Standards, USA
-  role:
-  - type: author
-revdate: '1979-01-01'
 abstract:
-- content: "<p>A better interpolating instrument has long been needed to replace the
+- language: en
+  script:
+  - Latn
+  content: "<p>A better interpolating instrument has long been needed to replace the
     standard platinum-10% rhodium/platinum thermocouple for the International Practical
     Temperature Scale. In this paper we compare the characteristics of the high temperature
     platinum resistance thermometer and the photoelectric spectral pyrometer with
     those of the standard thermocouple and conclude that the resistance thermometer
     is the better replacement, in terms of both accuracy and convenience.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Appraisal of Interpolation Instruments for the International Practical
+    - language: en
+      script: Latn
+      content: Appraisal of Interpolation Instruments for the International Practical
         Temperature Scale from 630.74 to 1064.43°C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1979-01-01'
+      at: '1979-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '1'
     reference_to: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

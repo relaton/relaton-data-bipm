@@ -1,82 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia431A08013
-title:
-- content: 'Key comparison CCQM-K29.1: Anion calibration solution: final report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1A/08013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1A/08013
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1A 08013
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Key comparison CCQM-K29.1: Anion calibration solution: final report'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1A/08013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1A/08013
+docidentifier:
+- content: Metrologia 43 1A 08013
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1A/08013
+- content: 10.1088/0026-1394/43/1A/08013
   type: doi
 date:
 - type: published
-  value: '2006-01-01'
+  at: '2006-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Máriássy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 'SMU: Slovak Institute of Metrology, Bratislava, Slovakia'
-  role:
-  - type: author
-revdate: '2006-01-01'
 abstract:
-- content: |-
-    <p>In the key comparison CCQM-K29 on Anion calibration solutions, carried out in 2003/4, the CENAM chloride result was found to be an outlier. The reason for this was identified and the procedure corrected. The subsequent bilateral key comparison CCQM-K29.1 between CENAM and SMU was carried out in order to confirm improved CENAM performance in the analysis of chloride calibration solution. The mass fraction of chloride was the same as that in CCQM-K29 (about 1  g/kg). The CENAM result agrees well with the reference value based on preparation.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the
-    CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In the key comparison  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/43/1A/08012">CCQM-K29</ext-link> on Anion calibration solutions, carried out in 2003/4, the CENAM chloride result was found to be an outlier. The reason for this was identified and the procedure corrected. The subsequent bilateral key comparison CCQM-K29.1 between CENAM and SMU was carried out in order to confirm improved CENAM performance in the analysis of chloride calibration solution. The mass fraction of chloride was the same as that in CCQM-K29 (about 1  g/kg). The CENAM result agrees well with the reference value based on preparation.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/QM/K29/CCQM-K29.1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the
+    CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Key comparison CCQM-K29.1: Anion calibration solution: final report'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Key comparison CCQM-K29.1: Anion calibration solution: final report'
     date:
     - type: ppub
-      value: '2006-01-01'
+      at: '2006-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -87,6 +77,6 @@ extent:
     reference_from: '08013'
     reference_to: '08013'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375429
-title:
-- content: Comparison of the absolute detector-based spectral radiance assignment
-    with the current NIST-assigned spectral radiance of tungsten strip lamps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/18
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/18
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 429
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of the absolute detector-based spectral radiance assignment
+    with the current NIST-assigned spectral radiance of tungsten strip lamps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/18
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/18
+docidentifier:
+- content: Metrologia 37 5 429
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/18
+- content: 10.1088/0026-1394/37/5/18
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C E Gibson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>Using a high-temperature black body (HTBB) and filter radiometers calibrated
+- language: en
+  script:
+  - Latn
+  content: "<p>Using a high-temperature black body (HTBB) and filter radiometers calibrated
     for absolute spectral power responsivity, the spectral output of the black body,
     whose radiance temperature was determined using the filter radiometers, was used
     to assign spectral radiance to tungsten strip lamps with a prism-grating monochromator.
@@ -66,40 +60,32 @@ abstract:
     to 1050 nm, the spectral radiance of the HTBB did not differ more than 0.5 % in
     radiance from a single-temperature Planck's law as determined using the tungsten
     strip lamp.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the absolute detector-based spectral radiance assignment
+    - language: en
+      script: Latn
+      content: Comparison of the absolute detector-based spectral radiance assignment
         with the current NIST-assigned spectral radiance of tungsten strip lamps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '429'
     reference_to: '432'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

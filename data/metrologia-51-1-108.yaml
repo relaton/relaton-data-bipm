@@ -1,160 +1,129 @@
 ---
-schema-version: v1.2.9
-id: Metrologia511108
-title:
-- content: Contributing to TAI with a secondary representation of the SI second
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/108
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/108
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 108
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Contributing to TAI with a secondary representation of the SI second
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/108
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/108
+docidentifier:
+- content: Metrologia 51 1 108
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/108
+- content: 10.1088/0026-1394/51/1/108
   type: doi
 date:
 - type: published
-  value: '2014-01-29'
+  at: '2014-01-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Guéna
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
+            75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
-              75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Abgrall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
+            75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
-              75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Clairon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
+            75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
-              75014 Paris, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Bize
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
+            75014 Paris, France
         name:
         - content: LNE-SYRTE
-        contact:
-        - address:
-            formatted_address: Observatoire de Paris, CNRS, UPMC, 61 avenue de l'Observatoire,
-              75014 Paris, France
-  role:
-  - type: author
-revdate: '2014-01-29'
 abstract:
-- content: Abstract<p>We report the first contribution to international atomic time
-    (TAI) based on a secondary representation of the SI second. This work is done
-    with the LNE-SYRTE FO2-Rb fountain frequency standard using the<sup>87</sup>Rb
-    ground-state hyperfine transition. We describe FO2-Rb and how it is connected
-    to local and international time scales. We report on local measurements of this
-    frequency standard in the SI system, i.e. against primary frequency standards
-    (PFSs), down to a fractional uncertainty of 4.4 × 10<sup>−16</sup>, and on the
-    establishment of the recommended value for the<sup>87</sup>Rb hyperfine transition
-    by the CIPM. We also report on the process that led to the participation of the
-    FO2-Rb frequency standard in Circular T and to the elaboration of TAI. This participation
-    enables us to demonstrate absolute frequency measurement directly in terms of
-    the SI second realized by the TAI ensemble with a statistical uncertainty of 1.1 × 10<sup>−16</sup>,
-    therefore at the limit allowed by the accuracy of PFSs. This work constitutes
-    a demonstration of how other secondary representations, based on optical transitions,
-    could also be used for TAI, and an investigation of a number of issues relevant
-    to a future redefinition of the SI second.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We report the first contribution to international atomic time (TAI) based on a secondary representation of the SI second. This work is done with the LNE-SYRTE FO2-Rb fountain frequency standard using the <sup>87</sup>Rb ground-state hyperfine transition. We describe FO2-Rb and how it is connected to local and international time scales. We report on local measurements of this frequency standard in the SI system, i.e. against primary frequency standards (PFSs), down to a fractional uncertainty of 4.4 × 10<sup>−16</sup>, and on the establishment of the recommended value for the <sup>87</sup>Rb hyperfine transition by the CIPM. We also report on the process that led to the participation of the FO2-Rb frequency standard in <italic>Circular T</italic> and to the elaboration of TAI. This participation enables us to demonstrate absolute frequency measurement directly in terms of the SI second realized by the TAI ensemble with a statistical uncertainty of 1.1 × 10<sup>−16</sup>, therefore at the limit allowed by the accuracy of PFSs. This work constitutes a demonstration of how other secondary representations, based on optical transitions, could also be used for TAI, and an investigation of a number of issues relevant to a future redefinition of the SI second.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Contributing to TAI with a secondary representation of the SI second
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Contributing to TAI with a secondary representation of the SI second
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Contributing to TAI with a secondary representation of the SI second
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Contributing to TAI with a secondary representation of the SI second
     date:
     - type: epub
-      value: '2014-01-29'
+      at: '2014-01-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -165,6 +134,6 @@ extent:
     reference_from: '108'
     reference_to: '120'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

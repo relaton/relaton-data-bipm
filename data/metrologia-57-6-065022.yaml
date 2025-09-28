@@ -1,119 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia576065022
-title:
-- content: Correction factors for primary beta dosimetry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab6cd6
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab6cd6
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 6 065022
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Correction factors for primary beta dosimetry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab6cd6
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab6cd6
+docidentifier:
+- content: Metrologia 57 6 065022
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab6cd6
+- content: 10.1088/1681-7575/ab6cd6
   type: doi
 date:
 - type: published
-  value: '2020-10-27'
+  at: '2020-10-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Behrens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2020-10-27'
 abstract:
-- content: 'Abstract<p>Several correction factors for primary beta dosimetry in radiation
-    protection have been determined by means of measurements and simulations for both
-    the well-known Böhm primary standard extrapolation chamber developed at PTB (which
-    has been commercially available for a long time) and a new primary standard extrapolation
-    chamber also developed at PTB. The correction factors k<sub>el</sub> for electrostatic
-    attraction of the entrance window due to the collecting voltage and k<sub>sat</sub>
-    for ionisation collection losses due to ionic recombination have been measured.
-    The following correction factors have been determined by simulations for normal
-    (0°) as well as oblique (15°, 30°, 45° and 60°) radiation incidence: k<sub>ba</sub>
-    for backscatter from the collecting electrode, k<sub>pe</sub> for perturbation
-    by the chamber’s side walls, and k<sub>ra</sub>, k<sub>ac</sub> and k<sub>di</sub>
-    for inhomogeneity inside the collecting volume. The latter three have been combined
-    to k<sub>ih</sub>. Six more correction factors adopted from the literature are
-    described to complete the necessary corrections. A comparison with values given
-    in ISO 6980-2:2004 (for 0°), all determined at that time by means of measurements,
-    is shown as well as the application of the new factors to measured data. The newly
-    determined correction factors are ready to be implemented in an updated version
-    of ISO 6980-2.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Several correction factors for primary beta dosimetry in radiation protection have been determined by means of measurements and simulations for both the well-known Böhm primary standard extrapolation chamber developed at PTB (which has been commercially available for a long time) and a new primary standard extrapolation chamber also developed at PTB. The correction factors <italic>k</italic><sub>el</sub> for electrostatic attraction of the entrance window due to the collecting voltage and <italic>k</italic><sub>sat</sub> for ionisation collection losses due to ionic recombination have been measured. The following correction factors have been determined by simulations for normal (0°) as well as oblique (15°, 30°, 45° and 60°) radiation incidence: <italic>k</italic><sub>ba</sub> for backscatter from the collecting electrode, <italic>k</italic><sub>pe</sub> for perturbation by the chamber’s side walls, and <italic>k</italic><sub>ra</sub>, <italic>k</italic><sub>ac</sub> and <italic>k</italic><sub>di</sub> for inhomogeneity inside the collecting volume. The latter three have been combined to <italic>k</italic><sub>ih</sub>. Six more correction factors adopted from the literature are described to complete the necessary corrections. A comparison with values given in ISO 6980-2:2004 (for 0°), all determined at that time by means of measurements, is shown as well as the application of the new factors to measured data. The newly determined correction factors are ready to be implemented in an updated version of ISO 6980-2.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correction factors for primary beta dosimetry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Correction factors for primary beta dosimetry
     date:
     - type: ppub
-      value: '2020-12-01'
+      at: '2020-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correction factors for primary beta dosimetry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Correction factors for primary beta dosimetry
     date:
     - type: epub
-      value: '2020-11-10'
+      at: '2020-11-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correction factors for primary beta dosimetry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Correction factors for primary beta dosimetry
     date:
     - type: open-access
-      value: '2020-10-27'
+      at: '2020-10-27'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +95,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

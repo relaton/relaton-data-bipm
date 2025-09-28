@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia64111
-title:
-- content: Analysis of Results of the Bureau International des Poids et Mesures Thermal
-    Neutron Flux Density Intercomparison
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 4 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analysis of Results of the Bureau International des Poids et Mesures Thermal
+    Neutron Flux Density Intercomparison
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/4/001
+docidentifier:
+- content: Metrologia 6 4 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/4/001
+- content: 10.1088/0026-1394/6/4/001
   type: doi
 date:
 - type: published
-  value: '1970-10-01'
+  at: '1970-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W M Murphey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R S Caswell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234
-  role:
-  - type: author
-revdate: '1970-10-01'
 abstract:
-- content: "<p>The results of an international comparison of thermal neutron flux
+- language: en
+  script:
+  - Latn
+  content: "<p>The results of an international comparison of thermal neutron flux
     density standards sponsored by the Neutron Working Group of the Bureau International
     des Poids et Mesures have been analyzed using a method conceptually different
     from a companion analysis by Axton. Both methods, however, yield closely the same
     results. All individual values are within ±2.6% of the adjusted value, the average
     absolute deviation being about 1%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis of Results of the Bureau International des Poids et Mesures
+    - language: en
+      script: Latn
+      content: Analysis of Results of the Bureau International des Poids et Mesures
         Thermal Neutron Flux Density Intercomparison
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1970-10-01'
+      at: '1970-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '111'
     reference_to: '115'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

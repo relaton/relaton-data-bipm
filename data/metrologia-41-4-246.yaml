@@ -1,92 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia414246
-title:
-- content: Effect of correlations in fitting spectral irradiance data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 4 246
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Effect of correlations in fitting spectral irradiance data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/4/004
+docidentifier:
+- content: Metrologia 41 4 246
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/4/004
+- content: 10.1088/0026-1394/41/4/004
   type: doi
 date:
 - type: published
-  value: '2004-05-07'
+  at: '2004-05-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Nevas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrology Research Institute, Helsinki University of Technology
             (HUT), PO Box 3000, FIN-02015 HUT, Finland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Kübarsepp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrosert Ltd, Division for Standard Measurement Services, Nõlvaku
             12 pk 61, 50002 Tartu, Estonia
-  role:
-  - type: author
-revdate: '2004-05-07'
 abstract:
-- content: "<p>The uncertainty of a primary spectral irradiance scale based on filter
+- language: en
+  script:
+  - Latn
+  content: "<p>The uncertainty of a primary spectral irradiance scale based on filter
     radiometers (FRs) is studied by analysing the propagation of uncertainties and
     covariances through a spectral interpolation process, when a modified Planck's
     radiation law is fitted to the measurement data. The advantage of performing the
@@ -96,53 +86,42 @@ abstract:
     the results of the uncertainty propagation are found to be within two practical
     limits: uncertainty values in the FR data and the values obtained by uncertainty
     propagation with uncorrelated FR signals.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of correlations in fitting spectral irradiance data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Effect of correlations in fitting spectral irradiance data
     date:
     - type: epub
-      value: '2004-05-07'
+      at: '2004-05-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of correlations in fitting spectral irradiance data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Effect of correlations in fitting spectral irradiance data
     date:
     - type: ppub
-      value: '2004-08-01'
+      at: '2004-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +132,6 @@ extent:
     reference_from: '246'
     reference_to: '250'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

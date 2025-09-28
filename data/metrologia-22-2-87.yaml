@@ -1,51 +1,45 @@
 ---
-schema-version: v1.2.9
-id: Metrologia22287
-title:
-- content: The Gravitational Field of a 111 Tetrahedron
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 2 87
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Gravitational Field of a 111 Tetrahedron
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/2/003
+docidentifier:
+- content: Metrologia 22 2 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/2/003
+- content: 10.1088/0026-1394/22/2/003
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A J F Metherell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Cavendish Laboratory, Madingley Road, Cambridge CB3 0HE, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -54,50 +48,43 @@ contributor:
         name:
         - content: Bureau International des Poids et Mesures. Pavillon de Breteuil,
             F-92310 Sèvres, France
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>Advances in crystal growth technology together with advances in preferential
+- language: en
+  script:
+  - Latn
+  content: "<p>Advances in crystal growth technology together with advances in preferential
     etching techniques may make it possible to produce a nearly perfect single crystal
     of silicon in the form of a 111 tetrahedron. The density homogeneity of such an
     artifact together with the high precision to which its centre of mass could be
     located with respect to its faces would suggest its use as an attracting mass
-    in experiments to determine the gravitational constant G. In this paper a closed-form
-    expression for the gravitational field of a 111 tetrahedron is derived.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    in experiments to determine the gravitational constant <italic>G</italic>. In
+    this paper a closed-form expression for the gravitational field of a 111 tetrahedron
+    is derived.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Gravitational Field of a 111 Tetrahedron
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Gravitational Field of a 111 Tetrahedron
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +95,6 @@ extent:
     reference_from: '87'
     reference_to: '91'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

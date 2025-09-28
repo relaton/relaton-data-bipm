@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326705
-title:
-- content: An ultraviolet-B/visible/near-infrared transfer radiometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/63
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/63
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 705
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An ultraviolet-B/visible/near-infrared transfer radiometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/63
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/63
+docidentifier:
+- content: Metrologia 32 6 705
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/63
+- content: 10.1088/0026-1394/32/6/63
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Urban
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Meteo. Obs. Lindenberg
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Leiterer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Meteo. Obs. Lindenberg
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>One of the main problems of natural radiation measurements, especially
+- language: en
+  script:
+  - Latn
+  content: "<p>One of the main problems of natural radiation measurements, especially
     for ultraviolet-B (UVB) radiation, is the calibration and quality control of the
     radiometers used. We have developed a simple radiometer which allows the comparison
     of other radiometers, spectroradiometers and light sources. The filter radiometer
@@ -71,39 +65,31 @@ abstract:
     primary standard irradiation source BESSY. It was found that the deviation between
     the four radiation sources was in agreement with the standard deviation of each
     irradiation source.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An ultraviolet-B/visible/near-infrared transfer radiometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An ultraviolet-B/visible/near-infrared transfer radiometer
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '705'
     reference_to: '708'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

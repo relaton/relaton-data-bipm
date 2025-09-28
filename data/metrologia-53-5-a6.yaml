@@ -1,145 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia535A6
-title:
-- content: Foundation for the redefinition of the kilogram
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/5/A6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/5/A6
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 5 A6
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Foundation for the redefinition of the kilogram
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/5/A6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/5/A6
+docidentifier:
+- content: Metrologia 53 5 A6
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/5/A6
+- content: 10.1088/0026-1394/53/5/A6
   type: doi
 date:
 - type: published
-  value: '2016-09-28'
+  at: '2016-09-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Philippe Richard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hao Fang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, Sèvres, France
         name:
         - content: Bureau International des Poids et Mesures BIPM
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard Davis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, Sèvres, France
         name:
         - content: Bureau International des Poids et Mesures BIPM
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, Sèvres, France
-  role:
-  - type: author
-revdate: '2016-09-28'
 abstract:
-- content: Abstract<p>The redefinition of the kilogram, expected to be approved in
-    the autumn of 2018, will replace the artefact definition of the kilogram by assigning
-    a fixed numerical value to a fundamental constant of physics. While the concept
-    of such a change is pleasing, the mass community as represented by the Consultative
-    Committee for Mass and Related Quantities (CCM) was faced with a number of technical
-    and procedural challenges that needed to be met in order to profit in any meaningful
-    way from the proposed change. In the following, we outline these challenges and
-    how the CCM has met and is meeting them. We focus especially on what the mass
-    community requires of the new definition and the process by which the CCM has
-    sought to ensure that these needs will be met.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The redefinition of the kilogram, expected to be approved in the autumn of 2018, will replace the artefact definition of the kilogram by assigning a fixed numerical value to a fundamental constant of physics. While the concept of such a change is pleasing, the mass community as represented by the Consultative Committee for Mass and Related Quantities (CCM) was faced with a number of technical and procedural challenges that needed to be met in order to profit in any meaningful way from the proposed change. In the following, we outline these challenges and how the CCM has met and is meeting them. We focus especially on what the mass community requires of the new definition and the process by which the CCM has sought to ensure that these needs will be met.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Foundation for the redefinition of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Foundation for the redefinition of the kilogram
     date:
     - type: ppub
-      value: '2016-10-01'
+      at: '2016-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Foundation for the redefinition of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Foundation for the redefinition of the kilogram
     date:
     - type: epub
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Foundation for the redefinition of the kilogram
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Foundation for the redefinition of the kilogram
     date:
     - type: open-access
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +126,6 @@ extent:
     reference_from: A6
     reference_to: A11
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

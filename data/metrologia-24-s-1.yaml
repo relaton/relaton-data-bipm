@@ -1,89 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia24S1
-title:
-- content: 'The Newtonian Gravitational Constant: An index of measurements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/S/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/S/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 S 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Newtonian Gravitational Constant: An index of measurements'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/S/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/S/001
+docidentifier:
+- content: Metrologia 24 S 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/S/001
+- content: 10.1088/0026-1394/24/S/001
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: George T Gillies
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Fundamental Measurements Group, Department of Nuclear Engineering
             and Engineering Physics, University of Virginia, Charlottesville, VA 22901,
             USA
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>The Newtonian Gravitational Constant, G, has probably been measured
-    more often but, interestingly, with less precision than any other physical constant
-    of fundamental importance. In an effort that has spanned more than a century to
-    connect gravitation to the other forces of nature, over 200 experiments on G have
-    been completed and reported; but many of them have not been reported in what would
-    now be considered to be the open literature. This paper is a third, more complete
-    attempt to carry MacKenzie's and Poynting's bibliographies forward from the 1800's
-    to the present; and thereby include as many as possible of the experimental results
-    on G that have been obtained since 1900.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The Newtonian Gravitational Constant,  <italic>G</italic>, has probably
+    been measured more often but, interestingly, with less precision than any other
+    physical constant of fundamental importance. In an effort that has spanned more
+    than a century to connect gravitation to the other forces of nature, over 200
+    experiments on  <italic>G</italic> have been completed and reported; but many
+    of them have not been reported in what would now be considered to be the open
+    literature. This paper is a third, more complete attempt to carry MacKenzie's
+    and Poynting's bibliographies forward from the 1800's to the present; and thereby
+    include as many as possible of the experimental results on  <italic>G</italic>
+    that have been obtained since 1900.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Newtonian Gravitational Constant: An index of measurements'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The Newtonian Gravitational Constant: An index of measurements'
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +83,6 @@ extent:
     reference_from: '1'
     reference_to: '56'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

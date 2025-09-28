@@ -1,105 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia495S198
-title:
-- content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
-    brachytherapy sources
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/5/S198
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/5/S198
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 5 S198
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
+    brachytherapy sources
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/5/S198
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/5/S198
+docidentifier:
+- content: Metrologia 49 5 S198
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/5/S198
+- content: 10.1088/0026-1394/49/5/S198
   type: doi
 date:
 - type: published
-  value: '2012-08-10'
+  at: '2012-08-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Schneider
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2012-08-10'
 abstract:
-- content: 'Abstract<p>The German national metrology institute (PTB) developed a primary
-    standard in terms of absorbed-dose to water D<sub>w</sub> for low-energy interstitial
-    brachytherapy sources, which is based on an extrapolation chamber in a phantom
-    of water-equivalent material.</p><p>The method to determine D<sub>w</sub> from
-    extrapolation chamber measurements has been newly developed and is already described
-    in the literature. With the chamber the absorbed-dose at 30 cm distance from the
-    source is measured and the quantity is converted into the desired quantity, the
-    absorbed-dose to water measured at 1 cm distance perpendicular to the source axis.</p><p>In
-    this paper, a synthesis of the work done within the EMRP Project: ‘TP2.JRP6: Increasing
-    Cancer Treatment Efficacy Using 3D Brachytherapy’ is given and the final results
-    and the final uncertainty budget are presented. Furthermore, an experimentally
-    determined dose-rate constant for this seed type (BEBIG Symmetra I25.S16) is given
-    based on the measurement of four different instances.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The German national metrology institute (PTB) developed a primary standard in terms of absorbed-dose to water <italic>D</italic><sub>w</sub> for low-energy interstitial brachytherapy sources, which is based on an extrapolation chamber in a phantom of water-equivalent material.</p>
+    <p>The method to determine <italic>D</italic><sub>w</sub> from extrapolation chamber measurements has been newly developed and is already described in the literature. With the chamber the absorbed-dose at 30 cm distance from the source is measured and the quantity is converted into the desired quantity, the absorbed-dose to water measured at 1 cm distance perpendicular to the source axis.</p>
+    <p>In this paper, a synthesis of the work done within the EMRP Project: ‘TP2.JRP6: Increasing Cancer Treatment Efficacy Using 3D Brachytherapy’ is given and the final results and the final uncertainty budget are presented. Furthermore, an experimentally determined dose-rate constant for this seed type (BEBIG Symmetra I25.S16) is given based on the measurement of four different instances.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
+    - script: Latn
+      content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
         brachytherapy sources
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-10-01'
+      at: '2012-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
+    - script: Latn
+      content: The PTB primary standard for the absorbed-dose to water for I-125 interstitial
         brachytherapy sources
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-08-10'
+      at: '2012-08-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +93,6 @@ extent:
     reference_from: S198
     reference_to: S202
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

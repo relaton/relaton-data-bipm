@@ -1,121 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S24
-title:
-- content: Densimeters for very accurate density measurements of fluids over large
-    ranges of temperature, pressure, and density
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S24
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Densimeters for very accurate density measurements of fluids over large
+    ranges of temperature, pressure, and density
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S03
+docidentifier:
+- content: Metrologia 41 2 S24
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S03
+- content: 10.1088/0026-1394/41/2/S03
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
-    name:
-      completename:
-        content: W Wagner
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
+        content: W Wagner
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
         content: R Kleinrahm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Lehrstuhl für Thermodynamik, Ruhr-Universität Bochum, D-44780 Bochum,
             Germany
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>This paper comprehensively describes those types of densimeters that
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper comprehensively describes those types of densimeters that
     allow very accurate density measurements of fluid substances over large ranges
     of temperature and for high pressures and that also cover the entire density range
     from low gas densities up to high densities of compressed liquids. Densimeters
     meeting these requirements are based on special applications of hydrostatic balances
     in combination with magnetic suspension couplings. These densimeters can be subdivided
-    into two-sinker densimeters, and single-sinker densimeters which allow pρT measurements
-    with total uncertainties in density of about 0.01% to 0.02% (level of confidence
-    95%) depending on their individual design. Besides a discussion of the design
-    of such densimeters, it is also shown which substances in which ranges of the
-    fluid state have been investigated with these instruments. Using nitrogen as an
-    example, the experimental results obtained with these densimeters are discussed
-    and compared with the pρT data obtained with other types of densimeters. A description
-    of the features of other types of densimeters is outside the scope of this paper,
-    but they are briefly summarized at the beginning of this paper.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    into two-sinker densimeters, and single-sinker densimeters which allow <italic>p</italic>ρ<italic>T</italic>
+    measurements with total uncertainties in density of about 0.01% to 0.02% (level
+    of confidence 95%) depending on their individual design. Besides a discussion
+    of the design of such densimeters, it is also shown which substances in which
+    ranges of the fluid state have been investigated with these instruments. Using
+    nitrogen as an example, the experimental results obtained with these densimeters
+    are discussed and compared with the <italic>p</italic>ρ<italic>T</italic> data
+    obtained with other types of densimeters. A description of the features of other
+    types of densimeters is outside the scope of this paper, but they are briefly
+    summarized at the beginning of this paper.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Densimeters for very accurate density measurements of fluids over large
+    - language: en
+      script: Latn
+      content: Densimeters for very accurate density measurements of fluids over large
         ranges of temperature, pressure, and density
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Densimeters for very accurate density measurements of fluids over large
+    - language: en
+      script: Latn
+      content: Densimeters for very accurate density measurements of fluids over large
         ranges of temperature, pressure, and density
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: S24
     reference_to: S39
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,131 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S30
-title:
-- content: Uncertainty of combined activity estimations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S30
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S30
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S30
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty of combined activity estimations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S30
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S30
+docidentifier:
+- content: Metrologia 52 3 S30
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S30
+- content: 10.1088/0026-1394/52/3/S30
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ratel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: François O Bochud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CH1007 Lausanne, Switzerland
         name:
         - content: Institut de Radiophysique appliquée
-        contact:
-        - address:
-            formatted_address: CH1007 Lausanne, Switzerland
-  role:
-  - type: author
-revdate: '2015-05-22'
 abstract:
-- content: Abstract<p>This paper discusses basic theoretical strategies used to deal
-    with measurement uncertainties arising from different experimental situations.
-    It attempts to indicate the most appropriate method of obtaining a reliable estimate
-    of the quantity to be evaluated depending on the characteristics of the data available.
-    The theoretical strategies discussed are supported by experimental detail, and
-    the conditions and results have been taken from examples in the field of radionuclide
-    metrology. Special care regarding the correct treatment of covariances is emphasized
-    because of the unreliability of the results obtained if these are neglected.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This paper discusses basic theoretical strategies used to deal with measurement uncertainties arising from different experimental situations. It attempts to indicate the most appropriate method of obtaining a reliable estimate of the quantity to be evaluated depending on the characteristics of the data available. The theoretical strategies discussed are supported by experimental detail, and the conditions and results have been taken from examples in the field of radionuclide metrology. Special care regarding the correct treatment of covariances is emphasized because of the unreliability of the results obtained if these are neglected.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of combined activity estimations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty of combined activity estimations
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty of combined activity estimations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainty of combined activity estimations
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +116,6 @@ extent:
     reference_from: S30
     reference_to: S41
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

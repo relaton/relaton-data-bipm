@@ -1,112 +1,90 @@
 ---
-schema-version: v1.2.9
 id: CIPM-REC-1989-04
-title:
-- content: Installation of docks at the BIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Installation d'horloges au BIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/78-1989/resolution-4
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/78-1989/resolution-4
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-78.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-78.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17315032/CIPM78.pdf/078200cd-d8b2-f33b-da22-a2a3badeee10
-  type: pdf
 type: proceedings
-docid:
-- id: CIPM REC 4 (1989)
-  type: BIPM
-  primary: true
-- id: CIPM REC 4 (1989, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CIPM REC 4 (1989, F)
+  content: Installation of docks at the BIPM
+- language: fr
+  script: Latn
+  content: Installation d'horloges au BIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/78-1989/resolution-4
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/78-1989/resolution-4
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-78.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-78.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17315032/CIPM78.pdf/078200cd-d8b2-f33b-da22-a2a3badeee10
+docidentifier:
+- content: CIPM REC 4 (1989)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CIPM Recommendation 4 (1989)
+  content: CIPM REC 4 (1989, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CIPM REC 4 (1989, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CIPM Recommendation 4 (1989)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 4 du CIPM (1989)
+  content: Recommandation 4 du CIPM (1989)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CIPM Recommendation 4 (1989) / Recommandation 4 du CIPM (1989)
+- content: CIPM Recommendation 4 (1989) / Recommandation 4 du CIPM (1989)
   type: BIPM-long
 docnumber: CIPM REC 4 (1989)
 date:
 - type: published
-  value: '1989-09-28'
+  at: '1989-09-28'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1989-09-28'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -115,8 +93,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '4'

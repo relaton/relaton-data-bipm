@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia213139
-title:
-- content: A Reference Function for Platinum Resistance Thermometer Interpolation
-    between 13.8 K and 273.15 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 3 139
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Reference Function for Platinum Resistance Thermometer Interpolation
+    between 13.8 K and 273.15 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/3/006
+docidentifier:
+- content: Metrologia 21 3 139
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/3/006
+- content: 10.1088/0026-1394/21/3/006
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R C Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L M Besley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R G Kemp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>Recent accurate thermodynamic data from a number of laboratories are
+- language: en
+  script:
+  - Latn
+  content: "<p>Recent accurate thermodynamic data from a number of laboratories are
     combined to provide the basis for a reference function for platinum resistance
     thermometer interpolation between 13.81 K and 273.15 K. The values of thermodynamic
     temperature for the defining fixed points of the International Practical Temperature
@@ -79,40 +71,32 @@ abstract:
     temperatures to within ± 2 mK. The reference function and the new values of the
     defining fixed points are proposed for use in the revision of the International
     Practical Temperature Scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Reference Function for Platinum Resistance Thermometer Interpolation
+    - language: en
+      script: Latn
+      content: A Reference Function for Platinum Resistance Thermometer Interpolation
         between 13.8 K and 273.15 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '139'
     reference_to: '146'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

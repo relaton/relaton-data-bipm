@@ -1,125 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015009
-title:
-- content: The effect of a parasitic light mode in length measurements by interferometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf480
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf480
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The effect of a parasitic light mode in length measurements by interferometry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf480
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf480
+docidentifier:
+- content: Metrologia 56 1 015009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf480
+- content: 10.1088/1681-7575/aaf480
   type: doi
 date:
 - type: published
-  value: '2018-12-14'
+  at: '2018-12-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: René Schödel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Franke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2018-12-14'
 abstract:
-- content: Abstract<p>Light sources are typically assumed to be monochromatic when
-    these are used for length measurements by interferometry, especially for the primary
-    realization of the length. From the calibrated frequency of the light source,
-    the (vacuum-) wavelength can be calculated which is generally assumed to be identical
-    with the path length which corresponds to a single interference order (). While
-    this assumption is correct for an ideal interference of two plane waves, it does
-    not hold when the light is not perfectly monochromatic. This paper demonstrates
-    that a certain amount of ‘parasitic light’, originating from an unwanted mode
-    of a laser’s resonator, can lead to a relative error in the order of 10<sup>−7</sup>
-    in a length measurement although the light frequency of the main mode was calibrated
-    on a relative level of 10<sup>−12</sup>. The theoretical concept comprising a
-    four-beam interference was confirmed experimentally by comparative length measurements
-    in vacuum. Moreover, for a single parasitic light mode it was demonstrated that
-    the maximum effect onto a length measurement is approximately given by interference
-    orders, in which is the ratio between the intensity of the main light mode with
-    respect to that of the parasitic light mode. As a conclusion it seems necessary
-    to formulate additional requirements for light sources to be used in length measurements
-    by interferometry, especially when these are intended to be used for the primary
-    realization of the length.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Light sources are typically assumed to be monochromatic when these are used for length measurements by interferometry, especially for the primary realization of the length. From the calibrated frequency of the light source, the (vacuum-) wavelength can be calculated which is generally assumed to be identical with the path length which corresponds to a single interference order (<inline-formula><inline-graphic xlink:href="metaaf480ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula>). While this assumption is correct for an ideal interference of two plane waves, it does not hold when the light is not perfectly monochromatic. This paper demonstrates that a certain amount of ‘parasitic light’, originating from an unwanted mode of a laser’s resonator, can lead to a relative error in the order of 10<sup>−7</sup> in a length measurement although the light frequency of the main mode was calibrated on a relative level of 10<sup>−12</sup>. The theoretical concept comprising a four-beam interference was confirmed experimentally by comparative length measurements in vacuum. Moreover, for a single parasitic light mode it was demonstrated that the maximum effect onto a length measurement is approximately given by <inline-formula><inline-graphic xlink:href="metaaf480ieqn002.gif" xlink:type="simple"></inline-graphic></inline-formula> interference orders, in which <inline-formula><inline-graphic xlink:href="metaaf480ieqn003.gif" xlink:type="simple"></inline-graphic></inline-formula> is the ratio between the intensity of the main light mode with respect to that of the parasitic light mode. As a conclusion it seems necessary to formulate additional requirements for light sources to be used in length measurements by interferometry, especially when these are intended to be used for the primary realization of the length.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The effect of a parasitic light mode in length measurements by interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The effect of a parasitic light mode in length measurements by interferometry
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The effect of a parasitic light mode in length measurements by interferometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The effect of a parasitic light mode in length measurements by interferometry
     date:
     - type: epub
-      value: '2018-12-14'
+      at: '2018-12-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +99,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

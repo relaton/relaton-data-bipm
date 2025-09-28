@@ -1,129 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia496809
-title:
-- content: Metas.UncLib—a measurement uncertainty calculator for advanced problems
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/49/6/809
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/6/809
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 6 809
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: "<bold><italic>Metas.UncLib</italic></bold>—a measurement uncertainty calculator
+    for advanced problems"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/6/809
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/6/809
+docidentifier:
+- content: Metrologia 49 6 809
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/6/809
+- content: 10.1088/0026-1394/49/6/809
   type: doi
 date:
 - type: published
-  value: '2012-11-07'
+  at: '2012-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Zeier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Office of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hoffmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Office of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Wollensack
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
         name:
         - content: Federal Office of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, CH-3003 Bern-Wabern, Switzerland
-  role:
-  - type: author
-revdate: '2012-11-07'
 abstract:
-- content: Abstract<p>Metas.UncLib is a software library that facilitates the linear
-    propagation of uncertainties through a measurement model. It is able to handle
-    complex-valued and multivariate quantities and supports higher mathematics. It
-    is therefore able to deal with advanced metrological problems that require, e.g.,
-    matrix manipulations. The software is optimized for short computation times and
-    low memory use.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p><italic>Metas.UncLib</italic> is a software library that facilitates the linear propagation of uncertainties through a measurement model. It is able to handle complex-valued and multivariate quantities and supports higher mathematics. It is therefore able to deal with advanced metrological problems that require, e.g., matrix manipulations. The software is optimized for short computation times and low memory use.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metas.UncLib—a measurement uncertainty calculator for advanced problems
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: "<bold><italic>Metas.UncLib</italic></bold>—a measurement uncertainty
+        calculator for advanced problems"
     date:
     - type: ppub
-      value: '2012-12-01'
+      at: '2012-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metas.UncLib—a measurement uncertainty calculator for advanced problems
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: "<bold><italic>Metas.UncLib</italic></bold>—a measurement uncertainty
+        calculator for advanced problems"
     date:
     - type: epub
-      value: '2012-11-07'
+      at: '2012-11-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -134,6 +119,6 @@ extent:
     reference_from: '809'
     reference_to: '815'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

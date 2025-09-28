@@ -1,166 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia582025007
-title:
-- content: 'The international reference system for pure beta-particle emitting radionuclides:
-    an evaluation of the measurement uncertainties'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abe355
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abe355
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 2 025007
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The international reference system for pure beta-particle emitting radionuclides:
+    an evaluation of the measurement uncertainties'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abe355
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abe355
+docidentifier:
+- content: Metrologia 58 2 025007
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abe355
+- content: 10.1088/1681-7575/abe355
   type: doi
 date:
 - type: published
-  value: '2021-03-08'
+  at: '2021-03-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Romain Coulon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Steven Judge
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Haoran Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100029 Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology (NIM)
-        contact:
-        - address:
-            formatted_address: 100029 Beijing, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Carine Michotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
         name:
         - content: Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil, F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2021-03-08'
 abstract:
-- content: 'Abstract<p>The international bureau of weights and measures (BIPM) is
-    the centre for governments to act in common on matters relating to metrology,
-    co-ordinating the world-wide measurement system and providing capabilities for
-    international measurement comparisons on a shared-cost basis. The ionizing radiation
-    department maintains and develops high-precision instrumentation to enable national
-    metrology institutes to demonstrate the equivalence of primary standards of radioactivity.
-    The scope of this service is expanding: the ‘extended international reference
-    system (ESIR)’ project aims to provide a stable instrument capable of comparing
-    standards of pure beta-emitting radionuclides, complementing existing instruments
-    for gamma-emitters. In 2019, the members of the ESIR project devised a liquid
-    scintillation system that is capable of producing very stable reference values
-    over a long timescale, using a method inspired by the ‘triple-to-double coincidence
-    ratio’ (TDCR) technique. This article sets out the approach that will be used
-    for evaluating uncertainties in future comparison exercises using the ESIR. The
-    method adopted was based on the guide to the expression of uncertainty in measurement
-    published by the joint committee for guides in metrology. Particular care has
-    been taken in choosing the evaluation method: the response of the TDCR instrument
-    cannot be linearized, so a Monte-Carlo method was implemented and a technique
-    to manage correlated input data was developed. A novel sampling technique was
-    used for the input multi-variate distribution of coincident count rates; this
-    approach may also be relevant to primary standards realized using the TDCR technique.
-    Calculation have shown that standard uncertainties of the order of 0.1 % will
-    be achievable for a typical radionuclide.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The international bureau of weights and measures (BIPM) is the centre for governments to act in common on matters relating to metrology, co-ordinating the world-wide measurement system and providing capabilities for international measurement comparisons on a shared-cost basis. The ionizing radiation department maintains and develops high-precision instrumentation to enable national metrology institutes to demonstrate the equivalence of primary standards of radioactivity. The scope of this service is expanding: the ‘extended international reference system (ESIR)’ project aims to provide a stable instrument capable of comparing standards of pure beta-emitting radionuclides, complementing existing instruments for gamma-emitters. In 2019, the members of the ESIR project devised a liquid scintillation system that is capable of producing very stable reference values over a long timescale, using a method inspired by the ‘triple-to-double coincidence ratio’ (TDCR) technique. This article sets out the approach that will be used for evaluating uncertainties in future comparison exercises using the ESIR. The method adopted was based on the guide to the expression of uncertainty in measurement published by the joint committee for guides in metrology. Particular care has been taken in choosing the evaluation method: the response of the TDCR instrument cannot be linearized, so a Monte-Carlo method was implemented and a technique to manage correlated input data was developed. A novel sampling technique was used for the input multi-variate distribution of coincident count rates; this approach may also be relevant to primary standards realized using the TDCR technique. Calculation have shown that standard uncertainties of the order of 0.1 % will be achievable for a typical radionuclide.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The international reference system for pure beta-particle emitting
+    - script: Latn
+      content: 'The international reference system for pure beta-particle emitting
         radionuclides: an evaluation of the measurement uncertainties'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-04-01'
+      at: '2021-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The international reference system for pure beta-particle emitting
+    - script: Latn
+      content: 'The international reference system for pure beta-particle emitting
         radionuclides: an evaluation of the measurement uncertainties'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-03-08'
+      at: '2021-03-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -168,6 +130,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

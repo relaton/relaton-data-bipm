@@ -1,113 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326653
-title:
-- content: Space degradation of SOVA sunphotometers on EURECA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/51
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/51
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 653
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Space degradation of SOVA sunphotometers on EURECA
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/51
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/51
+docidentifier:
+- content: Metrologia 32 6 653
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/51
+- content: 10.1088/0026-1394/32/6/51
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ch Wehrli
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Romero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PMOD/WRC
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>Two sunphotometers with three channels at 862 nm, 500 nm and 335 nm
+- language: en
+  script:
+  - Latn
+  content: "<p>Two sunphotometers with three channels at 862 nm, 500 nm and 335 nm
     were operated in space for eleven months on board the European Retrievable Carrier
     (EURECA). Both instruments experienced substantial losses of sensitivity, although
     the second instrument was exposed 100 times less than the first one. After retrieval
     of EURECA, the instruments were examined and optically tested. Contamination and
     degradation of optical components were found, but only small changes in spectral
     bandpasses.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Space degradation of SOVA sunphotometers on EURECA
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Space degradation of SOVA sunphotometers on EURECA
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +102,6 @@ extent:
     reference_from: '653'
     reference_to: '656'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

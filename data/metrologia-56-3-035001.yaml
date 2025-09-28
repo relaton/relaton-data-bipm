@@ -1,157 +1,129 @@
 ---
-schema-version: v1.2.9
-id: Metrologia563035001
-title:
-- content: Comparison between simulation and hardware realization for different clock
-    steering techniques
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab144d
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab144d
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 3 035001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comparison between simulation and hardware realization for different clock
+    steering techniques
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab144d
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab144d
+docidentifier:
+- content: Metrologia 56 3 035001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab144d
+- content: 10.1088/1681-7575/ab144d
   type: doi
 date:
 - type: published
-  value: '2019-05-07'
+  at: '2019-05-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marion Gödel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
         name:
         - content: German Aerospace Center (DLR)
         subdivision:
-        - content: Department of Navigation
-        contact:
-        - address:
-            formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Navigation
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tobias D Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
         name:
         - content: German Aerospace Center (DLR)
         subdivision:
-        - content: Department of Navigation
-        contact:
-        - address:
-            formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Navigation
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Johann Furthner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
         name:
         - content: German Aerospace Center (DLR)
         subdivision:
-        - content: Department of Navigation
-        contact:
-        - address:
-            formatted_address: Münchener Strasse 20, 82234 Wessling, Germany
-  role:
-  - type: author
-revdate: '2019-05-07'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Navigation
 abstract:
-- content: Abstract<p>Clock steering is an important discipline within the time and
-    frequency community as well as in cognate disciplines such as global navigation
-    satellite systems (GNSSs). In the latter, clock steering is a mandatory tool for
-    realizations of time scales, which first are typically created by algorithms forming
-    a paper clock. Often, this software solution of a time scale is already sufficient.
-    However, sometimes a realization in the form of a frequency signal is feasible
-    or even necessary. Future GNSSs concepts plan to use composite clocks consisting
-    of several different clocks to achieve synchronization of satellites within one
-    orbit with the system time. In this approach, a real clock output in the microwave
-    regime is indispensable. Therefore, a real clock has to be steered against the
-    paper clock to realize the composite clock. Consequently, steering techniques
-    are an essential piece for obtaining a realization. Besides the number of algorithms
-    to choose from, there are several parameters that need to be defined by the user
-    to achieve the best performance for distinct scenarios. In this paper we compare
-    the realization performance and applicability of two different steering techniques,
-    namely linear-quadratic Gaussian control and pole placement, in a simplified hardware
-    setup. The studied scenario consists of a steerable clock consisting of a micro
-    phase stepper which changes the frequency of the output of an oven-controlled
-    quartz oscillator (OCXO) and a rubidium atomic clock (RB). The OCXO in turn is
-    steered to follow the free-running RB as closely as possible. Steering the output
-    of the OCXO introduces a new process in the clock. As a result, the Allan deviation
-    of the steered clock shows a bump which location is dependent on the chosen control
-    interval and steering technique. This has to be considered for the designated
-    operation. We compare simulations of the clock steering with both techniques to
-    real-data results from our laboratory.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Clock steering is an important discipline within the time and frequency community as well as in cognate disciplines such as global navigation satellite systems (GNSSs). In the latter, clock steering is a mandatory tool for realizations of time scales, which first are typically created by algorithms forming a paper clock. Often, this software solution of a time scale is already sufficient. However, sometimes a realization in the form of a frequency signal is feasible or even necessary. Future GNSSs concepts plan to use composite clocks consisting of several different clocks to achieve synchronization of satellites within one orbit with the system time. In this approach, a real clock output in the microwave regime is indispensable. Therefore, a real clock has to be steered against the paper clock to realize the composite clock. Consequently, steering techniques are an essential piece for obtaining a realization. Besides the number of algorithms to choose from, there are several parameters that need to be defined by the user to achieve the best performance for distinct scenarios. In this paper we compare the realization performance and applicability of two different steering techniques, namely linear-quadratic Gaussian control and pole placement, in a simplified hardware setup. The studied scenario consists of a steerable clock consisting of a micro phase stepper which changes the frequency of the output of an oven-controlled quartz oscillator (OCXO) and a rubidium atomic clock (RB). The OCXO in turn is steered to follow the free-running RB as closely as possible. Steering the output of the OCXO introduces a new process in the clock. As a result, the Allan deviation of the steered clock shows a bump which location is dependent on the chosen control interval and steering technique. This has to be considered for the designated operation. We compare simulations of the clock steering with both techniques to real-data results from our laboratory.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison between simulation and hardware realization for different
+    - script: Latn
+      content: Comparison between simulation and hardware realization for different
         clock steering techniques
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-06-01'
+      at: '2019-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison between simulation and hardware realization for different
+    - script: Latn
+      content: Comparison between simulation and hardware realization for different
         clock steering techniques
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-05-07'
+      at: '2019-05-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -159,6 +131,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

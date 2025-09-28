@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485241
-title:
-- content: Investigations at INRIM on a Pd–C cell manufactured by NPL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 241
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Investigations at INRIM on a Pd–C cell manufactured by NPL
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/002
+docidentifier:
+- content: Metrologia 48 5 241
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/002
+- content: 10.1088/0026-1394/48/5/002
   type: doi
 date:
 - type: published
-  value: '2011-06-16'
+  at: '2011-06-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Battuello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Florio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Machin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Teddington, Middlesex TW11
             0LW, UK
-  role:
-  - type: author
-revdate: '2011-06-16'
 abstract:
-- content: "<p>One of a set of metal–carbon eutectic cells (a Pd–C cell, 1765 K) manufactured
+- language: en
+  script:
+  - Latn
+  content: "<p>One of a set of metal–carbon eutectic cells (a Pd–C cell, 1765 K) manufactured
     by NPL and used for a previous comparison of temperature scales with NIST has
     been investigated at INRIM. There it was implemented in two different furnaces,
     namely a single- and a three-zone, and measured with a standard radiation thermometer
@@ -79,57 +71,50 @@ abstract:
     differs by only −0.46 K from the NPL value. The agreements, within the combined
     expanded uncertainties, are particularly significant, because of the different
     approach followed at INRIM, namely the extrapolation of multi-fixed-point scales
-    (n = 3 and n = 4), as compared with a direct radiometric method at NIST and an
-    ITS-90 realization traceable to the gold point at NPL.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    (<italic>n</italic> = 3 and <italic>n</italic> = 4), as compared with a direct
+    radiometric method at NIST and an ITS-90 realization traceable to the gold point
+    at NPL.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Investigations at INRIM on a Pd–C cell manufactured by NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Investigations at INRIM on a Pd–C cell manufactured by NPL
     date:
     - type: epub
-      value: '2011-06-16'
+      at: '2011-06-16'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Investigations at INRIM on a Pd–C cell manufactured by NPL
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Investigations at INRIM on a Pd–C cell manufactured by NPL
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +125,6 @@ extent:
     reference_from: '241'
     reference_to: '245'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

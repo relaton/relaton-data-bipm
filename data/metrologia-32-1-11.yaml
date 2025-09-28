@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia32111
-title:
-- content: Analysis and control of electrical insulation leakage in platinum resistance
-    thermometers up to 1064 °C
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 1 11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Analysis and control of electrical insulation leakage in platinum resistance
+    thermometers up to 1064 °C
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/1/002
+docidentifier:
+- content: Metrologia 32 1 11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/1/002
+- content: 10.1088/0026-1394/32/1/002
   type: doi
 date:
 - type: published
-  value: '1995-01-01'
+  at: '1995-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council, Ottawa, Ontario, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '1995-01-01'
 abstract:
-- content: "<p>Electrical insulation resistance measurements and standing dc voltage
+- language: en
+  script:
+  - Latn
+  content: "<p>Electrical insulation resistance measurements and standing dc voltage
     measurements have been made on fifteen standard platinum resistance thermometers
     in the range 631 °C to 1064 °C. A model for the insulation leakage resistance
     in the thermometer-furnace system is proposed that takes into account ground leakage
@@ -60,40 +56,32 @@ abstract:
     over the range 631 °C to 1064 °C. It is shown that this bias voltage technique
     can readily be applied to a dc commercial thermometer bridge, and can be used
     to estimate the leakage temperature error during a normal temperature measurement.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Analysis and control of electrical insulation leakage in platinum resistance
+    - language: en
+      script: Latn
+      content: Analysis and control of electrical insulation leakage in platinum resistance
         thermometers up to 1064 °C
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-01-01'
+      at: '1995-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +92,6 @@ extent:
     reference_from: '11'
     reference_to: '25'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

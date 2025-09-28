@@ -1,84 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia441A01001
-title:
-- content: 'Final report on EUROMET.EM-K5: Comparison of 50/60 Hz power (EUROMET project
-    385)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/1A/01001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/1A/01001
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 1A 01001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on EUROMET.EM-K5: Comparison of 50/60 Hz power (EUROMET project
+    385)'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/1A/01001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/1A/01001
+docidentifier:
+- content: Metrologia 44 1A 01001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/1A/01001
+- content: 10.1088/0026-1394/44/1A/01001
   type: doi
 date:
 - type: published
-  value: '2007-01-01'
+  at: '2007-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Bergeest
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electricity Division, Physikalisch-Technische Bundesanstalt, 38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2007-01-01'
 abstract:
-- content: |-
-    <p>At 17 national metrology institutes (NMI) of EUROMET member states, electrical standards of low-frequency (50/60 Hz) power were compared to establish the relationship between the electrical unit of AC power at these laboratories. The results of this comparison are described. The differences between most laboratory's values and the reference values were within the expanded measurement uncertainties at a coverage factor k = 2.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>At 17 national metrology institutes (NMI) of EUROMET member states, electrical standards of low-frequency (50/60 Hz) power were compared to establish the relationship between the electrical unit of AC power at these laboratories. The results of this comparison are described. The differences between most laboratory's values and the reference values were within the expanded measurement uncertainties at a coverage factor  <italic>k</italic> = 2.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K5/EUROMET.EM-K5.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on EUROMET.EM-K5: Comparison of 50/60 Hz power (EUROMET
+    - language: en
+      script: Latn
+      content: 'Final report on EUROMET.EM-K5: Comparison of 50/60 Hz power (EUROMET
         project 385)'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-01-01'
+      at: '2007-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +79,6 @@ extent:
     reference_from: '01001'
     reference_to: '01001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

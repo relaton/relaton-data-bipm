@@ -1,110 +1,88 @@
 ---
-schema-version: v1.2.9
 id: CGPM-RES-2022-05
-title:
-- content: On the future redefinition of the second
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Sur la future redéfinition de la seconde
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/cgpm-2022/resolution-5
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/cgpm-2022/resolution-5
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-27.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-27.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CGPM RES 5 (2022)
-  type: BIPM
-  primary: true
-- id: CGPM RES 5 (2022, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CGPM RES 5 (2022, F)
+  content: On the future redefinition of the second
+- language: fr
+  script: Latn
+  content: Sur la future redéfinition de la seconde
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/cgpm-2022/resolution-5
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/cgpm-2022/resolution-5
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-27.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-27.yml
+docidentifier:
+- content: CGPM RES 5 (2022)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CGPM Resolution 5 (2022)
+  content: CGPM RES 5 (2022, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CGPM RES 5 (2022, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CGPM Resolution 5 (2022)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Résolution 5 de la CGPM (2022)
+  content: Résolution 5 de la CGPM (2022)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CGPM Resolution 5 (2022) / Résolution 5 de la CGPM (2022)
+- content: CGPM Resolution 5 (2022) / Résolution 5 de la CGPM (2022)
   type: BIPM-long
 docnumber: CGPM RES 5 (2022)
 date:
 - type: published
-  value: '2022-11-18'
+  at: '2022-11-18'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2022-11-18'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -113,8 +91,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: resolution
+    content: resolution
   structuredidentifier:
     docnumber: '5'

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia6119
-title:
-- content: Wavelength Calibration of an Electrodeless Kr 86 Lamp and Measurements
-    of Some Infrared Kr 86 Lines by Means of the Michelson Interferometer at BIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/6/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/6/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 6 1 19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Wavelength Calibration of an Electrodeless Kr 86 Lamp and Measurements
+    of Some Infrared Kr 86 Lines by Means of the Michelson Interferometer at BIPM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/6/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/6/1/003
+docidentifier:
+- content: Metrologia 6 1 19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/6/1/003
+- content: 10.1088/0026-1394/6/1/003
   type: doi
 date:
 - type: published
-  value: '1970-01-01'
+  at: '1970-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Göran Norlén
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics Department, University of Lund, Lund, Sweden
-  role:
-  - type: author
-revdate: '1970-01-01'
 abstract:
-- content: "<p>The wavelengths of the 16 infrared Kr 86 transitions 5s - 5p between
+- language: en
+  script:
+  - Latn
+  content: "<p>The wavelengths of the 16 infrared Kr 86 transitions 5s - 5p between
     759 and 975 nm, emitted by a microwave-excited electrodeless lamp, have been measured
     relative to the primary standard. In addition, direct comparisons between the
     wavelengths emitted by the standard hot cathode lamp and two electrodeless lamps
@@ -49,40 +45,32 @@ abstract:
     groups. The line defining the metre was found to be shifted about 0.05 m<sup>-1</sup>
     to the red when emitted from the electrodeless lamps. The accuracy of the measurements
     is estimated to be about ± 0.01 m<sup>-1</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1970'
+- from: '1970'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Wavelength Calibration of an Electrodeless Kr 86 Lamp and Measurements
+    - language: en
+      script: Latn
+      content: Wavelength Calibration of an Electrodeless Kr 86 Lamp and Measurements
         of Some Infrared Kr 86 Lines by Means of the Michelson Interferometer at BIPM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1970-01-01'
+      at: '1970-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '19'
     reference_to: '21'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

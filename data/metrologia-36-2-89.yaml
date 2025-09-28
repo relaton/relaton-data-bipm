@@ -1,76 +1,68 @@
 ---
-schema-version: v1.2.9
-id: Metrologia36289
+type: article
+schema_version: v1.4.1
 title:
-- content: 'International comparison (CCQM-3) on the determination of organic compounds
+- language: en
+  script: Latn
+  content: 'International comparison (CCQM-3) on the determination of organic compounds
     using isotope dilution mass spectrometry: (pp''-dichlorodiphenyl) dichloroethylene
     (pp''-DDE) in solution'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/36/2/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/2/3
-  type: doi
-type: article
-docid:
-- id: Metrologia 36 2 89
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/2/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/2/3
+docidentifier:
+- content: Metrologia 36 2 89
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/2/3
+- content: 10.1088/0026-1394/36/2/3
   type: doi
 date:
 - type: published
-  value: '1999-04-01'
+  at: '1999-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K S Webb
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LGC, CCQM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Carter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LGC, CCQM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V J Barwick
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LGC, CCQM
-  role:
-  - type: author
-revdate: '1999-04-01'
 abstract:
-- content: "<p>A comparison (CCQM-3) of the concentration of the compound (pp'-dichlorodiphenyl)
+- language: en
+  script:
+  - Latn
+  content: "<p>A comparison (CCQM-3) of the concentration of the compound (pp'-dichlorodiphenyl)
     dichloroethylene (pp'-DDE) in 2,2,4-trimethyl pentane solvent by national laboratories
     using isotope dilution mass spectrometry has been completed. Two levels of sample
     solution were provided within the range 0.05 µg g<sup>-1</sup> to 5 µg g<sup>-1</sup>.
@@ -84,41 +76,33 @@ abstract:
     values. There was a lack of consistency in the calculation of the overall uncertainty,
     therefore a typical example of a measurement uncertainty estimation for this comparison
     is given. Brief details of calibration procedures in IDMS are also given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'International comparison (CCQM-3) on the determination of organic
+    - language: en
+      script: Latn
+      content: 'International comparison (CCQM-3) on the determination of organic
         compounds using isotope dilution mass spectrometry: (pp''-dichlorodiphenyl)
         dichloroethylene (pp''-DDE) in solution'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1999-04-01'
+      at: '1999-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +113,6 @@ extent:
     reference_from: '89'
     reference_to: '99'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

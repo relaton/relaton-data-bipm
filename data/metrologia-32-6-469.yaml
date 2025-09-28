@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326469
-title:
-- content: A four-element transmission trap detector
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/13
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 469
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A four-element transmission trap detector
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/13
+docidentifier:
+- content: Metrologia 32 6 469
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/13
+- content: 10.1088/0026-1394/32/6/13
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Gardner
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>Use of a transmission trap detector with four silicon photodiodes for
+- language: en
+  script:
+  - Latn
+  content: "<p>Use of a transmission trap detector with four silicon photodiodes for
     absolute radiometry is described. The photodiodes are arranged in a three-dimensional
     array so that the small amount of light not absorbed after four reflections is
     transmitted in a direction coaxial with the input direction. The transmittance
@@ -49,39 +45,31 @@ abstract:
     power measurements for transmission losses in the range 0.3% to 3%, depending
     on the orientation of the trap detector relative to the polarization direction
     of the input beam. Trap power measurements are compared with a cryogenic radiometer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A four-element transmission trap detector
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A four-element transmission trap detector
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '469'
     reference_to: '472'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia183161
-title:
-- content: Report on the Sixth International Symposium on Temperature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 161
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report on the Sixth International Symposium on Temperature
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/008
+docidentifier:
+- content: Metrologia 18 3 161
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/008
+- content: 10.1088/0026-1394/18/3/008
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B W Mangum
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Absolute Physical Quantities, National Bureau of Standards,
             Washington, DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G T Furukawa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Absolute Physical Quantities, National Bureau of Standards,
             Washington, DC 20234, USA
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>This is a report on the Sixth International Symposium on Temperature
+- language: en
+  script:
+  - Latn
+  content: "<p>This is a report on the Sixth International Symposium on Temperature
     which was held in Washington, DC, USA. March 15-18, 1982. It includes a brief
     introduction indicating the timeliness of the Symposium, its sponsors and the
     publication of its proceedings. The remainder of the report is devoted to a summary
     of the Plenary and Technical Sessions of the Symposium.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report on the Sixth International Symposium on Temperature
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Report on the Sixth International Symposium on Temperature
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '161'
     reference_to: '168'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

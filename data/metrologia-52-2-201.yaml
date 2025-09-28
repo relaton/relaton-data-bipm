@@ -1,111 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522201
-title:
-- content: 'Uncertainty modelling of real-time observation of a moving object: photogrammetric
-    measurements'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/201
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/201
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 201
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Uncertainty modelling of real-time observation of a moving object: photogrammetric
+    measurements'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/201
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/201
+docidentifier:
+- content: Metrologia 52 2 201
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/201
+- content: 10.1088/0026-1394/52/2/201
   type: doi
 date:
 - type: published
-  value: '2015-02-09'
+  at: '2015-02-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas Ulrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Karlsruhe, Germany
         name:
         - content: Geodetic Institute (GIK), Karlsruhe Institute of Technology (KIT)
-        contact:
-        - address:
-            formatted_address: Karlsruhe, Germany
-  role:
-  - type: author
-revdate: '2015-02-09'
 abstract:
-- content: Abstract<p>Photogrametric systems are widely used in the field of industrial
-    metrology to measure kinematic tasks such as tracking robot movements. In order
-    to assess spatiotemporal deviations of a kinematic movement, it is crucial to
-    have a reliable uncertainty of the kinematic measurements. Common methods to evaluate
-    the uncertainty in kinematic measurements include approximations specified by
-    the manufactures, various analytical adjustment methods and Kalman filters.</p><p>Here
-    a hybrid system estimator in conjunction with a kinematic measurement model is
-    applied. This method can be applied to processes which include various types of
-    kinematic behaviour, constant velocity, variable acceleration or variable turn
-    rates. Additionally, it has been shown that the approach is in accordance with
-    GUM (Guide to the Expression of Uncertainty in Measurement). The approach is compared
-    to the Kalman filter using simulated data to achieve an overall error calculation.
-    Furthermore, the new approach is used for the analysis of a rotating system as
-    this system has both a constant and a variable turn rate.</p><p>As the new approach
-    reduces overshoots it is more appropriate for analysing kinematic processes than
-    the Kalman filter. In comparison with the manufacturer’s approximations, the new
-    approach takes account of kinematic behaviour, with an improved description of
-    the real measurement process. Therefore, this approach is well-suited to the analysis
-    of kinematic processes with unknown changes in kinematic behaviour.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Photogrametric systems are widely used in the field of industrial metrology to measure kinematic tasks such as tracking robot movements. In order to assess spatiotemporal deviations of a kinematic movement, it is crucial to have a reliable uncertainty of the kinematic measurements. Common methods to evaluate the uncertainty in kinematic measurements include approximations specified by the manufactures, various analytical adjustment methods and Kalman filters.</p>
+    <p>Here a hybrid system estimator in conjunction with a kinematic measurement model is applied. This method can be applied to processes which include various types of kinematic behaviour, constant velocity, variable acceleration or variable turn rates. Additionally, it has been shown that the approach is in accordance with GUM (Guide to the Expression of Uncertainty in Measurement). The approach is compared to the Kalman filter using simulated data to achieve an overall error calculation. Furthermore, the new approach is used for the analysis of a rotating system as this system has both a constant and a variable turn rate.</p>
+    <p>As the new approach reduces overshoots it is more appropriate for analysing kinematic processes than the Kalman filter. In comparison with the manufacturer’s approximations, the new approach takes account of kinematic behaviour, with an improved description of the real measurement process. Therefore, this approach is well-suited to the analysis of kinematic processes with unknown changes in kinematic behaviour.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty modelling of real-time observation of a moving object:
+    - script: Latn
+      content: 'Uncertainty modelling of real-time observation of a moving object:
         photogrammetric measurements'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty modelling of real-time observation of a moving object:
+    - script: Latn
+      content: 'Uncertainty modelling of real-time observation of a moving object:
         photogrammetric measurements'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-02-09'
+      at: '2015-02-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +93,6 @@ extent:
     reference_from: '201'
     reference_to: '213'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,125 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S165
-title:
-- content: Earth rotation monitoring, UT1 determination and prediction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S06
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Earth rotation monitoring, UT1 determination and prediction
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S06
+docidentifier:
+- content: Metrologia 48 4 S165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S06
+- content: 10.1088/0026-1394/48/4/S06
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Daniel Gambis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IERS Earth Orientation Center, Paris Observatory, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Brian Luzum
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IERS Rapid Service/Predictions Center, US Naval Observatory, Washington
             DC, USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>Monitoring the Earth's rotation angle is essential in various domains
-    linked to reference systems such as space navigation, precise orbit determinations
-    of artificial Earth satellites including the Global Navigation Satellite Systems
-    (GNSS), positional astronomy and for geophysical studies on time scales ranging
-    from a few hours to decades.</p><p>Universal Time UT1 is based on the rotation
-    of the Earth on its axis. Historically it was related to mean solar time on the
-    meridian of Greenwich, sometimes known as Greenwich Mean Time. Monitoring Earth
-    orientation, and in particular UT1, is the primary task of the International Earth
-    Rotation and Reference Systems Service (IERS). The Earth Orientation Center is
-    responsible for monitoring Earth orientation parameters (EOPs) including long-term
-    consistency and leap second announcements. The Rapid Service/Prediction Center
-    is in charge of the rapid, near real-time solution and predictions. These two
-    complementary services of the IERS provide Earth orientation information from
-    results derived predominantly from Very Long Baseline Interferometry with valuable
-    input from GNSS observations and global atmospheric angular momentum for both
-    the combination and prediction of EOPs.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Monitoring the Earth's rotation angle is essential in various domains linked to reference systems such as space navigation, precise orbit determinations of artificial Earth satellites including the Global Navigation Satellite Systems (GNSS), positional astronomy and for geophysical studies on time scales ranging from a few hours to decades.</p>
+    <p>Universal Time UT1 is based on the rotation of the Earth on its axis. Historically it was related to mean solar time on the meridian of Greenwich, sometimes known as Greenwich Mean Time. Monitoring Earth orientation, and in particular UT1, is the primary task of the International Earth Rotation and Reference Systems Service (IERS). The Earth Orientation Center is responsible for monitoring Earth orientation parameters (EOPs) including long-term consistency and leap second announcements. The Rapid Service/Prediction Center is in charge of the rapid, near real-time solution and predictions. These two complementary services of the IERS provide Earth orientation information from results derived predominantly from Very Long Baseline Interferometry with valuable input from GNSS observations and global atmospheric angular momentum for both the combination and prediction of EOPs.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Earth rotation monitoring, UT1 determination and prediction
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Earth rotation monitoring, UT1 determination and prediction
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Earth rotation monitoring, UT1 determination and prediction
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Earth rotation monitoring, UT1 determination and prediction
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +103,6 @@ extent:
     reference_from: S165
     reference_to: S170
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

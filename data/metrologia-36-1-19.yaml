@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia36119
-title:
-- content: Improved free-air ionization chamber for the measurement of x-rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/1/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/1/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 1 19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improved free-air ionization chamber for the measurement of x-rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/1/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/1/4
+docidentifier:
+- content: Metrologia 36 1 19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/1/4
+- content: 10.1088/0026-1394/36/1/4
   type: doi
 date:
 - type: published
-  value: '1999-02-01'
+  at: '1999-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W L Chen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Nucl. Energy Res. Taiwan, Inst. Radiol. Sci. Taiwan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S H Su
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Nucl. Energy Res. Taiwan, Inst. Radiol. Sci. Taiwan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L L Su
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Nucl. Energy Res. Taiwan, Inst. Radiol. Sci. Taiwan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W S Hwang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Inst. Nucl. Energy Res. Taiwan, Inst. Radiol. Sci. Taiwan
-  role:
-  - type: author
-revdate: '1999-02-01'
 abstract:
-- content: "<p>Based on an original design by F. H. Attix, an improved free-air ionization
+- language: en
+  script:
+  - Latn
+  content: "<p>Based on an original design by F. H. Attix, an improved free-air ionization
     chamber was constructed at the National Radiation Standard Laboratory of the Institute
     of Nuclear Energy Research (INER, Taiwan), as the primary standard for x-rays
     generated at energy levels between 50 keV and 300 keV. Various improvements were
@@ -98,39 +88,31 @@ abstract:
     kerma is less than 1 % at the 95 % confidence level. These results indicate that
     the improved free-air ionization chamber can serve as a primary standard at the
     NRSL.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improved free-air ionization chamber for the measurement of x-rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improved free-air ionization chamber for the measurement of x-rays
     date:
     - type: ppub
-      value: '1999-02-01'
+      at: '1999-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +123,6 @@ extent:
     reference_from: '19'
     reference_to: '24'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

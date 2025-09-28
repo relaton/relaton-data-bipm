@@ -1,58 +1,52 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433273
-title:
-- content: A noise thermometry investigation of the melting point of gallium at the
-    NIM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 273
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A noise thermometry investigation of the melting point of gallium at the
+    NIM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/009
+docidentifier:
+- content: Metrologia 43 3 273
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/009
+- content: 10.1088/0026-1394/43/3/009
   type: doi
 date:
 - type: published
-  value: '2006-05-09'
+  at: '2006-05-09'
 contributor:
-- person:
-    name:
-      completename:
-        content: J T Zhang
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
+        content: J T Zhang
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        language: en
+        script: Latn
         content: S Xue
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Metrology (NIM), Beijing 100013, People's
             Republic of China
-  role:
-  - type: author
-revdate: '2006-05-09'
 abstract:
-- content: "<p>This paper describes a study of the melting point of gallium with the
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes a study of the melting point of gallium with the
     new NIM Johnson noise thermometer (JNT). The new thermometer adopts the structure
     of switching correlator and commutator with the reference resistor maintained
     at the triple point of water. The electronic system of the new thermometer is
@@ -66,55 +60,44 @@ abstract:
     and a combined standard uncertainty of 9.4 mK. The uncertainty analysis indicates
     that a standard combined uncertainty of 3 mK could be achieved with the new thermometer
     over an integration period of 1750 h.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A noise thermometry investigation of the melting point of gallium at
+    - language: en
+      script: Latn
+      content: A noise thermometry investigation of the melting point of gallium at
         the NIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-05-09'
+      at: '2006-05-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A noise thermometry investigation of the melting point of gallium at
+    - language: en
+      script: Latn
+      content: A noise thermometry investigation of the melting point of gallium at
         the NIM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +108,6 @@ extent:
     reference_from: '273'
     reference_to: '277'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

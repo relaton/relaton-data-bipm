@@ -1,97 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia546874
-title:
-- content: Research synthesis when some within-study uncertainties are absent
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa8eac
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa8eac
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 6 874
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Research synthesis when some within-study uncertainties are absent
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa8eac
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa8eac
+docidentifier:
+- content: Metrologia 54 6 874
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa8eac
+- content: 10.1088/1681-7575/aa8eac
   type: doi
 date:
 - type: published
-  value: '2017-10-25'
+  at: '2017-10-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew L Rukhin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD, United States of America
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD, United States of America
-  role:
-  - type: author
-revdate: '2017-10-25'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division
 abstract:
-- content: Abstract<p>This work is motivated by examples of collaborative studies
-    where some within-study uncertainty estimates are missing, and promotes Bayes
-    estimators of the common mean of heterogeneous normal observations with possibly
-    absent variance estimates. The Bayesian procedures against a non-informative reference
-    prior and their empirical versions are obtained under several scenarios for the
-    available variance estimates. Their long run performance in terms of the mean
-    squared error, the coverage probability and the width of the corresponding intervals
-    is discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This work is motivated by examples of collaborative studies where some within-study uncertainty estimates are missing, and promotes Bayes estimators of the common mean of heterogeneous normal observations with possibly absent variance estimates. The Bayesian procedures against a non-informative reference prior and their empirical versions are obtained under several scenarios for the available variance estimates. Their long run performance in terms of the mean squared error, the coverage probability and the width of the corresponding intervals is discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Research synthesis when some within-study uncertainties are absent
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Research synthesis when some within-study uncertainties are absent
     date:
     - type: ppub
-      value: '2017-12-01'
+      at: '2017-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Research synthesis when some within-study uncertainties are absent
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Research synthesis when some within-study uncertainties are absent
     date:
     - type: epub
-      value: '2017-10-25'
+      at: '2017-10-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +88,6 @@ extent:
     reference_from: '874'
     reference_to: '882'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

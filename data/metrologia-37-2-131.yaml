@@ -1,137 +1,119 @@
 ---
-schema-version: v1.2.9
-id: Metrologia372131
-title:
-- content: Realization of the unit of luminous intensity at the HUT
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/2/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/2/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 2 131
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the unit of luminous intensity at the HUT
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/2/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/2/5
+docidentifier:
+- content: Metrologia 37 2 131
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/2/5
+- content: 10.1088/0026-1394/37/2/5
   type: doi
 date:
 - type: published
-  value: '2000-04-01'
+  at: '2000-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Toivanen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Manoochehri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT
-  role:
-  - type: author
-revdate: '2000-04-01'
 abstract:
-- content: "<p>A description is presented of an upgraded trap-detector-based realization
+- language: en
+  script:
+  - Latn
+  content: "<p>A description is presented of an upgraded trap-detector-based realization
     of the units of luminous intensity (candela) and illuminance (lux) at the Helsinki
     University of Technology (HUT). The realization is accomplished using a reference
     photometer, a light source and a distance-measurement system. A thorough characterization
     is presented of the reference photometer, consisting of a reflection trap detector,
-    a temperature-controlled V(λ) filter and a high-precision aperture. The maintenance
-    of the units is described. An updated uncertainty budget of the realization is
-    given. Two of the three main uncertainty components of our earlier realizations
-    have been significantly decreased. The uncertainty analysis indicates a relative
-    expanded uncertainty of 2.2 × 10<sup>-3</sup> for the realization of the candela
-    and 1.8 × 10<sup>-3</sup> for that of the lux. The HUT has participated in three
-    international measurement comparisons, whose results are reviewed. According to
-    the results, the HUT candela deviates by +4.0 × 10<sup>-3</sup> from the candela
+    a temperature-controlled <italic>V</italic>(λ) filter and a high-precision aperture.
+    The maintenance of the units is described. An updated uncertainty budget of the
+    realization is given. Two of the three main uncertainty components of our earlier
+    realizations have been significantly decreased. The uncertainty analysis indicates
+    a relative expanded uncertainty of 2.2 × 10<sup>-3</sup> for the realization of
+    the candela and 1.8 × 10<sup>-3</sup> for that of the lux. The HUT has participated
+    in three international measurement comparisons, whose results are reviewed. According
+    to the results, the HUT candela deviates by +4.0 × 10<sup>-3</sup> from the candela
     of the Swedish National Testing and Research Institute with an expanded uncertainty
     of 10<sup>-2</sup>, -2.7 × 10<sup>-3</sup> from that of the National Physical
     Laboratory (UK) with an expanded uncertainty of 5.6 × 10<sup>-3</sup> and -3.3
     × 10<sup>-3</sup> from the world mean with an expanded uncertainty of 5.9 × 10<sup>-3</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the unit of luminous intensity at the HUT
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the unit of luminous intensity at the HUT
     date:
     - type: ppub
-      value: '2000-04-01'
+      at: '2000-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +124,6 @@ extent:
     reference_from: '131'
     reference_to: '140'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,90 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283239
-title:
-- content: Gonioradiometry of Luminescent Diodes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/026
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/026
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 239
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gonioradiometry of Luminescent Diodes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/026
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/026
+docidentifier:
+- content: Metrologia 28 3 239
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/026
+- content: 10.1088/0026-1394/28/3/026
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Sauter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, W-3300
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A three-dimensional gonioradiometer for the measurement of spatial
+- language: en
+  script:
+  - Latn
+  content: "<p>A three-dimensional gonioradiometer for the measurement of spatial
     power distributions is described and methods optimizing spatial resolution and
     duration for the determination of total power (or related photometric quantities)
     are reported. A silicon photodiode with known spectral responsivity is used as
-    detector (V(λ)-corrected for photometric measurements). The detector is moved
-    by two frames mounted in a Cardanic gimbal suspension to give the instrument a
-    radius of 0,3 m with a resolution of 0,01° for both polar angles in more than
+    detector (<italic>V</italic>(λ)-corrected for photometric measurements). The detector
+    is moved by two frames mounted in a Cardanic gimbal suspension to give the instrument
+    a radius of 0,3 m with a resolution of 0,01° for both polar angles in more than
     99% of the full solid angle. To ensure constant total radiant power of the luminescent
     diodes (LED) during the sequential measurements, their electrical power is stabilized
     using constant electrical current and additional temperature control. Results
     are given for some LEDs, which are calibrated as reference standards.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gonioradiometry of Luminescent Diodes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gonioradiometry of Luminescent Diodes
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '239'
     reference_to: '242'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

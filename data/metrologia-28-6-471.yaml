@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia286471
-title:
-- content: Nanometric Surface Metrology at the National Physical Laboratory
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/6/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/6/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 6 471
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Nanometric Surface Metrology at the National Physical Laboratory
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/6/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/6/005
+docidentifier:
+- content: Metrologia 28 6 471
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/6/005
+- content: 10.1088/0026-1394/28/6/005
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Franks
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Mechanical and Optical Metrology, National Physical
             Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A theoretical framework for mapping the performance of measuring instruments
+- language: en
+  script:
+  - Latn
+  content: "<p>A theoretical framework for mapping the performance of measuring instruments
     has been developed that is used to interpret the results of measurements at the
     nanometric level, where it is particularly important to understand the geometrical
     and physical interactions between the measuring instrument and the object being
     measured. Nanometric topographic measuring instruments that have been developed
     at the NPL span measuring ranges of 0,01 nm to 3 nm in surface amplitude and 0,3
     nm to 100 nm in surface wavelength.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nanometric Surface Metrology at the National Physical Laboratory
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Nanometric Surface Metrology at the National Physical Laboratory
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '471'
     reference_to: '482'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

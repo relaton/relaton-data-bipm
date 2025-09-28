@@ -1,117 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9114
-title:
-- content: Correlation Counting Applied to the Determination of Absolute Disintegration
-    Rates for Nuclides with Delayed States
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 1 14
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Correlation Counting Applied to the Determination of Absolute Disintegration
+    Rates for Nuclides with Delayed States
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/1/004
+docidentifier:
+- content: Metrologia 9 1 14
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/1/004
+- content: 10.1088/0026-1394/9/1/004
   type: doi
 date:
 - type: published
-  value: '1973-01-01'
+  at: '1973-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V E Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Williams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Radiation Science, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1973-01-01'
 abstract:
-- content: "<p>The correlation counting method is extended to two-step cascade processes
-    with relatively long-lived intermediate states. Expressions are given for the
-    statistical uncertainties and deadtime effects. The technique is applied to the
-    absolute standardisation of<sup>75</sup>Se,<sup>67</sup>Ga,<sup>67</sup>Cu and<sup>85</sup>Sr
-    activities, and to the detection and estimation of afterpulses in liquid scintillation
-    counting.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The correlation counting method is extended to two-step cascade processes
+    with relatively long-lived intermediate states. Expressions are given for the
+    statistical uncertainties and deadtime effects. The technique is applied to the
+    absolute standardisation of <sup>75</sup>Se, <sup>67</sup>Ga, <sup>67</sup>Cu
+    and <sup>85</sup>Sr activities, and to the detection and estimation of afterpulses
+    in liquid scintillation counting.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Correlation Counting Applied to the Determination of Absolute Disintegration
+    - language: en
+      script: Latn
+      content: Correlation Counting Applied to the Determination of Absolute Disintegration
         Rates for Nuclides with Delayed States
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-01-01'
+      at: '1973-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '14'
     reference_to: '20'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

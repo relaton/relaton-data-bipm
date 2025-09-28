@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia395509
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Changes in instrumental sensitivity of some feedback
     systems used in LaCoste-Romberg gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/5/13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/5/13
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 5 509
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/5/13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/5/13
+docidentifier:
+- content: Metrologia 39 5 509
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/5/13
+- content: 10.1088/0026-1394/39/5/13
   type: doi
 date:
 - type: published
-  value: '2002-10-01'
+  at: '2002-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Riccardi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Dipartimento di Geofisica e
             Vulcanologia, Università ``Federico II'' di Napoli, L.go S. Marcellino, 10-80138 Naples, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Berrino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Geofisica e Vulcanologia, Osservatorio Vesuviano,
             Via Diocleziano, 328-80124 Naples, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Corrado
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: |-
             Dipartimento di Geofisica e
             Vulcanologia, Università ``Federico II'' di Napoli, L.go S. Marcellino, 10-80138 Naples, Italy
-  role:
-  - type: author
-revdate: '2002-10-01'
 abstract:
-- content: |-
-    <p>High-precision gravity measurements and records are used to investigate geodynamic processes. The
-    amplitude of the gravity changes induced by these phenomena is of the order of 10<sup>-8</sup> g to 10<sup>-9</sup> g, where the global average of g (gravity) is 9.80 m s<sup>-2</sup>. Instrument sensitivities up to 10<sup>-9</sup> are therefore required to detect gravity changes. As changes in instrument sensitivity can reduce the repeatability of measurements and affect the phase and amplitude of recorded gravity signals, the accurate calibration of gravimeters in high-precision gravimetry is topical. The stability of the calibration factors in two LaCoste-Romberg gravimeters has been investigated through different calibration methods. The main results show that (a) the application of multiple calibration approaches is a powerful constraint on instrumental response and identifies real or fictitious changes in instrument sensitivity; (b) a comparison between spring and superconducting gravimeters is the most suitable way of almost completely determining the transfer function of spring gravimeters in the tidal band. Moreover, a correlation was detected between stronger changes in instrument sensitivity and the occurrence of seismic events. Thus mechanical perturbation of spring gravimeters during earthquakes can affect the stability of their calibration factors.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>High-precision gravity measurements and records are used to investigate geodynamic processes. The
+    amplitude of the gravity changes induced by these phenomena is of the order of 10<sup>-8</sup> <italic>g</italic> to 10<sup>-9</sup> <italic>g</italic>, where the global average of <italic>g</italic> (gravity) is 9.80 m s<sup>-2</sup>. Instrument sensitivities up to 10<sup>-9</sup> are therefore required to detect gravity changes. As changes in instrument sensitivity can reduce the repeatability of measurements and affect the phase and amplitude of recorded gravity signals, the accurate calibration of gravimeters in high-precision gravimetry is topical. The stability of the calibration factors in two LaCoste-Romberg gravimeters has been investigated through different calibration methods. The main results show that (a) the application of multiple calibration approaches is a powerful constraint on instrumental response and identifies real or fictitious changes in instrument sensitivity; (b) a comparison between spring and superconducting gravimeters is the most suitable way of almost completely determining the transfer function of spring gravimeters in the tidal band. Moreover, a correlation was detected between stronger changes in instrument sensitivity and the occurrence of seismic events. Thus mechanical perturbation of spring gravimeters during earthquakes can affect the stability of their calibration factors.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Changes in instrumental sensitivity of some feedback
         systems used in LaCoste-Romberg gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-10-01'
+      at: '2002-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '509'
     reference_to: '515'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

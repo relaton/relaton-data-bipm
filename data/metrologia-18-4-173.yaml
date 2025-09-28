@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia184173
-title:
-- content: 'The Active Hydrogen Maser: State of the Art and Forecast'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/18/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 4 173
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Active Hydrogen Maser: State of the Art and Forecast'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/4/001
+docidentifier:
+- content: Metrologia 18 4 173
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/4/001
+- content: 10.1088/0026-1394/18/4/001
   type: doi
 date:
 - type: published
-  value: '1982-10-01'
+  at: '1982-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jacques Vanier
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Département de Génie Electrique, Université Laval, Québec G1K 7P4,
             Canada
-  role:
-  - type: author
-revdate: '1982-10-01'
 abstract:
-- content: "<p>A general review of state-of-the-art hydrogen masers is presented.
+- language: en
+  script:
+  - Latn
+  content: "<p>A general review of state-of-the-art hydrogen masers is presented.
     A description of the maser is made and the characteristics of state-of-the-art
     masers are given. Possible avenues of research are reviewed. Major fields where
     the maser finds application are mentioned. Finally, a list of laboratories involved
     in hydrogen maser development is given.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Active Hydrogen Maser: State of the Art and Forecast'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The Active Hydrogen Maser: State of the Art and Forecast'
     date:
     - type: ppub
-      value: '1982-10-01'
+      at: '1982-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '173'
     reference_to: '186'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

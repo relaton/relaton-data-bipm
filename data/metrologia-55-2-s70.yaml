@@ -1,125 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia552S70
-title:
-- content: Monte-Carlo-based uncertainty propagation with hierarchical models—a case
-    study in dynamic torque
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaa21b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaa21b
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 2 S70
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Monte-Carlo-based uncertainty propagation with hierarchical models—a case
+    study in dynamic torque
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaa21b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaa21b
+docidentifier:
+- content: Metrologia 55 2 S70
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaa21b
+- content: 10.1088/1681-7575/aaa21b
   type: doi
 date:
 - type: published
-  value: '2018-02-28'
+  at: '2018-02-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Leonard Klaus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Bundesallee 100, 38116 Braunschweig,
+            Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Bundesallee 100, 38116 Braunschweig,
-              Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sascha Eichstädt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Bundesallee 100, 38116 Braunschweig,
+            Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Bundesallee 100, 38116 Braunschweig,
-              Germany
-  role:
-  - type: author
-revdate: '2018-02-28'
 abstract:
-- content: Abstract<p>For a dynamic calibration, a torque transducer is described
-    by a mechanical model, and the corresponding model parameters are to be identified
-    from measurement data. A measuring device for the primary calibration of dynamic
-    torque, and a corresponding model-based calibration approach, have recently been
-    developed at PTB. The complete mechanical model of the calibration set-up is very
-    complex, and involves several calibration steps—making a straightforward implementation
-    of a Monte Carlo uncertainty evaluation tedious. With this in mind, we here propose
-    to separate the complete model into sub-models, with each sub-model being treated
-    with individual experiments and analysis. The uncertainty evaluation for the overall
-    model then has to combine the information from the sub-models in line with Supplement
-    2 of the Guide to the Expression of Uncertainty in Measurement. In this contribution,
-    we demonstrate how to carry this out using the Monte Carlo method. The uncertainty
-    evaluation involves various input quantities of different origin and the solution
-    of a numerical optimisation problem.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>For a dynamic calibration, a torque transducer is described by a mechanical model, and the corresponding model parameters are to be identified from measurement data. A measuring device for the primary calibration of dynamic torque, and a corresponding model-based calibration approach, have recently been developed at PTB. The complete mechanical model of the calibration set-up is very complex, and involves several calibration steps—making a straightforward implementation of a Monte Carlo uncertainty evaluation tedious. With this in mind, we here propose to separate the complete model into sub-models, with each sub-model being treated with individual experiments and analysis. The uncertainty evaluation for the overall model then has to combine the information from the sub-models in line with Supplement 2 of the <italic>Guide to the Expression of Uncertainty in Measurement</italic>. In this contribution, we demonstrate how to carry this out using the Monte Carlo method. The uncertainty evaluation involves various input quantities of different origin and the solution of a numerical optimisation problem.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte-Carlo-based uncertainty propagation with hierarchical models—a
+    - script: Latn
+      content: Monte-Carlo-based uncertainty propagation with hierarchical models—a
         case study in dynamic torque
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2018-04-01'
+      at: '2018-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte-Carlo-based uncertainty propagation with hierarchical models—a
+    - script: Latn
+      content: Monte-Carlo-based uncertainty propagation with hierarchical models—a
         case study in dynamic torque
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-02-28'
+      at: '2018-02-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +107,6 @@ extent:
     reference_from: S70
     reference_to: S85
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

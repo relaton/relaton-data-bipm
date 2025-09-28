@@ -1,109 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585053001
-title:
-- content: Angular frequency in the International System of Units. Physicist’s view
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac0240
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac0240
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 053001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Angular frequency in the International System of Units. Physicist’s view
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac0240
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac0240
+docidentifier:
+- content: Metrologia 58 5 053001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac0240
+- content: 10.1088/1681-7575/ac0240
   type: doi
 date:
 - type: published
-  value: '2021-08-20'
+  at: '2021-08-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M I Kalinin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 46 Ozernaya Str., 119361 Moscow, Russia
         name:
         - content: Russian Research Institute for Metrological Service
-        contact:
-        - address:
-            formatted_address: 46 Ozernaya Str., 119361 Moscow, Russia
-  role:
-  - type: author
-revdate: '2021-08-20'
 abstract:
-- content: Abstract<p>Currently, in the International System of Units (SI), reciprocal
-    second (s<sup>−1</sup>) and radian per second (rad s<sup>−1</sup>) are the units
-    of frequency ν and angular frequency ω, respectively. At the same time, these
-    quantities are related in the SI by the simple mathematical relationship ω = 2πν.
-    And here an evident conflict between this relation and the dimensions of the quantities
-    included in it arises. When using the units in question, the two sides of this
-    relation have different dimensions, which is not admissible in either physics
-    or metrology. However, this situation has existed in metrology for many years.
-    In 2019, the angular frequency with unit rad s<sup>−1</sup> was included in the
-    SI brochure. This article analyzes the reasons that have led to this conflict
-    and establishes the relationship between frequency, angular frequency and angular
-    velocity. An example of a simple oscillatory system shows that ω and ν have the
-    same dimension, inverse to the dimension of the time. Therefore, they are measured
-    by the same unit s<sup>−1</sup>. This does not coincide with the current definition
-    of the unit of angular frequency in the SI, but fully corresponds to the laws
-    of physics and removes the contradiction in the relation ω = 2πν. It is also shown
-    that the angular frequency and angular velocity are independent quantities of
-    different dimensions.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Currently, in the International System of Units (SI), reciprocal second (s<sup>−1</sup>) and radian per second (rad s<sup>−1</sup>) are the units of frequency <italic toggle="yes">ν</italic> and angular frequency <italic toggle="yes">ω</italic>, respectively. At the same time, these quantities are related in the SI by the simple mathematical relationship <italic toggle="yes">ω</italic> = 2<italic toggle="yes">πν</italic>. And here an evident conflict between this relation and the dimensions of the quantities included in it arises. When using the units in question, the two sides of this relation have different dimensions, which is not admissible in either physics or metrology. However, this situation has existed in metrology for many years. In 2019, the angular frequency with unit rad s<sup>−1</sup> was included in the SI brochure. This article analyzes the reasons that have led to this conflict and establishes the relationship between frequency, angular frequency and angular velocity. An example of a simple oscillatory system shows that <italic toggle="yes">ω</italic> and <italic toggle="yes">ν</italic> have the same dimension, inverse to the dimension of the time. Therefore, they are measured by the same unit s<sup>−1</sup>. This does not coincide with the current definition of the unit of angular frequency in the SI, but fully corresponds to the laws of physics and removes the contradiction in the relation <italic toggle="yes">ω</italic> = 2<italic toggle="yes">πν</italic>. It is also shown that the angular frequency and angular velocity are independent quantities of different dimensions.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Angular frequency in the International System of Units. Physicist’s
+    - script: Latn
+      content: Angular frequency in the International System of Units. Physicist’s
         view
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Angular frequency in the International System of Units. Physicist’s
+    - script: Latn
+      content: Angular frequency in the International System of Units. Physicist’s
         view
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-08-20'
+      at: '2021-08-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +87,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

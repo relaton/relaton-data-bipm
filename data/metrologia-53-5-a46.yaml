@@ -1,131 +1,106 @@
 ---
-schema-version: v1.2.9
-id: Metrologia535A46
-title:
-- content: 'The watt or Kibble balance: a technique for implementing the new SI definition
-    of the unit of mass'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/5/A46
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/5/A46
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 5 A46
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The watt or Kibble balance: a technique for implementing the new SI definition
+    of the unit of mass'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/5/A46
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/5/A46
+docidentifier:
+- content: Metrologia 53 5 A46
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/5/A46
+- content: 10.1088/0026-1394/53/5/A46
   type: doi
 date:
 - type: published
-  value: '2016-09-28'
+  at: '2016-09-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ian A Robinson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephan Schlamminger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive Stop 8171, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive Stop 8171, Gaithersburg, MD 20899,
-              USA
-  role:
-  - type: author
-revdate: '2016-09-28'
 abstract:
-- content: Abstract<p>The redefinition of the SI unit of mass in terms of a fixed
-    value of the Planck constant has been made possible by the Kibble balance, previously
-    known as the watt balance. Once the new definition has been adopted, the Kibble
-    balance technique will permit the realisation of the mass unit over a range from
-    milligrams to kilograms. We describe the theory underlying the Kibble balance
-    and practical techniques required to construct such an instrument to relate a
-    macroscopic physical mass to the Planck constant with an uncertainty, which is
-    achievable at present, in the region of 2 parts in 10<sup>8</sup>. A number of
-    Kibble balances have either been built or are under construction and we compare
-    the principal features of these balances.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The redefinition of the SI unit of mass in terms of a fixed value of the Planck constant has been made possible by the Kibble balance, previously known as the watt balance. Once the new definition has been adopted, the Kibble balance technique will permit the realisation of the mass unit over a range from milligrams to kilograms. We describe the theory underlying the Kibble balance and practical techniques required to construct such an instrument to relate a macroscopic physical mass to the Planck constant with an uncertainty, which is achievable at present, in the region of 2 parts in 10<sup>8</sup>. A number of Kibble balances have either been built or are under construction and we compare the principal features of these balances.</p>
 copyright:
-- owner:
-  - name:
-    - content: Crown copyright
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Crown copyright
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt or Kibble balance: a technique for implementing the new SI
+    - script: Latn
+      content: 'The watt or Kibble balance: a technique for implementing the new SI
         definition of the unit of mass'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-10-01'
+      at: '2016-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt or Kibble balance: a technique for implementing the new SI
+    - script: Latn
+      content: 'The watt or Kibble balance: a technique for implementing the new SI
         definition of the unit of mass'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The watt or Kibble balance: a technique for implementing the new SI
+    - script: Latn
+      content: 'The watt or Kibble balance: a technique for implementing the new SI
         definition of the unit of mass'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2016-09-28'
+      at: '2016-09-28'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +111,6 @@ extent:
     reference_from: A46
     reference_to: A74
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,115 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia466674
-title:
-- content: The new INRiM nanoangle generator
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/6/010
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/6/010
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 6 674
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The new INRiM nanoangle generator
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/6/010
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/6/010
+docidentifier:
+- content: Metrologia 46 6 674
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/6/010
+- content: 10.1088/0026-1394/46/6/010
   type: doi
 date:
 - type: published
-  value: '2009-11-09'
+  at: '2009-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Astrua
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, INRiM, Strada delle
             Cacce 73, Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Pisani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, INRiM, Strada delle
             Cacce 73, Torino, Italy
-  role:
-  - type: author
-revdate: '2009-11-09'
 abstract:
-- content: "<p>At the angle metrology laboratory of the Istituto Nazionale di Ricerca
+- language: en
+  script:
+  - Latn
+  content: "<p>At the angle metrology laboratory of the Istituto Nazionale di Ricerca
     Metrologica (INRiM, formerly IMGC), an instrument to generate very small angles
     has been recently developed. It is a sine-bar angle generator based on an elastic
     hinge and a piezocapacitive device. The facility can be used to calibrate precise
     angle measuring instruments (levels, autocollimators, etc) in a range of 120 µrad
     with an uncertainty of about 20 nrad and a sensitivity of fractions of a nanoradian.
     The working principle and metrological characterization are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The new INRiM nanoangle generator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The new INRiM nanoangle generator
     date:
     - type: epub
-      value: '2009-11-09'
+      at: '2009-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The new INRiM nanoangle generator
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The new INRiM nanoangle generator
     date:
     - type: ppub
-      value: '2009-12-01'
+      at: '2009-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +103,6 @@ extent:
     reference_from: '674'
     reference_to: '681'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

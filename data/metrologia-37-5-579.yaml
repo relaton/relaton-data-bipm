@@ -1,114 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375579
-title:
-- content: NIST facility for Spectral Irradiance and Radiance Responsivity Calibrations
-    with Uniform Sources
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/53
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/53
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 579
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: NIST facility for Spectral Irradiance and Radiance Responsivity Calibrations
+    with Uniform Sources
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/53
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/53
+docidentifier:
+- content: Metrologia 37 5 579
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/53
+- content: 10.1088/0026-1394/37/5/53
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S W Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G P Eppeldauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K R Lykke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>A laser-based facility has been developed to provide high-flux, monochromatic,
+- language: en
+  script:
+  - Latn
+  content: "<p>A laser-based facility has been developed to provide high-flux, monochromatic,
     Lambertian radiation over the spectral range 0.2 µm to 18 µm. The facility was
     designed to reduce the uncertainties in a variety of radiometric applications,
     including irradiance and radiance responsivity calibrations. The operational characteristics
     of the facility are discussed and the results of detector responsivity calibrations
     over the spectral range 0.406 µm to 0.920 µm are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST facility for Spectral Irradiance and Radiance Responsivity Calibrations
+    - language: en
+      script: Latn
+      content: NIST facility for Spectral Irradiance and Radiance Responsivity Calibrations
         with Uniform Sources
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +103,6 @@ extent:
     reference_from: '579'
     reference_to: '582'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia12127
-title:
-- content: A Magnetic Temperature Scale from 1 to 83 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/12/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/12/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 12 1 27
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Magnetic Temperature Scale from 1 to 83 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/12/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/12/1/005
+docidentifier:
+- content: Metrologia 12 1 27
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/12/1/005
+- content: 10.1088/0026-1394/12/1/005
   type: doi
 date:
 - type: published
-  value: '1976-01-01'
+  at: '1976-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T C Cetas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -45,11 +41,11 @@ contributor:
         name:
         - content: Present address, Division of Radiation Oncology, University of
             Arizona Medical Center, Tucson, Arizona 85724, USA
-  role:
-  - type: author
-revdate: '1976-01-01'
 abstract:
-- content: "<p>The low frequency (30 Hz) paramagnetic susceptibilities of powdered
+- language: en
+  script:
+  - Latn
+  content: "<p>The low frequency (30 Hz) paramagnetic susceptibilities of powdered
     samples of gadolinium sulphate octahydrate and manganous ammonium sulphate hexahydrate
     have been measured from 1 to 83 K in order to test the thermodynamic consistency
     of the International Practical Temperature Scale of 1968 (IPTS-68). The data can
@@ -62,39 +58,31 @@ abstract:
     where comparisons are made with other recent data. The reproducibility of the
     data is ± 0.5 mK below 50 K and ± 1 mK up to 83 K, while the total estimated measurement
     uncertainties are from one to three times greater.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1976'
+- from: '1976'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Magnetic Temperature Scale from 1 to 83 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Magnetic Temperature Scale from 1 to 83 K
     date:
     - type: ppub
-      value: '1976-01-01'
+      at: '1976-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +93,6 @@ extent:
     reference_from: '27'
     reference_to: '40'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

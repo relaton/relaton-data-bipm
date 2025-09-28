@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia365465
-title:
-- content: Realization of the palladium freezing point for thermocouple calibrations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/5/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/5/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 5 465
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the palladium freezing point for thermocouple calibrations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/5/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/5/8
+docidentifier:
+- content: Metrologia 36 5 465
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/5/8
+- content: 10.1088/0026-1394/36/5/8
   type: doi
 date:
 - type: published
-  value: '1999-10-01'
+  at: '1999-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y-G Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K S Gam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K H Kang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KRISS
-  role:
-  - type: author
-revdate: '1999-10-01'
 abstract:
-- content: "<p>A vertical alumina palladium (Pd) freezing-point cell was made and
+- language: en
+  script:
+  - Latn
+  content: "<p>A vertical alumina palladium (Pd) freezing-point cell was made and
     used for the calibration of noble metal thermocouples. Various characteristics
     of the freezing process were investigated using type B thermocouples, and the
     best method of freezing is discussed. It was found that the freezing behaviour
@@ -78,40 +70,32 @@ abstract:
     the plateau just after the depression in the supercooling curve. This emf was
     reproducible within a standard deviation of 0.1 °C. The expanded uncertainty of
     calibrating a type B thermocouple in the Pd freezing-point cell was estimated
-    to be 1.0 °C at the 95% confidence level (k = 2).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    to be 1.0 °C at the 95% confidence level (<italic>k</italic> = 2).</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the palladium freezing point for thermocouple calibrations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Realization of the palladium freezing point for thermocouple calibrations
     date:
     - type: ppub
-      value: '1999-10-01'
+      at: '1999-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '465'
     reference_to: '472'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

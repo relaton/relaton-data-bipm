@@ -1,111 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia571A04003
-title:
-- content: Calibration of outer diameter standards (EURAMET.L-K4 2005.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/57/1A/04003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/57/1A/04003
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 1A 04003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of outer diameter standards (EURAMET.L-K4 2005.1)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/57/1A/04003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/57/1A/04003
+docidentifier:
+- content: Metrologia 57 1A 04003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/57/1A/04003
+- content: 10.1088/0026-1394/57/1A/04003
   type: doi
 date:
 - type: published
-  value: '2020-01-01'
+  at: '2020-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Koops
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VSL, Thijsseweg 11, 2629 JA, Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Bergmans
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VSL, Thijsseweg 11, 2629 JA, Delft, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Kotte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: VSL, Thijsseweg 11, 2629 JA, Delft, The Netherlands
-  role:
-  - type: author
-revdate: '2020-01-01'
 abstract:
-- content: |-
-    <p>At its meeting in October 2013, the EURAMET TC-L, decided upon a follow up comparison of the EUROMET.L-K4.2005 key comparison on diameter standards. This as a response to the executive report of the EUROMET.L-K4.2005 which contains several corrective actions to be performed for the following participants: INRIM, MIRS, NPL, SMD and VSL.</p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>At its meeting in October 2013, the EURAMET TC-L, decided upon a follow up comparison of the EUROMET.L-K4.2005 key comparison on diameter standards. This as a response to the executive report of the EUROMET.L-K4.2005 which contains several corrective actions to be performed for the following participants: INRIM, MIRS, NPL, SMD and VSL.</p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="https://www.bipm.org/utils/common/pdf/final_reports/L/K4/EURAMET.L-K4.2005.1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCL, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of outer diameter standards (EURAMET.L-K4 2005.1)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Calibration of outer diameter standards (EURAMET.L-K4 2005.1)
     date:
     - type: ppub
-      value: '2020-01-01'
+      at: '2020-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +103,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

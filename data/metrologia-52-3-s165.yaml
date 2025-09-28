@@ -1,115 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S165
-title:
-- content: Uncertainties in surface emission rate measurements
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S165
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S165
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S165
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainties in surface emission rate measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S165
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S165
+docidentifier:
+- content: Metrologia 52 3 S165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S165
+- content: 10.1088/0026-1394/52/3/S165
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M P Unterweger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Radiation Physics Division, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Radiation Physics Division, Gaithersburg, MD 20899,
-              USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P De Felice
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: C.R. Casaccia, via Anguillarese, 301, I-00100 Rome, Italy
         name:
         - content: National Institute of Ionizing Radiation Metrology
         subdivision:
-        - content: ENEA
-        contact:
-        - address:
-            formatted_address: C.R. Casaccia, via Anguillarese, 301, I-00100 Rome,
-              Italy
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: ENEA
 abstract:
-- content: Abstract<p>The uncertainties in surface emission rates determined by gas-flow
-    proportional counters (multiwired) are broken down into alpha and beta emission
-    rate determinations. Counting statistics, spectrum analysis, and electronic uncertainties
-    are discussed with respect to the actual counting of the respective emission rate.
-    The effects of source construction on the uncertainties are also examined.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The uncertainties in surface emission rates determined by gas-flow proportional counters (multiwired) are broken down into alpha and beta emission rate determinations. Counting statistics, spectrum analysis, and electronic uncertainties are discussed with respect to the actual counting of the respective emission rate. The effects of source construction on the uncertainties are also examined.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in surface emission rate measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainties in surface emission rate measurements
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in surface emission rate measurements
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainties in surface emission rate measurements
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +107,6 @@ extent:
     reference_from: S165
     reference_to: S171
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

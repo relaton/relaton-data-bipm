@@ -1,155 +1,113 @@
 ---
-schema-version: v1.2.9
-id: Metrologia564042001
-title:
-- content: The Coordinated Universal Time (UTC)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab1e68
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab1e68
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 4 042001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The Coordinated Universal Time (UTC)
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab1e68
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab1e68
+docidentifier:
+- content: Metrologia 56 4 042001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab1e68
+- content: 10.1088/1681-7575/ab1e68
   type: doi
 date:
 - type: published
-  value: '2019-06-18'
+  at: '2019-06-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Panfilo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Pavillon de Breteuil 92312 Sèvres, France
         name:
         - content: International Bureau of Weights and Measures (BIPM)
-        contact:
-        - address:
-            formatted_address: Pavillon de Breteuil 92312 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Arias
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CNRS, Sorbonne Université, LNE, 61 avenue de l’Observatoire
+            75014, Paris, France
         name:
         - content: Université PSL
         subdivision:
-        - content: SYRTE, Observatoire de Paris
-        contact:
-        - address:
-            formatted_address: CNRS, Sorbonne Université, LNE, 61 avenue de l’Observatoire
-              75014, Paris, France
-  role:
-  - type: author
-revdate: '2019-06-18'
+        - name:
+          - language: en
+            script: Latn
+            content: SYRTE, Observatoire de Paris
 abstract:
-- content: Abstract<p>Coordinated Universal Time (UTC) has considerably changed in
-    recent years. The evolution of UTC follows the scientific and industrial progress
-    by developing appropriate models, more adapted calculation algorithms, more efficient
-    and rapid dissemination processes and a well defined traceability chain. The enormous
-    technical progress worldwide has resulted in an impressive number of atomic clocks
-    now available for UTC calculation. The refined time and frequency transfer techniques
-    are approaching the accuracy requested for the new definition of the SI second.
-    The more regular operation of primary frequency standards (PFS) increases the
-    accuracy of UTC and opens a possible new development for time scale algorithms.
-    From the metrological point of view all the ingredients are available for major
-    improvements to UTC. Dissemination of UTC is done by the monthly publication of
-    results in BIPM Circular T. This document makes a quality evaluation of local
-    representations of UTC, named UTC(k), in national institutes, and other organizations,
-    by giving the evolution of their offsets relative to UTC and their respective
-    uncertainties. The clock models adopted and the time transfer techniques have
-    progressively improved over the years, assuring the long-term stability of UTC.
-    Each computation of UTC processes data over one month with five-day sampling and
-    publication. A rapid solution of UTC (UTCr) has existed since 2013, and consists
-    of the processing of daily sampled data over four consecutive weeks, computed
-    and published weekly. It gives quick access to UTC, and allows participating laboratories
-    to better monitor the offsets of their realizations to the reference UTC. The
-    traditional monthly publication, containing results of all the laboratories contributing
-    data to the BIPM for the computation of UTC was complemented after the establishment
-    of the Mutual Recognition Arrangement of the International Committee on Weights
-    and Measures (CIPM MRA). This time comparison, which has been the responsibility
-    of the BIPM since 1988, added as a complement the key comparison on time defined
-    by the Consultative Committee for Time and Frequency (CCTF) in 2006 as CCTF-K001.UTC,
-    where the results published are those of national metrology institutes (NMIs)
-    signatories of the CIPM MRA, or designated institutes (DIs). The traceability
-    issues are formalized in the framework of the CIPM MRA. The development of time
-    metrology activities in the different metrology regions, supports the actions
-    of the BIPM time department to improve the accuracy of [UTC–UTC(k)], where the
-    coordination with the Regional Metrology Organizations (RMOs) has a key role.
-    This paper presents an overview of UTC.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Coordinated Universal Time (UTC) has considerably changed in recent years. The evolution of UTC follows the scientific and industrial progress by developing appropriate models, more adapted calculation algorithms, more efficient and rapid dissemination processes and a well defined traceability chain. The enormous technical progress worldwide has resulted in an impressive number of atomic clocks now available for UTC calculation. The refined time and frequency transfer techniques are approaching the accuracy requested for the new definition of the SI second. The more regular operation of primary frequency standards (PFS) increases the accuracy of UTC and opens a possible new development for time scale algorithms. From the metrological point of view all the ingredients are available for major improvements to UTC. Dissemination of UTC is done by the monthly publication of results in BIPM <italic>Circular T</italic>. This document makes a quality evaluation of local representations of UTC, named UTC(<italic>k</italic>), in national institutes, and other organizations, by giving the evolution of their offsets relative to UTC and their respective uncertainties. The clock models adopted and the time transfer techniques have progressively improved over the years, assuring the long-term stability of UTC. Each computation of UTC processes data over one month with five-day sampling and publication. A rapid solution of UTC (UTCr) has existed since 2013, and consists of the processing of daily sampled data over four consecutive weeks, computed and published weekly. It gives quick access to UTC, and allows participating laboratories to better monitor the offsets of their realizations to the reference UTC. The traditional monthly publication, containing results of all the laboratories contributing data to the BIPM for the computation of UTC was complemented after the establishment of the Mutual Recognition Arrangement of the International Committee on Weights and Measures (CIPM MRA). This time comparison, which has been the responsibility of the BIPM since 1988, added as a complement the key comparison on time defined by the Consultative Committee for Time and Frequency (CCTF) in 2006 as CCTF-K001.UTC, where the results published are those of national metrology institutes (NMIs) signatories of the CIPM MRA, or designated institutes (DIs). The traceability issues are formalized in the framework of the CIPM MRA. The development of time metrology activities in the different metrology regions, supports the actions of the BIPM time department to improve the accuracy of [UTC–UTC(<italic>k</italic>)], where the coordination with the Regional Metrology Organizations (RMOs) has a key role. This paper presents an overview of UTC.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Coordinated Universal Time (UTC)
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The Coordinated Universal Time (UTC)
     date:
     - type: ppub
-      value: '2019-08-01'
+      at: '2019-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Coordinated Universal Time (UTC)
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The Coordinated Universal Time (UTC)
     date:
     - type: epub
-      value: '2019-06-18'
+      at: '2019-06-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Coordinated Universal Time (UTC)
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The Coordinated Universal Time (UTC)
     date:
     - type: open-access
-      value: '2019-06-21'
+      at: '2019-06-21'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -157,6 +115,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

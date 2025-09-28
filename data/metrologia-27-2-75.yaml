@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27275
-title:
-- content: Fixed-Point Technique for Approximating the ITS-90 between 420°C and 1085°C
-    with an Infrared Thermometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 2 75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fixed-Point Technique for Approximating the ITS-90 between 420°C and 1085°C
+    with an Infrared Thermometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/2/005
+docidentifier:
+- content: Metrologia 27 2 75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/2/005
+- content: 10.1088/0026-1394/27/2/005
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Battuello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR, Istituto di Metrologia "G Colonnetti", Strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Lanza
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR, Istituto di Metrologia "G Colonnetti", Strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Ricolfi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR, Istituto di Metrologia "G Colonnetti", Strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>A fixed-point technique for calibrating infrared thermometers between
+- language: en
+  script:
+  - Latn
+  content: "<p>A fixed-point technique for calibrating infrared thermometers between
     the Zn (420°C) and Cu (1085°C) points was analyzed. To do this, a precision silicon
     detector thermometer working at 900 nm and 950 nm (band-widths of 70 nm and 40
     nm, respectively) and a set of four fixed-point black-body cavities (Zn, Al, Ag
     and Cu) were used. The best results showed that the ITS-90 can be approximated
     to within ±0.05°C throughout the Zn-Cu interval when the thermometer in its 900
     nm configuration is calibrated at the Zn, Al and Cu points.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fixed-Point Technique for Approximating the ITS-90 between 420°C and
+    - language: en
+      script: Latn
+      content: Fixed-Point Technique for Approximating the ITS-90 between 420°C and
         1085°C with an Infrared Thermometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '75'
     reference_to: '82'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

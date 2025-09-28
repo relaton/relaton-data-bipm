@@ -1,105 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465R1
-title:
-- content: Compendium for precise ac measurements of the quantum Hall resistance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/R01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/R01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 R1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Compendium for precise ac measurements of the quantum Hall resistance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/R01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/R01
+docidentifier:
+- content: Metrologia 46 5 R1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/R01
+- content: 10.1088/0026-1394/46/5/R01
   type: doi
 date:
 - type: published
-  value: '2009-08-04'
+  at: '2009-08-04'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F J Ahlers
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), D-38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Jeanneret
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Federal Office of Metrology (METAS), CH-3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Overney
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Federal Office of Metrology (METAS), CH-3003 Bern-Wabern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Schurr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), D-38116 Braunschweig,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B M Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, ON K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2009-08-04'
 abstract:
-- content: "<p>In view of the progress achieved in the field of the alternating current
+- language: en
+  script:
+  - Latn
+  content: "<p>In view of the progress achieved in the field of the alternating current
     (ac) quantum Hall effect (QHE), the Working Group of the Comité Consultatif d'Électricité
     et Magnétisme (CCEM) on the ac QHE asked the authors of this article to write
     a compendium which integrates their experiences with ac measurements of the quantum
@@ -112,53 +100,42 @@ abstract:
     that the authors have employed to achieve accurate measurements of the ac QHE.
     This work shows how the ac QHE can be reliably used as a quantum standard of ac
     resistance having a relative uncertainty of a few parts in 10<sup>8</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Compendium for precise ac measurements of the quantum Hall resistance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Compendium for precise ac measurements of the quantum Hall resistance
     date:
     - type: epub
-      value: '2009-08-04'
+      at: '2009-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Compendium for precise ac measurements of the quantum Hall resistance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Compendium for precise ac measurements of the quantum Hall resistance
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -169,6 +146,6 @@ extent:
     reference_from: R1
     reference_to: R11
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

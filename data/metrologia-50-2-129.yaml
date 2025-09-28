@@ -1,97 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia502129
-title:
-- content: Inherent uncertainty of air kerma
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/2/129
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/2/129
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 2 129
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Inherent uncertainty of air kerma
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/2/129
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/2/129
+docidentifier:
+- content: Metrologia 50 2 129
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/2/129
+- content: 10.1088/0026-1394/50/2/129
   type: doi
 date:
 - type: published
-  value: '2013-02-08'
+  at: '2013-02-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chul-Young Yi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
         name:
         - content: Korea Research Institute of Standards and Science
         subdivision:
-        - content: Center for Ionizing Radiation
-        contact:
-        - address:
-            formatted_address: 267 Gajeong-ro, Yuseong-gu, Daejeon 305-340, Korea
-  role:
-  - type: author
-revdate: '2013-02-08'
+        - name:
+          - language: en
+            script: Latn
+            content: Center for Ionizing Radiation
 abstract:
-- content: Abstract<p>Air kerma is defined in air, the constituents and the amounts
-    of which are determined experimentally with some uncertainties. The inherent uncertainty
-    of air kerma in a photon beam stemming from the uncertainties of atomic weights
-    and composition data in air was evaluated as a function of photon energy. The
-    uncertainty was 1 part in 10<sup>4</sup> for photon beams with energies in the
-    range 1 keV to 20 MeV.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Air kerma is defined in air, the constituents and the amounts of which are determined experimentally with some uncertainties. The inherent uncertainty of air kerma in a photon beam stemming from the uncertainties of atomic weights and composition data in air was evaluated as a function of photon energy. The uncertainty was 1 part in 10<sup>4</sup> for photon beams with energies in the range 1 keV to 20 MeV.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Inherent uncertainty of air kerma
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Inherent uncertainty of air kerma
     date:
     - type: ppub
-      value: '2013-04-01'
+      at: '2013-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Inherent uncertainty of air kerma
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Inherent uncertainty of air kerma
     date:
     - type: epub
-      value: '2013-02-08'
+      at: '2013-02-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +93,6 @@ extent:
     reference_from: '129'
     reference_to: '132'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

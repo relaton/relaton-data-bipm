@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3378
-title:
-- content: The Evolution of the International Practical Temperature Scale
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 3 3 78
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Evolution of the International Practical Temperature Scale
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/3/005
+docidentifier:
+- content: Metrologia 3 3 78
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/3/005
+- content: 10.1088/0026-1394/3/3/005
   type: doi
 date:
 - type: published
-  value: '1967-07-01'
+  at: '1967-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J A Hall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, 92 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C R Barber
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Quantum Metrology Division, National Physical Laboratory, Teddington,
             Middlesex, England
-  role:
-  - type: author
-revdate: '1967-07-01'
 abstract:
-- content: "<p>The work of the Comité Consultatif de Thermométrie since its first
+- language: en
+  script:
+  - Latn
+  content: "<p>The work of the Comité Consultatif de Thermométrie since its first
     meeting in 1939 is described. It includes the intercomparison of standard instruments
     designed to verify the agreement between the national laboratories in the realisation
     of the International Practical Temperature Scale, studies of the fixed points
@@ -63,39 +57,31 @@ abstract:
     scale is kept under continuous study, and a provisional scale has been propozed
     to extend the I.P.T.S. from the boiling point of oxygen (90.18 °K) to the triple
     point of hydrogen (13.809 °K).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Evolution of the International Practical Temperature Scale
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Evolution of the International Practical Temperature Scale
     date:
     - type: ppub
-      value: '1967-07-01'
+      at: '1967-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '78'
     reference_to: '86'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

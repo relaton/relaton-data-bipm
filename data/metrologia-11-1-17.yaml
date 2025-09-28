@@ -1,119 +1,94 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11117
-title:
-- content: Comparison of Exposure Standards for<sup>60</sup>Co Gamma Rays
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/11/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 1 17
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of Exposure Standards for <sup>60</sup>Co Gamma Rays
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/1/005
+docidentifier:
+- content: Metrologia 11 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/1/005
+- content: 10.1088/0026-1394/11/1/005
   type: doi
 date:
 - type: published
-  value: '1975-01-01'
+  at: '1975-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M-T Niatel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, F-92310 Sèvres, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T P Loftus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Bureau of Standards, Washington, DC 20234, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Oetzmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-33 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1975-01-01'
 abstract:
-- content: "<p>Comparisons for<sup>60</sup>Co gamma rays between the exposure standards
-    of the Bureau International des Poids et Mesures (BIPM), the National Bureau of
-    Standards (NBS) and the Physikalisch-Technische Bundesanstalt (PTB) are reported.
-    For measurements made at about one meter from the source, and if the same physical
-    constants are used, the differences are 0.26% between the BIPM and NBS standards,
-    and at most 0.4% between the BIPM standard and the PTB standard chambers. The
-    differences are consistent with the estimated systematic uncertainties (≈0.5%).</p><p>The
-    difference between the NBS standard and the PTB chamber measurements, as determined
-    through the ratios of each to the BIPM chamber, ranges from 0.17 to 0.66%. The
-    difference in exposure standards for NBS and PTB actually ranges from 0.48 to
-    0.97%, since different stopping power corrections are used by these two laboratories.</p><p>An
-    indirect comparison of the BIPM and NBS standards indicates that the difference
-    of 0.26% will increase to 0.55% at a distance of two meters.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Comparisons for <sup>60</sup>Co gamma rays between the exposure standards of the Bureau International des Poids et Mesures (BIPM), the National Bureau of Standards (NBS) and the Physikalisch-Technische Bundesanstalt (PTB) are reported. For measurements made at about one meter from the source, and if the same physical constants are used, the differences are 0.26% between the BIPM and NBS standards, and at most 0.4% between the BIPM standard and the PTB standard chambers. The differences are consistent with the estimated systematic uncertainties (≈0.5%).</p>
+    <p>The difference between the NBS standard and the PTB chamber measurements, as determined through the ratios of each to the BIPM chamber, ranges from 0.17 to 0.66%. The difference in exposure standards for NBS and PTB actually ranges from 0.48 to 0.97%, since different stopping power corrections are used by these two laboratories.</p>
+    <p>An indirect comparison of the BIPM and NBS standards indicates that the difference of 0.26% will increase to 0.55% at a distance of two meters.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of Exposure Standards for<sup>60</sup>Co Gamma Rays
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Comparison of Exposure Standards for <sup>60</sup>Co Gamma Rays
     date:
     - type: ppub
-      value: '1975-01-01'
+      at: '1975-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +99,6 @@ extent:
     reference_from: '17'
     reference_to: '23'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

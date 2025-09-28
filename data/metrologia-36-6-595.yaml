@@ -1,100 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366595
-title:
-- content: Optical refractometer applied to the determination of pressure in liquids
-    under high-pressure conditions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/22
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/22
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 595
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Optical refractometer applied to the determination of pressure in liquids
+    under high-pressure conditions
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/22
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/22
+docidentifier:
+- content: Metrologia 36 6 595
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/22
+- content: 10.1088/0026-1394/36/6/22
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R M Siegoczynski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Wisniewski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol.
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>A new application of an optical technique is described for the determination
+- language: en
+  script:
+  - Latn
+  content: "<p>A new application of an optical technique is described for the determination
     of pressure in liquids under high pressures up to 0.8 GPa. The method is based
     on measurements of scattered light intensity off certain types of rough and smooth
     surfaces. Usually a prism mounted inside a high-pressure chamber is used for observing
     the angle of minimum deviation. Advantages of our technique are that it permits
     fast measurements and can be used for continuous measurements over long periods.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Optical refractometer applied to the determination of pressure in liquids
+    - language: en
+      script: Latn
+      content: Optical refractometer applied to the determination of pressure in liquids
         under high-pressure conditions
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +91,6 @@ extent:
     reference_from: '595'
     reference_to: '597'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,116 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia472S143
-title:
-- content: Measurements and data of thermophysical properties traceable to a metrological
-    standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/2/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/2/S12
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 2 S143
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurements and data of thermophysical properties traceable to a metrological
+    standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/2/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/2/S12
+docidentifier:
+- content: Metrologia 47 2 S143
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/2/S12
+- content: 10.1088/0026-1394/47/2/S12
   type: doi
 date:
 - type: published
-  value: '2010-03-08'
+  at: '2010-03-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tetsuya Baba
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan, National Institute of Advanced
             Industrial Science and Technology, Tsukuba Central 3, 1-1-1 Umezono, Tsukuba,
             Ibaraki 305-8563, Japan
-  role:
-  - type: author
-revdate: '2010-03-08'
 abstract:
-- content: "<p>In order to improve the performance of devices, components and systems,
-    where heat is generated, transported, stored or converted to other types of energy,
-    reliable thermal design and simulation are required using reliable thermophysical
-    property data. In order to produce reliable thermophysical property data systematically
-    and continually, the international and national standards of thermophysical properties
-    must be established and the measurement methods should be evaluated and standardized,
-    and the measuring instruments must be calibrated by reference materials traceable
-    to the international or national standard.</p><p>Users search for and purchase
-    a particular grade of material which satisfies the properties, performances and
-    technical specifications required. In order to guarantee fair commerce and trade,
-    values of thermophysical properties should be measured traceable to the national
-    standard. Thus, the establishment of an international standard is required satisfying
-    the global CIPM MRA under the metric convention, and then, the global and regional
-    framework to examine calibration and measurement capability of national metrology
-    institutes (NMIs). A domestic traceability system in each country should be established
-    and the quality management system of the NMI and calibration laboratories should
-    be constructed based on ISO 17025.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In order to improve the performance of devices, components and systems, where heat is generated, transported, stored or converted to other types of energy, reliable thermal design and simulation are required using reliable thermophysical property data. In order to produce reliable thermophysical property data systematically and continually, the international and national standards of thermophysical properties must be established and the measurement methods should be evaluated and standardized, and the measuring instruments must be calibrated by reference materials traceable to the international or national standard.</p>
+    <p>Users search for and purchase a particular grade of material which satisfies the properties, performances and technical specifications required. In order to guarantee fair commerce and trade, values of thermophysical properties should be measured traceable to the national standard. Thus, the establishment of an international standard is required satisfying the global CIPM MRA under the metric convention, and then, the global and regional framework to examine calibration and measurement capability of national metrology institutes (NMIs). A domestic traceability system in each country should be established and the quality management system of the NMI and calibration laboratories should be constructed based on ISO 17025.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurements and data of thermophysical properties traceable to a metrological
+    - language: en
+      script: Latn
+      content: Measurements and data of thermophysical properties traceable to a metrological
         standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-03-08'
+      at: '2010-03-08'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurements and data of thermophysical properties traceable to a metrological
+    - language: en
+      script: Latn
+      content: Measurements and data of thermophysical properties traceable to a metrological
         standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-04-01'
+      at: '2010-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +95,6 @@ extent:
     reference_from: S143
     reference_to: S155
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

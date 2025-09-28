@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366647
-title:
-- content: Pressure comparison measurements between the CMI and the PTB in the range
-    0.07 MPa to 0.4 MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/32
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/32
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 647
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Pressure comparison measurements between the CMI and the PTB in the range
+    0.07 MPa to 0.4 MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/32
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/32
+docidentifier:
+- content: Metrologia 36 6 647
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/32
+- content: 10.1088/0026-1394/36/6/32
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tesar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Krajicek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CMI
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Schultz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB, CMI
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>This report describes pressure comparison measurements in the range
+- language: en
+  script:
+  - Latn
+  content: "<p>This report describes pressure comparison measurements in the range
     0.07 MPa to 0.4 MPa between the Czech Institute of Metrology (CMI) and the Physikalisch-Technische
     Bundesanstalt (PTB) in the period 9 to 13 March 1998 at the Pressure Section of
     the PTB, Braunschweig. The transfer standard used was a gas-operated piston-cylinder
@@ -88,40 +80,32 @@ abstract:
     gauge pressure; and for the dual-cistern mercury manometer, 1.8 × 10<sup>-6</sup>
     for gauge mode. The relative difference between the experimetnal absolute and
     gauge mode for the dual-cistern mercury manometer is 1.5 × 10<sup>-6</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pressure comparison measurements between the CMI and the PTB in the
+    - language: en
+      script: Latn
+      content: Pressure comparison measurements between the CMI and the PTB in the
         range 0.07 MPa to 0.4 MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +116,6 @@ extent:
     reference_from: '647'
     reference_to: '650'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia274233
-title:
-- content: An Intercomparison of Standards of Mass and Mass Measurement Techniques
-    at 50 g and 10 g, Between Four European National Standards Laboratories
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/4/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/4/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 4 233
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Intercomparison of Standards of Mass and Mass Measurement Techniques
+    at 50 g and 10 g, Between Four European National Standards Laboratories
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/4/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/4/007
+docidentifier:
+- content: Metrologia 27 4 233
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/4/007
+- content: 10.1088/0026-1394/27/4/007
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S L Lewis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti", Strada delle Cacce 73, I-10135
             Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Schwartz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, W-3300 Braunschweig, Federal
             Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L R Pendrill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statens Provningsanstalt, Box 857, S-50115 Borås, Sweden
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>An intercomparison of standards of mass of 50 g and 10 g was carried
+- language: en
+  script:
+  - Latn
+  content: "<p>An intercomparison of standards of mass of 50 g and 10 g was carried
     out between the national standards laboratories of four European countries during
     the period May 1988 to July 1989. The transfer standards used were carefully selected
     by the pilot laboratory (NPL) and the comparison scheme was chosen to minimise
@@ -93,40 +83,32 @@ abstract:
     agreement to within the uncertainties of measurement of the participants, the
     widest variation in mass value between any two participants being 8 μg at 50 g
     and 3 μg at 10 g.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Intercomparison of Standards of Mass and Mass Measurement Techniques
+    - language: en
+      script: Latn
+      content: An Intercomparison of Standards of Mass and Mass Measurement Techniques
         at 50 g and 10 g, Between Four European National Standards Laboratories
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +119,6 @@ extent:
     reference_from: '233'
     reference_to: '244'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

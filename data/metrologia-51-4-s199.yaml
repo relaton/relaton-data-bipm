@@ -1,101 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S199
-title:
-- content: 'Implementing measurement uncertainty for analytical chemistry: the Eurachem
-    Guide for measurement uncertainty'
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S199
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S199
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S199
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Implementing measurement uncertainty for analytical chemistry: the <italic>Eurachem
+    Guide</italic> for measurement uncertainty'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S199
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S199
+docidentifier:
+- content: Metrologia 51 4 S199
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S199
+- content: 10.1088/0026-1394/51/4/S199
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephen L R Ellison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Queens Road, Teddington, Middlesex TW11 0LY, UK
         name:
         - content: LGC Limited
-        contact:
-        - address:
-            formatted_address: Queens Road, Teddington, Middlesex TW11 0LY, UK
-  role:
-  - type: author
-revdate: '2014-07-11'
 abstract:
-- content: Abstract<p>The developments that led to the third edition of the Eurachem
-    Guide ‘Quantifying Uncertainty in Analytical Measurement’ are reviewed. Particular
-    attention is given to the rationale for early use of spreadsheet methods, the
-    incorporation of method performance data in the second edition, and the third
-    edition's provisions on uncertainties near zero and Monte Carlo methods. The development
-    of uncertainty concepts in chemistry is reviewed briefly and some of the challenges
-    found in early implementation of measurement uncertainty in chemistry are recalled.
-    Problems arising from uncertainty evaluation for reference measurements with limited
-    data are discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The developments that led to the third edition of the <italic>Eurachem Guide ‘Quantifying Uncertainty in Analytical Measurement’</italic> are reviewed. Particular attention is given to the rationale for early use of spreadsheet methods, the incorporation of method performance data in the second edition, and the third edition's provisions on uncertainties near zero and Monte Carlo methods. The development of uncertainty concepts in chemistry is reviewed briefly and some of the challenges found in early implementation of measurement uncertainty in chemistry are recalled. Problems arising from uncertainty evaluation for reference measurements with limited data are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Implementing measurement uncertainty for analytical chemistry: the
-        Eurachem Guide for measurement uncertainty'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Implementing measurement uncertainty for analytical chemistry: the
+        <italic>Eurachem Guide</italic> for measurement uncertainty'
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Implementing measurement uncertainty for analytical chemistry: the
-        Eurachem Guide for measurement uncertainty'
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: 'Implementing measurement uncertainty for analytical chemistry: the
+        <italic>Eurachem Guide</italic> for measurement uncertainty'
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: S199
     reference_to: S205
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

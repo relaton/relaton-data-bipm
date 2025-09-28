@@ -1,171 +1,142 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524496
-title:
-- content: 'Proton spin-echo magnetometer: a novel approach for magnetic field measurement
-    in residual field gradient'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/496
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/496
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 496
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Proton spin-echo magnetometer: a novel approach for magnetic field measurement
+    in residual field gradient'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/496
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/496
+docidentifier:
+- content: Metrologia 52 4 496
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/496
+- content: 10.1088/0026-1394/52/4/496
   type: doi
 date:
 - type: published
-  value: '2015-05-15'
+  at: '2015-05-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jeong Hyun Shim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seong-Joo Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Seong-min Hwang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kwon Kyu Yu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Republic of Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kiwoong Kim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 305-340, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
-        contact:
-        - address:
-            formatted_address: Daejeon 305-340, Republic of Korea
-  role:
-  - type: author
-revdate: '2015-05-15'
 abstract:
-- content: Abstract<p>We demonstrate a proton spin echo magnetometer, in which the
-    interrogation time is not limited by T2&ast; > and can be prolonged to T<sub>2</sub>.
-    Therefore, even under a severe field gradient, the precision of the measurement
-    does not degrade. We devised a phase linearization method that enables accurate
-    estimation of the precession frequency from a spin-echo train. With proton spins
-    in deoxygenated tetramethylsilane and a superconducting quantum interference device-detected
-    NMR system at KRISS, an average field of around 5 μT was measured with an uncertainty
-    of 0.42 nT in the presence of a field gradient of 12.8 μT m<sup>−1</sup>. This
-    implies that our system tolerated a 25% variation in magnetic field over the sample
-    area. The proton spin-echo magnetometer will be useful in measuring magnetic fields
-    without compensating for residual field gradients.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We demonstrate a proton spin echo magnetometer, in which the interrogation time is not limited by <inline-formula><tex-math><?CDATA $T_{2}^{*}$ ></tex-math><?MML <mml:math><mml:mstyle displaystyle='true'><mml:mstyle displaystyle='false'><mml:msubsup><mml:mi>T</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mo>&ast;</mml:mo></mml:mrow></mml:msubsup></mml:mstyle></mml:mstyle></mml:math> ><inline-graphic xlink:href="met513248ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula> and can be prolonged to <italic>T</italic><sub>2</sub>. Therefore, even under a severe field gradient, the precision of the measurement does not degrade. We devised a phase linearization method that enables accurate estimation of the precession frequency from a spin-echo train. With proton spins in deoxygenated tetramethylsilane and a superconducting quantum interference device-detected NMR system at KRISS, an average field of around 5 μT was measured with an uncertainty of 0.42 nT in the presence of a field gradient of 12.8 μT m<sup>−1</sup>. This implies that our system tolerated a 25% variation in magnetic field over the sample area. The proton spin-echo magnetometer will be useful in measuring magnetic fields without compensating for residual field gradients.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Proton spin-echo magnetometer: a novel approach for magnetic field
+    - script: Latn
+      content: 'Proton spin-echo magnetometer: a novel approach for magnetic field
         measurement in residual field gradient'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Proton spin-echo magnetometer: a novel approach for magnetic field
+    - script: Latn
+      content: 'Proton spin-echo magnetometer: a novel approach for magnetic field
         measurement in residual field gradient'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-05-15'
+      at: '2015-05-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -176,6 +147,6 @@ extent:
     reference_from: '496'
     reference_to: '501'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

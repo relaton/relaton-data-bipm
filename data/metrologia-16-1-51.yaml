@@ -1,81 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia16151
-title:
-- content: Systematic Search for Orthogonal Systems in the Calibrations of Submultiples
-    and Multiples of the Unit of Mass
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 1 51
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systematic Search for Orthogonal Systems in the Calibrations of Submultiples
+    and Multiples of the Unit of Mass
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/1/007
+docidentifier:
+- content: Metrologia 16 1 51
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/1/007
+- content: 10.1088/0026-1394/16/1/007
   type: doi
 date:
 - type: published
-  value: '1980-01-01'
+  at: '1980-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Zuker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Biomathematics Section, Division of Biological Sciences, National
             Research Council of Canada, Sussex Drive, Ottawa, Ontario, Canada KIA
             0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mihailov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass and Length Laboratory of the Legal Metrology Branch, Department
             of Consumer and Corporate Affairs, Tunney's Pasture, Ottawa, Ontario,
             Canada KIA 0C9
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Romanowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mass and Length Laboratory of the Legal Metrology Branch, Department
             of Consumer and Corporate Affairs, Tunney's Pasture, Ottawa, Ontario,
             Canada KIA 0C9
-  role:
-  - type: author
-revdate: '1980-01-01'
 abstract:
-- content: <p>The structure of the design matrix of a system of equations of condition
+- language: en
+  script:
+  - Latn
+  content: <p>The structure of the design matrix of a system of equations of condition
     which are formed in taking the observations for calibration of a "series of mass
     standards", has a strong influence on the accuracy of the results. It was suggested
     by Prowse and Anderson (1974) that the best system of equations, both from the
@@ -87,40 +79,32 @@ abstract:
     an original method which conforms to Grabe's principles and leads to systems of
     equations which possess orthogonal matrices and which can be easily applied to
     various "series of mass standards" used in practical metrology.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Systematic Search for Orthogonal Systems in the Calibrations of Submultiples
+    - language: en
+      script: Latn
+      content: Systematic Search for Orthogonal Systems in the Calibrations of Submultiples
         and Multiples of the Unit of Mass
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-01-01'
+      at: '1980-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +115,6 @@ extent:
     reference_from: '51'
     reference_to: '54'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

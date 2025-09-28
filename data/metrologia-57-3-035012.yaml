@@ -1,121 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia573035012
-title:
-- content: Comparison of Open and Solid Falling Retroreflector Gravimeters<sup>1</sup>
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/ab7d12
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab7d12
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 3 035012
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comparison of Open and Solid Falling Retroreflector Gravimeters<xref ref-type="fn"
+    rid="metab7d12fn1"><sup>1</sup></xref>
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab7d12
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab7d12
+docidentifier:
+- content: Metrologia 57 3 035012
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab7d12
+- content: 10.1088/1681-7575/ab7d12
   type: doi
 date:
 - type: published
-  value: '2020-05-29'
+  at: '2020-05-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Neil Ashby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO 80305, United States of America
         name:
         - content: Associate, Physical Measurement Laboratory, National Institute
             of Standards and Technology
-        contact:
-        - address:
-            formatted_address: Boulder, CO 80305, United States of America
     - organization:
+        address:
+        - formatted_address: Boulder, CO 80309, United States of America
         name:
         - content: Department of Physics, University of Colorado
-        contact:
-        - address:
-            formatted_address: Boulder, CO 80309, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Derek van Westrum
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO, United States of America
         name:
         - content: National Geodetic Survey
-        contact:
-        - address:
-            formatted_address: Boulder, CO, United States of America
-  role:
-  - type: author
-revdate: '2020-05-29'
 abstract:
-- content: "Abstract<p>We study whether the optical properties of a solid glass retroreflector
-    influence the value of the acceleration of gravity g determined by dropping both
-    solid and open retroreflectors in an absolute ballistic gravimeter. The retroreflectors
-    have equivalent optical centers and are dropped from the same height, at a fixed
-    location, in the same gravimeter while recording time data corresponding to fixed
-    fringe separation intervals of 400 fringes. The data for both types of retroreflectors
-    are processed with commercial software, as well as with independently developed
-    software based on a relativistic treatment of the phase difference between reference
-    beam and test beams, and a realistic treatment of the effect of frequency modulation,
-    with modulation index \nβ≫1, on the interference signal. After applying corrections
-    for polar motion, barometric admittance, tides, and ocean loading we find agreement
-    between the values of g determined with both types of retroreflectors, whether
-    processed with commercial software or with our independently developed software.
-    We suggest two procedures for computing relativistic corrections; the two methods
-    agree to better than 0.01 µGal.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>We study whether the optical properties of a solid glass retroreflector influence the value of the acceleration of gravity <italic>g</italic> determined by dropping both solid and open retroreflectors in an absolute ballistic gravimeter. The retroreflectors have equivalent optical centers and are dropped from the same height, at a fixed location, in the same gravimeter while recording time data corresponding to fixed fringe separation intervals of 400 fringes. The data for both types of retroreflectors are processed with commercial software, as well as with independently developed software based on a relativistic treatment of the phase difference between reference beam and test beams, and a realistic treatment of the effect of frequency modulation, with modulation index <inline-formula><tex-math><?CDATA $\beta \gg 1$></tex-math>
+    <mml:math overflow="scroll"><mml:mi>β</mml:mi><mml:mo>≫</mml:mo><mml:mn>1</mml:mn></mml:math><inline-graphic xlink:href="metab7d12ieqn1.gif" xlink:type="simple"></inline-graphic></inline-formula>, on the interference signal. After applying corrections for polar motion, barometric admittance, tides, and ocean loading we find agreement between the values of <italic>g</italic> determined with both types of retroreflectors, whether processed with commercial software or with our independently developed software. We suggest two procedures for computing relativistic corrections; the two methods agree to better than 0.01 µGal.</p>
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of Open and Solid Falling Retroreflector Gravimeters<sup>1</sup>
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Comparison of Open and Solid Falling Retroreflector Gravimeters<xref
+        ref-type="fn" rid="metab7d12fn1"><sup>1</sup></xref>
     date:
     - type: ppub
-      value: '2020-06-01'
+      at: '2020-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of Open and Solid Falling Retroreflector Gravimeters<sup>1</sup>
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Comparison of Open and Solid Falling Retroreflector Gravimeters<xref
+        ref-type="fn" rid="metab7d12fn1"><sup>1</sup></xref>
     date:
     - type: epub
-      value: '2020-05-29'
+      at: '2020-05-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +97,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

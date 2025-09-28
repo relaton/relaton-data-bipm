@@ -1,100 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S231
-title:
-- content: Bayesian evaluation of comparison data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S231
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Bayesian evaluation of comparison data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S09
+docidentifier:
+- content: Metrologia 43 4 S231
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S09
+- content: 10.1088/0026-1394/43/4/S09
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Mechanical and Metallurgical Engineering, Pontificia
             Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago, Chile
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>This paper develops a Bayesian procedure to evaluate comparison data
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper develops a Bayesian procedure to evaluate comparison data
     when more than two participants measure independently a stable travelling standard.
     The procedure yields the analytic probability density function (pdf) that encodes
     the collective state of knowledge. From this pdf, the estimated value of the measurand
     may be derived numerically, together with its associated standard uncertainty
     and coverage interval. The pdfs for the degrees of equivalence of the participating
     laboratories can also be calculated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian evaluation of comparison data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Bayesian evaluation of comparison data
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bayesian evaluation of comparison data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Bayesian evaluation of comparison data
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +90,6 @@ extent:
     reference_from: S231
     reference_to: S234
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

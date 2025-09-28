@@ -1,178 +1,143 @@
 ---
-schema-version: v1.2.9
-id: Metrologia602025004
-title:
-- content: Characterization of the LED filament lamp for luminous intensity calibration
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/acb70e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/acb70e
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 2 025004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Characterization of the LED filament lamp for luminous intensity calibration
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/acb70e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/acb70e
+docidentifier:
+- content: Metrologia 60 2 025004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/acb70e
+- content: 10.1088/1681-7575/acb70e
   type: doi
 date:
 - type: published
-  value: '2023-02-23'
+  at: '2023-02-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Weiqiang Zhao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jinyun Yan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hui Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ying Su
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yandong Lin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing, People’s Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing, People’s Republic of China
-  role:
-  - type: author
-revdate: '2023-02-23'
 abstract:
-- content: "Abstract<p>Light-emitting diode (LED) is now the main type of light source
-    in global lighting marketing. However, traditional photometry with the incandescent
-    standard lamp is not sufficient to implement high-level LED photometric measurement,
-    since a considerable spectral mismatch error may exist if the photometer has a
-    large general V(λ) mismatch index \n \n f1′. The LED standard lamp is proposed
-    to be the complementary transfer standard for photometry to reduce this measurement
-    uncertainty. National Institute of Metrology, China (NIM) has previously reported
-    a type of LED filament lamp for total luminous flux. In this article, NIM demonstrates
-    another type of LED filament lamp for luminous intensity calibration. The LED
-    filaments are sealed in a T90 cylinder glass bulb as emitters, and have a spectrum
-    similar to the reference white LED spectrum considered in Commission on Illumination
-    technical committee 2–90. The LED lamp uses the E27 screw base as the connector,
-    and is compatible with the traditional alignment approaches. The warm-up time
-    is less than 12 min. The output change of a group of 12 lamps, over nearly two
-    years of storage and 1 h operation every day during the whole long-term test,
-    is found to be ±0.2% or less for most of the lamps. The ageing effect of one lamp
-    over a continuous 6500 h of burning is estimated to be −0.014% per 100 h, and
-    it is significantly lower than 1% per 100 h, the typical drift rate of the traditional
-    incandescent luminous intensity lamp. In the aspect of the coincidence with inverse
-    square law, the LED lamp has a similar performance to the WI41/G lamp, the traditional
-    luminous intensity lamp.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Light-emitting diode (LED) is now the main type of light source in global lighting marketing. However, traditional photometry with the incandescent standard lamp is not sufficient to implement high-level LED photometric measurement, since a considerable spectral mismatch error may exist if the photometer has a large general <italic toggle="yes">V</italic>(<italic toggle="yes">λ</italic>) mismatch index <inline-formula>
+                      <tex-math><?CDATA ${f_1}^{^{\prime} }$></tex-math>
+                      <mml:math overflow="scroll"><mml:msup><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">′</mml:mi></mml:mrow></mml:msup></mml:math>
+                      <inline-graphic xlink:href="metacb70eieqn1.gif" xlink:type="simple"></inline-graphic>
+                   </inline-formula>. The LED standard lamp is proposed to be the complementary transfer standard for photometry to reduce this measurement uncertainty. National Institute of Metrology, China (NIM) has previously reported a type of LED filament lamp for total luminous flux. In this article, NIM demonstrates another type of LED filament lamp for luminous intensity calibration. The LED filaments are sealed in a T90 cylinder glass bulb as emitters, and have a spectrum similar to the reference white LED spectrum considered in Commission on Illumination technical committee 2–90. The LED lamp uses the E27 screw base as the connector, and is compatible with the traditional alignment approaches. The warm-up time is less than 12 min. The output change of a group of 12 lamps, over nearly two years of storage and 1 h operation every day during the whole long-term test, is found to be ±0.2% or less for most of the lamps. The ageing effect of one lamp over a continuous 6500 h of burning is estimated to be −0.014% per 100 h, and it is significantly lower than 1% per 100 h, the typical drift rate of the traditional incandescent luminous intensity lamp. In the aspect of the coincidence with inverse square law, the LED lamp has a similar performance to the WI41/G lamp, the traditional luminous intensity lamp.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of the LED filament lamp for luminous intensity calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Characterization of the LED filament lamp for luminous intensity calibration
     date:
     - type: ppub
-      value: '2023-04-01'
+      at: '2023-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Characterization of the LED filament lamp for luminous intensity calibration
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Characterization of the LED filament lamp for luminous intensity calibration
     date:
     - type: epub
-      value: '2023-02-23'
+      at: '2023-02-23'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -180,6 +145,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

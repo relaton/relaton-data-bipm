@@ -1,120 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia596065010
-title:
-- content: Uncertainty evaluation in reference material characterization by double
-    isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS)
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac9737
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac9737
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 6 065010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainty evaluation in reference material characterization by double
+    isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS)
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac9737
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac9737
+docidentifier:
+- content: Metrologia 59 6 065010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac9737
+- content: 10.1088/1681-7575/ac9737
   type: doi
 date:
 - type: published
-  value: '2022-11-14'
+  at: '2022-11-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jong Wha Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Daejeon 34113, Republic of Korea
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
-        - content: Inorganic Metrology Group, Division of Chemical and Biological
-            Metrology
-        contact:
-        - address:
-            formatted_address: Daejeon 34113, Republic of Korea
-  role:
-  - type: author
-revdate: '2022-11-14'
+        - name:
+          - language: en
+            script: Latn
+            content: Inorganic Metrology Group, Division of Chemical and Biological
+              Metrology
 abstract:
-- content: Abstract<p>Double isotope dilution inductively coupled plasma mass spectrometry
-    (ID-ICP-MS) is one of the most important measurement methods in the establishment
-    of measurement standards for inorganic analysis. However, there is still no good
-    consensus on approaches for uncertainty evaluation in double ID-ICP-MS. Particularly,
-    approaches to treating the instrumental isotopic fractionation (IIF) phenomenon
-    and correlation between uncertainty sources are diverse and often unclear in the
-    literature. Here, an approach for uncertainty evaluation in double ID-ICP-MS measurements
-    is described. Using three certified reference materials (CRMs), it is shown that
-    the IIF effects cancel out and should not be included in the uncertainty budget.
-    Further, a consistent way of considering correlated sources of uncertainty to
-    prevent double counting of uncertainties is described in detail along with an
-    example of measuring the mass fraction of magnesium in an oyster powder CRM.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Double isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS) is one of the most important measurement methods in the establishment of measurement standards for inorganic analysis. However, there is still no good consensus on approaches for uncertainty evaluation in double ID-ICP-MS. Particularly, approaches to treating the instrumental isotopic fractionation (IIF) phenomenon and correlation between uncertainty sources are diverse and often unclear in the literature. Here, an approach for uncertainty evaluation in double ID-ICP-MS measurements is described. Using three certified reference materials (CRMs), it is shown that the IIF effects cancel out and should not be included in the uncertainty budget. Further, a consistent way of considering correlated sources of uncertainty to prevent double counting of uncertainties is described in detail along with an example of measuring the mass fraction of magnesium in an oyster powder CRM.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty evaluation in reference material characterization by double
+    - script: Latn
+      content: Uncertainty evaluation in reference material characterization by double
         isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-12-01'
+      at: '2022-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty evaluation in reference material characterization by double
+    - script: Latn
+      content: Uncertainty evaluation in reference material characterization by double
         isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-11-14'
+      at: '2022-11-14'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainty evaluation in reference material characterization by double
+    - script: Latn
+      content: Uncertainty evaluation in reference material characterization by double
         isotope dilution inductively coupled plasma mass spectrometry (ID-ICP-MS)
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: open-access
-      value: '2022-11-14'
+      at: '2022-11-14'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +105,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

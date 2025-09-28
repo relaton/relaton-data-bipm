@@ -1,128 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia582025010
-title:
-- content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abe453
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abe453
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 2 025010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abe453
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abe453
+docidentifier:
+- content: Metrologia 58 2 025010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abe453
+- content: 10.1088/1681-7575/abe453
   type: doi
 date:
 - type: published
-  value: '2021-03-11'
+  at: '2021-03-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ralf Behr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luis Palafox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2021-03-11'
 abstract:
-- content: Abstract<p>Differential sampling relative to a Josephson waveform, the
-    ac quantum voltmeter (ac-QVM), has been established as the most accurate method
-    for measuring signals below 1 kHz with an uncertainty of 1 part in 10<sup>8</sup>
-    (k = 1) for 1 V at 250 Hz. Commercial ac-QVMs provide accuracies of about 1 part
-    in 10<sup>6</sup> up to frequencies of 2 kHz. Here we present a new sub-sampling
-    technique to extend the frequency range of an ac-QVM up to 100 kHz. The measurement
-    results at 1 V RMS amplitude agree well within 5 µV V<sup>−1</sup> (k = 1) with
-    the nominal voltage values for all frequencies from 500 Hz to 100 kHz. Two different
-    analogue-to-digital converters are compared, sampling techniques, error sources
-    and corrections as well as detailed uncertainty estimations are discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Differential sampling relative to a Josephson waveform, the ac quantum voltmeter (ac-QVM), has been established as the most accurate method for measuring signals below 1 kHz with an uncertainty of 1 part in 10<sup>8</sup> (<italic toggle="yes">k</italic> = 1) for 1 V at 250 Hz. Commercial ac-QVMs provide accuracies of about 1 part in 10<sup>6</sup> up to frequencies of 2 kHz. Here we present a new sub-sampling technique to extend the frequency range of an ac-QVM up to 100 kHz. The measurement results at 1 V RMS amplitude agree well within 5 µV V<sup>−1</sup> (<italic toggle="yes">k</italic> = 1) with the nominal voltage values for all frequencies from 500 Hz to 100 kHz. Two different analogue-to-digital converters are compared, sampling techniques, error sources and corrections as well as detailed uncertainty estimations are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
     date:
     - type: ppub
-      value: '2021-04-01'
+      at: '2021-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
     date:
     - type: epub
-      value: '2021-03-11'
+      at: '2021-03-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: An AC quantum voltmeter for frequencies up to 100 kHz using sub-sampling
     date:
     - type: open-access
-      value: '2021-09-21'
+      at: '2021-09-21'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +109,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,76 +1,68 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S36
-title:
-- content: Radionuclide metrology using liquid scintillation counting
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S06
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S36
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radionuclide metrology using liquid scintillation counting
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S06
+docidentifier:
+- content: Metrologia 44 4 S36
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S06
+- content: 10.1088/0026-1394/44/4/S06
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ryszard Broda
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Atomic Energy, Radioisotope Centre POLATOM, 05-400
             Otwock-Świerk, Poland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Philippe Cassette
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CEA Saclay DRT/DETECS/LNHB, 91191 Gif Sur Yvette Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Karsten Kossert
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Department 6.1, D-38116
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>Liquid scintillation counting (LSC) techniques can be used for radionuclide
+- language: en
+  script:
+  - Latn
+  content: "<p>Liquid scintillation counting (LSC) techniques can be used for radionuclide
     standardization when the calculation of detection efficiency is possible. This
     is done using a model of the physicochemical processes involved in light emission
     and also of the statistics of photon emission: the free parameter model. This
@@ -79,53 +71,42 @@ abstract:
     from coincidence ratio in a specific LS counter (the TDCR method). The purpose
     of this paper is to describe both these models and some practical issues that
     need to be addressed if LSC is to be effectively used in radionuclide metrology.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radionuclide metrology using liquid scintillation counting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radionuclide metrology using liquid scintillation counting
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radionuclide metrology using liquid scintillation counting
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radionuclide metrology using liquid scintillation counting
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +117,6 @@ extent:
     reference_from: S36
     reference_to: S52
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

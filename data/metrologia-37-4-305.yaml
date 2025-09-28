@@ -1,117 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia374305
-title:
-- content: Spectral irradiance measurements of tungsten lamps with filter radiometers
-    in the spectral range 290 nm to 900 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/4/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/4/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 4 305
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spectral irradiance measurements of tungsten lamps with filter radiometers
+    in the spectral range 290 nm to 900 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/4/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/4/7
+docidentifier:
+- content: Metrologia 37 4 305
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/4/7
+- content: 10.1088/0026-1394/37/4/7
   type: doi
 date:
 - type: published
-  value: '2000-08-01'
+  at: '2000-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Kübarsepp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Kärhä
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Manoocheri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Nevas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Ylianttila
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Ikonen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: HUT, STUK
-  role:
-  - type: author
-revdate: '2000-08-01'
 abstract:
-- content: "<p>A method of measuring the absolute spectral irradiance of quartz-halogen-tungsten
+- language: en
+  script:
+  - Latn
+  content: "<p>A method of measuring the absolute spectral irradiance of quartz-halogen-tungsten
     lamps is described, based on the known responsivity of a filter radiometer, the
     components of which are separately characterized. The characterization is described
     for the wide wavelength range essential for deriving the spectrum of a lamp, from
@@ -128,40 +114,32 @@ abstract:
     nm. The long-term reproducibility of the spectral irradiance measurements is also
     presented. Over a period of two years, the reproducibility appears to be better
     than 1 part in 10<sup>2</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectral irradiance measurements of tungsten lamps with filter radiometers
+    - language: en
+      script: Latn
+      content: Spectral irradiance measurements of tungsten lamps with filter radiometers
         in the spectral range 290 nm to 900 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-08-01'
+      at: '2000-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -172,6 +150,6 @@ extent:
     reference_from: '305'
     reference_to: '312'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

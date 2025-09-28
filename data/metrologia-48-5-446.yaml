@@ -1,118 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485446
-title:
-- content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/N03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/N03
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 446
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/N03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/N03
+docidentifier:
+- content: Metrologia 48 5 446
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/N03
+- content: 10.1088/0026-1394/48/5/N03
   type: doi
 date:
 - type: published
-  value: '2011-09-19'
+  at: '2011-09-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ruoxin Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, The Pennsylvania State University, University
             Park, PA 16802, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kurt Gibble
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, The Pennsylvania State University, University
             Park, PA 16802, USA
-  role:
-  - type: author
-revdate: '2011-09-19'
 abstract:
-- content: "<p>We discuss the treatment of distributed cavity phase, microwave lensing
-    and microwave leakage in the paper by Ovchinnikov and Marra (2011 Metrologia 48
-    87–100). The paper neglects the potential distributed cavity phase shifts from
-    linear phase gradients and quadrupolar phase variations. Only azimuthally symmetric
-    phase variations were analysed and an incorrect model was used for these. The
-    paper also omits an uncertainty due to microwave lensing, which must be included.
-    Finally, we describe additional measurements that could clarify the model used
-    to analyse the frequency shifts due to microwave leakage.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>We discuss the treatment of distributed cavity phase, microwave lensing
+    and microwave leakage in the paper by Ovchinnikov and Marra (<ext-link ext-link-type="uri"
+    xlink:href="https://doi.org/10.1088/0026-1394/48/3/003">2011 <italic>Metrologia</italic>
+    <bold>48</bold> 87–100</ext-link>). The paper neglects the potential distributed
+    cavity phase shifts from linear phase gradients and quadrupolar phase variations.
+    Only azimuthally symmetric phase variations were analysed and an incorrect model
+    was used for these. The paper also omits an uncertainty due to microwave lensing,
+    which must be included. Finally, we describe additional measurements that could
+    clarify the model used to analyse the frequency shifts due to microwave leakage.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
     date:
     - type: epub
-      value: '2011-09-19'
+      at: '2011-09-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comment on ‘Accurate rubidium atomic fountain frequency standard’
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +110,6 @@ extent:
     reference_from: '446'
     reference_to: '447'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

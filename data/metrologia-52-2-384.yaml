@@ -1,179 +1,164 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522384
-title:
-- content: Comparing a GPS time link calibration with an optical fibre self-calibration
-    with 200 ps accuracy
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/384
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/384
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 384
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comparing a GPS time link calibration with an optical fibre self-calibration
+    with 200 ps accuracy
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/384
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/384
+docidentifier:
+- content: Metrologia 52 2 384
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/384
+- content: 10.1088/0026-1394/52/2/384
   type: doi
 date:
 - type: published
-  value: '2015-03-30'
+  at: '2015-03-30'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Z Jiang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures
         subdivision:
-        - content: 'BIPM: Time Department'
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: 'BIPM: Time Department'
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Czubla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Warsaw, Poland
         name:
         - content: Central Office of Measures
         subdivision:
-        - content: 'GUM: Time and Frequency Laboratory'
-        contact:
-        - address:
-            formatted_address: Warsaw, Poland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: 'GUM: Time and Frequency Laboratory'
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Nawrocki
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Borowiec, Poland
         name:
         - content: Astrogeodynamic Observatory of Space Research Center
         subdivision:
-        - content: 'AOS: Time and Frequency Department'
-        contact:
-        - address:
-            formatted_address: Borowiec, Poland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: 'AOS: Time and Frequency Department'
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Lewandowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Warsaw, Poland
         name:
         - content: Polish Academy of Sciences
         subdivision:
-        - content: Committee of Space Research
-        contact:
-        - address:
-            formatted_address: Warsaw, Poland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Committee of Space Research
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E F Arias
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures
         subdivision:
-        - content: 'BIPM: Time Department'
-  role:
-  - type: author
-revdate: '2015-03-30'
+        - name:
+          - language: en
+            script: Latn
+            content: 'BIPM: Time Department'
 abstract:
-- content: Abstract<p>In Poland, an accurate two-way optical fibre time transfer (TWOTT)
-    baseline of 420 km has been developed with a standard uncertainty of 112 ps. Meanwhile,
-    the BIPM has been engaged in a pilot project to reduce the uncertainty of UTC
-    GNSS time transfer calibrations from 5 ns to approximately 1.5 ns, for which it
-    has developed a standard calibration scheme, named METODE, associated with an
-    integrated portable GNSS calibration station. The TWOTT and the METODE respectively
-    represent the world’s most advanced time transfer method and calibration facility.</p><p>In
-    July 2013, the BIPM calibrator and the TWOTT self-calibrated optical fibre transceivers
-    were set up side by side to compare their results. This is the first time that
-    an operational TWOTT has been used in accurate time transfer and the first time
-    that a GNSS calibration method has been validated with a technique accurate to
-    200 ps. As the two systems are completely independent and the latter is one order
-    of magnitude more accurate than the first, this comparison allowed validation
-    of the METODE and its uncertainty. It also confirmed that any bias in the TWOTT
-    is at most 1 ns.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In Poland, an accurate two-way optical fibre time transfer (TWOTT) baseline of 420 km has been developed with a standard uncertainty of 112 ps. Meanwhile, the BIPM has been engaged in a pilot project to reduce the uncertainty of UTC GNSS time transfer calibrations from 5 ns to approximately 1.5 ns, for which it has developed a standard calibration scheme, named METODE, associated with an integrated portable GNSS calibration station. The TWOTT and the METODE respectively represent the world<bold>’</bold>s most advanced time transfer method and calibration facility.</p>
+    <p>In July 2013, the BIPM calibrator and the TWOTT self-calibrated optical fibre transceivers were set up side by side to compare their results. This is the first time that an operational TWOTT has been used in accurate time transfer and the first time that a GNSS calibration method has been validated with a technique accurate to 200 ps. As the two systems are completely independent and the latter is one order of magnitude more accurate than the first, this comparison allowed validation of the METODE and its uncertainty. It also confirmed that any bias in the TWOTT is at most 1 ns.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparing a GPS time link calibration with an optical fibre self-calibration
+    - script: Latn
+      content: Comparing a GPS time link calibration with an optical fibre self-calibration
         with 200 ps accuracy
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparing a GPS time link calibration with an optical fibre self-calibration
+    - script: Latn
+      content: Comparing a GPS time link calibration with an optical fibre self-calibration
         with 200 ps accuracy
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-03-30'
+      at: '2015-03-30'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -184,6 +169,6 @@ extent:
     reference_from: '384'
     reference_to: '391'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

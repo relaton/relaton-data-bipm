@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283111
-title:
-- content: History of Solar Radiometry and the World Radiometric Reference
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: History of Solar Radiometry and the World Radiometric Reference
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/001
+docidentifier:
+- content: Metrologia 28 3 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/001
+- content: 10.1088/0026-1394/28/3/001
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Fröhlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Meteorologisches Observatorium Davos, World Radiation
             Center, CH-7260 Davos-Dorf, Switzerland
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: <p>The history of solar radiometry since the first pyrheliometer of Pouillet
+- language: en
+  script:
+  - Latn
+  content: <p>The history of solar radiometry since the first pyrheliometer of Pouillet
     is presented. After the invention of the Ångström and the Smithsonian pyrheliometers
     around the turn of this century two different "scales" were in use. Comparisons
     with absolute cavity radiometers developed in America and Europe have been performed
@@ -55,39 +51,31 @@ abstract:
     Reference in use by the meteorological community since 1981. This reference has
     an estimated accuracy of 0,3% and guarantees the worldwide homogeneity of radiation
     measurements within 0,1% precision.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: History of Solar Radiometry and the World Radiometric Reference
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: History of Solar Radiometry and the World Radiometric Reference
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -98,6 +86,6 @@ extent:
     reference_from: '111'
     reference_to: '115'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

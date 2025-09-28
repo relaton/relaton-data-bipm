@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia1268
-title:
-- content: Gasthermometrie bei höheren Temperaturen
-  language:
-  - de
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/1/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/1/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 1 2 68
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: Gasthermometrie bei höheren Temperaturen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/1/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/1/2/004
+docidentifier:
+- content: Metrologia 1 2 68
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/1/2/004
+- content: 10.1088/0026-1394/1/2/004
   type: doi
 date:
 - type: published
-  value: '1965-04-01'
+  at: '1965-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Helmut Moser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 33 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1965-04-01'
 abstract:
-- content: "<p>Pointing at first to the importance of gas thermometric measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>Pointing at first to the importance of gas thermometric measurements
     for securing the thermodynamic temperature scale a brief description is given
     of the three methods of constant volume, constant pressure and constant bulb-temperature,
     as well as their advantages and disadvantages. The author enters into the essential
@@ -50,39 +46,31 @@ abstract:
     of the second virial coefficient of the gases; or because of desorption effects.
     Recent gas thermometer results are compared with the results obtained by the optical
     method.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1965'
+- from: '1965'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gasthermometrie bei höheren Temperaturen
-      language:
-      - de
-      script:
-      - Latn
-      format: text/plain
+    - language: de
+      script: Latn
+      content: Gasthermometrie bei höheren Temperaturen
     date:
     - type: ppub
-      value: '1965-04-01'
+      at: '1965-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '68'
     reference_to: '73'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

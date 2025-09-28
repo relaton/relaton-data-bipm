@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia42132
-title:
-- content: Outlier rejection for the weighted-mean KCRV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 1 32
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Outlier rejection for the weighted-mean KCRV
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/1/004
+docidentifier:
+- content: Metrologia 42 1 32
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/1/004
+- content: 10.1088/0026-1394/42/1/004
   type: doi
 date:
 - type: published
-  value: '2005-01-27'
+  at: '2005-01-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Steele
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, Canada K1A 0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B M Wood
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, Canada K1A 0R6
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R J Douglas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council (NRC), Ottawa, Canada K1A 0R6
-  role:
-  - type: author
-revdate: '2005-01-27'
 abstract:
-- content: "<p>We propose new criteria to help select a subset of peer results for
+- language: en
+  script:
+  - Latn
+  content: "<p>We propose new criteria to help select a subset of peer results for
     determining a weighted-mean Key Comparison Reference Value (KCRV) for describing
     Key Comparisons supporting the CIPM Mutual Recognition Arrangement (MRA). Often
     the results are all well behaved: their scatter is in the range expected from
@@ -87,53 +79,42 @@ abstract:
     criteria are suggested to help justify the identification of outliers: one based
     on uncertainty in the logarithmic slope, and the other based on uncertainty about
     whether the logarithmic curvature is negative definite.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Outlier rejection for the weighted-mean KCRV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Outlier rejection for the weighted-mean KCRV
     date:
     - type: epub
-      value: '2005-01-27'
+      at: '2005-01-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Outlier rejection for the weighted-mean KCRV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Outlier rejection for the weighted-mean KCRV
     date:
     - type: ppub
-      value: '2005-02-01'
+      at: '2005-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +125,6 @@ extent:
     reference_from: '32'
     reference_to: '38'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

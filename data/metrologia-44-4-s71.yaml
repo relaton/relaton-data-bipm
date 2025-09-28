@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S71
-title:
-- content: Preparation of radioactive sources for radionuclide metrology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S71
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Preparation of radioactive sources for radionuclide metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S09
+docidentifier:
+- content: Metrologia 44 4 S71
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S09
+- content: 10.1088/0026-1394/44/4/S09
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Sibbens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: European Commission, Joint Research Centre, Institute for Reference
             Materials and Measurements, Retieseweg 111, B-2440 Geel, Belgium
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Altzitzoglou
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: European Commission, Joint Research Centre, Institute for Reference
             Materials and Measurements, Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The final accuracy of a radioactivity measurement can depend to a high
+- language: en
+  script:
+  - Latn
+  content: "<p>The final accuracy of a radioactivity measurement can depend to a high
     degree on the quality of the radioactive sources used. In this paper the most
     important source preparation technique for radionuclide metrology is described
     in detail, namely the quantitative preparation of solid sources by drop deposition.
@@ -66,53 +60,42 @@ abstract:
     quality and the uncertainty calculations involved. Other source preparation techniques
     of special interest are briefly mentioned and the handling and storage of solutions
     and sources are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Preparation of radioactive sources for radionuclide metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Preparation of radioactive sources for radionuclide metrology
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Preparation of radioactive sources for radionuclide metrology
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Preparation of radioactive sources for radionuclide metrology
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: S71
     reference_to: S78
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

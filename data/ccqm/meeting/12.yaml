@@ -1,79 +1,64 @@
 ---
-schema-version: v1.2.9
 id: CCQM-2006-12
-title:
-- content: 12th meeting of the CCQM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 12<sup>e</sup> réunion du CCQM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/cc/ccqm/12-2006
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/ccqm/12-2006
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-12.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-12.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CCQM 12nd Meeting (2006)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 12th meeting of the CCQM
+- language: fr
+  script: Latn
+  content: 12<sup>e</sup> réunion du CCQM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/ccqm/12-2006
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/ccqm/12-2006
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-en/meeting-12.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/ccqm/meetings-fr/meeting-12.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CCQM 12nd Meeting (2006)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CCQM 12<sup>e</sup> réunion (2006)
+  content: CCQM 12<sup>e</sup> réunion (2006)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CCQM 12nd Meeting (2006) / CCQM 12<sup>e</sup> réunion (2006)
+- content: CCQM 12nd Meeting (2006) / CCQM 12<sup>e</sup> réunion (2006)
   type: BIPM
   primary: true
 docnumber: CCQM 12nd Meeting (2006)
 date:
 - type: published
-  value: '2006-04-07'
+  at: '2006-04-07'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2006-04-07'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -82,8 +67,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '12'

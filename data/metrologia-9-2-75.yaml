@@ -1,102 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9275
-title:
-- content: Systematic Errors in Primary Acoustic Thermometry in the Range 2-20 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 2 75
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Systematic Errors in Primary Acoustic Thermometry in the Range 2-20 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/2/004
+docidentifier:
+- content: Metrologia 9 2 75
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/2/004
+- content: 10.1088/0026-1394/9/2/004
   type: doi
 date:
 - type: published
-  value: '1973-04-01'
+  at: '1973-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A R Colclough
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1973-04-01'
 abstract:
-- content: "<p>Following a brief review of the fundamental principles of acoustic
-    thermometry in the range 2-20 K, its systematic errors are analysed in depth.
-    It is argued that the ultrasonic technique suffers from certain sources of error
-    which are virtually impossible to assess quantitatively except on the basis of
-    certain conjectures about the excitation of the thermometer's resonant cavity.
-    These are essentially guesses as to the way in which the driving ultrasonic transducer
-    vibrates. Since these conjectures cannot be checked experimentally and since we
-    can show that no other decisive information on the size of these errors can in
-    principle be found in ultrasonic data, there must always remain a fundamental
-    uncertainty in ultrasonic temperature measurement. However, the most plausible
-    types of transducer behaviour would result in negligible errors in an ultrasonic
-    instrument such as that used by Plumb and Cataland in their recent work provided
-    that the resonant cavity is sufficiently well aligned. But, unfortunately, it
-    has not yet proved possible to derive quantitative criteria for good end reflector
-    alignment in such a device.</p><p>At sufficiently low frequencies none of these
-    problems arise, but instead a correction has to be made for the effect of the
-    acoustic boundary layer. It is argued that making this correction is a simpler
-    matter than has usually been thought. Even in the absence of the information required
-    to make a purely theoretical correction, a measured correction may be made relying
-    only on a restricted set of theoretical assumptions which can easily be checked
-    experimentally.</p><p>The relative merits of different types of cavity are also
-    discussed together with the various techniques of using them.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Following a brief review of the fundamental principles of acoustic thermometry in the range 2-20 K, its systematic errors are analysed in depth. It is argued that the ultrasonic technique suffers from certain sources of error which are virtually impossible to assess quantitatively except on the basis of certain conjectures about the excitation of the thermometer's resonant cavity. These are essentially guesses as to the way in which the driving ultrasonic transducer vibrates. Since these conjectures cannot be checked experimentally and since we can show that no other decisive information on the size of these errors can in principle be found in ultrasonic data, there must always remain a fundamental uncertainty in ultrasonic temperature measurement. However, the most plausible types of transducer behaviour would result in negligible errors in an ultrasonic instrument such as that used by Plumb and Cataland in their recent work provided that the resonant cavity is sufficiently well aligned. But, unfortunately, it has not yet proved possible to derive quantitative criteria for good end reflector alignment in such a device.</p>
+    <p>At sufficiently low frequencies none of these problems arise, but instead a correction has to be made for the effect of the acoustic boundary layer. It is argued that making this correction is a simpler matter than has usually been thought. Even in the absence of the information required to make a purely theoretical correction, a measured correction may be made relying only on a restricted set of theoretical assumptions which can easily be checked experimentally.</p>
+    <p>The relative merits of different types of cavity are also discussed together with the various techniques of using them.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Systematic Errors in Primary Acoustic Thermometry in the Range 2-20
+    - language: en
+      script: Latn
+      content: Systematic Errors in Primary Acoustic Thermometry in the Range 2-20
         K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-04-01'
+      at: '1973-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +77,6 @@ extent:
     reference_from: '75'
     reference_to: '98'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S59
-title:
-- content: Primary standards of absorbed dose for electron beams
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S59
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Primary standards of absorbed dose for electron beams
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S05
+docidentifier:
+- content: Metrologia 46 2 S59
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S05
+- content: 10.1088/0026-1394/46/2/S05
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R McEwen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ionizing Radiation Standards, Institute for National Measurement
             Standards, National Research Council of Canada, Ottawa, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A R DuSautoy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Acoustics and Ionising Radiation, National Physical Laboratory,
             Teddington, UK
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>The development of primary standards of absorbed dose for electron
+- language: en
+  script:
+  - Latn
+  content: "<p>The development of primary standards of absorbed dose for electron
     beams has lagged somewhat the development of photon beam standards. However, this
     has not limited the diversity of designs, or the range of applications. This review
     describes the state-of-the-art in electron beam standards as practised today in
@@ -64,53 +58,42 @@ abstract:
     world. The devices detailed cover electron energies from 80 keV to 25 MeV and
     doses from 1 Gy to tens of kilogray, although the focus of the majority of research
     is on dosimetry for radiation therapy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standards of absorbed dose for electron beams
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Primary standards of absorbed dose for electron beams
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Primary standards of absorbed dose for electron beams
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Primary standards of absorbed dose for electron beams
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +104,6 @@ extent:
     reference_from: S59
     reference_to: S79
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

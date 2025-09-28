@@ -1,121 +1,94 @@
 ---
-schema-version: v1.2.9
-id: Metrologia404154
-title:
-- content: NIST–IMGC comparison of gas flows below one litre per minute
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/4/303
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/4/303
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 4 154
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: NIST–IMGC comparison of gas flows below one litre per minute
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/4/303
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/4/303
+docidentifier:
+- content: Metrologia 40 4 154
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/4/303
+- content: 10.1088/0026-1394/40/4/303
   type: doi
 date:
 - type: published
-  value: '2003-06-13'
+  at: '2003-06-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert F Berg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology (NIST), 100 Bureau
             Drive, Gaithersburg, MD 20899-8364, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giorgio Cignolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia `Gustavo Colonnetti' (IMGC), Consiglio Nazionale
             delle Ricerche (CNR), Strada delle Cacce, 73, I-10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2003-06-13'
 abstract:
-- content: "<p>We compared the IMGC and NIST standards for small gas flows at the
-    IMGC. The IMGC standard is a recently developed primary flow meter that extracts
-    a large piston out of a temperature-controlled chamber. Controlling the piston's
-    speed holds the pressure in the chamber constant. The NIST standard is a recently
-    developed transfer standard that was calibrated against two primary standards
-    at NIST. The first NIST primary extracts a large piston out of an oil-filled chamber
-    in which a metal bellows is suspended. Controlling the piston's speed holds the
-    pressure in the bellows constant. The second NIST primary is a static gravimetry
-    method.</p><p>The results include 49 nitrogen flow rates from 0.22 µmol s<sup>−1</sup>
-    to 770 µmol s<sup>−1</sup> (1 µmol s<sup>−1</sup> = 1.3448 cm<sup>3</sup> min<sup>−1</sup>
-    of an ideal gas at the 'standard' conditions of 0 °C and 101 325 Pa). For all
-    but one of the comparisons, the agreement between IMGC and NIST is better than
-    0.06%.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>We compared the IMGC and NIST standards for small gas flows at the IMGC. The IMGC standard is a recently developed primary flow meter that extracts a large piston out of a temperature-controlled chamber. Controlling the piston's speed holds the pressure in the chamber constant. The NIST standard is a recently developed transfer standard that was calibrated against two primary standards at NIST. The first NIST primary extracts a large piston out of an oil-filled chamber in which a metal bellows is suspended. Controlling the piston's speed holds the pressure in the bellows constant. The second NIST primary is a static gravimetry method.</p>
+    <p>The results include 49 nitrogen flow rates from  0.22 µmol s<sup>−1</sup> to 770 µmol s<sup>−1</sup> (1 µmol s<sup>−1</sup> = 1.3448 cm<sup>3</sup> min<sup>−1</sup> of an ideal gas at the 'standard' conditions of 0 °C and 101 325 Pa). For all but one of the comparisons, the agreement between IMGC and NIST is better than 0.06%.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST–IMGC comparison of gas flows below one litre per minute
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: NIST–IMGC comparison of gas flows below one litre per minute
     date:
     - type: epub
-      value: '2003-06-13'
+      at: '2003-06-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: NIST–IMGC comparison of gas flows below one litre per minute
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: NIST–IMGC comparison of gas flows below one litre per minute
     date:
     - type: ppub
-      value: '2003-08-01'
+      at: '2003-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +99,6 @@ extent:
     reference_from: '154'
     reference_to: '158'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

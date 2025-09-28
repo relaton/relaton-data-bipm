@@ -1,79 +1,64 @@
 ---
-schema-version: v1.2.9
 id: JCGM-2021-24
-title:
-- content: 24th meeting of the JCGM (online)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 24<sup>e</sup> réunion du JCGM (en ligne)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/jc/jcgm/24-2021
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/jc/jcgm/24-2021
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcgm/meetings-en/meeting-24.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcgm/meetings-fr/meeting-24.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: JCGM 24th Meeting (2021)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 24th meeting of the JCGM (online)
+- language: fr
+  script: Latn
+  content: 24<sup>e</sup> réunion du JCGM (en ligne)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/jc/jcgm/24-2021
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/jc/jcgm/24-2021
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcgm/meetings-en/meeting-24.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/jcgm/meetings-fr/meeting-24.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: JCGM 24th Meeting (2021)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: JCGM 24<sup>e</sup> réunion (2021)
+  content: JCGM 24<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: JCGM 24th Meeting (2021) / JCGM 24<sup>e</sup> réunion (2021)
+- content: JCGM 24th Meeting (2021) / JCGM 24<sup>e</sup> réunion (2021)
   type: BIPM
   primary: true
 docnumber: JCGM 24th Meeting (2021)
 date:
 - type: published
-  value: '2021-12-06'
+  at: '2021-12-06'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-revdate: '2021-12-06'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: BIPM
 language:
 - en
 - fr
@@ -82,8 +67,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '24'

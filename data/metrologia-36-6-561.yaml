@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366561
-title:
-- content: Monte Carlo study of a new PTB primary standard for very low pressures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/15
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/15
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 561
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Monte Carlo study of a new PTB primary standard for very low pressures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/15
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/15
+docidentifier:
+- content: Metrologia 36 6 561
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/15
+- content: 10.1088/0026-1394/36/6/15
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Szwemin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Szymanski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Jousten
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Warsaw Univ. Technol., PTB
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>The Physikalisch-Technische Bundesanstalt (PTB), Germany, has recently
+- language: en
+  script:
+  - Latn
+  content: "<p>The Physikalisch-Technische Bundesanstalt (PTB), Germany, has recently
     constructed a new primary standard of low pressures based on the continuous expansion
     method. This paper is concerned with the properties of the gas flow in one of
     the calibration chambers of this standard. To describe these properties it is
@@ -80,41 +72,33 @@ abstract:
     uncertainty of 0.000 26 (3 σ)). The conductance of the orifice system was also
     examined under free molecular conditions by simulating the movements of over 10<sup>9</sup>
     molecules. The value obtained, referred to the conductance of an ideal orifice
-    C<sub>0</sub> was C<sub>eff</sub>/C<sub>0</sub> = 0.997 03 with an expanded uncertainity
-    of 0.000 06 (3 σ).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    <italic>C</italic><sub>0</sub> was <italic>C</italic><sub>eff</sub>/<italic>C</italic><sub>0</sub>
+    = 0.997 03 with an expanded uncertainity of 0.000 06 (3 σ).</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo study of a new PTB primary standard for very low pressures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Monte Carlo study of a new PTB primary standard for very low pressures
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +109,6 @@ extent:
     reference_from: '561'
     reference_to: '564'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

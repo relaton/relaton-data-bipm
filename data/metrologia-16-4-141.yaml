@@ -1,87 +1,75 @@
 ---
-schema-version: v1.2.9
-id: Metrologia164141
-title:
-- content: Results of an International Intercomparison of Low Attenuation in Waveguide
-    R 100 (WG 16, WR 90) at 10 GHz Among some National Standardizing Laboratories
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 4 141
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Results of an International Intercomparison of Low Attenuation in Waveguide
+    R 100 (WG 16, WR 90) at 10 GHz Among some National Standardizing Laboratories
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/4/001
+docidentifier:
+- content: Metrologia 16 4 141
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/4/001
+- content: 10.1088/0026-1394/16/4/001
   type: doi
 date:
 - type: published
-  value: '1980-10-01'
+  at: '1980-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bayer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt Braunschweig, FRG
-  role:
-  - type: author
-revdate: '1980-10-01'
 abstract:
-- content: "<p>Under the auspices of the BIPM the national laboratories of Australia,
+- language: en
+  script:
+  - Latn
+  content: "<p>Under the auspices of the BIPM the national laboratories of Australia,
     the Federal Republic of Germany, Italy, Sweden, Hungary and the UK have completed
     an international intercomparison of low attenuation in R 100 waveguide at a frequency
     of 10 GHz. A description of the measuring devices and transfer standards is given.
     All measurement results, which are acceptable for the intercomparison, are represented
     in one diagram and 6 tables. Some formulas for an interpretation of the results
     are presented and a detailed discussion follows.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Results of an International Intercomparison of Low Attenuation in Waveguide
+    - language: en
+      script: Latn
+      content: Results of an International Intercomparison of Low Attenuation in Waveguide
         R 100 (WG 16, WR 90) at 10 GHz Among some National Standardizing Laboratories
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-10-01'
+      at: '1980-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '141'
     reference_to: '147'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

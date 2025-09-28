@@ -1,91 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia416439
-title:
-- content: Study of correlated colour temperature and thermodynamic temperature of
-    a radiating source
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/6/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/6/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 6 439
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Study of correlated colour temperature and thermodynamic temperature of
+    a radiating source
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/6/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/6/012
+docidentifier:
+- content: Metrologia 41 6 439
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/6/012
+- content: 10.1088/0026-1394/41/6/012
   type: doi
 date:
 - type: published
-  value: '2004-11-22'
+  at: '2004-11-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Tairan Fu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Xiaofang Cheng
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Thermal Science and Energy Engineering, University
             of Science and Technology of China, Hefei, Anhui, 230027, People's Republic
             of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bo Wu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Thermal Science and Energy Engineering, University
             of Science and Technology of China, Hefei, Anhui, 230027, People's Republic
             of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhenglin Zhu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Thermal Science and Energy Engineering, University
             of Science and Technology of China, Hefei, Anhui, 230027, People's Republic
             of China
-  role:
-  - type: author
-revdate: '2004-11-22'
 abstract:
-- content: "<p>Here, we analyse the chromaticity characteristics of the correlated
+- language: en
+  script:
+  - Latn
+  content: "<p>Here, we analyse the chromaticity characteristics of the correlated
     colour temperature (CCT) and thermodynamic temperature of a radiating source.
     Our analysis correlates the colour coordinates of a radiating source to the CCT
     and gives the thermodynamic temperature and emissivity information related to
@@ -93,55 +83,44 @@ abstract:
     and its thermodynamic temperature is presented. The simulation results indicate
     that there is a discrepancy between the CCT and its actual thermodynamic temperature,
     but the discrepancy may be estimated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Study of correlated colour temperature and thermodynamic temperature
+    - language: en
+      script: Latn
+      content: Study of correlated colour temperature and thermodynamic temperature
         of a radiating source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-11-22'
+      at: '2004-11-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Study of correlated colour temperature and thermodynamic temperature
+    - language: en
+      script: Latn
+      content: Study of correlated colour temperature and thermodynamic temperature
         of a radiating source
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-12-01'
+      at: '2004-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -152,6 +131,6 @@ extent:
     reference_from: '439'
     reference_to: '443'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

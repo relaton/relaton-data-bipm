@@ -1,134 +1,106 @@
 ---
-schema-version: v1.2.9
-id: Metrologia556855
-title:
-- content: Remote calibration of time from NTP servers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aae940
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aae940
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 6 855
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Remote calibration of time from NTP servers
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aae940
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aae940
+docidentifier:
+- content: Metrologia 55 6 855
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aae940
+- content: 10.1088/1681-7575/aae940
   type: doi
 date:
 - type: published
-  value: '2018-11-09'
+  at: '2018-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rob Douglas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: André Charbonneau
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Marina Gertsvolf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ottawa, Ontario, K1A 0R6, Canada
         name:
         - content: National Research Council Canada
-        contact:
-        - address:
-            formatted_address: Ottawa, Ontario, K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2018-11-09'
 abstract:
-- content: Abstract<p>The Network Time Protocol (NTP), is used for time synchronization
-    in most networked equipment. Seen as capable of 50 ms accuracy or better, it lacks
-    calibration for metrological traceability to its reference, Coordinated Universal
-    Time (UTC). In response to client requests for traceability, the National Research
-    Council (NRC) has begun to monitor NTP servers and document their traceability.
-    We use an NTP calibrator at NRC to measure the time offset of a remote client’s
-    NTP server with respect to UTC(NRC). Standard NTP methods and systems are utilized,
-    even for the NTP calibrator in the NRC Time Laboratory. The service aims at broad
-    applicability rather than low uncertainty and can provide traceability to any
-    networked computer that is configured as an NTP server. As with any calibration
-    service, measurement results and the associated uncertainties are reported for
-    each monitored NTP server for quality system records and auditing purposes, and
-    we also make available near-real-time results and alerts.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The Network Time Protocol (NTP), is used for time synchronization in most networked equipment. Seen as capable of 50 ms accuracy or better, it lacks calibration for metrological traceability to its reference, Coordinated Universal Time (UTC). In response to client requests for traceability, the National Research Council (NRC) has begun to monitor NTP servers and document their traceability. We use an NTP calibrator at NRC to measure the time offset of a remote client’s NTP server with respect to UTC(NRC). Standard NTP methods and systems are utilized, even for the NTP calibrator in the NRC Time Laboratory. The service aims at broad applicability rather than low uncertainty and can provide traceability to any networked computer that is configured as an NTP server. As with any calibration service, measurement results and the associated uncertainties are reported for each monitored NTP server for quality system records and auditing purposes, and we also make available near-real-time results and alerts.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Remote calibration of time from NTP servers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Remote calibration of time from NTP servers
     date:
     - type: ppub
-      value: '2018-12-01'
+      at: '2018-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Remote calibration of time from NTP servers
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Remote calibration of time from NTP servers
     date:
     - type: epub
-      value: '2018-11-09'
+      at: '2018-11-09'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -139,6 +111,6 @@ extent:
     reference_from: '855'
     reference_to: '862'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,114 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia84133
-title:
-- content: Spectroradiometric Measurements on Fluorescent Lamps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/4/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/4/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 4 133
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spectroradiometric Measurements on Fluorescent Lamps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/4/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/4/002
+docidentifier:
+- content: Metrologia 8 4 133
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/4/002
+- content: 10.1088/0026-1394/8/4/002
   type: doi
 date:
 - type: published
-  value: '1972-10-01'
+  at: '1972-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Nonaka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Central Research Laboratory, Hitachi, Ltd., Kokubunji, Tokyo, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Kinameri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Central Research Laboratory, Hitachi, Ltd., Kokubunji, Tokyo, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ishibai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Central Research Laboratory, Hitachi, Ltd., Kokubunji, Tokyo, Japan
-  role:
-  - type: author
-revdate: '1972-10-01'
 abstract:
-- content: "<p>A photometric system has been developed for measuring the absolute
-    values of spectral irradiance from a fluorescent lamp. In the improved method,
-    radiant fluxes of the fluorescent and standard lamps to be compared enter a double
-    monochromator alternately through a rotating integrating sphere.</p><p>The intermittent
-    rotation of the sphere and the recording of the outputs from a receptor located
-    at the exit slit of the monochromator are made automatically. Our laboratory participated
-    in the CIE international intercomparison of spectroradiometric measurements and
-    our results were obtained using the method described.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A photometric system has been developed for measuring the absolute values of spectral irradiance from a fluorescent lamp. In the improved method, radiant fluxes of the fluorescent and standard lamps to be compared enter a double monochromator alternately through a rotating integrating sphere.</p>
+    <p>The intermittent rotation of the sphere and the recording of the outputs from a receptor located at the exit slit of the monochromator are made automatically. Our laboratory participated in the CIE international intercomparison of spectroradiometric measurements and our results were obtained using the method described.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Spectroradiometric Measurements on Fluorescent Lamps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Spectroradiometric Measurements on Fluorescent Lamps
     date:
     - type: ppub
-      value: '1972-10-01'
+      at: '1972-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +98,6 @@ extent:
     reference_from: '133'
     reference_to: '145'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

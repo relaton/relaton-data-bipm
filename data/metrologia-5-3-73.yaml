@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5373
-title:
-- content: Note on Atomic Time Keeping at the National Research Council
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 3 73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Note on Atomic Time Keeping at the National Research Council
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/3/001
+docidentifier:
+- content: Metrologia 5 3 73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/3/001
+- content: 10.1088/0026-1394/5/3/001
   type: doi
 date:
 - type: published
-  value: '1969-07-01'
+  at: '1969-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Mungall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council of Canada,
             Ottawa
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Daams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council of Canada,
             Ottawa
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Bailey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council of Canada,
             Ottawa
-  role:
-  - type: author
-revdate: '1969-07-01'
 abstract:
-- content: "<p>Three different experimental atomic time scales have been maintained
+- language: en
+  script:
+  - Latn
+  content: "<p>Three different experimental atomic time scales have been maintained
     at the National Research Council of Canada. One has been based on an HP 5061A
     cesium standard, another on a free-running crystal oscillator, calibrated daily
     with respect to the NRC 2.1 m primary cesium standard, and a third on the HP 5061A
@@ -80,39 +72,31 @@ abstract:
     that the third is probably the most accurate of the three time scales. Agreement
     between this scale and those of the USNO and NBS is of the order of 1 μsec or
     1 × 10<sup>-13</sup> in frequency over a four-month period.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Note on Atomic Time Keeping at the National Research Council
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Note on Atomic Time Keeping at the National Research Council
     date:
     - type: ppub
-      value: '1969-07-01'
+      at: '1969-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '73'
     reference_to: '76'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

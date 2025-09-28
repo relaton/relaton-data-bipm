@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia244157
-title:
-- content: Sixth Comparison of National Standards of Luminous Intensity and of Luminous
-    Flux (1985)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 4 157
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Sixth Comparison of National Standards of Luminous Intensity and of Luminous
+    Flux (1985)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/4/001
+docidentifier:
+- content: Metrologia 24 4 157
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/4/001
+- content: 10.1088/0026-1394/24/4/001
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bonhoure
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>Fifteen national laboratories participated in the comparison, using
+- language: en
+  script:
+  - Latn
+  content: "<p>Fifteen national laboratories participated in the comparison, using
     standard lamps of two different types for the comparison of luminous intensity
     and of a single type for that of luminous flux. The results, the first obtained
     since the adoption of the new definition of the candela, show only slight improvement
@@ -51,40 +47,32 @@ abstract:
     used have differed more widely in technical detail, the mean representations of
     the candela and of the lumen are better established, which constitutes important
     progress.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Sixth Comparison of National Standards of Luminous Intensity and of
+    - language: en
+      script: Latn
+      content: Sixth Comparison of National Standards of Luminous Intensity and of
         Luminous Flux (1985)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '157'
     reference_to: '162'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

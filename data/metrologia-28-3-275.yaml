@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283275
-title:
-- content: Development of a Solar Constant Measurement Programme
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/034
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/034
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 275
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Development of a Solar Constant Measurement Programme
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/034
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/034
+docidentifier:
+- content: Metrologia 28 3 275
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/034
+- content: 10.1088/0026-1394/28/3/034
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yu A Sklyarov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Saratov State University, Astrakhanskaya 83, Saratov, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yu I Brichkov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Saratov State University, Astrakhanskaya 83, Saratov, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V A Vorobyov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Saratov State University, Astrakhanskaya 83, Saratov, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I I Bryantsev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Saratov State University, Astrakhanskaya 83, Saratov, USSR
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>A group of precision pyrheliometers, designated PVS-7 and PVS-8, for
+- language: en
+  script:
+  - Latn
+  content: "<p>A group of precision pyrheliometers, designated PVS-7 and PVS-8, for
     use on the ground, in balloons and in spacecraft, has been constructed and a second-generation
     solar constant monitor, SCM-2, is under construction. The SCM-2 incorporates a
     precision solar pointing and tracking system with a pointing accuracy of 0,2°,
@@ -90,39 +80,31 @@ abstract:
     pyrheliometry. With this type of equipment, high-altitude balloon SC measurements
     constitute a useful supplement to satellite measurements by providing an absolute
     link of sufficient accuracy to permit the evaluation of possible SC trends.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Development of a Solar Constant Measurement Programme
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Development of a Solar Constant Measurement Programme
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +115,6 @@ extent:
     reference_from: '275'
     reference_to: '279'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

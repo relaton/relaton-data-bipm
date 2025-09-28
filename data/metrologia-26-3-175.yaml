@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia263175
-title:
-- content: Contamination of Platinum Resistance Thermometers at High Temperature Through
-    Their Silica Sheaths
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/26/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 3 175
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Contamination of Platinum Resistance Thermometers at High Temperature Through
+    Their Silica Sheaths
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/3/003
+docidentifier:
+- content: Metrologia 26 3 175
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/3/003
+- content: 10.1088/0026-1394/26/3/003
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Marcarino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), Strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Dematteis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), Strada delle Cacce
             73, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gallorini
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro di Radiochimica e Analisi per Attivazione, Viale Taramelli
             12, I-27100 Pavia, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Rizzio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro di Radiochimica e Analisi per Attivazione, Viale Taramelli
             12, I-27100 Pavia, Italy
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>Some high-temperature platinum resistance thermometers were tested
+- language: en
+  script:
+  - Latn
+  content: "<p>Some high-temperature platinum resistance thermometers were tested
     at the IMGC to evaluate the performance in different furnaces and environments
     between 980 °C and 1080 °C. They exhibited a large instability when maintained
     in close contact with an Inconel-600 environment, suggesting that their silica
@@ -101,40 +91,32 @@ abstract:
     demonstrated that at high temperature the silica sheaths are permeable to metal
     vapours, thus the platinum resistance thermometers can be easily contaminated
     by a metal environment.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Contamination of Platinum Resistance Thermometers at High Temperature
+    - language: en
+      script: Latn
+      content: Contamination of Platinum Resistance Thermometers at High Temperature
         Through Their Silica Sheaths
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +127,6 @@ extent:
     reference_from: '175'
     reference_to: '181'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

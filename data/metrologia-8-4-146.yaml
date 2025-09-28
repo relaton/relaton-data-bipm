@@ -1,85 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia84146
-title:
-- content: Corrections in Optical Pyrometry and Photometry for the Refractive Index
-    of Air
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 4 146
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Corrections in Optical Pyrometry and Photometry for the Refractive Index
+    of Air
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/4/003
+docidentifier:
+- content: Metrologia 8 4 146
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/4/003
+- content: 10.1088/0026-1394/8/4/003
   type: doi
 date:
 - type: published
-  value: '1972-10-01'
+  at: '1972-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R Blevin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Physics, National Standards Laboratory, Sydney,
             Australia 2008
-  role:
-  - type: author
-revdate: '1972-10-01'
 abstract:
-- content: "<p>Omission from Planck's formula of terms for the refractive index of
-    the medium has led (a) to errors in optical pyrometry, e.g., of 0.3 K at the freezing
-    point of platinum, and (b) to errors of about 0.5% in values calculated for K<sub>m</sub>
-    and Ḱ<sub>m</sub>, the maximum spectral luminous efficacies of radiation.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Omission from Planck's formula of terms for the refractive index of
+    the medium has led (a) to errors in optical pyrometry, e.g., of 0.3 K at the freezing
+    point of platinum, and (b) to errors of about 0.5% in values calculated for <italic>K</italic><sub>m</sub>
+    and <italic>Ḱ</italic><sub>m</sub>, the maximum spectral luminous efficacies of
+    radiation.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Corrections in Optical Pyrometry and Photometry for the Refractive
+    - language: en
+      script: Latn
+      content: Corrections in Optical Pyrometry and Photometry for the Refractive
         Index of Air
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1972-10-01'
+      at: '1972-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +79,6 @@ extent:
     reference_from: '146'
     reference_to: '147'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

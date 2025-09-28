@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425449
-title:
-- content: Higher order corrections to the Welch–Satterthwaite formula
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/016
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/016
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 449
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Higher order corrections to the Welch–Satterthwaite formula
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/016
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/016
+docidentifier:
+- content: Metrologia 42 5 449
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/016
+- content: 10.1088/0026-1394/42/5/016
   type: doi
 date:
 - type: published
-  value: '2005-10-01'
+  at: '2005-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhimin Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Metrology of China, Bei Sanhuan Donglu No.18,
             Beijing, Postcode 100013, People's Republic of China
-  role:
-  - type: author
-revdate: '2005-10-01'
 abstract:
-- content: "<p>The Welch–Satterthwaite (W–S) formula is used to calculate the expanded
+- language: en
+  script:
+  - Latn
+  content: "<p>The Welch–Satterthwaite (W–S) formula is used to calculate the expanded
     uncertainty of the result of a measurement. However, this appears to be counter-intuitive
     because as the uncertainty component increases, the expanded uncertainty decreases.
     To understand this, we need to trace the higher order formulae—the Welch formula
@@ -54,53 +50,42 @@ abstract:
     formulae are analysed using the corrected Aspin formula. We can obtain the expanded
     uncertainty more accurately in metrology, and the corrected Aspin formula is also
     useful for general mathematical statistics.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Higher order corrections to the Welch–Satterthwaite formula
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Higher order corrections to the Welch–Satterthwaite formula
     date:
     - type: epub
-      value: '2005-10-06'
+      at: '2005-10-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Higher order corrections to the Welch–Satterthwaite formula
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Higher order corrections to the Welch–Satterthwaite formula
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: '449'
     reference_to: '457'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

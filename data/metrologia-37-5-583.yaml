@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375583
-title:
-- content: An ac/dc technique for the Absolute Integrating-Sphere Method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/54
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/54
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 583
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An ac/dc technique for the Absolute Integrating-Sphere Method
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/54
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/54
+docidentifier:
+- content: Metrologia 37 5 583
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/54
+- content: 10.1088/0026-1394/37/5/54
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Ohno
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Köhler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, BIPM
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, BIPM
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: <p>For over sixty years, the Bureau International des Poids et Mesures
+- language: en
+  script:
+  - Latn
+  content: <p>For over sixty years, the Bureau International des Poids et Mesures
     (BIPM) has maintained the results of international comparisons of luminous intensity
     and luminous flux as "world-mean" values, in the form of groups of lamps. It was
     recently decided that this is no longer a satisfactory and reliable means of maintaining
@@ -83,39 +75,31 @@ abstract:
     is operating and being measured. Having implemented this technique and replaced
     the sphere coating, experiments on the derivation of the unit are in progress
     at the BIPM and the NIST, the preliminary results of which are reported.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An ac/dc technique for the Absolute Integrating-Sphere Method
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An ac/dc technique for the Absolute Integrating-Sphere Method
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '583'
     reference_to: '586'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

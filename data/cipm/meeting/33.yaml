@@ -1,102 +1,80 @@
 ---
-schema-version: v1.2.9
 id: CIPM-1925-33
-title:
-- content: 33rd meeting of the CIPM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 33<sup>e</sup> réunion du CIPM
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://www.bipm.org/en/committees/ci/cipm/33-1925
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/ci/cipm/33-1925
-  type: citation
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/75012399/CIPM1925.pdf/26c45c61-af4b-d8e8-9d9b-a45c0ef51dc3
-  type: pdf
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-33.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-33.yml
-  type: src
-  language: fr
-  script: Latn
 type: proceedings
-docid:
-- id: CIPM 33rd Meeting (1925)
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 33rd meeting of the CIPM
+- language: fr
+  script: Latn
+  content: 33<sup>e</sup> réunion du CIPM
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/ci/cipm/33-1925
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/ci/cipm/33-1925
+- type: pdf
+  content: https://www.bipm.org/documents/20126/75012399/CIPM1925.pdf/26c45c61-af4b-d8e8-9d9b-a45c0ef51dc3
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-en/meeting-33.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cipm/meetings-fr/meeting-33.yml
+docidentifier:
+- language: en
+  script: Latn
+  content: CIPM 33rd Meeting (1925)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CIPM 33<sup>e</sup> réunion (1925)
+  content: CIPM 33<sup>e</sup> réunion (1925)
   type: BIPM
   primary: true
-  language: fr
-  script: Latn
-- id: CIPM 33rd Meeting (1925) / CIPM 33<sup>e</sup> réunion (1925)
+- content: CIPM 33rd Meeting (1925) / CIPM 33<sup>e</sup> réunion (1925)
   type: BIPM
   primary: true
 docnumber: CIPM 33rd Meeting (1925)
 date:
 - type: published
-  value: '1925-10-02'
+  at: '1925-10-02'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: International Committee for Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1925-10-02'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: International Committee for Weights and Measures
+    - language: fr
+      script: Latn
+      content: Comité international des poids et mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CIPM
 language:
 - en
 - fr
@@ -105,8 +83,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: Meeting
+    content: meeting-report
   structuredidentifier:
     docnumber: '33'

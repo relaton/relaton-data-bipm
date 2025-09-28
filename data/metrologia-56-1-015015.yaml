@@ -1,108 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia561015015
-title:
-- content: 'Defining relative humidity in terms of water activity. Part 2: relations
-    to osmotic pressures'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaf446
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaf446
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 1 015015
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Defining relative humidity in terms of water activity. Part 2: relations
+    to osmotic pressures'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaf446
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaf446
+docidentifier:
+- content: Metrologia 56 1 015015
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaf446
+- content: 10.1088/1681-7575/aaf446
   type: doi
 date:
 - type: published
-  value: '2018-12-21'
+  at: '2018-12-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rainer Feistel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: D-18119 Warnemünde, Germany
         name:
         - content: Leibniz Institute for Baltic Sea Research (IOW)
-        contact:
-        - address:
-            formatted_address: D-18119 Warnemünde, Germany
-  role:
-  - type: author
-revdate: '2018-12-21'
 abstract:
-- content: Abstract<p>Relative fugacity (RF), or relative activity, of water in humid
-    air has recently been suggested as a real-gas generalisation for relative humidity,
-    the latter being conventionally defined as a ratio of partial pressures of water
-    vapour. The RF definition covers the entire temperature-pressure region below
-    the critical point of water, where humid air remains a gas, in an unambiguous
-    and continuous manner. However, while thermodynamically rigorous, the theoretical
-    definition of RF does not provide experimental methods of measuring RF of given
-    samples of humid air, nor of preparing reference materials of specified RF, such
-    as for humidity-sensor calibration purposes. In this paper, the osmotic pressure
-    of humid air with respect to pure water in different phases, mutually separated
-    by a semi-permeable membrane, is proposed as an SI-traceable measurand for the
-    calculation of RF over the full range of sub-saturated states. The method of osmotic
-    pressures offers a theoretical option for the experimental determination of the
-    RF of humid-air samples without use or knowledge required on their actual or saturation
-    composition, without exploiting an empirical equation for the fugacity, or an
-    equation of state of humid air.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Relative fugacity (RF), or relative activity, of water in humid air has recently been suggested as a real-gas generalisation for relative humidity, the latter being conventionally defined as a ratio of partial pressures of water vapour. The RF definition covers the entire temperature-pressure region below the critical point of water, where humid air remains a gas, in an unambiguous and continuous manner. However, while thermodynamically rigorous, the theoretical definition of RF does not provide experimental methods of measuring RF of given samples of humid air, nor of preparing reference materials of specified RF, such as for humidity-sensor calibration purposes. In this paper, the osmotic pressure of humid air with respect to pure water in different phases, mutually separated by a semi-permeable membrane, is proposed as an SI-traceable measurand for the calculation of RF over the full range of sub-saturated states. The method of osmotic pressures offers a theoretical option for the experimental determination of the RF of humid-air samples without use or knowledge required on their actual or saturation composition, without exploiting an empirical equation for the fugacity, or an equation of state of humid air.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity. Part 2: relations
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity. Part 2: relations
         to osmotic pressures'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-02-01'
+      at: '2019-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Defining relative humidity in terms of water activity. Part 2: relations
+    - script: Latn
+      content: 'Defining relative humidity in terms of water activity. Part 2: relations
         to osmotic pressures'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2018-12-21'
+      at: '2018-12-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +88,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

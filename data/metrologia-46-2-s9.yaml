@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S9
-title:
-- content: Free-air ionization chambers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S9
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Free-air ionization chambers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S02
+docidentifier:
+- content: Metrologia 46 2 S9
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S02
+- content: 10.1088/0026-1394/46/2/S02
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Büermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>This paper reviews the current status of free-air ionization chamber
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper reviews the current status of free-air ionization chamber
     standards for the determination of air kerma in low- and medium-energy x-rays.
     It describes the underlying definitions and concepts that permit the air kerma
     to be determined from a measurement of the charge produced in a free-air chamber.
@@ -66,53 +60,42 @@ abstract:
     the Monte Carlo technique in the evaluation and optimization of certain corrections.
     Alternative free-air chamber designs are outlined. The results of international
     comparisons of free-air chamber standards are presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Free-air ionization chambers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Free-air ionization chambers
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Free-air ionization chambers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Free-air ionization chambers
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +106,6 @@ extent:
     reference_from: S9
     reference_to: S23
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

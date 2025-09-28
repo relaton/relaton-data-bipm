@@ -1,103 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia264209
-title:
-- content: Editor's Farewell
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/4/E01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/4/E01
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 4 209
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Editor's Farewell
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/4/E01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/4/E01
+docidentifier:
+- content: Metrologia 26 4 209
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/4/E01
+- content: 10.1088/0026-1394/26/4/E01
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R P Hudson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Editor
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>The completion of Volume 26, 1989, marked the end of my tenure as Editor
-    of Metrologia. My association with the journal, its parent body the Comité International
-    des Poids et Mesures, its host organization the Bureau International des Poids
-    et Mesures, the publishers Springer-Verlag and last (but by no means least) the
-    Editorial Board, has been a pleasant one and I trust that the subscribers will
-    have found the product to be generally satisfactory.</p><p>There have been, it
-    is true, some disappointments along the way and I shall mention two of these while
-    expressing the hope that the new Editor will enjoy a greater success in their
-    regard.</p><p>First is the question of circulation, which has stayed dangerously
-    low, although the shrinkage has tapered off in the most recent years. Because
-    of the narrow public support, the costs of production are relatively high and
-    this, through a consequently high subscription rate, tends to enshrine the unsatisfactory
-    state of affairs. Modest schemes to broaden the journal's appeal and bring in
-    a wider readership have foundered upon the first step, namely, that of procuring
-    from staff members of the national standards laboratories the hoped-for articles
-    which would discuss the state of the art in delivering the highest-quality measurement
-    services to the public. However, some very interesting and bolder schemes are
-    presently under discussion.</p><p>I had also hoped to leaven the journal's content
-    a little by regularly appearing articles on the latest developments within the
-    great national laboratories. But, as with technical review articles, it has proven
-    very difficult to find the right authors who can also spare the time, and only
-    a few laboratories have found it possible to collaborate.</p><p>In taking my leave,
-    it remains for me to thank all the contributors, referees and readers for their
-    support, to express the hope of an ever brighter future for Metrologia and to
-    wish to the new Editor, Dr D A Blackburn, a happy and successful tenure.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The completion of Volume 26, 1989, marked the end of my tenure as Editor of  <italic>Metrologia</italic>. My association with the journal, its parent body the Comité International des Poids et Mesures, its host organization the Bureau International des Poids et Mesures, the publishers Springer-Verlag and last (but by no means least) the Editorial Board, has been a pleasant one and I trust that the subscribers will have found the product to be generally satisfactory.</p>
+    <p>There have been, it is true, some disappointments along the way and I shall mention two of these while expressing the hope that the new Editor will enjoy a greater success in their regard.</p>
+    <p>First is the question of circulation, which has stayed dangerously low, although the shrinkage has tapered off in the most recent years. Because of the narrow public support, the costs of production are relatively high and this, through a consequently high subscription rate, tends to enshrine the unsatisfactory state of affairs. Modest schemes to broaden the journal's appeal and bring in a wider readership have foundered upon the first step, namely, that of procuring from staff members of the national standards laboratories the hoped-for articles which would discuss the state of the art in delivering the highest-quality measurement services to the public. However, some very interesting and bolder schemes are presently under discussion.</p>
+    <p>I had also hoped to leaven the journal's content a little by regularly appearing articles on the latest developments within the great national laboratories. But, as with technical review articles, it has proven very difficult to find the right authors who can also spare the time, and only a few laboratories have found it possible to collaborate.</p>
+    <p>In taking my leave, it remains for me to thank all the contributors, referees and readers for their support, to express the hope of an ever brighter future for  <italic>Metrologia</italic> and to wish to the new Editor, Dr D A Blackburn, a happy and successful tenure.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Editor's Farewell
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Editor's Farewell
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -108,6 +77,6 @@ extent:
     reference_from: '209'
     reference_to: '209'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

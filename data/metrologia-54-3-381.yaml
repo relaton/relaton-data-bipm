@@ -1,165 +1,139 @@
 ---
-schema-version: v1.2.9
-id: Metrologia543381
-title:
-- content: 'Atomic clock prediction algorithm: random pursuit strategy'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa6f62
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa6f62
-  type: doi
 type: article
-docid:
-- id: Metrologia 54 3 381
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Atomic clock prediction algorithm: random pursuit strategy'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa6f62
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa6f62
+docidentifier:
+- content: Metrologia 54 3 381
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa6f62
+- content: 10.1088/1681-7575/aa6f62
   type: doi
 date:
 - type: published
-  value: '2017-05-25'
+  at: '2017-05-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuzhuo Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology (NIM)
-        contact:
-        - address:
-            formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yu Chen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100088, People’s Republic of China
         name:
         - content: State Intellectual Property Office of the P.R.C
-        contact:
-        - address:
-            formatted_address: Beijing 100088, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuan Gao
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology (NIM)
-        contact:
-        - address:
-            formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Qinghua Xu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology (NIM)
-        contact:
-        - address:
-            formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Aimin Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
         name:
         - content: National Institute of Metrology (NIM)
-        contact:
-        - address:
-            formatted_address: Chaoyang, Beijing 100029, People’s Republic of China
-  role:
-  - type: author
-revdate: '2017-05-25'
 abstract:
-- content: Abstract<p>The present study proposes a novel prediction algorithm named
-    ‘random pursuit strategy’. It contains a predictor ensemble consisting of several
-    predictors, each operating in a subspace of the original sample data space. The
-    prediction is calculated by combining the outputs of the individual predictors
-    using a weighted average. The frequency data of cesium clocks and hydrogen masers
-    was predicted using the Kalman filter predictor and random pursuit strategy. The
-    proposed algorithm demonstrates preferable capability in some cases. This could
-    have beneficial applications for system controls in some areas.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The present study proposes a novel prediction algorithm named ‘random pursuit strategy’. It contains a predictor ensemble consisting of several predictors, each operating in a subspace of the original sample data space. The prediction is calculated by combining the outputs of the individual predictors using a weighted average. The frequency data of cesium clocks and hydrogen masers was predicted using the Kalman filter predictor and random pursuit strategy. The proposed algorithm demonstrates preferable capability in some cases. This could have beneficial applications for system controls in some areas.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Atomic clock prediction algorithm: random pursuit strategy'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Atomic clock prediction algorithm: random pursuit strategy'
     date:
     - type: ppub
-      value: '2017-06-01'
+      at: '2017-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Atomic clock prediction algorithm: random pursuit strategy'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Atomic clock prediction algorithm: random pursuit strategy'
     date:
     - type: epub
-      value: '2017-05-25'
+      at: '2017-05-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -170,6 +144,6 @@ extent:
     reference_from: '381'
     reference_to: '389'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

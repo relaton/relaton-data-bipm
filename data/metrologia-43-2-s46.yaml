@@ -1,104 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S46
-title:
-- content: Low-background temperature calibration of infrared blackbodies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S10
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S46
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Low-background temperature calibration of infrared blackbodies
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S10
+docidentifier:
+- content: Metrologia 43 2 S46
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S10
+- content: 10.1088/0026-1394/43/2/S10
   type: doi
 date:
 - type: published
-  value: '2006-03-23'
+  at: '2006-03-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Adriaan C Carter
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raju U Datla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Timothy M Jung
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Jung Research and Development Corporation, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Allan W Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Jung Research and Development Corporation, Washington, DC, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: James A Fedchak
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Jung Research and Development Corporation, Washington, DC, USA
-  role:
-  - type: author
-revdate: '2006-03-23'
 abstract:
-- content: "<p>The Low Background Infrared (LBIR) facility at the National Institute
+- language: en
+  script:
+  - Latn
+  content: "<p>The Low Background Infrared (LBIR) facility at the National Institute
     of Standards and Technology (NIST) has performed ten radiance temperature calibrations
     of low-background blackbodies since 2001, when both the calibration facility and
     method of calibrating blackbodies were significantly improved. Data from nine
@@ -117,54 +105,44 @@ abstract:
     Recent intercomparisons of all the LBIR ACRs with a trap detector calibrated against
     the NIST primary optical power measurement standard show that ACRs used to calibrate
     blackbodies are suitable detector standards and contribute less than 0.02% uncertainty
-    (k = 1) to radiance temperature measurements of the blackbody cavities.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    (<italic>k</italic> = 1) to radiance temperature measurements of the blackbody
+    cavities.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-background temperature calibration of infrared blackbodies
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-background temperature calibration of infrared blackbodies
     date:
     - type: epub
-      value: '2006-03-23'
+      at: '2006-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Low-background temperature calibration of infrared blackbodies
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Low-background temperature calibration of infrared blackbodies
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -175,6 +153,6 @@ extent:
     reference_from: S46
     reference_to: S50
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

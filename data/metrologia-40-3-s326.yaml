@@ -1,130 +1,93 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S326
-title:
-- content: On the use of the Kalman filter in timescales
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/312
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/312
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S326
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On the use of the Kalman filter in timescales
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/312
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/312
+docidentifier:
+- content: Metrologia 40 3 S326
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/312
+- content: 10.1088/0026-1394/40/3/312
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Galleani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, Torino, Italy
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>The Kalman filter is a very useful tool of estimation theory, successfully
-    adopted in a wide variety of problems. As a recursive and optimal estimation technique,
-    the Kalman filter seems to be the correct tool also for building precise timescales,
-    and various attempts have been made in the past giving rise, for example, to the
-    TA(NIST) timescale. Despite the promising expectations, a completely satisfactory
-    implementation has never been found, due to the intrinsic non-observability of
-    the clock time readings, which makes the clock estimation problem underdetermined.
-    However, the case of the Kalman filter applied to the estimation of the difference
-    between two clocks is different. In this case the problem is observable and the
-    Kalman filter has proved to be a powerful tool.</p><p>A new proposal with interesting
-    results, concerning the definition of an independent timescale, came with the
-    GPS composite clock, which is based on the Kalman filter and has been in use since
-    1990 in the GPS system. In the composite clock the indefinite growth of the covariance
-    matrix due to the non-observability is controlled by the so-called `transparent
-    variations'—squeezing operations on the covariance matrix that do not interfere
-    with the estimation algorithm. A useful quantity, the implicit ensemble mean,
-    is defined and the `corrected clocks' (physical clocks minus their predicted bias)
-    are shown to be observable with respect to this quantity. We have implemented
-    the full composite clock and we discuss some of its advantages and criticalities.</p><p>More
-    recently, the Kalman filter is generating new interest, and a few groups are proposing
-    new implementations. This paper gives an overview of what has been done and of
-    what is currently under investigation, pointing out the peculiar advantages and
-    the open questions in the application of this attractive technique to the generation
-    of a timescale.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The Kalman filter is a very useful tool of estimation theory, successfully adopted in a wide variety of problems. As a recursive and optimal estimation technique, the Kalman filter seems to be the correct tool also for building precise timescales, and various attempts have been made in the past giving rise, for example, to the TA(NIST) timescale. Despite the promising expectations, a completely satisfactory implementation has never been found, due to the intrinsic non-observability of the clock time readings, which makes the clock estimation problem underdetermined. However, the case of the Kalman filter applied to the estimation of the difference between two clocks is different. In this case the problem is observable and the Kalman filter has proved to be a powerful tool.</p>
+    <p>A new proposal with interesting results, concerning the definition of an independent timescale, came with the GPS composite clock, which is based on the Kalman filter and has been in use since 1990 in the GPS system. In the composite clock the indefinite growth of the covariance matrix due to the non-observability is controlled by the so-called `transparent variations'—squeezing operations on the covariance matrix that do not interfere with the estimation algorithm. A useful quantity, the implicit ensemble mean, is defined and the `corrected clocks' (physical clocks minus their predicted bias) are shown to be observable with respect to this quantity. We have implemented the full composite clock and we discuss some of its advantages and criticalities.</p>
+    <p>More recently, the Kalman filter is generating new interest, and a few groups are proposing new implementations. This paper gives an overview of what has been done and of what is currently under investigation, pointing out the peculiar advantages and the open questions in the application of this attractive technique to the generation of a timescale.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the use of the Kalman filter in timescales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the use of the Kalman filter in timescales
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the use of the Kalman filter in timescales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On the use of the Kalman filter in timescales
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -135,6 +98,6 @@ extent:
     reference_from: S326
     reference_to: S334
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

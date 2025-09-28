@@ -1,119 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia596062101
-title:
-- content: The unusual status of the hectare in the SI
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac979f
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac979f
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 6 062101
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: The unusual status of the hectare in the SI
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac979f
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac979f
+docidentifier:
+- content: Metrologia 59 6 062101
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac979f
+- content: 10.1088/1681-7575/ac979f
   type: doi
 date:
 - type: published
-  value: '2022-10-18'
+  at: '2022-10-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard J C Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
     - organization:
+        address:
+        - formatted_address: Guildford, GU2 7XH, United Kingdom
         name:
         - content: University of Surrey
         subdivision:
-        - content: Department of Physics
-        contact:
-        - address:
-            formatted_address: Guildford, GU2 7XH, United Kingdom
-  role:
-  - type: author
-revdate: '2022-10-18'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Physics
 abstract:
-- content: Abstract<p>The unit hectare, meaning hectometre squared, has long been
-    used for expressing measurements of land area. This article describes its history
-    within the metric system and how it came to gain its current status as a non-SI
-    unit that is accepted for use with the SI. As a function of this it has become
-    detached from its parent unit, the are, which is no longer accepted for use with
-    the SI. This situation causes ambiguity for the formation of multiples and submultiples
-    of the hectare. This paper discusses this issue, proposes possible solutions,
-    and concludes that the hectare should be added to the list of non-SI units with
-    which SI prefixes may not be used, similarly to the non-SI units of time. A minor
-    update to the SI Brochure would resolve this ambiguity.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The unit hectare, meaning hectometre squared, has long been used for expressing measurements of land area. This article describes its history within the metric system and how it came to gain its current status as a non-SI unit that is accepted for use with the SI. As a function of this it has become detached from its parent unit, the are, which is no longer accepted for use with the SI. This situation causes ambiguity for the formation of multiples and submultiples of the hectare. This paper discusses this issue, proposes possible solutions, and concludes that the hectare should be added to the list of non-SI units with which SI prefixes may not be used, similarly to the non-SI units of time. A minor update to the SI Brochure would resolve this ambiguity.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The unusual status of the hectare in the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The unusual status of the hectare in the SI
     date:
     - type: ppub
-      value: '2022-12-01'
+      at: '2022-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: The unusual status of the hectare in the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The unusual status of the hectare in the SI
     date:
     - type: epub
-      value: '2022-10-18'
+      at: '2022-10-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The unusual status of the hectare in the SI
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: The unusual status of the hectare in the SI
     date:
     - type: open-access
-      value: '2022-10-18'
+      at: '2022-10-18'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +105,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

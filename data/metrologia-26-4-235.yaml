@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia264235
-title:
-- content: A Study of Contamination in<sup>127</sup>I<sub>2</sub> Cells Using Laser-Induced
-    Fluorescence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 4 235
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Study of Contamination in <sup>127</sup>I<sub>2</sub> Cells Using Laser-Induced
+    Fluorescence
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/4/004
+docidentifier:
+- content: Metrologia 26 4 235
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/4/004
+- content: 10.1088/0026-1394/26/4/004
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Fredin-Picard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>An experimental method has been tested to compare impurity levels in
+- language: en
+  script:
+  - Latn
+  content: "<p>An experimental method has been tested to compare impurity levels in
     iodine cells used in the saturated-absorption stabilization of lasers. The method
     is based on the use of the Stern-Volmer formula where the laser-induced fluorescence
     of iodine is studied as a function of pressure. Measurements of a number of iodine
@@ -51,40 +47,32 @@ abstract:
     absorption, and has been related empirically to the Stern-Volmer formula. It is
     found that the method is appropriate for cells with low to moderate concentration
     of impurities.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Study of Contamination in<sup>127</sup>I<sub>2</sub> Cells Using
+    - language: en
+      script: Latn
+      content: A Study of Contamination in <sup>127</sup>I<sub>2</sub> Cells Using
         Laser-Induced Fluorescence
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +83,6 @@ extent:
     reference_from: '235'
     reference_to: '244'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

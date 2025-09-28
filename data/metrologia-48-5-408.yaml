@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485408
-title:
-- content: Luminance measurement of curved surface sources
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/023
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/023
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 408
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Luminance measurement of curved surface sources
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/023
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/023
+docidentifier:
+- content: Metrologia 48 5 408
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/023
+- content: 10.1088/0026-1394/48/5/023
   type: doi
 date:
 - type: published
-  value: '2011-09-19'
+  at: '2011-09-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hsueh-Ling Yu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Measurement Standards/Industrial Technology Research
             Institute, Hsichu, Taiwan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zong-Ying Chung
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center for Measurement Standards/Industrial Technology Research
             Institute, Hsichu, Taiwan
-  role:
-  - type: author
-revdate: '2011-09-19'
 abstract:
-- content: "<p>As they are light, thin, rollable, break-resistant, and have fewer
+- language: en
+  script:
+  - Latn
+  content: "<p>As they are light, thin, rollable, break-resistant, and have fewer
     limitations on space, flexible components, especially flexible displays, are highly
     attractive for next generation electronic products. Curved is the most common
     shape for current flexible products. Two methods for measuring the luminance distribution
@@ -77,55 +71,47 @@ abstract:
     standards for evaluating the optical performance of a flat surface source may
     not be appropriate for a flexible surface source. It is necessary to refine a
     new measurement provision to help the manufacturers utilize the appropriate metrology.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Luminance measurement of curved surface sources
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Luminance measurement of curved surface sources
     date:
     - type: epub
-      value: '2011-09-19'
+      at: '2011-09-19'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Luminance measurement of curved surface sources
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Luminance measurement of curved surface sources
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +122,6 @@ extent:
     reference_from: '408'
     reference_to: '416'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

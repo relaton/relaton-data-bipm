@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia93103
-title:
-- content: The Error Due to the Peltier Effect in Direct-Current Measurements of Resistance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 3 103
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Error Due to the Peltier Effect in Direct-Current Measurements of Resistance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/3/001
+docidentifier:
+- content: Metrologia 9 3 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/3/001
+- content: 10.1088/0026-1394/9/3/001
   type: doi
 date:
 - type: published
-  value: '1973-07-01'
+  at: '1973-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C G M Kirby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Division of Physics, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J Laubitz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Council of Canada, Division of Physics, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1973-07-01'
 abstract:
-- content: "<p>The recent development of ac bridges for precise resistance determinations
+- language: en
+  script:
+  - Latn
+  content: "<p>The recent development of ac bridges for precise resistance determinations
     has brought on the not altogether unexpected discovery of significant differences
     between dc and ac measurements. In this article, we discuss one such difference,
     observed in germanium resistance thermometers, and show that it can be unequivocally
@@ -65,40 +59,32 @@ abstract:
     the magnitude and frequency variation of the observed effect, both for 2- and
     4-terminal measurements. The applicability of this model to other devices is briefly
     discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Error Due to the Peltier Effect in Direct-Current Measurements
+    - language: en
+      script: Latn
+      content: The Error Due to the Peltier Effect in Direct-Current Measurements
         of Resistance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-07-01'
+      at: '1973-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '103'
     reference_to: '106'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

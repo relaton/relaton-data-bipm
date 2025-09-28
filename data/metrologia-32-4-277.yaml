@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324277
-title:
-- content: A pressurized mercury column up to 300 MPa
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 277
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A pressurized mercury column up to 300 MPa
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/5
+docidentifier:
+- content: Metrologia 32 4 277
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/5
+- content: 10.1088/0026-1394/32/4/5
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G J F Holman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Amsterdam
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A ten Seldam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Univ. Amsterdam
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: "<p>The construction, performance and application of a 30 metre high mercury
+- language: en
+  script:
+  - Latn
+  content: "<p>The construction, performance and application of a 30 metre high mercury
     column is discussed. This thermostated, mercury-in-steel column is used to calibrate
     differential piston gauges up to about 300 MPa. The applied principle is the so-called
     cumulative method, introduced by Holborn and Schultze. Above 260 MPa the calibrations
@@ -63,39 +57,31 @@ abstract:
     carried out with a Harwood controlled-clearance piston gauge. The relative differences
     in pressure are 12 × 10<sup>-6</sup>, 101 × 10<sup>-6</sup> and 28 × 10<sup>-6</sup>,
     respectively.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A pressurized mercury column up to 300 MPa
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A pressurized mercury column up to 300 MPa
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '277'
     reference_to: '294'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

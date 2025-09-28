@@ -1,56 +1,50 @@
 ---
-schema-version: v1.2.9
-id: Metrologia465457
-title:
-- content: Thoughts on a changing SI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/5/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/5/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 5 457
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thoughts on a changing SI
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/5/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/5/009
+docidentifier:
+- content: Metrologia 46 5 457
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/5/009
+- content: 10.1088/0026-1394/46/5/009
   type: doi
 date:
 - type: published
-  value: '2009-07-09'
+  at: '2009-07-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Franco Cabiati
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2009-07-09'
 abstract:
-- content: "<p>The trend towards an International System of Units (SI) based on fundamental
+- language: en
+  script:
+  - Latn
+  content: "<p>The trend towards an International System of Units (SI) based on fundamental
     constants has been confirmed and recent actions could result in the redefinition
     of the four units still necessary to cover all the quantities of interest for
     physics and chemistry. In this paper some issues whose solution is becoming critical
@@ -63,61 +57,50 @@ abstract:
     and non-redundant is pointed out in the form of a linear system giving also expressions
     of all the units as functions of the reference constants. A partial application
     to the most important units and different sets of constants offers some comparative
-    criteria and shows the advantages of a set including both h and m<sub>e</sub>.
-    A general condition to be fulfilled by an experiment in order to realize an SI
-    unit is given and a procedure suitable to optimize the availability of the best
-    relization on a global basis is outlined. Finally, the dissemination process is
-    analysed to show that the implied comparisons of standards at any level are not
-    affected by the realization uncertainty, so that the process can be continued
-    with the same standards, independently of any change in the basic reference quantities
-    of the unit system.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    criteria and shows the advantages of a set including both <italic>h</italic> and
+    <italic>m</italic><sub>e</sub>. A general condition to be fulfilled by an experiment
+    in order to realize an SI unit is given and a procedure suitable to optimize the
+    availability of the best relization on a global basis is outlined. Finally, the
+    dissemination process is analysed to show that the implied comparisons of standards
+    at any level are not affected by the realization uncertainty, so that the process
+    can be continued with the same standards, independently of any change in the basic
+    reference quantities of the unit system.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thoughts on a changing SI
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thoughts on a changing SI
     date:
     - type: epub
-      value: '2009-07-09'
+      at: '2009-07-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thoughts on a changing SI
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thoughts on a changing SI
     date:
     - type: ppub
-      value: '2009-10-01'
+      at: '2009-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +111,6 @@ extent:
     reference_from: '457'
     reference_to: '466'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

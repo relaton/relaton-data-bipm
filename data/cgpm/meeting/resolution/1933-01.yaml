@@ -1,114 +1,92 @@
 ---
-schema-version: v1.2.9
 id: CGPM-RES-1933-01
-title:
-- content: Dilatabilité des mètres prototypes provenant des alliages Johnson-Matthey
-    et de 1874
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Dilatabilité des mètres prototypes provenant des alliages Johnson-Matthey
-    et de 1874
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cg/cgpm/8-1933/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cg/cgpm/8-1933/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-08.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-08.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17314988/CGPM8.pdf/1e14fc66-05e1-1dac-305e-c6447ba37234
-  type: pdf
 type: proceedings
-docid:
-- id: CGPM RES 1 (1933)
-  type: BIPM
-  primary: true
-- id: CGPM RES 1 (1933, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CGPM RES 1 (1933, F)
+  content: Dilatabilité des mètres prototypes provenant des alliages Johnson-Matthey
+    et de 1874
+- language: fr
+  script: Latn
+  content: Dilatabilité des mètres prototypes provenant des alliages Johnson-Matthey
+    et de 1874
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cg/cgpm/8-1933/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cg/cgpm/8-1933/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-08.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-08.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17314988/CGPM8.pdf/1e14fc66-05e1-1dac-305e-c6447ba37234
+docidentifier:
+- content: CGPM RES 1 (1933)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CGPM Resolution 1 (1933)
+  content: CGPM RES 1 (1933, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CGPM RES 1 (1933, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CGPM Resolution 1 (1933)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Résolution 1 de la CGPM (1933)
+  content: Résolution 1 de la CGPM (1933)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CGPM Resolution 1 (1933) / Résolution 1 de la CGPM (1933)
+- content: CGPM Resolution 1 (1933) / Résolution 1 de la CGPM (1933)
   type: BIPM-long
 docnumber: CGPM RES 1 (1933)
 date:
 - type: published
-  value: '1933-10-10'
+  at: '1933-10-10'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1933-10-10'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -117,8 +95,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: resolution
+    content: resolution
   structuredidentifier:
     docnumber: '1'

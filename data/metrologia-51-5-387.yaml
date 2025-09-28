@@ -1,151 +1,128 @@
 ---
-schema-version: v1.2.9
-id: Metrologia515387
-title:
-- content: 'UV/ozone cleaning of mass standards: results on the correlation between
-    mass and surface chemical state'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/5/387
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/5/387
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 5 387
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'UV/ozone cleaning of mass standards: results on the correlation between
+    mass and surface chemical state'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/5/387
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/5/387
+docidentifier:
+- content: Metrologia 51 5 387
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/5/387
+- content: 10.1088/0026-1394/51/5/387
   type: doi
 date:
 - type: published
-  value: '2014-06-25'
+  at: '2014-06-25'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Fuchs
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Bern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Marti
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Bern, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Grgić
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ljubljana, Slovenia
         name:
         - content: Metrology Institute of the Republic of Slovenia MIRS
-        contact:
-        - address:
-            formatted_address: Ljubljana, Slovenia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Russi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
-        contact:
-        - address:
-            formatted_address: Bern, Switzerland
-  role:
-  - type: author
-revdate: '2014-06-25'
 abstract:
-- content: Abstract<p>UV/ozone cleaning of 1 kg Au and steel mass artefacts was studied
-    by direct mass comparison and surface chemical analysis by XPS. Both materials
-    are oxidized with an increasing oxide layer thickness upon prolonged exposure
-    time. The gain in mass is significant. The gold oxides are not stable and decompose
-    with time in part at ambient. As shown for artefacts of stacked discs, cavities
-    and interspaces were also cleaned, but with a much longer cleaning time. Stacked
-    discs, having a completely different cleaning time, are questionable for the determination
-    of sorption phenomena.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>UV/ozone cleaning of 1 kg Au and steel mass artefacts was studied by direct mass comparison and surface chemical analysis by XPS. Both materials are oxidized with an increasing oxide layer thickness upon prolonged exposure time. The gain in mass is significant. The gold oxides are not stable and decompose with time in part at ambient. As shown for artefacts of stacked discs, cavities and interspaces were also cleaned, but with a much longer cleaning time. Stacked discs, having a completely different cleaning time, are questionable for the determination of sorption phenomena.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'UV/ozone cleaning of mass standards: results on the correlation between
+    - script: Latn
+      content: 'UV/ozone cleaning of mass standards: results on the correlation between
         mass and surface chemical state'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-10-01'
+      at: '2014-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'UV/ozone cleaning of mass standards: results on the correlation between
+    - script: Latn
+      content: 'UV/ozone cleaning of mass standards: results on the correlation between
         mass and surface chemical state'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-06-25'
+      at: '2014-06-25'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -156,6 +133,6 @@ extent:
     reference_from: '387'
     reference_to: '393'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

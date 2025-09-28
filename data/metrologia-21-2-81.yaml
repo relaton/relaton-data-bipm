@@ -1,67 +1,59 @@
 ---
-schema-version: v1.2.9
-id: Metrologia21281
-title:
-- content: Oxide-bias Measurements in the Silicon Photodiode Self-calibration Technique
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 2 81
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Oxide-bias Measurements in the Silicon Photodiode Self-calibration Technique
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/2/005
+docidentifier:
+- content: Metrologia 21 2 81
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/2/005
+- content: 10.1088/0026-1394/21/2/005
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P J Key
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N P Fox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L Rastello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -71,51 +63,43 @@ contributor:
         name:
         - content: Istituto Elettrotecnico Nazionale `Galileo Ferraris', I-10135 Torino,
             Italy
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>Oxide-bias measurement techniques to determine front-surface recombination
+- language: en
+  script:
+  - Latn
+  content: "<p>Oxide-bias measurement techniques to determine front-surface recombination
     losses in the silicon photodiode self-calibration technique have been investigated.
     With the water-drop method it has been shown necessary to restrict the applied
     bias voltage to the very minimum necessary to produce photocurrent saturation,
     otherwise non-reversible degradation of quantum efficiency may occur. The corona
     technique has been found to give satisfactory results only on initial application,
     as a drastic increase in front-region recombination loss is produced.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Oxide-bias Measurements in the Silicon Photodiode Self-calibration
+    - language: en
+      script: Latn
+      content: Oxide-bias Measurements in the Silicon Photodiode Self-calibration
         Technique
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +110,6 @@ extent:
     reference_from: '81'
     reference_to: '87'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

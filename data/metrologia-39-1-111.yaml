@@ -1,112 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia391111
-title:
-- content: Change in the realization of the gray at the PTB
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/1/15
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/1/15
-  type: doi
 type: article
-docid:
-- id: Metrologia 39 1 111
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Change in the realization of the gray at the PTB
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/1/15
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/1/15
+docidentifier:
+- content: Metrologia 39 1 111
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/1/15
+- content: 10.1088/0026-1394/39/1/15
   type: doi
 date:
 - type: published
-  value: '2002-02-01'
+  at: '2002-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H-M Kramer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Büermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Ambrosi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '2002-02-01'
 abstract:
-- content: "<p>From 1 January 2002 the Physikalisch-Technische Bundesanstalt (PTB),
-    the national metrology institute of Germany, will make a change in the realization
-    of the gray which will affect calibrations performed in terms of air kerma in
-    the fields of<sup>60</sup>Co and<sup>137</sup>Cs. For a given detector, the calibration
-    factor will be increased by 0.95 % and 0.85 % in the fields of<sup>60</sup>Co
-    and<sup>137</sup>Cs, respectively.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>From 1 January 2002 the Physikalisch-Technische Bundesanstalt (PTB),
+    the national metrology institute of Germany, will make a change in the realization
+    of the gray which will affect calibrations performed in terms of air kerma in
+    the fields of <sup>60</sup>Co and <sup>137</sup>Cs. For a given detector, the
+    calibration factor will be increased by 0.95 % and 0.85 % in the fields of <sup>60</sup>Co
+    and <sup>137</sup>Cs, respectively.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Change in the realization of the gray at the PTB
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Change in the realization of the gray at the PTB
     date:
     - type: ppub
-      value: '2002-02-01'
+      at: '2002-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +101,6 @@ extent:
     reference_from: '111'
     reference_to: '112'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

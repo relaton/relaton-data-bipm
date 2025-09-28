@@ -1,102 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia463L11
-title:
-- content: On (kinds of) quantities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/3/N01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/3/N01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 3 L11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On (kinds of) quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/3/N01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/3/N01
+docidentifier:
+- content: Metrologia 46 3 L11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/3/N01
+- content: 10.1088/0026-1394/46/3/N01
   type: doi
 date:
 - type: published
-  value: '2009-02-02'
+  at: '2009-02-02'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Mari
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Università Cattaneo – LIUC, C.so Matteotti, 22, 21053 Castellanza
             (VA), Italy
-  role:
-  - type: author
-revdate: '2009-02-02'
 abstract:
-- content: "<p>The third edition of the International Vocabulary of Metrology (VIM)
-    has introduced the concept of kind of quantity as the ‘aspect common to mutually
-    comparable quantities’. While the concept is a fundamental one, as it is relevantly
-    used in several definitions throughout VIM, its definition is critical for several
-    reasons. Not only is the division of the concept of ‘quantity’ according to ‘kind
-    of quantity’ to some extent arbitrary, as noted in the Vocabulary, but also the
-    distinction between the concepts of ‘quantity’ and ‘kind of quantity’ is to some
-    extent arbitrary. This article discusses this subject and suggests a possible
-    solution to some of the issues identified.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The third edition of the <italic>International Vocabulary of Metrology</italic>
+    (VIM) has introduced the concept of kind of quantity as the ‘aspect common to
+    mutually comparable quantities’. While the concept is a fundamental one, as it
+    is relevantly used in several definitions throughout VIM, its definition is critical
+    for several reasons. Not only is the division of the concept of ‘quantity’ according
+    to ‘kind of quantity’ to some extent arbitrary, as noted in the Vocabulary, but
+    also the distinction between the concepts of ‘quantity’ and ‘kind of quantity’
+    is to some extent arbitrary. This article discusses this subject and suggests
+    a possible solution to some of the issues identified.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On (kinds of) quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On (kinds of) quantities
     date:
     - type: epub
-      value: '2009-02-02'
+      at: '2009-02-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On (kinds of) quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On (kinds of) quantities
     date:
     - type: ppub
-      value: '2009-06-01'
+      at: '2009-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: L11
     reference_to: L15
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

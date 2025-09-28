@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S171
-title:
-- content: Relativistic time transfer in the vicinity of the Earth and in the solar
-    system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S171
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Relativistic time transfer in the vicinity of the Earth and in the solar
+    system
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S07
+docidentifier:
+- content: Metrologia 48 4 S171
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S07
+- content: 10.1088/0026-1394/48/4/S07
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert A Nelson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Satellite Engineering Research Corporation, 7710 Woodmont Avenue,
             Ste. 1109, Bethesda, MD 20814, USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>The algorithms for relativistic time transfer in the vicinity of the
+- language: en
+  script:
+  - Latn
+  content: "<p>The algorithms for relativistic time transfer in the vicinity of the
     Earth and in the solar system are derived. The concepts of proper time and coordinate
     time are distinguished. The coordinate time elapsed during the transport of a
     clock and the propagation of an electromagnetic signal is analysed in three coordinate
@@ -51,57 +47,49 @@ abstract:
     Geocentric Coordinate Time (TCG), Terrestrial Time (TT) and Barycentric Coordinate
     Time (TCB) are defined and their relationships are discussed. Some numerical examples
     are provided to illustrate the magnitudes of the effects.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relativistic time transfer in the vicinity of the Earth and in the
+    - language: en
+      script: Latn
+      content: Relativistic time transfer in the vicinity of the Earth and in the
         solar system
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relativistic time transfer in the vicinity of the Earth and in the
+    - language: en
+      script: Latn
+      content: Relativistic time transfer in the vicinity of the Earth and in the
         solar system
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +100,6 @@ extent:
     reference_from: S171
     reference_to: S180
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

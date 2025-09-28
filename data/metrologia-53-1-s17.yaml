@@ -1,104 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531S17
-title:
-- content: Introducing a Simple Guide for the evaluation and expression of the uncertainty
-    of NIST measurement results
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/S17
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/S17
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 S17
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Introducing a <italic>Simple Guide</italic> for the evaluation and expression
+    of the uncertainty of NIST measurement results
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/S17
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/S17
+docidentifier:
+- content: Metrologia 53 1 S17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/S17
+- content: 10.1088/0026-1394/53/1/S17
   type: doi
 date:
 - type: published
-  value: '2015-12-16'
+  at: '2015-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Antonio Possolo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: U.S. Department of Commerce, Gaithersburg MD, USA
         name:
         - content: National Institute of Standards and Technology
-        contact:
-        - address:
-            formatted_address: U.S. Department of Commerce, Gaithersburg MD, USA
-  role:
-  - type: author
-revdate: '2015-12-16'
 abstract:
-- content: Abstract<p>The current guidelines for the evaluation and expression of
-    the uncertainty of NIST measurement results were originally published in 1993
-    as NIST Technical Note 1297, which was last revised in 1994. NIST is now updating
-    its principles and procedures for uncertainty evaluation to address current and
-    emerging needs in measurement science that Technical Note 1297 could not have
-    anticipated or contemplated when it was first conceived. Although progressive
-    and forward-looking, this update is also conservative because it does not require
-    that current practices for uncertainty evaluation be abandoned or modified where
-    they are fit for purpose and when there is no compelling reason to do otherwise.
-    The updated guidelines are offered as a Simple Guide intended to be deployed under
-    the NIST policy on Measurement Quality, and are accompanied by a rich collection
-    of examples of application drawn from many different fields of measurement science.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The current guidelines for the evaluation and expression of the uncertainty of NIST measurement results were originally published in 1993 as NIST Technical Note 1297, which was last revised in 1994. NIST is now updating its principles and procedures for uncertainty evaluation to address current and emerging needs in measurement science that Technical Note 1297 could not have anticipated or contemplated when it was first conceived. Although progressive and forward-looking, this update is also conservative because it does not require that current practices for uncertainty evaluation be abandoned or modified where they are fit for purpose and when there is no compelling reason to do otherwise. The updated guidelines are offered as a <italic>Simple Guide</italic> intended to be deployed under the NIST policy on Measurement Quality, and are accompanied by a rich collection of examples of application drawn from many different fields of measurement science.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Introducing a Simple Guide for the evaluation and expression of the
-        uncertainty of NIST measurement results
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Introducing a <italic>Simple Guide</italic> for the evaluation and
+        expression of the uncertainty of NIST measurement results
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Introducing a Simple Guide for the evaluation and expression of the
-        uncertainty of NIST measurement results
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Introducing a <italic>Simple Guide</italic> for the evaluation and
+        expression of the uncertainty of NIST measurement results
     date:
     - type: epub
-      value: '2015-12-16'
+      at: '2015-12-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +91,6 @@ extent:
     reference_from: S17
     reference_to: S24
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

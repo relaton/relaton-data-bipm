@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia3233
-title:
-- content: An Electrostatic Method for the Absolute Measurement of Voltage
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/3/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/3/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 3 2 33
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Electrostatic Method for the Absolute Measurement of Voltage
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/3/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/3/2/001
+docidentifier:
+- content: Metrologia 3 2 33
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/3/2/001
+- content: 10.1088/0026-1394/3/2/001
   type: doi
 date:
 - type: published
-  value: '1967-04-01'
+  at: '1967-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rolf Ohlon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statens Provningsanstalt, Stockholm, Sweden
-  role:
-  - type: author
-revdate: '1967-04-01'
 abstract:
-- content: "<p>A new electrostatic method for absolute measurements of voltage levels
+- language: en
+  script:
+  - Latn
+  content: "<p>A new electrostatic method for absolute measurements of voltage levels
     of standard cells is proposed. The method is based on Kelvin's plate electrometer
     with a guard ring. The electrometer is assumed to be symmetrically built with
     two pairs of electrode plates and the final balance of the system is made by means
     of a feedback system. The maximum error of the method is estimated to be in the
     order of 5 to 10 ppm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1967'
+- from: '1967'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Electrostatic Method for the Absolute Measurement of Voltage
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Electrostatic Method for the Absolute Measurement of Voltage
     date:
     - type: ppub
-      value: '1967-04-01'
+      at: '1967-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '33'
     reference_to: '37'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

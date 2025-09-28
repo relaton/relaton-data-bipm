@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia224271
-title:
-- content: Electromagnetic Trapping of Neutral Atoms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/4/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/4/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 4 271
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Electromagnetic Trapping of Neutral Atoms
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/4/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/4/006
+docidentifier:
+- content: Metrologia 22 4 271
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/4/006
+- content: 10.1088/0026-1394/22/4/006
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H J Metcalf
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physics Dept., State University of New York, Stony Brook, NY 11794,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W D Phillips
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electricity Division, Center for Basic Standards, National Bureau
             of Standards, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>Electromagnetic trapping of neutral atoms is a new branch of applied
+- language: en
+  script:
+  - Latn
+  content: "<p>Electromagnetic trapping of neutral atoms is a new branch of applied
     physics that has potential for use in very many areas, including metrology and
     high-resolution precision spectroscopy. It has the possibility of leading toward
     the spectroscopic ideal of an isolated atom at rest, available for interaction
     with electromagnetic field probes. We present an introduction to trapping in both
     dc magnetic fields and optical fields (laser beams). The basic ideas and fundamental
     limitations are discussed and the first successful experiments are reviewed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Electromagnetic Trapping of Neutral Atoms
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Electromagnetic Trapping of Neutral Atoms
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '271'
     reference_to: '278'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

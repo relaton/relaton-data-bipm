@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia46119
-title:
-- content: Exploitation of spectral direct UV irradiance measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1 19
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Exploitation of spectral direct UV irradiance measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1/003
+docidentifier:
+- content: Metrologia 46 1 19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1/003
+- content: 10.1088/0026-1394/46/1/003
   type: doi
 date:
 - type: published
-  value: '2008-12-12'
+  at: '2008-12-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raul R Cordero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,56 +37,50 @@ contributor:
         name:
         - content: Universidad de Santiago de Chile, Avenida Alameda Libertador Bernardo
             O'Higgins 3363, Santiago, Chile
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gunther Seckmeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Street 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Darius Pissulla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Street 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fernando Labbe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Universidad Técnica Federico Santa Maria, Ave. España 1680, Valparaíso,
             Chile
-  role:
-  - type: author
-revdate: '2008-12-12'
 abstract:
-- content: "<p>Because of both scattering and absorption, ozone and aerosols lead
+- language: en
+  script:
+  - Latn
+  content: "<p>Because of both scattering and absorption, ozone and aerosols lead
     to an attenuation in the surface UV irradiance. These factors can be efficiently
     retrieved from ground-based measurements of the spectral direct UV irradiance
     performed by using spectroradiometer systems. In this paper, we applied a Monte
@@ -106,53 +96,42 @@ abstract:
     parameters. The applied exploitation technique enabled us to describe the uncertainty
     propagation through the retrieval process and to assess the influence of the involved
     uncertainty sources. Methodological details are provided.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Exploitation of spectral direct UV irradiance measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Exploitation of spectral direct UV irradiance measurements
     date:
     - type: epub
-      value: '2008-12-12'
+      at: '2008-12-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Exploitation of spectral direct UV irradiance measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Exploitation of spectral direct UV irradiance measurements
     date:
     - type: ppub
-      value: '2009-02-01'
+      at: '2009-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -163,6 +142,6 @@ extent:
     reference_from: '19'
     reference_to: '25'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

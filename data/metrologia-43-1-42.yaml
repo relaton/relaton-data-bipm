@@ -1,97 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43142
-title:
-- content: An analytical method for calculating a coverage interval
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 42
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An analytical method for calculating a coverage interval
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/006
+docidentifier:
+- content: Metrologia 43 1 42
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/006
+- content: 10.1088/0026-1394/43/1/006
   type: doi
 date:
 - type: published
-  value: '2005-11-18'
+  at: '2005-11-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paweł Fotowicz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Central Office of Measures, Warsaw, Poland
-  role:
-  - type: author
-revdate: '2005-11-18'
 abstract:
-- content: "<p>The paper presents an analytical method for calculating a coverage
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper presents an analytical method for calculating a coverage
     interval. The method consists in approximation of the convolution of standard
     distributions attributed to input quantity values, such as Student's, normal,
     rectangular, triangular or trapezoidal. It may be applied when the model of a
     measurand is linear or close to linear.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An analytical method for calculating a coverage interval
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An analytical method for calculating a coverage interval
     date:
     - type: epub
-      value: '2005-11-18'
+      at: '2005-11-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: An analytical method for calculating a coverage interval
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An analytical method for calculating a coverage interval
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +87,6 @@ extent:
     reference_from: '42'
     reference_to: '45'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

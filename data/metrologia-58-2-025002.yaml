@@ -1,119 +1,92 @@
 ---
-schema-version: v1.2.9
-id: Metrologia582025002
-title:
-- content: A novel high accuracy micrometer for the measurement of diameter
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abd3b2
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abd3b2
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 2 025002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A novel high accuracy micrometer for the measurement of diameter
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abd3b2
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abd3b2
+docidentifier:
+- content: Metrologia 58 2 025002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abd3b2
+- content: 10.1088/1681-7575/abd3b2
   type: doi
 date:
 - type: published
-  value: '2021-02-11'
+  at: '2021-02-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: John Stoup
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, Maryland 20899, United States of America
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: Gaithersburg, Maryland 20899, United States of America
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ted Doiron
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, Maryland 20899, United States of America
         name:
         - content: National Institute of Standards and Technology (NIST)
-        contact:
-        - address:
-            formatted_address: Gaithersburg, Maryland 20899, United States of America
-  role:
-  - type: author
-revdate: '2021-02-11'
 abstract:
-- content: Abstract<p>The dimensional metrology group at the National Institute of
-    Standards and Technology (NIST) has developed an ultra-high accuracy laser micrometer
-    capable of external diameter measurements with a targeted expanded uncertainty,
-    U(k = 2), of less than 20 nm. This instrument is an advanced iteration of a design
-    developed at NIST in the 1990s and has been continuously improved since its inception.
-    This newest approach takes advantage of the lessons learned through two decades
-    of operation, process control measurement data, and performance analysis. This
-    approach advances the state of the art for diameter measurements within an artifact
-    diameter range of 0.02 mm to 55 mm. The instrument makes use of low thermal expansion
-    materials, a stable structural design, environmental control, and remote manipulation
-    of the artifacts to address the most significant uncertainty sources identified
-    in previous versions of the instrument. A review of the instrument development
-    and components will be presented. We will outline the significant contributions
-    to the operational measurement uncertainty budget for this instrument along with
-    identifying the high accuracy applications that will benefit from this effort.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The dimensional metrology group at the National Institute of Standards and Technology (NIST) has developed an ultra-high accuracy laser micrometer capable of external diameter measurements with a targeted expanded uncertainty, <italic toggle="yes">U</italic>(<italic toggle="yes">k</italic> = 2), of less than 20 nm. This instrument is an advanced iteration of a design developed at NIST in the 1990s and has been continuously improved since its inception. This newest approach takes advantage of the lessons learned through two decades of operation, process control measurement data, and performance analysis. This approach advances the state of the art for diameter measurements within an artifact diameter range of 0.02 mm to 55 mm. The instrument makes use of low thermal expansion materials, a stable structural design, environmental control, and remote manipulation of the artifacts to address the most significant uncertainty sources identified in previous versions of the instrument. A review of the instrument development and components will be presented. We will outline the significant contributions to the operational measurement uncertainty budget for this instrument along with identifying the high accuracy applications that will benefit from this effort.</p>
 copyright:
-- owner:
-  - name:
-    - content: Not subject to copyright in the USA
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Not subject to copyright in the USA
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A novel high accuracy micrometer for the measurement of diameter
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A novel high accuracy micrometer for the measurement of diameter
     date:
     - type: ppub
-      value: '2021-04-01'
+      at: '2021-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A novel high accuracy micrometer for the measurement of diameter
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A novel high accuracy micrometer for the measurement of diameter
     date:
     - type: epub
-      value: '2021-02-11'
+      at: '2021-02-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +94,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

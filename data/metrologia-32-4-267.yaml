@@ -1,115 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia324267
-title:
-- content: A new precise determination of Newton's gravitational constant
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/4/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/4/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 4 267
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A new precise determination of Newton's gravitational constant
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/4/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/4/4
+docidentifier:
+- content: Metrologia 32 4 267
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/4/4
+- content: 10.1088/0026-1394/32/4/4
   type: doi
 date:
 - type: published
-  value: '1995-08-01'
+  at: '1995-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Michaelis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Haars
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Augustin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1995-08-01'
 abstract:
-- content: "<p>A new determination of the numerical value of the gravitational constant
-    G was carried out by means of an apparatus consisting of a fibreless torsion balance
-    which was carried by the buoyancy of a floater in a liquid; the angular deflection
-    of the balance was compensated with the aid of a control loop and an electrostatic
-    torque transmitter; the reacting bodies were cylinders. The result obtained for
-    G differs from the CODATA value by about +6 × 10<sup>-3</sup> in relative value.
-    No dependence on the materials or on the distance between the cylinders was found.
-    The apparatus is described, the methods of evaluation and the results are reported,
-    the possible sources of errors are discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A new determination of the numerical value of the gravitational constant
+    <italic>G</italic> was carried out by means of an apparatus consisting of a fibreless
+    torsion balance which was carried by the buoyancy of a floater in a liquid; the
+    angular deflection of the balance was compensated with the aid of a control loop
+    and an electrostatic torque transmitter; the reacting bodies were cylinders. The
+    result obtained for <italic>G</italic> differs from the CODATA value by about
+    +6 × 10<sup>-3</sup> in relative value. No dependence on the materials or on the
+    distance between the cylinders was found. The apparatus is described, the methods
+    of evaluation and the results are reported, the possible sources of errors are
+    discussed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A new precise determination of Newton's gravitational constant
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: A new precise determination of Newton's gravitational constant
     date:
     - type: ppub
-      value: '1995-08-01'
+      at: '1995-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +105,6 @@ extent:
     reference_from: '267'
     reference_to: '276'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

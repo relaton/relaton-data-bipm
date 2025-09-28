@@ -1,104 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia436477
-title:
-- content: Impulse spectrum amplitude uncertainty analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/6/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/6/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 6 477
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Impulse spectrum amplitude uncertainty analysis
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/6/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/6/001
+docidentifier:
+- content: Metrologia 43 6 477
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/6/001
+- content: 10.1088/0026-1394/43/6/001
   type: doi
 date:
 - type: published
-  value: '2006-10-10'
+  at: '2006-10-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N G Paulter
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R Larson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-revdate: '2006-10-10'
 abstract:
-- content: "<p>A detailed uncertainty analysis for an impulse spectrum amplitude (ISA)
+- language: en
+  script:
+  - Latn
+  content: "<p>A detailed uncertainty analysis for an impulse spectrum amplitude (ISA)
     measurement system is presented. This analysis includes consideration of effects
     such as temperature, computation algorithms, history of instrument performance,
     equipment limitations and estimates of the response characteristics of the instrument.
     With the completion of this work, our published uncertainties have been reduced
     from ±0.5 dB to less than ±0.1 dB for the parameter of ISA.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impulse spectrum amplitude uncertainty analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impulse spectrum amplitude uncertainty analysis
     date:
     - type: epub
-      value: '2006-10-10'
+      at: '2006-10-10'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Impulse spectrum amplitude uncertainty analysis
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Impulse spectrum amplitude uncertainty analysis
     date:
     - type: ppub
-      value: '2006-12-01'
+      at: '2006-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +92,6 @@ extent:
     reference_from: '477'
     reference_to: '485'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

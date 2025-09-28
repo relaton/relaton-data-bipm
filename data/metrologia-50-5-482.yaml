@@ -1,142 +1,121 @@
 ---
-schema-version: v1.2.9
-id: Metrologia505482
-title:
-- content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/5/482
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/5/482
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 5 482
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/5/482
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/5/482
+docidentifier:
+- content: Metrologia 50 5 482
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/5/482
+- content: 10.1088/0026-1394/50/5/482
   type: doi
 date:
 - type: published
-  value: '2013-09-13'
+  at: '2013-09-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Shisong Li
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100084, People's Republic of China
         name:
         - content: Tsinghua University
         subdivision:
-        - content: Department of Electrical Engineering
-        contact:
-        - address:
-            formatted_address: Beijing 100084, People's Republic of China
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Electrical Engineering
     - organization:
+        address:
+        - formatted_address: Beijing 100013, People's Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100013, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhonghua Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100013, People's Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100013, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bing Han
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Beijing 100013, People's Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: Beijing 100013, People's Republic of China
-  role:
-  - type: author
-revdate: '2013-09-13'
 abstract:
-- content: Abstract<p>The watt balance is operated in two asynchronous measurement
-    modes to obtain the voltage–velocity ratio U/v and the force–current ratio mg/I,
-    respectively. The magnetic flux density will change between the two modes when
-    the effect due to the coil current is taken into account, particularly for watt
-    balances using a soft magnetic material in the magnetic circuit. Normally, the
-    linear component of the magnetic flux density change can be easily eliminated
-    by reversing the coil current; however, the quadratic component remains as a systematic
-    error, i.e. a non-linear error. In this paper, we use a theoretical analysis and
-    a differential finite element method to investigate the behaviour of the quadratic
-    dependence in a typical magnetic circuit. Several strategies are discussed to
-    minimize this error in the magnetic system design for the watt balance.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The watt balance is operated in two asynchronous measurement modes to obtain the voltage–velocity ratio <italic>U</italic>/<italic>v</italic> and the force–current ratio <italic>mg</italic>/<italic>I</italic>, respectively. The magnetic flux density will change between the two modes when the effect due to the coil current is taken into account, particularly for watt balances using a soft magnetic material in the magnetic circuit. Normally, the linear component of the magnetic flux density change can be easily eliminated by reversing the coil current; however, the quadratic component remains as a systematic error, i.e. a non-linear error. In this paper, we use a theoretical analysis and a differential finite element method to investigate the behaviour of the quadratic dependence in a typical magnetic circuit. Several strategies are discussed to minimize this error in the magnetic system design for the watt balance.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
     date:
     - type: ppub
-      value: '2013-10-01'
+      at: '2013-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Nonlinear magnetic error evaluation of a two-mode watt balance experiment
     date:
     - type: epub
-      value: '2013-09-13'
+      at: '2013-09-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -147,6 +126,6 @@ extent:
     reference_from: '482'
     reference_to: '489'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

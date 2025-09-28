@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27295
-title:
-- content: Response of Apparent Mass to Thermal Gradients
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/2/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/2/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 2 95
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Response of Apparent Mass to Thermal Gradients
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/2/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/2/008
+docidentifier:
+- content: Metrologia 27 2 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/2/008
+- content: 10.1088/0026-1394/27/2/008
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gläser
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>The change of the apparent mass of 20-g masses and tubes that are not
+- language: en
+  script:
+  - Latn
+  content: "<p>The change of the apparent mass of 20-g masses and tubes that are not
     in thermal equilibrium with ambient air has been observed. Buoyancy, adsorption
     and convection influences are discussed. Quantitative comparisons show that, under
     such conditions, it is predominantly free convection forces which change the apparent
     mass.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Response of Apparent Mass to Thermal Gradients
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Response of Apparent Mass to Thermal Gradients
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '95'
     reference_to: '100'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

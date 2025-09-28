@@ -1,112 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia405258
-title:
-- content: The diffraction correction for absolute gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/5/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/5/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 5 258
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The diffraction correction for absolute gravimeters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/5/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/5/008
+docidentifier:
+- content: Metrologia 40 5 258
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/5/008
+- content: 10.1088/0026-1394/40/5/008
   type: doi
 date:
 - type: published
-  value: '2003-09-11'
+  at: '2003-09-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D van Westrum
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Micro-g Solutions Inc., 515 Briggs St, Erie, CO 80516, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T M Niebauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Micro-g Solutions Inc., 515 Briggs St, Erie, CO 80516, USA
-  role:
-  - type: author
-revdate: '2003-09-11'
 abstract:
-- content: "<p>The inherent curvature of the wavefronts in the laser beams used in
+- language: en
+  script:
+  - Latn
+  content: "<p>The inherent curvature of the wavefronts in the laser beams used in
     most absolute gravimeters introduces a systematic reduction in the measured gravity
     value. This error depends strongly on the diameter of the laser beam, but is typically
     of the order of 1–5 µGal. This paper describes the origin of this reduction, and
     provides a correction based on the laser beam diameter as well as a practical
     method to measure the beam's diameter.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The diffraction correction for absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The diffraction correction for absolute gravimeters
     date:
     - type: epub
-      value: '2003-09-11'
+      at: '2003-09-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The diffraction correction for absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The diffraction correction for absolute gravimeters
     date:
     - type: ppub
-      value: '2003-10-01'
+      at: '2003-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +100,6 @@ extent:
     reference_from: '258'
     reference_to: '263'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

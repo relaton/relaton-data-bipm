@@ -1,113 +1,91 @@
 ---
-schema-version: v1.2.9
 id: CGPM-RES-1975-01
-title:
-- content: Définition du mètre
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Définition du mètre (maintien de la définition actuelle ; poursuite des
-    recherches)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cg/cgpm/15-1975/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cg/cgpm/15-1975/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-15.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-15.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/17314988/CGPM15.pdf/6235b987-be6c-3f90-3fce-ba92ec805dc4
-  type: pdf
 type: proceedings
-docid:
-- id: CGPM RES 1 (1975)
-  type: BIPM
-  primary: true
-- id: CGPM RES 1 (1975, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CGPM RES 1 (1975, F)
+  content: Définition du mètre
+- language: fr
+  script: Latn
+  content: Définition du mètre (maintien de la définition actuelle ; poursuite des
+    recherches)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cg/cgpm/15-1975/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cg/cgpm/15-1975/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-en/meeting-15.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cgpm/meetings-fr/meeting-15.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/17314988/CGPM15.pdf/6235b987-be6c-3f90-3fce-ba92ec805dc4
+docidentifier:
+- content: CGPM RES 1 (1975)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CGPM Resolution 1 (1975)
+  content: CGPM RES 1 (1975, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CGPM RES 1 (1975, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CGPM Resolution 1 (1975)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Résolution 1 de la CGPM (1975)
+  content: Résolution 1 de la CGPM (1975)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CGPM Resolution 1 (1975) / Résolution 1 de la CGPM (1975)
+- content: CGPM Resolution 1 (1975) / Résolution 1 de la CGPM (1975)
   type: BIPM-long
 docnumber: CGPM RES 1 (1975)
 date:
 - type: published
-  value: '1975-06-03'
+  at: '1975-06-03'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: General Conference on Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Conférence Générale des Poids et Mesures
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CGPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1975-06-03'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: General Conference on Weights and Measures
+    - language: fr
+      script: Latn
+      content: Conférence Générale des Poids et Mesures
+    abbreviation:
+      language: fr
+      script: Latn
+      content: CGPM
 language:
 - en
 - fr
@@ -116,8 +94,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: resolution
+    content: resolution
   structuredidentifier:
     docnumber: '1'

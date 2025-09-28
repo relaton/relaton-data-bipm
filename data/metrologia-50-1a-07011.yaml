@@ -1,113 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia501A07011
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Final report on EURAMET.M.M-S4: Bilateral comparison of mass standards
     between INRIM and MCCAA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1A/07011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1A/07011
-  type: doi
-type: article
-docid:
-- id: Metrologia 50 1A 07011
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1A/07011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1A/07011
+docidentifier:
+- content: Metrologia 50 1A 07011
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1A/07011
+- content: 10.1088/0026-1394/50/1A/07011
   type: doi
 date:
 - type: published
-  value: '2013-01-01'
+  at: '2013-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrea Malengo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicola Testa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Davide Torchio
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Italy
-  role:
-  - type: author
-revdate: '2013-01-01'
 abstract:
-- content: |-
-    <p>This report describes the results of the bilateral comparison EURAMET.M.M-S4 (EURAMET 1232) between the Istituto Nazionale di Ricerca Metrologica (INRIM, Italy) and the Malta Competition and Consumer Affairs Authority (MCCAA, Malta).</p><p>The results of the comparison will be used to support the Calibration and Measurement Capability (CMC) declaration of MCCAA in the field of mass standards calibration.</p><p>INRIM was the pilot laboratory for this bilateral comparison. For this comparison the travelling standards were nine mass standards having the following nominal values: 50 kg, 5 kg, 1 kg, 200 g, 50 g, 5 g, 500 mg, 100 mg and 2 mg.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This report describes the results of the bilateral comparison EURAMET.M.M-S4 (EURAMET 1232) between the Istituto Nazionale di Ricerca Metrologica (INRIM, Italy) and the Malta Competition and Consumer Affairs Authority (MCCAA, Malta).</p>
+    <p>The results of the comparison will be used to support the Calibration and Measurement Capability (CMC) declaration of MCCAA in the field of mass standards calibration.</p>
+    <p>INRIM was the pilot laboratory for this bilateral comparison. For this comparison the travelling standards were nine mass standards having the following nominal values: 50 kg, 5 kg, 1 kg, 200 g, 50 g, 5 g, 500 mg, 100 mg and 2 mg.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/M-S4/EURAMET.M.M-S4.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by EURAMET, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Final report on EURAMET.M.M-S4: Bilateral comparison of mass standards
         between INRIM and MCCAA
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-01-01'
+      at: '2013-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +106,6 @@ extent:
     reference_from: '07011'
     reference_to: '07011'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

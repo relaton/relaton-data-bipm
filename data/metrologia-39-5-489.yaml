@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia395489
+type: article
+schema_version: v1.4.1
 title:
-- content: |-
+- language: en
+  script: Latn
+  content: |-
     Propagation of error analysis in a total least-squares
     estimator in absolute gravimetry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/39/5/10
-  type: src
-- content: https://doi.org/10.1088/0026-1394/39/5/10
-  type: doi
-type: article
-docid:
-- id: Metrologia 39 5 489
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/39/5/10
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/39/5/10
+docidentifier:
+- content: Metrologia 39 5 489
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/39/5/10
+- content: 10.1088/0026-1394/39/5/10
   type: doi
 date:
 - type: published
-  value: '2002-10-01'
+  at: '2002-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Durando
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR-Istituto di Metrologia ``G. Colonnetti'', Strada delle Cacce
             73, 10135 Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR-Istituto di Metrologia ``G. Colonnetti'', Strada delle Cacce
             73, 10135 Turin, Italy
-  role:
-  - type: author
-revdate: '2002-10-01'
 abstract:
-- content: |-
-    <p>High-precision measurements often resort to least-squares estimation via observation models in which
-    the quantity of interest is one of the unknowns. The case when both the dependent and independent variables of the model are stochastic is of particular interest. An example is absolute gravimetry, where the orbit of a test mass is tracked by a laser interferometer and is reconstructed by the least-squares method. In orbit reconstruction, space and time enter symmetrically and both time and position are stochastic. We present orbit reconstruction as a total least-squares problem to establish an error model for the propagation of tracking errors. We also give an asymptotic formula expressing the relevant contribution to the uncertainty of gravity determination.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>High-precision measurements often resort to least-squares estimation via observation models in which
+    the quantity of interest is one of the unknowns. The case when both the dependent and independent variables of the model are stochastic is of particular interest. An example is absolute gravimetry, where the orbit of a test mass is tracked by a laser interferometer and is reconstructed by the least-squares method. In orbit reconstruction, space and time enter symmetrically and both time and position are stochastic. We present orbit reconstruction as a total least-squares problem to establish an error model for the propagation of tracking errors. We also give an asymptotic formula expressing the relevant contribution to the uncertainty of gravity determination.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2002'
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: |-
+    - language: en
+      script: Latn
+      content: |-
         Propagation of error analysis in a total least-squares
         estimator in absolute gravimetry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2002-10-01'
+      at: '2002-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: '489'
     reference_to: '494'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

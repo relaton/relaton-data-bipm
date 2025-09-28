@@ -1,105 +1,80 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S99
-title:
-- content: Radiation protection and environmental standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S99
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Radiation protection and environmental standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S07
+docidentifier:
+- content: Metrologia 46 2 S99
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S07
+- content: 10.1088/0026-1394/46/2/S07
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Ambrosi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>Measurements for radiation protection dosimetry in medicine, industry,
-    science and in the environment require instruments for photon, beta and neutron
-    radiation and for combinations of them. To characterize and calibrate such instruments
-    reference radiation fields are required, together with the dosimetry of these
-    fields and the methods to calibrate the instruments. For all these tasks standards
-    are available; an overview of them is given in this paper. In addition, an overview
-    of secondary standard instruments is provided which serve as a tool to ensure
-    the traceability between the primary standards laboratories and the calibrating
-    and type testing laboratories. The part on neutrons is kept short as neutrons
-    will be dealt with in a future special issue in this journal.</p><p>About 10 years
-    ago, Böhm et al (1999 Radiat. Prot. Dosim. 86 87–105) summarized the ISO recommended
-    reference radiations used in radiation protection. This paper updates that review
-    and adds environmental radiation and secondary standard instruments.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Measurements for radiation protection dosimetry in medicine, industry, science and in the environment require instruments for photon, beta and neutron radiation and for combinations of them. To characterize and calibrate such instruments reference radiation fields are required, together with the dosimetry of these fields and the methods to calibrate the instruments. For all these tasks standards are available; an overview of them is given in this paper. In addition, an overview of secondary standard instruments is provided which serve as a tool to ensure the traceability between the primary standards laboratories and the calibrating and type testing laboratories. The part on neutrons is kept short as neutrons will be dealt with in a future special issue in this journal.</p>
+    <p>About 10 years ago, Böhm <italic>et al</italic> (1999 <italic>Radiat. Prot. Dosim.</italic> <bold>86</bold> 87–105) summarized the ISO recommended reference radiations used in radiation protection. This paper updates that review and adds environmental radiation and secondary standard instruments.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiation protection and environmental standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiation protection and environmental standards
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Radiation protection and environmental standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Radiation protection and environmental standards
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +85,6 @@ extent:
     reference_from: S99
     reference_to: S111
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

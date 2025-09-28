@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia336565
-title:
-- content: Frequency comparison of iodine-stabilized He-Ne lasers at 633 nm from the
-    IMGC and the IFA-IFTAR
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/33/6/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/33/6/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 33 6 565
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Frequency comparison of iodine-stabilized He-Ne lasers at 633 nm from the
+    IMGC and the IFA-IFTAR
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/33/6/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/33/6/7
+docidentifier:
+- content: Metrologia 33 6 565
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/33/6/7
+- content: 10.1088/0026-1394/33/6/7
   type: doi
 date:
 - type: published
-  value: '1996-12-01'
+  at: '1996-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Bertinetto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC, IFA-IFTAR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Cordiale
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC, IFA-IFTAR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Popescu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IMGC, IFA-IFTAR
-  role:
-  - type: author
-revdate: '1996-12-01'
 abstract:
-- content: <p>The results of an international comparison between the He-Ne lasers
-    stabilized to<sup>127</sup>I<sub>2</sub> at 633 nm of the IMGC (Istituto di Metrologia
+- language: en
+  script:
+  - Latn
+  content: <p>The results of an international comparison between the He-Ne lasers
+    stabilized to <sup>127</sup>I<sub>2</sub> at 633 nm of the IMGC (Istituto di Metrologia
     "G. Colonnetti", Turin, Italy) and the IFA-IFTAR (Institute of Atomic Physics-IFTAR,
     Department of Lasers, Bucharest, Romania) are reported. The mean frequency difference,
     considering the hyperfine structure components d, e, f and g of the R(127) 11-5
     transition, was Δν = ν<sub>RO.2</sub> - ν<sub>IMGCA4/5</sub> = 3,8 kHz, standard
-    uncertainty u = 5,7 kHz, or Δν/ν<sub>0</sub> = 0,8 × 10<sup>-11</sup>, standard
-    uncertainty u = 1,2 × 10<sup>-11</sup>. The frequency stability, expressed as
-    the relative Allan standard deviation of the beat note between the two lasers,
-    resulted 3,7 × 10<sup>-12</sup> for a 100 s sampling time.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    uncertainty <italic>u</italic> = 5,7 kHz, or Δν/ν<sub>0</sub> = 0,8 × 10<sup>-11</sup>,
+    standard uncertainty <italic>u</italic> = 1,2 × 10<sup>-11</sup>. The frequency
+    stability, expressed as the relative Allan standard deviation of the beat note
+    between the two lasers, resulted 3,7 × 10<sup>-12</sup> for a 100 s sampling time.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1996'
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency comparison of iodine-stabilized He-Ne lasers at 633 nm from
+    - language: en
+      script: Latn
+      content: Frequency comparison of iodine-stabilized He-Ne lasers at 633 nm from
         the IMGC and the IFA-IFTAR
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1996-12-01'
+      at: '1996-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '565'
     reference_to: '567'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

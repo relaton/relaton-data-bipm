@@ -1,89 +1,77 @@
 ---
-schema-version: v1.2.9
-id: Metrologia224259
-title:
-- content: Elastic Distortion of Piston-Cylinder Systems of Pressure Balances
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 4 259
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Elastic Distortion of Piston-Cylinder Systems of Pressure Balances
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/4/004
+docidentifier:
+- content: Metrologia 22 4 259
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/4/004
+- content: 10.1088/0026-1394/22/4/004
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Klingenberg
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-3300 Braunschweig, Federal
             Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: "<p>The radial and axial distortions of a piston and a cylinder are calculated
-    from exact solutions of the elastic differential equations in the case of a pressure
-    distribution p(z) = α + βz + γz<sup>2</sup> in the clearance between the piston
-    and cylinder. The outer curved surface of the cylinder is assumed to be exposed
-    to a constant pressure p<sub>j</sub>. The end faces of the piston are subjected
-    to the gauge pressure p<sub>o</sub> and to the gravitational force exerted by
-    the load that creates the pressure p<sub>o</sub>. A pressure p<sub>ce</sub> is
-    assumed to act on the end faces of the cylinder. From the results, the distortion
-    coefficient of the pistoncylinder system is calculated using the formula given
-    by Dadson, Greig and Horner.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The radial and axial distortions of a piston and a cylinder are calculated
+    from exact solutions of the elastic differential equations in the case of a pressure
+    distribution <italic>p(z)</italic> = α + β<italic>z</italic> + γ<italic>z</italic><sup>2</sup>
+    in the clearance between the piston and cylinder. The outer curved surface of
+    the cylinder is assumed to be exposed to a constant pressure <italic>p</italic><sub>j</sub>.
+    The end faces of the piston are subjected to the gauge pressure <italic>p</italic><sub>o</sub>
+    and to the gravitational force exerted by the load that creates the pressure <italic>p</italic><sub>o</sub>.
+    A pressure <italic>p</italic><sub>ce</sub> is assumed to act on the end faces
+    of the cylinder. From the results, the distortion coefficient of the pistoncylinder
+    system is calculated using the formula given by Dadson, Greig and Horner.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Elastic Distortion of Piston-Cylinder Systems of Pressure Balances
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Elastic Distortion of Piston-Cylinder Systems of Pressure Balances
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '259'
     reference_to: '263'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

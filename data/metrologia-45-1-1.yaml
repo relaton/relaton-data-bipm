@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia4511
-title:
-- content: 'Uncertainty of experimental integrals: application to the UV index calculation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/1/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/1/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Uncertainty of experimental integrals: application to the UV index calculation'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/1/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/1/001
+docidentifier:
+- content: Metrologia 45 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/1/001
+- content: 10.1088/0026-1394/45/1/001
   type: doi
 date:
 - type: published
-  value: '2007-12-18'
+  at: '2007-12-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raul R Cordero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -41,56 +37,50 @@ contributor:
         name:
         - content: Escuela Superior Politécnica del Litoral, Km. 30.5 Vía Perimetral,
             Guayaquil, Ecuador
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gunther Seckmeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Str. 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Darius Pissulla
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Leibniz Universität Hannover, Herrenhäuser Str. 2, 30419 Hannover,
             Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fernando Labbe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Universidad Técnica Federico Santa Maria, Ave. España 1680, Valparaíso,
             Chile
-  role:
-  - type: author
-revdate: '2007-12-18'
 abstract:
-- content: "<p>A procedure is presented to evaluate the uncertainty of integrals computed
+- language: en
+  script:
+  - Latn
+  content: "<p>A procedure is presented to evaluate the uncertainty of integrals computed
     from an approximate function that interpolates a set of measured data. The procedure,
     a Monte Carlo-based uncertainty propagation technique, yields the integral uncertainty
     taking into account the uncertainties associated with the involved experimental
@@ -100,55 +90,44 @@ abstract:
     the biologically weighted spectral ultraviolet irradiance. The presented procedure
     agrees with international recommendations and is valid independently of the experimental
     technique from which data are obtained.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty of experimental integrals: application to the UV index
+    - language: en
+      script: Latn
+      content: 'Uncertainty of experimental integrals: application to the UV index
         calculation'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-12-18'
+      at: '2007-12-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty of experimental integrals: application to the UV index
+    - language: en
+      script: Latn
+      content: 'Uncertainty of experimental integrals: application to the UV index
         calculation'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2008-02-01'
+      at: '2008-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -159,6 +138,6 @@ extent:
     reference_from: '1'
     reference_to: '10'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

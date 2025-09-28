@@ -1,109 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia411A01003
-title:
-- content: Report on Key Comparison CCEM-K8.1 (DC voltage ratio)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/1A/01003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/1A/01003
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 1A 01003
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report on Key Comparison CCEM-K8.1 (DC voltage ratio)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/1A/01003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/1A/01003
+docidentifier:
+- content: Metrologia 41 1A 01003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/1A/01003
+- content: 10.1088/0026-1394/41/1A/01003
   type: doi
 date:
 - type: published
-  value: '2004-01-01'
+  at: '2004-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Marullo Reedtz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrical Metrology Section, Istituto Elettrotecnico Nazionale
             G Ferraris, Strada delle Cacce 91, I-10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Cerri
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Electrical Metrology Section, Istituto Elettrotecnico Nazionale
             G Ferraris, Strada delle Cacce 91, I-10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2004-01-01'
 abstract:
-- content: "<p>Comparison CCEM-K8.1 is a follow-up to comparison CCEM-K8 and was organized
-    for those participants in CCEM-K8 willing to improve their results. The same travelling
-    standard as in CCEM-K8, a Datron 4902S DC resistive divider, was used, but the
-    trimmers of the divider were adjusted in order to change the deviation of the
-    divider's ratios from nominal value. The comparison protocol was the same as for
-    CCEM-K8 and requested the measurement of voltage ratios 1000 V/10 V and 100 V/10 V,
-    the measurement of other ratios being optional. Two laboratories participated,
-    but one of them withdrew before the draft A report was released. In the comparison's
-    final report the results of the other laboratory, CEM from Spain, are linked to
-    those of comparison CCEM-K8 through the measurements of IEN, which was the pilot
-    laboratory of both comparisons.</p><p>Main text. To reach the main text of this
-    paper, click on Final Report. Note that this text is that which appears in Appendix
-    B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has
-    been peer-reviewed and approved for publication by the CCEM, according to the
-    provisions of the Mutual Recognition Arrangement (MRA).</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Comparison CCEM-K8.1 is a follow-up to comparison CCEM-K8 and was organized for those participants in CCEM-K8 willing to improve their results. The same travelling standard as in CCEM-K8, a Datron 4902S DC resistive divider, was used, but the trimmers of the divider were adjusted in order to change the deviation of the divider's ratios from nominal value. The comparison protocol was the same as for CCEM-K8 and requested the measurement of voltage ratios 1000 V/10 V and 100 V/10 V, the measurement of other ratios being optional.  Two laboratories participated, but one of them withdrew before the draft A report was released. In the comparison's final report the results of the other laboratory, CEM from Spain, are linked to those of comparison CCEM-K8 through the measurements of IEN, which was the pilot laboratory of both comparisons.</p>
+    <p><bold>Main text.</bold> To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/EM/K8/CCEM-K8.1.pdf ">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCEM, according to the provisions of the Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report on Key Comparison CCEM-K8.1 (DC voltage ratio)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Report on Key Comparison CCEM-K8.1 (DC voltage ratio)
     date:
     - type: ppub
-      value: '2004-01-01'
+      at: '2004-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +89,6 @@ extent:
     reference_from: '01003'
     reference_to: '01003'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

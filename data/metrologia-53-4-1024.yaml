@@ -1,217 +1,176 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5341024
-title:
-- content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
-    in interlaboratory comparisons
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/4/1024
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/4/1024
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 4 1024
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
+    in interlaboratory comparisons
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/4/1024
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/4/1024
+docidentifier:
+- content: Metrologia 53 4 1024
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/4/1024
+- content: 10.1088/0026-1394/53/4/1024
   type: doi
 date:
 - type: published
-  value: '2016-06-14'
+  at: '2016-06-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Ferrero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid, Spain
         name:
         - content: Instituto de Óptica ‘Daza de Valdés’ (IO-CSIC)
-        contact:
-        - address:
-            formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid,
-              Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Campos
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid, Spain
         name:
         - content: Instituto de Óptica ‘Daza de Valdés’ (IO-CSIC)
-        contact:
-        - address:
-            formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid,
-              Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Bernad
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid, Spain
         name:
         - content: Instituto de Óptica ‘Daza de Valdés’ (IO-CSIC)
-        contact:
-        - address:
-            formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid,
-              Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Pons
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid, Spain
         name:
         - content: Instituto de Óptica ‘Daza de Valdés’ (IO-CSIC)
-        contact:
-        - address:
-            formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid,
-              Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L Hernanz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid, Spain
         name:
         - content: Instituto de Óptica ‘Daza de Valdés’ (IO-CSIC)
-        contact:
-        - address:
-            formatted_address: Agencia Estatal CSIC, c/ Serrano 121, 28006 Madrid,
-              Spain
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F M Martínez-Verdú
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Carretera de San Vicente del Raspeig s/n 03690, Alicante,
+            Spain
         name:
         - content: University of Alicante
         subdivision:
-        - content: Department of Optics, Pharmacology and Anatomy
-        contact:
-        - address:
-            formatted_address: Carretera de San Vicente del Raspeig s/n 03690, Alicante,
-              Spain
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Optics, Pharmacology and Anatomy
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Höpe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2016-06-14'
 abstract:
-- content: Abstract<p>The spectral bidirectional reflectance distribution function
-    (BRDF) is the key quantity to specify the spectral reflectance of materials for
-    any condition of irradiation and detection, and its characterization is quite
-    important for surfaces with a high dependence on these conditions, such as iridescent
-    coatings. In order to evaluate the calibration and measurement capabilities (CMC)
-    of National Metrology Institutes with the ability to measure the spectral BRDF,
-    a case study interlaboratory comparison is in progress. Spectral BRDF has both
-    spectral and geometric dependence, and this multidimensionality must be treated
-    in the comparison to provide useful information to the participants about their
-    CMCs. A data analysis method for the comparison is presented in this work, which
-    was tested by simulations for different scenarios. The proposed method assesses
-    whether the experimental data from each participant are consistent with those
-    from the others. Finally, one-dimensional and multidimensional degrees of equivalence
-    are defined, which should allow systematic deviations of spectral and geometric
-    nature to be identified.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The spectral bidirectional reflectance distribution function (BRDF) is the key quantity to specify the spectral reflectance of materials for any condition of irradiation and detection, and its characterization is quite important for surfaces with a high dependence on these conditions, such as iridescent coatings. In order to evaluate the calibration and measurement capabilities (CMC) of National Metrology Institutes with the ability to measure the spectral BRDF, a case study interlaboratory comparison is in progress. Spectral BRDF has both spectral and geometric dependence, and this multidimensionality must be treated in the comparison to provide useful information to the participants about their CMCs. A data analysis method for the comparison is presented in this work, which was tested by simulations for different scenarios. The proposed method assesses whether the experimental data from each participant are consistent with those from the others. Finally, one-dimensional and multidimensional degrees of equivalence are defined, which should allow systematic deviations of spectral and geometric nature to be identified.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
+    - script: Latn
+      content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
         in interlaboratory comparisons
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-08-01'
+      at: '2016-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
+    - script: Latn
+      content: Consistency analysis of multidimensional gonio-spectrophotometric measurements
         in interlaboratory comparisons
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-06-14'
+      at: '2016-06-14'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -222,6 +181,6 @@ extent:
     reference_from: '1024'
     reference_to: '1030'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

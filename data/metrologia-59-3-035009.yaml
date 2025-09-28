@@ -1,222 +1,200 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593035009
-title:
-- content: Research on a time scale algorithm based on multi-dimensional weighted
-    average
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac691b
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac691b
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 035009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Research on a time scale algorithm based on multi-dimensional weighted
+    average
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac691b
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac691b
+docidentifier:
+- content: Metrologia 59 3 035009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac691b
+- content: 10.1088/1681-7575/ac691b
   type: doi
 date:
 - type: published
-  value: '2022-05-23'
+  at: '2022-05-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yang Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Shenzhen 518107, People’s Republic of China
         name:
         - content: Sun Yat-sen University
         subdivision:
-        - content: School of Aeronautics and Astronautics
-        contact:
-        - address:
-            formatted_address: Shenzhen 518107, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: School of Aeronautics and Astronautics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bo Xu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Shenzhen 518107, People’s Republic of China
         name:
         - content: Sun Yat-sen University
         subdivision:
-        - content: School of Aeronautics and Astronautics
-        contact:
-        - address:
-            formatted_address: Shenzhen 518107, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: School of Aeronautics and Astronautics
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jie Yin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chengdu 610036, People’s Republic of China
         name:
         - content: Southwest China Research Institute of Electronic Equipment
-        contact:
-        - address:
-            formatted_address: Chengdu 610036, People’s Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dan Shen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Guangzhou 510006, People’s Republic of China
         name:
         - content: " University"
         subdivision:
-        - content: School of Systems Science and Engineering, Sun Yat-sen
-        contact:
-        - address:
-            formatted_address: Guangzhou 510006, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: School of Systems Science and Engineering, Sun Yat-sen
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mingjun Ouyang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Shenzhen 518107, People’s Republic of China
         name:
         - content: " University"
         subdivision:
-        - content: School of Electronics and Communication Engineering, Sun Yat-sen
-        contact:
-        - address:
-            formatted_address: Shenzhen 518107, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: School of Electronics and Communication Engineering, Sun Yat-sen
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zehao Zheng
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Shenzhen 518107, People’s Republic of China
         name:
         - content: " University"
         subdivision:
-        - content: School of Electronics and Communication Engineering, Sun Yat-sen
-        contact:
-        - address:
-            formatted_address: Shenzhen 518107, People’s Republic of China
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: School of Electronics and Communication Engineering, Sun Yat-sen
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Xiangwei Zhu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Shenzhen 518107, People’s Republic of China
         name:
         - content: " University"
         subdivision:
-        - content: School of Electronics and Communication Engineering, Sun Yat-sen
-        contact:
-        - address:
-            formatted_address: Shenzhen 518107, People’s Republic of China
-  role:
-  - type: author
-revdate: '2022-05-23'
+        - name:
+          - language: en
+            script: Latn
+            content: School of Electronics and Communication Engineering, Sun Yat-sen
 abstract:
-- content: Abstract<p>The widespread availability of high-performance clocks has motivated
-    interest in time scale algorithms. There are various time scale algorithms in
-    use today, ranging in application from scientific to commercial. The weighted
-    average algorithm has been widely used to generate an ensemble time scale. It
-    takes one weight for each clock according to the stability or predictability to
-    generate the ensemble time scale. However, one weight cannot reflect the long-term,
-    mid-term and short-term stability performance of the clock simultaneously. Therefore,
-    it cannot improve the long-term, mid-term and short-term stability at the same
-    time. To solve this problem, a multi-dimensional weighted average algorithm is
-    proposed in this paper, which decomposes the clock difference into three dimensions
-    and gets weights in three dimensions to give consideration to improve long-term,
-    mid-term and short-term stability simultaneously. The final results of simulation
-    and experiment demonstrate that the algorithm proposed in this paper improved
-    Allan deviations of 3.94 × 10<sup>−15</sup> on daily and 7.86 × 10<sup>−15</sup>
-    on monthly averaging times with respect to those obtained from AT1 and ALGOS,
-    respectively.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The widespread availability of high-performance clocks has motivated interest in time scale algorithms. There are various time scale algorithms in use today, ranging in application from scientific to commercial. The weighted average algorithm has been widely used to generate an ensemble time scale. It takes one weight for each clock according to the stability or predictability to generate the ensemble time scale. However, one weight cannot reflect the long-term, mid-term and short-term stability performance of the clock simultaneously. Therefore, it cannot improve the long-term, mid-term and short-term stability at the same time. To solve this problem, a multi-dimensional weighted average algorithm is proposed in this paper, which decomposes the clock difference into three dimensions and gets weights in three dimensions to give consideration to improve long-term, mid-term and short-term stability simultaneously. The final results of simulation and experiment demonstrate that the algorithm proposed in this paper improved Allan deviations of 3.94 × 10<sup>−15</sup> on daily and 7.86 × 10<sup>−15</sup> on monthly averaging times with respect to those obtained from AT1 and ALGOS, respectively.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Research on a time scale algorithm based on multi-dimensional weighted
+    - script: Latn
+      content: Research on a time scale algorithm based on multi-dimensional weighted
         average
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Research on a time scale algorithm based on multi-dimensional weighted
+    - script: Latn
+      content: Research on a time scale algorithm based on multi-dimensional weighted
         average
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-05-23'
+      at: '2022-05-23'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -224,6 +202,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

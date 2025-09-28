@@ -1,136 +1,111 @@
 ---
-schema-version: v1.2.9
-id: Metrologia474464
-title:
-- content: Realization of the farad from the dc quantum Hall effect with digitally
-    assisted impedance bridges
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/4/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/4/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 4 464
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the farad from the dc quantum Hall effect with digitally
+    assisted impedance bridges
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/4/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/4/013
+docidentifier:
+- content: Metrologia 47 4 464
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/4/013
+- content: 10.1088/0026-1394/47/4/013
   type: doi
 date:
 - type: published
-  value: '2010-07-22'
+  at: '2010-07-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Callegaro
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Vincenzo D'Elia
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Bruno Trinchera
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM), Str. delle Cacce
             91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2010-07-22'
 abstract:
-- content: "<p>A traceability chain for the derivation of the farad from dc quantum
-    Hall effect has been recently implemented at INRIM. The main components of the
-    chain are two coaxial transformer bridges: a resistance ratio bridge and a quadrature
-    bridge, both operating at 1541 Hz.</p><p>Both bridges are energized and controlled
-    by a polyphase sinewave direct-digital-synthesizer; the automated control of relative
-    amplitudes and phases of the generator voltage outputs permits principal and auxiliary
-    balances of each bridge to be achieved. Such a technique, which may be called
-    digital assistance, is implemented for the first time in an ohm–farad traceability
-    chain.</p><p>The relative standard uncertainty in the realization of the farad,
-    at the level of 1000 pF, is estimated to be 64 × 10<sup>−9</sup>. A first verification
-    of the realization is given by a comparison with the maintained INRIM capacitance
-    standard, where an agreement within a relative combined standard uncertainty of
-    420 × 10<sup>−9</sup> is obtained.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A traceability chain for the derivation of the farad from dc quantum Hall effect has been recently implemented at INRIM. The main components of the chain are two coaxial transformer bridges: a resistance ratio bridge and a quadrature bridge, both operating at 1541 Hz.</p>
+    <p>Both bridges are energized and controlled by a polyphase sinewave direct-digital-synthesizer; the automated control of relative amplitudes and phases of the generator voltage outputs permits principal and auxiliary balances of each bridge to be achieved. Such a technique, which may be called <italic>digital assistance</italic>, is implemented for the first time in an ohm–farad traceability chain.</p>
+    <p>The relative standard uncertainty in the realization of the farad, at the level of 1000 pF, is estimated to be 64 × 10<sup>−9</sup>. A first verification of the realization is given by a comparison with the maintained INRIM capacitance standard, where an agreement within a relative combined standard uncertainty of 420 × 10<sup>−9</sup> is obtained.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the farad from the dc quantum Hall effect with digitally
+    - language: en
+      script: Latn
+      content: Realization of the farad from the dc quantum Hall effect with digitally
         assisted impedance bridges
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-07-22'
+      at: '2010-07-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the farad from the dc quantum Hall effect with digitally
+    - language: en
+      script: Latn
+      content: Realization of the farad from the dc quantum Hall effect with digitally
         assisted impedance bridges
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-08-01'
+      at: '2010-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +116,6 @@ extent:
     reference_from: '464'
     reference_to: '472'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

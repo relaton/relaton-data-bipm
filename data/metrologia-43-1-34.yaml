@@ -1,132 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia43134
-title:
-- content: A two-stage Monte Carlo approach to the expression of uncertainty with
-    non-linear measurement equation and small sample size
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 1 34
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A two-stage Monte Carlo approach to the expression of uncertainty with
+    non-linear measurement equation and small sample size
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/1/005
+docidentifier:
+- content: Metrologia 43 1 34
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/1/005
+- content: 10.1088/0026-1394/43/1/005
   type: doi
 date:
 - type: published
-  value: '2005-11-18'
+  at: '2005-11-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stephen V Crowder
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Statistics Department, Sandia National Laboratories, Albuquerque,
             NM 87185, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert D Moyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Primary Standards Laboratory, Sandia National Laboratories, Albuquerque,
             NM 87185, USA
-  role:
-  - type: author
-revdate: '2005-11-18'
 abstract:
-- content: "<p>In this paper we propose a two-stage Monte Carlo procedure that explicitly
+- language: en
+  script:
+  - Latn
+  content: "<p>In this paper we propose a two-stage Monte Carlo procedure that explicitly
     takes into account the finite sample sizes used to estimate parameters of the
     input distributions of non-linear measurement equations. We will illustrate the
     approach with a case study involving the efficiency of a thermistor mount power
     sensor. The performance of the proposed approach will be compared with the standard
-    GUM (US Guide to the Expression of Uncertainty in Measurement, American National
-    Institute of Standards, ANSI/NCSL Z540-2-1997) approach for finite samples using
-    simple linear and non-linear measurement equations. We will investigate performance
-    in terms of coverage probabilities of derived coverage intervals for the mean
-    of the measurand. Proposed Supplement 1 to the GUM (Guide to the Expression of
-    Uncertainty in Measurement, Supplement 1, currently under review to the member
-    organizations of the JCGM and the national measurement institutes (draft 3rd edn))
-    outlines a ‘propagation of distributions’ approach to deriving the distribution
-    of a measurand for any non-linear function and for any set of random inputs. The
-    Supplement's approach assumes that the distributions of the random inputs are
-    known exactly. In practice, however, the distributions of the inputs will rarely
-    be known exactly but must be estimated using possibly small samples. The two-stage
-    Monte Carlo approach will be compared with the GUM Supplement's propagation of
-    distribution approach for non-linear measurement equations. We will show that
-    the GUM Supplement's approach underestimates uncertainty in the measurand if distributions
-    estimated with small sample sizes are assumed to be known exactly.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    GUM (<italic>US Guide to the Expression of Uncertainty in Measurement</italic>,
+    American National Institute of Standards, ANSI/NCSL Z540-2-1997) approach for
+    finite samples using simple linear and non-linear measurement equations. We will
+    investigate performance in terms of coverage probabilities of derived coverage
+    intervals for the mean of the measurand. Proposed Supplement 1 to the GUM (<italic>Guide
+    to the Expression of Uncertainty in Measurement</italic>, Supplement 1, currently
+    under review to the member organizations of the JCGM and the national measurement
+    institutes (draft 3rd edn)) outlines a ‘propagation of distributions’ approach
+    to deriving the distribution of a measurand for any non-linear function and for
+    any set of random inputs. The Supplement's approach assumes that the distributions
+    of the random inputs are known exactly. In practice, however, the distributions
+    of the inputs will rarely be known exactly but must be estimated using possibly
+    small samples. The two-stage Monte Carlo approach will be compared with the GUM
+    Supplement's propagation of distribution approach for non-linear measurement equations.
+    We will show that the GUM Supplement's approach <italic>underestimates</italic>
+    uncertainty in the measurand if distributions estimated with small sample sizes
+    are assumed to be known exactly.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A two-stage Monte Carlo approach to the expression of uncertainty with
+    - language: en
+      script: Latn
+      content: A two-stage Monte Carlo approach to the expression of uncertainty with
         non-linear measurement equation and small sample size
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-18'
+      at: '2005-11-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A two-stage Monte Carlo approach to the expression of uncertainty with
+    - language: en
+      script: Latn
+      content: A two-stage Monte Carlo approach to the expression of uncertainty with
         non-linear measurement equation and small sample size
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-02-01'
+      at: '2006-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -137,6 +121,6 @@ extent:
     reference_from: '34'
     reference_to: '41'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

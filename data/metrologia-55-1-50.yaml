@@ -1,102 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia55150
-title:
-- content: A proposed atom interferometry determination of G at 10<sup>−5</sup> using
-    a cold atomic fountain
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/1681-7575/aa8fd8
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa8fd8
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 50
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A proposed atom interferometry determination of <italic>G</italic> at 10<sup>−5</sup>
+    using a cold atomic fountain
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa8fd8
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa8fd8
+docidentifier:
+- content: Metrologia 55 1 50
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa8fd8
+- content: 10.1088/1681-7575/aa8fd8
   type: doi
 date:
 - type: published
-  value: '2017-12-12'
+  at: '2017-12-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Rosi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: via Sansone 1, I-50019 Sesto Fiorentino (FI, Italy
         name:
         - content: Università di Firenze
         subdivision:
-        - content: INFN Sezione di Firenze—Dipartimento di Fisica e Astronomia
-        contact:
-        - address:
-            formatted_address: via Sansone 1, I-50019 Sesto Fiorentino (FI, Italy
-  role:
-  - type: author
-revdate: '2017-12-12'
+        - name:
+          - language: en
+            script: Latn
+            content: INFN Sezione di Firenze—Dipartimento di Fisica e Astronomia
 abstract:
-- content: Abstract<p>In precision metrology, the determination of the Newtonian gravity
-    constant G represents a real problem, since its history is plagued by huge unknown
-    discrepancies between a large number of independent experiments. In this paper,
-    we propose a novel experimental setup for measuring G with a relative accuracy
-    of 10−5, using a standard cold atomic fountain and matter wave interferometry.
-    We discuss in detail the major sources of systematic errors, and provide the expected
-    statistical uncertainty. The feasibility of determining G at the 10−6 level is
-    also discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>In precision metrology, the determination of the Newtonian gravity constant <italic>G</italic> represents a real problem, since its history is plagued by huge unknown discrepancies between a large number of independent experiments. In this paper, we propose a novel experimental setup for measuring <italic>G</italic> with a relative accuracy of <inline-formula><tex-math><?CDATA $10^{-5}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:math><inline-graphic xlink:href="metaa8fd8ieqn003.gif" xlink:type="simple"></inline-graphic></inline-formula>, using a standard cold atomic fountain and matter wave interferometry. We discuss in detail the major sources of systematic errors, and provide the expected statistical uncertainty. The feasibility of determining <italic>G</italic> at the <inline-formula><tex-math><?CDATA $10^{-6}$ ></tex-math><mml:math overflow="scroll"><mml:mstyle displaystyle="false"><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:msup></mml:mstyle></mml:math><inline-graphic xlink:href="metaa8fd8ieqn004.gif" xlink:type="simple"></inline-graphic></inline-formula> level is also discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A proposed atom interferometry determination of G at 10<sup>−5</sup>
-        using a cold atomic fountain
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: A proposed atom interferometry determination of <italic>G</italic>
+        at 10<sup>−5</sup> using a cold atomic fountain
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A proposed atom interferometry determination of G at 10<sup>−5</sup>
-        using a cold atomic fountain
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: A proposed atom interferometry determination of <italic>G</italic>
+        at 10<sup>−5</sup> using a cold atomic fountain
     date:
     - type: epub
-      value: '2017-12-12'
+      at: '2017-12-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +96,6 @@ extent:
     reference_from: '50'
     reference_to: '55'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

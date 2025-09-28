@@ -1,68 +1,60 @@
 ---
-schema-version: v1.2.9
-id: Metrologia473272
-title:
-- content: 'Systematic errors in the correlation method for Johnson noise thermometry:
-    residual correlations due to amplifiers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/3/018
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/3/018
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 3 272
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Systematic errors in the correlation method for Johnson noise thermometry:
+    residual correlations due to amplifiers'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/3/018
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/3/018
+docidentifier:
+- content: Metrologia 47 3 272
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/3/018
+- content: 10.1088/0026-1394/47/3/018
   type: doi
 date:
 - type: published
-  value: '2010-04-29'
+  at: '2010-04-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Callegaro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM — Istituto Nazionale di Ricerca Metrologica, Strada delle
             Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Pisani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: INRIM — Istituto Nazionale di Ricerca Metrologica, Strada delle
             Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Ortolano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -72,75 +64,68 @@ contributor:
         name:
         - content: Dipartimento di Elettronica, Politecnico di Torino, Corso Duca
             degli Abruzzi, 24, 10129 Torino, Italy
-  role:
-  - type: author
-revdate: '2010-04-29'
 abstract:
-- content: "<p>Johnson noise thermometers (JNT) measure the equilibrium electrical
-    noise, proportional to thermodynamic temperature, of a sensing resistor. In the
-    correlation method, the same resistor is connected to two amplifiers and a correlation
-    of their outputs is performed, in order to reject amplifiers' noise. Such rejection
-    is not perfect: the residual correlation gives a systematic error in the JNT reading.
-    In order to set an upper limit, or to achieve a correction, for such error, a
-    careful electrical modelling of the amplifiers and connections must be performed.
-    Standard numerical simulation tools are inadequate for such modelling. In the
-    literature, evaluations have been performed by the painstaking solving of analytical
-    modelling. We propose an evaluation procedure for the JNT error due to residual
-    correlations which blends analytical and numerical approaches, with the benefits
-    of both: a rigorous and accurate circuit noise modelling, and a fast and flexible
-    evaluation with a user-friendly commercial tool. The method is applied to a simple
-    but very effective ultralow-noise amplifier employed in a working JNT.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Johnson noise thermometers (JNT) measure the equilibrium electrical
+    noise, proportional to thermodynamic temperature, of a sensing resistor. In the
+    <italic>correlation method</italic>, the same resistor is connected to two amplifiers
+    and a correlation of their outputs is performed, in order to reject amplifiers'
+    noise. Such rejection is not perfect: the residual correlation gives a systematic
+    error in the JNT reading. In order to set an upper limit, or to achieve a correction,
+    for such error, a careful electrical modelling of the amplifiers and connections
+    must be performed. Standard numerical simulation tools are inadequate for such
+    modelling. In the literature, evaluations have been performed by the painstaking
+    solving of analytical modelling. We propose an evaluation procedure for the JNT
+    error due to residual correlations which blends analytical and numerical approaches,
+    with the benefits of both: a rigorous and accurate circuit noise modelling, and
+    a fast and flexible evaluation with a user-friendly commercial tool. The method
+    is applied to a simple but very effective ultralow-noise amplifier employed in
+    a working JNT.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Systematic errors in the correlation method for Johnson noise thermometry:
+    - language: en
+      script: Latn
+      content: 'Systematic errors in the correlation method for Johnson noise thermometry:
         residual correlations due to amplifiers'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-04-29'
+      at: '2010-04-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Systematic errors in the correlation method for Johnson noise thermometry:
+    - language: en
+      script: Latn
+      content: 'Systematic errors in the correlation method for Johnson noise thermometry:
         residual correlations due to amplifiers'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-06-01'
+      at: '2010-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +136,6 @@ extent:
     reference_from: '272'
     reference_to: '278'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

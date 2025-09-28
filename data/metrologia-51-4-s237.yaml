@@ -1,106 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S237
-title:
-- content: Eliciting and using expert knowledge in metrology
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S237
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S237
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S237
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Eliciting and using expert knowledge in metrology
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S237
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S237
+docidentifier:
+- content: Metrologia 51 4 S237
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S237
+- content: 10.1088/0026-1394/51/4/S237
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Anthony O'Hagan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Sheffield S3 7RH, UK
         name:
         - content: University of Sheffield
         subdivision:
-        - content: Department of Probability and Statistics, Hicks Building
-        contact:
-        - address:
-            formatted_address: Sheffield S3 7RH, UK
-  role:
-  - type: author
-revdate: '2014-07-11'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Probability and Statistics, Hicks Building
 abstract:
-- content: Abstract<p>The expression of uncertainty has hitherto been seen as an add-on—first
-    an estimate is obtained and then uncertainty in that estimate is evaluated. We
-    argue that quantification of uncertainty should be an intrinsic part of measurement
-    and that the measurement result should be a probability distribution for the measurand.</p><p>Full
-    quantification of uncertainties in measurement, recognizing and quantifying all
-    sources of uncertainty, is rarely simple. Many potential sources of uncertainty
-    can effectively only be quantified by the application of expert judgement. Scepticism
-    about the validity or reliability of expert judgement has meant that these sources
-    of uncertainty have often been overlooked, ignored or treated in a qualitative,
-    narrative way. But the consequence of this is that reported expressions of uncertainty
-    regularly understate the true degree of uncertainty in measurements.</p><p>This
-    article first discusses the concept of quantifying uncertainty in measurement,
-    and then considers some of the areas where expert judgement is needed in order
-    to quantify fully the uncertainties in measurement. The remainder of the article
-    is devoted to describing methodology for eliciting expert knowledge.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The expression of uncertainty has hitherto been seen as an add-on—first an estimate is obtained and then uncertainty in that estimate is evaluated. We argue that quantification of uncertainty should be an intrinsic part of measurement and that the measurement result should be a probability distribution for the measurand.</p>
+    <p>Full quantification of uncertainties in measurement, recognizing and quantifying all sources of uncertainty, is rarely simple. Many potential sources of uncertainty can effectively only be quantified by the application of expert judgement. Scepticism about the validity or reliability of expert judgement has meant that these sources of uncertainty have often been overlooked, ignored or treated in a qualitative, narrative way. But the consequence of this is that reported expressions of uncertainty regularly understate the true degree of uncertainty in measurements.</p>
+    <p>This article first discusses the concept of quantifying uncertainty in measurement, and then considers some of the areas where expert judgement is needed in order to quantify fully the uncertainties in measurement. The remainder of the article is devoted to describing methodology for eliciting expert knowledge.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Eliciting and using expert knowledge in metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Eliciting and using expert knowledge in metrology
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Eliciting and using expert knowledge in metrology
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Eliciting and using expert knowledge in metrology
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +95,6 @@ extent:
     reference_from: S237
     reference_to: S244
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,108 +1,82 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524478
-title:
-- content: 'High-temperature platinum resistance thermometry: the problem with silver
-    and the case for gold'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/478
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/478
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 478
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'High-temperature platinum resistance thermometry: the problem with silver
+    and the case for gold'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/478
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/478
+docidentifier:
+- content: Metrologia 52 4 478
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/478
+- content: 10.1088/0026-1394/52/4/478
   type: doi
 date:
 - type: published
-  value: '2015-04-01'
+  at: '2015-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Kenneth D Hill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Measurement Science and Standards, 1200 Montreal Road,
+            M-36, Ottawa, ON K1A 0R6, Canada
         name:
         - content: National Research Council of Canada
-        contact:
-        - address:
-            formatted_address: Measurement Science and Standards, 1200 Montreal Road,
-              M-36, Ottawa, ON K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '2015-04-01'
 abstract:
-- content: Abstract<p>The diffusion of silver through quartz at high temperatures
-    leads to contamination of the platinum sensing element of high temperature platinum
-    resistance thermometers. While some protection of the PRT element may be afforded
-    by the application of appropriate electric fields, the contamination of the quartz
-    elements of silver fixed points causes their premature failure. Contamination
-    is evidenced by the yellowish colour imparted to the glass by the silver particles
-    growing within the quartz glass matrix. The presence of silver as the contaminating
-    element has been confirmed unambiguously through energy dispersive x-ray analysis
-    and secondary ion mass spectrometry. To mitigate the risk of silver contamination,
-    the gold point is proposed as an alternative calibration point. PRT resistance
-    ratios measured at the freezing points of silver and gold in different laboratories
-    at different times are highly correlated. This suggests that the ITS-90 reference
-    function might be extrapolated to 1064.18 °C (the gold fixed point). However,
-    it remains unclear from the gold and silver PRT resistance ratios from the literature
-    whether extrapolation of the reference function leads to the correct value at
-    the gold point. A direct comparison of gold fixed points may be required to resolve
-    the inconsistencies. Additional PRT data may help resolve the discrepancy.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The diffusion of silver through quartz at high temperatures leads to contamination of the platinum sensing element of high temperature platinum resistance thermometers. While some protection of the PRT element may be afforded by the application of appropriate electric fields, the contamination of the quartz elements of silver fixed points causes their premature failure. Contamination is evidenced by the yellowish colour imparted to the glass by the silver particles growing within the quartz glass matrix. The presence of silver as the contaminating element has been confirmed unambiguously through energy dispersive x-ray analysis and secondary ion mass spectrometry. To mitigate the risk of silver contamination, the gold point is proposed as an alternative calibration point. PRT resistance ratios measured at the freezing points of silver and gold in different laboratories at different times are highly correlated. This suggests that the ITS-90 reference function might be extrapolated to 1064.18 °C (the gold fixed point). However, it remains unclear from the gold and silver PRT resistance ratios from the literature whether extrapolation of the reference function leads to the correct value at the gold point. A direct comparison of gold fixed points may be required to resolve the inconsistencies. Additional PRT data may help resolve the discrepancy.</p>
 copyright:
-- owner:
-  - name:
-    - content: Canadian Crown Copyright
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Canadian Crown Copyright
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'High-temperature platinum resistance thermometry: the problem with
+    - script: Latn
+      content: 'High-temperature platinum resistance thermometry: the problem with
         silver and the case for gold'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'High-temperature platinum resistance thermometry: the problem with
+    - script: Latn
+      content: 'High-temperature platinum resistance thermometry: the problem with
         silver and the case for gold'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-05-07'
+      at: '2015-05-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +87,6 @@ extent:
     reference_from: '478'
     reference_to: '485'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

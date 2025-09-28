@@ -1,102 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia375357
-title:
-- content: SURF III - an improved storage ring for radiometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/5/2
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/5/2
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 5 357
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SURF III - an improved storage ring for radiometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/5/2
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/5/2
+docidentifier:
+- content: Metrologia 37 5 357
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/5/2
+- content: 10.1088/0026-1394/37/5/2
   type: doi
 date:
 - type: published
-  value: '2000-10-01'
+  at: '2000-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Arp
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Friedman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L Furst
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Makar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P-S Shaw
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '2000-10-01'
 abstract:
-- content: "<p>The National Institute of Standards and Technology (NIST) operates
+- language: en
+  script:
+  - Latn
+  content: "<p>The National Institute of Standards and Technology (NIST) operates
     the newly upgraded Synchrotron Ultraviolet Radiation Facility (SURF III) mainly
     as a light source for radiometry. SURF III provides continuum radiation from the
     far-infrared to the soft X-ray spectral range and has its peak output in the extreme
@@ -106,39 +94,31 @@ abstract:
     SURF II to SURF III and our strategy to accurately determine the magnetic flux
     density, radio frequency (RF), beam current, and beam size, which are the parameters
     necessary to characterize the source completely.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: SURF III - an improved storage ring for radiometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: SURF III - an improved storage ring for radiometry
     date:
     - type: ppub
-      value: '2000-10-01'
+      at: '2000-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +129,6 @@ extent:
     reference_from: '357'
     reference_to: '360'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

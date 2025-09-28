@@ -1,84 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9299
-title:
-- content: Relationship from 1 to 34 K between a Paramagnetic Salt Temperature Scale
-    and Other Scales; an Addendum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/9/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 2 99
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Relationship from 1 to 34 K between a Paramagnetic Salt Temperature Scale
+    and Other Scales; an Addendum
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/2/005
+docidentifier:
+- content: Metrologia 9 2 99
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/2/005
+- content: 10.1088/0026-1394/9/2/005
   type: doi
 date:
 - type: published
-  value: '1973-04-01'
+  at: '1973-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A Swenson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Ames Laboratory -USAEC and Department of Physics, Iowa State University,
             Ames, Iowa 50010, USA
-  role:
-  - type: author
-revdate: '1973-04-01'
 abstract:
-- content: "<p>New results are given for the relationship between a previously-defined
-    paramagnetic salt temperature scale and the NBS-Acoustic scale, IPTS-68 and recent
-    gas thermometric determinations of the boiling points of hydrogen and helium.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>New results are given for the relationship between a previously-defined
+    paramagnetic salt temperature scale and the NBS-Acoustic scale, IPTS-68 and recent
+    gas thermometric determinations of the boiling points of hydrogen and helium.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Relationship from 1 to 34 K between a Paramagnetic Salt Temperature
+    - language: en
+      script: Latn
+      content: Relationship from 1 to 34 K between a Paramagnetic Salt Temperature
         Scale and Other Scales; an Addendum
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1973-04-01'
+      at: '1973-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -89,6 +77,6 @@ extent:
     reference_from: '99'
     reference_to: '101'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

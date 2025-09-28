@@ -1,97 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia511A09001
-title:
-- content: Final report on key comparison CCAUV.U-K3 for ultrasonic power
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1A/09001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1A/09001
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1A 09001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison CCAUV.U-K3 for ultrasonic power
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1A/09001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1A/09001
+docidentifier:
+- content: Metrologia 51 1A 09001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1A/09001
+- content: 10.1088/0026-1394/51/1A/09001
   type: doi
 date:
 - type: published
-  value: '2014-01-01'
+  at: '2014-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christian Koch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt Braunschweig und Berlin,
             Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Klaus-Vitold Jenderka
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 'Present address: Hochschule Merseburg, Geusaer Strasse, 06217
             Merseburg, Germany'
-  role:
-  - type: author
-revdate: '2014-01-01'
 abstract:
-- content: |-
-    <p>The CCAUV.U-K3 is the third key comparison in the ultrasound branch organised under the auspices of the Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV) of the BIPM. It is a follow-up to the first comparison CCAUV.U-K1, which dealt with power measurement in the frequency range 2 to 10.5 MHz and a power range between 10 mW and 15 W. This region is of particular importance for medical applications of ultrasound.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The CCAUV.U-K3 is the third key comparison in the ultrasound branch organised under the auspices of the Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV) of the BIPM. It is a follow-up to the first comparison <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/39/1A/27/">CCAUV.U-K1</ext-link>, which dealt with power measurement in the frequency range 2 to 10.5 MHz and a power range between 10 mW and 15 W. This region is of particular importance for medical applications of ultrasound.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/U-K3/CCAUV.U-K3.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison CCAUV.U-K3 for ultrasonic power
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison CCAUV.U-K3 for ultrasonic power
     date:
     - type: ppub
-      value: '2014-01-01'
+      at: '2014-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +90,6 @@ extent:
     reference_from: '09001'
     reference_to: '09001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia14169
-title:
-- content: Astronomical Time
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/1/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/1/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 1 4 169
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Astronomical Time
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/1/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/1/4/004
+docidentifier:
+- content: Metrologia 1 4 169
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/1/4/004
+- content: 10.1088/0026-1394/1/4/004
   type: doi
 date:
 - type: published
-  value: '1965-10-01'
+  at: '1965-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean Kovalevsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau des Longitudes, Paris 6<sup>e</sup>, France
-  role:
-  - type: author
-revdate: '1965-10-01'
 abstract:
-- content: "<p>A definition of time-scales and criteria of uniformity of a time-scale
+- language: en
+  script:
+  - Latn
+  content: "<p>A definition of time-scales and criteria of uniformity of a time-scale
     are introduced in the first part of the paper. These considerations are applied
     to time-scales currently used in Astronomy: Sidereal and Universal Times. Each
     of them is defined, their equivalence is proved, and the precision with which
@@ -51,39 +47,31 @@ abstract:
     and cannot be interchanged. In order to reach a better understanding of the concept
     of time, it is necessary that all time-scales — including atomic time — should
     coexist and be compared with the highest possible precision.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1965'
+- from: '1965'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Astronomical Time
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Astronomical Time
     date:
     - type: ppub
-      value: '1965-10-01'
+      at: '1965-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '169'
     reference_to: '180'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

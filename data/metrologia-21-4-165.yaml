@@ -1,120 +1,106 @@
 ---
-schema-version: v1.2.9
-id: Metrologia214165
-title:
-- content: An International Intercomparison of the UK and the USSR Voltage Standards
-    Maintained with Josephson Effect Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/21/4/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/4/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 4 165
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An International Intercomparison of the UK and the USSR Voltage Standards
+    Maintained with Josephson Effect Systems
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/4/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/4/001
+docidentifier:
+- content: Metrologia 21 4 165
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/4/001
+- content: 10.1088/0026-1394/21/4/001
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Hartland
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Electrical Science, National Physical Laboratory, Teddington,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Harkness
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Electrical Science, National Physical Laboratory, Teddington,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P J Krause
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Electrical Science, National Physical Laboratory, Teddington,
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: O P Galakhova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mendeleev Institute of Metrology, Leningrad, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Krzhimovskii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mendeleev Institute of Metrology, Leningrad, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I V Korotkova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Mendeleev Institute of Metrology, Leningrad, USSR
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>As part of an international agreement between the UK and the USSR (Cooperation
+- language: en
+  script:
+  - Latn
+  content: "<p>As part of an international agreement between the UK and the USSR (Cooperation
     in Metrology), the respective national standards of voltage based on Josephson-effect
     systems situated at the Mendeleev Institute of Metrology (VNIIM), Leningrad and
     the National Physical Laboratory (NPL), Teddington have been intercompared using
@@ -124,41 +110,33 @@ abstract:
     = + 4.63 × 10<sup>-6</sup>; and for a group of bare cells measured at 20 °C (V<sub>VNIIM</sub>
     - V<sub>NPL</sub>)/V<sub>NPL</sub> = + 5.18 × 10<sup>-6</sup>, with + 4.50 × 10<sup>-6</sup>
     of this difference being due to the different values of the Josephson constants
-    (nominally 2e/h) used in the two countries.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    (nominally <italic>2e/h</italic>) used in the two countries.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An International Intercomparison of the UK and the USSR Voltage Standards
+    - language: en
+      script: Latn
+      content: An International Intercomparison of the UK and the USSR Voltage Standards
         Maintained with Josephson Effect Systems
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -169,6 +147,6 @@ extent:
     reference_from: '165'
     reference_to: '167'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

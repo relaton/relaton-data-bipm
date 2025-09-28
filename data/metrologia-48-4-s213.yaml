@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S213
-title:
-- content: BeiDou Navigation Satellite System and its time scales
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S13
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S13
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S213
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: BeiDou Navigation Satellite System and its time scales
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S13
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S13
+docidentifier:
+- content: Metrologia 48 4 S213
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S13
+- content: 10.1088/0026-1394/48/4/S13
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Chunhao Han
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Beijing Global Information Center of Application and Exploration,
             Beijing 100094, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Yuanxi Yang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Beijing Global Information Center of Application and Exploration,
             Beijing 100094, People's Republic of China
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Zhiwu Cai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Beijing Global Information Center of Application and Exploration,
             Beijing 100094, People's Republic of China
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>The development and current status of BeiDou Navigation Satellite System
+- language: en
+  script:
+  - Latn
+  content: "<p>The development and current status of BeiDou Navigation Satellite System
     are briefly introduced. The definition and realization of the system time scales
     are described in detail. The BeiDou system time (BDT) is an internal and continuous
     time scale without leap seconds. It is maintained by the time and frequency system
@@ -86,55 +78,47 @@ abstract:
     coordinate tactics of UTC from the viewpoint of global navigation satellite systems
     (GNSS) are discussed. It would be helpful to stop the leap second, from our viewpoint,
     but to keep the UTC name, the continuity and the coordinate function unchanged.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: BeiDou Navigation Satellite System and its time scales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: BeiDou Navigation Satellite System and its time scales
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: BeiDou Navigation Satellite System and its time scales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: BeiDou Navigation Satellite System and its time scales
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -145,6 +129,6 @@ extent:
     reference_from: S213
     reference_to: S218
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

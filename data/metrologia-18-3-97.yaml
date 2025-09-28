@@ -1,106 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia18397
-title:
-- content: Re-evaluation of Neutron Source Emission Rates Measured at the National
-    Physical Laboratory
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 97
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Re-evaluation of Neutron Source Emission Rates Measured at the National
+    Physical Laboratory
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/001
+docidentifier:
+- content: Metrologia 18 3 97
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/001
+- content: 10.1088/0026-1394/18/3/001
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E J Axton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Bardell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>The neutron source measurement service was established in 1960, based
-    on absolute measurements in a flow-type manganese sulphate bath system, the hydrogen/manganese
-    cross-section ratio having been determined in a dilution experiment. As a result
-    of improvements in chemical analysis of trace elements in the bath solution and
-    in computerized data fitting techniques over this 20-year period, it is possible
-    to re-evaluate the emission rates of neutron sources which have been measured
-    during this period.</p><p>The re-evaluation demonstrates that the emission rates
-    should be increased by 0.5% mainly due to neutron absorption in traces of boron,
-    cadmium and lithium.</p><p>The manganese sulphate solution has now been replaced
-    by purer material, and the re-measurement of the cross-section ratio is in progress.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The neutron source measurement service was established in 1960, based on absolute measurements in a flow-type manganese sulphate bath system, the hydrogen/manganese cross-section ratio having been determined in a dilution experiment. As a result of improvements in chemical analysis of trace elements in the bath solution and in computerized data fitting techniques over this 20-year period, it is possible to re-evaluate the emission rates of neutron sources which have been measured during this period.</p>
+    <p>The re-evaluation demonstrates that the emission rates should be increased by 0.5% mainly due to neutron absorption in traces of boron, cadmium and lithium.</p>
+    <p>The manganese sulphate solution has now been replaced by purer material, and the re-measurement of the cross-section ratio is in progress.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Re-evaluation of Neutron Source Emission Rates Measured at the National
+    - language: en
+      script: Latn
+      content: Re-evaluation of Neutron Source Emission Rates Measured at the National
         Physical Laboratory
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +91,6 @@ extent:
     reference_from: '97'
     reference_to: '102'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

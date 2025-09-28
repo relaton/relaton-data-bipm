@@ -1,102 +1,81 @@
 ---
-schema-version: v1.2.9
-id: Metrologia20395
-title:
-- content: The Wide-Band Calibration of Capacitor Microphones
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/3/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/3/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 3 95
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Wide-Band Calibration of Capacitor Microphones
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/3/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/3/004
+docidentifier:
+- content: Metrologia 20 3 95
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/3/004
+- content: 10.1088/0026-1394/20/3/004
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D L H Gibbings
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A V Gibson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>The sensitivities of a group of 1-inch capacitor microphones over the
-    audio-frequency spectrum from 39.8 Hz to 19.95 kHz have been obtained as a composite
-    of closed-coupler response from 39.8 Hz to 1 kHz and free-field response from
-    316.2 Hz to 19.95 kHz. The region of overlap is low enough in frequency for it
-    to be possible to draw convincing curves through the two sets of points which
-    depart insignificantly from the coupler values up to 316.2 Hz and by less than
-    0.1 dB from the free-field values.</p><p>The electrostatic actuator offers a more
-    rapid means of routine calibration and the differences between the composite and
-    electrostatic actuator responses have been studied. They have been found to be
-    consistent to 0.1 dB over almost the whole range.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The sensitivities of a group of 1-inch capacitor microphones over the audio-frequency spectrum from 39.8 Hz to 19.95 kHz have been obtained as a composite of closed-coupler response from 39.8 Hz to 1 kHz and free-field response from 316.2 Hz to 19.95 kHz. The region of overlap is low enough in frequency for it to be possible to draw convincing curves through the two sets of points which depart insignificantly from the coupler values up to 316.2 Hz and by less than 0.1 dB from the free-field values.</p>
+    <p>The electrostatic actuator offers a more rapid means of routine calibration and the differences between the composite and electrostatic actuator responses have been studied. They have been found to be consistent to 0.1 dB over almost the whole range.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Wide-Band Calibration of Capacitor Microphones
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Wide-Band Calibration of Capacitor Microphones
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +86,6 @@ extent:
     reference_from: '95'
     reference_to: '99'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

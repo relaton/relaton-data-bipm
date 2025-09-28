@@ -1,127 +1,109 @@
 ---
-schema-version: v1.2.9
-id: Metrologia263203
-title:
-- content: Measurement of the<sup>90</sup>Sr Half-life
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/26/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/26/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 26 3 203
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Measurement of the <sup>90</sup>Sr Half-life
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/26/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/26/3/006
+docidentifier:
+- content: Metrologia 26 3 203
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/26/3/006
+- content: 10.1088/0026-1394/26/3/006
   type: doi
 date:
 - type: published
-  value: '1989-01-01'
+  at: '1989-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A E Kochin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D. I. Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Kuzmina
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D. I. Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I A Sokolova
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D. I. Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P L Merson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: D. I. Mendeleyev Research Institute of Metrology (VNIIM), Leningrad,
             USSR
-  role:
-  - type: author
-revdate: '1989-01-01'
 abstract:
-- content: "<p>Half-life measurements of<sup>90</sup>Sr using<sup>90</sup>Sr +<sup>90</sup>Y
-    solid sources with minimum impurities have been carried out at VNIIM. The half-life
-    obtained is 29.2 years, with a standard deviation of 0.1 year.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Half-life measurements of <sup>90</sup>Sr using <sup>90</sup>Sr + <sup>90</sup>Y
+    solid sources with minimum impurities have been carried out at VNIIM. The half-life
+    obtained is 29.2 years, with a standard deviation of 0.1 year.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1989'
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Measurement of the<sup>90</sup>Sr Half-life
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Measurement of the <sup>90</sup>Sr Half-life
     date:
     - type: ppub
-      value: '1989-01-01'
+      at: '1989-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -132,6 +114,6 @@ extent:
     reference_from: '203'
     reference_to: '204'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

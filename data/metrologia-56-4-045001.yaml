@@ -1,129 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia564045001
-title:
-- content: Statistical reassessment of calibration and measurement capabilities based
-    on key comparison results
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab219e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab219e
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 4 045001
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Statistical reassessment of calibration and measurement capabilities based
+    on key comparison results
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab219e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab219e
+docidentifier:
+- content: Metrologia 56 4 045001
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab219e
+- content: 10.1088/1681-7575/ab219e
   type: doi
 date:
 - type: published
-  value: '2019-06-18'
+  at: '2019-06-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Katsuhiro Shirono
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tsukuba, Ibaraki, Japan
         name:
         - content: National Metrology Institute of Japan
-        contact:
-        - address:
-            formatted_address: Tsukuba, Ibaraki, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, United Kingdom
-  role:
-  - type: author
-revdate: '2019-06-18'
 abstract:
-- content: Abstract<p>According to the CIPM mutual recognition arrangement, a calibration
-    and measurement capability (CMC) uncertainty for a laboratory offering a particular
-    calibration or measurement service is normally expressed at a 95 % level of confidence.
-    When laboratories’ CMC claims are unsupported by the relevant key comparison (KC),
-    after publishing the final report of the KC, modified values may have to be assigned
-    to their CMC uncertainties. In many cases when CMCs apply to a continuous interval
-    of values such as mass fraction or wavelength, KCs are carried out for selected
-    discrete values of the quantity concerned. Since the comparison at each discrete
-    value may only support the CMC uncertainty at that point, it is not immediately
-    apparent how to modify the CMC uncertainties. Under realistic assumptions, we
-    developed a method that is applicable in such an instance and for which the reported
-    CMC uncertainties are amplified so that they are underpinned by the results of
-    the KC. The amplification factors depend on the laboratories’ degrees of equivalence
-    (DoEs) for these discrete values, judiciously adjusted to achieve consistency
-    with the key comparison reference values. The method is based on the patterns
-    in the individual behaviour of the DoEs of the participating laboratories for
-    the discrete values, implying the presence of correlation associated with the
-    DoE values. It applies when the weighted mean of some or all of the measured values
-    reported by the participating laboratories in the KC is used to obtain the KC
-    reference value.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>According to the CIPM mutual recognition arrangement, a calibration and measurement capability (CMC) uncertainty for a laboratory offering a particular calibration or measurement service is normally expressed at a 95 % level of confidence. When laboratories’ CMC claims are unsupported by the relevant key comparison (KC), after publishing the final report of the KC, modified values may have to be assigned to their CMC uncertainties. In many cases when CMCs apply to a continuous interval of values such as mass fraction or wavelength, KCs are carried out for selected discrete values of the quantity concerned. Since the comparison at each discrete value may only support the CMC uncertainty at that point, it is not immediately apparent how to modify the CMC uncertainties. Under realistic assumptions, we developed a method that is applicable in such an instance and for which the reported CMC uncertainties are amplified so that they are underpinned by the results of the KC. The amplification factors depend on the laboratories’ degrees of equivalence (DoEs) for these discrete values, judiciously adjusted to achieve consistency with the key comparison reference values. The method is based on the patterns in the individual behaviour of the DoEs of the participating laboratories for the discrete values, implying the presence of correlation associated with the DoE values. It applies when the weighted mean of some or all of the measured values reported by the participating laboratories in the KC is used to obtain the KC reference value.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Statistical reassessment of calibration and measurement capabilities
+    - script: Latn
+      content: Statistical reassessment of calibration and measurement capabilities
         based on key comparison results
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2019-08-01'
+      at: '2019-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Statistical reassessment of calibration and measurement capabilities
+    - script: Latn
+      content: Statistical reassessment of calibration and measurement capabilities
         based on key comparison results
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2019-06-18'
+      at: '2019-06-18'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -131,6 +102,6 @@ extent:
   - type: issue
     reference_from: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

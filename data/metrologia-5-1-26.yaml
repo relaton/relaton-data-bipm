@@ -1,85 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5126
-title:
-- content: The EMF Criteria for International Practical Temperature Scale Thermocouples
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/5/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 1 26
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The EMF Criteria for International Practical Temperature Scale Thermocouples
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/1/006
+docidentifier:
+- content: Metrologia 5 1 26
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/1/006
+- content: 10.1088/0026-1394/5/1/006
   type: doi
 date:
 - type: published
-  value: '1969-01-01'
+  at: '1969-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Bentley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Standards Laboratory, CSIRO, Sydney, Australia
-  role:
-  - type: author
-revdate: '1969-01-01'
 abstract:
-- content: "<p>Whereas the limitation imposed by the IPTS on the value of E<sub>Au</sub>
-    merely confines the rhodium content to the neighbourhood of 10% wt, values of
-    (E<sub>Au</sub> - E<sub>Ag</sub>) and (E<sub>Au</sub> - E<sub>Sb</sub>) are intensitive
-    to the rhodium content and depend largely on the quality of the materials. Unfortunately
-    the existing criteria based on the latter values are numerically inadequate and
-    as a result give preference to wires low in quality. This article critically examines
-    the e.m.f. criteria and suggests modifications to improve their efficiency.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Whereas the limitation imposed by the IPTS on the value of <italic>E</italic><sub>Au</sub>
+    merely confines the rhodium content to the neighbourhood of 10% wt, values of
+    (<italic>E</italic><sub>Au</sub> - <italic>E</italic><sub>Ag</sub>) and (<italic>E</italic><sub>Au</sub>
+    - <italic>E</italic><sub>Sb</sub>) are intensitive to the rhodium content and
+    depend largely on the quality of the materials. Unfortunately the existing criteria
+    based on the latter values are numerically inadequate and as a result give preference
+    to wires low in quality. This article critically examines the e.m.f. criteria
+    and suggests modifications to improve their efficiency.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The EMF Criteria for International Practical Temperature Scale Thermocouples
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The EMF Criteria for International Practical Temperature Scale Thermocouples
     date:
     - type: ppub
-      value: '1969-01-01'
+      at: '1969-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +79,6 @@ extent:
     reference_from: '26'
     reference_to: '28'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

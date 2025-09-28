@@ -1,135 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia453325
-title:
-- content: Construction and validation of a platinum–carbon eutectic fixed point
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 3 325
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Construction and validation of a platinum–carbon eutectic fixed point
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/3/009
+docidentifier:
+- content: Metrologia 45 3 325
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/3/009
+- content: 10.1088/0026-1394/45/3/009
   type: doi
 date:
 - type: published
-  value: '2008-05-07'
+  at: '2008-05-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Lowe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Anhalt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch Technische Bundesanstalt-Berlin, Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Hartmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch Technische Bundesanstalt-Berlin, Abbestrasse 2-12,
             10587 Berlin, Germany
-  role:
-  - type: author
-revdate: '2008-05-07'
 abstract:
-- content: "<p>This paper details the construction of a eutectic platinum–carbon fixed
-    point (melting point approximately 1738 °C) at the Physikalisch-Technische Bundesanstalt
-    (PTB) and its validation by comparison with the one constructed by a PTB guest
-    scientist at the National Metrology Institute of Japan, AIST (NMIJ).</p><p>A high-temperature
-    vacuum furnace was used to construct a metal–carbon eutectic fixed point of platinum–carbon
-    alloys suitable for radiation thermometry or radiometry. The furnace and fixed-point
-    filling procedure were first assessed for suitability by constructing a copper
-    fixed point of the same dimensions. With the filling validated a platinum–carbon
-    cell was constructed. This was then compared with the one previously constructed
-    by the PTB in collaboration with NMIJ. The agreement between the two fixed points
-    was (+45 ± 72) mK (k = 2), meeting the reproducibility requirements for platinum–carbon
-    to be used as a reference standard.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>This paper details the construction of a eutectic platinum–carbon fixed point (melting point approximately 1738 °C) at the Physikalisch-Technische Bundesanstalt (PTB) and its validation by comparison with the one constructed by a PTB guest scientist at the National Metrology Institute of Japan, AIST (NMIJ).</p>
+    <p>A high-temperature vacuum furnace was used to construct a metal–carbon eutectic fixed point of platinum–carbon alloys suitable for radiation thermometry or radiometry. The furnace and fixed-point filling procedure were first assessed for suitability by constructing a copper fixed point of the same dimensions. With the filling validated a platinum–carbon cell was constructed. This was then compared with the one previously constructed by the PTB in collaboration with NMIJ. The agreement between the two fixed points was (+45 ± 72) mK (<italic>k</italic> = 2), meeting the reproducibility requirements for platinum–carbon to be used as a reference standard.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Construction and validation of a platinum–carbon eutectic fixed point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Construction and validation of a platinum–carbon eutectic fixed point
     date:
     - type: epub
-      value: '2008-05-07'
+      at: '2008-05-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Construction and validation of a platinum–carbon eutectic fixed point
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Construction and validation of a platinum–carbon eutectic fixed point
     date:
     - type: ppub
-      value: '2008-06-01'
+      at: '2008-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +112,6 @@ extent:
     reference_from: '325'
     reference_to: '329'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

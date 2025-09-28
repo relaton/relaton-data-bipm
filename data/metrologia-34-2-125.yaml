@@ -1,90 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia342125
-title:
-- content: Effect of diffraction in a Saunders-type optical interferometer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/2/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/2/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 2 125
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Effect of diffraction in a Saunders-type optical interferometer
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/2/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/2/3
+docidentifier:
+- content: Metrologia 34 2 125
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/2/3
+- content: 10.1088/0026-1394/34/2/3
   type: doi
 date:
 - type: published
-  value: '1997-04-01'
+  at: '1997-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Masui
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
-  - type: author
-revdate: '1997-04-01'
 abstract:
-- content: "<p>The effect of the diffraction of spherical light waves and Gaussian
-    beams in a Saunders-type interferometer was analysed numerically to supplement
-    our previous report on the measurement of the absolute density of water.</p><p>In
-    that work, buoyancy measurements were taken for fused-quartz spheres submerged
-    in water. In determining the volume of these spheres, a Saunders-type interferometer
-    was used to measure the diameter. However, it was suspected that distortion of
-    wave fronts due to diffraction may have occurred in the interferometer, which
-    could introduce a bias in the sphere volume, and hence in the measured water density.</p><p>The
-    numerical analysis here shows that although there was significant distortion of
-    the interference pattern near the optical axis, it did not impair diameter measurements,
-    as long as the method of data analysis originally described by Saunders was used.
-    Therefore, our measured values for the absolute density of water remain valid.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The effect of the diffraction of spherical light waves and Gaussian beams in a Saunders-type interferometer was analysed numerically to supplement our previous report on the measurement of the absolute density of water.</p>
+    <p>In that work, buoyancy measurements were taken for fused-quartz spheres submerged in water. In determining the volume of these spheres, a Saunders-type interferometer was used to measure the diameter. However, it was suspected that distortion of wave fronts due to diffraction may have occurred in the interferometer, which could introduce a bias in the sphere volume, and hence in the measured water density.</p>
+    <p>The numerical analysis here shows that although there was significant distortion of the interference pattern near the optical axis, it did not impair diameter measurements, as long as the method of data analysis originally described by Saunders was used. Therefore, our measured values for the absolute density of water remain valid.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Effect of diffraction in a Saunders-type optical interferometer
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Effect of diffraction in a Saunders-type optical interferometer
     date:
     - type: ppub
-      value: '1997-04-01'
+      at: '1997-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +75,6 @@ extent:
     reference_from: '125'
     reference_to: '131'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

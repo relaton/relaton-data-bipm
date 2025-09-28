@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia84148
-title:
-- content: Circular Four Electrode Capacitors for Capacitance Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 4 148
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Circular Four Electrode Capacitors for Capacitance Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/4/004
+docidentifier:
+- content: Metrologia 8 4 148
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/4/004
+- content: 10.1088/0026-1394/8/4/004
   type: doi
 date:
 - type: published
-  value: '1972-10-01'
+  at: '1972-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Makow
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics and Computation Centre, National Research Council
             of Canada, Ottawa, Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Campbell
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics and Computation Centre, National Research Council
             of Canada, Ottawa, Canada
-  role:
-  - type: author
-revdate: '1972-10-01'
 abstract:
-- content: "<p>Three configurations of ring capacitors with four electrodes have been
+- language: en
+  script:
+  - Latn
+  content: "<p>Three configurations of ring capacitors with four electrodes have been
     investigated. In cross-section the electrodes have straight or circular sides
     or combinations of both. Displacements of all electrodes have a second order effect
     on the weighted mean value of the diagonal cross-capacitance. These configurations
@@ -64,39 +58,31 @@ abstract:
     can be computed from the dimensions to a very high accuracy with an available
     program. For consideration as an absolute standard, accuracy of diameter measurement
     and curvature of the electrodes are the determining factors.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Circular Four Electrode Capacitors for Capacitance Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Circular Four Electrode Capacitors for Capacitance Standards
     date:
     - type: ppub
-      value: '1972-10-01'
+      at: '1972-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '148'
     reference_to: '155'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

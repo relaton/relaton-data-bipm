@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia183145
-title:
-- content: A Portable Apparatus for Absolute Measurements of the Earth's Gravity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/18/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/18/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 18 3 145
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Portable Apparatus for Absolute Measurements of the Earth's Gravity
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/18/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/18/3/006
+docidentifier:
+- content: Metrologia 18 3 145
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/18/3/006
+- content: 10.1088/0026-1394/18/3/006
   type: doi
 date:
 - type: published
-  value: '1982-07-01'
+  at: '1982-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M A Zumberge
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -40,31 +36,27 @@ contributor:
     - organization:
         name:
         - content: Staff Member, Time and Frequency Division, National Bureau of Standards
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R L Rinker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Joint Institute for Laboratory Astrophysics, National Bureau of
             Standards and University of Colorado, Boulder, CO 80309, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Faller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -73,11 +65,11 @@ contributor:
     - organization:
         name:
         - content: Staff Member, Quantum Physics Division, National Bureau of Standards
-  role:
-  - type: author
-revdate: '1982-07-01'
 abstract:
-- content: "<p>We have developed a new and portable apparatus for making absolute
+- language: en
+  script:
+  - Latn
+  content: "<p>We have developed a new and portable apparatus for making absolute
     measurements of the acceleration due to the Earth's gravity. We use the method
     of free fall, and interferometrically determine the acceleration of a freely falling
     cube corner. In the design and development of this instrument, particular attention
@@ -87,42 +79,34 @@ abstract:
     and requires only two hours for assembly. A high rate of data acquisition is available;
     if necessary, a single measurement can be made every two seconds. Further, we
     have made a concerted effort to detect and (we hope) eliminate systematic errors.
-    The results of extensive tests indicate that the achievable accuracy for g is
-    about six parts in 10<sup>9</sup>. This instrument therefore provides a sensitivity
+    The results of extensive tests indicate that the achievable accuracy for <italic>g</italic>
+    is about six parts in 10<sup>9</sup>. This instrument therefore provides a sensitivity
     to vertical motions (e.g., of the Earth's crust) as small as 2 cm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1982'
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Portable Apparatus for Absolute Measurements of the Earth's Gravity
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: A Portable Apparatus for Absolute Measurements of the Earth's Gravity
     date:
     - type: ppub
-      value: '1982-07-01'
+      at: '1982-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +117,6 @@ extent:
     reference_from: '145'
     reference_to: '152'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

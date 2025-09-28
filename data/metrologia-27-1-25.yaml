@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27125
-title:
-- content: Volume Determination of Fused Quartz Spheres
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 1 25
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Volume Determination of Fused Quartz Spheres
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/1/006
+docidentifier:
+- content: Metrologia 27 1 25
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/1/006
+- content: 10.1088/0026-1394/27/1/006
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Thermophysical Metrology Department, National Research Laboratory
             of Metrology, 1-1-4, Umezono, Tsukuba, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Masui
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Thermophysical Metrology Department, National Research Laboratory
             of Metrology, 1-1-4, Umezono, Tsukuba, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Seino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Japan Machinery and Metals Inspection Institute, 1-8-12, Higashioi,
             Shinagawa, Tokyo 140, Japan
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>The volume determination of fused quartz spheres used for the absolute
+- language: en
+  script:
+  - Latn
+  content: "<p>The volume determination of fused quartz spheres used for the absolute
     measurement of the density of water is described. The diameters of the spheres
     are measured with an optical interferometer, in which the sphere is placed between
     two parallel étalon plates of accurately known separation, and the diameters are
@@ -84,39 +76,31 @@ abstract:
     (about 85 mm) have been measured with standard deviations of 5 to 12 nm, which
     correspond to 0.16 to 0.43 ppm in terms of the volume. The total uncertainties
     of the volume are estimated to be 0.26 to 0.48 ppm.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Volume Determination of Fused Quartz Spheres
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Volume Determination of Fused Quartz Spheres
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -127,6 +111,6 @@ extent:
     reference_from: '25'
     reference_to: '31'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,212 +1,180 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5317
-title:
-- content: High accuracy experimental determination of copper and zinc mass attenuation
-    coefficients in the 100 eV to 30 keV photon energy range
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1 7
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: High accuracy experimental determination of copper and zinc mass attenuation
+    coefficients in the 100 eV to 30 keV photon energy range
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1/7
+docidentifier:
+- content: Metrologia 53 1 7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1/7
+- content: 10.1088/0026-1394/53/1/7
   type: doi
 date:
 - type: published
-  value: '2015-12-15'
+  at: '2015-12-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Ménesguen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 91191 Gif-sur-Yvette cedex, France
         name:
         - content: Laboratoire National Henri Becquerel (LNE-LNHB)
         subdivision:
-        - content: CEA, LIST
-        contact:
-        - address:
-            formatted_address: 91191 Gif-sur-Yvette cedex, France
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: CEA, LIST
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Gerlach
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Pollakowski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Unterumsberger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Haschke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Am Studio 2D, 12489 Berlin, Germany
         name:
         - content: Bruker Nano GmbH
-        contact:
-        - address:
-            formatted_address: Am Studio 2D, 12489 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Beckhoff
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Abbestr. 2-12, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M-C Lépy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 91191 Gif-sur-Yvette cedex, France
         name:
         - content: Laboratoire National Henri Becquerel (LNE-LNHB)
         subdivision:
-        - content: CEA, LIST
-        contact:
-        - address:
-            formatted_address: 91191 Gif-sur-Yvette cedex, France
-  role:
-  - type: author
-revdate: '2015-12-15'
+        - name:
+          - language: en
+            script: Latn
+            content: CEA, LIST
 abstract:
-- content: Abstract<p>The knowledge of atomic fundamental parameters such as mass
-    attenuation coefficients with low uncertainties, is of decisive importance in
-    elemental quantification using x-ray fluorescence analysis techniques. Several
-    databases are accessible and frequently used within a large community of users.
-    These compilations are most often in good agreement for photon energies in the
-    hard x-ray ranges. However, they significantly differ for low photon energies
-    and around the absorption edges of any element. In a joint cooperation of the
-    metrology institutes of France and Germany, mass attenuation coefficients of copper
-    and zinc were determined experimentally in the photon energy range from 100 eV
-    to 30 keV by independent approaches using monochromatized synchrotron radiation
-    at SOLEIL (France) and BESSY II (Germany), respectively. The application of high-accuracy
-    experimental techniques resulted in mass attenuation coefficient datasets determined
-    with low uncertainties that are directly compared to existing databases. The novel
-    datasets are expected to enhance the reliability of mass attenuation coefficients.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The knowledge of atomic fundamental parameters such as mass attenuation coefficients with low uncertainties, is of decisive importance in elemental quantification using x-ray fluorescence analysis techniques. Several databases are accessible and frequently used within a large community of users. These compilations are most often in good agreement for photon energies in the hard x-ray ranges. However, they significantly differ for low photon energies and around the absorption edges of any element. In a joint cooperation of the metrology institutes of France and Germany, mass attenuation coefficients of copper and zinc were determined experimentally in the photon energy range from 100 eV to 30 keV by independent approaches using monochromatized synchrotron radiation at SOLEIL (France) and BESSY II (Germany), respectively. The application of high-accuracy experimental techniques resulted in mass attenuation coefficient datasets determined with low uncertainties that are directly compared to existing databases. The novel datasets are expected to enhance the reliability of mass attenuation coefficients.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High accuracy experimental determination of copper and zinc mass attenuation
+    - script: Latn
+      content: High accuracy experimental determination of copper and zinc mass attenuation
         coefficients in the 100 eV to 30 keV photon energy range
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-02-01'
+      at: '2016-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: High accuracy experimental determination of copper and zinc mass attenuation
+    - script: Latn
+      content: High accuracy experimental determination of copper and zinc mass attenuation
         coefficients in the 100 eV to 30 keV photon energy range
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-12-15'
+      at: '2015-12-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -217,6 +185,6 @@ extent:
     reference_from: '7'
     reference_to: '17'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

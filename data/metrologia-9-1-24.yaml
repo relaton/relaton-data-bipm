@@ -1,83 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9124
-title:
-- content: "<sup>127</sup>J<sub>2</sub>-Absorption bei 3 Kr II-Laserlinien"
-  language:
-  - de
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/9/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 1 24
+schema_version: v1.4.1
+title:
+- language: de
+  script: Latn
+  content: "<sup>127</sup>J<sub>2</sub>-Absorption bei 3 Kr II-Laserlinien"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/1/006
+docidentifier:
+- content: Metrologia 9 1 24
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/1/006
+- content: 10.1088/0026-1394/9/1/006
   type: doi
 date:
 - type: published
-  value: '1973-01-01'
+  at: '1973-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Frank Spieweck
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Braunschweig, Germany (FRG)
-  role:
-  - type: author
-revdate: '1973-01-01'
 abstract:
-- content: "<p>Molecular absorption lines are used for the stabilization of laser
-    wavelengths. Because of the strong absorption at 568.2 nm<sup>127</sup>I<sub>2</sub>-absorption
+- language: en
+  script:
+  - Latn
+  content: "<p>Molecular absorption lines are used for the stabilization of laser
+    wavelengths. Because of the strong absorption at 568.2 nm <sup>127</sup>I<sub>2</sub>-absorption
     was studied with a krypton ion laser. Two new absorptions were found at 530.9
     nm and 520.8 nm. A laser with 3 stabilized lines will be interesting for length
     metrology.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: "<sup>127</sup>J<sub>2</sub>-Absorption bei 3 Kr II-Laserlinien"
-      language:
-      - de
-      script:
-      - Latn
-      format: text/html
+    - language: de
+      script: Latn
+      content: "<sup>127</sup>J<sub>2</sub>-Absorption bei 3 Kr II-Laserlinien"
     date:
     - type: ppub
-      value: '1973-01-01'
+      at: '1973-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -88,6 +76,6 @@ extent:
     reference_from: '24'
     reference_to: '25'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

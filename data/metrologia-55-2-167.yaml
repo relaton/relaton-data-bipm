@@ -1,186 +1,161 @@
 ---
-schema-version: v1.2.9
-id: Metrologia552167
-title:
-- content: Error modelling of quantum Hall array resistance standards
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaa5c1
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaa5c1
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 2 167
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Error modelling of quantum Hall array resistance standards
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaa5c1
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaa5c1
+docidentifier:
+- content: Metrologia 55 2 167
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaa5c1
+- content: 10.1088/1681-7575/aaa5c1
   type: doi
 date:
 - type: published
-  value: '2018-02-05'
+  at: '2018-02-05'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Martina Marzano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Corso Duca degli Abruzzi 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: Corso Duca degli Abruzzi 24, 10129 Torino, Italy
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Takehiko Oe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tsukuba 305-8563, Japan
         name:
         - content: National Institute of Advanced Industrial Science and Technology
             (AIST)
         subdivision:
-        - content: NMIJ/AIST—National Metrology Institute of Japan (NMIJ
-        contact:
-        - address:
-            formatted_address: Tsukuba 305-8563, Japan
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: NMIJ/AIST—National Metrology Institute of Japan (NMIJ
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Massimo Ortolano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Corso Duca degli Abruzzi 24, 10129 Torino, Italy
         name:
         - content: Politecnico di Torino
-        contact:
-        - address:
-            formatted_address: Corso Duca degli Abruzzi 24, 10129 Torino, Italy
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Luca Callegaro
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce, 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nobu-Hisa Kaneko
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Tsukuba 305-8563, Japan
         name:
         - content: National Institute of Advanced Industrial Science and Technology
             (AIST)
         subdivision:
-        - content: NMIJ/AIST—National Metrology Institute of Japan (NMIJ
-        contact:
-        - address:
-            formatted_address: Tsukuba 305-8563, Japan
-  role:
-  - type: author
-revdate: '2018-02-05'
+        - name:
+          - language: en
+            script: Latn
+            content: NMIJ/AIST—National Metrology Institute of Japan (NMIJ
 abstract:
-- content: Abstract<p>Quantum Hall array resistance standards (QHARSs) are integrated
-    circuits composed of interconnected quantum Hall effect elements that allow the
-    realization of virtually arbitrary resistance values. In recent years, techniques
-    were presented to efficiently design QHARS networks. An open problem is that of
-    the evaluation of the accuracy of a QHARS, which is affected by contact and wire
-    resistances. In this work, we present a general and systematic procedure for the
-    error modelling of QHARSs, which is based on modern circuit analysis techniques
-    and Monte Carlo evaluation of the uncertainty. As a practical example, this method
-    of analysis is applied to the characterization of a 1 MΩ QHARS developed by the
-    National Metrology Institute of Japan. Software tools are provided to apply the
-    procedure to other arrays.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Quantum Hall array resistance standards (QHARSs) are integrated circuits composed of interconnected quantum Hall effect elements that allow the realization of virtually arbitrary resistance values. In recent years, techniques were presented to efficiently design QHARS networks. An open problem is that of the evaluation of the accuracy of a QHARS, which is affected by contact and wire resistances. In this work, we present a general and systematic procedure for the error modelling of QHARSs, which is based on modern circuit analysis techniques and Monte Carlo evaluation of the uncertainty. As a practical example, this method of analysis is applied to the characterization of a 1 MΩ QHARS developed by the National Metrology Institute of Japan. Software tools are provided to apply the procedure to other arrays.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error modelling of quantum Hall array resistance standards
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Error modelling of quantum Hall array resistance standards
     date:
     - type: ppub
-      value: '2018-04-01'
+      at: '2018-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Error modelling of quantum Hall array resistance standards
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Error modelling of quantum Hall array resistance standards
     date:
     - type: epub
-      value: '2018-02-05'
+      at: '2018-02-05'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -191,6 +166,6 @@ extent:
     reference_from: '167'
     reference_to: '174'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

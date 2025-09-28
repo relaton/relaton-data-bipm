@@ -1,98 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia481A09001
-title:
-- content: 'A bilateral comparison of LS2P microphone pressure sensitivity between
-    the KRISS and the KIM-LIPI: APMP.AUV.A-K3.1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/1A/09001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/1A/09001
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 1A 09001
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'A bilateral comparison of LS2P microphone pressure sensitivity between
+    the KRISS and the KIM-LIPI: APMP.AUV.A-K3.1'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/1A/09001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/1A/09001
+docidentifier:
+- content: Metrologia 48 1A 09001
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/1A/09001
+- content: 10.1088/0026-1394/48/1A/09001
   type: doi
 date:
 - type: published
-  value: '2011-01-01'
+  at: '2011-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Sang Joon Suh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Korea Research Institute of Standards and Science, Korea
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Achmad Suwandi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: KIM-LIPI (Research Center for Calibration, Instrumentation and
             Metrology), Indonesia
-  role:
-  - type: author
-revdate: '2011-01-01'
 abstract:
-- content: |-
-    <p>A bilateral comparison of pressure sensitivity calibration of an LS2P microphone has been performed between the Korea Research Institute of Standards and Science (KRISS, Korea) and the Research and Development Center for Calibration Instrumentation and Metrology (KIM-LIPI, Indonesia), in 2008, with KRISS acting as the pilot laboratory. The results have been linked to the CCAUV.A-K3 comparison with degrees of equivalence for the KIM-LIPI.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A bilateral comparison of pressure sensitivity calibration of an LS2P microphone has been performed between the Korea Research Institute of Standards and Science (KRISS, Korea) and the Research and Development Center for Calibration Instrumentation and Metrology (KIM-LIPI, Indonesia), in 2008, with KRISS acting as the pilot laboratory. The results have been linked to the  <ext-link ext-link-type="uri" xlink:href="http://iopscience.iop.org/0026-1394/43/1A/09001">CCAUV.A-K3</ext-link> comparison with degrees of equivalence for the KIM-LIPI.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K3/APMP.AUV.A-K3.1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'A bilateral comparison of LS2P microphone pressure sensitivity between
+    - language: en
+      script: Latn
+      content: 'A bilateral comparison of LS2P microphone pressure sensitivity between
         the KRISS and the KIM-LIPI: APMP.AUV.A-K3.1'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2011-01-01'
+      at: '2011-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +91,6 @@ extent:
     reference_from: '09001'
     reference_to: '09001'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

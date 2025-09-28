@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2398
-title:
-- content: The Canadian Cesium Beam Frequency Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/2/3/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/2/3/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 2 3 98
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Canadian Cesium Beam Frequency Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/2/3/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/2/3/002
+docidentifier:
+- content: Metrologia 2 3 98
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/2/3/002
+- content: 10.1088/0026-1394/2/3/002
   type: doi
 date:
 - type: published
-  value: '1966-07-01'
+  at: '1966-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A G Mungall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Ontario
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Bailey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Ontario
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Daams
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Ontario
-  role:
-  - type: author
-revdate: '1966-07-01'
 abstract:
-- content: "<p>Design and performance of the NRC 2.1 meter cesium beam frequency standard
+- language: en
+  script:
+  - Latn
+  content: "<p>Design and performance of the NRC 2.1 meter cesium beam frequency standard
     are discussed. Construction of the beam tube, microwave cavity, and the electronics
     providing the beam excitation signal are outlined. Sources of error are discussed,
     and a value of 1.9 × 10<sup>-11</sup> is estimated as the upper limit. Comparisons
@@ -79,39 +71,31 @@ abstract:
     and LSRH are described in detail. Closest agreement exists between NRC and NBS
     with WWVB as the commonly measured signal. Maximum, mean, and r.m.s. deviations
     over a 7 month period were 18, 1.1 and 6.6 × 10<sup>-12</sup> for 15 day averages.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1966'
+- from: '1966'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Canadian Cesium Beam Frequency Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Canadian Cesium Beam Frequency Standard
     date:
     - type: ppub
-      value: '1966-07-01'
+      at: '1966-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +106,6 @@ extent:
     reference_from: '98'
     reference_to: '104'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

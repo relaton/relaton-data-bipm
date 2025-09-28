@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia303145
-title:
-- content: 'Uncertainty in Frequency Measurements at 88 THz Made with the NRC Frequency
-    Chain: Frequency of the NRC HeNe/CH<sub>4</sub> Laser'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/30/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 3 145
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Uncertainty in Frequency Measurements at 88 THz Made with the NRC Frequency
+    Chain: Frequency of the NRC HeNe/CH<sub>4</sub> Laser'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/3/003
+docidentifier:
+- content: Metrologia 30 3 145
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/3/003
+- content: 10.1088/0026-1394/30/3/003
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B G Whitford
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurement Standards, National Research
             Council of Canada, Ottawa, Ontario K1A 0R6, Canada
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>Improvements to the NRC HeNe/CH<sub>4</sub> laser have produced a stable
+- language: en
+  script:
+  - Latn
+  content: "<p>Improvements to the NRC HeNe/CH<sub>4</sub> laser have produced a stable
     infrared source at 88 THz suitable for checking the stability of the CO<sub>2</sub>
     laser frequencies in the NRC phase-locked frequency chain. About 30 000 1 s average
     readings of the 88 THz laser frequency were obtained over the period 89-03-29
@@ -57,40 +53,32 @@ abstract:
     mean frequency relative to the frequency derived from the International Atomic
     Time scale (TAI) was 88 376 181 599 431(73)Hz. Other tests showed no significant
     systematic errors in the phase-locked CO<sub>2</sub> laser frequencies.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Uncertainty in Frequency Measurements at 88 THz Made with the NRC
+    - language: en
+      script: Latn
+      content: 'Uncertainty in Frequency Measurements at 88 THz Made with the NRC
         Frequency Chain: Frequency of the NRC HeNe/CH<sub>4</sub> Laser'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -101,6 +89,6 @@ extent:
     reference_from: '145'
     reference_to: '154'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

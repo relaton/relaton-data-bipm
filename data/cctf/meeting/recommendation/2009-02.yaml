@@ -1,115 +1,93 @@
 ---
-schema-version: v1.2.9
 id: CCTF-REC-2009-02
+type: proceedings
+schema_version: v1.4.1
 title:
-- content: Characterization of delays of global navigation satellite system (GNSS)
+- language: en
+  script: Latn
+  content: Characterization of delays of global navigation satellite system (GNSS)
     equipment in laboratories contributing to International Atomic Time (TAI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Caractérisation des retards des équipements de comparaison de temps par
+- language: fr
+  script: Latn
+  content: Caractérisation des retards des équipements de comparaison de temps par
     systèmes globaux de navigation par satellite (GNSS) des laboratoires contribuant
     au Temps atomique international (TAI)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cctf/18-2009/resolution-2
+source:
+- language: en
+  script: Latn
   type: citation
-  language: en
+  content: https://www.bipm.org/en/committees/cc/cctf/18-2009/resolution-2
+- language: fr
   script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cctf/18-2009/resolution-2
   type: citation
-  language: fr
+  content: https://www.bipm.org/fr/committees/cc/cctf/18-2009/resolution-2
+- language: en
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-18.yml
   type: src
-  language: en
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-18.yml
+- language: fr
   script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-18.yml
   type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071143/CCTF18.pdf/b54a884f-01c7-7f45-7671-a132b99330ed
-  type: pdf
-type: proceedings
-docid:
-- id: CCTF REC 2 (2009)
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-18.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071143/CCTF18.pdf/b54a884f-01c7-7f45-7671-a132b99330ed
+docidentifier:
+- content: CCTF REC 2 (2009)
   type: BIPM
   primary: true
-- id: CCTF REC 2 (2009, E)
+- language: en
+  script: Latn
+  content: CCTF REC 2 (2009, E)
   type: BIPM
   primary: true
-  language: en
+- language: fr
   script: Latn
-- id: CCTF REC 2 (2009, F)
+  content: CCTF REC 2 (2009, F)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCTF Recommendation 2 (2009)
+  content: CCTF Recommendation 2 (2009)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 2 du CCTF (2009)
+  content: Recommandation 2 du CCTF (2009)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCTF Recommendation 2 (2009) / Recommandation 2 du CCTF (2009)
+- content: CCTF Recommendation 2 (2009) / Recommandation 2 du CCTF (2009)
   type: BIPM-long
 docnumber: CCTF REC 2 (2009)
 date:
 - type: published
-  value: '2009-06-05'
+  at: '2009-06-05'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: Consultative Committee for Time and Frequency
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité consultatif du temps et des fréquences
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CCTF
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2009-06-05'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Consultative Committee for Time and Frequency
+    - language: fr
+      script: Latn
+      content: Comité consultatif du temps et des fréquences
+    abbreviation:
+      language: en
+      script: Latn
+      content: CCTF
 language:
 - en
 - fr
@@ -118,8 +96,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '2'

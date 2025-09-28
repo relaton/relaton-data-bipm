@@ -1,113 +1,105 @@
 ---
-schema-version: v1.2.9
-id: Metrologia443201
-title:
-- content: Using the autocorrelation function to characterize time series of voltage
-    measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 3 201
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Using the autocorrelation function to characterize time series of voltage
+    measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/3/006
+docidentifier:
+- content: Metrologia 44 3 201
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/3/006
+- content: 10.1088/0026-1394/44/3/006
   type: doi
 date:
 - type: published
-  value: '2007-05-14'
+  at: '2007-05-14'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas J Witt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2007-05-14'
 abstract:
-- content: "<p>The standard deviation of the mean is the most common basis for specifying
-    the statistical uncertainty of repeated measurements, yet it is often calculated
-    incorrectly. The variance of the mean,, of a time series of correlated measurements
-    of a weakly stationary process is correctly expressed in terms of the autocorrelation
-    function (ACF) at lag k, ρ(k). This approach is used to evaluate \n for white
-    voltage noise measured at regular time intervals τ<sub>0</sub> through a low pass
-    filter of bandwidth B by four methods: (1) by developing the expression ρ(k) =
-    exp (−4Bτ<sub>0</sub>k) evaluated by estimating B from the sample spectrum; (2)
-    by noting that ρ(k) = ϕ<sup>k</sup>, ϕ = exp(−4Bτ<sub>0</sub>) &lt; 1 is the ACF
-    of a first-order autoregressive process, AR(1), for which \n is readily evaluated
-    in terms of ϕ; (3) by estimating \n from the sample ACF,, using the cut-off lag
-    for an AR(1) process; and (4) by applying the general method recently proposed
-    by Zhang (2006 Metrologia 43 S276–81), to estimate \n from, assuming that the
-    data may be described by a moving average process with a cut-off lag deduced from
-    the \n themselves. The values of \n from the four methods are in good agreement.
-    This provides firm support to Zhang's method; this is important because of this
-    method's wide scope of application.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The standard deviation of the mean is the most common basis for specifying
+    the statistical uncertainty of repeated measurements, yet it is often calculated
+    incorrectly. The variance of the mean, \n<inline-graphic xlink:href=\"metro248396in001.gif\"></inline-graphic>,
+    of a time series of correlated measurements of a weakly stationary process is
+    correctly expressed in terms of the autocorrelation function (ACF) at lag <italic>k</italic>,
+    ρ(<italic>k</italic>). This approach is used to evaluate \n<inline-graphic xlink:href=\"metro248396in001.gif\"></inline-graphic>
+    for white voltage noise measured at regular time intervals τ<sub>0</sub> through
+    a low pass filter of bandwidth <italic>B</italic> by four methods: (1) by developing
+    the expression ρ(<italic>k</italic>) = exp (−4<italic>B</italic>τ<sub>0</sub><italic>k</italic>)
+    evaluated by estimating <italic>B</italic> from the sample spectrum; (2) by noting
+    that ρ(<italic>k</italic>) = ϕ<sup><italic>k</italic></sup>, ϕ = exp(−4<italic>B</italic>τ<sub>0</sub>)
+    &lt; 1 is the ACF of a first-order autoregressive process, AR(1), for which \n<inline-graphic
+    xlink:href=\"metro248396in001.gif\"></inline-graphic> is readily evaluated in
+    terms of ϕ; (3) by estimating \n<inline-graphic xlink:href=\"metro248396in001.gif\"></inline-graphic>
+    from the sample ACF, \n<inline-graphic xlink:href=\"metro248396in002.gif\"></inline-graphic>,
+    using the cut-off lag for an AR(1) process; and (4) by applying the general method
+    recently proposed by Zhang (<ext-link ext-link-type=\"uri\" xlink:href=\"https://doi.org/10.1088/0026-1394/43/4/S15\">2006
+    <italic>Metrologia</italic> <bold>43</bold> S276–81</ext-link>), to estimate \n<inline-graphic
+    xlink:href=\"metro248396in001.gif\"></inline-graphic> from \n<inline-graphic xlink:href=\"metro248396in002.gif\"></inline-graphic>,
+    assuming that the data may be described by a moving average process with a cut-off
+    lag deduced from the \n<inline-graphic xlink:href=\"metro248396in002.gif\"></inline-graphic>
+    themselves. The values of \n<inline-graphic xlink:href=\"metro248396in001.gif\"></inline-graphic>
+    from the four methods are in good agreement. This provides firm support to Zhang's
+    method; this is important because of this method's wide scope of application.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Using the autocorrelation function to characterize time series of voltage
+    - language: en
+      script: Latn
+      content: Using the autocorrelation function to characterize time series of voltage
         measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2007-05-14'
+      at: '2007-05-14'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Using the autocorrelation function to characterize time series of voltage
+    - language: en
+      script: Latn
+      content: Using the autocorrelation function to characterize time series of voltage
         measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2007-06-01'
+      at: '2007-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +110,6 @@ extent:
     reference_from: '201'
     reference_to: '209'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

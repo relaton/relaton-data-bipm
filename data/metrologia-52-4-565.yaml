@@ -1,145 +1,114 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524565
-title:
-- content: On the relation between uncertainties of weighted frequency averages and
-    the various types of Allan deviations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/565
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/565
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 565
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: On the relation between uncertainties of weighted frequency averages and
+    the various types of Allan deviations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/565
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/565
+docidentifier:
+- content: Metrologia 52 4 565
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/565
+- content: 10.1088/0026-1394/52/4/565
   type: doi
 date:
 - type: published
-  value: '2015-07-16'
+  at: '2015-07-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Erik Benkler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Christian Lisdat
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Uwe Sterr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2015-07-16'
 abstract:
-- content: Abstract<p>The power spectral density in the Fourier frequency domain,
-    and the different variants of the Allan deviation (ADEV) in dependence on the
-    averaging time are well established tools to analyse the fluctuation properties
-    and frequency instability of an oscillatory signal. It is often supposed that
-    the statistical uncertainty of a measured average frequency is given by the ADEV
-    at a well-considered averaging time. However, this approach requires further mathematical
-    justification and refinement, which has already been done regarding the original
-    ADEV for certain noise types. Here we provide the necessary background to use
-    the modified Allan deviation (modADEV) and other two-sample deviations to determine
-    the uncertainty of weighted frequency averages. The type of two-sample deviation
-    used to determine the uncertainty depends on the method used for determination
-    of the average. We find that the modADEV, which is connected with &#x039B; >-weighted
-    averaging, and the two-sample deviation associated with a linear phase regression
-    weighting (parADEV) are, in particular, advantageous for measurements in which
-    white phase noise is dominating. Furthermore, we derive a procedure for how to
-    minimise the uncertainty of a measurement for a typical combination of white phase
-    and frequency noise by adaptive averaging of the data set with different weighting
-    functions. Finally, some aspects of the theoretical considerations for real-world
-    frequency measurement equipment are discussed.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The power spectral density in the Fourier frequency domain, and the different variants of the Allan deviation (ADEV) in dependence on the averaging time are well established tools to analyse the fluctuation properties and frequency instability of an oscillatory signal. It is often supposed that the statistical uncertainty of a measured average frequency is given by the ADEV at a well-considered averaging time. However, this approach requires further mathematical justification and refinement, which has already been done regarding the original ADEV for certain noise types. Here we provide the necessary background to use the modified Allan deviation (modADEV) and other two-sample deviations to determine the uncertainty of weighted frequency averages. The type of two-sample deviation used to determine the uncertainty depends on the method used for determination of the average. We find that the modADEV, which is connected with <inline-formula><tex-math><?CDATA $\Lambda$ ></tex-math><?MML <mml:math><mml:mstyle displaystyle='false'><mml:mstyle mathvariant='normal'><mml:mi mathvariant="normal">&#x039B;</mml:mi></mml:mstyle></mml:mstyle></mml:math> ><inline-graphic xlink:href="met516583ieqn001.gif" xlink:type="simple"></inline-graphic></inline-formula>-weighted averaging, and the two-sample deviation associated with a linear phase regression weighting (parADEV) are, in particular, advantageous for measurements in which white phase noise is dominating. Furthermore, we derive a procedure for how to minimise the uncertainty of a measurement for a typical combination of white phase and frequency noise by adaptive averaging of the data set with different weighting functions. Finally, some aspects of the theoretical considerations for real-world frequency measurement equipment are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the relation between uncertainties of weighted frequency averages
+    - script: Latn
+      content: On the relation between uncertainties of weighted frequency averages
         and the various types of Allan deviations
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: On the relation between uncertainties of weighted frequency averages
+    - script: Latn
+      content: On the relation between uncertainties of weighted frequency averages
         and the various types of Allan deviations
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-07-16'
+      at: '2015-07-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +119,6 @@ extent:
     reference_from: '565'
     reference_to: '574'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

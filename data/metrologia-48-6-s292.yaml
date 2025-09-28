@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia486S292
-title:
-- content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/6/S06
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/6/S06
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 6 S292
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/6/S06
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/6/S06
+docidentifier:
+- content: Metrologia 48 6 S292
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/6/S06
+- content: 10.1088/0026-1394/48/6/S06
   type: doi
 date:
 - type: published
-  value: '2011-10-28'
+  at: '2011-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hideki Harano
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan (NMIJ), Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ralf Nolte
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Germany
-  role:
-  - type: author
-revdate: '2011-10-28'
 abstract:
-- content: "<p>This paper provides an overview of high-energy quasi-monoenergetic
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper provides an overview of high-energy quasi-monoenergetic
     neutron sources and facilities above 20 MeV around the world. Various technical
     matters are discussed which are required in characterizing the neutron fields
     by spectrometry, fluence and beam profile measurements. Important topics regarding
@@ -63,55 +57,47 @@ abstract:
     Efforts to standardize the high-energy neutron fluence in Japan and by the German
     national metrology institute in collaboration with Belgian and South African institutions
     are also presented.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
     date:
     - type: epub
-      value: '2011-10-28'
+      at: '2011-10-28'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Quasi-monoenergetic high-energy neutron standards above 20 MeV
     date:
     - type: ppub
-      value: '2011-12-01'
+      at: '2011-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +108,6 @@ extent:
     reference_from: S292
     reference_to: S303
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

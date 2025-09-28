@@ -1,108 +1,84 @@
 ---
-schema-version: v1.2.9
-id: Metrologia223177
-title:
-- content: Fundamental Constants and the Units of Physics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/22/3/012
-  type: src
-- content: https://doi.org/10.1088/0026-1394/22/3/012
-  type: doi
 type: article
-docid:
-- id: Metrologia 22 3 177
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Fundamental Constants and the Units of Physics
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/22/3/012
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/22/3/012
+docidentifier:
+- content: Metrologia 22 3 177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/22/3/012
+- content: 10.1088/0026-1394/22/3/012
   type: doi
 date:
 - type: published
-  value: '1986-01-01'
+  at: '1986-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V Kose
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Postfach 3345, D-3300 Braunschweig,
             Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Postfach 3345, D-3300 Braunschweig,
             Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1986-01-01'
 abstract:
-- content: <p>In this paper we discuss the various aspects of the interrelations among
-    the SI units of physics and fundamental constants.</p><p>In the first part (Sects.
-    I to III) the progress in precision for the fundamental constants achieved in
-    the last ten years will be given. The time dependence of the "best" values for
-    α and h/(2e) is demonstrated and discussed, based on least-squares adjustments
-    of the set of fundamental constants since 1952.</p><p>In the second part (Sect.
-    IV to VII) the SI units of physics are discussed from the point of view of fundamental
-    constants. Particularly the electrical science has profited by the advent of the
-    macroscopic quantum phenomena of the ac Josephson effect and the quantum Hall
-    effect. The limits for precision measurements of quantized voltages and resistances
-    are investigated as well as the implications of the two quantum effects for several
-    SI units of electrical energy, luminous intensity, temperature and electrical
-    resistance. Finally, a conceivable future system of units entirely based on fundamental
-    constants is suggested and its chances for introduction are discussed.</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>In this paper we discuss the various aspects of the interrelations among the SI units of physics and fundamental constants.</p>
+    <p>In the first part (Sects. I to III) the progress in precision for the fundamental constants achieved in the last ten years will be given. The time dependence of the "best" values for α and <italic>h</italic>/(2<italic>e</italic>) is demonstrated and discussed, based on least-squares adjustments of the set of fundamental constants since 1952.</p>
+    <p>In the second part (Sect. IV to VII) the SI units of physics are discussed from the point of view of fundamental constants. Particularly the electrical science has profited by the advent of the macroscopic quantum phenomena of the ac Josephson effect and the quantum Hall effect. The limits for precision measurements of quantized voltages and resistances are investigated as well as the implications of the two quantum effects for several SI units of electrical energy, luminous intensity, temperature and electrical resistance. Finally, a conceivable future system of units entirely based on fundamental constants is suggested and its chances for introduction are discussed.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1986'
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Fundamental Constants and the Units of Physics
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Fundamental Constants and the Units of Physics
     date:
     - type: ppub
-      value: '1986-01-01'
+      at: '1986-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +89,6 @@ extent:
     reference_from: '177'
     reference_to: '185'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

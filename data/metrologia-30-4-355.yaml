@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304355
-title:
-- content: Automated Absolute and Relative Spectral Linearity Measurements on Photovoltaic
-    Detectors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/025
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/025
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 355
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automated Absolute and Relative Spectral Linearity Measurements on Photovoltaic
+    Detectors
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/025
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/025
+docidentifier:
+- content: Metrologia 30 4 355
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/025
+- content: 10.1088/0026-1394/30/4/025
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L P Boivin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute for National Measurements Standards, National Research
             Council of Canada, Ottawa, K1A 0R6 Ontario, Canada
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The paper discusses automated spectral linearity measurements using
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper discusses automated spectral linearity measurements using
     both absolute and relative methods. Results of measurements on typical silicon
     and germanium photodiodes are presented. These measurements show the agreement
     between the two methods. They also illustrate some interesting linearity properties:
@@ -52,40 +48,32 @@ abstract:
     to avoid edge effects. These cause nonlinearities which are generally small (1%
     level) but, in certain types of thermoelectrically cooled germanium detectors,
     can be very large (8% to 10%).</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automated Absolute and Relative Spectral Linearity Measurements on
+    - language: en
+      script: Latn
+      content: Automated Absolute and Relative Spectral Linearity Measurements on
         Photovoltaic Detectors
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '355'
     reference_to: '360'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,112 +1,90 @@
 ---
-schema-version: v1.2.9
 id: CCTF-REC-1970-01
-title:
-- content: Proposition d'adoption d'une échelle de Temps Atomique International
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Proposition d'adoption d'une échelle de Temps Atomique International
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cctf/5-1970/resolution-1
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cctf/5-1970/resolution-1
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-5.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-5.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/63968654/CCDS5.pdf/4bf254ab-82f6-7a42-8198-762bc2d5d1f2
-  type: pdf
 type: proceedings
-docid:
-- id: CCTF REC 1 (1970)
-  type: BIPM
-  primary: true
-- id: CCTF REC 1 (1970, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCTF REC 1 (1970, F)
+  content: Proposition d'adoption d'une échelle de Temps Atomique International
+- language: fr
+  script: Latn
+  content: Proposition d'adoption d'une échelle de Temps Atomique International
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/cctf/5-1970/resolution-1
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/cctf/5-1970/resolution-1
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-5.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-5.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/63968654/CCDS5.pdf/4bf254ab-82f6-7a42-8198-762bc2d5d1f2
+docidentifier:
+- content: CCTF REC 1 (1970)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCTF Recommendation 1 (1970)
+  content: CCTF REC 1 (1970, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCTF REC 1 (1970, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCTF Recommendation 1 (1970)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 1 du CCTF (1970)
+  content: Recommandation 1 du CCTF (1970)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCTF Recommendation 1 (1970) / Recommandation 1 du CCTF (1970)
+- content: CCTF Recommendation 1 (1970) / Recommandation 1 du CCTF (1970)
   type: BIPM-long
 docnumber: CCTF REC 1 (1970)
 date:
 - type: published
-  value: '1970-06-19'
+  at: '1970-06-19'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: Consultative Committee for the Definition of the Second
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité Consultatif pour la Définition de la Seconde
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CCDS
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '1970-06-19'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Consultative Committee for the Definition of the Second
+    - language: fr
+      script: Latn
+      content: Comité Consultatif pour la Définition de la Seconde
+    abbreviation:
+      language: en
+      script: Latn
+      content: CCDS
 language:
 - en
 - fr
@@ -115,8 +93,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '1'

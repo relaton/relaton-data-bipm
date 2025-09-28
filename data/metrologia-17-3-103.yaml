@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia173103
-title:
-- content: Multi-Wavelength Pyrometry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 3 103
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Multi-Wavelength Pyrometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/3/006
+docidentifier:
+- content: Metrologia 17 3 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/3/006
+- content: 10.1088/0026-1394/17/3/006
   type: doi
 date:
 - type: published
-  value: '1981-07-01'
+  at: '1981-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P B Coates
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1981-07-01'
 abstract:
-- content: "<p>The main problem in the application of radiation pyrometry to the measurement
+- language: en
+  script:
+  - Latn
+  content: "<p>The main problem in the application of radiation pyrometry to the measurement
     of true surface temperatures is the large error arising from the unknown or varying
     emissivity of the surface. The nature of the additional information required for
     the class of techniques which utilize only the thermal radiation emitted from
     the surface is discussed. The suggestions that multi-wavelength pyrometry, requiring
     measurements at many different wavelengths, may be employed to solve the problem
     without additional information are analyzed, and shown to possess distinct disadvantages.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Multi-Wavelength Pyrometry
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Multi-Wavelength Pyrometry
     date:
     - type: ppub
-      value: '1981-07-01'
+      at: '1981-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '103'
     reference_to: '109'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,114 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia581015004
-title:
-- content: Newtonian gravitational constant measurement. All atomic variables become
-    extreme when using a source mass consisting of three or more parts
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/abc92e
-  type: src
-- content: https://doi.org/10.1088/1681-7575/abc92e
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 1 015004
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Newtonian gravitational constant measurement. All atomic variables become
+    extreme when using a source mass consisting of three or more parts
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/abc92e
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/abc92e
+docidentifier:
+- content: Metrologia 58 1 015004
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/abc92e
+- content: 10.1088/1681-7575/abc92e
   type: doi
 date:
 - type: published
-  value: '2021-01-07'
+  at: '2021-01-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Dubetsky
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hallandale Florida 33009, United States of America
         name:
         - content: Independent Researcher
-        contact:
-        - address:
-            formatted_address: Hallandale Florida 33009, United States of America
-  role:
-  - type: author
-revdate: '2021-01-07'
 abstract:
-- content: Abstract<p>Atomic interferometry methods used to measure the Newtonian
-    gravitational constant. To improve the accuracy, one should measure the phase
-    of an atomic interferometer at extreme values of atomic vertical velocities and
-    coordinates. Owing to symmetry, the horizontal components of atomic velocities
-    and coordinates are also extreme. We propose using a source mass consisting of
-    three or more parts, since only in this case one can find such an arrangement
-    of parts that all atomic variables become extreme. Nonlinear dependences of the
-    phase on the uncertainties of atomic positions and velocities near those extreme
-    values required us to modify the expression for the phase relative standard deviation.
-    Moreover, taking into account nonlinear terms in the phase dependence on the atomic
-    coordinates and velocities leads to a phase shift. In the last experiment to measure
-    the Newtonian gravitational constant by atomic interferometry, this shift was
-    not included. We took the shift into account, got a value of 199 ppm for it, and
-    this leads to a decrease in the value of the Newton constant by 0.02%. In addition,
-    we showed that at equal sizes of the atomic cloud in the vertical and horizontal
-    directions, as well as at equal atomic vertical and transverse temperatures, systematic
-    errors due to the finite size and temperature of the cloud disappear. The calculation
-    also showed that when using the 13-ton source mass proposed recently, the measurement
-    accuracy can reach 17 ppm for a source mass consisting of four quarters. We assumed
-    that the source mass consisting of a set of cylinders is used for measurements.
-    We have obtained a new analytical expression for the gravitational field of a
-    homogeneous cylinder.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Atomic interferometry methods used to measure the Newtonian gravitational constant. To improve the accuracy, one should measure the phase of an atomic interferometer at extreme values of atomic vertical velocities and coordinates. Owing to symmetry, the horizontal components of atomic velocities and coordinates are also extreme. We propose using a source mass consisting of three or more parts, since only in this case one can find such an arrangement of parts that all atomic variables become extreme. Nonlinear dependences of the phase on the uncertainties of atomic positions and velocities near those extreme values required us to modify the expression for the phase relative standard deviation. Moreover, taking into account nonlinear terms in the phase dependence on the atomic coordinates and velocities leads to a phase shift. In the last experiment to measure the Newtonian gravitational constant by atomic interferometry, this shift was not included. We took the shift into account, got a value of 199 ppm for it, and this leads to a decrease in the value of the Newton constant by 0.02%. In addition, we showed that at equal sizes of the atomic cloud in the vertical and horizontal directions, as well as at equal atomic vertical and transverse temperatures, systematic errors due to the finite size and temperature of the cloud disappear. The calculation also showed that when using the 13-ton source mass proposed recently, the measurement accuracy can reach 17 ppm for a source mass consisting of four quarters. We assumed that the source mass consisting of a set of cylinders is used for measurements. We have obtained a new analytical expression for the gravitational field of a homogeneous cylinder.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Newtonian gravitational constant measurement. All atomic variables
+    - script: Latn
+      content: Newtonian gravitational constant measurement. All atomic variables
         become extreme when using a source mass consisting of three or more parts
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2021-02-01'
+      at: '2021-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Newtonian gravitational constant measurement. All atomic variables
+    - script: Latn
+      content: Newtonian gravitational constant measurement. All atomic variables
         become extreme when using a source mass consisting of three or more parts
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2021-01-07'
+      at: '2021-01-07'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +88,6 @@ extent:
   - type: issue
     reference_from: '1'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

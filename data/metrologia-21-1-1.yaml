@@ -1,118 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia2111
-title:
-- content: Hyperfine Spectrum of a Ro-Vibrational Line of<sup>127</sup>I<sup>129</sup>I
-    at 612 nm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/21/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/21/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 21 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Hyperfine Spectrum of a Ro-Vibrational Line of <sup>127</sup>I<sup>129</sup>I
+    at 612 nm
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/21/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/21/1/002
+docidentifier:
+- content: Metrologia 21 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/21/1/002
+- content: 10.1088/0026-1394/21/1/002
   type: doi
 date:
 - type: published
-  value: '1985-01-01'
+  at: '1985-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wu Cheng-jiu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: I. Institut für Experimentalphysik, Universität Hamburg, D-2000
             Hamburg, Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Gaida
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: I. Institut für Experimentalphysik, Universität Hamburg, D-2000
             Hamburg, Federal Republic of Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Bialas
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: I. Institut für Experimentalphysik, Universität Hamburg, D-2000
             Hamburg, Federal Republic of Germany
-  role:
-  - type: author
-revdate: '1985-01-01'
 abstract:
-- content: "<p>The hyperfine spectrum of<sup>127</sup>I<sup>129</sup>I molecules in
-    the wavelength range of the Doppler-broadened<sup>22</sup>Ne 3s<sub>2</sub>-2p<sub>6</sub>
-    line of the<sup>3</sup>He-<sup>22</sup>Ne laser at 612 nm has been observed by
-    modified intra-cavity saturated-absorption spectroscopy.</p><p>Frequency-offset
-    locking was used for determination of the frequency separations between the hf
-    components. In addition, we have also measured the absorption coefficient for
-    this transition.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The hyperfine spectrum of <sup>127</sup>I<sup>129</sup>I molecules in the wavelength range of the Doppler-broadened <sup>22</sup>Ne 3s<sub>2</sub>-2p<sub>6</sub> line of the <sup>3</sup>He-<sup>22</sup>Ne laser at 612 nm has been observed by modified intra-cavity saturated-absorption spectroscopy.</p>
+    <p>Frequency-offset locking was used for determination of the frequency separations between the hf components. In addition, we have also measured the absorption coefficient for this transition.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1985'
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Hyperfine Spectrum of a Ro-Vibrational Line of<sup>127</sup>I<sup>129</sup>I
+    - language: en
+      script: Latn
+      content: Hyperfine Spectrum of a Ro-Vibrational Line of <sup>127</sup>I<sup>129</sup>I
         at 612 nm
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1985-01-01'
+      at: '1985-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +103,6 @@ extent:
     reference_from: '1'
     reference_to: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,100 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia563035002
-title:
-- content: Homogeneous data clusters in interlaboratory studies
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ab1559
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ab1559
-  type: doi
 type: article
-docid:
-- id: Metrologia 56 3 035002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Homogeneous data clusters in interlaboratory studies
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ab1559
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ab1559
+docidentifier:
+- content: Metrologia 56 3 035002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ab1559
+- content: 10.1088/1681-7575/ab1559
   type: doi
 date:
 - type: published
-  value: '2019-05-10'
+  at: '2019-05-10'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew L Rukhin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, United States of America
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, United States of America
-  role:
-  - type: author
-revdate: '2019-05-10'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division
 abstract:
-- content: Abstract<p>There are many interlaboratory studies for which the commonly
-    employed random effects model is not adequate as the heterogeneous discrepant
-    data indicate quite different (larger) variances for some participating laboratories.
-    Motivated by such examples we provide methods to choose a more flexible paradigm
-    with a number of different clusters each consisting of laboratories having the
-    same heterogeneity variance. Then the largest homogeneous (consistent) data subset
-    corresponds to zero heteroscedasticity. The paper is focused on its determination
-    when all heterogeneous observations are put into one class so that there is just
-    one positive heterogeneity variance. The likelihood based procedures which determine
-    the clusters are obtained in the general case. A Bayes rule against a non-informative
-    prior is suggested for model averaging.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>There are many interlaboratory studies for which the commonly employed random effects model is not adequate as the heterogeneous discrepant data indicate quite different (larger) variances for some participating laboratories. Motivated by such examples we provide methods to choose a more flexible paradigm with a number of different clusters each consisting of laboratories having the same heterogeneity variance. Then the largest homogeneous (consistent) data subset corresponds to zero heteroscedasticity. The paper is focused on its determination when all heterogeneous observations are put into one class so that there is just one positive heterogeneity variance. The likelihood based procedures which determine the clusters are obtained in the general case. A Bayes rule against a non-informative prior is suggested for model averaging.</p>
 copyright:
-- owner:
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2019'
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Homogeneous data clusters in interlaboratory studies
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Homogeneous data clusters in interlaboratory studies
     date:
     - type: ppub
-      value: '2019-06-01'
+      at: '2019-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Homogeneous data clusters in interlaboratory studies
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Homogeneous data clusters in interlaboratory studies
     date:
     - type: epub
-      value: '2019-05-10'
+      at: '2019-05-10'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +85,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

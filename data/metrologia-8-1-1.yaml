@@ -1,37 +1,33 @@
 ---
-schema-version: v1.2.9
-id: Metrologia811
-title:
-- content: An Improved Oxygen Vapor Pressure Representation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/8/1/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/8/1/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 8 1 1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An Improved Oxygen Vapor Pressure Representation
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/8/1/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/8/1/002
+docidentifier:
+- content: Metrologia 8 1 1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/8/1/002
+- content: 10.1088/0026-1394/8/1/002
   type: doi
 date:
 - type: published
-  value: '1972-01-01'
+  at: '1972-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Prydz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -40,11 +36,11 @@ contributor:
     - organization:
         name:
         - content: Norsk Hydro Inc., Bygdøy álle 2, Oslo 2, Norway
-  role:
-  - type: author
-revdate: '1972-01-01'
 abstract:
-- content: <p>Oxygen vapor pressure measurements reported in the literature have been
+- language: en
+  script:
+  - Latn
+  content: <p>Oxygen vapor pressure measurements reported in the literature have been
     critically evaluated and the most consistent and reliable of the data sets have
     been correlated with a vapor pressure equation. However, the data were first adjusted
     for temperature scale differences to conform with the IPTS-68 temperature scale.
@@ -53,39 +49,31 @@ abstract:
     equation are compared to corresponding values calculated from other published
     oxygen vapor pressure equations. A new value for the critical pressure of oxygen
     of 5.043<sub>2</sub> MN/m<sup>2</sup> (49.77<sub>2</sub> atm) is given.</p>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1972'
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An Improved Oxygen Vapor Pressure Representation
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An Improved Oxygen Vapor Pressure Representation
     date:
     - type: ppub
-      value: '1972-01-01'
+      at: '1972-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '1'
     reference_to: '4'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

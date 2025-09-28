@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S130
-title:
-- content: On estimation of distribution temperature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S26
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S26
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S130
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: On estimation of distribution temperature
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S26
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S26
+docidentifier:
+- content: Metrologia 43 2 S130
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S26
+- content: 10.1088/0026-1394/43/2/S26
   type: doi
 date:
 - type: published
-  value: '2006-03-29'
+  at: '2006-03-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Rosenkranz
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen (BEV), Arltgasse 35, A-1160,
             Wien, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Matus
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bundesamt für Eich- und Vermessungswesen (BEV), Arltgasse 35, A-1160,
             Wien, Austria
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M L Rastello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Elettrotecnico Nazionale (IEN), Strada delle Cacce 91,
             I-10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2006-03-29'
 abstract:
-- content: "<p>Distribution temperature is a concept that assigns a temperature to
+- language: en
+  script:
+  - Latn
+  content: "<p>Distribution temperature is a concept that assigns a temperature to
     radiation from an incandescent lamp, which has a relative spectral power distribution
     reasonably close to that of a blackbody radiator. Different least square estimation
     methods for determination of distribution temperature are compared. Their applicability
@@ -81,53 +73,42 @@ abstract:
     lead to feasible results only if the relative uncertainties of spectral irradiance
     data over the chosen wavelength region can be presumed constant. Otherwise, the
     use of this estimation method weighted with the relative uncertainties is suggested.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: On estimation of distribution temperature
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On estimation of distribution temperature
     date:
     - type: epub
-      value: '2006-03-29'
+      at: '2006-03-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: On estimation of distribution temperature
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: On estimation of distribution temperature
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +119,6 @@ extent:
     reference_from: S130
     reference_to: S134
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

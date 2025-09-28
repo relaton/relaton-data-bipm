@@ -1,102 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia531A07015
-title:
-- content: Force supplementary comparison EURAMET.M.F-S3 (1 kN, 2 kN, 5 kN, and 10
-    kN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/1A/07015
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/1A/07015
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 1A 07015
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Force supplementary comparison EURAMET.M.F-S3 (1 kN, 2 kN, 5 kN, and 10
+    kN)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/1A/07015
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/1A/07015
+docidentifier:
+- content: Metrologia 53 1A 07015
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/1A/07015
+- content: 10.1088/0026-1394/53/1A/07015
   type: doi
 date:
 - type: published
-  value: '2016-01-01'
+  at: '2016-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Knott
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory (NPL), Hampton Road, Teddington, United
             Kingdom, TW11 0LW
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R R Machado
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Metrology, Quality and Technology (INMETRO),
             Force Laboratory, Av. N. Sra. das Graças, 50 Duque de Caxias, RJ 25250-020,
             Brazil
-  role:
-  - type: author
-revdate: '2016-01-01'
 abstract:
-- content: |-
-    <p></p><p>This report describes EURAMET supplementary comparison EURAMET.M.F-S3, a comparison between the 20 kN force standard machine of NPL and the 10 kN force standard machine of INMETRO, at generated forces of 1 kN, 2 kN, 5 kN, and 10 kN, in both tension and compression, with both incremental and decremental loading. Two different transducers were used and the force-time profile was strictly controlled, to minimise effects of creep. At all four force levels, the results demonstrate that there is no evidence that either machine fails to generate forces in accordance with its CMC.</p><p></p><p>Main text</p><p>
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p></p>
+    <p>This report describes EURAMET supplementary comparison EURAMET.M.F-S3, a comparison between the 20 kN force standard machine of NPL and the 10 kN force standard machine of INMETRO, at generated forces of 1 kN, 2 kN, 5 kN, and 10 kN, in both tension and compression, with both incremental and decremental loading. Two different transducers were used and the force-time profile was strictly controlled, to minimise effects of creep. At all four force levels, the results demonstrate that there is no evidence that either machine fails to generate forces in accordance with its CMC.</p>
+    <p></p>
+    <p><bold>Main text</bold></p>
+    <p>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/M/F-S3/EURAMET.M.F-S3.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Force supplementary comparison EURAMET.M.F-S3 (1 kN, 2 kN, 5 kN, and
+    - language: en
+      script: Latn
+      content: Force supplementary comparison EURAMET.M.F-S3 (1 kN, 2 kN, 5 kN, and
         10 kN)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-01-01'
+      at: '2016-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +98,6 @@ extent:
   - type: issue
     reference_from: 1A
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

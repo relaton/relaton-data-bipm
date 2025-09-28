@@ -1,72 +1,62 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10273
-title:
-- content: A Projected Refractive Index Thermometer for the Range 2–20 K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/10/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/2/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 2 73
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Projected Refractive Index Thermometer for the Range 2–20 K
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/2/006
+docidentifier:
+- content: Metrologia 10 2 73
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/2/006
+- content: 10.1088/0026-1394/10/2/006
   type: doi
 date:
 - type: published
-  value: '1974-04-01'
+  at: '1974-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A R Colclough
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1974-04-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Projected Refractive Index Thermometer for the Range 2–20 K
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A Projected Refractive Index Thermometer for the Range 2–20 K
     date:
     - type: ppub
-      value: '1974-04-01'
+      at: '1974-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -77,6 +67,6 @@ extent:
     reference_from: '73'
     reference_to: '74'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

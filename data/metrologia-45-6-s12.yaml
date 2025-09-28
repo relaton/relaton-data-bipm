@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia456S12
-title:
-- content: Improvements to the NIST network time protocol servers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/6/S03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/6/S03
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 6 S12
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Improvements to the NIST network time protocol servers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/6/S03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/6/S03
+docidentifier:
+- content: Metrologia 45 6 S12
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/6/S03
+- content: 10.1088/0026-1394/45/6/S03
   type: doi
 date:
 - type: published
-  value: '2008-12-01'
+  at: '2008-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Judah Levine
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Time and Frequency Division, National Institute of Standards and
             Technology, Boulder, CO 80305, USA
-  role:
-  - type: author
-revdate: '2008-12-01'
 abstract:
-- content: "<p>The National Institute of Standards and Technology (NIST) operates
+- language: en
+  script:
+  - Latn
+  content: "<p>The National Institute of Standards and Technology (NIST) operates
     22 network time servers at various locations. These servers respond to requests
     for time in a number of different formats and provide time stamps that are directly
     traceable to the NIST atomic clock ensemble in Boulder. The link between the servers
@@ -52,53 +48,42 @@ abstract:
     I will discuss improvements to the ACTS servers and to the time servers themselves.
     These improvements have resulted in an improvement of almost an order of magnitude
     in the performance of the system.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improvements to the NIST network time protocol servers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improvements to the NIST network time protocol servers
     date:
     - type: epub
-      value: '2008-12-05'
+      at: '2008-12-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Improvements to the NIST network time protocol servers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Improvements to the NIST network time protocol servers
     date:
     - type: ppub
-      value: '2008-12-01'
+      at: '2008-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +94,6 @@ extent:
     reference_from: S12
     reference_to: S22
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

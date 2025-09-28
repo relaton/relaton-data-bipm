@@ -1,109 +1,101 @@
 ---
-schema-version: v1.2.9
-id: Metrologia593038002
-title:
-- content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
-    the problem’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac5434
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac5434
-  type: doi
 type: article
-docid:
-- id: Metrologia 59 3 038002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
+    the problem’'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac5434
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac5434
+docidentifier:
+- content: Metrologia 59 3 038002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac5434
+- content: 10.1088/1681-7575/ac5434
   type: doi
 date:
 - type: published
-  value: '2022-05-13'
+  at: '2022-05-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul Quincey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2022-05-13'
 abstract:
-- content: "Abstract<p>The comment by Leonard (2022 Metrologia \n 59 038001) primarily
-    proposes that if angle is treated as a base quantity, with the radian as its base
-    unit, it would be wrong to change the units for torque (from N m to J rad<sup>−1</sup>),
-    angular momentum (from J s to J s rad<sup>−1</sup>) and moment of inertia (from
-    kg m<sup>2</sup> to kg m<sup>2</sup> rad<sup>−2</sup>), as was proposed in the
-    letter being commented on (Quincey 2021 Metrologia \n 58 053002). This reply clarifies
-    the situation by looking directly at the consequences of the two proposals. Apart
-    from the comfort of retaining the familiar units for these quantities, the benefit
-    of Leonard’s proposal would be the preservation of a few favoured equations used
-    in specific situations, while the general relationships between many physical
-    quantities would need to change. The revised units proposed in the letter would
-    leave all the established general relationships unchanged, and are the best option
-    for allowing the longstanding problem of angles being wrongly treated as numbers
-    within the SI to be resolved. This reply includes some historical context, which
-    describes how Euler implicitly introduced the idea that ‘the radian is another
-    name for the number one’ into the mathematics used for rotating objects, at a
-    time long before anyone had thought about unit systems.</p>"
-  script:
+- script:
   - Latn
-  format: text/html
+  content: "<title>Abstract</title>\n<p>The comment by Leonard (2022 <italic toggle=\"yes\">Metrologia</italic>
+    \n               <bold>59</bold> 038001) primarily proposes that if angle is treated
+    as a base quantity, with the radian as its base unit, it would be wrong to change
+    the units for torque (from N m to J rad<sup>−1</sup>), angular momentum (from
+    J s to J s rad<sup>−1</sup>) and moment of inertia (from kg m<sup>2</sup> to kg
+    m<sup>2</sup> rad<sup>−2</sup>), as was proposed in the letter being commented
+    on (Quincey 2021 <italic toggle=\"yes\">Metrologia</italic> \n               <bold>58</bold>
+    053002). This reply clarifies the situation by looking directly at the consequences
+    of the two proposals. Apart from the comfort of retaining the familiar units for
+    these quantities, the benefit of Leonard’s proposal would be the preservation
+    of a few favoured equations used in specific situations, while the general relationships
+    between many physical quantities would need to change. The revised units proposed
+    in the letter would leave all the established general relationships unchanged,
+    and are the best option for allowing the longstanding problem of angles being
+    wrongly treated as numbers within the SI to be resolved. This reply includes some
+    historical context, which describes how Euler implicitly introduced the idea that
+    ‘the radian is another name for the number one’ into the mathematics used for
+    rotating objects, at a time long before anyone had thought about unit systems.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2022'
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
+    - script: Latn
+      content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
         the problem’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2022-06-01'
+      at: '2022-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
+    - script: Latn
+      content: 'Reply to Comment on ‘Angles in the SI: a detailed proposal for solving
         the problem’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2022-05-13'
+      at: '2022-05-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +103,6 @@ extent:
   - type: issue
     reference_from: '3'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia432S22
-title:
-- content: The realization and the dissemination of thermodynamic temperature scales
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/2/S05
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/2/S05
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 2 S22
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The realization and the dissemination of thermodynamic temperature scales
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/2/S05
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/2/S05
+docidentifier:
+- content: Metrologia 43 2 S22
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/2/S05
+- content: 10.1088/0026-1394/43/2/S05
   type: doi
 date:
 - type: published
-  value: '2006-03-23'
+  at: '2006-03-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H W Yoon
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
-  - type: author
-revdate: '2006-03-23'
 abstract:
-- content: "<p>Since the establishment of the International Temperature Scale of 1990
+- language: en
+  script:
+  - Latn
+  content: "<p>Since the establishment of the International Temperature Scale of 1990
     (ITS-90), much progress has been made in the development of radiometers and blackbody
     sources. Cryogenic electrical-substitution radiometry is widely used in detector
     and radiometer calibrations, and stable, high-temperature metal–carbon eutectic
@@ -51,55 +47,44 @@ abstract:
     thermodynamic temperatures. These thermodynamic temperatures can be measured with
     lower final uncertainties than the ITS-90 derived temperatures, and these developments
     will directly impact future international temperature scales.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The realization and the dissemination of thermodynamic temperature
+    - language: en
+      script: Latn
+      content: The realization and the dissemination of thermodynamic temperature
         scales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-03-23'
+      at: '2006-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The realization and the dissemination of thermodynamic temperature
+    - language: en
+      script: Latn
+      content: The realization and the dissemination of thermodynamic temperature
         scales
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-04-01'
+      at: '2006-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +95,6 @@ extent:
     reference_from: S22
     reference_to: S26
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

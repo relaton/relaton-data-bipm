@@ -1,147 +1,129 @@
 ---
-schema-version: v1.2.9
-id: Metrologia304275
-title:
-- content: 'SOURCE: The Solar Ultraviolet Radiation and Correlative Emissions Mission'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/4/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/4/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 4 275
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'SOURCE: The Solar Ultraviolet Radiation and Correlative Emissions Mission'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/4/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/4/011
+docidentifier:
+- content: Metrologia 30 4 275
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/4/011
+- content: 10.1088/0026-1394/30/4/011
   type: doi
 date:
 - type: published
-  value: '1993-01-01'
+  at: '1993-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P L Smith
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Harvard-Smithsonian Center for Astrophysics, Cambridge, MA 02138,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Lean
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Space Science Division, Naval Research Laboratory, Washington,
             DC 20375, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A B Christensen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: The Aerospace Corporation, Los Angeles, CA 90009, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K L Harvey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Solar Physics Research Corp., Tucson, AZ 85718, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D L Judge
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA/Marshall Space Flight Center, Huntsville, AL 35812, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R L Moore
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Space Sciences Center, University of Southern California, Los Angeles,
             CA 90089, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R Torr
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NASA/Marshall Space Flight Center, Huntsville, AL 35812, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T N Woods
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: High Altitude Observatory, Boulder, CO 80307, USA
-  role:
-  - type: author
-revdate: '1993-01-01'
 abstract:
-- content: "<p>The Solar Ultraviolet Radiation and Correlative Emissions (SOURCE)
+- language: en
+  script:
+  - Latn
+  content: "<p>The Solar Ultraviolet Radiation and Correlative Emissions (SOURCE)
     mission is intended to advance our ability to specify the spectral irradiance
     of the Sun in the extreme ultraviolet (EUV) wavelength range through simultaneous,
     radiometrically accurate measurements of the solar EUV spectral irradiance and
@@ -149,40 +131,32 @@ abstract:
     with the EUV flux. The data will be used in combination with empirical modelling
     to develop and validate a more accurate system of proxy, or surrogate, indices
     for the solar EUV flux.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1993'
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'SOURCE: The Solar Ultraviolet Radiation and Correlative Emissions
+    - language: en
+      script: Latn
+      content: 'SOURCE: The Solar Ultraviolet Radiation and Correlative Emissions
         Mission'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1993-01-01'
+      at: '1993-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -193,6 +167,6 @@ extent:
     reference_from: '275'
     reference_to: '277'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

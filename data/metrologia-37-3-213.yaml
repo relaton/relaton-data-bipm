@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia373213
-title:
-- content: Mathematical model to approximate the response of a Zener cell output under
-    varying environmental conditions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/3/5
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/3/5
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 3 213
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Mathematical model to approximate the response of a Zener cell output under
+    varying environmental conditions
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/3/5
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/3/5
+docidentifier:
+- content: Metrologia 37 3 213
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/3/5
+- content: 10.1088/0026-1394/37/3/5
   type: doi
 date:
 - type: published
-  value: '2000-06-01'
+  at: '2000-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L X Liu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T Y Sim
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V K S Tan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H A Chua
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K H Lam
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PSB
-  role:
-  - type: author
-revdate: '2000-06-01'
 abstract:
-- content: "<p>Fifteen national and territorial metrology institutes in the Asia-Pacific
+- language: en
+  script:
+  - Latn
+  content: "<p>Fifteen national and territorial metrology institutes in the Asia-Pacific
     region have taken part in a comparison of dc voltage coordinated by the National
     Measurement Centre of the Singapore Productivity and Standards Board. A Zener
     cell was used as the travelling standard in the comparison. A mathematical model
@@ -105,40 +93,32 @@ abstract:
     of time, temperature, and humidity on the Zener voltage. The results of comparisons
     with Josephson array voltage standards (JAVSs) in seven different laboratories
     agree well with data predicted by the model.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Mathematical model to approximate the response of a Zener cell output
+    - language: en
+      script: Latn
+      content: Mathematical model to approximate the response of a Zener cell output
         under varying environmental conditions
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-06-01'
+      at: '2000-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -149,6 +129,6 @@ extent:
     reference_from: '213'
     reference_to: '218'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

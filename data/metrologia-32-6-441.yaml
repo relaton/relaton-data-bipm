@@ -1,103 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326441
-title:
-- content: 'The double-heatpipe black body: a high-accuracy standard source of spectral
-    irradiance for measurements of T − T<sub>90</sub>'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/7
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/7
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 441
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The double-heatpipe black body: a high-accuracy standard source of spectral
+    irradiance for measurements of <italic>T</italic> − <italic>T</italic><sub>90</sub>'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/7
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/7
+docidentifier:
+- content: Metrologia 32 6 441
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/7
+- content: 10.1088/0026-1394/32/6/7
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Stock
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Fischer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Friedrich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H J Jung
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Wende
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a large-area
+- language: en
+  script:
+  - Latn
+  content: "<p>The Physikalisch-Technische Bundesanstalt (PTB) has developed a large-area
     black body (LABB) for accurate realization of the spectral irradiance in the red
     and near-infrared spectral range. Its temperature is measured by standard Pt-resistance
     thermometers according to the International Temperature Scale of 1990 (ITS-90).
@@ -108,41 +96,34 @@ abstract:
     uncertainty of the temperature scale. This allows the ITS-90 to be checked by
     a comparison of the LABB with a cryogenic radiometer using calibrated filter radiometers
     as transfer standards. The thermodynamic temperatures obtained in the range 660
-    °C to 962 °C agree with T<sub>90</sub> within the combined 1σ uncertainties.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    °C to 962 °C agree with <italic>T</italic><sub>90</sub> within the combined 1σ
+    uncertainties.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The double-heatpipe black body: a high-accuracy standard source of
-        spectral irradiance for measurements of T − T<sub>90</sub>'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: 'The double-heatpipe black body: a high-accuracy standard source of
+        spectral irradiance for measurements of <italic>T</italic> − <italic>T</italic><sub>90</sub>'
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -153,6 +134,6 @@ extent:
     reference_from: '441'
     reference_to: '444'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

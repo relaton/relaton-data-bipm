@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia462S1
-title:
-- content: International framework of traceability for radiation dosimetry quantities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/2/S01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/2/S01
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 2 S1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: International framework of traceability for radiation dosimetry quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/2/S01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/2/S01
+docidentifier:
+- content: Metrologia 46 2 S1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/2/S01
+- content: 10.1088/0026-1394/46/2/S01
   type: doi
 date:
 - type: published
-  value: '2009-03-20'
+  at: '2009-03-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Penelope J Allisy
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, 12 bis Grande Rue, 92312 Sèvres cedex,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David T Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BIPM, Pavillon de Breteuil, 12 bis Grande Rue, 92312 Sèvres cedex,
             France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pedro Andreo
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: 'Formerly at: IAEA, Division of Human Health, Wagramerstrasse 5,
             PO Box 100, A-1400 Vienna, Austria'
-  role:
-  - type: author
-revdate: '2009-03-20'
 abstract:
-- content: "<p>An overview of the international framework that supports the dissemination
+- language: en
+  script:
+  - Latn
+  content: "<p>An overview of the international framework that supports the dissemination
     of the dosimetry quantities for ionizing radiation is presented. The aim of international
     traceability is for confidence in such measurements around the world, which is
     particularly important for the equivalence of patient treatment regimes as required
@@ -81,53 +73,42 @@ abstract:
     in the field of dosimetry and shows how these can support the claims for the calibration
     and measurement capabilities of national metrology institutes represented in the
     BIPM key comparison database.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: International framework of traceability for radiation dosimetry quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International framework of traceability for radiation dosimetry quantities
     date:
     - type: epub
-      value: '2009-03-20'
+      at: '2009-03-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: International framework of traceability for radiation dosimetry quantities
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: International framework of traceability for radiation dosimetry quantities
     date:
     - type: ppub
-      value: '2009-04-01'
+      at: '2009-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +119,6 @@ extent:
     reference_from: S1
     reference_to: S8
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

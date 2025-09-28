@@ -1,64 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia414L19
+type: article
+schema_version: v1.4.1
 title:
-- content: A direct and sensitive method for positioning the centre of mass of a dropping
+- language: en
+  script: Latn
+  content: A direct and sensitive method for positioning the centre of mass of a dropping
     object at the optical centre of the enclosed corner cube in ballistic absolute
     gravimeters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/4/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/4/L01
-  type: doi
-type: article
-docid:
-- id: Metrologia 41 4 L19
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/4/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/4/L01
+docidentifier:
+- content: Metrologia 41 4 L19
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/4/L01
+- content: 10.1088/0026-1394/41/4/L01
   type: doi
 date:
 - type: published
-  value: '2004-05-07'
+  at: '2004-05-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A L Vitouchkine
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: JILA, National Institute of Standards and Technology and University
             of Colorado, Boulder, CO 80309-0440, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Faller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: JILA, National Institute of Standards and Technology and University
             of Colorado, Boulder, CO 80309-0440, USA
-  role:
-  - type: author
-revdate: '2004-05-07'
 abstract:
-- content: "<p>In a ballistic gravimeter, when a test body rotates during free fall
+- language: en
+  script:
+  - Latn
+  content: "<p>In a ballistic gravimeter, when a test body rotates during free fall
     an optical path error results, unless the centre of mass (COM) and the optical
     centre of the corner cube are exactly co-located. The error associated with the
     rotation needs to be held to 1 µGal (1 µGal = 10<sup>−8</sup> m s<sup>−2</sup>)
@@ -68,57 +62,46 @@ abstract:
     the distance between the COM of the dropping object and the optical centre of
     the corner cube embedded in it. We report here on a new direct and extremely sensitive
     method for minimizing the distance between the COM and the optical centre.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A direct and sensitive method for positioning the centre of mass of
+    - language: en
+      script: Latn
+      content: A direct and sensitive method for positioning the centre of mass of
         a dropping object at the optical centre of the enclosed corner cube in ballistic
         absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-05-07'
+      at: '2004-05-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A direct and sensitive method for positioning the centre of mass of
+    - language: en
+      script: Latn
+      content: A direct and sensitive method for positioning the centre of mass of
         a dropping object at the optical centre of the enclosed corner cube in ballistic
         absolute gravimeters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-08-01'
+      at: '2004-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +112,6 @@ extent:
     reference_from: L19
     reference_to: L21
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

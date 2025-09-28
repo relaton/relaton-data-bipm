@@ -1,46 +1,42 @@
 ---
-schema-version: v1.2.9
-id: Metrologia445365
-title:
-- content: The area under a curve specified by measured values
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/5/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/5/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 5 365
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The area under a curve specified by measured values
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/5/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/5/013
+docidentifier:
+- content: Metrologia 44 5 365
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/5/013
+- content: 10.1088/0026-1394/44/5/013
   type: doi
 date:
 - type: published
-  value: '2007-09-21'
+  at: '2007-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M G Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2007-09-21'
 abstract:
-- content: "<p>The problem is addressed of determining numerical approximations to
+- language: en
+  script:
+  - Latn
+  content: "<p>The problem is addressed of determining numerical approximations to
     the area under a curve specified by arbitrarily spaced data. A formulation of
     this problem is given in which the data are used to model the curve as a piecewise
     polynomial, each piece having the same degree. That piecewise function is integrated
@@ -54,53 +50,42 @@ abstract:
     associated with the measured values, frequently arising when the measured values
     are obtained using the same measuring instrument, is also treated. A statistical
     test is used to select a suitable polynomial degree.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The area under a curve specified by measured values
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The area under a curve specified by measured values
     date:
     - type: epub
-      value: '2007-09-21'
+      at: '2007-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: The area under a curve specified by measured values
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The area under a curve specified by measured values
     date:
     - type: ppub
-      value: '2007-10-01'
+      at: '2007-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -111,6 +96,6 @@ extent:
     reference_from: '365'
     reference_to: '378'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

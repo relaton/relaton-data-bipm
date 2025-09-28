@@ -1,102 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S141
-title:
-- content: GUM anniversary issue
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S141
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S141
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S141
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: GUM anniversary issue
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S141
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S141
+docidentifier:
+- content: Metrologia 51 4 S141
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S141
+- content: 10.1088/0026-1394/51/4/S141
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Maurice Cox
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Peter Harris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Teddington, Middlesex TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2014-07-11'
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: GUM anniversary issue
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: GUM anniversary issue
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: GUM anniversary issue
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: GUM anniversary issue
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +96,6 @@ extent:
     reference_from: S141
     reference_to: S143
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

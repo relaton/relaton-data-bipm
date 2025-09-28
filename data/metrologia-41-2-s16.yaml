@@ -1,113 +1,96 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S16
-title:
-- content: Density of mercury—measurements and reference values
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S16
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Density of mercury—measurements and reference values
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S02
+docidentifier:
+- content: Metrologia 41 2 S16
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S02
+- content: 10.1088/0026-1394/41/2/S02
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Bettin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB Braunschweig, 38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Fehlauer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB Braunschweig, 38116 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>After a brief overview of the use of the density of mercury in metrological
+- language: en
+  script:
+  - Latn
+  content: "<p>After a brief overview of the use of the density of mercury in metrological
     applications, the methods used for absolute and relative density measurements
     of mercury and the results obtained are reviewed. Influences exerted on the density
     by temperature, pressure, isotopic composition, and impurities are discussed,
     and the formulae recommended at present are listed. The problems arising from
     the use of the recommended substance properties for an unknown mercury sample
     are discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Density of mercury—measurements and reference values
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Density of mercury—measurements and reference values
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Density of mercury—measurements and reference values
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Density of mercury—measurements and reference values
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -118,6 +101,6 @@ extent:
     reference_from: S16
     reference_to: S23
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

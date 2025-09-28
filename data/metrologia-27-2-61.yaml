@@ -1,145 +1,126 @@
 ---
-schema-version: v1.2.9
-id: Metrologia27261
-title:
-- content: Argon Ion Laser with High Frequency Stability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/2/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/2/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 2 61
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Argon Ion Laser with High Frequency Stability
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/2/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/2/003
+docidentifier:
+- content: Metrologia 27 2 61
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/2/003
+- content: 10.1088/0026-1394/27/2/003
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V P Chebotayev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Thermophysics, Siberian Branch of the USSR Academy
             of Sciences, SU-630090 Novosibirsk, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V G Goldort
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Thermophysics, Siberian Branch of the USSR Academy
             of Sciences, SU-630090 Novosibirsk, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A N Goncharov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Thermophysics, Siberian Branch of the USSR Academy
             of Sciences, SU-630090 Novosibirsk, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A E Ohm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Thermophysics, Siberian Branch of the USSR Academy
             of Sciences, SU-630090 Novosibirsk, USSR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M N Skvortsov
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institute of Thermophysics, Siberian Branch of the USSR Academy
             of Sciences, SU-630090 Novosibirsk, USSR
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>The paper concerns the frequency stabilization of an Ar<sup>+</sup>
-    laser at 514.5 nm to saturated absorption resonances in an external luminescent
-    I<sub>2</sub> cell. With the laser frequency stabilised to the hyperfine component,
-    a<sub>2</sub>, a long-term stability Δv/v = 5 × 10<sup>-15</sup> has been achieved
-    for τ = 100 s. The laser linewidth is Δv ≃ 5 kHz. The factors affecting the frequency
-    reproducibility of an Ar<sup>+</sup> laser have been explored.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The paper concerns the frequency stabilization of an Ar<sup>+</sup>
+    laser at 514.5 nm to saturated absorption resonances in an external luminescent
+    I<sub>2</sub> cell. With the laser frequency stabilised to the hyperfine component,
+    <italic>a</italic><sub>2</sub>, a long-term stability Δ<italic>v/v</italic> =
+    5 × 10<sup>-15</sup> has been achieved for τ = 100 s. The laser linewidth is Δ<italic>v</italic>
+    ≃ 5 kHz. The factors affecting the frequency reproducibility of an Ar<sup>+</sup>
+    laser have been explored.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Argon Ion Laser with High Frequency Stability
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Argon Ion Laser with High Frequency Stability
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +131,6 @@ extent:
     reference_from: '61'
     reference_to: '64'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

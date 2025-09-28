@@ -1,155 +1,137 @@
 ---
-schema-version: v1.2.9
-id: Metrologia473179
-title:
-- content: Heat loss through connecting thermistor wires in a three-body graphite
-    calorimeter
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/3/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/3/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 3 179
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Heat loss through connecting thermistor wires in a three-body graphite
+    calorimeter
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/3/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/3/009
+docidentifier:
+- content: Metrologia 47 3 179
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/3/009
+- content: 10.1088/0026-1394/47/3/009
   type: doi
 date:
 - type: published
-  value: '2010-03-23'
+  at: '2010-03-23'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Radu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Solid State and Theoretical Physics, Faculty of Physics,
             Univ. ‘Al.I. Cuza’, Blvd Carol I, 11, 700506, Iasi, Romania
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A S Guerra
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ENEA—Istituto Nazionale di Metrologia delle Radiazioni Ionizzanti,
             Centro Ricerche Casaccia, Via Anguillarese, 301, 00060, S Maria di Galeria
             (Roma), Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Ionita
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: S.C. Explora Rx S.R.L., Computer Tomography Clinic, Str. Eternitate,
             45, 700304, Iasi, Romania
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: I Astefanoaei
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Solid State and Theoretical Physics, Faculty of Physics,
             Univ. ‘Al.I. Cuza’, Blvd Carol I, 11, 700506, Iasi, Romania
-  role:
-  - type: author
-revdate: '2010-03-23'
 abstract:
-- content: "<p>The main aim of this paper is to calculate the small but significant
+- language: en
+  script:
+  - Latn
+  content: "<p>The main aim of this paper is to calculate the small but significant
     amount of heat lost from a graphite calorimeter absorber through connecting thermistor
     wires during electrical calibration. Taking into account the electro-thermal interaction
     between the heating thermistor and its surrounding environment, a more realistic
     approach to the problem was developed and estimative numerical results were obtained.
     It was found that the wires contribute about 0.01% in extracting heat from the
-    calorimeter core (which corresponds to a correction factor \nk<sub>w</sub><sup>core</sup>
+    calorimeter core (which corresponds to a correction factor \n<italic>k</italic><sub>w</sub><sup>core</sup>
     = 0.9999). The total correction factor for heat loss through the connecting thermistor
     wires during the electrical calibration of the calorimeter (the total combined
     effect of the heater and the sensor leads due to conduction, radiation and Joule
-    effect) was determined: k<sub>w</sub> = 0.9989.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    effect) was determined: <italic>k</italic><sub>w</sub> = 0.9989.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Heat loss through connecting thermistor wires in a three-body graphite
+    - language: en
+      script: Latn
+      content: Heat loss through connecting thermistor wires in a three-body graphite
         calorimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-03-23'
+      at: '2010-03-23'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Heat loss through connecting thermistor wires in a three-body graphite
+    - language: en
+      script: Latn
+      content: Heat loss through connecting thermistor wires in a three-body graphite
         calorimeter
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-06-01'
+      at: '2010-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +142,6 @@ extent:
     reference_from: '179'
     reference_to: '191'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,124 +1,107 @@
 ---
-schema-version: v1.2.9
-id: Metrologia51140
-title:
-- content: Assessment of AERONET-OC L<sub>WN</sub> uncertainties
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/40
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/40
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 40
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Assessment of AERONET-OC <italic>L</italic><sub>WN</sub> uncertainties
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/40
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/40
+docidentifier:
+- content: Metrologia 51 1 40
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/40
+- content: 10.1088/0026-1394/51/1/40
   type: doi
 date:
 - type: published
-  value: '2013-12-16'
+  at: '2013-12-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Mathias Gergely
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ispra, Italy
         name:
         - content: Institute for Environment and Sustainability
         subdivision:
-        - content: European Commission, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Ispra, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission, Joint Research Centre
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Giuseppe Zibordi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ispra, Italy
         name:
         - content: Institute for Environment and Sustainability
         subdivision:
-        - content: European Commission, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Ispra, Italy
-  role:
-  - type: author
-revdate: '2013-12-16'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission, Joint Research Centre
 abstract:
-- content: Abstract<p>This study presents a detailed analysis of the uncertainties
-    affecting the normalized water-leaving radiance (L<sub>WN</sub>) from above-water
-    measurements performed within the context of the Ocean Colour component of the
-    Aerosol Robotic Network (AERONET-OC). The analysis, conducted in agreement with
-    the ‘Guide to the Expression of Uncertainty in Measurement’ (GUM), indicates uncertainties
-    of L<sub>WN</sub> markedly dependent on the optical properties of seawater for
-    a number of AERONET-OC sites located in different marine regions. Results obtained
-    for the Adriatic Sea site, characterized by a large variety of measurement conditions,
-    confirm previous uncertainties from an independent study indicating median values
-    of relative combined uncertainties of 5% in the blue–green part of the spectrum
-    and of approximately 7% in the red. Additional investigations show that the former
-    uncertainties can be reduced by ∼1% when restricting the determination of AERONET-OC
-    L<sub>WN</sub> to measurements performed at low sun zenith angle and low aerosol
-    optical thickness.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>This study presents a detailed analysis of the uncertainties affecting the normalized water-leaving radiance (<italic>L</italic><sub>WN</sub>) from above-water measurements performed within the context of the Ocean Colour component of the Aerosol Robotic Network (AERONET-OC). The analysis, conducted in agreement with the <italic>‘Guide to the Expression of Uncertainty in Measurement’</italic> (GUM), indicates uncertainties of <italic>L</italic><sub>WN</sub> markedly dependent on the optical properties of seawater  for a number of AERONET-OC sites located in different marine regions. Results obtained for the Adriatic Sea site, characterized by a large variety of measurement conditions, confirm previous uncertainties from an independent study indicating median values of relative combined uncertainties of 5% in the blue–green part of the spectrum and of approximately 7% in the red. Additional investigations show that the former uncertainties can be reduced by ∼1% when restricting the determination of AERONET-OC <italic>L</italic><sub>WN</sub> to measurements performed at low sun zenith angle and low aerosol optical thickness.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Assessment of AERONET-OC L<sub>WN</sub> uncertainties
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Assessment of AERONET-OC <italic>L</italic><sub>WN</sub> uncertainties
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Assessment of AERONET-OC L<sub>WN</sub> uncertainties
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Assessment of AERONET-OC <italic>L</italic><sub>WN</sub> uncertainties
     date:
     - type: epub
-      value: '2013-12-16'
+      at: '2013-12-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -129,6 +112,6 @@ extent:
     reference_from: '40'
     reference_to: '47'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

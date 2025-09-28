@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia485R1
-title:
-- content: Gravimetric methods for the preparation of standard gas mixtures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/5/R01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/5/R01
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 5 R1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Gravimetric methods for the preparation of standard gas mixtures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/5/R01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/5/R01
+docidentifier:
+- content: Metrologia 48 5 R1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/5/R01
+- content: 10.1088/0026-1394/48/5/R01
   type: doi
 date:
 - type: published
-  value: '2011-09-12'
+  at: '2011-09-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J T Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Science Division, National Physical Laboratory, Hampton
             Road, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G M Vargha
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Science Division, National Physical Laboratory, Hampton
             Road, Teddington, Middlesex TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A S Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Science Division, National Physical Laboratory, Hampton
             Road, Teddington, Middlesex TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2011-09-12'
 abstract:
-- content: "<p>The most widely used method for the preparation of primary standard
+- language: en
+  script:
+  - Latn
+  content: "<p>The most widely used method for the preparation of primary standard
     gas mixtures involves weighing the individual components into a cylinder. We present
     a new mathematical description of the method and its uncertainties. We use this
     to demonstrate how strategies for serial dilution can be identified that minimize
@@ -79,55 +71,47 @@ abstract:
     We review published reports of high accuracy gravimetry and give examples of relative
     uncertainties in the composition of standards approaching 1 part-per-million in
     the best cases and in the range of 100 to 1000 parts-per-million more typically.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gravimetric methods for the preparation of standard gas mixtures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gravimetric methods for the preparation of standard gas mixtures
     date:
     - type: epub
-      value: '2011-09-12'
+      at: '2011-09-12'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Gravimetric methods for the preparation of standard gas mixtures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Gravimetric methods for the preparation of standard gas mixtures
     date:
     - type: ppub
-      value: '2011-10-01'
+      at: '2011-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -138,6 +122,6 @@ extent:
     reference_from: R1
     reference_to: R9
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

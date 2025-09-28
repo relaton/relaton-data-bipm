@@ -1,89 +1,79 @@
 ---
-schema-version: v1.2.9
-id: Metrologia403S257
-title:
-- content: A mathematical model for the atomic clock error
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/3/305
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/3/305
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 3 S257
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A mathematical model for the atomic clock error
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/3/305
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/3/305
+docidentifier:
+- content: Metrologia 40 3 S257
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/3/305
+- content: 10.1088/0026-1394/40/3/305
   type: doi
 date:
 - type: published
-  value: '2003-06-01'
+  at: '2003-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Galleani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Sacerdote
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Dip. di Matematica, Università di Torino, Via Carlo Alberto 10,
             10123 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, 10135 Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Zucca
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2003-06-01'
 abstract:
-- content: "<p>A mathematical model for the clock phase and frequency deviation based
+- language: en
+  script:
+  - Latn
+  content: "<p>A mathematical model for the clock phase and frequency deviation based
     on the theory of stochastic differential equations (SDEs) is discussed. In particular,
     we consider a model that includes what are called the `white and random walk frequency
     noises' in time metrology, which give rise in a mathematical context to a Wiener
@@ -97,53 +87,42 @@ abstract:
     and the magnitude of the approximation is evaluated. The possible extension of
     the model to other noise sources, such as the flicker and white phase noises,
     is also sketched.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A mathematical model for the atomic clock error
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A mathematical model for the atomic clock error
     date:
     - type: epub
-      value: '2003-06-05'
+      at: '2003-06-05'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A mathematical model for the atomic clock error
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A mathematical model for the atomic clock error
     date:
     - type: ppub
-      value: '2003-06-01'
+      at: '2003-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -154,6 +133,6 @@ extent:
     reference_from: S257
     reference_to: S264
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,114 +1,99 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433L11
-title:
-- content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/N02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/N02
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 L11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/N02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/N02
+docidentifier:
+- content: Metrologia 43 3 L11
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/N02
+- content: 10.1088/0026-1394/43/3/N02
   type: doi
 date:
 - type: published
-  value: '2006-02-21'
+  at: '2006-02-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S R Jefferts
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Time and Frequency Division, 325 Broadway, Boulder, CO 80305,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Levi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: IEN—G Ferraris, Str. delle cacce 91, 10135 Torino, Italy
-  role:
-  - type: author
-revdate: '2006-02-21'
 abstract:
-- content: "<p>A recent evaluation of the accuracy of the National Physical Laboratory
-    (NPL) primary frequency standard NPL-CsF1 by K Szymaniec et al (2005 Metrologia
-    42 49–57) reported an overall frequency uncertainty of δν/ν<sub>0</sub> = 1 ×
-    10<sup>−15</sup>. This stated uncertainty includes a correction of a frequency
-    bias of δν/ν<sub>0</sub> = 8 × 10<sup>−16</sup> ± 3 × 10<sup>−16</sup> attributed
-    by the authors to microwave leakage. We believe that the stated cause of the frequency
-    bias, its magnitude and its stated uncertainty are in error.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: <p>A recent evaluation of the accuracy of the National Physical Laboratory
+    (NPL) primary frequency standard NPL-CsF1 by K Szymaniec <italic>et al</italic>
+    (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1088/0026-1394/42/1/007">2005
+    <italic>Metrologia</italic> <bold>42</bold> 49–57</ext-link>) reported an overall
+    frequency uncertainty of δν/ν<sub>0</sub> = 1 × 10<sup>−15</sup>. This stated
+    uncertainty includes a correction of a frequency bias of δν/ν<sub>0</sub> = 8
+    × 10<sup>−16</sup> ± 3 × 10<sup>−16</sup> attributed by the authors to microwave
+    leakage. We believe that the stated cause of the frequency bias, its magnitude
+    and its stated uncertainty are in error.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
     date:
     - type: epub
-      value: '2006-02-21'
+      at: '2006-02-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comment on ‘Evaluation of the primary frequency standard NPL-CsF1’
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -119,6 +104,6 @@ extent:
     reference_from: L11
     reference_to: L13
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

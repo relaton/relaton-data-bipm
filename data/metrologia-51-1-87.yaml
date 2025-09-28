@@ -1,101 +1,86 @@
 ---
-schema-version: v1.2.9
-id: Metrologia51187
-title:
-- content: Metrological characterization of a 1 N m torque standard machine at PTB,
-    Germany
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/51/1/87
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/1/87
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 1 87
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Metrological characterization of a 1 N m torque standard machine at PTB,
+    Germany
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/1/87
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/1/87
+docidentifier:
+- content: Metrologia 51 1 87
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/1/87
+- content: 10.1088/0026-1394/51/1/87
   type: doi
 date:
 - type: published
-  value: '2014-01-29'
+  at: '2014-01-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Röske
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
-        contact:
-        - address:
-            formatted_address: Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2014-01-29'
 abstract:
-- content: Abstract<p>A few years ago, a 1 N m deadweight torque standard machine
-    was developed, constructed and put into operation at PTB in Germany. Since then,
-    this machine has been used for measurements, but also, investigations of its stability
-    and reproducibility have been carried out. The machine utilizes calibrated stainless-steel
-    masses as weights and a lever made of Invar which is supported by an H-type air
-    bearing. The measurement range starts at 1 mN m. Depending on the weights used,
-    various torque steps are possible. The best expanded (k = 2) relative uncertainty
-    of measurement is 0.01%. In the following, technical details and metrological
-    characteristics of this machine will be given.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>A few years ago, a 1 N m deadweight torque standard machine was developed, constructed and put into operation at PTB in Germany. Since then, this machine has been used for measurements, but also, investigations of its stability and reproducibility have been carried out. The machine utilizes calibrated stainless-steel masses as weights and a lever made of Invar which is supported by an H-type air bearing. The measurement range starts at 1 mN m. Depending on the weights used, various torque steps are possible. The best expanded (<italic>k</italic> = 2) relative uncertainty of measurement is 0.01%. In the following, technical details and metrological characteristics of this machine will be given.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological characterization of a 1 N m torque standard machine at
+    - script: Latn
+      content: Metrological characterization of a 1 N m torque standard machine at
         PTB, Germany
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2014-02-01'
+      at: '2014-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological characterization of a 1 N m torque standard machine at
+    - script: Latn
+      content: Metrological characterization of a 1 N m torque standard machine at
         PTB, Germany
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2014-01-29'
+      at: '2014-01-29'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: '87'
     reference_to: '96'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

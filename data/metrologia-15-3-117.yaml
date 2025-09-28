@@ -1,100 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia153117
-title:
-- content: Iodine Saturation Spectroscopy for Multi-wavelength Stabilization of an
-    Argon/Krypton Ion Laser
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/15/3/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/15/3/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 15 3 117
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Iodine Saturation Spectroscopy for Multi-wavelength Stabilization of an
+    Argon/Krypton Ion Laser
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/15/3/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/15/3/001
+docidentifier:
+- content: Metrologia 15 3 117
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/15/3/001
+- content: 10.1088/0026-1394/15/3/001
   type: doi
 date:
 - type: published
-  value: '1979-07-01'
+  at: '1979-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Gill
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S J Bennett
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, UK
-  role:
-  - type: author
-revdate: '1979-07-01'
 abstract:
-- content: "<p>The hyperfine spectra of the B<sup>3</sup>π-X<sup>1</sup>Σ system of<sup>127</sup>I<sub>2</sub>
-    have been studied by intra-cavity saturation at 515 nm, 521 nm, 531 nm and 568
-    nm with an argon/krypton ion laser. Several previously unreported spectra have
-    been identified by analysis of the sidelight fluorescence from the iodine cell.
-    The laser has been stabilized to saturated components at each of these wavelengths
-    and wavelength values are reported with uncertainties of ±1 in 10<sup>7</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>The hyperfine spectra of the B <sup>3</sup>π-X <sup>1</sup>Σ system
+    of <sup>127</sup>I<sub>2</sub> have been studied by intra-cavity saturation at
+    515 nm, 521 nm, 531 nm and 568 nm with an argon/krypton ion laser. Several previously
+    unreported spectra have been identified by analysis of the sidelight fluorescence
+    from the iodine cell. The laser has been stabilized to saturated components at
+    each of these wavelengths and wavelength values are reported with uncertainties
+    of ±1 in 10<sup>7</sup>.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1979'
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Iodine Saturation Spectroscopy for Multi-wavelength Stabilization of
+    - language: en
+      script: Latn
+      content: Iodine Saturation Spectroscopy for Multi-wavelength Stabilization of
         an Argon/Krypton Ion Laser
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1979-07-01'
+      at: '1979-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +92,6 @@ extent:
     reference_from: '117'
     reference_to: '123'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

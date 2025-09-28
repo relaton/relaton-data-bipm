@@ -1,101 +1,89 @@
 ---
-schema-version: v1.2.9
-id: Metrologia473287
-title:
-- content: Comparison of three accurate methods for flicker measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/3/020
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/3/020
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 3 287
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of three accurate methods for flicker measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/3/020
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/3/020
+docidentifier:
+- content: Metrologia 47 3 287
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/3/020
+- content: 10.1088/0026-1394/47/3/020
   type: doi
 date:
 - type: published
-  value: '2010-04-29'
+  at: '2010-04-29'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Patrick Espel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais (LNE), 29 Avenue
             Roger Hennequin, 78197 Trappes Cedex, France
-  role:
-  - type: author
-revdate: '2010-04-29'
 abstract:
-- content: "<p>This paper describes precision measurement methods developed at the
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes precision measurement methods developed at the
     Laboratoire national de métrologie et d'essais (LNE) for the calibration of flickermeters.
     Three methods are compared: one method involves calculating the rms value of each
     ac voltage period of the modulated signal in the time domain whereas the other
     methods are based on spectral analysis. The absolute standard uncertainty (1σ)
     is estimated to be a few parts in 10<sup>5</sup> for all methods.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of three accurate methods for flicker measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of three accurate methods for flicker measurements
     date:
     - type: epub
-      value: '2010-04-29'
+      at: '2010-04-29'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of three accurate methods for flicker measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Comparison of three accurate methods for flicker measurements
     date:
     - type: ppub
-      value: '2010-06-01'
+      at: '2010-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +94,6 @@ extent:
     reference_from: '287'
     reference_to: '294'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

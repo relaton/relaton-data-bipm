@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia283203
-title:
-- content: Comparison Between Cryogenic Radiometry and the Predicted Quantum Efficiency
-    of pn Silicon Photodiode Light Traps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/28/3/019
-  type: src
-- content: https://doi.org/10.1088/0026-1394/28/3/019
-  type: doi
 type: article
-docid:
-- id: Metrologia 28 3 203
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison Between Cryogenic Radiometry and the Predicted Quantum Efficiency
+    of pn Silicon Photodiode Light Traps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/28/3/019
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/28/3/019
+docidentifier:
+- content: Metrologia 28 3 203
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/28/3/019
+- content: 10.1088/0026-1394/28/3/019
   type: doi
 date:
 - type: published
-  value: '1991-01-01'
+  at: '1991-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E F Zalewski
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Hughes Danbury Optical Systems, Inc., 100 Wooster Heights Road,
             Danbury, CT 06810, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C C Hoyt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Cambridge Research and Instrumentation, Inc., 21 Erie Street, Cambridge,
             MA 02139, USA
-  role:
-  - type: author
-revdate: '1991-01-01'
 abstract:
-- content: "<p>In an earlier publication a silicon photodiode self-calibration boot-strap
+- language: en
+  script:
+  - Latn
+  content: "<p>In an earlier publication a silicon photodiode self-calibration boot-strap
     technique was demonstrated in a 633 nm laser power intercomparison with a cryogenic
     radiometer. The experiment involved individual silicon photodiodes whose quantum
     efficiency was determined at 633 nm from quantum efficiency measurements made
@@ -70,40 +64,32 @@ abstract:
     detectors the average difference between the predicted absolute responsivity at
     633 nm and that measured by comparison to a cryogenic radiometer was 0,010% within
     a combined uncertainty of 0,025%.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1991'
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison Between Cryogenic Radiometry and the Predicted Quantum Efficiency
+    - language: en
+      script: Latn
+      content: Comparison Between Cryogenic Radiometry and the Predicted Quantum Efficiency
         of pn Silicon Photodiode Light Traps
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1991-01-01'
+      at: '1991-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -114,6 +100,6 @@ extent:
     reference_from: '203'
     reference_to: '206'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

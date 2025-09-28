@@ -1,90 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia24253
-title:
-- content: A New Standard for the Candela in the USSR
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/24/2/001
-  type: src
-- content: https://doi.org/10.1088/0026-1394/24/2/001
-  type: doi
 type: article
-docid:
-- id: Metrologia 24 2 53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A New Standard for the Candela in the USSR
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/24/2/001
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/24/2/001
+docidentifier:
+- content: Metrologia 24 2 53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/24/2/001
+- content: 10.1088/0026-1394/24/2/001
   type: doi
 date:
 - type: published
-  value: '1987-01-01'
+  at: '1987-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V I Sapritskii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Gosstandart, All-Union Research Institute for Optical and Physical
             Measurements (VNIIOFI), SU-117049 Moscow, Leninsky Prospekt 9, USSR
-  role:
-  - type: author
-revdate: '1987-01-01'
 abstract:
-- content: "<p>A method of constructing the standard for the newly defined luminous
-    intensity unit, the candela, in the USSR is described. The standard is based on
-    a non-selective radiometer/black-body (BB) combination. The temperature of the
-    radiating cavity of the BB is obtained by measuring spectral and integral components
-    of radiation at two different temperatures. The radiometer conversion coefficient
-    is not measured by a substituting winding, but with the help of the BB according
-    to the Stefan-Boltzmann law. The relative spectral sensitivity of the radiometer
-    is modified by the function V (λ) by means of a liquid filter. The unit of luminous
-    intensity is then transferred by the photometer to the light-intensity-measuring
-    lamps.</p><p>The standard has been metrologically certified and the (relative)
-    uncertainty of reproduction was found to be 4 × 10<sup>-3</sup>.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A method of constructing the standard for the newly defined luminous intensity unit, the candela, in the USSR is described. The standard is based on a non-selective radiometer/black-body (BB) combination. The temperature of the radiating cavity of the BB is obtained by measuring spectral and integral components of radiation at two different temperatures. The radiometer conversion coefficient is not measured by a substituting winding, but with the help of the BB according to the Stefan-Boltzmann law. The relative spectral sensitivity of the radiometer is modified by the function <italic>V</italic> (λ) by means of a liquid filter. The unit of luminous intensity is then transferred by the photometer to the light-intensity-measuring lamps.</p>
+    <p>The standard has been metrologically certified and the (relative) uncertainty of reproduction was found to be 4 × 10<sup>-3</sup>.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1987'
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A New Standard for the Candela in the USSR
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A New Standard for the Candela in the USSR
     date:
     - type: ppub
-      value: '1987-01-01'
+      at: '1987-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -95,6 +75,6 @@ extent:
     reference_from: '53'
     reference_to: '59'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

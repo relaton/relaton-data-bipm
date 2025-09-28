@@ -1,120 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia521L1
-title:
-- content: Proposals for nomenclature to clarify the expression of units for counting
-    quantities
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/1/L1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/1/L1
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 1 L1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Proposals for nomenclature to clarify the expression of units for counting
+    quantities
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/1/L1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/1/L1
+docidentifier:
+- content: Metrologia 52 1 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/1/L1
+- content: 10.1088/0026-1394/52/1/L1
   type: doi
 date:
 - type: published
-  value: '2015-01-19'
+  at: '2015-01-19'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Richard J C Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: National Physical Laboratory, Teddington, Middlesex,
+            TW11 0LW, UK
         name:
         - content: Analytical Science Division
-        contact:
-        - address:
-            formatted_address: National Physical Laboratory, Teddington, Middlesex,
-              TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul J Brewer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: National Physical Laboratory, Teddington, Middlesex,
+            TW11 0LW, UK
         name:
         - content: Analytical Science Division
-        contact:
-        - address:
-            formatted_address: National Physical Laboratory, Teddington, Middlesex,
-              TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2015-01-19'
 abstract:
-- content: Abstract<p>The explicit use of the number ‘1’ in quotient-based expressions
-    of units for intensive quantities involving counting, together with a full description
-    of the quantity being measured, is recommended as an improvement on product-based
-    expressions that omit the number 1 and do not fully explain the quantity presented.
-    The benefits of these recommendations over proposals for new ‘units’ as special
-    names for ‘one’ is also highlighted. In particular the nomenclature emphasizes
-    the aspect of pure number counting associated with these quantities and helps
-    to provide a distinction between intensive and extensive quantities which would
-    otherwise be lost, especially if the quantity being measured is not fully described.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The explicit use of the number ‘1’ in quotient-based expressions of units for intensive quantities involving counting, together with a full description of the quantity being measured, is recommended as an improvement on product-based expressions that omit the number 1 and do not fully explain the quantity presented. The benefits of these recommendations over proposals for new ‘units’ as special names for ‘one’ is also highlighted. In particular the nomenclature emphasizes the aspect of pure number counting associated with these quantities and helps to provide a distinction between intensive and extensive quantities which would otherwise be lost, especially if the quantity being measured is not fully described.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposals for nomenclature to clarify the expression of units for counting
+    - script: Latn
+      content: Proposals for nomenclature to clarify the expression of units for counting
         quantities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2015-02-01'
+      at: '2015-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Proposals for nomenclature to clarify the expression of units for counting
+    - script: Latn
+      content: Proposals for nomenclature to clarify the expression of units for counting
         quantities
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2015-01-19'
+      at: '2015-01-19'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +107,6 @@ extent:
     reference_from: L1
     reference_to: L3
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

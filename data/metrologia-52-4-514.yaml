@@ -1,115 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia524514
-title:
-- content: A mathematical model for the atomic clock error in case of jumps
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/4/514
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/4/514
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 4 514
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A mathematical model for the atomic clock error in case of jumps
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/4/514
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/4/514
+docidentifier:
+- content: Metrologia 52 4 514
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/4/514
+- content: 10.1088/0026-1394/52/4/514
   type: doi
 date:
 - type: published
-  value: '2015-06-16'
+  at: '2015-06-16'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Zucca
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Via Carlo Alberto 10, 10123 Turin, Italy
         name:
         - content: University of Torino
         subdivision:
-        - content: Department of Mathematics ‘G Peano
-        contact:
-        - address:
-            formatted_address: Via Carlo Alberto 10, 10123 Turin, Italy
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Mathematics ‘G Peano
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Tavella
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Strada delle Cacce 91, 10135 Turin, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRiM)
-        contact:
-        - address:
-            formatted_address: Strada delle Cacce 91, 10135 Turin, Italy
-  role:
-  - type: author
-revdate: '2015-06-16'
 abstract:
-- content: Abstract<p>We extend the mathematical model based on stochastic differential
-    equations describing the error gained by an atomic clock to the cases of anomalous
-    behavior including jumps and an increase of instability. We prove an exact iterative
-    solution that can be useful for clock simulation, prediction, and interpretation,
-    as well as for the understanding of the impact of clock error in the overall system
-    in which clocks may be inserted as, for example, the Global Satellite Navigation
-    Systems.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>We extend the mathematical model based on stochastic differential equations describing the error gained by an atomic clock to the cases of anomalous behavior including jumps and an increase of instability. We prove an exact iterative solution that can be useful for clock simulation, prediction, and interpretation, as well as for the understanding of the impact of clock error in the overall system in which clocks may be inserted as, for example, the Global Satellite Navigation Systems.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A mathematical model for the atomic clock error in case of jumps
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A mathematical model for the atomic clock error in case of jumps
     date:
     - type: ppub
-      value: '2015-08-01'
+      at: '2015-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A mathematical model for the atomic clock error in case of jumps
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A mathematical model for the atomic clock error in case of jumps
     date:
     - type: epub
-      value: '2015-06-16'
+      at: '2015-06-16'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +107,6 @@ extent:
     reference_from: '514'
     reference_to: '521'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

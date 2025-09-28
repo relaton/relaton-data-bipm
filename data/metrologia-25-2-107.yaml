@@ -1,118 +1,102 @@
 ---
-schema-version: v1.2.9
-id: Metrologia252107
-title:
-- content: 'Further Measurements of Thermodynamic Temperature Using a Total Radiation
-    Thermometer: the Range - 130°C to +60°C'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/25/2/008
-  type: src
-- content: https://doi.org/10.1088/0026-1394/25/2/008
-  type: doi
 type: article
-docid:
-- id: Metrologia 25 2 107
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Further Measurements of Thermodynamic Temperature Using a Total Radiation
+    Thermometer: the Range - 130°C to +60°C'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/25/2/008
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/25/2/008
+docidentifier:
+- content: Metrologia 25 2 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/25/2/008
+- content: 10.1088/0026-1394/25/2/008
   type: doi
 date:
 - type: published
-  value: '1988-01-01'
+  at: '1988-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Martin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory (NPL),
             Middlesex, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Quinn
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures (BIPM), Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B Chu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory (NPL),
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1988-01-01'
 abstract:
-- content: "<p>Brief descriptions are given of the design and operating principles
-    of the NPL total radiation thermometer. Further measurements of T-T<sub>68</sub>
-    are reported for the temperature range - 130 to +60°C and tabulated with previous
-    measurements made in the range -40 to +100°C. A graph is presented of all the
-    published measurements of T-T<sub>68</sub> from various independent primary thermometers
-    in the range 50 to 400 K, and their relevance to the construction of a reference
-    function for the proposed ITS-90 is discussed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Brief descriptions are given of the design and operating principles
+    of the NPL total radiation thermometer. Further measurements of <italic>T-T</italic><sub>68</sub>
+    are reported for the temperature range - 130 to +60°C and tabulated with previous
+    measurements made in the range -40 to +100°C. A graph is presented of all the
+    published measurements of <italic>T-T</italic><sub>68</sub> from various independent
+    primary thermometers in the range 50 to 400 K, and their relevance to the construction
+    of a reference function for the proposed ITS-90 is discussed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1988'
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Further Measurements of Thermodynamic Temperature Using a Total Radiation
+    - language: en
+      script: Latn
+      content: 'Further Measurements of Thermodynamic Temperature Using a Total Radiation
         Thermometer: the Range - 130°C to +60°C'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1988-01-01'
+      at: '1988-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '107'
     reference_to: '112'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

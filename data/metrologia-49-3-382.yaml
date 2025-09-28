@@ -1,145 +1,136 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493382
-title:
-- content: Pivotal methods in the propagation of distributions
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/382
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/382
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 382
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Pivotal methods in the propagation of distributions
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/382
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/382
+docidentifier:
+- content: Metrologia 49 3 382
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/382
+- content: 10.1088/0026-1394/49/3/382
   type: doi
 date:
 - type: published
-  value: '2012-04-24'
+  at: '2012-04-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Wang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO 80305, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division
-        contact:
-        - address:
-            formatted_address: Boulder, CO 80305, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jan Hannig
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Chapel Hill, NC 27599, USA
         name:
         - content: University of North Carolina
         subdivision:
-        - content: Department of Statistics and Operations Research
-        contact:
-        - address:
-            formatted_address: Chapel Hill, NC 27599, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Statistics and Operations Research
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Hari K Iyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Boulder, CO 80305, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division
-        contact:
-        - address:
-            formatted_address: Boulder, CO 80305, USA
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division
     - organization:
+        address:
+        - formatted_address: Fort Collins, CO 80523, USA
         name:
         - content: Colorado State University
         subdivision:
-        - content: Department of Statistics
-        contact:
-        - address:
-            formatted_address: Fort Collins, CO 80523, USA
-  role:
-  - type: author
-revdate: '2012-04-24'
+        - name:
+          - language: en
+            script: Latn
+            content: Department of Statistics
 abstract:
-- content: Abstract<p>We propose a method for assigning a probability distribution
-    to an input quantity. The distribution is used in a Monte Carlo method described
-    in Supplement 1 to the Guide to the Expression of Uncertainty in Measurement for
-    uncertainty evaluation. The proposed method provides an alternative to other methods,
-    such as the principle of maximum entropy and Bayesian procedure that were used
-    in Supplement 1 for the same purpose. The method is based on an exact or approximate
-    pivotal quantity and is easily applied. We use several examples from commonly
-    known models to illustrate the implementation of the proposed approach.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>We propose a method for assigning a probability distribution to an input quantity. The distribution is used in a Monte Carlo method described in Supplement 1 to the <italic>Guide to the Expression of Uncertainty in Measurement</italic> for uncertainty evaluation. The proposed method provides an alternative to other methods, such as the principle of maximum entropy and Bayesian procedure that were used in Supplement 1 for the same purpose. The method is based on an exact or approximate pivotal quantity and is easily applied. We use several examples from commonly known models to illustrate the implementation of the proposed approach.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pivotal methods in the propagation of distributions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Pivotal methods in the propagation of distributions
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Pivotal methods in the propagation of distributions
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Pivotal methods in the propagation of distributions
     date:
     - type: epub
-      value: '2012-04-24'
+      at: '2012-04-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -150,6 +141,6 @@ extent:
     reference_from: '382'
     reference_to: '389'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

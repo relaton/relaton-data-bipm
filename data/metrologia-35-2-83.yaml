@@ -1,132 +1,116 @@
 ---
-schema-version: v1.2.9
-id: Metrologia35283
+type: article
+schema_version: v1.4.1
 title:
-- content: Determination of the von Klitzing constant and the fine-structure constant
+- language: en
+  script: Latn
+  content: Determination of the von Klitzing constant and the fine-structure constant
     through a comparison of the quantized Hall resistance and the ohm derived from
     the NIST calculable capacitor
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/2/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/2/3
-  type: doi
-type: article
-docid:
-- id: Metrologia 35 2 83
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/2/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/2/3
+docidentifier:
+- content: Metrologia 35 2 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/2/3
+- content: 10.1088/0026-1394/35/2/3
   type: doi
 date:
 - type: published
-  value: '1998-04-01'
+  at: '1998-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Jeffery
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Elmquist
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Q Shields
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L H Lee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M E Cage
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S H Shields
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R F Dziuba
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1998-04-01'
 abstract:
-- content: "<p>This paper describes a recent determination of the von Klitzing constant
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper describes a recent determination of the von Klitzing constant
     and the fine-structure constant by comparisons of values of the ohm as defined
     in the International System of Units (SI), derived from the National Institute
     of Standards and Technology (NIST) calculable cross-capacitor, and values of the
@@ -138,43 +122,36 @@ abstract:
     value and theoretical expression for the magnetic moment anomaly of the electron,
     which has the smallest uncertainty of any value currently available, is consistent
     with both of these results. The new value exceeds the 1990 conventional value
-    of the von Klitzing constant R<sub>K-90</sub> by slightly more than twice the
-    relative standard uncertainty of the present measurement, which is 2.4 × 10<sup>-8</sup>.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of the von Klitzing constant <italic>R</italic><sub>K-90</sub> by slightly more
+    than twice the relative standard uncertainty of the present measurement, which
+    is 2.4 × 10<sup>-8</sup>.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Determination of the von Klitzing constant and the fine-structure constant
+    - language: en
+      script: Latn
+      content: Determination of the von Klitzing constant and the fine-structure constant
         through a comparison of the quantized Hall resistance and the ohm derived
         from the NIST calculable capacitor
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-04-01'
+      at: '1998-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -185,6 +162,6 @@ extent:
     reference_from: '83'
     reference_to: '96'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

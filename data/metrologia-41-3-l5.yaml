@@ -1,98 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia413L5
-title:
-- content: Coverage intervals and statistical coverage intervals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/3/L01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/3/L01
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 3 L5
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Coverage intervals and statistical coverage intervals
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/3/L01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/3/L01
+docidentifier:
+- content: Metrologia 41 3 L5
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/3/L01
+- content: 10.1088/0026-1394/41/3/L01
   type: doi
 date:
 - type: published
-  value: '2004-02-20'
+  at: '2004-02-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Willink
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Applied Mathematics, Industrial Research Ltd, PO Box 31-310, Lower
             Hutt, New Zealand
-  role:
-  - type: author
-revdate: '2004-02-20'
 abstract:
-- content: "<p>There is potential for confusion between the term ‘coverage interval’,
-    which is developing a common usage in metrology, and the term ‘statistical coverage
-    interval’, as defined in the Guide to the Expression of Uncertainty in Measurement.
-    The meaning of a ‘statistical coverage interval’ is explained further, and possible
-    courses of action are suggested.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>There is potential for confusion between the term ‘coverage interval’,
+    which is developing a common usage in metrology, and the term ‘statistical coverage
+    interval’, as defined in the <italic>Guide to the Expression of Uncertainty in
+    Measurement</italic>. The meaning of a ‘statistical coverage interval’ is explained
+    further, and possible courses of action are suggested.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Coverage intervals and statistical coverage intervals
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Coverage intervals and statistical coverage intervals
     date:
     - type: epub
-      value: '2004-02-20'
+      at: '2004-02-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Coverage intervals and statistical coverage intervals
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Coverage intervals and statistical coverage intervals
     date:
     - type: ppub
-      value: '2004-06-01'
+      at: '2004-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -103,6 +88,6 @@ extent:
     reference_from: L5
     reference_to: L6
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

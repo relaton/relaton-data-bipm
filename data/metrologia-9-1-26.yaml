@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia9126
-title:
-- content: Dew Points, Boiling Points and Triple Points of "Pure" and Impure Oxygen
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/9/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/9/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 9 1 26
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dew Points, Boiling Points and Triple Points of "Pure" and Impure Oxygen
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/9/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/9/1/007
+docidentifier:
+- content: Metrologia 9 1 26
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/9/1/007
+- content: 10.1088/0026-1394/9/1/007
   type: doi
 date:
 - type: published
-  value: '1973-01-01'
+  at: '1973-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Ancsin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1973-01-01'
 abstract:
-- content: "<p>Dew, boiling, and triple points have been realized for home-made and
+- language: en
+  script:
+  - Latn
+  content: "<p>Dew, boiling, and triple points have been realized for home-made and
     for commercial varieties of oxygen. Of the samples tested the home-made variety
     was found to be of higher purity than the commercial ones. The experimental results
     have also indicated that the dew points are much more reproducible than the boiling
@@ -62,39 +58,31 @@ abstract:
     may be irrelevant unless they relate to results obtained under adiabatic experimental
     conditions. Similarly, apparently good agreement between the results of different
     experiments can be fortuitous unless, again, they relate to adiabatic experiments.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1973'
+- from: '1973'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Dew Points, Boiling Points and Triple Points of "Pure" and Impure Oxygen
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Dew Points, Boiling Points and Triple Points of "Pure" and Impure Oxygen
     date:
     - type: ppub
-      value: '1973-01-01'
+      at: '1973-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +93,6 @@ extent:
     reference_from: '26'
     reference_to: '39'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

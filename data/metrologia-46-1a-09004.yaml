@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia461A09004
-title:
-- content: Final report on key comparison COOMET.AUV.A-K1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/46/1A/09004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/46/1A/09004
-  type: doi
 type: article
-docid:
-- id: Metrologia 46 1A 09004
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Final report on key comparison COOMET.AUV.A-K1
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/46/1A/09004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/46/1A/09004
+docidentifier:
+- content: Metrologia 46 1A 09004
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/46/1A/09004
+- content: 10.1088/0026-1394/46/1A/09004
   type: doi
 date:
 - type: published
-  value: '2009-01-01'
+  at: '2009-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Thomas Fedtke
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-38112 Braunschweig, Germany
-  role:
-  - type: author
-revdate: '2009-01-01'
 abstract:
-- content: |-
-    <p>A regional key comparison on primary standards for sound in air, COOMET.AUV.A-K1, based on pressure reciprocity calibration of laboratory standard microphones, was held in 2002. The results were submitted to and approved by the CCAUV in October 2008. Six national metrology institutes took part and the results of five of the laboratories have been linked to the corresponding CCAUV.A-K1 comparison. A generalized least squares approach was used to determine the degrees of equivalence for 14 acoustic frequencies and the results demonstrate agreement within the stated uncertainties.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A regional key comparison on primary standards for sound in air, COOMET.AUV.A-K1, based on pressure reciprocity calibration of laboratory standard microphones, was held in 2002. The results were submitted to and approved by the CCAUV in October 2008. Six national metrology institutes took part and the results of five of the laboratories have been linked to the corresponding  <ext-link ext-link-type="uri" xlink:href="http://www.iop.org/EJ/abstract/0026-1394/40/1A/09002/">CCAUV.A-K1</ext-link> comparison. A generalized least squares approach was used to determine the degrees of equivalence for 14 acoustic frequencies and the results demonstrate agreement within the stated uncertainties.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on  <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/AUV/A-K1/COOMET.AUV.A-K1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database  <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCAUV, according to the provisions of the CIPM Mutual Recognition Arrangement (MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2009'
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Final report on key comparison COOMET.AUV.A-K1
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Final report on key comparison COOMET.AUV.A-K1
     date:
     - type: ppub
-      value: '2009-01-01'
+      at: '2009-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +76,6 @@ extent:
     reference_from: '09004'
     reference_to: '09004'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

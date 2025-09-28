@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia346503
-title:
-- content: Metrological timelines in traceability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/6/6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/6/6
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 6 503
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Metrological timelines in traceability
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/6/6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/6/6
+docidentifier:
+- content: Metrologia 34 6 503
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/6/6
+- content: 10.1088/0026-1394/34/6/6
   type: doi
 date:
 - type: published
-  value: '1997-12-01'
+  at: '1997-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C D Ehrlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S D Rasberry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1997-12-01'
 abstract:
-- content: "<p>There is a growing requirement for an internationally accepted system
+- language: en
+  script:
+  - Latn
+  content: "<p>There is a growing requirement for an internationally accepted system
     of recognition of measurement capabilities and relationships within and among
     countries, to facilitate seamless global commerce and trade. As a result, metrologists
     world-wide have recently developed increased interest in the concept and definition
@@ -74,39 +68,31 @@ abstract:
     into play, and the original concept of traceability can become obscure. It is
     becoming common to hear the term ''equivalence'' used to describe these more complex
     measurement relationships.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metrological timelines in traceability
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Metrological timelines in traceability
     date:
     - type: ppub
-      value: '1997-12-01'
+      at: '1997-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -117,6 +103,6 @@ extent:
     reference_from: '503'
     reference_to: '514'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

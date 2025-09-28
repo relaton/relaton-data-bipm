@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia326497
-title:
-- content: Extension of a silicon-based detector spectral-responsivity scale into
-    the ultraviolet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/32/6/19
-  type: src
-- content: https://doi.org/10.1088/0026-1394/32/6/19
-  type: doi
 type: article
-docid:
-- id: Metrologia 32 6 497
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Extension of a silicon-based detector spectral-responsivity scale into
+    the ultraviolet
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/32/6/19
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/32/6/19
+docidentifier:
+- content: Metrologia 32 6 497
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/32/6/19
+- content: 10.1088/0026-1394/32/6/19
   type: doi
 date:
 - type: published
-  value: '1995-12-01'
+  at: '1995-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bittar
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MSL
-  role:
-  - type: author
-revdate: '1995-12-01'
 abstract:
-- content: "<p>A detector spectral-responsivity scale based on the intrinsic properties
+- language: en
+  script:
+  - Latn
+  content: "<p>A detector spectral-responsivity scale based on the intrinsic properties
     of radiometric-quality photodiodes has previously been established over the wavelength
     range 400 nm to 900 nm. Work to extend this range into the ultraviolet below 400
     nm is now being carried out. The new scale, which covers the 250 nm to 900 nm
@@ -52,40 +48,32 @@ abstract:
     of S1337-11 Hamamatsu photodiodes obtained by our measurements is compared with
     previous experimental and calculated values for the quantum yield of silicon in
     this wavelength region.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1995'
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Extension of a silicon-based detector spectral-responsivity scale into
+    - language: en
+      script: Latn
+      content: Extension of a silicon-based detector spectral-responsivity scale into
         the ultraviolet
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1995-12-01'
+      at: '1995-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -96,6 +84,6 @@ extent:
     reference_from: '497'
     reference_to: '500'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,105 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia10117
-title:
-- content: Le dispositif d'étalonnage primaire des microphones de laboratoire de l'Institut
-    National de Métrologie
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/10/1/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/10/1/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 10 1 17
+schema_version: v1.4.1
+title:
+- language: fr
+  script: Latn
+  content: Le dispositif d'étalonnage primaire des microphones de laboratoire de l'Institut
+    National de Métrologie
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/10/1/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/10/1/005
+docidentifier:
+- content: Metrologia 10 1 17
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/10/1/005
+- content: 10.1088/0026-1394/10/1/005
   type: doi
 date:
 - type: published
-  value: '1974-01-01'
+  at: '1974-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Riéty
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut National de Métrologie, Conservatoire National des Arts
             et Métiers, 292 rue Saint-Martin, 75141 Paris Cedex 03, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Lecollinet
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut National de Métrologie, Conservatoire National des Arts
             et Métiers, 292 rue Saint-Martin, 75141 Paris Cedex 03, France
-  role:
-  - type: author
-revdate: '1974-01-01'
 abstract:
-- content: "<p>The Institut National de Métrologie has set up an equipment for primary
-    pressure calibration of standard condenser microphones by the reciprocity technique
-    in a closed coupler.</p><p>Although this calibration method is very classical
-    and has been standardized in several countries, the accuracy of the measurement
-    has been improved by a careful investigation of electrical and acoustical errors.
-    A new method for the measurement of the acoustical impedance of microphones has
-    been specially defined and developed. The uncertainties resulting from the equipment
-    or from the measurement process have been greatly reduced owing to the high quality
-    of the apparatus.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The Institut National de Métrologie has set up an equipment for primary pressure calibration of standard condenser microphones by the reciprocity technique in a closed coupler.</p>
+    <p>Although this calibration method is very classical and has been standardized in several countries, the accuracy of the measurement has been improved by a careful investigation of electrical and acoustical errors. A new method for the measurement of the acoustical impedance of microphones has been specially defined and developed. The uncertainties resulting from the equipment or from the measurement process have been greatly reduced owing to the high quality of the apparatus.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1974'
+- from: '1974'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Le dispositif d'étalonnage primaire des microphones de laboratoire
+    - language: fr
+      script: Latn
+      content: Le dispositif d'étalonnage primaire des microphones de laboratoire
         de l'Institut National de Métrologie
-      language:
-      - fr
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1974-01-01'
+      at: '1974-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +90,6 @@ extent:
     reference_from: '17'
     reference_to: '34'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19137
-title:
-- content: Thermal Strain Effects in Standard Platinum Resistance Thermometers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/1/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/1/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 1 37
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermal Strain Effects in Standard Platinum Resistance Thermometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/1/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/1/007
+docidentifier:
+- content: Metrologia 19 1 37
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/1/007
+- content: 10.1088/0026-1394/19/1/007
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Robert J Berry
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Physics, National Research Council of Canada, Ottawa,
             Ontario, Canada, K1A OR6
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>Seventeen standard platinum resistance thermometers from five commercial
+- language: en
+  script:
+  - Latn
+  content: "<p>Seventeen standard platinum resistance thermometers from five commercial
     sources have been subjected to repeated thermal cycling over all or most of the
     range -196 °C to +650 °C to determine whether strain effects occur in the platinum
     sensors, and to what precision they affect temperature measurements. It is found
@@ -51,39 +47,31 @@ abstract:
     irreproducibility is usually between the equivalent of 0.1 m °C and 1.8 m °C near
     0 °C. It is concluded that thermal strain effects pose a small, but significant,
     limitation on the ultimate performance of most of these thermometers.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermal Strain Effects in Standard Platinum Resistance Thermometers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Thermal Strain Effects in Standard Platinum Resistance Thermometers
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '37'
     reference_to: '47'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

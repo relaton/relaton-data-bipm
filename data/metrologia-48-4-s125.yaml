@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia484S125
-title:
-- content: Role of the ITU-R in time scale definition and dissemination
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/4/S02
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/4/S02
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 4 S125
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Role of the ITU-R in time scale definition and dissemination
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/4/S02
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/4/S02
+docidentifier:
+- content: Metrologia 48 4 S125
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/4/S02
+- content: 10.1088/0026-1394/48/4/S02
   type: doi
 date:
 - type: published
-  value: '2011-07-20'
+  at: '2011-07-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ronald L Beard
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: ITU-R Working Party 7A, US Naval Research Laboratory, Washington,
             DC 20375, USA
-  role:
-  - type: author
-revdate: '2011-07-20'
 abstract:
-- content: "<p>The International Telecommunications Union (ITU) is the leading United
+- language: en
+  script:
+  - Latn
+  content: "<p>The International Telecommunications Union (ITU) is the leading United
     Nations agency for Radio and Telecommunications coordination worldwide. The process
     of managing overall frequency spectrum utilization is through Worldwide Radio
     Conferences, associated radiocommunication conferences and the activities of the
@@ -63,55 +59,47 @@ abstract:
     telecommunications and navigation systems utilize continuous timing for their
     data transmissions; consequently, deliberations have been ongoing within the ITU-R
     on the issue of modifying the definition of UTC to a continuous time scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Role of the ITU-R in time scale definition and dissemination
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Role of the ITU-R in time scale definition and dissemination
     date:
     - type: epub
-      value: '2011-07-20'
+      at: '2011-07-20'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Role of the ITU-R in time scale definition and dissemination
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Role of the ITU-R in time scale definition and dissemination
     date:
     - type: ppub
-      value: '2011-08-01'
+      at: '2011-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -122,6 +110,6 @@ extent:
     reference_from: S125
     reference_to: S131
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

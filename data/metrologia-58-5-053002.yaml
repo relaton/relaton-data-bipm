@@ -1,100 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585053002
-title:
-- content: 'Angles in the SI: a detailed proposal for solving the problem'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac023f
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac023f
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 053002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'Angles in the SI: a detailed proposal for solving the problem'
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac023f
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac023f
+docidentifier:
+- content: Metrologia 58 5 053002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac023f
+- content: 10.1088/1681-7575/ac023f
   type: doi
 date:
 - type: published
-  value: '2021-08-20'
+  at: '2021-08-20'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Paul Quincey
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, TW11 0LW, United Kingdom
-  role:
-  - type: author
-revdate: '2021-08-20'
 abstract:
-- content: 'Abstract<p>A recent letter [] proposed changing the dimensionless status
-    of the radian and steradian within the SI, while allowing the continued use of
-    the convention to set the angle 1 radian equal to the number 1 within equations,
-    providing this is done explicitly. This would bring the advantages of a physics-based,
-    consistent, and logically-robust unit system, with unambiguous units for all physical
-    quantities, for the first time, while any upheaval to familiar equations and routine
-    practice would be minimised. More details of this proposal are given here. The
-    only notable changes for typical end-users would be: improved units for the quantities
-    torque, angular momentum and moment of inertia; a statement of the convention
-    accompanying some familiar equations; and the use of different symbols for ℏ the
-    action and ℏ the angular momentum, a small step forward for quantum physics. Some
-    features of the proposal are already established practice for quantities involving
-    the steradian such as radiant intensity and radiance.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A recent letter [] proposed changing the dimensionless status of the radian and steradian within the SI, while allowing the continued use of the convention to set the angle 1 radian equal to the number 1 within equations, providing this is done explicitly. This would bring the advantages of a physics-based, consistent, and logically-robust unit system, with unambiguous units for all physical quantities, for the first time, while any upheaval to familiar equations and routine practice would be minimised. More details of this proposal are given here. The only notable changes for typical end-users would be: improved units for the quantities torque, angular momentum and moment of inertia; a statement of the convention accompanying some familiar equations; and the use of different symbols for <italic toggle="yes">ℏ</italic> the action and <italic toggle="yes">ℏ</italic> the angular momentum, a small step forward for quantum physics. Some features of the proposal are already established practice for quantities involving the steradian such as radiant intensity and radiance.</p>
 copyright:
-- owner:
-  - name:
-    - content: Crown copyright
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Crown copyright
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Angles in the SI: a detailed proposal for solving the problem'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Angles in the SI: a detailed proposal for solving the problem'
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Angles in the SI: a detailed proposal for solving the problem'
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: 'Angles in the SI: a detailed proposal for solving the problem'
     date:
     - type: epub
-      value: '2021-08-20'
+      at: '2021-08-20'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -102,6 +80,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,177 +1,140 @@
 ---
-schema-version: v1.2.9
-id: Metrologia522337
-title:
-- content: "‘Weighing’ a gas with microwave and acoustic resonances"
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/2/337
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/2/337
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 2 337
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: "‘Weighing’ a gas with microwave and acoustic resonances"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/2/337
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/2/337
+docidentifier:
+- content: Metrologia 52 2 337
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/2/337
+- content: 10.1088/0026-1394/52/2/337
   type: doi
 date:
 - type: published
-  value: '2015-03-24'
+  at: '2015-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K A Gillis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899–8360, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Sensor Science Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899–8360, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Sensor Science Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J B Mehl
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 307 Orcas, WA 98280-0307, USA
         name:
         - content: 36 Zunuqua Trail
-        contact:
-        - address:
-            formatted_address: PO Box 307 Orcas, WA 98280-0307, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899–8360, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Sensor Science Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899–8360, USA
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Sensor Science Division
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M R Moldover
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899–8360, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Sensor Science Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899–8360, USA
-  role:
-  - type: author
-revdate: '2015-03-24'
+        - name:
+          - language: en
+            script: Latn
+            content: Sensor Science Division
 abstract:
-- content: Abstract<p>With calibrations of large flow meters in mind, we established
-    the feasibility of determining the mass M of argon gas contained within a 0.3 m<sup>3</sup>
-    commercially manufactured pressure vessel (‘tank’) with a relative standard uncertainty
-    of u<sub>r</sub>(M) = 0.0016 at 0.6 MPa by combining the measured argon pressure
-    and the measured microwave and acoustic resonance frequencies within the pressure
-    vessel with an accurate equation of state for argon. (All stated uncertainties
-    correspond to the 68% confidence level.) Previously, we used microwaves to determine
-    the tank’s internal volume V<sub>micro</sub> with u<sub>r</sub>(V) = 0.0006 and
-    to determine the thermal expansion of the volume (Moldover et al 2015 Meas. Sci.
-    Tech. 26 015304). Here, we show that the microwave results accurately predict
-    the wavenumbers k<sub>calc</sub> of the four lowest-frequency acoustic modes of
-    the gas. When we compared k<sub>calc</sub> to the measured wavenumbers k<sub>meas</sub>,
-    which included corrections for known perturbations, such as the tank’s calculated
-    pressure-dependent center-of-mass motion (but not the tank’s vibrational modes),
-    the inconsistency of the ratio k<sub>meas</sub>/k<sub>calc</sub> among the modes
-    was the largest component of u<sub>r</sub>(M). Because the resonance frequencies
-    f <sub>calc</sub> of the acoustic modes depend on the average speed of sound (and
-    therefore the average temperature) of the gas in the tank, first-order perturbation
-    theory predicts that f <sub>calc</sub> for a rigid cylindrical cavity is independent
-    of linear temperature gradients. Consistent with this prediction, the average
-    of f <sub>meas</sub> for the 3 lowest-frequency, non-degenerate longitudinal modes
-    changed only Δf<sub>meas</sub> / f <sub>meas</sub> = (0.2 ± 1.3) × 10<sup>−4</sup>
-    when, near ambient temperature, we heated the tank’s top 13 K warmer than its
-    bottom. However, we observed a linear dependence on ΔT for the average of f <sub>meas</sub>
-    for the nearly-degenerate doublet modes, which the rigid cylinder theory does
-    not predict. We argue that the linear dependence on ΔT was caused by anisotropic
-    changes in the tank’s shape in response to the applied temperature gradient. We
-    conclude that resonance frequencies can be used to ‘weigh’ the compressed gas
-    in much larger tanks, which are possibly made from ferromagnetic steel and possibly
-    at high pressures in un-thermostatted environments; therefore, resonance measurements
-    will have many applications in gas metrology.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>With calibrations of large flow meters in mind, we established the feasibility of determining the mass <italic>M</italic> of argon gas contained within a 0.3 m<sup>3</sup> commercially manufactured pressure vessel (‘tank’) with a relative standard uncertainty of <italic>u</italic><sub>r</sub>(<italic>M</italic>) = 0.0016 at 0.6 MPa by combining the measured argon pressure and the measured microwave and acoustic resonance frequencies within the pressure vessel with an accurate equation of state for argon. (All stated uncertainties correspond to the 68% confidence level.) Previously, we used microwaves to determine the tank’s internal volume <italic>V</italic><sub>micro</sub> with <italic>u</italic><sub>r</sub>(<italic>V</italic>) = 0.0006 and to determine the thermal expansion of the volume (Moldover <italic>et al</italic> 2015 <italic>Meas. Sci. Tech</italic>. <bold>26</bold> 015304). Here, we show that the microwave results accurately predict the wavenumbers <italic>k</italic><sub>calc</sub> of the four lowest-frequency acoustic modes of the gas. When we compared <italic>k</italic><sub>calc</sub> to the measured wavenumbers <italic>k</italic><sub>meas</sub>, which included corrections for known perturbations, such as the tank’s calculated pressure-dependent center-of-mass motion (but not the tank’s vibrational modes), the inconsistency of the ratio <italic>k</italic><sub>meas</sub>/<italic>k</italic><sub>calc</sub> among the modes was the largest component of <italic>u</italic><sub>r</sub>(<italic>M</italic>). Because the resonance frequencies <italic>f</italic> <sub>calc</sub> of the acoustic modes depend on the average speed of sound (and therefore the average temperature) of the gas in the tank, first-order perturbation theory predicts that <italic>f</italic> <sub>calc</sub> for a rigid cylindrical cavity is independent of linear temperature gradients. Consistent with this prediction, the average of <italic>f</italic> <sub>meas</sub> for the 3 lowest-frequency, non-degenerate longitudinal modes changed only <italic>Δf</italic><sub>meas</sub> / <italic>f</italic> <sub>meas</sub> = (0.2 ± 1.3) × 10<sup>−4</sup> when, near ambient temperature, we heated the tank’s top 13 K warmer than its bottom. However, we observed a linear dependence on <italic>ΔT</italic> for the average of <italic>f</italic> <sub>meas</sub> for the nearly-degenerate doublet modes, which the rigid cylinder theory does not predict. We argue that the linear dependence on <italic>ΔT</italic> was caused by anisotropic changes in the tank’s shape in response to the applied temperature gradient. We conclude that resonance frequencies can be used to ‘weigh’ the compressed gas in much larger tanks, which are possibly made from ferromagnetic steel and possibly at high pressures in un-thermostatted environments; therefore, resonance measurements will have many applications in gas metrology.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: "‘Weighing’ a gas with microwave and acoustic resonances"
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: "‘Weighing’ a gas with microwave and acoustic resonances"
     date:
     - type: ppub
-      value: '2015-04-01'
+      at: '2015-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: "‘Weighing’ a gas with microwave and acoustic resonances"
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: "‘Weighing’ a gas with microwave and acoustic resonances"
     date:
     - type: epub
-      value: '2015-03-24'
+      at: '2015-03-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -182,6 +145,6 @@ extent:
     reference_from: '337'
     reference_to: '352'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

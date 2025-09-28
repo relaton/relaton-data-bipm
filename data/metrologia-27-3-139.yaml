@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia273139
-title:
-- content: Report of Density Intercomparisons Undertaken by the Working Group on Density
-    of the CCM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/27/3/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/27/3/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 27 3 139
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Report of Density Intercomparisons Undertaken by the Working Group on Density
+    of the CCM
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/27/3/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/27/3/005
+docidentifier:
+- content: Metrologia 27 3 139
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/27/3/005
+- content: 10.1088/0026-1394/27/3/005
   type: doi
 date:
 - type: published
-  value: '1990-01-01'
+  at: '1990-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R S Davis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Precision Engineering Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '1990-01-01'
 abstract:
-- content: "<p>The results of international comparisons of density measurements are
+- language: en
+  script:
+  - Latn
+  content: "<p>The results of international comparisons of density measurements are
     reported. Participants include the national laboratories of Australia, the Federal
     Republic of Germany, Italy, Japan, the UK, and the United States, as well as the
     Bureau International des Poids et Mesures. The comparisons involve hydrostatic
@@ -50,40 +46,32 @@ abstract:
     of stainless steel. Agreement among laboratories is generally better for samples
     of silicon than for samples of stainless steel. Overall discrepancies do not,
     however, appear to be serious with respect to scientific and metrological needs.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1990'
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Report of Density Intercomparisons Undertaken by the Working Group
+    - language: en
+      script: Latn
+      content: Report of Density Intercomparisons Undertaken by the Working Group
         on Density of the CCM
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1990-01-01'
+      at: '1990-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -94,6 +82,6 @@ extent:
     reference_from: '139'
     reference_to: '144'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

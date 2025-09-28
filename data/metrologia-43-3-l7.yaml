@@ -1,93 +1,83 @@
 ---
-schema-version: v1.2.9
-id: Metrologia433L7
-title:
-- content: Validation of the gravimetric values and uncertainties of independently
-    prepared primary standard gas mixtures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/3/N01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/3/N01
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 3 L7
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Validation of the gravimetric values and uncertainties of independently
+    prepared primary standard gas mixtures
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/3/N01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/3/N01
+docidentifier:
+- content: Metrologia 43 3 L7
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/3/N01
+- content: 10.1088/0026-1394/43/3/N01
   type: doi
 date:
 - type: published
-  value: '2006-02-21'
+  at: '2006-02-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M J T Milton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Guenther
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Chemistry Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W R Miller
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Analytical Chemistry Division, National Institute of Standards
             and Technology, Gaithersburg, MD 20899, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A S Brown
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Hampton Road, Teddington, Middlesex
             TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2006-02-21'
 abstract:
-- content: "<p>The uncertainty of primary standard gas mixtures is limited by the
+- language: en
+  script:
+  - Latn
+  content: "<p>The uncertainty of primary standard gas mixtures is limited by the
     uncertainty of their gravimetric preparation. Although this fact is widely accepted,
     it has never been demonstrated directly because the uncertainty involved in the
     analysis of gas mixtures is much larger than that from the gravimetric preparation
@@ -101,55 +91,44 @@ abstract:
     between 2 and 30 less than the estimated uncertainties for the gravimetric preparation
     of each individual standard and serves to confirm the state of the art in this
     field.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of the gravimetric values and uncertainties of independently
+    - language: en
+      script: Latn
+      content: Validation of the gravimetric values and uncertainties of independently
         prepared primary standard gas mixtures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-02-21'
+      at: '2006-02-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Validation of the gravimetric values and uncertainties of independently
+    - language: en
+      script: Latn
+      content: Validation of the gravimetric values and uncertainties of independently
         prepared primary standard gas mixtures
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-06-01'
+      at: '2006-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -160,6 +139,6 @@ extent:
     reference_from: L7
     reference_to: L10
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

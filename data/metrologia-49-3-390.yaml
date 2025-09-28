@@ -1,99 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia493390
-title:
-- content: Statistical analysis for interlaboratory comparisons with linear trends
-    in multiple loops
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/3/390
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/3/390
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 3 390
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Statistical analysis for interlaboratory comparisons with linear trends
+    in multiple loops
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/3/390
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/3/390
+docidentifier:
+- content: Metrologia 49 3 390
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/3/390
+- content: 10.1088/0026-1394/49/3/390
   type: doi
 date:
 - type: published
-  value: '2012-04-24'
+  at: '2012-04-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nien Fan Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division
-        contact:
-        - address:
-            formatted_address: Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2012-04-24'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division
 abstract:
-- content: Abstract<p>A statistical analysis for interlaboratory comparisons with
-    linear trends in multiple loops is proposed. This approach can be applied to comparisons
-    with multiple artefacts in multiple loops. The uncertainties for the comparison
-    reference values and the degrees of equivalence are also provided. As an example,
-    the approach is applied to the SIM.EM-S2 Energy Comparison.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>A statistical analysis for interlaboratory comparisons with linear trends in multiple loops is proposed. This approach can be applied to comparisons with multiple artefacts in multiple loops. The uncertainties for the comparison reference values and the degrees of equivalence are also provided. As an example, the approach is applied to the SIM.EM-S2 Energy Comparison.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Statistical analysis for interlaboratory comparisons with linear trends
+    - script: Latn
+      content: Statistical analysis for interlaboratory comparisons with linear trends
         in multiple loops
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-06-01'
+      at: '2012-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Statistical analysis for interlaboratory comparisons with linear trends
+    - script: Latn
+      content: Statistical analysis for interlaboratory comparisons with linear trends
         in multiple loops
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2012-04-24'
+      at: '2012-04-24'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +96,6 @@ extent:
     reference_from: '390'
     reference_to: '394'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

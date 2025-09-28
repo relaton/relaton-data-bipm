@@ -1,104 +1,90 @@
 ---
-schema-version: v1.2.9
-id: Metrologia313203
-title:
-- content: 'The Lattice Parameter of Silicon: A Survey'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/31/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/31/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 31 3 203
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'The Lattice Parameter of Silicon: A Survey'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/31/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/31/3/006
+docidentifier:
+- content: Metrologia 31 3 203
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/31/3/006
+- content: 10.1088/0026-1394/31/3/006
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P Becker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Postfach 33 45, D-38023
             Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CNR-Istituto di Metrologia "G Colonnetti", Strada delle Cacce 73,
             I-10135 Turin, Italy
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>Highly purified silicon single crystals are excellent standards for
-    length measurements at the atomic scale and the value of the silicon (220) lattice
-    spacing is an important item of information for the establishment of a self-consistent
-    set of fundamental physical constants. This article surveys silicon d<sub>220</sub>
-    determinations by describing the measurement method and the most important features
-    of x-ray/optical interferometry. A summary of the d<sub>220</sub> values so far
-    obtained is also given. The measurement procedure is described in detail, with
-    emphasis on the critical points deserving particular attention in error analysis.
-    Bottle-necks evidenced in experiments are pointed out and the possible evolution
-    of x-ray/optical interferometry is analysed.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Highly purified silicon single crystals are excellent standards for
+    length measurements at the atomic scale and the value of the silicon (220) lattice
+    spacing is an important item of information for the establishment of a self-consistent
+    set of fundamental physical constants. This article surveys silicon <italic>d</italic><sub>220</sub>
+    determinations by describing the measurement method and the most important features
+    of x-ray/optical interferometry. A summary of the <italic>d</italic><sub>220</sub>
+    values so far obtained is also given. The measurement procedure is described in
+    detail, with emphasis on the critical points deserving particular attention in
+    error analysis. Bottle-necks evidenced in experiments are pointed out and the
+    possible evolution of x-ray/optical interferometry is analysed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The Lattice Parameter of Silicon: A Survey'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'The Lattice Parameter of Silicon: A Survey'
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +95,6 @@ extent:
     reference_from: '203'
     reference_to: '209'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

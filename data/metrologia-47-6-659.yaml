@@ -1,78 +1,70 @@
 ---
-schema-version: v1.2.9
-id: Metrologia476659
-title:
-- content: Metallurgical characterization of materials for the reference mass standard
-    of the French watt balance experiment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/6/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/6/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 6 659
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Metallurgical characterization of materials for the reference mass standard
+    of the French watt balance experiment
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/6/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/6/005
+docidentifier:
+- content: Metrologia 47 6 659
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/6/005
+- content: 10.1088/0026-1394/47/6/005
   type: doi
 date:
 - type: published
-  value: '2010-10-13'
+  at: '2010-10-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P A Meury
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Commun de Métrologie LNE-CNAM, 1 rue Gaston Boissier,
             F-75724 Paris Cedex 15, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Molins
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: MINES ParisTech, Centre des Matériaux P M FOURT, UMR CNRS 7633,
             F-91003 Evry, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Geneves
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de Métrologie et d'Essais, 29 avenue Roger
             Hennequin, F-78197 Trappes Cedex, France
-  role:
-  - type: author
-revdate: '2010-10-13'
 abstract:
-- content: "<p>Watt balance experiments are intended to link the mass unit to the
+- language: en
+  script:
+  - Latn
+  content: "<p>Watt balance experiments are intended to link the mass unit to the
     Planck constant. Therefore, in these experiments, a reference mass standard is
     necessary. However, in the French apparatus, the platinum–iridium alloy that forms
     the international prototype of the kilogram cannot be considered because of its
@@ -83,57 +75,49 @@ abstract:
     modes and heating treatments, microstructural and analytical studies were performed.
     The critical properties of the different materials were examined and discussed
     in comparison with the platinum–iridium alloy.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metallurgical characterization of materials for the reference mass
+    - language: en
+      script: Latn
+      content: Metallurgical characterization of materials for the reference mass
         standard of the French watt balance experiment
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-10-13'
+      at: '2010-10-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Metallurgical characterization of materials for the reference mass
+    - language: en
+      script: Latn
+      content: Metallurgical characterization of materials for the reference mass
         standard of the French watt balance experiment
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-12-01'
+      at: '2010-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -144,6 +128,6 @@ extent:
     reference_from: '659'
     reference_to: '669'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

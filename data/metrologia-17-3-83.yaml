@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia17383
-title:
-- content: A New Method for the Accurate Determination of the Proton Gyromagnetic
-    Ratio
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/17/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/17/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 17 3 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A New Method for the Accurate Determination of the Proton Gyromagnetic
+    Ratio
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/17/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/17/3/003
+docidentifier:
+- content: Metrologia 17 3 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/17/3/003
+- content: 10.1088/0026-1394/17/3/003
   type: doi
 date:
 - type: published
-  value: '1981-07-01'
+  at: '1981-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G L Greene
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Gibbs Laboratory, Yale University, New Haven, CT 06520, USA
-  role:
-  - type: author
-revdate: '1981-07-01'
 abstract:
-- content: "<p>Accurate knowledge of the value of the proton gyromagnetic ratio γ́<sub>p</sub>
+- language: en
+  script:
+  - Latn
+  content: "<p>Accurate knowledge of the value of the proton gyromagnetic ratio γ́<sub>p</sub>
     is of great interest due to its role in the determination of the value of the
     fine structure constant. In this paper, a new technique for the determination
     of γ́<sub>p</sub> is proposed which employs the Ramsey separated oscillatory field
@@ -49,40 +45,32 @@ abstract:
     sources of error are discussed. The method may be capable of an accuracy of a
     few parts in 10<sup>8</sup>. This would provide an order of magnitude reduction
     in the uncertainty in α.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1981'
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A New Method for the Accurate Determination of the Proton Gyromagnetic
+    - language: en
+      script: Latn
+      content: A New Method for the Accurate Determination of the Proton Gyromagnetic
         Ratio
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1981-07-01'
+      at: '1981-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +81,6 @@ extent:
     reference_from: '83'
     reference_to: '90'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia292153
-title:
-- content: The Josephson Effect and Voltage Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/29/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/29/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 29 2 153
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Josephson Effect and Voltage Standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/29/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/29/2/005
+docidentifier:
+- content: Metrologia 29 2 153
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/29/2/005
+- content: 10.1088/0026-1394/29/2/005
   type: doi
 date:
 - type: published
-  value: '1992-01-01'
+  at: '1992-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R Pöpel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, D-3300
             Braunschweig, Germany
-  role:
-  - type: author
-revdate: '1992-01-01'
 abstract:
-- content: "<p>Josephson voltage standards with series arrays of up to 20 000 tunnel
+- language: en
+  script:
+  - Latn
+  content: "<p>Josephson voltage standards with series arrays of up to 20 000 tunnel
     junctions can generate stable reference voltages at arbitrary values between -
     15 V and + 15 V. These standards, which are now installed in many national and
     industrial laboratories, are used to calibrate Weston cells or Zener reference
@@ -49,39 +45,31 @@ abstract:
     for the measurement of voltage and resistance ratios. The fundamental principles,
     the historical development, the design, the fabrication and the operation of these
     voltage standards are reviewed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1992'
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Josephson Effect and Voltage Standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Josephson Effect and Voltage Standards
     date:
     - type: ppub
-      value: '1992-01-01'
+      at: '1992-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -92,6 +80,6 @@ extent:
     reference_from: '153'
     reference_to: '174'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

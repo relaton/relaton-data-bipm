@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia73103
-title:
-- content: The Ion Storage Tube, a Proposal for a New Atomic Frequency Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/7/3/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/3/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 3 103
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The Ion Storage Tube, a Proposal for a New Atomic Frequency Standard
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/3/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/3/003
+docidentifier:
+- content: Metrologia 7 3 103
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/3/003
+- content: 10.1088/0026-1394/7/3/003
   type: doi
 date:
 - type: published
-  value: '1971-07-01'
+  at: '1971-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H A Schuessler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Department of Physics, Texas A & M University, College Station,
             Texas 77843, USA
-  role:
-  - type: author
-revdate: '1971-07-01'
 abstract:
-- content: "<p>An ion storage exchange collision experiment on heavy paramagnetic
+- language: en
+  script:
+  - Latn
+  content: "<p>An ion storage exchange collision experiment on heavy paramagnetic
     ions is proposed to study the possibility of using a hyperfine structure transition
     of Hg<sup>+</sup> as the basis of a new primary frequency standard. All known
     limitations of the accuracy, with the exception of the second order Doppler effect
     and of the rms frequency stability, are expected to be smaller than 10<sup>-14</sup>.
     Methods are discussed to reduce the second order Doppler effect and to increase
     the rms frequency stability by cooling the ions and by stabilizing their temperature.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: The Ion Storage Tube, a Proposal for a New Atomic Frequency Standard
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: The Ion Storage Tube, a Proposal for a New Atomic Frequency Standard
     date:
     - type: ppub
-      value: '1971-07-01'
+      at: '1971-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '103'
     reference_to: '107'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

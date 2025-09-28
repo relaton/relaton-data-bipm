@@ -1,99 +1,85 @@
 ---
-schema-version: v1.2.9
-id: Metrologia19267
-title:
-- content: Helium Vapour Pressure Equations on the EPT-76
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/19/2/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/19/2/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 19 2 67
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Helium Vapour Pressure Equations on the EPT-76
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/19/2/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/19/2/004
+docidentifier:
+- content: Metrologia 19 2 67
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/19/2/004
+- content: 10.1088/0026-1394/19/2/004
   type: doi
 date:
 - type: published
-  value: '1983-01-01'
+  at: '1983-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Durieux
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Kamerlingh Onnes Laboratorium, University of Leiden, Nieuwsteeg
             18, Leiden, The Netherlands
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R L Rusby
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Quantum Metrology, National Physical Laboratory, Teddington,
             Middlesex, UK
-  role:
-  - type: author
-revdate: '1983-01-01'
 abstract:
-- content: "<p>Equations are presented relating the vapour pressures of<sup>3</sup>He
-    and<sup>4</sup>He to temperature using the EPT-76 scale. Values of vapour pressure,
-    and its derivative, dP/dT<sub>76</sub>, are tabulated at 0.01 K intervals, and
-    the differences with respect to the 1958<sup>4</sup>He scale and the 1962<sup>3</sup>He
-    scale are given.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>Equations are presented relating the vapour pressures of <sup>3</sup>He
+    and <sup>4</sup>He to temperature using the EPT-76 scale. Values of vapour pressure,
+    and its derivative, d<italic>P</italic>/d<italic>T</italic><sub>76</sub>, are
+    tabulated at 0.01 K intervals, and the differences with respect to the 1958 <sup>4</sup>He
+    scale and the 1962 <sup>3</sup>He scale are given.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1983'
+- from: '1983'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Helium Vapour Pressure Equations on the EPT-76
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Helium Vapour Pressure Equations on the EPT-76
     date:
     - type: ppub
-      value: '1983-01-01'
+      at: '1983-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -104,6 +90,6 @@ extent:
     reference_from: '67'
     reference_to: '72'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

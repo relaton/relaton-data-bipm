@@ -1,81 +1,71 @@
 ---
-schema-version: v1.2.9
-id: Metrologia501A08007
-title:
-- content: 'Final report on CCQM-K30.1: Lead in wine'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/1A/08007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/1A/08007
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 1A 08007
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Final report on CCQM-K30.1: Lead in wine'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/1A/08007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/1A/08007
+docidentifier:
+- content: Metrologia 50 1A 08007
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/1A/08007
+- content: 10.1088/0026-1394/50/1A/08007
   type: doi
 date:
 - type: published
-  value: '2013-01-01'
+  at: '2013-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gabriela Massif
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Center of Chemical Metrology (CMQ)-Fundacion, Chile
-  role:
-  - type: author
-revdate: '2013-01-01'
 abstract:
-- content: |-
-    <p>The key comparison CCQM-K30.1 was organized by the Inorganic Analysis Working Group of CCQM to test the abilities of the National Metrology Institutes to measure the mass fraction of lead in wine. CMQ-Fundacion Chile acted as the coordinating laboratory. Twelve institutes registered to participate in the key comparison but only eleven submitted results. One of these agreed that its result should not be included in the key comparison reference value and another indicated after completion of the study that it had recalculated its uncertainty. The participants used different measurement methods, though the most common was isotope-dilution inductively coupled plasma mass spectrometry (ID-ICP-MS). Accounting for the achieved uncertainty, comparability of measurement results was successfully demonstrated by the majority of participating NMIs for this measurement. Participants were also asked to indicate the core capabilities required for their measurements and these are summarized in the report. This comparison may be directly used to support CMCs for lead in wine and indirectly by institutes wishing to support appropriate CMCs via the core capability route.</p><p>Main text.
-    To reach the main text of this paper, click on Final Report. Note that this text is that which appears in Appendix B of the BIPM key comparison database kcdb.bipm.org/.</p><p>The final report has been peer-reviewed and approved for publication by the CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>The key comparison CCQM-K30.1 was organized by the Inorganic Analysis Working Group of CCQM to test the abilities of the National Metrology Institutes to measure the mass fraction of lead in wine. CMQ-Fundacion Chile acted as the coordinating laboratory. Twelve institutes registered to participate in the key comparison but only eleven submitted results. One of these agreed that its result should not be included in the key comparison reference value and another indicated after completion of the study that it had recalculated its uncertainty. The participants used different measurement methods, though the most common was isotope-dilution inductively coupled plasma mass spectrometry (ID-ICP-MS). Accounting for the achieved uncertainty, comparability of measurement results was successfully demonstrated by the majority of participating NMIs for this measurement. Participants were also asked to indicate the core capabilities required for their measurements and these are summarized in the report. This comparison may be directly used to support CMCs for lead in wine and indirectly by institutes wishing to support appropriate CMCs via the core capability route.</p>
+    <p><bold>Main text.</bold>
+    To reach the main text of this paper, click on <ext-link ext-link-type="uri" xlink:href="http://www.bipm.org/utils/common/pdf/final_reports/QM/K30/CCQM-K30.1.pdf">Final Report</ext-link>. Note that this text is that which appears in Appendix B of the BIPM key comparison database <ext-link ext-link-type="uri" xlink:href="http://kcdb.bipm.org/">kcdb.bipm.org/</ext-link>.</p>
+    <p>The final report has been peer-reviewed and approved for publication by the CCQM, according to the provisions of the CIPM Mutual Recognition Arrangement (CIPM MRA).</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Final report on CCQM-K30.1: Lead in wine'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: 'Final report on CCQM-K30.1: Lead in wine'
     date:
     - type: ppub
-      value: '2013-01-01'
+      at: '2013-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -86,6 +76,6 @@ extent:
     reference_from: '08007'
     reference_to: '08007'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

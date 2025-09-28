@@ -1,66 +1,58 @@
 ---
-schema-version: v1.2.9
-id: Metrologia11285
-title:
-- content: A Radiometric Determination of the Thermodynamic Temperature Interval between
-    the Silver and Gold Freezing Points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/11/2/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/11/2/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 11 2 85
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A Radiometric Determination of the Thermodynamic Temperature Interval between
+    the Silver and Gold Freezing Points
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/11/2/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/11/2/006
+docidentifier:
+- content: Metrologia 11 2 85
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/11/2/006
+- content: 10.1088/0026-1394/11/2/006
   type: doi
 date:
 - type: published
-  value: '1975-04-01'
+  at: '1975-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Coslovi
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Rosso
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto di Metrologia "G Colonnetti" (IMGC), Turin, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ruffino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -68,11 +60,11 @@ contributor:
     - organization:
         name:
         - content: Leeds and Northrup Italiana, Research Center, Turin, Italy
-  role:
-  - type: author
-revdate: '1975-04-01'
 abstract:
-- content: "<p>A new measurement of the thermodynamic temperature interval between
+- language: en
+  script:
+  - Latn
+  content: "<p>A new measurement of the thermodynamic temperature interval between
     the silver and the gold freezing points with an infrared pyrometer has been carried
     out. The value of the freezing point of gold, referred to the value of the silver
     point on the IPTS-68, thus obtained, is 1337.41 K (σ = 0.059 K). The ratio of
@@ -80,40 +72,32 @@ abstract:
     at the mean effective wavelength λ<sub>e</sub> = 0.9980μm (σ= 0.3 nm). The resulting
     temperature interval is 0.17 K shorter than the IPTS-68 interval between the same
     points.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1975'
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A Radiometric Determination of the Thermodynamic Temperature Interval
+    - language: en
+      script: Latn
+      content: A Radiometric Determination of the Thermodynamic Temperature Interval
         between the Silver and Gold Freezing Points
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1975-04-01'
+      at: '1975-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '85'
     reference_to: '87'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

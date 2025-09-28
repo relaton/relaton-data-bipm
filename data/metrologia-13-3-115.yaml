@@ -1,86 +1,74 @@
 ---
-schema-version: v1.2.9
-id: Metrologia133115
-title:
-- content: Hyperfine Optical Pumping of a Cesium Atomic Beam, and Applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/13/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/13/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 13 3 115
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Hyperfine Optical Pumping of a Cesium Atomic Beam, and Applications
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/13/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/13/3/006
+docidentifier:
+- content: Metrologia 13 3 115
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/13/3/006
+- content: 10.1088/0026-1394/13/3/006
   type: doi
 date:
 - type: published
-  value: '1977-07-01'
+  at: '1977-07-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Louis Picqué
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire Aimé Cotton, Centre National de la Recherche Scientifique,
             F-91405 Orsay, France
-  role:
-  - type: author
-revdate: '1977-07-01'
 abstract:
-- content: "<p>A CW single-mode GaAs laser has been used to excite selectively the
+- language: en
+  script:
+  - Latn
+  content: "<p>A CW single-mode GaAs laser has been used to excite selectively the
     hyperfine components of the D<sub>2</sub> resonance line (8521 Å) in a Cs<sup>133</sup>
     atomic beam. The hyperfine optical pumping was displayed by using a Rabi-type
     detection method. Frequency locking of the GaAs laser to individual hyperfine
     transitions was performed by monitoring the atomic beam fluorescence. On the basis
     of these experimental results, the realization of optically-pumped cesium beam
     frequency standards is discussed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1977'
+- from: '1977'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Hyperfine Optical Pumping of a Cesium Atomic Beam, and Applications
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Hyperfine Optical Pumping of a Cesium Atomic Beam, and Applications
     date:
     - type: ppub
-      value: '1977-07-01'
+      at: '1977-07-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -91,6 +79,6 @@ extent:
     reference_from: '115'
     reference_to: '119'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

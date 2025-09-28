@@ -1,38 +1,34 @@
 ---
-schema-version: v1.2.9
-id: Metrologia49132
-title:
-- content: 'Finite element modelling of acoustic field inside small components: application
-    to an annular slit terminated by an aperture in an infinite screen'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/49/1/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/49/1/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 49 1 32
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Finite element modelling of acoustic field inside small components: application
+    to an annular slit terminated by an aperture in an infinite screen'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/49/1/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/49/1/006
+docidentifier:
+- content: Metrologia 49 1 32
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/49/1/006
+- content: 10.1088/0026-1394/49/1/006
   type: doi
 date:
 - type: published
-  value: '2011-11-07'
+  at: '2011-11-07'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petr Honzík
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -42,86 +38,76 @@ contributor:
         name:
         - content: Institute of Biophysics and Informatics, First Faculty of Medicine,
             Charles University in Prague, Kateřinská 32, 121 08 Praha 2, Czech Republic
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Nicolas Joly
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire d'Acoustique de l'Université du Maine, UMR CNRS 6613,
             Avenue O Messiaen, 72 085 Le Mans Cedex 9, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Stéphane Durand
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire d'Acoustique de l'Université du Maine, UMR CNRS 6613,
             Avenue O Messiaen, 72 085 Le Mans Cedex 9, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Dominique Rodrigues
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de métrologie et d'Essais (LNE), 29 av. Roger
             Hennequin, 78 197 Trappes Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Noël Durocher
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire National de métrologie et d'Essais (LNE), 29 av. Roger
             Hennequin, 78 197 Trappes Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Michel Bruneau
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratoire d'Acoustique de l'Université du Maine, UMR CNRS 6613,
             Avenue O Messiaen, 72 085 Le Mans Cedex 9, France
-  role:
-  - type: author
-revdate: '2011-11-07'
 abstract:
-- content: "<p>Investigating accurately the acoustic behaviour of small fluid-filled
+- language: en
+  script:
+  - Latn
+  content: "<p>Investigating accurately the acoustic behaviour of small fluid-filled
     cavities and ducts and their association is a problem of persistent importance,
     because nowadays both experimental investigations and theoretical modelling must
     provide results of increasingly higher precision. The motivation here is provided
@@ -131,14 +117,15 @@ abstract:
     the viscous and thermal boundary layers accurately in the frequency range of interest
     (20 Hz to 20 kHz), and experimental characterization of their input impedances
     (with a relative uncertainty of the order of magnitude of 10<sup>−2</sup>) have
-    been proposed recently (Rodrigues et al 2008 J. Sound Vib. 315 890–910). Existing
-    analytical procedures for coupled components suffer from strong approximations
-    at the interfaces between narrow tubes and slits or other elements as well as
-    the open space. A dedicated numerical model can be used in order to investigate
-    accurately the acoustic field at these interfaces. The numerical model presented
-    in the paper relies on a suitable linear exact formulation, based upon two coupled
-    equations involving particle velocity and temperature variation (Joly 2010 Acta
-    Acust. United Acust. 96 102–14) and utilizes an adaptive anisotropic meshing technique
+    been proposed recently (Rodrigues <italic>et al</italic> 2008 <italic>J. Sound
+    Vib.</italic> <bold>315</bold> 890–910). Existing analytical procedures for coupled
+    components suffer from strong approximations at the interfaces between narrow
+    tubes and slits or other elements as well as the open space. A dedicated numerical
+    model can be used in order to investigate accurately the acoustic field at these
+    interfaces. The numerical model presented in the paper relies on a suitable linear
+    exact formulation, based upon two coupled equations involving particle velocity
+    and temperature variation (Joly 2010 <italic>Acta Acust. United Acust.</italic>
+    <bold>96</bold> 102–14) and utilizes an adaptive anisotropic meshing technique
     to model correctly the strong variations which occur around the geometrical discontinuities
     and inside the boundary layers. Application to a 2D axisymmetrical device (annular
     slit ending in an aperture in an infinite screen) is considered to present the
@@ -146,57 +133,49 @@ abstract:
     distributions inside and around the end of the slit are depicted, and the input
     acoustic admittance of the slit obtained numerically is compared with both experimental
     and analytical results available.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2012'
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Finite element modelling of acoustic field inside small components:
+    - language: en
+      script: Latn
+      content: 'Finite element modelling of acoustic field inside small components:
         application to an annular slit terminated by an aperture in an infinite screen'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2011-11-07'
+      at: '2011-11-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Finite element modelling of acoustic field inside small components:
+    - language: en
+      script: Latn
+      content: 'Finite element modelling of acoustic field inside small components:
         application to an annular slit terminated by an aperture in an infinite screen'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2012-02-01'
+      at: '2012-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -207,6 +186,6 @@ extent:
     reference_from: '32'
     reference_to: '40'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

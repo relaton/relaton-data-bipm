@@ -1,104 +1,91 @@
 ---
-schema-version: v1.2.9
-id: Metrologia305487
-title:
-- content: A General Approach to Comparisons in the Presence of Drift
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/30/5/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/30/5/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 30 5 487
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A General Approach to Comparisons in the Presence of Drift
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/30/5/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/30/5/004
+docidentifier:
+- content: Metrologia 30 5 487
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/30/5/004
+- content: 10.1088/0026-1394/30/5/004
   type: doi
 date:
 - type: published
-  value: '1994-01-01'
+  at: '1994-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C M Sutton
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, Industrial Research
             Limited, PO Box 31-310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M T Clarkson
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Measurement Standards Laboratory of New Zealand, Industrial Research
             Limited, PO Box 31-310, Lower Hutt, New Zealand
-  role:
-  - type: author
-revdate: '1994-01-01'
 abstract:
-- content: "<p>A general approach to comparisons in the presence of temporal drift
-    is presented and comparison sequences are discussed for linear, quadratic and
-    cubic drift. Circular comparison sequences of the form (ab..)<sub>n</sub> and
-    (ab..)<sub>n</sub> a are proposed (where a, b,.. are different items, such as
-    masses, and n is a repeat factor) with the best performance achieved when three
-    to five items are involved in the comparison. A matrix least squares model is
-    used to obtain information about the drift, the item differences and their uncertainties.
-    The emphasis of the paper is on mass comparisons, where the dominant drift is
-    in the balance zero, but the approach is applicable to comparisons generally and
-    its application to gain drift is also presented.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>A general approach to comparisons in the presence of temporal drift
+    is presented and comparison sequences are discussed for linear, quadratic and
+    cubic drift. Circular comparison sequences of the form (ab..)<sub><italic>n</italic></sub>
+    and (ab..)<sub><italic>n</italic></sub> a are proposed (where a, b,.. are different
+    items, such as masses, and <italic>n</italic> is a repeat factor) with the best
+    performance achieved when three to five items are involved in the comparison.
+    A matrix least squares model is used to obtain information about the drift, the
+    item differences and their uncertainties. The emphasis of the paper is on mass
+    comparisons, where the dominant drift is in the balance zero, but the approach
+    is applicable to comparisons generally and its application to gain drift is also
+    presented.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1994'
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A General Approach to Comparisons in the Presence of Drift
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A General Approach to Comparisons in the Presence of Drift
     date:
     - type: ppub
-      value: '1994-01-01'
+      at: '1994-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -109,6 +96,6 @@ extent:
     reference_from: '487'
     reference_to: '493'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

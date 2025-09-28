@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia346467
-title:
-- content: Statistical models for estimating the measurement of pitch in metrology
-    instruments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/6/3
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/6/3
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 6 467
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Statistical models for estimating the measurement of pitch in metrology
+    instruments
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/6/3
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/6/3
+docidentifier:
+- content: Metrologia 34 6 467
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/6/3
+- content: 10.1088/0026-1394/34/6/3
   type: doi
 date:
 - type: published
-  value: '1997-12-01'
+  at: '1997-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N F Zhang
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M T Postek
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R D Larrabee
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST
-  role:
-  - type: author
-revdate: '1997-12-01'
 abstract:
-- content: "<p>The measurement of pitch in metrology instruments is thought to be
+- language: en
+  script:
+  - Latn
+  content: "<p>The measurement of pitch in metrology instruments is thought to be
     a benign self-compensating function. In the course of issuing the new scanning
     electron microscope standard SRM 2090, a new algorithm for the measurement of
     pitch was developed. This is based on linear regression models. For a pitch measurement,
@@ -77,40 +69,32 @@ abstract:
     then the distance between some arbitrary threshold on that line is determined.
     The new algorithm eliminates the need for a threshold. An evaluation of uncertainty
     of the measurement process is also described.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Statistical models for estimating the measurement of pitch in metrology
+    - language: en
+      script: Latn
+      content: Statistical models for estimating the measurement of pitch in metrology
         instruments
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1997-12-01'
+      at: '1997-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +105,6 @@ extent:
     reference_from: '467'
     reference_to: '477'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,125 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia55138
-title:
-- content: Frequency-response mismatch effects in Johnson noise thermometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aa963c
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aa963c
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 1 38
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Frequency-response mismatch effects in Johnson noise thermometry
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aa963c
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aa963c
+docidentifier:
+- content: Metrologia 55 1 38
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aa963c
+- content: 10.1088/1681-7575/aa963c
   type: doi
 date:
 - type: published
-  value: '2017-12-12'
+  at: '2017-12-12'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D R White
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: PO Box 31310, Lower Hutt, New Zealand
         name:
         - content: Measurement Standards Laboratory
-        contact:
-        - address:
-            formatted_address: PO Box 31310, Lower Hutt, New Zealand
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J-F Qu
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: No 18 Bei San Huan Dong Lu, Beijing 100029, People’s
+            Republic of China
         name:
         - content: National Institute of Metrology
-        contact:
-        - address:
-            formatted_address: No 18 Bei San Huan Dong Lu, Beijing 100029, People’s
-              Republic of China
-  role:
-  - type: author
-revdate: '2017-12-12'
 abstract:
-- content: 'Abstract<p>Johnson noise thermometry is of considerable interest at present
-    due to the planned redefinition of the kelvin in 2019, and several determinations
-    of the Boltzmann constant have recently been published in support of the redefinition.
-    To determine the Boltzmann constant by noise thermometry, the thermal noise from
-    a sensing resistor at the triple point of water is compared to a pseudo-random
-    noise with a calculable power spectral density traceable to quantum electrical
-    standards. In all the measurements to date, the two dominant sources of measurement
-    uncertainty are strongly influenced by a single factor: the frequency-response
-    mismatch between the sets of leads connecting the thermometer to the two noise
-    sources. In the most recent determination at the National Institute of Metrology,
-    China, substantial changes were made to the connecting leads to reduce the mismatch
-    effects. The aims of this paper are, firstly, to describe and explain the rationale
-    for the changes, and secondly, to better understand the effects of the least-squares
-    fits and the bias-variance compromise in the analysis of measurements affected
-    by the mismatch effects. While significant improvements can be made to the connecting
-    leads to lessen the effects of the frequency-response mismatch, the efforts are
-    unlikely to be rewarded by a significant increase in bandwidth or a significant
-    reduction in uncertainty.</p>'
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Johnson noise thermometry is of considerable interest at present due to the planned redefinition of the kelvin in 2019, and several determinations of the Boltzmann constant have recently been published in support of the redefinition. To determine the Boltzmann constant by noise thermometry, the thermal noise from a sensing resistor at the triple point of water is compared to a pseudo-random noise with a calculable power spectral density traceable to quantum electrical standards. In all the measurements to date, the two dominant sources of measurement uncertainty are strongly influenced by a single factor: the frequency-response mismatch between the sets of leads connecting the thermometer to the two noise sources. In the most recent determination at the National Institute of Metrology, China, substantial changes were made to the connecting leads to reduce the mismatch effects. The aims of this paper are, firstly, to describe and explain the rationale for the changes, and secondly, to better understand the effects of the least-squares fits and the bias-variance compromise in the analysis of measurements affected by the mismatch effects. While significant improvements can be made to the connecting leads to lessen the effects of the frequency-response mismatch, the efforts are unlikely to be rewarded by a significant increase in bandwidth or a significant reduction in uncertainty.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2017'
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency-response mismatch effects in Johnson noise thermometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Frequency-response mismatch effects in Johnson noise thermometry
     date:
     - type: ppub
-      value: '2018-02-01'
+      at: '2018-02-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Frequency-response mismatch effects in Johnson noise thermometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Frequency-response mismatch effects in Johnson noise thermometry
     date:
     - type: epub
-      value: '2017-12-12'
+      at: '2017-12-12'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -130,6 +103,6 @@ extent:
     reference_from: '38'
     reference_to: '49'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

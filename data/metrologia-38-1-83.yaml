@@ -1,85 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia38183
-title:
-- content: Possible application of mass levitation to force measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/38/1/8
-  type: src
-- content: https://doi.org/10.1088/0026-1394/38/1/8
-  type: doi
 type: article
-docid:
-- id: Metrologia 38 1 83
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Possible application of mass levitation to force measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/38/1/8
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/38/1/8
+docidentifier:
+- content: Metrologia 38 1 83
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/38/1/8
+- content: 10.1088/0026-1394/38/1/8
   type: doi
 date:
 - type: published
-  value: '2001-02-01'
+  at: '2001-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRLM
-  role:
-  - type: author
-revdate: '2001-02-01'
 abstract:
-- content: "<p>The feasibility of levitating a mass for generating and/or measuring
+- language: en
+  script:
+  - Latn
+  content: "<p>The feasibility of levitating a mass for generating and/or measuring
     dynamic force is discussed. Force can be determined by measuring the acceleration
     of a well-known rigid mass. Under the influence of the Earth's gravity, dynamic
     force can be accurately generated and/or measured by realizing horizontal linear
     motion with a sufficiently small external force. A pneumatic linear bearing is
     suitable for this purpose. The problems of using this method in metrology are
     analysed and proposals made for their resolution.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2001'
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Possible application of mass levitation to force measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Possible application of mass levitation to force measurement
     date:
     - type: ppub
-      value: '2001-02-01'
+      at: '2001-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -90,6 +78,6 @@ extent:
     reference_from: '83'
     reference_to: '84'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

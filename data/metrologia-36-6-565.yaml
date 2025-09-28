@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia366565
-title:
-- content: Model for drag forces in the crevice of piston gauges in the viscous-flow
-    and molecular-flow regimes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/36/6/16
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/6/16
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 6 565
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Model for drag forces in the crevice of piston gauges in the viscous-flow
+    and molecular-flow regimes
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/6/16
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/6/16
+docidentifier:
+- content: Metrologia 36 6 565
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/6/16
+- content: 10.1088/0026-1394/36/6/16
   type: doi
 date:
 - type: published
-  value: '1999-12-01'
+  at: '1999-12-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J W Schmidt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Millipore Corp.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S A Tison
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Millipore Corp.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C D Ehrlich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, Millipore Corp.
-  role:
-  - type: author
-revdate: '1999-12-01'
 abstract:
-- content: "<p>A model for drag forces in the crevice of pneumatic piston gauges is
+- language: en
+  script:
+  - Latn
+  content: "<p>A model for drag forces in the crevice of pneumatic piston gauges is
     presented. The model uses an interpolation function for momentum transfer between
     the piston and the cylinder mediated by the gas flowing in the crevice. The interpolation
     function bridges the gap between the molecular-flow and viscous-flow regimes,
@@ -79,40 +71,32 @@ abstract:
     are compared with published measurements of the effective area of several piston
     gauges in which relative changes as large as 30 × 10<sup>-6</sup> (30 ppm) were
     observed when different pressurizing gases were used.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Model for drag forces in the crevice of piston gauges in the viscous-flow
+    - language: en
+      script: Latn
+      content: Model for drag forces in the crevice of piston gauges in the viscous-flow
         and molecular-flow regimes
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1999-12-01'
+      at: '1999-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +107,6 @@ extent:
     reference_from: '565'
     reference_to: '570'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

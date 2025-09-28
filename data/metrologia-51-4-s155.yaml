@@ -1,101 +1,87 @@
 ---
-schema-version: v1.2.9
-id: Metrologia514S155
-title:
-- content: Revision of the ‘Guide to the Expression of Uncertainty in Measurement’.
-    Why and how
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/51/4/S155
-  type: src
-- content: https://doi.org/10.1088/0026-1394/51/4/S155
-  type: doi
 type: article
-docid:
-- id: Metrologia 51 4 S155
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Revision of the ‘<italic>Guide to the Expression of Uncertainty in Measurement</italic>’.
+    Why and how
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/51/4/S155
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/51/4/S155
+docidentifier:
+- content: Metrologia 51 4 S155
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/51/4/S155
+- content: 10.1088/0026-1394/51/4/S155
   type: doi
 date:
 - type: published
-  value: '2014-07-11'
+  at: '2014-07-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Walter Bich
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Torino, Italy
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)
-        contact:
-        - address:
-            formatted_address: Torino, Italy
-  role:
-  - type: author
-revdate: '2014-07-11'
 abstract:
-- content: Abstract<p>The ‘Guide to the Expression of Uncertainty in Measurement’
-    has now served for more than twenty years. In this communication, after attempting
-    a balance over this period, the logical reasons are given that, on the one hand,
-    led to the decision to update such a successful document, and, on the other hand,
-    dictated the modifications that are being carried out with respect to the current
-    2008 edition.</p><p>The author is convener of the Joint Committee for Guides in
-    Metrology (JCGM) Working Group 1 (Guide to the expression of uncertainty in measurement,
-    or GUM). The opinion expressed in this paper does not necessarily represent the
-    view of this Working Group.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>The ‘<italic>Guide to the Expression of Uncertainty in Measurement</italic>’ has now served for more than twenty years. In this communication, after attempting a balance over this period, the logical reasons are given that, on the one hand, led to the decision to update such a successful document, and, on the other hand, dictated the modifications that are being carried out with respect to the current 2008 edition.</p>
+    <p>The author is convener of the Joint Committee for Guides in Metrology (JCGM) Working Group 1 (Guide to the expression of uncertainty in measurement, or GUM). The opinion expressed in this paper does not necessarily represent the view of this Working Group.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2014'
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revision of the ‘Guide to the Expression of Uncertainty in Measurement’.
-        Why and how
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Revision of the ‘<italic>Guide to the Expression of Uncertainty in
+        Measurement</italic>’. Why and how
     date:
     - type: ppub
-      value: '2014-08-01'
+      at: '2014-08-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Revision of the ‘Guide to the Expression of Uncertainty in Measurement’.
-        Why and how
-      script:
-      - Latn
-      format: text/html
+    - script: Latn
+      content: Revision of the ‘<italic>Guide to the Expression of Uncertainty in
+        Measurement</italic>’. Why and how
     date:
     - type: epub
-      value: '2014-07-11'
+      at: '2014-07-11'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +92,6 @@ extent:
     reference_from: S155
     reference_to: S158
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

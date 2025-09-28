@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia354649
-title:
-- content: Precise relative calibration of Earth-orbiting remote sensors, using the
-    Moon
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/4/73
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/4/73
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 4 649
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Precise relative calibration of Earth-orbiting remote sensors, using the
+    Moon
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/4/73
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/4/73
+docidentifier:
+- content: Metrologia 35 4 649
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/4/73
+- content: 10.1088/0026-1394/35/4/73
   type: doi
 date:
 - type: published
-  value: '1998-08-01'
+  at: '1998-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G D Godden
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Phys. Appl. Inc., Res. Data Systems Corp.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C A McKay
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Phys. Appl. Inc., Res. Data Systems Corp.
-  role:
-  - type: author
-revdate: '1998-08-01'
 abstract:
-- content: "<p>An observation strategy is described that uses the Moon to monitor
+- language: en
+  script:
+  - Latn
+  content: "<p>An observation strategy is described that uses the Moon to monitor
     the radiometric stability of Earthorbiting remote-sensing instruments without
     requiring precise lunar-radiance measurements over the full range of lunar cycles.
     The Moon can be used as a constant irradiance reference for monitoring on-orbit
@@ -76,40 +70,32 @@ abstract:
     is presented and evaluated for the NASA Earth Observing System (EOS) Moderate
     Resolution Imaging Spectroradiometer (MODIS). The total combined relative uncertainties
     between suitable lunar reference pairs are expected to be less than 1 %.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Precise relative calibration of Earth-orbiting remote sensors, using
+    - language: en
+      script: Latn
+      content: Precise relative calibration of Earth-orbiting remote sensors, using
         the Moon
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-08-01'
+      at: '1998-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -120,6 +106,6 @@ extent:
     reference_from: '649'
     reference_to: '655'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

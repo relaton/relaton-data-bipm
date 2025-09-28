@@ -1,111 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia373207
-title:
-- content: Argument for a direct realization of the quantum metrological triangle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/3/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/3/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 3 207
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Argument for a direct realization of the quantum metrological triangle
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/3/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/3/4
+docidentifier:
+- content: Metrologia 37 3 207
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/3/4
+- content: 10.1088/0026-1394/37/3/4
   type: doi
 date:
 - type: published
-  value: '2000-06-01'
+  at: '2000-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Piquemal
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LCIE
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Genevès
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: BNM-LCIE
-  role:
-  - type: author
-revdate: '2000-06-01'
 abstract:
-- content: "<p>The quantum metrological triangle experiment, which is under development
+- language: en
+  script:
+  - Latn
+  content: "<p>The quantum metrological triangle experiment, which is under development
     at the Bureau National de Métrologie-Laboratoire Central des Industries Électriques
     (BNM-LCIE), consists of applying Ohm's law directly to the quantities related
     to the single-electron tunnelling (SET) effect, the ac Josephson effect (JE) and
     the quantum Hall effect (QHE). The goal of this experiment is to test, at a significant
     level of uncertainty of about 1 part in 10<sup>8</sup>, the coherence of the constants
-    involved in these three quantum phenomena: the Josephson constant K<sub>J</sub>,
-    expected to correspond to the ratio 2e/h (where e is the elementary charge and
-    h the Planck constant); the von Klitzing constant R<sub>K</sub>, in relation to
-    the quantum resistance h/e<sup>2</sup>; and a new constant Q<sub>X</sub>, defined
-    here as the estimate of e. Moreover, realization of the metrological triangle
-    experiment, combined with the experiment being developed at the NIST aimed at
-    charging a capacitor by means of a SET pump, will give information liable to be
-    taken into account in future adjustments of the fundamental constants without
-    requiring any hypothesis regarding the physical phenomena involved. The combination
-    of these two experiments should yield a new value of R<sub>K</sub> in ohms of
-    the International System of Units (SI). The broad outlines of our experimental
-    set-up are given, along with the expected uncertainties in both the short and
-    long terms.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    involved in these three quantum phenomena: the Josephson constant <italic>K</italic><sub>J</sub>,
+    expected to correspond to the ratio 2<italic>e</italic>/<italic>h</italic> (where
+    <italic>e</italic> is the elementary charge and <italic>h</italic> the Planck
+    constant); the von Klitzing constant <italic>R</italic><sub>K</sub>, in relation
+    to the quantum resistance <italic>h</italic>/<italic>e</italic><sup>2</sup>; and
+    a new constant <italic>Q</italic><sub>X</sub>, defined here as the estimate of
+    <italic>e</italic>. Moreover, realization of the metrological triangle experiment,
+    combined with the experiment being developed at the NIST aimed at charging a capacitor
+    by means of a SET pump, will give information liable to be taken into account
+    in future adjustments of the fundamental constants without requiring any hypothesis
+    regarding the physical phenomena involved. The combination of these two experiments
+    should yield a new value of <italic>R</italic><sub>K</sub> in ohms of the International
+    System of Units (SI). The broad outlines of our experimental set-up are given,
+    along with the expected uncertainties in both the short and long terms.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Argument for a direct realization of the quantum metrological triangle
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Argument for a direct realization of the quantum metrological triangle
     date:
     - type: ppub
-      value: '2000-06-01'
+      at: '2000-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -116,6 +103,6 @@ extent:
     reference_from: '207'
     reference_to: '211'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

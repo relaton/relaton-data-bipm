@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia444S53
-title:
-- content: Ionization chambers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/4/S07
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/4/S07
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 4 S53
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Ionization chambers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/4/S07
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/4/S07
+docidentifier:
+- content: Metrologia 44 4 S53
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/4/S07
+- content: 10.1088/0026-1394/44/4/S07
   type: doi
 date:
 - type: published
-  value: '2007-08-01'
+  at: '2007-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Schrader
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig,
             Germany
-  role:
-  - type: author
-revdate: '2007-08-01'
 abstract:
-- content: "<p>The equipment, working principles, performance and disturbing effects
+- language: en
+  script:
+  - Latn
+  content: "<p>The equipment, working principles, performance and disturbing effects
     of re-entrant (or 4π) pressurized ionization-chamber measuring systems for activity
     determinations of photon-emitting radionuclide sources are described. Important
     features of these systems are the measuring geometry—generally reproducible and
@@ -50,53 +46,42 @@ abstract:
     are also considered. Basic equations for instrument calibrations and related uncertainties
     are given. A few applications, particularly half-life measurements, are represented.
     Finally, the bibliography of publications during the past ten years is reviewed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ionization chambers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Ionization chambers
     date:
     - type: epub
-      value: '2007-08-02'
+      at: '2007-08-02'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Ionization chambers
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Ionization chambers
     date:
     - type: ppub
-      value: '2007-08-01'
+      at: '2007-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +92,6 @@ extent:
     reference_from: S53
     reference_to: S66
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

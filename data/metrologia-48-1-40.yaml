@@ -1,60 +1,54 @@
 ---
-schema-version: v1.2.9
-id: Metrologia48140
-title:
-- content: New approach in ac voltage references based on micro-nanosystems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/1/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/1/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 1 40
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: New approach in ac voltage references based on micro-nanosystems
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/1/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/1/004
+docidentifier:
+- content: Metrologia 48 1 40
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/1/004
+- content: 10.1088/0026-1394/48/1/004
   type: doi
 date:
 - type: published
-  value: '2011-01-11'
+  at: '2011-01-11'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Bounouh
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE – 29 avenue Roger Hennequin, 78197 Trappes, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D Bélières
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: LNE – 29 avenue Roger Hennequin, 78197 Trappes, France
-  role:
-  - type: author
-revdate: '2011-01-11'
 abstract:
-- content: "<p>This paper deals with a new theoretical approach using micro- and nano-electromechanical
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper deals with a new theoretical approach using micro- and nano-electromechanical
     systems to build alternating current (ac) voltage standards. The principle is
     based on the quadratic variation of the capacitance due to the displacement of
     at least one of the micro-machined electrodes as a result of an applied electrostatic
@@ -69,55 +63,47 @@ abstract:
     architectures are proposed to realize such devices: the first one is based on
     electrodes in the shape of a triangle and the second one uses split finger electrodes
     with unequal lengths.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: New approach in ac voltage references based on micro-nanosystems
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New approach in ac voltage references based on micro-nanosystems
     date:
     - type: epub
-      value: '2011-01-11'
+      at: '2011-01-11'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: New approach in ac voltage references based on micro-nanosystems
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: New approach in ac voltage references based on micro-nanosystems
     date:
     - type: ppub
-      value: '2011-02-01'
+      at: '2011-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +114,6 @@ extent:
     reference_from: '40'
     reference_to: '46'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

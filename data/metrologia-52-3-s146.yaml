@@ -1,123 +1,98 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S146
-title:
-- content: Typical uncertainties in alpha-particle spectrometry
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S146
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S146
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S146
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Typical uncertainties in alpha-particle spectrometry
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S146
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S146
+docidentifier:
+- content: Metrologia 52 3 S146
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S146
+- content: 10.1088/0026-1394/52/3/S146
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Pommé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Retieseweg 111, B-2440 Geel, Belgium
         name:
         - content: Institute for Reference Materials and Measurements
         subdivision:
-        - content: European Commission, Joint Research Centre
-        contact:
-        - address:
-            formatted_address: Retieseweg 111, B-2440 Geel, Belgium
-  role:
-  - type: author
-revdate: '2015-05-22'
+        - name:
+          - language: en
+            script: Latn
+            content: European Commission, Joint Research Centre
 abstract:
-- content: Abstract<p>Alpha-particle spectrometry is routinely performed with the
-    aim of measuring absolute activities, activity ratios between different alpha-emitting
-    nuclides or decay data such as branching factors, alpha emission probabilities
-    and relative half-lives. It is most commonly performed with ion-implanted silicon
-    detectors. Strong features of the technique are the low background levels that
-    can be achieved due to low sensitivity to other types of radiation, the intrinsic
-    efficiency close to 1 which reduces the efficiency calculations to a geometrical
-    problem and the uniqueness of the energy spectra for each α-decaying nuclide.
-    The main challenge is the limitation to the attainable energy resolution, even
-    with thin and homogenous sources, which causes alpha energy peaks to be partially
-    unresolved due to their width and low-energy tailing. The spectral deconvolution
-    often requires fitting of analytical functions to each peak in the alpha spectrum.
-    True coincidence effects between alpha particles and subsequently emitted conversion
-    electrons cause distortions of the alpha spectra which lead to significant changes
-    in the apparent peak area ratios. Optimum energy resolution can only be achieved
-    on very thin sources, which puts constraints on the source preparation techniques.
-    Radiochemical separations may be needed to extract the alpha emitters from voluminous
-    matrices and efficiency tracing is performed by adding in another isotope by known
-    amounts. Typical uncertainty components are discussed by means of some hypothetical
-    examples.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Alpha-particle spectrometry is routinely performed with the aim of measuring absolute activities, activity ratios between different alpha-emitting nuclides or decay data such as branching factors, alpha emission probabilities and relative half-lives. It is most commonly performed with ion-implanted silicon detectors. Strong features of the technique are the low background levels that can be achieved due to low sensitivity to other types of radiation, the intrinsic efficiency close to 1 which reduces the efficiency calculations to a geometrical problem and the uniqueness of the energy spectra for each <italic>α</italic>-decaying nuclide. The main challenge is the limitation to the attainable energy resolution, even with thin and homogenous sources, which causes alpha energy peaks to be partially unresolved due to their width and low-energy tailing. The spectral deconvolution often requires fitting of analytical functions to each peak in the alpha spectrum. True coincidence effects between alpha particles and subsequently emitted conversion electrons cause distortions of the alpha spectra which lead to significant changes in the apparent peak area ratios. Optimum energy resolution can only be achieved on very thin sources, which puts constraints on the source preparation techniques. Radiochemical separations may be needed to extract the alpha emitters from voluminous matrices and efficiency tracing is performed by adding in another isotope by known amounts. Typical uncertainty components are discussed by means of some hypothetical examples.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Typical uncertainties in alpha-particle spectrometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Typical uncertainties in alpha-particle spectrometry
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Typical uncertainties in alpha-particle spectrometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Typical uncertainties in alpha-particle spectrometry
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Typical uncertainties in alpha-particle spectrometry
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Typical uncertainties in alpha-particle spectrometry
     date:
     - type: open-access
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +103,6 @@ extent:
     reference_from: S146
     reference_to: S155
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

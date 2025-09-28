@@ -1,136 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia425442
-title:
-- content: 'Measurement of radioactive samples: application of the Bayesian statistical
-    decision theory'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/5/015
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/5/015
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 5 442
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Measurement of radioactive samples: application of the Bayesian statistical
+    decision theory'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/5/015
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/5/015
+docidentifier:
+- content: Metrologia 42 5 442
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/5/015
+- content: 10.1088/0026-1394/42/5/015
   type: doi
 date:
 - type: published
-  value: '2005-09-13'
+  at: '2005-09-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-Pascal Laedermann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Universitaire de Radiophysique Appliquée, DUMSC-CHUV,
             Grand-Pré 1, CH-1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jean-François Valley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Universitaire de Radiophysique Appliquée, DUMSC-CHUV,
             Grand-Pré 1, CH-1007 Lausanne, Switzerland
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: François O Bochud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Institut Universitaire de Radiophysique Appliquée, DUMSC-CHUV,
             Grand-Pré 1, CH-1007 Lausanne, Switzerland
-  role:
-  - type: author
-revdate: '2005-09-13'
 abstract:
-- content: "<p>The classical way of estimating the activity of radioactive samples
+- language: en
+  script:
+  - Latn
+  content: "<p>The classical way of estimating the activity of radioactive samples
     does not give a correct value and uncertainty when the activity has the same order
     of magnitude or is smaller than the background radiation. We propose a method
-    of solving the problem based on Bayesian decision theory. The a priori distribution
-    used is Jeffreys' invariant obtained by taking into account the fact that the
-    number of particles emitted and detected is Poisson distributed. In contrast to
-    the classical approach, the Bayesian estimate is always positive and the result
+    of solving the problem based on Bayesian decision theory. The <italic>a priori</italic>
+    distribution used is Jeffreys' invariant obtained by taking into account the fact
+    that the number of particles emitted and detected is Poisson distributed. In contrast
+    to the classical approach, the Bayesian estimate is always positive and the result
     obtained is a whole distribution (a confluent hypergeometric function) that gives
     not only the mean value but also any confidence interval. For higher activities,
     the Bayesian and classical estimates are indistinguishable.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Measurement of radioactive samples: application of the Bayesian statistical
+    - language: en
+      script: Latn
+      content: 'Measurement of radioactive samples: application of the Bayesian statistical
         decision theory'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-09-13'
+      at: '2005-09-13'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Measurement of radioactive samples: application of the Bayesian statistical
+    - language: en
+      script: Latn
+      content: 'Measurement of radioactive samples: application of the Bayesian statistical
         decision theory'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-10-01'
+      at: '2005-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -141,6 +122,6 @@ extent:
     reference_from: '442'
     reference_to: '448'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

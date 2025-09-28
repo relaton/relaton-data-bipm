@@ -1,120 +1,104 @@
 ---
-schema-version: v1.2.9
-id: Metrologia435419
-title:
-- content: Some metrological considerations about replicated measurements on standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/5/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/5/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 5 419
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Some metrological considerations about replicated measurements on standards
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/5/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/5/013
+docidentifier:
+- content: Metrologia 43 5 419
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/5/013
+- content: 10.1088/0026-1394/43/5/013
   type: doi
 date:
 - type: published
-  value: '2006-09-21'
+  at: '2006-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Franco Pavese
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Istituto Nazionale di Ricerca Metrologica (INRIM)From 1 January
             2006, National Institute for Research in Metrology, formerly Istituto
             di Metrologia ‘G Colonnetti’ (IMGC)., Torino, Italy
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Eduarda Filipe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Instituto Português da Qualidade, Caparica, Portugal
-  role:
-  - type: author
-revdate: '2006-09-21'
 abstract:
-- content: "<p>This paper discusses the issue of repeated versus non-repeated measurements
+- language: en
+  script:
+  - Latn
+  content: "<p>This paper discusses the issue of repeated versus non-repeated measurements
     on standards. Starting from the general issue of replication of measurement operations,
     we consider the consequences of the differences that these two types of measurements
     entail in the comparison of standards. We look at MRA key comparisons (KCs) as
     a specific case. Recent developments seem to have somewhat obscured the fact that
     the replication and combination of observations is the everyday task of NMIs.
-    Therefore, this paper first recalls the many facets of intra-laboratory measurements
-    on standards, some not very different from the inter-laboratory exercises. The
-    meaning of the replicated observations is analysed starting from this context.
-    Then the issue is examined in the context of inter-laboratory comparisons, namely,
-    in the case of KCs. Some of the consequences for the statistical treatment of
-    repeated and non-repeated measurement data are illustrated and solutions proposed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    Therefore, this paper first recalls the many facets of <italic>intra</italic>-laboratory
+    measurements on standards, some not very different from the <italic>inter</italic>-laboratory
+    exercises. The meaning of the replicated observations is analysed starting from
+    this context. Then the issue is examined in the context of <italic>inter</italic>-laboratory
+    comparisons, namely, in the case of KCs. Some of the consequences for the statistical
+    treatment of repeated and non-repeated measurement data are illustrated and solutions
+    proposed.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Some metrological considerations about replicated measurements on standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Some metrological considerations about replicated measurements on standards
     date:
     - type: epub
-      value: '2006-09-21'
+      at: '2006-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Some metrological considerations about replicated measurements on standards
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Some metrological considerations about replicated measurements on standards
     date:
     - type: ppub
-      value: '2006-10-01'
+      at: '2006-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -125,6 +109,6 @@ extent:
     reference_from: '419'
     reference_to: '425'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

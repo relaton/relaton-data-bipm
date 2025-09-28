@@ -1,149 +1,113 @@
 ---
-schema-version: v1.2.9
-id: Metrologia576065010
-title:
-- content: A simple method for Bayesian uncertainty evaluation in linear models
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aba3b8
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aba3b8
-  type: doi
 type: article
-docid:
-- id: Metrologia 57 6 065010
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: A simple method for Bayesian uncertainty evaluation in linear models
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aba3b8
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aba3b8
+docidentifier:
+- content: Metrologia 57 6 065010
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aba3b8
+- content: 10.1088/1681-7575/aba3b8
   type: doi
 date:
 - type: published
-  value: '2020-10-21'
+  at: '2020-10-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gerd Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Manuel Marschall
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Clemens Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2020-10-21'
 abstract:
-- content: Abstract<p>The Guide to the Expression of Uncertainty in Measurement (GUM)
-    has led to a harmonization of uncertainty evaluation throughout metrology. The
-    simplicity of its employed methodology has fostered the broad acceptance of the
-    GUM among metrologists. However, this simplicity also compromises best practice
-    and does not provide state-of-the-art data analysis. Specifically, metrologists
-    often possess useful prior knowledge about the measurand which cannot be accounted
-    for by the GUM. Bayesian uncertainty evaluation, on the other hand, takes prior
-    knowledge about the measurand as its starting point. While this technique has
-    been successfully applied in several instances in metrology, its broad access
-    for metrologists is still lacking. One reason for this is that application of
-    Bayesian methods and their computation, e.g. by means of Markov chain Monte Carlo
-    (MCMC) methods, usually requires statistical skills.</p><p>In this work, we propose
-    a simple method for Bayesian uncertainty evaluation applicable to measurement
-    models that depend linearly on a single input quantity for which Type A information
-    is available, and several input quantities for which Type B information is given.
-    This category of measurement models covers many uncertainty evaluations in metrology.
-    The approach utilizes a specific class of prior distributions to encode the prior
-    information about the measurand. Explicit guidance is provided on how to choose
-    the parameters of the prior in the light of one’s prior knowledge. MCMC methods
-    are not required for the calculation of results; instead, a simple Monte Carlo
-    procedure is developed that allows to draw uncorrelated samples from the posterior
-    distribution, which greatly simplifies convergence assessments. The proposed Bayesian
-    approach allows the treatment of small numbers of observations for a Type A uncertainty
-    evaluation, including the case of only a single observation. Examples are provided
-    that illustrate the proposed approach and corresponding open source Python software
-    is made available.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |2-
+
+    <title>Abstract</title>
+    <p>The Guide to the Expression of Uncertainty in Measurement (GUM) has led to a harmonization of uncertainty evaluation throughout metrology. The simplicity of its employed methodology has fostered the broad acceptance of the GUM among metrologists. However, this simplicity also compromises best practice and does not provide state-of-the-art data analysis. Specifically, metrologists often possess useful prior knowledge about the measurand which cannot be accounted for by the GUM. Bayesian uncertainty evaluation, on the other hand, takes prior knowledge about the measurand as its starting point. While this technique has been successfully applied in several instances in metrology, its broad access for metrologists is still lacking. One reason for this is that application of Bayesian methods and their computation, e.g. by means of Markov chain Monte Carlo (MCMC) methods, usually requires statistical skills.</p>
+    <p>In this work, we propose a simple method for Bayesian uncertainty evaluation applicable to measurement models that depend linearly on a single input quantity for which Type A information is available, and several input quantities for which Type B information is given. This category of measurement models covers many uncertainty evaluations in metrology. The approach utilizes a specific class of prior distributions to encode the prior information about the measurand. Explicit guidance is provided on how to choose the parameters of the prior in the light of one’s prior knowledge. MCMC methods are not required for the calculation of results; instead, a simple Monte Carlo procedure is developed that allows to draw uncorrelated samples from the posterior distribution, which greatly simplifies convergence assessments. The proposed Bayesian approach allows the treatment of small numbers of observations for a Type A uncertainty evaluation, including the case of only a single observation. Examples are provided that illustrate the proposed approach and corresponding open source Python software is made available.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2020'
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A simple method for Bayesian uncertainty evaluation in linear models
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A simple method for Bayesian uncertainty evaluation in linear models
     date:
     - type: ppub
-      value: '2020-12-01'
+      at: '2020-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: A simple method for Bayesian uncertainty evaluation in linear models
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: A simple method for Bayesian uncertainty evaluation in linear models
     date:
     - type: epub
-      value: '2020-10-21'
+      at: '2020-10-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +115,6 @@ extent:
   - type: issue
     reference_from: '6'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

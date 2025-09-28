@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia37125
-title:
-- content: Calibration of displacement sensors up to 300 µm with nanometre accuracy
-    and direct traceability to a primary standard of length
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/37/1/4
-  type: src
-- content: https://doi.org/10.1088/0026-1394/37/1/4
-  type: doi
 type: article
-docid:
-- id: Metrologia 37 1 25
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Calibration of displacement sensors up to 300 µm with nanometre accuracy
+    and direct traceability to a primary standard of length
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/37/1/4
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/37/1/4
+docidentifier:
+- content: Metrologia 37 1 25
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/37/1/4
+- content: 10.1088/0026-1394/37/1/4
   type: doi
 date:
 - type: published
-  value: '2000-02-01'
+  at: '2000-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Haitjema
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eindhoven Univ. Technol.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: P H J Schellekens
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eindhoven Univ. Technol.
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S F C L Wetzels
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Eindhoven Univ. Technol.
-  role:
-  - type: author
-revdate: '2000-02-01'
 abstract:
-- content: "<p>A new class of sensor has recently appeared: nanometre sensors. These
+- language: en
+  script:
+  - Latn
+  content: "<p>A new class of sensor has recently appeared: nanometre sensors. These
     sensors are characterized by nanometre or sub-nanometre resolution and an uncertainty
     of a few nanometres over a range of at least several micrometres. Instruments
     such as capacitive or inductive sensors, laser interferometers, holographic scales,
@@ -84,40 +76,32 @@ abstract:
     picometres, a range of 300 µm and an uncertainty of about 1 nm. Experiments confirm
     the performance of this instrument and show typical deviations of the probe systems
     investigated.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2000'
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of displacement sensors up to 300 µm with nanometre accuracy
+    - language: en
+      script: Latn
+      content: Calibration of displacement sensors up to 300 µm with nanometre accuracy
         and direct traceability to a primary standard of length
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2000-02-01'
+      at: '2000-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +112,6 @@ extent:
     reference_from: '25'
     reference_to: '33'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

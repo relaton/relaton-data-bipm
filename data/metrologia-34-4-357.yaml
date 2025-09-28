@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia344357
-title:
-- content: Comparison of absolute d/O diffuse reflectance factor scales of the NRC
-    and the PTB
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/34/4/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/34/4/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 34 4 357
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison of absolute d/O diffuse reflectance factor scales of the NRC
+    and the PTB
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/34/4/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/34/4/9
+docidentifier:
+- content: Metrologia 34 4 357
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/34/4/9
+- content: 10.1088/0026-1394/34/4/9
   type: doi
 date:
 - type: published
-  value: '1997-08-01'
+  at: '1997-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Zwinkels
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Erb
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NRC, PTB
-  role:
-  - type: author
-revdate: '1997-08-01'
 abstract:
-- content: "<p>A comparison of the absolute diffuse reflectance factor scales of the
+- language: en
+  script:
+  - Latn
+  content: "<p>A comparison of the absolute diffuse reflectance factor scales of the
     National Research Council (NRC, Canada) and the Physikalisch-Technische Bundesanstalt
     (PTB, Germany) for radiance factor measurements in the d/0 geometry was carried
     out in 1996. The spectral range of the comparison was 360 nm to 830 nm. The transfer
@@ -69,40 +63,32 @@ abstract:
     wavelengths is largely due to improvements in the uniformity of the radiance of
     the sphere wall and out-of-band blocking of the interference filters used for
     wavelength separation.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1997'
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of absolute d/O diffuse reflectance factor scales of the
+    - language: en
+      script: Latn
+      content: Comparison of absolute d/O diffuse reflectance factor scales of the
         NRC and the PTB
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1997-08-01'
+      at: '1997-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -113,6 +99,6 @@ extent:
     reference_from: '357'
     reference_to: '363'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

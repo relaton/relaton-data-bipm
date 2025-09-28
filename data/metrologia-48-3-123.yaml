@@ -1,80 +1,72 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483123
-title:
-- content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/006
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/006
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 123
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/006
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/006
+docidentifier:
+- content: Metrologia 48 3 123
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/006
+- content: 10.1088/0026-1394/48/3/006
   type: doi
 date:
 - type: published
-  value: '2011-03-01'
+  at: '2011-03-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Jože Kutin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of Measurements in Process Engineering, Faculty of Mechanical
             Engineering, University of Ljubljana, Aškerčeva 6, SI-1000 Ljubljana,
             Slovenia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gregor Bobovnik
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of Measurements in Process Engineering, Faculty of Mechanical
             Engineering, University of Ljubljana, Aškerčeva 6, SI-1000 Ljubljana,
             Slovenia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ivan Bajsić
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Laboratory of Measurements in Process Engineering, Faculty of Mechanical
             Engineering, University of Ljubljana, Aškerčeva 6, SI-1000 Ljubljana,
             Slovenia
-  role:
-  - type: author
-revdate: '2011-03-01'
 abstract:
-- content: "<p>A piston prover determines the gas flow rate by measuring the time
+- language: en
+  script:
+  - Latn
+  content: "<p>A piston prover determines the gas flow rate by measuring the time
     interval that a movable piston inside a cylinder needs to pass a known volume
     of gas at a defined pressure and temperature. This paper deals with the dynamic
     effects related to the operation of a high-speed, clearance-sealed realization
@@ -88,55 +80,47 @@ abstract:
     effects depends on the properties of the thermodynamic gas processes being adiabatic,
     polytropic or isothermal. A new, modified flow equation of the piston prover,
     which considers the polytropic index as an input variable, is proposed.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
     date:
     - type: epub
-      value: '2011-03-01'
+      at: '2011-03-01'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Dynamic effects in a clearance-sealed piston prover for gas flow measurements
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -147,6 +131,6 @@ extent:
     reference_from: '123'
     reference_to: '132'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

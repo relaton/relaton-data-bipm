@@ -1,168 +1,127 @@
 ---
-schema-version: v1.2.9
-id: Metrologia475522
-title:
-- content: 'Deconvolution filters for the analysis of dynamic measurement processes:
-    a tutorial'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/47/5/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/47/5/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 47 5 522
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Deconvolution filters for the analysis of dynamic measurement processes:
+    a tutorial'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/47/5/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/47/5/003
+docidentifier:
+- content: Metrologia 47 5 522
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/47/5/003
+- content: 10.1088/0026-1394/47/5/003
   type: doi
 date:
 - type: published
-  value: '2010-08-18'
+  at: '2010-08-18'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Eichstädt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, 10587 Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T J Esward
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Physical Laboratory, Teddington, Middlesex, TW11 0LW,
             UK
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J P Hessling
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: SP Technical Research Institute of Sweden, Box 857, SE-501 15 Borås,
             Sweden
-  role:
-  - type: author
-revdate: '2010-08-18'
 abstract:
-- content: "<p>Analysis of dynamic measurements is of growing importance in metrology
-    as an increasing number of applications requires the determination of measurands
-    showing a time-dependence. Often linear time-invariant (LTI) systems are appropriate
-    for modelling the relation between the available measurement data and the required
-    time-dependent values of the measurand. Estimation of the measurand is then carried
-    out by deconvolution.</p><p>This paper is a tutorial about the application of
-    digital deconvolution filters to reconstruct a time-variable measurand from the
-    measurement signal of a LTI measurement apparatus. The goal of the paper is to
-    make metrologists aware of the potentialities of digital signal processing in
-    such cases. A range of techniques is available for the construction of a digital
-    deconvolution filter. Here we compare various approaches for a form of dynamic
-    model that is relevant to many metrological applications and we discuss the consequences
-    for these approaches of the different ways in which information about the LTI
-    system may be expressed. We consider specifically the methods of minimum-phase
-    all pass decomposition, asynchronous time reversal using the exact inverse filter
-    and the construction of stable infinite impulse response and finite impulse response
-    approximate inverse filters by a least squares approach in the frequency domain.
-    The methods are compared qualitatively by assessing their numerical complexity
-    and quantitatively in terms of their performance for a simulated measurement task.</p><p>Taking
-    into account numerical complexity and underlying assumptions of the methods, we
-    conclude that when a continuous model of the LTI system is available, or when
-    the starting point is a set of measurements of the frequency response of a system,
-    application of least squares in the frequency domain for the construction of an
-    approximate inverse filter is to be preferred. On the other hand, asynchronous
-    time reversal filtering using the exact inverse filter appears superior when a
-    discrete model of the LTI system is available and when causality of the deconvolution
-    filter is not an issue.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Analysis of dynamic measurements is of growing importance in metrology as an increasing number of applications requires the determination of measurands showing a time-dependence. Often linear time-invariant (LTI) systems are appropriate for modelling the relation between the available measurement data and the required time-dependent values of the measurand. Estimation of the measurand is then carried out by deconvolution.</p>
+    <p>This paper is a tutorial about the application of digital deconvolution filters to reconstruct a time-variable measurand from the measurement signal of a LTI measurement apparatus. The goal of the paper is to make metrologists aware of the potentialities of digital signal processing in such cases. A range of techniques is available for the construction of a digital deconvolution filter. Here we compare various approaches for a form of dynamic model that is relevant to many metrological applications and we discuss the consequences for these approaches of the different ways in which information about the LTI system may be expressed. We consider specifically the methods of minimum-phase all pass decomposition, asynchronous time reversal using the exact inverse filter and the construction of stable infinite impulse response and finite impulse response approximate inverse filters by a least squares approach in the frequency domain. The methods are compared qualitatively by assessing their numerical complexity and quantitatively in terms of their performance for a simulated measurement task.</p>
+    <p>Taking into account numerical complexity and underlying assumptions of the methods, we conclude that when a continuous model of the LTI system is available, or when the starting point is a set of measurements of the frequency response of a system, application of least squares in the frequency domain for the construction of an approximate inverse filter is to be preferred. On the other hand, asynchronous time reversal filtering using the exact inverse filter appears superior when a discrete model of the LTI system is available and when causality of the deconvolution filter is not an issue.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2010'
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Deconvolution filters for the analysis of dynamic measurement processes:
+    - language: en
+      script: Latn
+      content: 'Deconvolution filters for the analysis of dynamic measurement processes:
         a tutorial'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2010-08-18'
+      at: '2010-08-18'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Deconvolution filters for the analysis of dynamic measurement processes:
+    - language: en
+      script: Latn
+      content: 'Deconvolution filters for the analysis of dynamic measurement processes:
         a tutorial'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2010-10-01'
+      at: '2010-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -173,6 +132,6 @@ extent:
     reference_from: '522'
     reference_to: '533'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

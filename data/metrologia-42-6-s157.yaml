@@ -1,74 +1,66 @@
 ---
-schema-version: v1.2.9
-id: Metrologia426S157
-title:
-- content: Realization of the medium and high vacuum primary standard in CENAM, Mexico
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/42/6/S01
-  type: src
-- content: https://doi.org/10.1088/0026-1394/42/6/S01
-  type: doi
 type: article
-docid:
-- id: Metrologia 42 6 S157
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Realization of the medium and high vacuum primary standard in CENAM, Mexico
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/42/6/S01
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/42/6/S01
+docidentifier:
+- content: Metrologia 42 6 S157
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/42/6/S01
+- content: 10.1088/0026-1394/42/6/S01
   type: doi
 date:
 - type: published
-  value: '2005-11-09'
+  at: '2005-11-09'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Torres-Guzman
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro Nacional de Metrología (CENAM), Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L A Santander
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Centro Nacional de Metrología (CENAM), Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Jousten
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB), Germany
-  role:
-  - type: author
-revdate: '2005-11-09'
 abstract:
-- content: "<p>A medium and high vacuum primary standard, based on the static expansion
+- language: en
+  script:
+  - Latn
+  content: "<p>A medium and high vacuum primary standard, based on the static expansion
     method, has been set up at Centro Nacional de Metrología (CENAM), Mexico. This
     system has four volumes and covers a measuring range of 1 × 10<sup>−5</sup> Pa
     to 1 × 10<sup>3</sup> Pa of absolute pressure. As part of its realization, a characterization
@@ -81,55 +73,44 @@ abstract:
     (Euromet.M.P-K1.b). As a result, it is concluded that the value obtained at CENAM
     is equivalent to the Euromet reference value, and therefore the design, construction
     and operation of CENAM's SEE-1 vacuum primary standard were successful.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2005'
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the medium and high vacuum primary standard in CENAM,
+    - language: en
+      script: Latn
+      content: Realization of the medium and high vacuum primary standard in CENAM,
         Mexico
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2005-11-09'
+      at: '2005-11-09'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Realization of the medium and high vacuum primary standard in CENAM,
+    - language: en
+      script: Latn
+      content: Realization of the medium and high vacuum primary standard in CENAM,
         Mexico
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2005-12-01'
+      at: '2005-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +121,6 @@ extent:
     reference_from: S157
     reference_to: S160
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

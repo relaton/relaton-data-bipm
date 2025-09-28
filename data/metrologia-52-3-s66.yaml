@@ -1,131 +1,112 @@
 ---
-schema-version: v1.2.9
-id: Metrologia523S66
-title:
-- content: Uncertainties in nuclear decay data evaluations
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/3/S66
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/3/S66
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 3 S66
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Uncertainties in nuclear decay data evaluations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/3/S66
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/3/S66
+docidentifier:
+- content: Metrologia 52 3 S66
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/3/S66
+- content: 10.1088/0026-1394/52/3/S66
   type: doi
 date:
 - type: published
-  value: '2015-05-22'
+  at: '2015-05-22'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M-M Bé
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: CEA/LIST Saclay, PC 111, 91191 Gif-sur-Yvette Cedex,
+            France
         name:
         - content: LNE-LNHB
-        contact:
-        - address:
-            formatted_address: CEA/LIST Saclay, PC 111, 91191 Gif-sur-Yvette Cedex,
-              France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: V P Chechev
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 28 Second Murinsky Ave., St. Petersburg, 194021, Russia
         name:
         - content: V.G. Khlopin Radium Institute
-        contact:
-        - address:
-            formatted_address: 28 Second Murinsky Ave., St. Petersburg, 194021, Russia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Pearce
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
         name:
         - content: National Physical Laboratory
-        contact:
-        - address:
-            formatted_address: Hampton Road, Teddington, Middlesex, TW11 0LW, UK
-  role:
-  - type: author
-revdate: '2015-05-22'
 abstract:
-- content: Abstract<p>Over the years, scientists have compiled and evaluated experimental
-    results and combined these with theoretical studies with the goal of obtaining
-    the best values, and their uncertainties, for the quantities related to radioactive
-    decay. To meet the demand, an international group, the Decay Data Evaluation Project,
-    was organised in 1995. The methodology adopted by this group is detailed. Some
-    examples are given explaining how the final uncertainties are assessed from the
-    experimental results and their uncertainties.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Over the years, scientists have compiled and evaluated experimental results and combined these with theoretical studies with the goal of obtaining the best values, and their uncertainties, for the quantities related to radioactive decay. To meet the demand, an international group, the Decay Data Evaluation Project, was organised in 1995. The methodology adopted by this group is detailed. Some examples are given explaining how the final uncertainties are assessed from the experimental results and their uncertainties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in nuclear decay data evaluations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainties in nuclear decay data evaluations
     date:
     - type: ppub
-      value: '2015-06-01'
+      at: '2015-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Uncertainties in nuclear decay data evaluations
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Uncertainties in nuclear decay data evaluations
     date:
     - type: epub
-      value: '2015-05-22'
+      at: '2015-05-22'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -136,6 +117,6 @@ extent:
     reference_from: S66
     reference_to: S72
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

@@ -1,101 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia526811
-title:
-- content: Bias detection and certified reference materials for random measurands
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/52/6/811
-  type: src
-- content: https://doi.org/10.1088/0026-1394/52/6/811
-  type: doi
 type: article
-docid:
-- id: Metrologia 52 6 811
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Bias detection and certified reference materials for random measurands
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/52/6/811
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/52/6/811
+docidentifier:
+- content: Metrologia 52 6 811
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/52/6/811
+- content: 10.1088/0026-1394/52/6/811
   type: doi
 date:
 - type: published
-  value: '2015-10-28'
+  at: '2015-10-28'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Andrew L Rukhin
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
         name:
         - content: National Institute of Standards and Technology
         subdivision:
-        - content: Statistical Engineering Division, Information Technology Laboratory
-        contact:
-        - address:
-            formatted_address: 100 Bureau Drive, Gaithersburg, MD 20899, USA
-  role:
-  - type: author
-revdate: '2015-10-28'
+        - name:
+          - language: en
+            script: Latn
+            content: Statistical Engineering Division, Information Technology Laboratory
 abstract:
-- content: Abstract<p>A problem that frequently occurs in metrology is the bias checking
-    of data obtained by a laboratory against the specified value and uncertainty estimate
-    given in the certificate of analysis. The measurand—a property of a certified
-    reference material (CRM)—is supposed to be random with a normal distribution whose
-    parameters are given by the certificate specifications. The laboratory’s data
-    from subsequent measurements of the CRM (a CRM experiment) are summarized by the
-    sample mean value and its uncertainty which is commonly based on a repeatability
-    standard deviation. New confidence intervals for the lab’s bias are derived. Although
-    they may lack intuitive appeal, those obtained by using higher order asymptotic
-    methods, compared and contrasted in this paper, are recommended.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>A problem that frequently occurs in metrology is the bias checking of data obtained by a laboratory against the specified value and uncertainty estimate given in the certificate of analysis. The measurand—a property of a certified reference material (CRM)—is supposed to be random with a normal distribution whose parameters are given by the certificate specifications. The laboratory’s data from subsequent measurements of the CRM (a CRM experiment) are summarized by the sample mean value and its uncertainty which is commonly based on a repeatability standard deviation. New confidence intervals for the lab’s bias are derived. Although they may lack intuitive appeal, those obtained by using higher order asymptotic methods, compared and contrasted in this paper, are recommended.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2015'
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bias detection and certified reference materials for random measurands
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bias detection and certified reference materials for random measurands
     date:
     - type: ppub
-      value: '2015-12-01'
+      at: '2015-12-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Bias detection and certified reference materials for random measurands
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Bias detection and certified reference materials for random measurands
     date:
     - type: epub
-      value: '2015-10-28'
+      at: '2015-10-28'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +93,6 @@ extent:
     reference_from: '811'
     reference_to: '818'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

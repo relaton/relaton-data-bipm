@@ -1,170 +1,155 @@
 ---
-schema-version: v1.2.9
-id: Metrologia552284
-title:
-- content: Method for traceable measurement of LTE signals
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/aaabdc
-  type: src
-- content: https://doi.org/10.1088/1681-7575/aaabdc
-  type: doi
 type: article
-docid:
-- id: Metrologia 55 2 284
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Method for traceable measurement of LTE signals
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/aaabdc
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/aaabdc
+docidentifier:
+- content: Metrologia 55 2 284
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/aaabdc
+- content: 10.1088/1681-7575/aaabdc
   type: doi
 date:
 - type: published
-  value: '2018-03-15'
+  at: '2018-03-15'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Soumya Sunder Dash
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
         subdivision:
-        - content: EMC Laboratory
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern, Switzerland
+        - name:
+          - language: en
+            script: Latn
+            content: EMC Laboratory
     - organization:
+        address:
+        - formatted_address: Zurich, Switzerland
         name:
         - content: Institute of Electromagnetic Fields (IEF)
         subdivision:
-        - content: ETH Zurich
-        contact:
-        - address:
-            formatted_address: Zurich, Switzerland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: ETH Zurich
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Frederic Pythoud
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Lindenweg 50, 3003 Bern, Switzerland
         name:
         - content: Federal Institute of Metrology METAS
         subdivision:
-        - content: EMC Laboratory
-        contact:
-        - address:
-            formatted_address: Lindenweg 50, 3003 Bern, Switzerland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: EMC Laboratory
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pascal Leuchtmann
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Zurich, Switzerland
         name:
         - content: Institute of Electromagnetic Fields (IEF)
         subdivision:
-        - content: ETH Zurich
-        contact:
-        - address:
-            formatted_address: Zurich, Switzerland
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: ETH Zurich
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Juerg Leuthold
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Zurich, Switzerland
         name:
         - content: Institute of Electromagnetic Fields (IEF)
         subdivision:
-        - content: ETH Zurich
-        contact:
-        - address:
-            formatted_address: Zurich, Switzerland
-  role:
-  - type: author
-revdate: '2018-03-15'
+        - name:
+          - language: en
+            script: Latn
+            content: ETH Zurich
 abstract:
-- content: Abstract<p>This contribution presents a reference setup to measure the
-    power of the cell-specific resource elements present in downlink long term evolution
-    (LTE) signals in a way that the measurements are traceable to the international
-    system of units. This setup can be used to calibrate the LTE code-selective field
-    probes that are used to measure the radiation of base stations for mobile telephony.
-    It can also be used to calibrate LTE signal generators and receivers. The method
-    is based on traceable scope measurements performed directly at the output of a
-    measuring antenna. It implements offline digital signal processing demodulation
-    algorithms that consider the digital down-conversion, timing synchronization,
-    frequency synchronization, phase synchronization and robust LTE cell identification
-    to produce the downlink time-frequency LTE grid. Experimental results on conducted
-    test scenarios, both single-input–single-output and multiple-input–multiple-output
-    antenna configuration, show promising results confirming measurement uncertainties
-    of the order of 0.05 dB with a coverage factor of 2.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>This contribution presents a reference setup to measure the power of the cell-specific resource elements present in downlink long term evolution (LTE) signals in a way that the measurements are traceable to the international system of units. This setup can be used to calibrate the LTE code-selective field probes that are used to measure the radiation of base stations for mobile telephony. It can also be used to calibrate LTE signal generators and receivers. The method is based on traceable scope measurements performed directly at the output of a measuring antenna. It implements offline digital signal processing demodulation algorithms that consider the digital down-conversion, timing synchronization, frequency synchronization, phase synchronization and robust LTE cell identification to produce the downlink time-frequency LTE grid. Experimental results on conducted test scenarios, both single-input–single-output and multiple-input–multiple-output antenna configuration, show promising results confirming measurement uncertainties of the order of 0.05 dB with a coverage factor of 2.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2018'
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Method for traceable measurement of LTE signals
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Method for traceable measurement of LTE signals
     date:
     - type: ppub
-      value: '2018-04-01'
+      at: '2018-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Method for traceable measurement of LTE signals
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Method for traceable measurement of LTE signals
     date:
     - type: epub
-      value: '2018-03-15'
+      at: '2018-03-15'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -175,6 +160,6 @@ extent:
     reference_from: '284'
     reference_to: '293'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

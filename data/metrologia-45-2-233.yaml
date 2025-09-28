@@ -1,128 +1,95 @@
 ---
-schema-version: v1.2.9
-id: Metrologia452233
-title:
-- content: An experimental study of the stability of mass standards in transit
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/45/2/013
-  type: src
-- content: https://doi.org/10.1088/0026-1394/45/2/013
-  type: doi
 type: article
-docid:
-- id: Metrologia 45 2 233
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An experimental study of the stability of mass standards in transit
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/45/2/013
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/45/2/013
+docidentifier:
+- content: Metrologia 45 2 233
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/45/2/013
+- content: 10.1088/0026-1394/45/2/013
   type: doi
 date:
 - type: published
-  value: '2008-03-31'
+  at: '2008-03-31'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Fen
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Institute, Australia (NMIA), PO Box 264, Lindfield,
             NSW 2070, Australia
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E C Morris
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Measurement Institute, Australia (NMIA), PO Box 264, Lindfield,
             NSW 2070, Australia
-  role:
-  - type: author
-revdate: '2008-03-31'
 abstract:
-- content: "<p>Long-distance transport of high quality mass standards for the purpose
-    of calibration or international comparison is becoming increasingly common, and
-    the stability of these standards in transit is of universal concern. Despite efforts
-    to minimize disturbance, significant mass shifts have occurred during bilateral
-    intercomparisons involving the National Measurement Institute Australia using
-    1 kg travelling standards of a quality equal to national secondary standards.
-    Mass shifts have also been observed at the E<sub>1</sub> level.</p><p>This work
-    explores the extent to which transport and storage during transport might bring
-    about these mass instabilities. The weights, in their boxes or transit capsules,
-    were subjected to controlled variations in temperature, pressure and humidity
-    and were measured before and after these environmental stresses were applied.
-    The stresses varied from relatively mild to the very worst that could be expected
-    during transport and storage.</p><p>This study indicates that, with modest precautions,
-    weights of class E<sub>1</sub> or lower can be transported by courier. If significant
-    mass shifts do occur at this level, one can be reasonably confident that they
-    did not happen in transit. On the other hand, a higher quality kilogram weight
-    exhibited a mass shift in the order of the measurement uncertainty (30 µg) during
-    a period of rather extreme environmental stresses. The common practice of ‘hand-carrying’
-    such high quality standards is therefore recommended. The effect of vibration
-    in transit was not studied here.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>Long-distance transport of high quality mass standards for the purpose of calibration or international comparison is becoming increasingly common, and the stability of these standards in transit is of universal concern. Despite efforts to minimize disturbance, significant mass shifts have occurred during bilateral intercomparisons involving the National Measurement Institute Australia using 1 kg travelling standards of a quality equal to national secondary standards. Mass shifts have also been observed at the E<sub>1</sub> level.</p>
+    <p>This work explores the extent to which transport and storage during transport might bring about these mass instabilities. The weights, in their boxes or transit capsules, were subjected to controlled variations in temperature, pressure and humidity and were measured before and after these environmental stresses were applied. The stresses varied from relatively mild to the very worst that could be expected during transport and storage.</p>
+    <p>This study indicates that, with modest precautions, weights of class E<sub>1</sub> or lower can be transported by courier. If significant mass shifts do occur at this level, one can be reasonably confident that they did not happen in transit. On the other hand, a higher quality kilogram weight exhibited a mass shift in the order of the measurement uncertainty (30 µg) during a period of rather extreme environmental stresses. The common practice of ‘hand-carrying’ such high quality standards is therefore recommended. The effect of vibration in transit was not studied here.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2008'
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: An experimental study of the stability of mass standards in transit
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An experimental study of the stability of mass standards in transit
     date:
     - type: epub
-      value: '2008-03-31'
+      at: '2008-03-31'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: An experimental study of the stability of mass standards in transit
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: An experimental study of the stability of mass standards in transit
     date:
     - type: ppub
-      value: '2008-04-01'
+      at: '2008-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +100,6 @@ extent:
     reference_from: '233'
     reference_to: '240'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

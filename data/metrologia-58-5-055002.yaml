@@ -1,103 +1,88 @@
 ---
-schema-version: v1.2.9
-id: Metrologia585055002
-title:
-- content: Interlaboratory consensus building
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/ac0ea2
-  type: src
-- content: https://doi.org/10.1088/1681-7575/ac0ea2
-  type: doi
 type: article
-docid:
-- id: Metrologia 58 5 055002
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Interlaboratory consensus building
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/ac0ea2
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/ac0ea2
+docidentifier:
+- content: Metrologia 58 5 055002
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/ac0ea2
+- content: 10.1088/1681-7575/ac0ea2
   type: doi
 date:
 - type: published
-  value: '2021-07-26'
+  at: '2021-07-26'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Mana
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Torino, Italy
         name:
         - content: INRIM—Istituto Nazionale di Ricerca Metrologica
-        contact:
-        - address:
-            formatted_address: Torino, Italy
     - organization:
+        address:
+        - formatted_address: Dipartimento di Fisica, Torino, Italy
         name:
         - content: UNITO—Università di Torino
-        contact:
-        - address:
-            formatted_address: Dipartimento di Fisica, Torino, Italy
-  role:
-  - type: author
-revdate: '2021-07-26'
 abstract:
-- content: Abstract<p>Determining the degree of equivalence of participating laboratories
-    from the results of measurement comparisons still prompts discussions among metrologists,
-    especially where measurement uncertainties have been underestimated. This paper
-    expands on a solution to a problem issued in 2020 by the Journal of Analytical
-    and Bioanalytical Chemistry. The example illustrates an approach to consensus-building
-    based on Bayesian selection among statistical models that attempt to explain the
-    excess of data variation. The probability of any further model being correct can
-    be similarly calculated.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Determining the degree of equivalence of participating laboratories from the results of measurement comparisons still prompts discussions among metrologists, especially where measurement uncertainties have been underestimated. This paper expands on a solution to a problem issued in 2020 by the <italic toggle="yes">Journal of Analytical and Bioanalytical Chemistry</italic>. The example illustrates an approach to consensus-building based on Bayesian selection among statistical models that attempt to explain the excess of data variation. The probability of any further model being correct can be similarly calculated.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2021'
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Interlaboratory consensus building
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Interlaboratory consensus building
     date:
     - type: ppub
-      value: '2021-10-01'
+      at: '2021-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Interlaboratory consensus building
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Interlaboratory consensus building
     date:
     - type: epub
-      value: '2021-07-26'
+      at: '2021-07-26'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -105,6 +90,6 @@ extent:
   - type: issue
     reference_from: '5'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

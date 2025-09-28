@@ -1,67 +1,59 @@
 ---
-schema-version: v1.2.9
-id: Metrologia164169
-title:
-- content: Automatic Recording Laser Interferometer for Line Standards up to 2 m
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/4/003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/4/003
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 4 169
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Automatic Recording Laser Interferometer for Line Standards up to 2 m
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/4/003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/4/003
+docidentifier:
+- content: Metrologia 16 4 169
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/4/003
+- content: 10.1088/0026-1394/16/4/003
   type: doi
 date:
 - type: published
-  value: '1980-10-01'
+  at: '1980-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: H Matsumoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4 Umezono, Sakura-mura,
             Niihari-gun, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Seino
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Research Laboratory of Metrology, 1-1-4 Umezono, Sakura-mura,
             Niihari-gun, Ibaraki 305, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Y Sakurai
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
@@ -71,58 +63,39 @@ contributor:
         name:
         - content: Chiba Institute of Technology, 17-I, Tsudanuma-2, Narashino, Chiba
             275, Japan
-  role:
-  - type: author
-revdate: '1980-10-01'
 abstract:
-- content: "<p>A description is given of an automatic recording laser interferometer
-    for calibrating line standards up to 2 m based on Eppenstein's principle, and
-    various factors which limit the measuring accuracies are also investigated in
-    detail. This fringe-counting interferometer uses two corner cube reflectors. One
-    reflector is mounted with the objective of a photoelectric miscroscope on a carriage
-    which moves at a uniform speed of 10 to 300 mm/min on an air track. An electric
-    pulse, which corresponds to the center of a graduation line and is a gate signal
-    for counting interference fringes, is produced by the zero crossing method from
-    the derivative of a signal obtained when the graduation line image goes across
-    a slit. The reflectors generate two different interference fringes in phase quadrature
-    by using their polarization properties in reflection, so that fringe resolving
-    power is raised to λ/16.</p><p>The experimental results on line standards show
-    that the standard deviation of a graduation line positioning is 0.04 μm and the
-    accuracy of measurement on a 1 m line-interval is 0.08 μm in standard deviation.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: |-
+    <p>A description is given of an automatic recording laser interferometer for calibrating line standards up to 2 m based on Eppenstein's principle, and various factors which limit the measuring accuracies are also investigated in detail. This fringe-counting interferometer uses two corner cube reflectors. One reflector is mounted with the objective of a photoelectric miscroscope on a carriage which moves at a uniform speed of 10 to 300 mm/min on an air track. An electric pulse, which corresponds to the center of a graduation line and is a gate signal for counting interference fringes, is produced by the zero crossing method from the derivative of a signal obtained when the graduation line image goes across a slit. The reflectors generate two different interference fringes in phase quadrature by using their polarization properties in reflection, so that fringe resolving power is raised to λ/16.</p>
+    <p>The experimental results on line standards show that the standard deviation of a graduation line positioning is 0.04 μm and the accuracy of measurement on a 1 m line-interval is 0.08 μm in standard deviation.</p>
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Automatic Recording Laser Interferometer for Line Standards up to 2
+    - language: en
+      script: Latn
+      content: Automatic Recording Laser Interferometer for Line Standards up to 2
         m
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-10-01'
+      at: '1980-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -133,6 +106,6 @@ extent:
     reference_from: '169'
     reference_to: '175'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

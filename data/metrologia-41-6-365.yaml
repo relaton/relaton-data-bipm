@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia416365
-title:
-- content: High precision calibration of ac current-to-voltage converters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/6/002
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/6/002
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 6 365
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High precision calibration of ac current-to-voltage converters
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/6/002
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/6/002
+docidentifier:
+- content: Metrologia 41 6 365
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/6/002
+- content: 10.1088/0026-1394/41/6/002
   type: doi
 date:
 - type: published
-  value: '2004-09-21'
+  at: '2004-09-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Petar Miljanic
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Serbian Academy of Sciences and Arts, Knez Mihailova 35, Belgrade,
             Serbia-Montenegro
-  role:
-  - type: author
-revdate: '2004-09-21'
 abstract:
-- content: "<p>A two-stage transformer, built as a current comparator with a shielded
+- language: en
+  script:
+  - Latn
+  content: "<p>A two-stage transformer, built as a current comparator with a shielded
     magnetic core, is used to make a novel ac bridge for calibration of ac shunts
     for large currents and other ac current-to-voltage converters. A fine adjustable
     reference transresistance is made by current transformation and a non-reactive
@@ -49,53 +45,42 @@ abstract:
     and resistor, all four two-stage transformer secondary terminals are brought to
     ground potential and consequently both magnetizing and capacitive errors are kept
     below one part per million.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High precision calibration of ac current-to-voltage converters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: High precision calibration of ac current-to-voltage converters
     date:
     - type: epub
-      value: '2004-09-21'
+      at: '2004-09-21'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: High precision calibration of ac current-to-voltage converters
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: High precision calibration of ac current-to-voltage converters
     date:
     - type: ppub
-      value: '2004-12-01'
+      at: '2004-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -106,6 +91,6 @@ extent:
     reference_from: '365'
     reference_to: '368'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

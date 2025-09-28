@@ -1,123 +1,100 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5331003
-title:
-- content: 'The performance of GPS time and frequency transfer: comment on ‘A detailed
-    comparison of two continuous GPS carrier-phase time transfer techniques’'
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/53/3/1003
-  type: src
-- content: https://doi.org/10.1088/0026-1394/53/3/1003
-  type: doi
 type: article
-docid:
-- id: Metrologia 53 3 1003
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: 'The performance of GPS time and frequency transfer: comment on ‘A detailed
+    comparison of two continuous GPS carrier-phase time transfer techniques’'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/53/3/1003
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/53/3/1003
+docidentifier:
+- content: Metrologia 53 3 1003
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/53/3/1003
+- content: 10.1088/0026-1394/53/3/1003
   type: doi
 date:
 - type: published
-  value: '2016-06-01'
+  at: '2016-06-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gérard Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: France
         name:
         - content: Bureau International des Poids et Mesures Sèvres
-        contact:
-        - address:
-            formatted_address: France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pascale Defraigne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Belgique
         name:
         - content: Observatoire Royal de Belgique Bruxelles
-        contact:
-        - address:
-            formatted_address: Belgique
-  role:
-  - type: author
-revdate: '2016-06-01'
 abstract:
-- content: Abstract<p>The paper ‘A detailed comparison of two continuous GPS carrier-phase
-    time transfer techniques’ (Yao et al 2015 Metrologia 52 666) presents the revised
-    RINEX-shift (RRS) method, a technique using ‘classical precise point positioning
-    (PPP)’ solutions on sliding batches and aiming at providing continuous time links.
-    The authors claim the superiority of the RRS technique with respect to ‘classical
-    PPP’ in terms of frequency stability and solving for discontinuities due to data
-    gaps. It is shown here that these conclusions do not rely on physical principles,
-    and are erroneous as they are driven by misinterpreted or corrupted PPP solutions.
-    Using state-of-the-art PPP computation on the same data sets used in Yao et al’s
-    paper (2015 Metrologia 52 666), we show that the stability of RRS is at best similar
-    to that of ‘classical PPP’ (within statistical uncertainties). Furthermore, the
-    RRS method of removing discontinuities in case of data gaps by interpolating the
-    phase data should not be applied systematically as it can cause erroneous clock
-    solutions when the data gaps are associated with a true phase discontinuity.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>The paper ‘A detailed comparison of two continuous GPS carrier-phase time transfer techniques’ (Yao <italic>et al</italic> 2015 <italic>Metrologia</italic> <bold>52</bold> 666) presents the revised RINEX-shift (RRS) method, a technique using ‘classical precise point positioning (PPP)’ solutions on sliding batches and aiming at providing continuous time links. The authors claim the superiority of the RRS technique with respect to ‘classical PPP’ in terms of frequency stability and solving for discontinuities due to data gaps. It is shown here that these conclusions do not rely on physical principles, and are erroneous as they are driven by misinterpreted or corrupted PPP solutions. Using state-of-the-art PPP computation on the same data sets used in Yao <italic>et al</italic>’s paper (2015 <italic>Metrologia</italic> <bold>52</bold> 666), we show that the stability of RRS is at best similar to that of ‘classical PPP’ (within statistical uncertainties). Furthermore, the RRS method of removing discontinuities in case of data gaps by interpolating the phase data should not be applied systematically as it can cause erroneous clock solutions when the data gaps are associated with a true phase discontinuity.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2016'
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The performance of GPS time and frequency transfer: comment on ‘A
+    - script: Latn
+      content: 'The performance of GPS time and frequency transfer: comment on ‘A
         detailed comparison of two continuous GPS carrier-phase time transfer techniques’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'The performance of GPS time and frequency transfer: comment on ‘A
+    - script: Latn
+      content: 'The performance of GPS time and frequency transfer: comment on ‘A
         detailed comparison of two continuous GPS carrier-phase time transfer techniques’'
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2016-06-01'
+      at: '2016-06-01'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -128,6 +105,6 @@ extent:
     reference_from: '1003'
     reference_to: '1008'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

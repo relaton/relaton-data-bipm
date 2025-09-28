@@ -1,61 +1,55 @@
 ---
-schema-version: v1.2.9
-id: Metrologia20261
-title:
-- content: Thermoelectric Effects of Cold Work in Pt/10%Rh and Pt/13%Rh Versus Pt
-    Thermocouples
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/20/2/005
-  type: src
-- content: https://doi.org/10.1088/0026-1394/20/2/005
-  type: doi
 type: article
-docid:
-- id: Metrologia 20 2 61
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Thermoelectric Effects of Cold Work in Pt/10%Rh and Pt/13%Rh Versus Pt
+    Thermocouples
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/20/2/005
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/20/2/005
+docidentifier:
+- content: Metrologia 20 2 61
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/20/2/005
+- content: 10.1088/0026-1394/20/2/005
   type: doi
 date:
 - type: published
-  value: '1984-01-01'
+  at: '1984-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: R E Bentley
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: T L Morgan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1984-01-01'
 abstract:
-- content: "<p>We have investigated the consequences of cold work introduced in handling
+- language: en
+  script:
+  - Latn
+  content: "<p>We have investigated the consequences of cold work introduced in handling
     PtRh versus Pt thermocouples and found changes in the Seebeck coefficient of up
     to -40 nV/°C and errors in calibration of up to -0.4%. We show that above 200
     °C recovery in the Seebeck coefficient towards its pre-cold-worked value occurred
@@ -63,40 +57,32 @@ abstract:
     leg, the recovery was not complete. A residual effect, attributed to PtRh, of
     up to -4 μV remained in thermocouple emf after recovery anneals had been applied.
     Recommendations are made for the handling of high-quality Pt-based thermocouples.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1984'
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Thermoelectric Effects of Cold Work in Pt/10%Rh and Pt/13%Rh Versus
+    - language: en
+      script: Latn
+      content: Thermoelectric Effects of Cold Work in Pt/10%Rh and Pt/13%Rh Versus
         Pt Thermocouples
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1984-01-01'
+      at: '1984-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -107,6 +93,6 @@ extent:
     reference_from: '61'
     reference_to: '66'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

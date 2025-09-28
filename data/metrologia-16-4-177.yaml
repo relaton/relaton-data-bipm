@@ -1,47 +1,43 @@
 ---
-schema-version: v1.2.9
-id: Metrologia164177
-title:
-- content: Evaluation of AC-DC Transfer Errors for Thermal Converter-Multiplier Combinations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/16/4/004
-  type: src
-- content: https://doi.org/10.1088/0026-1394/16/4/004
-  type: doi
 type: article
-docid:
-- id: Metrologia 16 4 177
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evaluation of AC-DC Transfer Errors for Thermal Converter-Multiplier Combinations
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/16/4/004
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/16/4/004
+docidentifier:
+- content: Metrologia 16 4 177
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/16/4/004
+- content: 10.1088/0026-1394/16/4/004
   type: doi
 date:
 - type: published
-  value: '1980-10-01'
+  at: '1980-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: B D Inglis
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: CSIRO Division of Applied Physics, National Measurement Laboratory
             Sydney, Australia 2070
-  role:
-  - type: author
-revdate: '1980-10-01'
 abstract:
-- content: "<p>In the build-up calibration of precise coaxial ac-dc thermal voltage
+- language: en
+  script:
+  - Latn
+  content: "<p>In the build-up calibration of precise coaxial ac-dc thermal voltage
     converters, separate thermal converter and multiplier modules are combined and
     intercompared. For routine calibration or testing to specification, ac-dc transfer
     errors associated with the thermal converter modules can usually be neglected.
@@ -53,40 +49,32 @@ abstract:
     transfer error to changes in converter loading is assessed. Experimental results
     are presented to demonstrate the contribution of thermal converter voltage and
     current transfer errors to the error of the combination.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1980'
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evaluation of AC-DC Transfer Errors for Thermal Converter-Multiplier
+    - language: en
+      script: Latn
+      content: Evaluation of AC-DC Transfer Errors for Thermal Converter-Multiplier
         Combinations
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1980-10-01'
+      at: '1980-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -97,6 +85,6 @@ extent:
     reference_from: '177'
     reference_to: '181'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

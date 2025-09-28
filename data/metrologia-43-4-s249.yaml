@@ -1,62 +1,56 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S249
-title:
-- content: Comparison between the conventional and Bayesian approaches to evaluate
-    measurement data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S12
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S12
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S249
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comparison between the conventional and Bayesian approaches to evaluate
+    measurement data
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S12
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S12
+docidentifier:
+- content: Metrologia 43 4 S249
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S12
+- content: 10.1088/0026-1394/43/4/S12
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Ignacio Lira
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Pontificia Universidad Católica de Chile, Department of Mechanical
             and Metallurgical Engineering, Vicuña Mackenna 4860, Santiago, Chile
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Wolfgang Wöger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Drosselweg 1, D-50735, Cologne, Germany
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>Measurement data subject only to random effects can be evaluated within
+- language: en
+  script:
+  - Latn
+  content: "<p>Measurement data subject only to random effects can be evaluated within
     the frameworks of conventional as well as Bayesian statistical theory. In this
     paper, both viewpoints are presented and examples including Gaussian, uniform
     and Poisson statistics are discussed. The cases of data produced by different
@@ -67,55 +61,44 @@ abstract:
     Bayesian approach treats random and systematic effects in the same way, the authors
     claim that it is more flexible and better adapted to practice than conventional
     theory.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison between the conventional and Bayesian approaches to evaluate
+    - language: en
+      script: Latn
+      content: Comparison between the conventional and Bayesian approaches to evaluate
         measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison between the conventional and Bayesian approaches to evaluate
+    - language: en
+      script: Latn
+      content: Comparison between the conventional and Bayesian approaches to evaluate
         measurement data
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -126,6 +109,6 @@ extent:
     reference_from: S249
     reference_to: S259
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

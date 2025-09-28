@@ -1,112 +1,90 @@
 ---
-schema-version: v1.2.9
 id: CCTF-REC-2001-03
-title:
-- content: The meaning of the designation "<i>k</i>" in UTC(<i>k</i>) and TAI(<i>k</i>)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Signification de la notation « <i>k</i> » dans UTC(<i>k</i>) et TAI(<i>k</i>)
-  language:
-  - fr
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://www.bipm.org/en/committees/cc/cctf/15-2001/resolution-3
-  type: citation
-  language: en
-  script: Latn
-- content: https://www.bipm.org/fr/committees/cc/cctf/15-2001/resolution-3
-  type: citation
-  language: fr
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-15.yml
-  type: src
-  language: en
-  script: Latn
-- content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-15.yml
-  type: src
-  language: fr
-  script: Latn
-- content: https://www.bipm.org/documents/20126/2071143/CCTF15.pdf.zip/3ed996a5-2d27-a360-e4d0-3a785613a8aa
-  type: pdf
 type: proceedings
-docid:
-- id: CCTF REC 3 (2001)
-  type: BIPM
-  primary: true
-- id: CCTF REC 3 (2001, E)
-  type: BIPM
-  primary: true
-  language: en
+schema_version: v1.4.1
+title:
+- language: en
   script: Latn
-- id: CCTF REC 3 (2001, F)
+  content: The meaning of the designation "<i>k</i>" in UTC(<i>k</i>) and TAI(<i>k</i>)
+- language: fr
+  script: Latn
+  content: Signification de la notation « <i>k</i> » dans UTC(<i>k</i>) et TAI(<i>k</i>)
+source:
+- language: en
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/en/committees/cc/cctf/15-2001/resolution-3
+- language: fr
+  script: Latn
+  type: citation
+  content: https://www.bipm.org/fr/committees/cc/cctf/15-2001/resolution-3
+- language: en
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-en/meeting-15.yml
+- language: fr
+  script: Latn
+  type: src
+  content: https://raw.githubusercontent.com/metanorma/bipm-data-outcomes/main/cctf/meetings-fr/meeting-15.yml
+- type: pdf
+  content: https://www.bipm.org/documents/20126/2071143/CCTF15.pdf.zip/3ed996a5-2d27-a360-e4d0-3a785613a8aa
+docidentifier:
+- content: CCTF REC 3 (2001)
   type: BIPM
   primary: true
-  language: fr
+- language: en
   script: Latn
-- id: CCTF Recommendation 3 (2001)
+  content: CCTF REC 3 (2001, E)
+  type: BIPM
+  primary: true
+- language: fr
+  script: Latn
+  content: CCTF REC 3 (2001, F)
+  type: BIPM
+  primary: true
+- language: en
+  script: Latn
+  content: CCTF Recommendation 3 (2001)
   type: BIPM-long
-  language: en
+- language: fr
   script: Latn
-- id: Recommandation 3 du CCTF (2001)
+  content: Recommandation 3 du CCTF (2001)
   type: BIPM-long
-  language: fr
-  script: Latn
-- id: CCTF Recommendation 3 (2001) / Recommandation 3 du CCTF (2001)
+- content: CCTF Recommendation 3 (2001) / Recommandation 3 du CCTF (2001)
   type: BIPM-long
 docnumber: CCTF REC 3 (2001)
 date:
 - type: published
-  value: '2001-06-21'
+  at: '2001-06-21'
 contributor:
-- organization:
-    name:
-    - content: International Bureau of Weights and Measures
-      language:
-      - en
-      script:
-      - Latn
-    - content: Bureau international des poids et mesures
-      language:
-      - fr
-      script:
-      - Latn
-    abbreviation:
-      content: BIPM
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-    url: www.bipm.org
-  role:
+- role:
   - type: publisher
-- organization:
+  organization:
     name:
-    - content: Consultative Committee for Time and Frequency
-      language:
-      - en
-      script:
-      - Latn
-    - content: Comité consultatif du temps et des fréquences
-      language:
-      - fr
-      script:
-      - Latn
+    - language: en
+      script: Latn
+      content: International Bureau of Weights and Measures
+    - language: fr
+      script: Latn
+      content: Bureau international des poids et mesures
     abbreviation:
-      content: CCTF
-      language:
-      - en
-      - fr
-      script:
-      - Latn
-  role:
+      language: fr
+      script: Latn
+      content: BIPM
+- role:
   - type: author
-revdate: '2001-06-21'
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Consultative Committee for Time and Frequency
+    - language: fr
+      script: Latn
+      content: Comité consultatif du temps et des fréquences
+    abbreviation:
+      language: en
+      script: Latn
+      content: CCTF
 language:
 - en
 - fr
@@ -115,8 +93,8 @@ script:
 place:
 - city: Paris
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: recommendation
+    content: recommendation
   structuredidentifier:
     docnumber: '3'

@@ -1,81 +1,73 @@
 ---
-schema-version: v1.2.9
-id: Metrologia412S84
-title:
-- content: Accurate density measurements of reference liquids by a magnetic suspension
-    balance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/41/2/S09
-  type: src
-- content: https://doi.org/10.1088/0026-1394/41/2/S09
-  type: doi
 type: article
-docid:
-- id: Metrologia 41 2 S84
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Accurate density measurements of reference liquids by a magnetic suspension
+    balance
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/41/2/S09
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/41/2/S09
+docidentifier:
+- content: Metrologia 41 2 S84
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/41/2/S09
+- content: 10.1088/0026-1394/41/2/S09
   type: doi
 date:
 - type: published
-  value: '2004-03-24'
+  at: '2004-03-24'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: N Kuramoto
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan/National Institute of Advanced
             Industrial Science and Technology, AIST Tsukuba Central 3, 1-1-1 Umezono,
             Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Fujii
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan/National Institute of Advanced
             Industrial Science and Technology, AIST Tsukuba Central 3, 1-1-1 Umezono,
             Tsukuba, Ibaraki 305-8563, Japan
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: A Waseda
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Metrology Institute of Japan/National Institute of Advanced
             Industrial Science and Technology, AIST Tsukuba Central 3, 1-1-1 Umezono,
             Tsukuba, Ibaraki 305-8563, Japan
-  role:
-  - type: author
-revdate: '2004-03-24'
 abstract:
-- content: "<p>A density measurement system with a magnetic suspension balance has
+- language: en
+  script:
+  - Latn
+  content: "<p>A density measurement system with a magnetic suspension balance has
     been developed for accurate density measurements of reference liquids. In this
     system, the buoyancy force of a sample liquid acting on a sinker of silicon crystal
     is measured through a magnetic suspension coupling. For the accurate density measurements,
@@ -85,62 +77,51 @@ abstract:
     of the sample liquid is controlled within a fluctuation of less than 1 mK. The
     effect of the magnetic property of the sample liquid on the density measurement
     has been examined. Theoretical calculation of the magnetic interaction in the
-    densimeter has clarified that the diamagnetic property of n-tridecane, if not
-    corrected, will result in a relative systematic error of 60 × 10<sup>−6</sup>
+    densimeter has clarified that the diamagnetic property of <italic>n</italic>-tridecane,
+    if not corrected, will result in a relative systematic error of 60 × 10<sup>−6</sup>
     in the density measurement. The densities of some candidates for the reference
-    liquids, iso-octane, n-nonane, n-tridecane, water, 2,4-dichlorotoluene, 3,4-dichlorotoluene
-    and bromobenzene have been measured. The relative combined standard uncertainty
-    in the density measurement of bromobenzene has been estimated to be 6.7 × 10<sup>−6</sup>
-    at 20 °C under atmospheric pressure.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    liquids, <italic>iso</italic>-octane, <italic>n</italic>-nonane, <italic>n</italic>-tridecane,
+    water, 2,4-dichlorotoluene, 3,4-dichlorotoluene and bromobenzene have been measured.
+    The relative combined standard uncertainty in the density measurement of bromobenzene
+    has been estimated to be 6.7 × 10<sup>−6</sup> at 20 °C under atmospheric pressure.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2004'
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate density measurements of reference liquids by a magnetic suspension
+    - language: en
+      script: Latn
+      content: Accurate density measurements of reference liquids by a magnetic suspension
         balance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2004-03-24'
+      at: '2004-03-24'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Accurate density measurements of reference liquids by a magnetic suspension
+    - language: en
+      script: Latn
+      content: Accurate density measurements of reference liquids by a magnetic suspension
         balance
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2004-04-01'
+      at: '2004-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -151,6 +132,6 @@ extent:
     reference_from: S84
     reference_to: S94
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

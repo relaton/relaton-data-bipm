@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia401S224
-title:
-- content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/40/1/352
-  type: src
-- content: https://doi.org/10.1088/0026-1394/40/1/352
-  type: doi
 type: article
-docid:
-- id: Metrologia 40 1 S224
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/40/1/352
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/40/1/352
+docidentifier:
+- content: Metrologia 40 1 S224
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/40/1/352
+- content: 10.1088/0026-1394/40/1/352
   type: doi
 date:
 - type: published
-  value: '2003-02-01'
+  at: '2003-02-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Scholze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestraße 2-12, D-10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J Tümmler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestraße 2-12, D-10587
             Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Ulm
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, Abbestraße 2-12, D-10587
             Berlin, Germany
-  role:
-  - type: author
-revdate: '2003-02-01'
 abstract:
-- content: "<p>During the past decade, high-accuracy soft x-ray radiometry has increasingly
+- language: en
+  script:
+  - Latn
+  content: "<p>During the past decade, high-accuracy soft x-ray radiometry has increasingly
     gained in importance. In particular, its routine availability is a prerequisite
     for the development of extreme UV lithography (EUVL). The PTB has been providing
     EUV calibration services for many years at a dedicated radiometry beamline at
@@ -82,60 +74,49 @@ abstract:
     better than that of BESSY I, the measurement uncertainties could be significantly
     reduced. Efforts were made to accurately determine the wavelength scale for the
     monochromator and to suppress diffusely scattered light. For the spectral reflectance
-    of a mirror in the EUV spectral region, a relative uncertainty of u = 0.14% is
-    achieved. A new reflectometer will enable PTB to characterize EUVL optics up to
-    550 mm in diameter and 50 kg in mass. Detector calibration is based on a primary
-    detector standard, a cryogenic electrical substitution radiometer. Photodiodes
-    with a nearly constant spectral responsitivity in the soft x-ray range are calibrated
-    as transfer detector standards with a relative uncertainty of u = 0.26% by direct
-    comparison to the radiometer.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
+    of a mirror in the EUV spectral region, a relative uncertainty of <italic>u</italic>
+    = 0.14% is achieved. A new reflectometer will enable PTB to characterize EUVL
+    optics up to 550 mm in diameter and 50 kg in mass. Detector calibration is based
+    on a primary detector standard, a cryogenic electrical substitution radiometer.
+    Photodiodes with a nearly constant spectral responsitivity in the soft x-ray range
+    are calibrated as transfer detector standards with a relative uncertainty of <italic>u</italic>
+    = 0.26% by direct comparison to the radiometer.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '2003'
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
     date:
     - type: epub
-      value: '2003-02-07'
+      at: '2003-02-07'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: High-accuracy radiometry in the EUV range at the PTB soft x-ray beamline
     date:
     - type: ppub
-      value: '2003-02-01'
+      at: '2003-02-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -146,6 +127,6 @@ extent:
     reference_from: S224
     reference_to: S228
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

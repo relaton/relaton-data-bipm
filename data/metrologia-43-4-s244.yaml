@@ -1,48 +1,44 @@
 ---
-schema-version: v1.2.9
-id: Metrologia434S244
-title:
-- content: Median and weighted median as estimators for the key comparison reference
-    value (KCRV)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/43/4/S11
-  type: src
-- content: https://doi.org/10.1088/0026-1394/43/4/S11
-  type: doi
 type: article
-docid:
-- id: Metrologia 43 4 S244
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Median and weighted median as estimators for the key comparison reference
+    value (KCRV)
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/43/4/S11
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/43/4/S11
+docidentifier:
+- content: Metrologia 43 4 S244
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/43/4/S11
+- content: 10.1088/0026-1394/43/4/S11
   type: doi
 date:
 - type: published
-  value: '2006-08-01'
+  at: '2006-08-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Guy Ratel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Bureau International des Poids et Mesures, Pavillon de Breteuil,
             F-92312 Sèvres Cedex, France
-  role:
-  - type: author
-revdate: '2006-08-01'
 abstract:
-- content: "<p>In the analysis of the results of an international comparison it is
+- language: en
+  script:
+  - Latn
+  content: "<p>In the analysis of the results of an international comparison it is
     not exceptional that one or even several values are not in line with the others.
     It is often difficult to find good reasons—empirical or even statistical—for rejecting
     these data that may strongly influence the reference value. The median has been
@@ -53,55 +49,44 @@ abstract:
     the weighted median is also defined for use as the KCRV. Equivalent formulae are
     deduced for this estimator. This paper thus enlarges the range of concepts published
     previously for KCRV estimators.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2006'
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Median and weighted median as estimators for the key comparison reference
+    - language: en
+      script: Latn
+      content: Median and weighted median as estimators for the key comparison reference
         value (KCRV)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2006-08-04'
+      at: '2006-08-04'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Median and weighted median as estimators for the key comparison reference
+    - language: en
+      script: Latn
+      content: Median and weighted median as estimators for the key comparison reference
         value (KCRV)
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2006-08-01'
+      at: '2006-08-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -112,6 +97,6 @@ extent:
     reference_from: S244
     reference_to: S248
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

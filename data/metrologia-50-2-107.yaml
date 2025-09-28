@@ -1,205 +1,170 @@
 ---
-schema-version: v1.2.9
-id: Metrologia502107
-title:
-- content: Comparison of the Richardson–Lucy method and a classical approach for spectrometer
-    bandpass correction
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/2/107
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/2/107
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 2 107
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Comparison of the Richardson–Lucy method and a classical approach for spectrometer
+    bandpass correction
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/2/107
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/2/107
+docidentifier:
+- content: Metrologia 50 2 107
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/2/107
+- content: 10.1088/0026-1394/50/2/107
   type: doi
 date:
 - type: published
-  value: '2013-02-08'
+  at: '2013-02-08'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: S Eichstädt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: F Schmähling
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G Wübbeler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K Anhalt
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: L Bünger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: U Krüger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ilmenau, Germany
         name:
         - content: TechnoTeam Bildverarbeitung GmbH
-        contact:
-        - address:
-            formatted_address: Ilmenau, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Elster
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Braunschweig and Berlin, Germany
         name:
         - content: Physikalisch-Technische Bundesanstalt
-        contact:
-        - address:
-            formatted_address: Braunschweig and Berlin, Germany
-  role:
-  - type: author
-revdate: '2013-02-08'
 abstract:
-- content: Abstract<p>Bandpass correction in spectrometer measurements using monochromators
-    is often necessary in order to obtain accurate measurement results. The classical
-    approach of spectrometer bandpass correction is based on local polynomial approximations
-    and the use of finite differences. Here we compare this approach with an extension
-    of the Richardson–Lucy method, which is well known in image processing, but has
-    not been applied to spectrum bandpass correction yet. Using an extensive simulation
-    study and a practical example, we demonstrate the potential of the Richardson–Lucy
-    method. In contrast to the classical approach, it is robust with respect to wavelength
-    step size and measurement noise. In almost all cases the Richardson–Lucy method
-    turns out to be superior to the classical approach both in terms of spectrum estimate
-    and its associated uncertainties.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Bandpass correction in spectrometer measurements using monochromators is often necessary in order to obtain accurate measurement results. The classical approach of spectrometer bandpass correction is based on local polynomial approximations and the use of finite differences. Here we compare this approach with an extension of the Richardson–Lucy method, which is well known in image processing, but has not been applied to spectrum bandpass correction yet. Using an extensive simulation study and a practical example, we demonstrate the potential of the Richardson–Lucy method. In contrast to the classical approach, it is robust with respect to wavelength step size and measurement noise. In almost all cases the Richardson–Lucy method turns out to be superior to the classical approach both in terms of spectrum estimate and its associated uncertainties.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the Richardson–Lucy method and a classical approach for
+    - script: Latn
+      content: Comparison of the Richardson–Lucy method and a classical approach for
         spectrometer bandpass correction
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-04-01'
+      at: '2013-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comparison of the Richardson–Lucy method and a classical approach for
+    - script: Latn
+      content: Comparison of the Richardson–Lucy method and a classical approach for
         spectrometer bandpass correction
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-02-08'
+      at: '2013-02-08'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -210,6 +175,6 @@ extent:
     reference_from: '107'
     reference_to: '118'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

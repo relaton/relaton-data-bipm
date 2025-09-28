@@ -1,135 +1,117 @@
 ---
-schema-version: v1.2.9
-id: Metrologia446513
-title:
-- content: Evolution of modern approaches to express uncertainty in measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/44/6/011
-  type: src
-- content: https://doi.org/10.1088/0026-1394/44/6/011
-  type: doi
 type: article
-docid:
-- id: Metrologia 44 6 513
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Evolution of modern approaches to express uncertainty in measurement
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/44/6/011
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/44/6/011
+docidentifier:
+- content: Metrologia 44 6 513
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/44/6/011
+- content: 10.1088/0026-1394/44/6/011
   type: doi
 date:
 - type: published
-  value: '2007-11-27'
+  at: '2007-11-27'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raghu Kacker
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: National Institute of Standards and Technology, Gaithersburg, MD,
             USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Klaus-Dieter Sommer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Physikalisch-Technische Bundesanstalt, D-38116 Braunschweig, Germany
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Rüdiger Kessel
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Metrodata GmbH, D-79576 Weil am Rhein, Germany
-  role:
-  - type: author
-revdate: '2007-11-27'
 abstract:
-- content: "<p>An object of this paper is to discuss the logical development of the
-    concept of uncertainty in measurement and the methods for its quantification from
-    the classical error analysis to the modern approaches based on the Guide to the
-    Expression of Uncertainty in Measurement (GUM). We review authoritative literature
-    on error analysis and then discuss its limitations which motivated the experts
-    from the International Committee for Weights and Measures (CIPM), the International
-    Bureau of Weights and Measures (BIPM) and various national metrology institutes
-    to develop specific recommendations which form the basis of the GUM. We discuss
-    the new concepts introduced by the GUM and their merits and limitations. The limitations
-    of the GUM led the BIPM Joint Committee on Guides in Metrology to develop an alternative
-    approach—the draft Supplement 1 to the GUM (draft GUM-S1). We discuss the draft
-    GUM-S1 and its merits and limitations. We hope this discussion will lead to a
-    more effective use of the GUM and the draft GUM-S1 and stimulate investigations
-    leading to further improvements in the methods to quantify uncertainty in measurement.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>An object of this paper is to discuss the logical development of the
+    concept of uncertainty in measurement and the methods for its quantification from
+    the classical error analysis to the modern approaches based on the <italic>Guide
+    to the Expression of Uncertainty in Measurement (GUM)</italic>. We review authoritative
+    literature on error analysis and then discuss its limitations which motivated
+    the experts from the International Committee for Weights and Measures (CIPM),
+    the International Bureau of Weights and Measures (BIPM) and various national metrology
+    institutes to develop specific recommendations which form the basis of the GUM.
+    We discuss the new concepts introduced by the GUM and their merits and limitations.
+    The limitations of the GUM led the BIPM Joint Committee on Guides in Metrology
+    to develop an alternative approach—the draft Supplement 1 to the GUM (draft GUM-S1).
+    We discuss the draft GUM-S1 and its merits and limitations. We hope this discussion
+    will lead to a more effective use of the GUM and the draft GUM-S1 and stimulate
+    investigations leading to further improvements in the methods to quantify uncertainty
+    in measurement.</p>"
 copyright:
-- owner:
-  - name:
-    - content: BIPM and IOP Publishing Ltd
-  from: '2007'
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM and IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evolution of modern approaches to express uncertainty in measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evolution of modern approaches to express uncertainty in measurement
     date:
     - type: epub
-      value: '2007-11-27'
+      at: '2007-11-27'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: Evolution of modern approaches to express uncertainty in measurement
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: Evolution of modern approaches to express uncertainty in measurement
     date:
     - type: ppub
-      value: '2007-12-01'
+      at: '2007-12-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -140,6 +122,6 @@ extent:
     reference_from: '513'
     reference_to: '529'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

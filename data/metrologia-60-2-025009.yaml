@@ -1,119 +1,97 @@
 ---
-schema-version: v1.2.9
-id: Metrologia602025009
-title:
-- content: Calibration of GNSS stations for UTC
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/1681-7575/acbd52
-  type: src
-- content: https://doi.org/10.1088/1681-7575/acbd52
-  type: doi
 type: article
-docid:
-- id: Metrologia 60 2 025009
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Calibration of GNSS stations for UTC
+source:
+- type: src
+  content: https://doi.org/10.1088/1681-7575/acbd52
+- type: doi
+  content: https://doi.org/10.1088/1681-7575/acbd52
+docidentifier:
+- content: Metrologia 60 2 025009
   type: BIPM
   primary: true
-- id: 10.1088/1681-7575/acbd52
+- content: 10.1088/1681-7575/acbd52
   type: doi
 date:
 - type: published
-  value: '2023-03-21'
+  at: '2023-03-21'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gérard Petit
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: 92312 Sèvres Cedex, France
         name:
         - content: Time Department, Bureau International des Poids et Mesures
-        contact:
-        - address:
-            formatted_address: 92312 Sèvres Cedex, France
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Pascale Defraigne
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Brussels, B-1180, Belgium
         name:
         - content: Observatoire Royal de Belgique, Avenue Circulaire 3
-        contact:
-        - address:
-            formatted_address: Brussels, B-1180, Belgium
-  role:
-  - type: author
-revdate: '2023-03-21'
 abstract:
-- content: Abstract<p>Global navigation satellite system (GNSS) time transfer has
-    been used for four decades in the generation of universal time coordinated (UTC),
-    starting with GPS in the 1980s. Calibration of GNSS receivers is then essential
-    to ensure that time links used in UTC are accurate and remain stable with time.
-    In this paper we study the different calibration schemes based on relative calibration
-    of GNSS receivers that have been operated to fulfill these goals. We specially
-    focus on the current calibration scheme in operation since 2014 and based on a
-    collaboration between the BIPM and the Regional Metrology Organizations. We show
-    that the achieved accuracy and long-term stability of calibration results, thus
-    of UTC time links, are well in line with the stated uncertainties. We study an
-    extended set of absolute calibration results and show that they complete and validate
-    the BIPM scheme, and that relative calibration is still the essential tool to
-    ensure accurate time links for UTC.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |-
+    <title>Abstract</title>
+    <p>Global navigation satellite system (GNSS) time transfer has been used for four decades in the generation of universal time coordinated (UTC), starting with GPS in the 1980s. Calibration of GNSS receivers is then essential to ensure that time links used in UTC are accurate and remain stable with time. In this paper we study the different calibration schemes based on relative calibration of GNSS receivers that have been operated to fulfill these goals. We specially focus on the current calibration scheme in operation since 2014 and based on a collaboration between the BIPM and the Regional Metrology Organizations. We show that the achieved accuracy and long-term stability of calibration results, thus of UTC time links, are well in line with the stated uncertainties. We study an extended set of absolute calibration results and show that they complete and validate the BIPM scheme, and that relative calibration is still the essential tool to ensure accurate time links for UTC.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2023'
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of GNSS stations for UTC
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Calibration of GNSS stations for UTC
     date:
     - type: ppub
-      value: '2023-04-01'
+      at: '2023-04-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Calibration of GNSS stations for UTC
-      script:
-      - Latn
-      format: text/plain
+    - script: Latn
+      content: Calibration of GNSS stations for UTC
     date:
     - type: epub
-      value: '2023-03-21'
+      at: '2023-03-21'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -121,6 +99,6 @@ extent:
   - type: issue
     reference_from: '2'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

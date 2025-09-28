@@ -1,75 +1,67 @@
 ---
-schema-version: v1.2.9
-id: Metrologia355761
-title:
-- content: 'Platinum versus palladium thermocouples: an emf-temperature reference
-    function for the range 0 °C to 1500 °C'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/35/5/6
-  type: src
-- content: https://doi.org/10.1088/0026-1394/35/5/6
-  type: doi
 type: article
-docid:
-- id: Metrologia 35 5 761
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Platinum versus palladium thermocouples: an emf-temperature reference
+    function for the range 0 °C to 1500 °C'
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/35/5/6
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/35/5/6
+docidentifier:
+- content: Metrologia 35 5 761
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/35/5/6
+- content: 10.1088/0026-1394/35/5/6
   type: doi
 date:
 - type: published
-  value: '1998-10-01'
+  at: '1998-10-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G W Burns
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D C Ripple
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, IMGC-CNR
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: M Battuello
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: NIST, IMGC-CNR
-  role:
-  - type: author
-revdate: '1998-10-01'
 abstract:
-- content: "<p>We present an emf-temperature reference function for platinum versus
+- language: en
+  script:
+  - Latn
+  content: "<p>We present an emf-temperature reference function for platinum versus
     palladium (Pt/Pd) thermocouples in air for the range 0 °C to 1500 °C. The reference
     function is based on the International Temperature Scale of 1990 (ITS-90) and
     has an expanded uncertainty (coverage factor of two) of less than the equivalent
@@ -80,40 +72,32 @@ abstract:
     results are presented on the thermoelectric stability of Pt/Pd thermocouples at
     high temperatures and on the calibration of Pt/Pd thermocouples based on this
     reference function.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1998'
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'Platinum versus palladium thermocouples: an emf-temperature reference
+    - language: en
+      script: Latn
+      content: 'Platinum versus palladium thermocouples: an emf-temperature reference
         function for the range 0 °C to 1500 °C'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '1998-10-01'
+      at: '1998-10-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -124,6 +108,6 @@ extent:
     reference_from: '761'
     reference_to: '780'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

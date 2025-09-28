@@ -1,118 +1,103 @@
 ---
-schema-version: v1.2.9
-id: Metrologia362147
-title:
-- content: Re-evaluation of a precise measurement of h/m<sub>n</sub>
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/36/2/9
-  type: src
-- content: https://doi.org/10.1088/0026-1394/36/2/9
-  type: doi
 type: article
-docid:
-- id: Metrologia 36 2 147
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Re-evaluation of a precise measurement of <italic>h</italic>/<italic>m</italic><sub>n</sub>
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/36/2/9
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/36/2/9
+docidentifier:
+- content: Metrologia 36 2 147
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/36/2/9
+- content: 10.1088/0026-1394/36/2/9
   type: doi
 date:
 - type: published
-  value: '1999-04-01'
+  at: '1999-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: E Krüger
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Nistler
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: W Weirauch
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: PTB
-  role:
-  - type: author
-revdate: '1999-04-01'
 abstract:
-- content: "<p>At the high-flux reactor of the Institut Laue-Langevin in Grenoble
-    the fine-structure constant alpha was determined by measuring the quotient of
-    the Planck constant and the neutron mass h/m<sub>n</sub>. The results have already
-    been published. In order to evaluate the measurement data, the lattice parameters
-    of several silicon crystals must be known very accurately. As these parameters
-    can now be determined in a more direct way than in the past, the results of the
-    experiment have been re-evaluated. The values obtained by the re-evaluation are
-    h/m<sub>n</sub> = 3.956 033 285 (287) × 10<sup>-7</sup>m<sup>2</sup> s<sup>-1</sup>
-    (relative standard uncertainty 7.26 × 10<sup>-8</sup>) and α<sup>-1</sup> = 137.036
-    011 44 (498) (relative standard uncertainty 3.64 × 10<sup>-8</sup>), the uncertainties
-    being one-standard-deviation estimates. These values differ from those obtained
-    in the first evaluation by only about 15 % of their uncertainties.</p>"
-  language:
-  - en
+- language: en
   script:
   - Latn
-  format: text/html
+  content: "<p>At the high-flux reactor of the Institut Laue-Langevin in Grenoble
+    the fine-structure constant alpha was determined by measuring the quotient of
+    the Planck constant and the neutron mass <italic>h</italic>/<italic>m</italic><sub>n</sub>.
+    The results have already been published. In order to evaluate the measurement
+    data, the lattice parameters of several silicon crystals must be known very accurately.
+    As these parameters can now be determined in a more direct way than in the past,
+    the results of the experiment have been re-evaluated. The values obtained by the
+    re-evaluation are <italic>h</italic>/<italic>m</italic><sub>n</sub> = 3.956 033
+    285 (287) × 10<sup>-7</sup>m<sup>2</sup> s<sup>-1</sup> (relative standard uncertainty
+    7.26 × 10<sup>-8</sup>) and α<sup>-1</sup> = 137.036 011 44 (498) (relative standard
+    uncertainty 3.64 × 10<sup>-8</sup>), the uncertainties being one-standard-deviation
+    estimates. These values differ from those obtained in the first evaluation by
+    only about 15 % of their uncertainties.</p>"
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1999'
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Re-evaluation of a precise measurement of h/m<sub>n</sub>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: Re-evaluation of a precise measurement of <italic>h</italic>/<italic>m</italic><sub>n</sub>
     date:
     - type: ppub
-      value: '1999-04-01'
+      at: '1999-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -123,6 +108,6 @@ extent:
     reference_from: '147'
     reference_to: '148'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

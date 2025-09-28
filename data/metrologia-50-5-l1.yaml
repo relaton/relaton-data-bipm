@@ -1,185 +1,167 @@
 ---
-schema-version: v1.2.9
-id: Metrologia505L1
-title:
-- content: Monte Carlo-based uncertainties of surface UV estimates from models and
-    from spectroradiometers
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/50/5/L1
-  type: src
-- content: https://doi.org/10.1088/0026-1394/50/5/L1
-  type: doi
 type: article
-docid:
-- id: Metrologia 50 5 L1
+schema_version: v1.4.1
+title:
+- script: Latn
+  content: Monte Carlo-based uncertainties of surface UV estimates from models and
+    from spectroradiometers
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/50/5/L1
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/50/5/L1
+docidentifier:
+- content: Metrologia 50 5 L1
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/50/5/L1
+- content: 10.1088/0026-1394/50/5/L1
   type: doi
 date:
 - type: published
-  value: '2013-09-13'
+  at: '2013-09-13'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Raul R Cordero
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ave. Bernardo O'higgins 3363, Santiago, Chile
         name:
         - content: Universidad de Santiago de Chile
         subdivision:
-        - content: Departamento de Física
-        contact:
-        - address:
-            formatted_address: Ave. Bernardo O'higgins 3363, Santiago, Chile
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Departamento de Física
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Gunther Seckmeyer
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Herrenhäuser Str. 2, 30419 Hannover, Germany
         name:
         - content: Leibniz Universität Hannover
         subdivision:
-        - content: Institut für Meteorologie und Klimatologie
-        contact:
-        - address:
-            formatted_address: Herrenhäuser Str. 2, 30419 Hannover, Germany
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Institut für Meteorologie und Klimatologie
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Alessandro Damiani
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ave. Bernardo O'higgins 3363, Santiago, Chile
         name:
         - content: Universidad de Santiago de Chile
         subdivision:
-        - content: Departamento de Física
-        contact:
-        - address:
-            formatted_address: Ave. Bernardo O'higgins 3363, Santiago, Chile
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Departamento de Física
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: Fernando Labbe
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Ave. España 1680, Valparaíso, Chile
         name:
         - content: Universidad Técnica Federico Santa María
         subdivision:
-        - content: Departamento de Mecánica
-        contact:
-        - address:
-            formatted_address: Ave. España 1680, Valparaíso, Chile
-  role:
+        - name:
+          - language: en
+            script: Latn
+            content: Departamento de Mecánica
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: David Laroze
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
+        address:
+        - formatted_address: Casilla 7D, Arica, Chile
         name:
         - content: Universidad de Tarapacá
         subdivision:
-        - content: Instituto de Alta Investigación
-        contact:
-        - address:
-            formatted_address: Casilla 7D, Arica, Chile
-  role:
-  - type: author
-revdate: '2013-09-13'
+        - name:
+          - language: en
+            script: Latn
+            content: Instituto de Alta Investigación
 abstract:
-- content: Abstract<p>Although some of the adverse effects of the ultraviolet (UV)
-    radiation may be strictly proportional to cumulative UV doses, others may relate
-    to the frequency of extreme UV events. Therefore, an improved understanding of
-    the UV global climate, including variability and trends, has become of great interest.
-    Variability and trend analyses require quality-ensured surface UV series. The
-    quality of surface UV data depends on their uncertainty. Building upon our prior
-    efforts, we have used a Monte Carlo-based method to compute, under different conditions,
-    the uncertainties affecting UV data rendered by models (1D radiative transfer
-    models) and by spectroradiometers (double monochromator-based and CCD array-based).
-    We found that the uncertainty of spectral UV measurements is driven by the signal-to-noise
-    ratio of the detector, while the uncertainty of spectral UV calculations strongly
-    depends on the uncertainty of the ozone input. The presented uncertainty figures
-    allow comparison of the performance of modern UV gathering techniques (models
-    and instruments), and provide a frame to assess the significance of differences
-    when intercomparing.</p>
-  script:
+- script:
   - Latn
-  format: text/html
+  content: |
+    <title>Abstract</title>
+    <p>Although some of the adverse effects of the ultraviolet (UV) radiation may be strictly proportional to cumulative UV doses, others may relate to the frequency of extreme UV events. Therefore, an improved understanding of the UV global climate, including variability and trends, has become of great interest. Variability and trend analyses require quality-ensured surface UV series. The quality of surface UV data depends on their uncertainty. Building upon our prior efforts, we have used a Monte Carlo-based method to compute, under different conditions, the uncertainties affecting UV data rendered by models (1D radiative transfer models) and by spectroradiometers (double monochromator-based and CCD array-based). We found that the uncertainty of spectral UV <italic>measurements</italic> is driven by the signal-to-noise ratio of the detector, while the uncertainty of spectral UV <italic>calculations</italic> strongly depends on the uncertainty of the ozone input. The presented uncertainty figures allow comparison of the performance of modern UV gathering techniques (models and instruments), and provide a frame to assess the significance of differences when intercomparing.</p>
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2013'
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo-based uncertainties of surface UV estimates from models
+    - script: Latn
+      content: Monte Carlo-based uncertainties of surface UV estimates from models
         and from spectroradiometers
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: ppub
-      value: '2013-10-01'
+      at: '2013-10-01'
     medium:
       carrier: print
 - type: hasManifestation
   bibitem:
     title:
-    - content: Monte Carlo-based uncertainties of surface UV estimates from models
+    - script: Latn
+      content: Monte Carlo-based uncertainties of surface UV estimates from models
         and from spectroradiometers
-      script:
-      - Latn
-      format: text/plain
     date:
     - type: epub
-      value: '2013-09-13'
+      at: '2013-09-13'
     medium:
       carrier: online
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -190,6 +172,6 @@ extent:
     reference_from: L1
     reference_to: L5
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

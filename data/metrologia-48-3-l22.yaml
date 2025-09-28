@@ -1,77 +1,69 @@
 ---
-schema-version: v1.2.9
-id: Metrologia483L22
-title:
-- content: A compact tensor algebra expression of the law of propagation of uncertainty
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: https://doi.org/10.1088/0026-1394/48/3/L03
-  type: src
-- content: https://doi.org/10.1088/0026-1394/48/3/L03
-  type: doi
 type: article
-docid:
-- id: Metrologia 48 3 L22
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: A compact tensor algebra expression of the law of propagation of uncertainty
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/48/3/L03
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/48/3/L03
+docidentifier:
+- content: Metrologia 48 3 L22
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/48/3/L03
+- content: 10.1088/0026-1394/48/3/L03
   type: doi
 date:
 - type: published
-  value: '2011-04-06'
+  at: '2011-04-06'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: C Bouchot
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Escuela Superior de Ingeniería Química e Industrías Extractivas,
             IPN, Edif. 7 PB, Zacatenco, CP 07738 México D.F., Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J L Castro Quilantán
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Escuela Superior de Física y Matemáticas, IPN, Edif. 9 PB, Zacatenco,
             CP 07738 México D.F., Mexico
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J C Sánchez Ochoa
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Escuela Superior de Ingeniería Química e Industrías Extractivas,
             IPN, Edif. 7 PB, Zacatenco, CP 07738 México D.F., Mexico
-  role:
-  - type: author
-revdate: '2011-04-06'
 abstract:
-- content: "<p>Compact expressions for the GUM's ‘law of propagation of uncertainty’
+- language: en
+  script:
+  - Latn
+  content: "<p>Compact expressions for the GUM's ‘law of propagation of uncertainty’
     and its extensions, including the possible effects of corrections for non-linearity
     and including the effects of correlation in the variables, are obtained in terms
     of simple manipulations on three basic tensors: the gradient, the Hessian and
@@ -83,55 +75,47 @@ abstract:
     spreadsheet programs and interpreted matrix oriented programming languages. This
     is illustrated by means of an example of the propagation of uncertainty for the
     ratio of two normal and correlated variables.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: BIPM
-  - name:
-    - content: IOP Publishing Ltd
-  from: '2011'
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: BIPM
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: A compact tensor algebra expression of the law of propagation of uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A compact tensor algebra expression of the law of propagation of uncertainty
     date:
     - type: epub
-      value: '2011-04-06'
+      at: '2011-04-06'
     medium:
       carrier: online
 - type: hasManifestation
   bibitem:
     title:
-    - content: A compact tensor algebra expression of the law of propagation of uncertainty
-      language:
-      - en
-      script:
-      - Latn
-      format: text/plain
+    - language: en
+      script: Latn
+      content: A compact tensor algebra expression of the law of propagation of uncertainty
     date:
     - type: ppub
-      value: '2011-06-01'
+      at: '2011-06-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -142,6 +126,6 @@ extent:
     reference_from: L22
     reference_to: L28
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

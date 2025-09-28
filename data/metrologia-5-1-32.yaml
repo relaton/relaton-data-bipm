@@ -1,88 +1,78 @@
 ---
-schema-version: v1.2.9
-id: Metrologia5132
-title:
-- content: 'I<sub>2</sub> Controlled He-Ne Laser at 633 nm: Preliminary Wavelength'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/5/1/009
-  type: src
-- content: https://doi.org/10.1088/0026-1394/5/1/009
-  type: doi
 type: article
-docid:
-- id: Metrologia 5 1 32
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: "<italic>I</italic><sub>2</sub> Controlled He-Ne Laser at 633 nm: Preliminary
+    Wavelength"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/5/1/009
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/5/1/009
+docidentifier:
+- content: Metrologia 5 1 32
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/5/1/009
+- content: 10.1088/0026-1394/5/1/009
   type: doi
 date:
 - type: published
-  value: '1969-01-01'
+  at: '1969-01-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: G R Hanes
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: K M Baird
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Division of Applied Physics, National Research Council, Ottawa,
             Canada
-  role:
-  - type: author
-revdate: '1969-01-01'
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1969'
+- from: '1969'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: 'I<sub>2</sub> Controlled He-Ne Laser at 633 nm: Preliminary Wavelength'
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
+    - language: en
+      script: Latn
+      content: "<italic>I</italic><sub>2</sub> Controlled He-Ne Laser at 633 nm: Preliminary
+        Wavelength"
     date:
     - type: ppub
-      value: '1969-01-01'
+      at: '1969-01-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -93,6 +83,6 @@ extent:
     reference_from: '32'
     reference_to: '33'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

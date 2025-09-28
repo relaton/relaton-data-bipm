@@ -1,63 +1,57 @@
 ---
-schema-version: v1.2.9
-id: Metrologia7279
-title:
-- content: Comments on the October 1970 Metrologia Paper "The U.S. Naval Observatory
-    Clock Time Reference and the Performance of a Sample of Atomic Clocks"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
-link:
-- content: https://doi.org/10.1088/0026-1394/7/2/007
-  type: src
-- content: https://doi.org/10.1088/0026-1394/7/2/007
-  type: doi
 type: article
-docid:
-- id: Metrologia 7 2 79
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Comments on the October 1970 Metrologia Paper "The U.S. Naval Observatory
+    Clock Time Reference and the Performance of a Sample of Atomic Clocks"
+source:
+- type: src
+  content: https://doi.org/10.1088/0026-1394/7/2/007
+- type: doi
+  content: https://doi.org/10.1088/0026-1394/7/2/007
+docidentifier:
+- content: Metrologia 7 2 79
   type: BIPM
   primary: true
-- id: 10.1088/0026-1394/7/2/007
+- content: 10.1088/0026-1394/7/2/007
   type: doi
 date:
 - type: published
-  value: '1971-04-01'
+  at: '1971-04-01'
 contributor:
-- person:
+- role:
+  - type: author
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: D W Allan
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atomic Frequency and Time Standards Section, National Bureau of
             Standards, Boulder, Colorado 80 302, USA
-  role:
+- role:
   - type: author
-- person:
+  person:
     name:
       completename:
+        language: en
+        script: Latn
         content: J E Gray
-        language:
-        - en
-        script:
-        - Latn
     affiliation:
     - organization:
         name:
         - content: Atomic Frequency and Time Standards Section, National Bureau of
             Standards, Boulder, Colorado 80 302, USA
-  role:
-  - type: author
-revdate: '1971-04-01'
 abstract:
-- content: "<p>The paper cited in the title by Winkler, Hall, and Percival (WHP) documents
+- language: en
+  script:
+  - Latn
+  content: "<p>The paper cited in the title by Winkler, Hall, and Percival (WHP) documents
     some important aspects of the widely referenced United States Naval Observatory
     (USNO) Time Scale system. We augment the text of WHP regarding the mutual synchronization
     to within 5 μs of the Time Scale, UTC(USNO), with another widely referenced time
@@ -66,40 +60,32 @@ abstract:
     to the USNO Time Scale system and that some of that information has been improperly
     interpreted causing some errors by WHP in their conclusions regarding time scale
     precision, clock weighting factors, and drift in rate of the time scale.</p>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/html
 copyright:
-- owner:
-  - name:
-    - content: Published under licence by IOP Publishing Ltd
-  from: '1971'
+- from: '1971'
+  owner:
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: Published under licence by IOP Publishing Ltd
 relation:
 - type: hasManifestation
   bibitem:
     title:
-    - content: Comments on the October 1970 Metrologia Paper "The U.S. Naval Observatory
+    - language: en
+      script: Latn
+      content: Comments on the October 1970 Metrologia Paper "The U.S. Naval Observatory
         Clock Time Reference and the Performance of a Sample of Atomic Clocks"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
     date:
     - type: ppub
-      value: '1971-04-01'
+      at: '1971-04-01'
     medium:
       carrier: print
 series:
 - title:
+    language: en
+    script: Latn
     content: Metrologia
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 extent:
 - locality:
   - type: volume
@@ -110,6 +96,6 @@ extent:
     reference_from: '79'
     reference_to: '82'
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.1
   doctype:
-    type: article
+    content: article

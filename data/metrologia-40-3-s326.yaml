@@ -46,8 +46,7 @@ contributor:
         - content: IEN Galileo Ferraris, Strada delle Cacce 91, Torino, Italy
 abstract:
 - language: en
-  script:
-  - Latn
+  script: Latn
   content: |-
     <p>The Kalman filter is a very useful tool of estimation theory, successfully adopted in a wide variety of problems. As a recursive and optimal estimation technique, the Kalman filter seems to be the correct tool also for building precise timescales, and various attempts have been made in the past giving rise, for example, to the TA(NIST) timescale. Despite the promising expectations, a completely satisfactory implementation has never been found, due to the intrinsic non-observability of the clock time readings, which makes the clock estimation problem underdetermined. However, the case of the Kalman filter applied to the estimation of the difference between two clocks is different. In this case the problem is observable and the Kalman filter has proved to be a powerful tool.</p>
     <p>A new proposal with interesting results, concerning the definition of an independent timescale, came with the GPS composite clock, which is based on the Kalman filter and has been in use since 1990 in the GPS system. In the composite clock the indefinite growth of the covariance matrix due to the non-observability is controlled by the so-called `transparent variations'—squeezing operations on the covariance matrix that do not interfere with the estimation algorithm. A useful quantity, the implicit ensemble mean, is defined and the `corrected clocks' (physical clocks minus their predicted bias) are shown to be observable with respect to this quantity. We have implemented the full composite clock and we discuss some of its advantages and criticalities.</p>

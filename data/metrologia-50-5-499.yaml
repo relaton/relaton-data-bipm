@@ -53,8 +53,7 @@ contributor:
             script: Latn
             content: Jet Propulsion Laboratory
 abstract:
-- script:
-  - Latn
+- script: Latn
   content: |
     <title>Abstract</title>
     <p>This paper compares the estimation results of two composite clock algorithms based on Kalman filtering of measured clock differences: the original Jones–Tryon algorithm and Greenhall's covariance-reduction modification. The theory is carried out for a general clock model that includes the model introduced by Davis <italic>et al</italic>: the sum of the three-state linear model and a set of Markov processes used to approximate flicker-frequency noise. Since measurement noise is allowed, at each measurement time the corrected clock offsets (the difference between the clock offsets and their estimates) do not coincide but form a set of values, different for the two algorithms. The core result is that these two sets are congruent, that is, they differ by a common scalar shift. As a function of time the value of the shift behaves as a random walk. Moreover, the two Kalman filters have the same measurement residuals. Therefore, any detector algorithm that uses the measurement residuals is not impacted by the covariance reduction. The congruency holds for time-varying measurement matrices. Therefore, the result is applicable to the measurement setup of laboratories as well as that of a Global Navigation Satellite System with varying visibilities of satellite clocks at ground stations. These results are illustrated by a simulated ensemble of three caesium clocks and two active hydrogen masers, measured against one of the masers.</p>

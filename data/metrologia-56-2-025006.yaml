@@ -108,8 +108,7 @@ contributor:
         name:
         - content: Keio University
 abstract:
-- script:
-  - Latn
+- script: Latn
   content: |-
     <title>Abstract</title>
     <p>We investigate an estimation strategy for multiple clock systems, which is in particular resilient against clock anomalies. The clock anomalies, including frequency or phase jumps, can potentially degrade the estimation performance for multiple clock systems. While the conventional Kalman filter is known as one of the powerful methods for the estimation problem of multiple clock systems, we will show that it is vulnerable to the effects of clock anomalies. In this paper, we overcome this issue by employing an alternative approach to the Kalman filter, which is based on solving the <inline-formula><inline-graphic xlink:href="metab0777ieqn003.gif" xlink:type="simple"></inline-graphic></inline-formula>-norm optimization problem. The estimation method employs a multiple clock model that includes only phase states. Nevertheless, the approach is shown to have more resilience against clock anomalies than the Kalman filter, because the deviation of the state from the apriori estimate is evaluated based on the <inline-formula><inline-graphic xlink:href="metab0777ieqn004.gif" xlink:type="simple"></inline-graphic></inline-formula>-norm instead of the <inline-formula><inline-graphic xlink:href="metab0777ieqn005.gif" xlink:type="simple"></inline-graphic></inline-formula>-norm. Moreover, the approach is shown to be competitive with many reset algorithms, since it does neighter require special stability assumptions about the reference clock, nor require any threshold for detecting the anomalies. The usefulness of the proposed method is validated through several numerical examples using actual clock data.</p>

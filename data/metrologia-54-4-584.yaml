@@ -77,8 +77,7 @@ contributor:
         name:
         - content: VSL
 abstract:
-- script:
-  - Latn
+- script: Latn
   content: |-
     <title>Abstract</title>
     <p>This paper presents an approach for updating the epistemic uncertainty of ultrasonic flow meter measurements under non-ideal flow conditions. Instead of re-calibrating the instrument to correct its behavior in these difficult working conditions, a Bayesian calibration of a computer model of the real process is used. The numerical model is based on computational fluid dynamics (CFD) and a surrogate model is constructed from a limited number of CFD calculations using kriging. The computer model predicts the flow rate dependent on certain parameters including the bulk Reynolds number—which carries information about the true speed of the flow, and is measured only approximately by an ultrasonic flow meter. Bayesian calibration is applied, and the posterior of the true speed can be derived from the marginal posterior of the Reynolds number. This pdf has a smaller uncertainty with respect to the observed data used to fit the model on the condition that sufficiently informative data are available. If this is the case, the proposed approach is capable of reducing not only the uncertainty but also the error associated with the flow meter measurements in non-ideal conditions.</p>

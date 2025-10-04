@@ -77,8 +77,7 @@ contributor:
         name:
         - content: Physikalisch-Technische Bundesanstalt
 abstract:
-- script:
-  - Latn
+- script: Latn
   content: |
     <title>Abstract</title>
     <p>Measurement of quantities having time-dependent values such as force, acceleration or pressure is a topic of growing importance in metrology. The application of the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) and its Supplements to the evaluation of uncertainty for such quantities is challenging. We address the efficient implementation of the Monte Carlo method described in GUM Supplements 1 and 2 for this task. The starting point is a time-domain observation equation. The steps of deriving a corresponding measurement model, the assignment of probability distributions to the input quantities in the model, and the propagation of the distributions through the model are all considered. A direct implementation of a Monte Carlo method can be intractable on many computers since the storage requirement of the method can be large compared with the available computer memory. Two memory-efficient alternatives to the direct implementation are proposed. One approach is based on applying updating formulae for calculating means, variances and point-wise histograms. The second approach is based on evaluating the measurement model sequentially in time. A simulated example is used to compare the performance of the direct and alternative procedures.</p>

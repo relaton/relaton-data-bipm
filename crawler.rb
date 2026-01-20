@@ -1,39 +1,14 @@
 # frozen_string_literal: true
 
-require 'bundler'
-require 'relaton_bipm'
-
-relaton_ci_pat = ARGV.shift
-
-# Remoeve old files
-FileUtils.rm_rf('data')
-FileUtils.rm Dir.glob('index*')
-
-def fast_fail_system(command, **options)
-  unless system(command, **options)
-    exit_status = $?.exitstatus || 1 # exit fails if $?.exitstatus is nil
-    puts "Command '#{command}' failed with exit code #{exit_status}"
-    exit exit_status
-  end
-end
-
-# Clone repositories
-fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
-fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
-fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
-
-# Generate si-brochure documents
-Bundler.with_unbundled_env do
-  fast_fail_system('ls', chdir: 'bipm-si-brochure')
-  fast_fail_system('bundle update', chdir: 'bipm-si-brochure')
-  fast_fail_system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
-  fast_fail_system('ls', chdir: 'bipm-si-brochure/_site/documents')
-end
+require "bundler"
+require "relaton_bipm"
 
 # Run converters
-RelatonBipm::DataFetcher.fetch 'bipm-data-outcomes'
-RelatonBipm::DataFetcher.fetch 'bipm-si-brochure'
-RelatonBipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
+# TODO: Move bipm-si-brochure/_site/documents to the right place
+# fast_fail_system('ls', chdir: 'bipm-si-brochure/_site/documents')
+RelatonBipm::DataFetcher.fetch "bipm-data-outcomes"
+RelatonBipm::DataFetcher.fetch "bipm-si-brochure"
+RelatonBipm::DataFetcher.fetch "rawdata-bipm-metrologia"
 
 index_file = RelatonBipm::BipmBibliography::INDEX_FILE
 index = Relaton::Index.find_or_create :bipm, file: index_file

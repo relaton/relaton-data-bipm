@@ -19,7 +19,10 @@ end
 
 # Clone repositories
 fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
-fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
+# Temporary: clone the workaround branch that pins metanorma-standoc to
+# the unreleased xref-nil fix (metanorma/metanorma-standoc PR #1175).
+# Revert to plain main once metanorma-standoc > 3.4.0 ships on RubyGems.
+fast_fail_system('git clone -b temp/use-metanorma-standoc-gh-dependency https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
 # Generate si-brochure documents

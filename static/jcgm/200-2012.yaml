@@ -248,18 +248,19 @@ script:
 - Latn
 place:
 - city: Paris
-doctype: international-standard
-editorialgroup:
-  committee:
-    - acronym: JCGM
-      variants:
-        - content: Joint Committee for Guides in Metrology
-          language: en
-          script: Latn
-        - content: Comité commun pour les guides en métrologie
-          language: fr
-          script: Latn
-structuredidentifier:
-  docnumber: '200'
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: international-standard
+  editorialgroup:
+    committee:
+      - acronym: JCGM
+        variants:
+          - content: Joint Committee for Guides in Metrology
+            language: en
+            script: Latn
+          - content: Comité commun pour les guides en métrologie
+            language: fr
+            script: Latn
+  structuredidentifier:
+    docnumber: '200'

@@ -23,19 +23,34 @@ fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-s
 fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
 # Workaround: only RXL is consumed downstream by SiBrochureParser. Full-format
-# builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit.
-# Remove once metanorma-cli ships a --formats flag (see metanorma/metanorma-cli#418).
-require 'yaml'
-metanorma_yml_path = 'bipm-si-brochure/metanorma.yml'
-metanorma_yml = YAML.load_file(metanorma_yml_path)
-metanorma_yml['metanorma']['source']['formats'] = ['rxl']
-File.write(metanorma_yml_path, metanorma_yml.to_yaml)
+# builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit, especially
+# after a recent mn2pdf/metanorma-bipm slowdown raised per-PDF time from ~30s
+# to ~5-10min. Drop a tiny script into the cloned repo that monkey-patches
+# Metanorma::Cli::Compiler to force `extensions: rxl`, then runs site generate.
+# Remove once metanorma-cli ships a --formats flag (metanorma/metanorma-cli#418).
+File.write('bipm-si-brochure/build_rxl_only.rb', <<~'RUBY')
+  require "bundler/setup"
+  require "metanorma/cli"
 
-# Generate si-brochure documents
+  module Metanorma::Cli
+    class Compiler
+      orig_init = instance_method(:initialize)
+      define_method(:initialize) do |file, options|
+        options = (options.is_a?(Hash) ? options : {}).dup
+        options[:extensions] ||= "rxl" unless options["extensions"]
+        orig_init.bind(self).call(file, options)
+      end
+    end
+  end
+
+  Metanorma::Cli.start(["site", "generate", "--agree-to-terms"])
+RUBY
+
+# Generate si-brochure documents (RXL only)
 Bundler.with_unbundled_env do
   fast_fail_system('ls', chdir: 'bipm-si-brochure')
   fast_fail_system('bundle update', chdir: 'bipm-si-brochure')
-  fast_fail_system('bundle exec metanorma site generate --agree-to-terms', chdir: 'bipm-si-brochure')
+  fast_fail_system('bundle exec ruby build_rxl_only.rb', chdir: 'bipm-si-brochure')
   fast_fail_system('ls', chdir: 'bipm-si-brochure/_site/documents')
 end
 

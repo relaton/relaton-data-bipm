@@ -1,7 +1,7 @@
 ---
 id: CGPMRES101948
+schema_version: v1.5.6
 type: proceedings
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -75,18 +75,25 @@ contributor:
       content: BIPM
 - role:
   - type: author
+    description:
+    - content: committee
   organization:
     name:
-    - language: en
-      script: Latn
-      content: General Conference on Weights and Measures
-    - language: fr
-      script: Latn
-      content: Conférence Générale des Poids et Mesures
-    abbreviation:
-      language: fr
-      script: Latn
-      content: CGPM
+    - script: Latn
+      content: BIPM
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: General Conference on Weights and Measures
+      - language: fr
+        script: Latn
+        content: Conférence Générale des Poids et Mesures
+      abbreviation:
+        language: fr
+        script: Latn
+        content: CGPM
+      type: committee
 language:
 - en
 - fr
@@ -95,7 +102,7 @@ script:
 place:
 - city: Paris
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.2
   doctype:
     content: resolution
   structuredidentifier:

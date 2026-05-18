@@ -1,7 +1,7 @@
 ---
 id: CIPMDECN10952020
+schema_version: v1.5.6
 type: proceedings
-schema_version: v1.4.1
 title:
 - language: en
   script: Latn
@@ -73,18 +73,25 @@ contributor:
       content: BIPM
 - role:
   - type: author
+    description:
+    - content: committee
   organization:
     name:
-    - language: en
-      script: Latn
-      content: International Committee for Weights and Measures
-    - language: fr
-      script: Latn
-      content: Comité international des poids et mesures
-    abbreviation:
-      language: fr
-      script: Latn
-      content: CIPM
+    - script: Latn
+      content: BIPM
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: International Committee for Weights and Measures
+      - language: fr
+        script: Latn
+        content: Comité international des poids et mesures
+      abbreviation:
+        language: fr
+        script: Latn
+        content: CIPM
+      type: committee
 language:
 - en
 - fr
@@ -93,7 +100,7 @@ script:
 place:
 - city: Paris
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.2
   doctype:
     content: decision
   structuredidentifier:

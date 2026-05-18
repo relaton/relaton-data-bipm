@@ -28,6 +28,24 @@ fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/r
 # to ~5-10min. Drop a tiny script into the cloned repo that monkey-patches
 # Metanorma::Cli::Compiler to force `extensions: rxl`, then runs site generate.
 # Remove once metanorma-cli ships a --formats flag (metanorma/metanorma-cli#418).
+require 'yaml'
+yml_path = 'bipm-si-brochure/metanorma.yml'
+yml = YAML.load_file(yml_path)
+# Expand collection.yml entries to their child .adoc files. The collection
+# render path uses Metanorma::Compile directly (bypassing Cli::Compiler), so
+# our monkey-patch doesn't reach it, and it requires presentation.xml output
+# for its concatenation step — incompatible with rxl-only. Inlining the
+# children sidesteps compile_collections! entirely.
+expanded = (yml.dig('metanorma', 'source', 'files') || []).flat_map do |entry|
+  next [] if entry.nil?
+  next [entry] unless entry.end_with?('.yml', '.yaml')
+  coll = YAML.load_file(File.join('bipm-si-brochure', entry))
+  coll_dir = File.dirname(entry)
+  (coll.dig('manifest', 'docref') || []).map { |d| File.join(coll_dir, d['file']) }
+end
+yml['metanorma']['source']['files'] = expanded
+File.write(yml_path, yml.to_yaml)
+
 File.write('bipm-si-brochure/build_rxl_only.rb', <<~'RUBY')
   require "bundler/setup"
   require "metanorma/cli"

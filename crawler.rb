@@ -22,6 +22,15 @@ fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm
 fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
 fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
+# Workaround: only RXL is consumed downstream by SiBrochureParser. Full-format
+# builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit.
+# Remove once metanorma-cli ships a --formats flag (see metanorma/metanorma-cli#418).
+require 'yaml'
+metanorma_yml_path = 'bipm-si-brochure/metanorma.yml'
+metanorma_yml = YAML.load_file(metanorma_yml_path)
+metanorma_yml['metanorma']['source']['formats'] = ['rxl']
+File.write(metanorma_yml_path, metanorma_yml.to_yaml)
+
 # Generate si-brochure documents
 Bundler.with_unbundled_env do
   fast_fail_system('ls', chdir: 'bipm-si-brochure')

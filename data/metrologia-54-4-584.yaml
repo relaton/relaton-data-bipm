@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: A Bayesian study of uncertainty in ultrasonic flow meters under non-ideal
-    flow conditions
+  content: '["A Bayesian study of uncertainty in ultrasonic flow meters under non-ideal
+    flow conditions"]'
 source:
 - type: src
   content: https://doi.org/10.1088/1681-7575/aa7b8d
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Kluyverweg 2, 2629 HS, Delft, Netherlands
+        - formatted_address: Kluyverweg 2, 2629 HS, Delft
         name:
         - content: Delft University of Technology
 - role:
@@ -46,7 +46,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Kluyverweg 2, 2629 HS, Delft, Netherlands
+        - formatted_address: Kluyverweg 2, 2629 HS, Delft
         name:
         - content: Delft University of Technology
 - role:
@@ -60,7 +60,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Thijsseweg 11, 2629 JA, Delft, Netherlands
+        - formatted_address: Thijsseweg 11, 2629 JA, Delft
         name:
         - content: VSL
 - role:
@@ -74,14 +74,26 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Thijsseweg 11, 2629 JA, Delft, Netherlands
+        - formatted_address: Thijsseweg 11, 2629 JA, Delft
         name:
         - content: VSL
 abstract:
 - script: Latn
-  content: |-
-    <title>Abstract</title>
-    <p>This paper presents an approach for updating the epistemic uncertainty of ultrasonic flow meter measurements under non-ideal flow conditions. Instead of re-calibrating the instrument to correct its behavior in these difficult working conditions, a Bayesian calibration of a computer model of the real process is used. The numerical model is based on computational fluid dynamics (CFD) and a surrogate model is constructed from a limited number of CFD calculations using kriging. The computer model predicts the flow rate dependent on certain parameters including the bulk Reynolds number—which carries information about the true speed of the flow, and is measured only approximately by an ultrasonic flow meter. Bayesian calibration is applied, and the posterior of the true speed can be derived from the marginal posterior of the Reynolds number. This pdf has a smaller uncertainty with respect to the observed data used to fit the model on the condition that sufficiently informative data are available. If this is the case, the proposed approach is capable of reducing not only the uncertainty but also the error associated with the flow meter measurements in non-ideal conditions.</p>
+  content: Abstract<p>This paper presents an approach for updating the epistemic uncertainty
+    of ultrasonic flow meter measurements under non-ideal flow conditions. Instead
+    of re-calibrating the instrument to correct its behavior in these difficult working
+    conditions, a Bayesian calibration of a computer model of the real process is
+    used. The numerical model is based on computational fluid dynamics (CFD) and a
+    surrogate model is constructed from a limited number of CFD calculations using
+    kriging. The computer model predicts the flow rate dependent on certain parameters
+    including the bulk Reynolds number—which carries information about the true speed
+    of the flow, and is measured only approximately by an ultrasonic flow meter. Bayesian
+    calibration is applied, and the posterior of the true speed can be derived from
+    the marginal posterior of the Reynolds number. This pdf has a smaller uncertainty
+    with respect to the observed data used to fit the model on the condition that
+    sufficiently informative data are available. If this is the case, the proposed
+    approach is capable of reducing not only the uncertainty but also the error associated
+    with the flow meter measurements in non-ideal conditions.</p>
 copyright:
 - from: '2017'
   owner:
@@ -98,12 +110,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 54 4 584
-    docidentifier:
-    - content: Metrologia 54 4 584
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A Bayesian study of uncertainty in ultrasonic flow meters under
+        non-ideal flow conditions"]'
     date:
     - type: ppub
       at: '2017-08-01'
@@ -111,12 +121,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 54 4 584
-    docidentifier:
-    - content: Metrologia 54 4 584
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A Bayesian study of uncertainty in ultrasonic flow meters under
+        non-ideal flow conditions"]'
     date:
     - type: epub
       at: '2017-07-24'

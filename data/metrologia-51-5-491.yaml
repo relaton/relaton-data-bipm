@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: A candidate reference method for quantification of low concentrations of
-    plasmid DNA by exhaustive counting of single DNA molecules in a flow stream
+  content: '["A candidate reference method for quantification of low concentrations
+    of plasmid DNA by exhaustive counting of single DNA molecules in a flow stream"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/51/5/491
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
@@ -42,7 +42,7 @@ contributor:
             content: Center for Bioanalysis
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology (UST)
         subdivision:
@@ -61,7 +61,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
@@ -71,7 +71,7 @@ contributor:
             content: Center for Bioanalysis
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology (UST)
         subdivision:
@@ -90,7 +90,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
@@ -109,7 +109,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Tsukuba, Japan
+        - formatted_address: Tsukuba
         name:
         - content: National Institute of Advance Industrial Science and Technology
             (AIST)
@@ -130,7 +130,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Boulder, CO, USA
+        - formatted_address: Boulder, CO
         name:
         - content: National Institute of Standards and Technology
         subdivision:
@@ -149,7 +149,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
@@ -159,7 +159,7 @@ contributor:
             content: Center for Bioanalysis
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology (UST)
         subdivision:
@@ -178,7 +178,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science (KRISS)
         subdivision:
@@ -188,7 +188,7 @@ contributor:
             content: Center for Bioanalysis
     - organization:
         address:
-        - formatted_address: Daejeon, Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology (UST)
         subdivision:
@@ -198,9 +198,28 @@ contributor:
             content: Department of Analytical Sciences for Biology
 abstract:
 - script: Latn
-  content: |
-    <title>Abstract</title>
-    <p>This work demonstrates accurate measurement of the amount of substance concentration of low concentration plasmid DNA by counting individual DNA molecules using a high-sensitivity flow cytometric setup. Plasmid DNA is a widely used form of DNA, and its quantity often needs to be accurately determined. This work establishes a reference analytical method for direct quantification of low concentration plasmid DNA prepared as reference standards for polymerase chain reaction-based DNA quantification. The model plasmid DNA pBR322 (4361 bp) was stained with a fluorescent dye and was detected in a flow stream in a micro-fluidic channel with laser-induced fluorescence detection, for which the DNA flow was electro-hydrodynamically focused at the centre of the channel. 200 to 8000 DNA molecules in a ∼1 µL sample volume were counted within 2 min in an ‘exhaustive counting’ manner, which facilitated quantitation without calibration. The sample volume was measured and validated from the close agreement of the results of two independent measurement methods, gravimetric determination of water filling the capillary and graphical estimation of actual cross sectional area of the capillary tubing with the image of calibrated scanning electron microscopy. Within the given concentration range, an excellent measurement linearity (<italic>R</italic><sup>2</sup> = 0.999) was achieved with appropriate data processing for the correction of the events of double molecules (detection of double molecules opposed to single molecule detection assumed, which occurs due to their coincidental passing of the detection zone). The validity of the proposed method was confirmed from the close agreement with the results of quantitation of enzymatically released nucleotides using capillary electrophoresis.</p>
+  content: Abstract<p>This work demonstrates accurate measurement of the amount of
+    substance concentration of low concentration plasmid DNA by counting individual
+    DNA molecules using a high-sensitivity flow cytometric setup. Plasmid DNA is a
+    widely used form of DNA, and its quantity often needs to be accurately determined.
+    This work establishes a reference analytical method for direct quantification
+    of low concentration plasmid DNA prepared as reference standards for polymerase
+    chain reaction-based DNA quantification. The model plasmid DNA pBR322 (4361 bp)
+    was stained with a fluorescent dye and was detected in a flow stream in a micro-fluidic
+    channel with laser-induced fluorescence detection, for which the DNA flow was
+    electro-hydrodynamically focused at the centre of the channel. 200 to 8000 DNA
+    molecules in a ∼1 µL sample volume were counted within 2 min in an ‘exhaustive
+    counting’ manner, which facilitated quantitation without calibration. The sample
+    volume was measured and validated from the close agreement of the results of two
+    independent measurement methods, gravimetric determination of water filling the
+    capillary and graphical estimation of actual cross sectional area of the capillary
+    tubing with the image of calibrated scanning electron microscopy. Within the given
+    concentration range, an excellent measurement linearity (R2 = 0.999) was achieved
+    with appropriate data processing for the correction of the events of double molecules
+    (detection of double molecules opposed to single molecule detection assumed, which
+    occurs due to their coincidental passing of the detection zone). The validity
+    of the proposed method was confirmed from the close agreement with the results
+    of quantitation of enzymatically released nucleotides using capillary electrophoresis.</p>
 copyright:
 - from: '2014'
   owner:
@@ -217,12 +236,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 51 5 491
-    docidentifier:
-    - content: Metrologia 51 5 491
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A candidate reference method for quantification of low concentrations
+        of plasmid DNA by exhaustive counting of single DNA molecules in a flow stream"]'
     date:
     - type: ppub
       at: '2014-10-01'
@@ -230,12 +247,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 51 5 491
-    docidentifier:
-    - content: Metrologia 51 5 491
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A candidate reference method for quantification of low concentrations
+        of plasmid DNA by exhaustive counting of single DNA molecules in a flow stream"]'
     date:
     - type: epub
       at: '2014-08-04'
@@ -243,14 +258,12 @@ relation:
       carrier: online
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 51 5 491
-    docidentifier:
-    - content: Metrologia 51 5 491
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A candidate reference method for quantification of low concentrations
+        of plasmid DNA by exhaustive counting of single DNA molecules in a flow stream"]'
     date:
-    - type: open-access
+    - type: ppub
       at: '2014-08-04'
     medium:
       carrier: print

@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: Field representation of a watt balance magnet by partial profile measurements
+  content: '["Field representation of a watt balance magnet by partial profile measurements"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/52/4/445
@@ -31,7 +31,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Beijing 100084, People’s Republic of China
+        - formatted_address: Beijing 100084
         name:
         - content: Tsinghua University
         subdivision:
@@ -41,7 +41,7 @@ contributor:
             content: Department of Electrical Engineering
     - organization:
         address:
-        - formatted_address: Beijing 100029, People’s Republic of China
+        - formatted_address: Beijing 100029
         name:
         - content: National Institute of Metrology
 - role:
@@ -55,7 +55,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Beijing 100084, People’s Republic of China
+        - formatted_address: Beijing 100084
         name:
         - content: Tsinghua University
         subdivision:
@@ -74,7 +74,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Beijing 100084, People’s Republic of China
+        - formatted_address: Beijing 100084
         name:
         - content: Tsinghua University
         subdivision:
@@ -93,7 +93,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Beijing 100084, People’s Republic of China
+        - formatted_address: Beijing 100084
         name:
         - content: Tsinghua University
         subdivision:
@@ -103,9 +103,19 @@ contributor:
             content: Department of Electrical Engineering
 abstract:
 - script: Latn
-  content: |
-    <title>Abstract</title>
-    <p>Permanent magnets with high-permeability yokes have been widely used in watt balances for supplying a robust and strong magnetic field at the coil position. Subjected to the mechanical realization, only several <italic>B</italic><sub><italic>r</italic></sub>(<italic>z</italic>) (radial magnetic field along the vertical direction) profiles can be measured by coils or a magnetic probe for field characterization. In this article, we present an algorithm that can construct the global magnetic field of the air gap based on <italic>N</italic>(<italic>N</italic> ⩾ 1) additional measurements of <italic>B</italic><sub><italic>r</italic></sub>(<italic>z</italic>) profiles. The proposed algorithm is realized by polynomially estimating the <italic>B</italic><sub><italic>z</italic></sub>(<italic>r</italic>) function with analysis of basic relations between two magnetic components in air gap, i.e. <italic>B</italic><sub><italic>r</italic></sub>(<italic>r</italic>, <italic>z</italic>) and <italic>B</italic><sub><italic>z</italic></sub>(<italic>r</italic>, <italic>z</italic>), following Maxwell’s equations. The algorithm, verified by FEM simulations, can characterize the three-dimensional contribution of the magnetic field for a watt balance magnet with acceptable accuracy, which would supply basic field parameters for alignment and misalignment corrections.</p>
+  content: Abstract<p>Permanent magnets with high-permeability yokes have been widely
+    used in watt balances for supplying a robust and strong magnetic field at the
+    coil position. Subjected to the mechanical realization, only several B(z) (radial
+    magnetic field along the vertical direction) profiles can be measured by coils
+    or a magnetic probe for field characterization. In this article, we present an
+    algorithm that can construct the global magnetic field of the air gap based on
+    N(N ⩾ 1) additional measurements of B(z) profiles. The proposed algorithm is realized
+    by polynomially estimating the B(r) function with analysis of basic relations
+    between two magnetic components in air gap, i.e. B(r, z) and B(r, z), following
+    Maxwell’s equations. The algorithm, verified by FEM simulations, can characterize
+    the three-dimensional contribution of the magnetic field for a watt balance magnet
+    with acceptable accuracy, which would supply basic field parameters for alignment
+    and misalignment corrections.</p>
 copyright:
 - from: '2015'
   owner:
@@ -122,12 +132,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 52 4 445
-    docidentifier:
-    - content: Metrologia 52 4 445
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Field representation of a watt balance magnet by partial profile
+        measurements"]'
     date:
     - type: ppub
       at: '2015-08-01'
@@ -135,12 +143,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 52 4 445
-    docidentifier:
-    - content: Metrologia 52 4 445
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Field representation of a watt balance magnet by partial profile
+        measurements"]'
     date:
     - type: epub
       at: '2015-04-17'

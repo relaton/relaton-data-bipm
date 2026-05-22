@@ -5,7 +5,7 @@ type: article
 title:
 - language: en
   script: Latn
-  content: 'MUSE: computational aspects of a GUM supplement 1 implementation'
+  content: '["MUSE: computational aspects of a GUM supplement 1 implementation"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/45/5/013
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Institute of Computational Science, ETH Zurich, CH-8092, Switzerland
+        - content: Institute of Computational Science
 - role:
   - type: author
   person:
@@ -44,7 +44,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Institute of Computational Science, ETH Zurich, CH-8092, Switzerland
+        - content: Institute of Computational Science
 - role:
   - type: author
   person:
@@ -56,23 +56,23 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Materials–Biology Interactions, Empa St Gallen, CH-9014, Switzerland
+        - content: Materials–Biology Interactions
 abstract:
 - language: en
   script: Latn
-  content: "<p>The new guideline <italic>GUM Supplement 1—Propagation of Distributions
-    Using a Monte Carlo Method</italic> (GS1) is currently published by JCGM/WG1.
-    It describes an approximate method to calculate the measurement uncertainty in
-    nearly all areas of metrology. In this way it overcomes the various limitations
-    and drawbacks of the uncertainty propagation detailed in GUM. However, GS1 demands
-    a software implementation in contrast to the uncertainty propagation. Therefore
-    we have developed a software tool called MUSE (Measurement Uncertainty Simulation
-    and Evaluation), which is a comprehensive implementation of GS1. In this paper
-    we present the major computational aspects of the software which are the sampling
-    from probability density functions (PDFs), an efficient way to propagate the PDFs
-    with the help of a block design through the equation of the measurand and the
-    calculation of the summarizing parameters based on these blocks. Also the different
-    quality measures which are in place during the life cycle of the tool are elaborated.</p>"
+  content: "<p>The new guideline GUM Supplement 1—Propagation of Distributions Using
+    a Monte Carlo Method (GS1) is currently published by JCGM/WG1. It describes an
+    approximate method to calculate the measurement uncertainty in nearly all areas
+    of metrology. In this way it overcomes the various limitations and drawbacks of
+    the uncertainty propagation detailed in GUM. However, GS1 demands a software implementation
+    in contrast to the uncertainty propagation. Therefore we have developed a software
+    tool called MUSE (Measurement Uncertainty Simulation and Evaluation), which is
+    a comprehensive implementation of GS1. In this paper we present the major computational
+    aspects of the software which are the sampling from probability density functions
+    (PDFs), an efficient way to propagate the PDFs with the help of a block design
+    through the equation of the measurand and the calculation of the summarizing parameters
+    based on these blocks. Also the different quality measures which are in place
+    during the life cycle of the tool are elaborated.</p>"
 copyright:
 - from: '2008'
   owner:
@@ -84,30 +84,26 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 45 5 586
-    docidentifier:
-    - content: Metrologia 45 5 586
-      type: BIPM
-      primary: true
-    date:
-    - type: epub
-      at: '2008-10-03'
-    medium:
-      carrier: online
-- type: hasManifestation
-  bibitem:
-    formattedref:
-      content: Metrologia 45 5 586
-    docidentifier:
-    - content: Metrologia 45 5 586
-      type: BIPM
-      primary: true
+    title:
+    - language: en
+      script: Latn
+      content: '["MUSE: computational aspects of a GUM supplement 1 implementation"]'
     date:
     - type: ppub
       at: '2008-10-01'
     medium:
       carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: '["MUSE: computational aspects of a GUM supplement 1 implementation"]'
+    date:
+    - type: epub
+      at: '2008-10-03'
+    medium:
+      carrier: online
 series:
 - title:
   - language: en

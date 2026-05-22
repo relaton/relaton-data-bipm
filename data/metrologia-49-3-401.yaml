@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: Efficient implementation of a Monte Carlo method for uncertainty evaluation
-    in dynamic measurements
+  content: '["Efficient implementation of a Monte Carlo method for uncertainty evaluation
+    in dynamic measurements"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/49/3/401
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 - role:
@@ -46,7 +46,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 - role:
@@ -60,7 +60,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Teddington, Middlesex TW11 0LW, UK
+        - formatted_address: Teddington, Middlesex TW11 0LW
         name:
         - content: National Physical Laboratory
 - role:
@@ -74,14 +74,27 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Abbestrasse 2-12, 10587 Berlin, Germany
+        - formatted_address: Abbestrasse 2-12, 10587 Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 abstract:
 - script: Latn
-  content: |
-    <title>Abstract</title>
-    <p>Measurement of quantities having time-dependent values such as force, acceleration or pressure is a topic of growing importance in metrology. The application of the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM) and its Supplements to the evaluation of uncertainty for such quantities is challenging. We address the efficient implementation of the Monte Carlo method described in GUM Supplements 1 and 2 for this task. The starting point is a time-domain observation equation. The steps of deriving a corresponding measurement model, the assignment of probability distributions to the input quantities in the model, and the propagation of the distributions through the model are all considered. A direct implementation of a Monte Carlo method can be intractable on many computers since the storage requirement of the method can be large compared with the available computer memory. Two memory-efficient alternatives to the direct implementation are proposed. One approach is based on applying updating formulae for calculating means, variances and point-wise histograms. The second approach is based on evaluating the measurement model sequentially in time. A simulated example is used to compare the performance of the direct and alternative procedures.</p>
+  content: Abstract<p>Measurement of quantities having time-dependent values such
+    as force, acceleration or pressure is a topic of growing importance in metrology.
+    The application of the Guide to the Expression of Uncertainty in Measurement (GUM)
+    and its Supplements to the evaluation of uncertainty for such quantities is challenging.
+    We address the efficient implementation of the Monte Carlo method described in
+    GUM Supplements 1 and 2 for this task. The starting point is a time-domain observation
+    equation. The steps of deriving a corresponding measurement model, the assignment
+    of probability distributions to the input quantities in the model, and the propagation
+    of the distributions through the model are all considered. A direct implementation
+    of a Monte Carlo method can be intractable on many computers since the storage
+    requirement of the method can be large compared with the available computer memory.
+    Two memory-efficient alternatives to the direct implementation are proposed. One
+    approach is based on applying updating formulae for calculating means, variances
+    and point-wise histograms. The second approach is based on evaluating the measurement
+    model sequentially in time. A simulated example is used to compare the performance
+    of the direct and alternative procedures.</p>
 copyright:
 - from: '2012'
   owner:
@@ -98,12 +111,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 49 3 401
-    docidentifier:
-    - content: Metrologia 49 3 401
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Efficient implementation of a Monte Carlo method for uncertainty
+        evaluation in dynamic measurements"]'
     date:
     - type: ppub
       at: '2012-06-01'
@@ -111,12 +122,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 49 3 401
-    docidentifier:
-    - content: Metrologia 49 3 401
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Efficient implementation of a Monte Carlo method for uncertainty
+        evaluation in dynamic measurements"]'
     date:
     - type: epub
       at: '2012-04-24'

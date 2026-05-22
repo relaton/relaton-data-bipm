@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: Calibrated optical time transfer of UTC(<italic>k</italic>) for supervision
-    of telecom networks
+  content: '["Calibrated optical time transfer of UTC(", ") for supervision of telecom
+    networks"]'
 source:
 - type: src
   content: https://doi.org/10.1088/1681-7575/aaef57
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: al. Mickiewicza 30, 30-059, Krakow, Poland
+        - formatted_address: al. Mickiewicza 30, 30-059, Krakow
         name:
         - content: AGH University of Science and Technology
         subdivision:
@@ -51,7 +51,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: al. Mickiewicza 30, 30-059, Krakow, Poland
+        - formatted_address: al. Mickiewicza 30, 30-059, Krakow
         name:
         - content: AGH University of Science and Technology
         subdivision:
@@ -70,7 +70,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: al. Mickiewicza 30, 30-059, Krakow, Poland
+        - formatted_address: al. Mickiewicza 30, 30-059, Krakow
         name:
         - content: AGH University of Science and Technology
         subdivision:
@@ -89,7 +89,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
+        - formatted_address: Bundesallee 100, 38116 Braunschweig
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
 - role:
@@ -103,7 +103,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
+        - formatted_address: Bundesallee 100, 38116 Braunschweig
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
 - role:
@@ -117,7 +117,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Bundesallee 100, 38116 Braunschweig, Germany
+        - formatted_address: Bundesallee 100, 38116 Braunschweig
         name:
         - content: Physikalisch-Technische Bundesanstalt (PTB)
 - role:
@@ -131,7 +131,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: FMED, Neuenstraße 76-80, 28195 Bremen, Germany
+        - formatted_address: FMED, Neuenstraße 76-80, 28195 Bremen
         name:
         - content: Deutsche Telekom Technik GmbH
 - role:
@@ -145,14 +145,33 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: FMED, Neuenstraße 76-80, 28195 Bremen, Germany
+        - formatted_address: FMED, Neuenstraße 76-80, 28195 Bremen
         name:
         - content: Deutsche Telekom Technik GmbH
 abstract:
 - script: Latn
-  content: |-
-    <title>Abstract</title>
-    <p>We report on the evaluation of the performance of optical time transfer links connecting a facility of Deutsche Telekom in Bremen with the Physikalisch-Technische Bundesanstalt in Braunschweig. In the current configuration three links have been established, two via a hub in Hannover and one using an independent alternate route. They are equipped with electronically stabilized fiber optic time and frequency transfer systems and parallel operation is maintained since December 2016. A novel method of link calibration, composed of two steps (one performed in the laboratory and the second one in the field), to accurately determine the influence of fiber chromatic dispersion is discussed in detail, and a thorough analysis of the uncertainty budget is given. We show that the time transfer performance achieved is difficult to characterize based on measurements with time interval counters that are the standard equipment in timing laboratories and in the telecommunications sector. In our experiments, values of TDEV at the low ps-level at averaging times between 10<sup>4</sup> to 10<sup>6</sup> s have been achieved. The uncertainty of time transfer (including all kinds of delays) is of the order of 50 ps in a cascade of links. The results obtained show that such a kind of link is capable to deliver signals to a remote end with an instability being at least two orders of magnitude below the current requirements included in relevant Recommendations of the International Telecommunication Union—Telecommunication Sector (ITU-T). Moreover, the current implementation would allow primary Cs fountain clocks to be compared at the level of their performance, that is characterized by an uncertainty at the low 10<sup>−16</sup> level and a frequency instability of the same order of magnitude at 1 d averaging.</p>
+  content: Abstract<p>We report on the evaluation of the performance of optical time
+    transfer links connecting a facility of Deutsche Telekom in Bremen with the Physikalisch-Technische
+    Bundesanstalt in Braunschweig. In the current configuration three links have been
+    established, two via a hub in Hannover and one using an independent alternate
+    route. They are equipped with electronically stabilized fiber optic time and frequency
+    transfer systems and parallel operation is maintained since December 2016. A novel
+    method of link calibration, composed of two steps (one performed in the laboratory
+    and the second one in the field), to accurately determine the influence of fiber
+    chromatic dispersion is discussed in detail, and a thorough analysis of the uncertainty
+    budget is given. We show that the time transfer performance achieved is difficult
+    to characterize based on measurements with time interval counters that are the
+    standard equipment in timing laboratories and in the telecommunications sector.
+    In our experiments, values of TDEV at the low ps-level at averaging times between
+    104 to 106 s have been achieved. The uncertainty of time transfer (including all
+    kinds of delays) is of the order of 50 ps in a cascade of links. The results obtained
+    show that such a kind of link is capable to deliver signals to a remote end with
+    an instability being at least two orders of magnitude below the current requirements
+    included in relevant Recommendations of the International Telecommunication Union—Telecommunication
+    Sector (ITU-T). Moreover, the current implementation would allow primary Cs fountain
+    clocks to be compared at the level of their performance, that is characterized
+    by an uncertainty at the low 10−16 level and a frequency instability of the same
+    order of magnitude at 1 d averaging.</p>
 copyright:
 - from: '2018'
   owner:
@@ -169,12 +188,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 56 1 015006
-    docidentifier:
-    - content: Metrologia 56 1 015006
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Calibrated optical time transfer of UTC(", ") for supervision of
+        telecom networks"]'
     date:
     - type: ppub
       at: '2019-02-01'
@@ -182,12 +199,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 56 1 015006
-    docidentifier:
-    - content: Metrologia 56 1 015006
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Calibrated optical time transfer of UTC(", ") for supervision of
+        telecom networks"]'
     date:
     - type: epub
       at: '2018-11-30'

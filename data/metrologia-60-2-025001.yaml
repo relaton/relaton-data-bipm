@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: Thickness and refractive index measurements of a thin-film using an artificial
-    neural network algorithm
+  content: '["Thickness and refractive index measurements of a thin-film using an
+    artificial neural network algorithm"]'
 source:
 - type: src
   content: https://doi.org/10.1088/1681-7575/acb70d
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Republic of Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology
         subdivision:
@@ -51,7 +51,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Daejeon, Republic of Korea
+        - formatted_address: Daejeon
         name:
         - content: University of Science and Technology
         subdivision:
@@ -61,7 +61,7 @@ contributor:
             content: Department of Precision Measurement
     - organization:
         address:
-        - formatted_address: Daejeon, Republic of Korea
+        - formatted_address: Daejeon
         name:
         - content: Korea Research Institute of Standards and Science
         subdivision:
@@ -71,9 +71,27 @@ contributor:
             content: Division of Physical Metrology
 abstract:
 - script: Latn
-  content: |-
-    <title>Abstract</title>
-    <p>Thin-film thickness and refractive index measurements are important for quality control in many high-tech industrial manufacturing processes, such as the semiconductor, display, and battery. Many studies have been carried out to measure the thickness and refractive index of thin-films, and recently studies using an artificial neural network (ANN) algorithm have also been conducted. However, strict evaluations of ANNs were not reported in all previous studies. In this study, a multilayer perceptron type of ANN algorithm for simultaneously analyzing the thickness and refractive index of a thin-film is designed and verified by using four thin-film certified reference materials (CRMs) being traceable to the length standard. According to the number of hidden layers and the number of nodes for each hidden layer, 12 multilayer perceptron type ANN algorithms were designed and trained with a theoretical dataset generated through optics theory based on multiple interferences. Subsequently, the interference spectra measured by the four CRMs were put into the 12 trained ANNs as input, and it was checked whether or not the output values were in good agreement with the corresponding certified values of both the thickness and refractive index. As a result, an ANN algorithm having two hidden layers with 100 nodes was selected as the final algorithm and an uncertainty evaluation was performed. Finally, the combined uncertainties for the thickness and refractive index were estimated to be 2.0 nm and 0.025 at a wavelength of 632.8 nm, respectively, as measured using a spectral reflectometer with the well-trained ANN algorithm.</p>
+  content: Abstract<p>Thin-film thickness and refractive index measurements are important
+    for quality control in many high-tech industrial manufacturing processes, such
+    as the semiconductor, display, and battery. Many studies have been carried out
+    to measure the thickness and refractive index of thin-films, and recently studies
+    using an artificial neural network (ANN) algorithm have also been conducted. However,
+    strict evaluations of ANNs were not reported in all previous studies. In this
+    study, a multilayer perceptron type of ANN algorithm for simultaneously analyzing
+    the thickness and refractive index of a thin-film is designed and verified by
+    using four thin-film certified reference materials (CRMs) being traceable to the
+    length standard. According to the number of hidden layers and the number of nodes
+    for each hidden layer, 12 multilayer perceptron type ANN algorithms were designed
+    and trained with a theoretical dataset generated through optics theory based on
+    multiple interferences. Subsequently, the interference spectra measured by the
+    four CRMs were put into the 12 trained ANNs as input, and it was checked whether
+    or not the output values were in good agreement with the corresponding certified
+    values of both the thickness and refractive index. As a result, an ANN algorithm
+    having two hidden layers with 100 nodes was selected as the final algorithm and
+    an uncertainty evaluation was performed. Finally, the combined uncertainties for
+    the thickness and refractive index were estimated to be 2.0 nm and 0.025 at a
+    wavelength of 632.8 nm, respectively, as measured using a spectral reflectometer
+    with the well-trained ANN algorithm.</p>
 copyright:
 - from: '2023'
   owner:
@@ -90,12 +108,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 60 2 025001
-    docidentifier:
-    - content: Metrologia 60 2 025001
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Thickness and refractive index measurements of a thin-film using
+        an artificial neural network algorithm"]'
     date:
     - type: ppub
       at: '2023-04-01'
@@ -103,274 +119,15 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 60 2 025001
-    docidentifier:
-    - content: Metrologia 60 2 025001
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Thickness and refractive index measurements of a thin-film using
+        an artificial neural network algorithm"]'
     date:
     - type: epub
       at: '2023-02-13'
     medium:
       carrier: online
-- type: cites
-  bibitem:
-    title:
-    - content: Thin Solid Films
-    source:
-    - type: doi
-      content: https://doi.org/10.1016/S0040-6090(97)00135-1
-    docidentifier:
-    - content: 10.1016/S0040-6090(97)00135-1
-      type: doi
-    date:
-    - type: published
-      at: '1997'
-- type: cites
-  bibitem:
-    title:
-    - content: Appl. Opt.
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/AO.51.006789
-    docidentifier:
-    - content: 10.1364/AO.51.006789
-      type: doi
-    date:
-    - type: published
-      at: '2012'
-- type: cites
-  bibitem:
-    title:
-    - content: Thin Solid Film
-    source:
-    - type: doi
-      content: https://doi.org/10.1016/j.tsf.2021.138758
-    docidentifier:
-    - content: 10.1016/j.tsf.2021.138758
-      type: doi
-    date:
-    - type: published
-      at: '2021'
-- type: cites
-  bibitem:
-    title:
-    - content: Opt. Express
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/OE.27.024682
-    docidentifier:
-    - content: 10.1364/OE.27.024682
-      type: doi
-    date:
-    - type: published
-      at: '2019'
-- type: cites
-  bibitem:
-    title:
-    - content: Metrologia
-    source:
-    - type: doi
-      content: https://doi.org/10.1088/1681-7575/aba16b
-    docidentifier:
-    - content: 10.1088/1681-7575/aba16b
-      type: doi
-    date:
-    - type: published
-      at: '2020'
-- type: cites
-  bibitem:
-    title:
-    - content: Appl. Opt.
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/AO.396550
-    docidentifier:
-    - content: 10.1364/AO.396550
-      type: doi
-    date:
-    - type: published
-      at: '2020'
-- type: cites
-  bibitem:
-    title:
-    - content: Int. J. Precis. Eng. Manuf.
-    source:
-    - type: doi
-      content: https://doi.org/10.1007/s12541-019-00105-0
-    docidentifier:
-    - content: 10.1007/s12541-019-00105-0
-      type: doi
-    date:
-    - type: published
-      at: '2019'
-- type: cites
-  bibitem:
-    title:
-    - content: Opt. Express
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/OE.440507
-    docidentifier:
-    - content: 10.1364/OE.440507
-      type: doi
-    date:
-    - type: published
-      at: '2021'
-- type: cites
-  bibitem:
-    title:
-    - content: Appl. Opt.
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/AO.29.005069
-    docidentifier:
-    - content: 10.1364/AO.29.005069
-      type: doi
-    date:
-    - type: published
-      at: '1990'
-- type: cites
-  bibitem:
-    title:
-    - content: J. Electron. Mater.
-    source:
-    - type: doi
-      content: https://doi.org/10.1007/BF02666730
-    docidentifier:
-    - content: 10.1007/BF02666730
-      type: doi
-    date:
-    - type: published
-      at: '1996'
-- type: cites
-  bibitem:
-    title:
-    - content: Curr. Opt. Photonics
-    source:
-    - type: doi
-      content: https://doi.org/10.3807/COPP.2017.1.1.029
-    docidentifier:
-    - content: 10.3807/COPP.2017.1.1.029
-      type: doi
-    date:
-    - type: published
-      at: '2017'
-- type: cites
-  bibitem:
-    title:
-    - content: Appl. Opt.
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/AO.35.005035
-    docidentifier:
-    - content: 10.1364/AO.35.005035
-      type: doi
-    date:
-    - type: published
-      at: '1996'
-- type: cites
-  bibitem:
-    title:
-    - content: Thin Solid Films
-    source:
-    - type: doi
-      content: https://doi.org/10.1016/S0040-6090(00)00952-4
-    docidentifier:
-    - content: 10.1016/S0040-6090(00)00952-4
-      type: doi
-    date:
-    - type: published
-      at: '2000'
-- type: cites
-  bibitem:
-    title:
-    - content: J. Appl. Cryst.
-    source:
-    - type: doi
-      content: https://doi.org/10.1107/S1600576719013311
-    docidentifier:
-    - content: 10.1107/S1600576719013311
-      type: doi
-    date:
-    - type: published
-      at: '2019'
-- type: cites
-  bibitem:
-    title:
-    - content: Int. J. Precis. Eng. Manuf.
-    source:
-    - type: doi
-      content: https://doi.org/10.1007/s12541-019-00260-4
-    docidentifier:
-    - content: 10.1007/s12541-019-00260-4
-      type: doi
-    date:
-    - type: published
-      at: '2020'
-- type: cites
-  bibitem:
-    title:
-    - content: J. Korean Phys. Soc.
-    source:
-    - type: doi
-      content: https://doi.org/10.1007/s40042-022-00436-8
-    docidentifier:
-    - content: 10.1007/s40042-022-00436-8
-      type: doi
-    date:
-    - type: published
-      at: '2022'
-- type: cites
-  bibitem:
-    title:
-    - content: Sci. Rep.
-    source:
-    - type: doi
-      content: https://doi.org/10.1038/s41598-022-06247-y
-    docidentifier:
-    - content: 10.1038/s41598-022-06247-y
-      type: doi
-    date:
-    - type: published
-      at: '2022'
-- type: cites
-  bibitem:
-    title:
-    - content: 'Neural Networks and Deep Learning: A Textbook'
-    source:
-    - type: doi
-      content: https://doi.org/10.1007/978-3-319-94463-0
-    docidentifier:
-    - content: 10.1007/978-3-319-94463-0
-      type: doi
-    date:
-    - type: published
-      at: '2018'
-- type: cites
-  bibitem:
-    title:
-    - content: J. Opt. Soc. Am.
-    source:
-    - type: doi
-      content: https://doi.org/10.1364/JOSA.55.001205
-    docidentifier:
-    - content: 10.1364/JOSA.55.001205
-      type: doi
-    date:
-    - type: published
-      at: '1965'
-- type: cites
-  bibitem:
-    date:
-    - type: published
-      at: '2016'
-- type: cites
-  bibitem:
-    date:
-    - type: published
-      at: '2008'
 series:
 - title:
   - language: en

@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: A simple method for Bayesian uncertainty evaluation in linear models
+  content: '["A simple method for Bayesian uncertainty evaluation in linear models"]'
 source:
 - type: src
   content: https://doi.org/10.1088/1681-7575/aba3b8
@@ -31,7 +31,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Braunschweig and Berlin, Germany
+        - formatted_address: Braunschweig and Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 - role:
@@ -45,7 +45,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Braunschweig and Berlin, Germany
+        - formatted_address: Braunschweig and Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 - role:
@@ -59,16 +59,37 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: Braunschweig and Berlin, Germany
+        - formatted_address: Braunschweig and Berlin
         name:
         - content: Physikalisch-Technische Bundesanstalt
 abstract:
 - script: Latn
-  content: |2-
-
-    <title>Abstract</title>
-    <p>The Guide to the Expression of Uncertainty in Measurement (GUM) has led to a harmonization of uncertainty evaluation throughout metrology. The simplicity of its employed methodology has fostered the broad acceptance of the GUM among metrologists. However, this simplicity also compromises best practice and does not provide state-of-the-art data analysis. Specifically, metrologists often possess useful prior knowledge about the measurand which cannot be accounted for by the GUM. Bayesian uncertainty evaluation, on the other hand, takes prior knowledge about the measurand as its starting point. While this technique has been successfully applied in several instances in metrology, its broad access for metrologists is still lacking. One reason for this is that application of Bayesian methods and their computation, e.g. by means of Markov chain Monte Carlo (MCMC) methods, usually requires statistical skills.</p>
-    <p>In this work, we propose a simple method for Bayesian uncertainty evaluation applicable to measurement models that depend linearly on a single input quantity for which Type A information is available, and several input quantities for which Type B information is given. This category of measurement models covers many uncertainty evaluations in metrology. The approach utilizes a specific class of prior distributions to encode the prior information about the measurand. Explicit guidance is provided on how to choose the parameters of the prior in the light of one’s prior knowledge. MCMC methods are not required for the calculation of results; instead, a simple Monte Carlo procedure is developed that allows to draw uncorrelated samples from the posterior distribution, which greatly simplifies convergence assessments. The proposed Bayesian approach allows the treatment of small numbers of observations for a Type A uncertainty evaluation, including the case of only a single observation. Examples are provided that illustrate the proposed approach and corresponding open source Python software is made available.</p>
+  content: Abstract<p>The Guide to the Expression of Uncertainty in Measurement (GUM)
+    has led to a harmonization of uncertainty evaluation throughout metrology. The
+    simplicity of its employed methodology has fostered the broad acceptance of the
+    GUM among metrologists. However, this simplicity also compromises best practice
+    and does not provide state-of-the-art data analysis. Specifically, metrologists
+    often possess useful prior knowledge about the measurand which cannot be accounted
+    for by the GUM. Bayesian uncertainty evaluation, on the other hand, takes prior
+    knowledge about the measurand as its starting point. While this technique has
+    been successfully applied in several instances in metrology, its broad access
+    for metrologists is still lacking. One reason for this is that application of
+    Bayesian methods and their computation, e.g. by means of Markov chain Monte Carlo
+    (MCMC) methods, usually requires statistical skills.</p><p>In this work, we propose
+    a simple method for Bayesian uncertainty evaluation applicable to measurement
+    models that depend linearly on a single input quantity for which Type A information
+    is available, and several input quantities for which Type B information is given.
+    This category of measurement models covers many uncertainty evaluations in metrology.
+    The approach utilizes a specific class of prior distributions to encode the prior
+    information about the measurand. Explicit guidance is provided on how to choose
+    the parameters of the prior in the light of one’s prior knowledge. MCMC methods
+    are not required for the calculation of results; instead, a simple Monte Carlo
+    procedure is developed that allows to draw uncorrelated samples from the posterior
+    distribution, which greatly simplifies convergence assessments. The proposed Bayesian
+    approach allows the treatment of small numbers of observations for a Type A uncertainty
+    evaluation, including the case of only a single observation. Examples are provided
+    that illustrate the proposed approach and corresponding open source Python software
+    is made available.</p>
 copyright:
 - from: '2020'
   owner:
@@ -85,12 +106,9 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 57 6 065010
-    docidentifier:
-    - content: Metrologia 57 6 065010
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A simple method for Bayesian uncertainty evaluation in linear models"]'
     date:
     - type: ppub
       at: '2020-12-01'
@@ -98,12 +116,9 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 57 6 065010
-    docidentifier:
-    - content: Metrologia 57 6 065010
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["A simple method for Bayesian uncertainty evaluation in linear models"]'
     date:
     - type: epub
       at: '2020-10-21'

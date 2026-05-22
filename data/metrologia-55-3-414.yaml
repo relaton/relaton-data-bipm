@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: article
 title:
 - script: Latn
-  content: 'Sensitivity analysis in practice: providing an uncertainty budget when
-    applying supplement 1 to the GUM'
+  content: '["Sensitivity analysis in practice: providing an uncertainty budget when
+    applying supplement 1 to the GUM"]'
 source:
 - type: src
   content: https://doi.org/10.1088/1681-7575/aabd55
@@ -32,7 +32,7 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
 - role:
@@ -46,14 +46,26 @@ contributor:
     affiliation:
     - organization:
         address:
-        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15, France
+        - formatted_address: 1, rue Gaston Boissier, 75724 Paris Cedex 15
         name:
         - content: Laboratoire National de Métrologie et d’Essais (LNE)
 abstract:
 - script: Latn
-  content: |-
-    <title>Abstract</title>
-    <p>Sensitivity analysis associated with the evaluation of measurement uncertainty is a very important tool for the metrologist, enabling them to provide an uncertainty budget and to gain a better understanding of the measurand and the underlying measurement process. Using the GUM uncertainty framework, the contribution of an input quantity to the variance of the output quantity is obtained through so-called ‘sensitivity coefficients’. In contrast, such coefficients are no longer computed in cases where a Monte-Carlo method is used. In such a case, supplement 1 to the GUM suggests varying the input quantities one at a time, which is not an efficient method and may provide incorrect contributions to the variance in cases where significant interactions arise. This paper proposes different methods for the elaboration of the uncertainty budget associated with a Monte Carlo method. An application to the mass calibration example described in supplement 1 to the GUM is performed with the corresponding R code for implementation. Finally, guidance is given for choosing a method, including suggestions for a future revision of supplement 1 to the GUM.</p>
+  content: Abstract<p>Sensitivity analysis associated with the evaluation of measurement
+    uncertainty is a very important tool for the metrologist, enabling them to provide
+    an uncertainty budget and to gain a better understanding of the measurand and
+    the underlying measurement process. Using the GUM uncertainty framework, the contribution
+    of an input quantity to the variance of the output quantity is obtained through
+    so-called ‘sensitivity coefficients’. In contrast, such coefficients are no longer
+    computed in cases where a Monte-Carlo method is used. In such a case, supplement
+    1 to the GUM suggests varying the input quantities one at a time, which is not
+    an efficient method and may provide incorrect contributions to the variance in
+    cases where significant interactions arise. This paper proposes different methods
+    for the elaboration of the uncertainty budget associated with a Monte Carlo method.
+    An application to the mass calibration example described in supplement 1 to the
+    GUM is performed with the corresponding R code for implementation. Finally, guidance
+    is given for choosing a method, including suggestions for a future revision of
+    supplement 1 to the GUM.</p>
 copyright:
 - from: '2018'
   owner:
@@ -70,12 +82,10 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 55 3 414
-    docidentifier:
-    - content: Metrologia 55 3 414
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Sensitivity analysis in practice: providing an uncertainty budget
+        when applying supplement 1 to the GUM"]'
     date:
     - type: ppub
       at: '2018-06-01'
@@ -83,12 +93,10 @@ relation:
       carrier: print
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 55 3 414
-    docidentifier:
-    - content: Metrologia 55 3 414
-      type: BIPM
-      primary: true
+    title:
+    - script: Latn
+      content: '["Sensitivity analysis in practice: providing an uncertainty budget
+        when applying supplement 1 to the GUM"]'
     date:
     - type: epub
       at: '2018-05-09'

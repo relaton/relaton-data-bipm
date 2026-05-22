@@ -5,7 +5,7 @@ type: article
 title:
 - language: en
   script: Latn
-  content: Copulas for uncertainty analysis
+  content: '["Copulas for uncertainty analysis"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/47/3/017
@@ -32,15 +32,24 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Statistical Engineering Division, Information Technology Laboratory,
-            National Institute of Standards and Technology, US Department of Commerce,
-            Gaithersburg, MD, USA
+        - content: Statistical Engineering Division
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>Applying the Monte Carlo method for propagation of measurement uncertainty described in the Supplement 1 to the <italic>Guide to the Expression of Uncertainty in Measurement</italic> (GUM), when the input quantities are correlated, involves the specification of a joint probability distribution for these quantities. This applies equally whether the output quantity is a scalar or a vector.</p>
-    <p>In practice, however, all that typically is available are probability distributions for the individual input quantities (their <italic>marginal</italic> distributions) and estimates of the correlations between them. Even though there are infinitely many joint distributions that are consistent with given marginal distributions and correlations, a method is needed to manufacture a particular one that may reasonably be used in practice. This paper explains how <italic>copulas</italic> may be used to this effect, illustrates their use in examples, including example H.2 from the GUM, discusses the choice of copula and provides an algorithm to delineate minimum volume coverage regions for vectorial measurands.</p>
+  content: "<p>Applying the Monte Carlo method for propagation of measurement uncertainty
+    described in the Supplement 1 to the Guide to the Expression of Uncertainty in
+    Measurement (GUM), when the input quantities are correlated, involves the specification
+    of a joint probability distribution for these quantities. This applies equally
+    whether the output quantity is a scalar or a vector.</p><p>In practice, however,
+    all that typically is available are probability distributions for the individual
+    input quantities (their marginal distributions) and estimates of the correlations
+    between them. Even though there are infinitely many joint distributions that are
+    consistent with given marginal distributions and correlations, a method is needed
+    to manufacture a particular one that may reasonably be used in practice. This
+    paper explains how copulas may be used to this effect, illustrates their use in
+    examples, including example H.2 from the GUM, discusses the choice of copula and
+    provides an algorithm to delineate minimum volume coverage regions for vectorial
+    measurands.</p>"
 copyright:
 - from: '2010'
   owner:
@@ -57,30 +66,26 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 47 3 262
-    docidentifier:
-    - content: Metrologia 47 3 262
-      type: BIPM
-      primary: true
-    date:
-    - type: epub
-      at: '2010-04-20'
-    medium:
-      carrier: online
-- type: hasManifestation
-  bibitem:
-    formattedref:
-      content: Metrologia 47 3 262
-    docidentifier:
-    - content: Metrologia 47 3 262
-      type: BIPM
-      primary: true
+    title:
+    - language: en
+      script: Latn
+      content: '["Copulas for uncertainty analysis"]'
     date:
     - type: ppub
       at: '2010-06-01'
     medium:
       carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: '["Copulas for uncertainty analysis"]'
+    date:
+    - type: epub
+      at: '2010-04-20'
+    medium:
+      carrier: online
 series:
 - title:
   - language: en

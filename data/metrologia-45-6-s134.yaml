@@ -5,8 +5,8 @@ type: article
 title:
 - language: en
   script: Latn
-  content: Estimating the Allan variance in the presence of long periods of missing
-    data and outliers
+  content: '["Estimating the Allan variance in the presence of long periods of missing
+    data and outliers"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/45/6/S19
@@ -33,7 +33,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: INRIM, Strada della Cacce 91, 10135 Torino, Italy
+        - content: INRIM
 - role:
   - type: author
   person:
@@ -45,14 +45,26 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: INRIM, Strada della Cacce 91, 10135 Torino, Italy
+        - content: INRIM
 abstract:
 - language: en
   script: Latn
-  content: |-
-    <p>The ability of the Allan variance (AVAR) to identify and estimate the typical clock noise is widely accepted, and its use is recommended by international standards. Recently, a time-varying version called Dynamic Allan variance (DAVAR) was suggested and exploited.</p>
-    <p>Currently, the AVAR is commonly used in applications to space and satellite systems, in particular in monitoring the clocks of the Global Positioning System, and also in the framework of the European project Galileo. In these applications stability estimation, either AVAR or DAVAR (or other similar variances), presents some peculiar aspects which are not commonly encountered when the clock data are measured in a laboratory. In particular, data from space clocks may typically present outliers and missing values. Hence, special attention has to be paid when dealing with such experimental measurements.</p>
-    <p>In this work we propose an estimation algorithm and its implementation in a robust software code (in MATLAB® language) able to estimate the AVAR in the case of missing data, unequally spaced data, outliers, and with long periods of missing observation, so that the Allan variance estimates turn out unbiased and with the maximum use of all the available data.</p>
+  content: "<p>The ability of the Allan variance (AVAR) to identify and estimate the
+    typical clock noise is widely accepted, and its use is recommended by international
+    standards. Recently, a time-varying version called Dynamic Allan variance (DAVAR)
+    was suggested and exploited.</p><p>Currently, the AVAR is commonly used in applications
+    to space and satellite systems, in particular in monitoring the clocks of the
+    Global Positioning System, and also in the framework of the European project Galileo.
+    In these applications stability estimation, either AVAR or DAVAR (or other similar
+    variances), presents some peculiar aspects which are not commonly encountered
+    when the clock data are measured in a laboratory. In particular, data from space
+    clocks may typically present outliers and missing values. Hence, special attention
+    has to be paid when dealing with such experimental measurements.</p><p>In this
+    work we propose an estimation algorithm and its implementation in a robust software
+    code (in MATLAB® language) able to estimate the AVAR in the case of missing data,
+    unequally spaced data, outliers, and with long periods of missing observation,
+    so that the Allan variance estimates turn out unbiased and with the maximum use
+    of all the available data.</p>"
 copyright:
 - from: '2008'
   owner:
@@ -64,30 +76,28 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 45 6 S134
-    docidentifier:
-    - content: Metrologia 45 6 S134
-      type: BIPM
-      primary: true
-    date:
-    - type: epub
-      at: '2008-12-05'
-    medium:
-      carrier: online
-- type: hasManifestation
-  bibitem:
-    formattedref:
-      content: Metrologia 45 6 S134
-    docidentifier:
-    - content: Metrologia 45 6 S134
-      type: BIPM
-      primary: true
+    title:
+    - language: en
+      script: Latn
+      content: '["Estimating the Allan variance in the presence of long periods of
+        missing data and outliers"]'
     date:
     - type: ppub
       at: '2008-12-01'
     medium:
       carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: '["Estimating the Allan variance in the presence of long periods of
+        missing data and outliers"]'
+    date:
+    - type: epub
+      at: '2008-12-05'
+    medium:
+      carrier: online
 series:
 - title:
   - language: en

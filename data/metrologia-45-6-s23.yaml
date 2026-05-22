@@ -5,7 +5,7 @@ type: article
 title:
 - language: en
   script: Latn
-  content: Realizing UTC(NIST) at a remote location
+  content: '["Realizing UTC(NIST) at a remote location"]'
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/45/6/S04
@@ -32,8 +32,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Time and Frequency Division, National Institute of Standards and
-            Technology, Boulder, CO 80305, USA
+        - content: Time and Frequency Division
 abstract:
 - language: en
   script: Latn
@@ -45,16 +44,16 @@ abstract:
     any reason. The backup time has a number of unique problems and requirements,
     and I will discuss the design considerations that I used to address these issues.
     The backup scale tracks UTC(NIST) in frequency with an uncertainty (measured by
-    the Allan deviation of the difference) of about 1 × 10<sup>−14</sup> by use of
-    administrative steering that is applied not more often than once per week. The
-    corresponding time deviation is less than 1 ns for all averaging times less than
-    1 week, and the peak time difference between UTC(NIST) and its backup realization
-    is less than ±25 ns and is generally much better than this value. This is much
-    better than would be needed for supporting the radio stations, the digital time
-    services (ACTS, a time service that provides time in a digital format using dial-up
-    telephone lines, and the Internet services) and the Frequency Measurement Service.
-    Its frequency stability and time accuracy would not be adequate for the most demanding
-    users of the Global Time Service and for international time and frequency coordination.
+    the Allan deviation of the difference) of about 1 × 10−14 by use of administrative
+    steering that is applied not more often than once per week. The corresponding
+    time deviation is less than 1 ns for all averaging times less than 1 week, and
+    the peak time difference between UTC(NIST) and its backup realization is less
+    than ±25 ns and is generally much better than this value. This is much better
+    than would be needed for supporting the radio stations, the digital time services
+    (ACTS, a time service that provides time in a digital format using dial-up telephone
+    lines, and the Internet services) and the Frequency Measurement Service. Its frequency
+    stability and time accuracy would not be adequate for the most demanding users
+    of the Global Time Service and for international time and frequency coordination.
     The primary limitations to the performance of the backup time scale are caused
     by environmental perturbations, especially temperature and supply voltage, and
     the existing hardware could probably support all of the NIST services if the environment
@@ -70,30 +69,26 @@ copyright:
 relation:
 - type: hasManifestation
   bibitem:
-    formattedref:
-      content: Metrologia 45 6 S23
-    docidentifier:
-    - content: Metrologia 45 6 S23
-      type: BIPM
-      primary: true
-    date:
-    - type: epub
-      at: '2008-12-05'
-    medium:
-      carrier: online
-- type: hasManifestation
-  bibitem:
-    formattedref:
-      content: Metrologia 45 6 S23
-    docidentifier:
-    - content: Metrologia 45 6 S23
-      type: BIPM
-      primary: true
+    title:
+    - language: en
+      script: Latn
+      content: '["Realizing UTC(NIST) at a remote location"]'
     date:
     - type: ppub
       at: '2008-12-01'
     medium:
       carrier: print
+- type: hasManifestation
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: '["Realizing UTC(NIST) at a remote location"]'
+    date:
+    - type: epub
+      at: '2008-12-05'
+    medium:
+      carrier: online
 series:
 - title:
   - language: en

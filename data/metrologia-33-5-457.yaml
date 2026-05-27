@@ -5,7 +5,7 @@ type: article
 title:
 - language: en
   script: Latn
-  content: '["Noise analysis of unevenly spaced time series data"]'
+  content: Noise analysis of unevenly spaced time series data
 source:
 - type: src
   content: https://doi.org/10.1088/0026-1394/33/5/4
@@ -51,20 +51,21 @@ abstract:
   content: "<p>Two-way satellite time and frequency transfer (TWSTFT) data are typically
     recorded on Monday, Wednesday and Friday. This produces an unevenly spaced time
     series on which it is difficult to perform an accurate two-sample variance analysis.
-    We have investigated the effect of uneven data spacing on the computation of σ(τ)
+    We have investigated the effect of uneven data spacing on the computation of σ<sub/>(τ)
     [1-2]. Evenly spaced simulated data sets were generated for noise processes ranging
-    from white phase modulation to random walk frequency modulation. σ(τ) was then
-    calculated for each noise type. Data were subsequently removed from each simulated
-    data set to create two unevenly spaced sets with average intervals of 2,8 and
-    3,6 days. These sparse sets correspond to typical TWSTFT data patterns. σ(τ) was
-    then calculated for each sparse data set using two different approaches. First,
-    the missing data points were replaced by linear interpolation and σ(τ) calculated
-    from this now full data set. The second approach ignored the fact that the data
-    were unevenly spaced and calculated σ(τ) as if the data were equally spaced with
-    average spacing of 2,8 or 3,6 days. The impact of uneven data spacing on the results
-    of these two approaches is significant and is discussed. Finally, techniques are
-    presented for correcting errors caused by uneven data spacing in simulated TWSTFT
-    data sets, and the appropriate technique is applied to a real data set.</p>"
+    from white phase modulation to random walk frequency modulation. σ<sub/>(τ) was
+    then calculated for each noise type. Data were subsequently removed from each
+    simulated data set to create two unevenly spaced sets with average intervals of
+    2,8 and 3,6 days. These sparse sets correspond to typical TWSTFT data patterns.
+    σ<sub/>(τ) was then calculated for each sparse data set using two different approaches.
+    First, the missing data points were replaced by linear interpolation and σ<sub/>(τ)
+    calculated from this now full data set. The second approach ignored the fact that
+    the data were unevenly spaced and calculated σ<sub/>(τ) as if the data were equally
+    spaced with average spacing of 2,8 or 3,6 days. The impact of uneven data spacing
+    on the results of these two approaches is significant and is discussed. Finally,
+    techniques are presented for correcting errors caused by uneven data spacing in
+    simulated TWSTFT data sets, and the appropriate technique is applied to a real
+    data set.</p>"
 copyright:
 - from: '1996'
   owner:
@@ -79,7 +80,7 @@ relation:
     title:
     - language: en
       script: Latn
-      content: '["Noise analysis of unevenly spaced time series data"]'
+      content: Noise analysis of unevenly spaced time series data
     date:
     - type: ppub
       at: '1996-10-01'

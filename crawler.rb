@@ -77,7 +77,7 @@ Relaton::Bipm::DataFetcher.fetch 'bipm-data-outcomes'
 Relaton::Bipm::DataFetcher.fetch 'bipm-si-brochure'
 Relaton::Bipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 
-index_file = Relaton::Bipm::INDEXFILE
+index_file = "#{Relaton::Bipm::INDEXFILE}.yaml"
 index = Relaton::Index.find_or_create :bipm, file: index_file
 Dir["static/**/*.yaml"].each do |f|
   doc = YAML.load_file f

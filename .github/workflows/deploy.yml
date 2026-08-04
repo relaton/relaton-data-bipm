@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    # Include v2: many relaton-data-* repos moved their default branch to v2.
+    # The reusable data-deploy.yml still gates publication on the repo's actual
+    # default branch, so listing all three here is safe for main/master repos.
+    branches: [ master, main, v2 ]
+    tags: [ v* ]
+  pull_request:
+  schedule:
+  - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: relaton/support/.github/workflows/data-deploy.yml@main

@@ -15,3 +15,10 @@ on:
 jobs:
   deploy:
     uses: relaton/support/.github/workflows/data-deploy.yml@main
+    with:
+      # Pilot the relaton-cli index build from GitHub `main`. The default
+      # `gem` source installs the latest stable relaton-cli (2.1.x), which
+      # predates the `index` command; `git` builds relaton + relaton-cli
+      # from source (compiling the frontend). Switch back to the default
+      # once a stable relaton-cli with `index` is released.
+      source: git

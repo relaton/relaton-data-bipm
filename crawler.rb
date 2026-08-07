@@ -2,6 +2,7 @@
 
 require 'bundler'
 require 'relaton/bipm/data_fetcher'
+require_relative 'index_builder'
 
 relaton_ci_pat = ARGV.shift
 
@@ -72,17 +73,20 @@ Bundler.with_unbundled_env do
   fast_fail_system('ls', chdir: 'bipm-si-brochure/_site/documents')
 end
 
-# Run converters
+# Run converters. Each fetch builds the pubid-backed index-v2 for its source,
+# populating the pooled :bipm index.
 Relaton::Bipm::DataFetcher.fetch 'bipm-data-outcomes'
 Relaton::Bipm::DataFetcher.fetch 'bipm-si-brochure'
 Relaton::Bipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
 
-index_file = "#{Relaton::Bipm::INDEXFILE}.yaml"
-index = Relaton::Index.find_or_create :bipm, file: index_file
-Dir["static/**/*.yaml"].each do |f|
-  doc = YAML.load_file f
-  id = doc["docidentifier"][0]["content"]
-  pubid = Relaton::Bipm::Id.new.parse id
-  index.add_or_update pubid.to_hash, f
-end
-index.save
+# index-v2 (pubid, the runtime index): append the curated static/ docs through
+# the same guarded DataFetcher#add_to_index path the fetches use, then save the
+# complete pooled index. A new fetcher instance shares the pooled :bipm index.
+fetcher = Relaton::Bipm::DataFetcher.new 'data', 'yaml'
+BipmIndexBuilder.add_static_to_index_v2 fetcher
+fetcher.index.save
+
+# index-v1 (legacy bespoke {group,type,number,year}): rebuilt over every data/ +
+# static/ record with the retained Relaton::Bipm::Id parser, for backward-
+# compatible consumers still reading the old index format.
+BipmIndexBuilder.build_index_v1

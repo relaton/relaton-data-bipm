@@ -5,3 +5,26 @@ Those datasets shoudl be places in `bipm-data-outcomes` and `bipm-si-brochure` d
 This repository is used by Relaton-BIPM to represent known BIPM publications.
 
 Data is stored in Relaton YAML format.
+
+== Indexes
+
+`crawler.rb` publishes two indexes (both zipped and committed by CI):
+
+* `index-v2` — the pubid-backed runtime index (`_type: pubid:bipm:*`) that
+  `Relaton::Bipm` consumes. Built by `Relaton::Bipm::DataFetcher`; the curated
+  `static/` docs are appended via `BipmIndexBuilder.add_static_to_index_v2`.
+* `index-v1` — the legacy bespoke `{group,type,number,year}` hash index, kept
+  for backward-compatible consumers. Built by `BipmIndexBuilder.build_index_v1`
+  over every `data/` and `static/` record using the retained `Relaton::Bipm::Id`
+  parser.
+
+Both builders warn-and-skip an identifier their parser can't handle rather than
+aborting the crawl.
+
+== Tests
+
+[source,sh]
+----
+bundle install
+bundle exec rspec
+----

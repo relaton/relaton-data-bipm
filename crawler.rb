@@ -6,9 +6,11 @@ require_relative 'index_builder'
 
 relaton_ci_pat = ARGV.shift
 
-# Remoeve old files
+# Remoeve old files. Match only the generated `index-*` outputs (index-v1.yaml,
+# index-v2.yaml, index-v1.zip) — NOT the `index_builder.rb` source this crawler
+# requires, which a bare `index*` glob would delete out from under the next run.
 FileUtils.rm_rf('data')
-FileUtils.rm Dir.glob('index*')
+FileUtils.rm Dir.glob('index-*')
 
 def fast_fail_system(command, **options)
   unless system(command, **options)
@@ -19,9 +21,9 @@ def fast_fail_system(command, **options)
 end
 
 # Clone repositories
-fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
-fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
-fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
+# fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
+# fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
+# fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
 
 # Workaround: only RXL is consumed downstream by SiBrochureParser. Full-format
 # builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit, especially

@@ -12,18 +12,31 @@ relaton_ci_pat = ARGV.shift
 FileUtils.rm_rf('data')
 FileUtils.rm Dir.glob('index-*')
 
-def fast_fail_system(command, **options)
+# `label:` replaces the command in the failure message, for commands whose text
+# embeds a credential (see the metrologia clone below).
+def fast_fail_system(command, label: nil, **options)
   unless system(command, **options)
     exit_status = $?.exitstatus || 1 # exit fails if $?.exitstatus is nil
-    puts "Command '#{command}' failed with exit code #{exit_status}"
+    puts "Command '#{label || command}' failed with exit code #{exit_status}"
     exit exit_status
   end
 end
 
-# Clone repositories
-# fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes')
-# fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure')
-# fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia")
+# Clone repositories. These three checkouts are gitignored, so CI always starts
+# without them and everything below (metanorma.yml, the site build, the three
+# DataFetcher.fetch calls) needs them cloned. Never comment these out: that
+# shipped once in 26822298ff and the crawl died 41s in on a missing
+# `bipm-si-brochure/metanorma.yml`. The `unless Dir.exist?` guards are what make
+# that shortcut unnecessary — a bare re-clone over an existing checkout exits
+# 128, so a local rerun reuses the checkout instead of fast-failing. Delete a
+# directory to force a fresh clone. spec/crawler_sources_spec.rb guards all this.
+fast_fail_system('git clone https://github.com/metanorma/bipm-data-outcomes bipm-data-outcomes') unless Dir.exist?('bipm-data-outcomes')
+fast_fail_system('git clone https://github.com/metanorma/bipm-si-brochure bipm-si-brochure') unless Dir.exist?('bipm-si-brochure')
+# `label:` keeps RELATON_CI_PAT out of the failure message on a failed clone.
+unless Dir.exist?('rawdata-bipm-metrologia')
+  fast_fail_system("git clone -b 2023-04-23 https://#{relaton_ci_pat}@github.com/relaton/rawdata-bipm-metrologia rawdata-bipm-metrologia",
+                   label: 'git clone rawdata-bipm-metrologia')
+end
 
 # Workaround: only RXL is consumed downstream by SiBrochureParser. Full-format
 # builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit, especially

@@ -2,6 +2,11 @@
 
 The data sources are https://github.com/metanorma/bipm-data-outcomes and https://github.com/metanorma/bipm-si-brochure.
 Those datasets shoudl be places in `bipm-data-outcomes` and `bipm-si-brochure` directiries respectively.
+`crawler.rb` clones them itself (along with `rawdata-bipm-metrologia`), skipping any
+directory that is already present, so reruns work against an existing local checkout;
+delete a directory to force a fresh clone. Do not commit a crawler with those clones
+disabled — CI starts from a bare checkout and fails immediately without them
+(`spec/crawler_sources_spec.rb` guards this).
 This repository is used by Relaton-BIPM to represent known BIPM publications.
 
 Data is stored in Relaton YAML format.

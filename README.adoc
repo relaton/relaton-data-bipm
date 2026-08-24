@@ -26,6 +26,29 @@ Data is stored in Relaton YAML format.
 Both builders warn-and-skip an identifier their parser can't handle rather than
 aborting the crawl.
 
+=== Rebuilding index-v2 without a crawl
+
+`crawler.rb` stays the source of truth for `data/`, but it needs
+`RELATON_CI_PAT` and hours of metanorma builds, so it only runs in CI. When the
+records are already current and only `index-v2` must be rewritten — after a
+`Pubid::Bipm` change that alters the serialized rows — rebuild it from the
+committed records alone:
+
+[source,sh]
+----
+bundle exec ruby rebuild_index.rb
+----
+
+It rewrites `index-v2.yaml` and `index-v2.zip`, then prints the `number`
+coverage per identifier type. `index-v1` is left alone: it is built with the
+bespoke `Relaton::Bipm::Id`, so a pubid change cannot affect it.
+
+`Relaton::Index` narrows a lookup by binary-searching the index on the
+identifier's `number`, so a row without one keys to the empty string. Exactly
+seven rows are number-less by design — the six ordinal-less committee
+declarations (`data/**/[year]-00.yaml`) and the journal-level
+`data/metrologia.yaml`. `spec/index_coverage_spec.rb` holds that line.
+
 == Tests
 
 [source,sh]

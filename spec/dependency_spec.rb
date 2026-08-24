@@ -19,4 +19,19 @@ RSpec.describe "Pubid::Bipm availability" do
     id = Pubid::Bipm.parse("CCTF 14th Meeting (1999)")
     expect(id).to be_a(Pubid::Bipm::Identifier)
   end
+
+  # The BIPM index `number` change (metanorma/pubid, branch
+  # `feat/bipm-index-number-and-mr`) derives a `number` for the families that
+  # never set one, so `index-v2` rows stop sharing the empty binary-search key.
+  # `Metrologia` keys on the volume, deliberately clustering all articles of one
+  # volume into a single bucket. Skipped while the resolved pubid predates the
+  # change, so CI stays green until the pin catches up.
+  it "derives an index number for a Metrologia article" do
+    number = Pubid::Bipm.parse("Metrologia 55 1A 06007").number
+    if number.to_s.empty?
+      skip "resolved pubid predates the BIPM index `number` change " \
+           "(metanorma/pubid, branch `feat/bipm-index-number-and-mr`)"
+    end
+    expect(number).to eq("55")
+  end
 end

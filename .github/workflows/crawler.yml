@@ -2,7 +2,10 @@ name: Crawler
 
 on:
   push:
-    branches: [ master, main ]
+    # Include v2: this repo's working branch is v2, and without it a push to v2
+    # never rebuilds data/ or the two indexes. The cron below still fires only
+    # on the repository's default branch, which GitHub fixes for a schedule.
+    branches: [ master, main, v2 ]
     tags: [ v* ]
   pull_request:
   schedule:

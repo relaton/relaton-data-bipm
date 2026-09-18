@@ -1,4 +1,3 @@
----
 id: Metrologia526878
 schema_version: v1.5.6
 type: article
@@ -92,31 +91,7 @@ contributor:
         - content: Physikalisch-Technische Bundesanstalt
 abstract:
 - script: Latn
-  content: Abstract<p>Regression is a common task in metrology and often applied to
-    calibrate instruments, evaluate inter-laboratory comparisons or determine fundamental
-    constants, for example. Yet, a regression model cannot be uniquely formulated
-    as a measurement function, and consequently the <em>Guide to the Expression of
-    Uncertainty in Measurement</em> (GUM) and its supplements are not applicable directly.
-    Bayesian inference, however, is well suited to regression tasks, and has the advantage
-    of accounting for additional <em>a priori</em> information, which typically robustifies
-    analyses. Furthermore, it is anticipated that future revisions of the GUM shall
-    also embrace the Bayesian view.</p><p>Guidance on Bayesian inference for regression
-    tasks is largely lacking in metrology. For linear regression models with Gaussian
-    measurement errors this tutorial gives explicit guidance. Divided into three steps,
-    the tutorial first illustrates how <em>a priori</em> knowledge, which is available
-    from previous experiments, can be translated into prior distributions from a specific
-    class. These prior distributions have the advantage of yielding analytical, closed
-    form results, thus avoiding the need to apply numerical methods such as Markov
-    Chain Monte Carlo. Secondly, formulas for the posterior results are given, explained
-    and illustrated, and software implementations are provided. In the third step,
-    Bayesian tools are used to assess the assumptions behind the suggested approach.</p><p>These
-    three steps (prior elicitation, posterior calculation, and robustness to prior
-    uncertainty and model adequacy) are critical to Bayesian inference. The general
-    guidance given here for Normal linear regression tasks is accompanied by a simple,
-    but real-world, metrological example. The calibration of a flow device serves
-    as a running example and illustrates the three steps. It is shown that prior knowledge
-    from previous calibrations of the same sonic nozzle enables robust predictions
-    even for extrapolations.</p>
+  content: Abstract<p>Regression is a common task in metrology and often applied to calibrate instruments, evaluate inter-laboratory comparisons or determine fundamental constants, for example. Yet, a regression model cannot be uniquely formulated as a measurement function, and consequently the <em>Guide to the Expression of Uncertainty in Measurement</em> (GUM) and its supplements are not applicable directly. Bayesian inference, however, is well suited to regression tasks, and has the advantage of accounting for additional <em>a priori</em> information, which typically robustifies analyses. Furthermore, it is anticipated that future revisions of the GUM shall also embrace the Bayesian view.</p><p>Guidance on Bayesian inference for regression tasks is largely lacking in metrology. For linear regression models with Gaussian measurement errors this tutorial gives explicit guidance. Divided into three steps, the tutorial first illustrates how <em>a priori</em> knowledge, which is available from previous experiments, can be translated into prior distributions from a specific class. These prior distributions have the advantage of yielding analytical, closed form results, thus avoiding the need to apply numerical methods such as Markov Chain Monte Carlo. Secondly, formulas for the posterior results are given, explained and illustrated, and software implementations are provided. In the third step, Bayesian tools are used to assess the assumptions behind the suggested approach.</p><p>These three steps (prior elicitation, posterior calculation, and robustness to prior uncertainty and model adequacy) are critical to Bayesian inference. The general guidance given here for Normal linear regression tasks is accompanied by a simple, but real-world, metrological example. The calibration of a flow device serves as a running example and illustrates the three steps. It is shown that prior knowledge from previous calibrations of the same sonic nozzle enables robust predictions even for extrapolations.</p>
 copyright:
 - from: '2015'
   owner:

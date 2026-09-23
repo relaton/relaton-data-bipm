@@ -115,24 +115,51 @@ module BipmIndexBuilder
     false
   end
 
-  # Build the legacy bespoke index-v1 over every data/ and static/ record. Keyed
-  # on the primary docidentifier content (the form the bespoke Id grammar
-  # expects), falling back to docnumber. A separate :bipm_v1 index pool keeps
-  # these plain hashes out of the pubid-typed :bipm (index-v2) pool.
+  # Build the legacy bespoke index-v1 over every data/ and static/ record, keyed
+  # on the first candidate of #index_v1_candidates that the bespoke Id grammar
+  # accepts. A separate :bipm_v1 index pool keeps these plain hashes out of the
+  # pubid-typed :bipm (index-v2) pool.
   def build_index_v1(file: "index-v1.yaml", globs: ["data/**/*.yaml", "static/**/*.yaml"])
+    # Start from scratch, as #build_index_v2 does: the pooled :bipm_v1 index and
+    # the existing file both carry the rows of an earlier build.
+    FileUtils.rm_f file
+    Relaton::Index.close :bipm_v1
     index = Relaton::Index.find_or_create :bipm_v1, file: file
     globs.flat_map { |g| Dir[g] }.sort.each do |f|
       doc = YAML.load_file f
-      id = doc.dig("docidentifier", 0, "content") || doc["docnumber"]
-      next unless id
+      candidates = index_v1_candidates doc
+      next if candidates.empty?
 
-      begin
-        index.add_or_update Relaton::Bipm::Id.new.parse(id).to_hash, f
-      rescue Relaton::RequestError => e
-        warn "index-v1: skipping `#{id}` (#{f}): #{e.message}"
+      key = index_v1_key candidates
+      if key
+        index.add_or_update key, f
+      else
+        warn "index-v1: skipping `#{candidates.first}` (#{f}): no candidate parses"
       end
     end
     index.save
     index
+  end
+
+  # The ids to try for one record, in order. The first docidentifier comes
+  # first, so every record it already keyed keeps its key. Then every BIPM
+  # docidentifier and the docnumber, each also without a leading "BIPM " (as
+  # Bibliography.search strips it) - the SI Brochure's first docidentifier is
+  # "BIPM SI Brochure sur le SI …", which the Id grammar rejects.
+  def index_v1_candidates(doc)
+    ids = (doc["docidentifier"] || []).select { |di| di["type"] == "BIPM" }.map { |di| di["content"] }
+    ids.unshift doc.dig("docidentifier", 0, "content")
+    ids << doc["docnumber"]
+    ids.grep(String).flat_map { |id| [id, id.sub(/\ABIPM\s/, "")] }.uniq
+  end
+
+  # The bespoke Id hash of the first candidate that parses, or nil.
+  def index_v1_key(candidates)
+    candidates.each do |id|
+      return Relaton::Bipm::Id.new.parse(id).to_hash
+    rescue Relaton::RequestError
+      next
+    end
+    nil
   end
 end

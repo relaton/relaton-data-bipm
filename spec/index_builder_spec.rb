@@ -64,6 +64,27 @@ RSpec.describe BipmIndexBuilder do
         expect(rows.first[:file]).to eq("data/cctf/meeting/14.yaml")
       end
     end
+
+    # The Id grammar rejects the SI Brochure's first docidentifier, with or
+    # without its "BIPM " prefix. The key comes from the English docidentifier
+    # once that prefix is removed (as Bibliography.search removes it).
+    it "keys the SI Brochure off a later candidate when its first docidentifier fails" do
+      in_workdir("data/si-brochure.yaml" => si_brochure) do
+        described_class.build_index_v1
+        rows = YAML.load_file("index-v1.yaml")
+        expect(rows).to eq([{ id: { group: "SI", type: "Brochure" }, file: "data/si-brochure.yaml" }])
+      end
+    end
+
+    # Relaton::Index pools the :bipm_v1 index by file name, so without a reset a
+    # second build in the same process inherits the rows of the first.
+    it "does not carry rows over from an earlier build in the same process" do
+      in_workdir("data/si-brochure.yaml" => si_brochure) { described_class.build_index_v1 }
+      in_workdir("data/cctf/meeting/14.yaml" => cctf) do
+        described_class.build_index_v1
+        expect(YAML.load_file("index-v1.yaml").map { |r| r[:file] }).to eq(["data/cctf/meeting/14.yaml"])
+      end
+    end
   end
 
   describe ".add_static_to_index_v2" do

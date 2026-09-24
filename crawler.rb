@@ -38,6 +38,17 @@ unless Dir.exist?('rawdata-bipm-metrologia')
                    label: 'git clone rawdata-bipm-metrologia')
 end
 
+# Temporary: metanorma 2.5.5 (published 2026-09-22) calls
+# Metanorma::Core::Flavors, a constant no released metanorma-core
+# (<= 0.2.3) defines, so `bundle update` below breaks the RXL build with
+# `uninitialized constant Metanorma::Core::Flavors`. Pin below the broken
+# release until upstream ships a fix. Remove once a working
+# metanorma/metanorma-core pair is published (or that constant lands).
+# Reported: https://github.com/metanorma/metanorma/issues/606
+File.open('bipm-si-brochure/Gemfile', 'a') do |f|
+  f.puts "\ngem 'metanorma', '< 2.5.5'"
+end
+
 # Workaround: only RXL is consumed downstream by SiBrochureParser. Full-format
 # builds (HTML+PDF+XML+RXL) blow past GitHub Actions' 6h job limit, especially
 # after a recent mn2pdf/metanorma-bipm slowdown raised per-PDF time from ~30s

@@ -9,7 +9,9 @@ relaton_ci_pat = ARGV.shift
 # Remoeve old files. Match only the generated `index-*` outputs (index-v1.yaml,
 # index-v2.yaml, index-v1.zip) — NOT the `index_builder.rb` source this crawler
 # requires, which a bare `index*` glob would delete out from under the next run.
-FileUtils.rm_rf('data')
+# The data tree is kept between crawls: the fetches write through the
+# core run-tracking path and prune stale files at the end (90% guard),
+# so a partial crawl can never wipe the dataset (relaton#328).
 FileUtils.rm Dir.glob('index-*')
 
 # `label:` replaces the command in the failure message, for commands whose text
@@ -101,16 +103,22 @@ end
 
 # Run converters. Each fetch builds the pubid-backed index-v2 for its source,
 # populating the pooled :bipm index.
-Relaton::Bipm::DataFetcher.fetch 'bipm-data-outcomes'
-Relaton::Bipm::DataFetcher.fetch 'bipm-si-brochure'
-Relaton::Bipm::DataFetcher.fetch 'rawdata-bipm-metrologia'
+# One fetcher instance across the three sources: the run tracks every file
+# it wrote, so the prune at the end keeps the tree between crawls.
+fetcher = Relaton::Bipm::DataFetcher.new 'data', 'yaml'
+fetcher.fetch 'bipm-data-outcomes'
+fetcher.fetch 'bipm-si-brochure'
+fetcher.fetch 'rawdata-bipm-metrologia'
 
 # index-v2 (pubid, the runtime index): append the curated static/ docs through
 # the same guarded DataFetcher#add_to_index path the fetches use, then save the
-# complete pooled index. A new fetcher instance shares the pooled :bipm index.
-fetcher = Relaton::Bipm::DataFetcher.new 'data', 'yaml'
+# complete pooled index.
 BipmIndexBuilder.add_static_to_index_v2 fetcher
 fetcher.index.save
+
+# Remove files this run did not write (renamed/withdrawn documents). The 90%
+# guard turns a partial crawl into a no-op instead of a wipe.
+fetcher.prune_unwritten
 
 # index-v1 (legacy bespoke {group,type,number,year}): rebuilt over every data/ +
 # static/ record with the retained Relaton::Bipm::Id parser, for backward-

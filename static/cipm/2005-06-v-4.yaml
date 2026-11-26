@@ -1,324 +1,260 @@
+---
 id: CIPM200506V4
-
-fetched: "2020-09-10"
-
+schema_version: v1.5.6
+fetched: '2020-09-10'
+type: standard
 title:
 - content: THE CIPM MRA:2005 INTERPRETATION DOCUMENT
-
-type: standard
-
-docidentifier:
-- content: CIPM 2005-06 # V4 # not supported
-  type: BIPM
-  primary: true
-
-docnumber: CIPM/2005-06(REV)
-edition:
-  content: "1"
-
-language:
-  - en
-
-script:
-  - Latn
-
-version:
-- revision_date: "2018-08-01"
-  draft: draft
-
-note:
-  - content: note
-  - content: An note
-    type: annote
-
-status:
-  stage:
-    content: in-force
-
-date:
-  - type: issued
-    at: "2005-10"
-
-abstract:
-  - content: This document is based on a report, originally submitted to and agreed by, the CIPM in October 2004. It clarifies and interprets those original clauses in the CIPM MRA which require updating or interpreting in the light of experience and of developments since the CIPM MRA was originally signed. It does not replace the original CIPM MRA and should be read in conjunction with it. Page references are to the English version.
-    language: en
-    script: Latn
-
-contributor:
-  - organization:
-      name:
-      - content: International Organization for Standardization
-      uri:
-      - content: www.iso.org
-      abbreviation:
-        content: ISO
-      subdivision:
-      - name:
-          - content: division
-    role:
-    - type: publisher
-      description:
-      - content: Publisher role
-  - person:
-      name:
-        completename:
-          content: A. Bierman
-          language: en
-      affiliation:
-      - organization:
-          name:
-          - content: IETF
-          abbreviation:
-            content: IETF
-          identifier:
-          - type: uri
-            content: www.ietf.org
-      address:
-        - street:
-          - Street
-          city: City
-          postcode: "123456"
-          country: Country
-          state: State
-        - type: phone
-          value: "223322"
-    role:
-    - type: author
-  - organization:
-      name:
-      - content: IETF
-      abbreviation:
-        content: IETF
-      identifier:
-      - type: uri
-        content: www.ietf.org
-    role:
-      - type: publisher
-        description:
-        - content: Publisher description
-      - type: editor
-        description:
-        - content: Editor description
-  - person:
-      name:
-        initial:
-          content: A.
-          language: en
-        surname:
-          content: Bierman
-          language: en
-        forename:
-          content: Forename
-          language: en
-        addition:
-          content: Addition
-          language: en
-        prefix:
-          content: Prefix
-          language: en
-      affiliation:
-      - description:
-        - content: Description
-          language: en
-        organization:
-          name:
-          - content: IETF
-          abbreviation:
-            content: IETF
-      contact:
-        - street:
-          - Street
-          city: City
-          postcode: "123456"
-          country: Country
-          state: State
-        - type: phone
-          value: "223322"
-      identifier:
-        type: uri
-        content: www.person.com
-    role:
-    - type: author
-  - organization:
-      name:
-      - content: Institution
-    role:
-    - type: distributor
-      description:
-      - content: sponsor
-
-copyright:
-- owner:
-  - organization:
-      name:
-      - content: International Organization for Standardization
-      abbreviation:
-        content: ISO
-      uri:
-      - content: www.iso.org
-  from: "2014"
-  to: "2020"
-  scope: Scope
-
 source:
 - type: obp
   content: https://www.bipm.org/utils/common/documents/CIPM-MRA/CIPM-MRA-Interpretation-Document.pdf
-
-relation:
-  - type: supersedes
-    bibitem:
-      formattedref: ISO 19115:2003
-    locality_stack:
-    - locality:
-      - type: section
-        reference_from: Reference from
-    - locality:
-      - type: chapter
-        reference_from: "1"
-      - type: page
-        reference_from: "2"
-    source_locality_stack:
-    - source_locality:
-        - type: volume
-          reference_from: "2"
-        - type: chapter
-          reference_from: "3"
-  - type: supersededBy
+docidentifier:
+- content: CIPM 2005-06
+  type: BIPM
+  primary: true
+docnumber: CIPM/2005-06(REV)
+date:
+- type: issued
+  at: 2005-10
+contributor:
+- role:
+  - type: publisher
     description:
-      format: text/plain
-      content: supersedes
-    bibitem:
-      type: standard
-      formattedref: ISO 19115:2003/Cor 1:2006
-
-series:
-  - type: main
-    title:
-    - type: original
-      content: ISO/IEC FDIS 10118-3
-      language: en
-      script: Latn
-    place:
-      formatted_place: Serie's place
-    organization: Serie's organization
+    - content: Publisher role
+  organization:
+    uri:
+    - content: www.iso.org
+    name:
+    - content: International Organization for Standardization
+    subdivision:
+    - name:
+      - content: division
     abbreviation:
-      content: ABVR
-    from: "2009-02-01"
-    to: "2010-12-20"
-    number: serie1234
-    partnumber: part5678
-  - type: alt
-    title:
-    - content: ''
-    formattedref: serieref
-  - type: alt
-    title:
-    - content: Journal
-    number: "7"
-  - title:
-      - content: Series
+      content: ISO
+- role:
+  - type: author
+  person:
+    address:
+    - street:
+      - Street
+      city: City
+      state: State
+      country: Country
+      postcode: '123456'
+    name:
+      completename:
         language: en
-        script: Latn
-      - content: Séries
-        language: fr
-        script: Latn
-
+        content: A. Bierman
+    affiliation:
+    - organization:
+        name:
+        - content: IETF
+        abbreviation:
+          content: IETF
+        identifier:
+        - type: uri
+          content: www.ietf.org
+- role:
+  - type: publisher
+    description:
+    - content: Publisher description
+  - type: editor
+    description:
+    - content: Editor description
+  organization:
+    name:
+    - content: IETF
+    abbreviation:
+      content: IETF
+    identifier:
+    - type: uri
+      content: www.ietf.org
+- role:
+  - type: author
+  person:
+    name:
+      prefix:
+      - language: en
+        content: Prefix
+      forename:
+      - language: en
+        content: Forename
+      surname:
+        language: en
+        content: Bierman
+      addition:
+      - language: en
+        content: Addition
+    affiliation:
+    - description:
+      - language: en
+        content: Description
+      organization:
+        name:
+        - content: IETF
+        abbreviation:
+          content: IETF
+    identifier:
+    - type: uri
+      content: www.person.com
+- role:
+  - type: distributor
+    description:
+    - content: sponsor
+  organization:
+    name:
+    - content: Institution
+edition:
+  content: '1'
+version:
+- content: draft (2018-08-01)
+note:
+- content: note
+- content: An note
+  type: annote
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document is based on a report, originally submitted to and agreed
+    by, the CIPM in October 2004. It clarifies and interprets those original clauses
+    in the CIPM MRA which require updating or interpreting in the light of experience
+    and of developments since the CIPM MRA was originally signed. It does not replace
+    the original CIPM MRA and should be read in conjunction with it. Page references
+    are to the English version.
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  to: '2020'
+  owner:
+  - organization:
+      uri:
+      - content: www.iso.org
+      name:
+      - content: International Organization for Standardization
+      abbreviation:
+        content: ISO
+  scope: Scope
+relation:
+- type: supersedes
+  bibitem:
+    formattedref:
+      content: ISO 19115:2003
+  locality_stack:
+  - locality:
+    - type: section
+      reference_from: Reference from
+  - locality:
+    - type: chapter
+      reference_from: '1'
+    - type: page
+      reference_from: '2'
+  source_locality_stack:
+  - source_locality:
+    - type: volume
+      reference_from: '2'
+    - type: chapter
+      reference_from: '3'
+- type: supersededBy
+  description:
+    content: supersedes
+  bibitem:
+    type: standard
+    formattedref:
+      content: ISO 19115:2003/Cor 1:2006
+series:
+- type: main
+  title:
+  - language: en
+    script: Latn
+    content: ISO/IEC FDIS 10118-3
+    type: original
+  place:
+    formatted_place: Serie's place
+  organization: Serie's organization
+  abbreviation:
+    content: ABVR
+  from: '2009-02-01'
+  to: '2010-12-20'
+  number: serie1234
+  partnumber: part5678
+- type: alt
+  formattedref:
+    content: serieref
+  title:
+  - content: serieref
+- type: alt
+  title:
+  - content: Journal
+  number: '7'
+- title:
+  - language: en
+    script: Latn
+    content: Series
+  - language: fr
+    script: Latn
+    content: Séries
 medium:
   form: medium form
   size: medium size
   scale: medium scale
-
 place:
-  - formatted_place: bib place
-  - city: Geneva
-    # uri: geneva.place # not supported yet
-    region:
-      - content: Switzelznd
-
+- formatted_place: bib place
+- city: Geneva
+  region:
+  - content: Switzelznd
 extent:
-  - locality:
-      type: section
-      reference_from: Reference from
-      reference_to: Reference to
-  - locality:
-      type: chapter
-      reference_from: "4"
-  - locality:
-      type: page
-      reference_from: "10"
-      reference_to: "20"
-  - locality:
-      type: volume
-      reference_from: "1"
-
+- locality:
+  - type: section
+    reference_from: Reference from
+    reference_to: Reference to
+- locality:
+  - type: chapter
+    reference_from: '4'
+- locality:
+  - type: page
+    reference_from: '10'
+    reference_to: '20'
+- locality:
+  - type: volume
+    reference_from: '1'
 accesslocation:
-  - accesslocation1
-  - accesslocation2
-
+- accesslocation1
+- accesslocation2
+license:
+- License
 classification:
-  - type: type
-    content: value
-  - type: keyword
-    content: Keywords
-  - type: mendeley
-    content: Mendeley Tags
-
+- content: value
+  type: type
+- content: Keywords
+  type: keyword
+- content: Mendeley Tags
+  type: mendeley
 keyword:
-  - vocab:
-    - content: Keyword
-  - vocab:
-    - content: Key Word
-
-license: License
-
+- vocab:
+  - content: Keyword
+- vocab:
+  - content: Key Word
 validity:
-  begins: "2010-10-10"
-  ends: "2011-02-03"
-  revision: "2011-03-04"
-
-# project_group: # don't have a project_group anymore
-#   - committee: cgpm
-#     workgroup:
-#       content: General Conference on Weights and Measures
-#       language: en
-#       script: Latn
-#       format: text/plain
-#   - committee: cipm
-#     workgroup:
-#       content: International Committee for Weights and Measures
-
+  begins: '2010-10-10'
+  ends: '2011-02-03'
+  revision: '2011-03-04'
 ext:
+  schema_version: v1.1.2
   doctype:
     content: brochure
-
   flavor: bipm
-
-  # editorialgroup: # not valid, should have a committee and workgroup
-  #   content: Editorial group
-  #   number: 1
-  #   type: Type
-
+  ics:
+  - code: '01'
+    text: First
+  structuredidentifier:
+    docnumber: '123'
+    part: '4'
   comment_period:
     from: '2011-01-01'
     to: '2011-12-31'
-
-  ics:
-    code: "01"
-    text: First
-
-  structuredidentifier: # some fields are not supported
-    # - type: type 1
-      # agency:
-      #   - agency 1
-      #   - agency 2
-      # class: class 1
-      docnumber: "123"
-      part: "4"
-      # edition: "1"
-      # version: "2"
-      # supplementtype: type 2
-      # supplementnumber: "5"
-      # language: en
-      # year: "2020"
-    # - agency: agency 3
-    #   docnumber: "456"
